@@ -2944,7 +2944,39 @@
         },
         "at": "2026-08-24T15:05:14.000682+00:00"
       }
+    },
+    "29667": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:05:51.651866+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-confession",
+        "title": "The Confession",
+        "original_title": null,
+        "year": 2017,
+        "runtime_min": 3,
+        "tmdb_id": 548710,
+        "imdb_id": "tt7488588",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T15:05:33.847922+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T15:05:30.201260+00:00"
+  "updated_at": "2026-08-24T15:05:51.651883+00:00"
 }
