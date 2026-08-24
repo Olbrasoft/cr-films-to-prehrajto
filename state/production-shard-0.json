@@ -9320,7 +9320,87 @@
         },
         "at": "2026-08-24T15:54:00.979345+00:00"
       }
+    },
+    "29580": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f23b2c03782d",
+              "url": "https://prehraj.to/skin-2018-sktitulky/5f23b2c03782d",
+              "title": "Skin (2018) SKtitulky",
+              "year": null,
+              "duration_sec": 7107,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.359,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 7107,
+                "runtime_delta": 0.346,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "de82f459309f5120",
+              "url": "https://prehraj.to/skinford-chapter-two-2024-en/de82f459309f5120",
+              "title": "Skinford: Chapter Two - 2024 EN",
+              "year": null,
+              "duration_sec": 5371,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Skinford: Chapter Two (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:54:40.239385+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "skinford-chapter-two",
+        "title": "Skinford: Chapter Two",
+        "original_title": null,
+        "year": 2018,
+        "runtime_min": 88,
+        "tmdb_id": 563575,
+        "imdb_id": "tt6869880",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T15:54:22.304738+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T15:54:18.502210+00:00"
+  "updated_at": "2026-08-24T15:54:40.239405+00:00"
 }
