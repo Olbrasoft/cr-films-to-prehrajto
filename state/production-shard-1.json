@@ -16578,7 +16578,70 @@
         },
         "at": "2026-08-24T16:44:05.529608+00:00"
       }
+    },
+    "28005": {
+      "attempts": [],
+      "identity": {
+        "slug": "outpost-11",
+        "title": "Outpost 11",
+        "original_title": null,
+        "year": 2012,
+        "runtime_min": 91,
+        "tmdb_id": 225301,
+        "imdb_id": "tt2133302",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25471431",
+          "account_name": "Outpost: Black Sun (2012)",
+          "title_similarity": 0.562,
+          "title_contains_alias": false,
+          "film_year": 2012,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 91,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:44:26.360635+00:00"
+      }
+    },
+    "28003": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:44:44.394963+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "titanik-posledni-slovo-s-jamesem-cameronem",
+        "title": "Titanik: Poslední slovo s Jamesem Cameronem",
+        "original_title": "Titanic: The Final Word with James Cameron",
+        "year": 2012,
+        "runtime_min": 90,
+        "tmdb_id": 102041,
+        "imdb_id": "tt2132504",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:44:26.360944+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:44:24.819926+00:00"
+  "updated_at": "2026-08-24T16:44:44.394985+00:00"
 }
