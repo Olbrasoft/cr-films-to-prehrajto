@@ -17406,6 +17406,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:26:52.545440+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a705ab23971c",
+              "url": "https://prehraj.to/filmy-by-boos-pirana-3d-2013-cz-dabing/5a705ab23971c",
+              "title": "FILMY-BY-BOOS-PIRANA.-3D-2013-CZ-DABING",
+              "year": null,
+              "duration_sec": 5086,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.274,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5086,
+                "runtime_delta": 0.117,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583dd83c3cc50",
+              "url": "https://prehraj.to/filmy-by-palislav-homefront-2013-cz-titulky-jason-statham-james-franco-winona-ryder/583dd83c3cc50",
+              "title": "Filmy-by-Palislav---Homefront-2013-Cz-titulky----Jason-Statham,-James-Franco,-Winona-Ryder",
+              "year": null,
+              "duration_sec": 5751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.291,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5751,
+                "runtime_delta": 0.002,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:17:01.174145+00:00"
         }
       ],
       "identity": {
@@ -17424,7 +17489,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:26:36.559667+00:00"
+        "at": "2026-08-24T22:16:37.818165+00:00"
       }
     },
     "28697": {
@@ -24527,5 +24592,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:16:35.463952+00:00"
+  "updated_at": "2026-08-24T22:17:01.174165+00:00"
 }
