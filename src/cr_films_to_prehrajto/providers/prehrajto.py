@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 import urllib.parse
@@ -150,23 +151,60 @@ def parse_inventory_html(html: str) -> tuple[list[AccountVideo], int]:
 
 
 def inventory_account(session: requests.Session) -> list[AccountVideo]:
+    cache_value = os.environ.get("PREHRAJTO_INVENTORY_CACHE_DIR")
+    cache_dir = Path(cache_value) if cache_value else None
+    if cache_dir:
+        cache_dir.mkdir(parents=True, exist_ok=True)
+
     def fetch_page(page: int) -> tuple[list[AccountVideo], int]:
-        response = session.get(
-            BASE_URL + "/profil/nahrana-videa",
-            params={"uploadedVideoListing-visualPaginator-page": page}
-            if page > 1
-            else None,
-            timeout=30,
-        )
-        response.raise_for_status()
-        return parse_inventory_html(response.text)
+        cache_path = cache_dir / f"page-{page}.json" if cache_dir else None
+        if cache_path and cache_path.exists():
+            payload = json.loads(cache_path.read_text())
+            return (
+                [AccountVideo(**row) for row in payload["videos"]],
+                int(payload["last_page"]),
+            )
+        for attempt in range(3):
+            response = session.get(
+                BASE_URL + "/profil/nahrana-videa",
+                params={"uploadedVideoListing-visualPaginator-page": page}
+                if page > 1
+                else None,
+                timeout=30,
+            )
+            if response.status_code < 500 or attempt == 2:
+                response.raise_for_status()
+                rows, last_page = parse_inventory_html(response.text)
+                if cache_path:
+                    temporary = cache_path.with_suffix(".tmp")
+                    temporary.write_text(
+                        json.dumps(
+                            {
+                                "last_page": last_page,
+                                "videos": [
+                                    {
+                                        "video_id": row.video_id,
+                                        "name": row.name,
+                                        "url": row.url,
+                                    }
+                                    for row in rows
+                                ],
+                            },
+                            ensure_ascii=False,
+                        )
+                    )
+                    temporary.replace(cache_path)
+                return rows, last_page
+            time.sleep(attempt + 1)
+        raise ProviderError(f"Could not inventory account page {page}")
 
     inventory: dict[str, AccountVideo] = {}
     first_rows, last_page = fetch_page(1)
     for row in first_rows:
         inventory[row.video_id] = row
 
-    with ThreadPoolExecutor(max_workers=8) as executor:
+    workers = max(1, min(int(os.environ.get("PREHRAJTO_INVENTORY_WORKERS", "8")), 16))
+    with ThreadPoolExecutor(max_workers=workers) as executor:
         pages = executor.map(fetch_page, range(2, last_page + 1))
         for rows, _ in pages:
             for row in rows:
@@ -266,10 +304,25 @@ class PrehrajtoProvider:
     session: requests.Session
     min_gap_seconds: float = 0.0
     max_rate_limit_retries: int = 1
+    allow_direct: bool = False
     use_whisper: bool = False
     _last_request: float = 0.0
 
     def _proxy_get(self, url: str):
+        if self.allow_direct:
+            try:
+                response = self.session.get(url, timeout=30)
+            except requests.RequestException as error:
+                raise ProviderError(
+                    f"Direct source request failed ({type(error).__name__})"
+                ) from None
+            if response.status_code >= 500:
+                raise ProviderError(f"Direct source HTTP {response.status_code}")
+            if response.status_code >= 400:
+                raise ProviderError(
+                    f"Direct source HTTP {response.status_code}", permanent=True
+                )
+            return response
         if not self.proxy_url or not self.proxy_key:
             raise ProviderError("CZ proxy configuration is required")
         for attempt in range(self.max_rate_limit_retries + 1):
