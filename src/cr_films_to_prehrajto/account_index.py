@@ -74,25 +74,45 @@ def inventory_from_index(index: dict) -> dict:
     }
 
 
-def build_missing_backlog(snapshot: dict, index: dict) -> dict:
+def build_missing_backlog(
+    snapshot: dict,
+    index: dict,
+    stop_after_consecutive_known: int = 5,
+) -> dict:
+    if stop_after_consecutive_known < 1:
+        raise ValueError("Consecutive-known stop must be at least 1")
     uploaded = {int(film_id) for film_id in index["films"]}
-    films = [
-        row
-        for row in snapshot.get("films", [])
-        if int(row["cr_film_id"]) not in uploaded
-    ]
-    films.sort(
+    catalog = sorted(
+        snapshot.get("films", []),
         key=lambda row: (
             row.get("added_at") or row.get("created_at") or "",
             int(row["cr_film_id"]),
         ),
         reverse=True,
     )
+    total_missing_count = sum(
+        int(row["cr_film_id"]) not in uploaded for row in catalog
+    )
+    films = []
+    consecutive_known = 0
+    scanned_film_count = 0
+    for row in catalog:
+        scanned_film_count += 1
+        if int(row["cr_film_id"]) in uploaded:
+            consecutive_known += 1
+            if consecutive_known >= stop_after_consecutive_known:
+                break
+            continue
+        consecutive_known = 0
+        films.append(row)
     return {
         "schema_version": 1,
         "snapshot_id": snapshot.get("snapshot_id"),
         "generated_at": datetime.now(UTC).isoformat(),
         "film_count": len(films),
+        "total_missing_count": total_missing_count,
+        "scanned_film_count": scanned_film_count,
+        "stop_after_consecutive_known": stop_after_consecutive_known,
         "films": films,
     }
 
@@ -120,6 +140,9 @@ def main(argv: list[str] | None = None) -> int:
     backlog_parser = subparsers.add_parser("backlog")
     backlog_parser.add_argument("--snapshot", type=Path, required=True)
     backlog_parser.add_argument("--index", type=Path, required=True)
+    backlog_parser.add_argument(
+        "--stop-after-consecutive-known", type=int, default=5
+    )
     backlog_parser.add_argument("--out", type=Path, required=True)
 
     args = parser.parse_args(argv)
@@ -128,7 +151,11 @@ def main(argv: list[str] | None = None) -> int:
     elif args.command == "inventory":
         payload = inventory_from_index(_load(args.index))
     else:
-        payload = build_missing_backlog(_load(args.snapshot), _load(args.index))
+        payload = build_missing_backlog(
+            _load(args.snapshot),
+            _load(args.index),
+            args.stop_after_consecutive_known,
+        )
     _write(args.out, payload)
     count = payload.get("film_count", len(payload.get("videos", [])))
     print(f"Wrote {args.command} with {count} films")

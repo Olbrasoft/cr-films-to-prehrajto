@@ -60,6 +60,45 @@ def test_missing_backlog_is_newest_first():
     assert [row["cr_film_id"] for row in backlog["films"]] == [2, 1]
 
 
+def test_missing_backlog_stops_after_consecutive_known_films():
+    snapshot = {
+        "snapshot_id": "snapshot",
+        "films": [
+            {"cr_film_id": film_id, "added_at": f"2026-01-{film_id:02d}"}
+            for film_id in range(1, 11)
+        ],
+    }
+    index = {
+        "films": {
+            str(film_id): {"target_video_id": str(film_id)}
+            for film_id in (6, 7, 8, 9, 10)
+        }
+    }
+    backlog = build_missing_backlog(snapshot, index, 5)
+    assert backlog["films"] == []
+    assert backlog["scanned_film_count"] == 5
+    assert backlog["total_missing_count"] == 5
+    assert backlog["stop_after_consecutive_known"] == 5
+
+
+def test_missing_backlog_resets_known_streak_after_a_gap():
+    snapshot = {
+        "films": [
+            {"cr_film_id": film_id, "added_at": f"2026-01-{film_id:02d}"}
+            for film_id in range(1, 9)
+        ]
+    }
+    index = {
+        "films": {
+            str(film_id): {"target_video_id": str(film_id)}
+            for film_id in (1, 2, 3, 4, 5, 7, 8)
+        }
+    }
+    backlog = build_missing_backlog(snapshot, index, 3)
+    assert [row["cr_film_id"] for row in backlog["films"]] == [6]
+    assert backlog["scanned_film_count"] == 6
+
+
 def test_account_index_is_accepted_as_historical_state(tmp_path):
     path = tmp_path / "index.json"
     path.write_text(

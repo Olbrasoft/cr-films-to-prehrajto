@@ -18,10 +18,13 @@ states in `Olbrasoft/prehrajto-to-prehrajto` and is updated from
 `state/pilot.json` after every upload workflow.
 
 `state/missing-films.json` is regenerated from that index and the latest
-read-only production snapshot. It contains only currently playable films that
-are not in the account index, ordered by `films.added_at` newest first. These
-two versioned files avoid repeatedly listing every page of the large target
-account and provide deterministic input for subsequent GitHub-runner batches.
+read-only production snapshot. Starting with the newest `films.added_at`, it
+collects missing playable films until it reaches five consecutive films that
+are already in the account index. It also records the complete missing count
+for diagnostics, but older gaps beyond that confirmed frontier do not enter an
+upload batch. These two versioned files avoid repeatedly listing every page of
+the large target account and provide deterministic input for subsequent
+GitHub-runner batches.
 
 ## Selection rules
 

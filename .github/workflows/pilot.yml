@@ -93,6 +93,14 @@ jobs:
             --out data/account-inventory.json
           test "$(jq '.videos | length' data/account-inventory.json)" -ge 27000
 
+      - name: Build newest-first upload frontier
+        run: |
+          cr-films-index backlog \
+            --snapshot data/catalog.json \
+            --index state/account-index.json \
+            --stop-after-consecutive-known 5 \
+            --out data/upload-frontier.json
+
       - name: Build dry-run review plan
         id: plan
         env:
@@ -101,7 +109,7 @@ jobs:
           CZ_PROXY_URL: ${{ secrets.CZ_PROXY_URL }}
           CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
         run: >-
-          cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
+          cr-films-pilot pilot --snapshot data/upload-frontier.json --limit "${{ inputs.limit }}"
           --inventory data/account-inventory.json
           --historical-state state/account-index.json
           --mode dry-run --report artifacts/pilot-report.md --plan artifacts/pilot-plan.json
@@ -114,7 +122,7 @@ jobs:
           CZ_PROXY_URL: ${{ secrets.CZ_PROXY_URL }}
           CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
         run: >-
-          cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
+          cr-films-pilot pilot --snapshot data/upload-frontier.json --limit "${{ inputs.limit }}"
           --inventory data/account-inventory.json
           --historical-state state/account-index.json
           --mode upload --approved-plan-sha "${{ inputs.approved_plan_sha }}"
@@ -138,6 +146,7 @@ jobs:
           cr-films-index backlog \
             --snapshot data/catalog.json \
             --index state/account-index.json \
+            --stop-after-consecutive-known 5 \
             --out state/missing-films.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
