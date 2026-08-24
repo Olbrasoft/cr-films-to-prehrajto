@@ -20530,7 +20530,67 @@
         },
         "at": "2026-08-24T17:00:24.836454+00:00"
       }
+    },
+    "27447": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60607707e7e7b",
+              "url": "https://prehraj.to/ester-dokument-2021-cz-1/60607707e7e7b",
+              "title": "Ester - dokument 2021, CZ(1)",
+              "year": null,
+              "duration_sec": 3692,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.457,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 3692,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T17:01:04.483023+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "esterno-giorno",
+        "title": "Esterno giorno",
+        "original_title": null,
+        "year": 2021,
+        "runtime_min": null,
+        "tmdb_id": 910814,
+        "imdb_id": "tt16290574",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T17:00:47.335491+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T17:00:43.649785+00:00"
+  "updated_at": "2026-08-24T17:01:04.483057+00:00"
 }
