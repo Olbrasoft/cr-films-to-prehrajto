@@ -30840,7 +30840,70 @@
         },
         "at": "2026-08-24T23:09:57.477958+00:00"
       }
+    },
+    "26653": {
+      "attempts": [],
+      "identity": {
+        "slug": "krvava-jizda",
+        "title": "Krvavá jízda",
+        "original_title": "Hit and Run",
+        "year": 2009,
+        "runtime_min": 81,
+        "tmdb_id": 14838,
+        "imdb_id": "tt1199550",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25024268",
+          "account_name": "Krvavá aréna (2010) CZ",
+          "title_similarity": 0.552,
+          "title_contains_alias": false,
+          "film_year": 2009,
+          "candidate_year": 2010,
+          "year_match": true,
+          "film_runtime_min": 81,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T23:10:17.922626+00:00"
+      }
+    },
+    "26651": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T23:10:37.013079+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "david-batra-slon-v-pokoji",
+        "title": "David Batra: Slon v pokoji",
+        "original_title": "David Batra: Elephant in The Room",
+        "year": 2020,
+        "runtime_min": 77,
+        "tmdb_id": 688527,
+        "imdb_id": "tt11987330",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:10:17.922706+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T23:10:16.293478+00:00"
+  "updated_at": "2026-08-24T23:10:37.013099+00:00"
 }
