@@ -1,4 +1,5 @@
 import pytest
+import requests
 
 from cr_films_to_prehrajto.models import (
     AccountVideo,
@@ -9,6 +10,7 @@ from cr_films_to_prehrajto.models import (
 )
 from cr_films_to_prehrajto.pipeline import HybridPipeline, validate_limit
 from cr_films_to_prehrajto.providers.prehrajto import ProviderError
+from cr_films_to_prehrajto.providers.sktorrent import SkTorrentProvider
 from cr_films_to_prehrajto.state import StateStore
 from cr_films_to_prehrajto.transfer import TransferError
 
@@ -98,6 +100,15 @@ def test_transient_prehrajto_failure_falls_back_to_sk(tmp_path, film):
     assert plan[0]["provider_errors"] == [
         {"provider": "prehrajto", "reason": "Proxy HTTP 429"}
     ]
+
+
+def test_sk_search_decode_failure_returns_no_candidates(film):
+    class BrokenSession:
+        def get(self, *args, **kwargs):
+            raise requests.exceptions.ContentDecodingError("broken gzip")
+
+    provider = SkTorrentProvider(BrokenSession())
+    assert provider.discover(film) == []
 
 
 def test_one_source_failure_advances_to_next(tmp_path, film):
