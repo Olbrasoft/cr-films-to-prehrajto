@@ -25164,7 +25164,67 @@
         },
         "at": "2026-08-24T22:46:26.193618+00:00"
       }
+    },
+    "27728": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55ae9cef3ff96",
+              "url": "https://prehraj.to/krimi-thriller-oscar-nominace-za-zvukove-efekty-pro-kazeho-kdo-rad-jezdi-v-noci-drive-2011-dabcz/55ae9cef3ff96",
+              "title": "'Krimi+Thriller..Oscar-nominace-za-zvukové-efekty..pro-kažého-kdo-rád-jezdí..v-noci'-Drive-(2011)-DabCz",
+              "year": null,
+              "duration_sec": 5691,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.408,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5691,
+                "runtime_delta": 0.116,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:47:03.087947+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-oscar-nominated-short-films-2011-animation",
+        "title": "The Oscar Nominated Short Films 2011: Animation",
+        "original_title": null,
+        "year": 2011,
+        "runtime_min": 85,
+        "tmdb_id": 270518,
+        "imdb_id": "tt1839647",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:46:46.792378+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:46:42.416161+00:00"
+  "updated_at": "2026-08-24T22:47:03.087968+00:00"
 }
