@@ -1322,6 +1322,76 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T14:37:37.591367+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c524581ac064",
+              "url": "https://prehraj.to/fantozzi-bonnie-a-clyde-po-italsku-villaggio-1982-cz-dabing/5c524581ac064",
+              "title": "Fantozzi-Bonnie-a-Clyde-po-italsku-(Villaggio)-(1982)--cz-dabing",
+              "year": null,
+              "duration_sec": 5629,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.254,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59f90ae58d978",
+              "url": "https://prehraj.to/bonnie-a-clyde-po-italsku-komedie-1982-paolo-villaggio-cz-stzen-ok/59f90ae58d978",
+              "title": "Bonnie-a-Clyde-po-italsku----komedie--1982--Paolo-Villaggio-cz-STZEN.ok",
+              "year": null,
+              "duration_sec": 5629,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.254,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59e92d4a37e92",
+              "url": "https://prehraj.to/week-four-training-jonnie-and-brian-it-takes-two-bbc-two/59e92d4a37e92",
+              "title": "Week Four training_ Jonnie and Brian - It Takes Two - BBC…",
+              "year": null,
+              "duration_sec": 67,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.926,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Pour Bonnie (1982)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T14:50:59.443312+00:00"
         }
       ],
       "identity": {
@@ -1340,7 +1410,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T14:37:20.167947+00:00"
+        "at": "2026-08-24T14:50:42.376409+00:00"
       }
     },
     "29864": {
@@ -4188,5 +4258,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T14:50:38.630993+00:00"
+  "updated_at": "2026-08-24T14:50:59.443327+00:00"
 }
