@@ -27,6 +27,10 @@ Never commit credentials, API keys, cookies, access tokens, database passwords,
 or generated media. Runtime secrets belong in GitHub Actions secrets or local
 environment variables.
 
+The production `ceskarepublika.wiki` database is strictly read-only for this
+project. It may be queried to build an input snapshot, but the pipeline must
+never insert, update, delete, migrate, or otherwise mutate production data.
+
 ## License
 
 Internal Olbrasoft project. No public license is granted.

@@ -20,7 +20,17 @@ Before changing code:
 
 ## Non-negotiable rules
 
-- Do not modify the `ceskarepublika.wiki` database or existing playback URLs.
+- Treat the production `ceskarepublika.wiki` database as strictly read-only.
+  The only permitted operation is exporting input data with `SELECT` queries.
+  Do not run `INSERT`, `UPDATE`, `DELETE`, DDL, migrations, write-capable helper
+  functions, or any script that dual-writes `film_prehrajto_uploads` and
+  `video_sources`.
+- Enforce read-only mode in the connection configuration (for example,
+  `options=-c default_transaction_read_only=on`) and verify
+  `SHOW transaction_read_only` after connecting. Fail closed unless it is
+  `on`.
+- Do not modify existing playback URLs or write newly uploaded URLs back to
+  `ceskarepublika.wiki`.
 - Target only `filmy.prehrajto@post.cz`. Do not use the `email.cz` account.
 - Source preference is Czech audio, Slovak audio, Czech subtitles.
 - Language outranks resolution. Resolution ranks candidates only within the
