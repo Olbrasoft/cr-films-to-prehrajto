@@ -25613,7 +25613,70 @@
         },
         "at": "2026-08-24T22:50:57.263220+00:00"
       }
+    },
+    "27596": {
+      "attempts": [],
+      "identity": {
+        "slug": "noir-ocean",
+        "title": "Noir océan",
+        "original_title": "Black Ocean",
+        "year": 2011,
+        "runtime_min": 87,
+        "tmdb_id": 65868,
+        "imdb_id": "tt1722516",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25172744",
+          "account_name": "Planeta oceán (2012) CZ",
+          "title_similarity": 0.552,
+          "title_contains_alias": false,
+          "film_year": 2011,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 87,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T22:51:23.604149+00:00"
+      }
+    },
+    "27590": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:51:40.127326+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dobrodruzna-plavba-2",
+        "title": "Dobrodružná plavba 2",
+        "original_title": "In Search of the Titanic",
+        "year": 2004,
+        "runtime_min": 88,
+        "tmdb_id": 71241,
+        "imdb_id": "tt1719665",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:51:23.604891+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:51:16.213890+00:00"
+  "updated_at": "2026-08-24T22:51:40.127347+00:00"
 }
