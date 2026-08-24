@@ -13872,7 +13872,70 @@
         },
         "at": "2026-08-24T16:27:37.127989+00:00"
       }
+    },
+    "28667": {
+      "attempts": [],
+      "identity": {
+        "slug": "scary-movie",
+        "title": "Scary Movie",
+        "original_title": null,
+        "year": 2026,
+        "runtime_min": null,
+        "tmdb_id": 1273221,
+        "imdb_id": "tt32093575",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25258988",
+          "account_name": "The Scary House (2025) CZ Titulky",
+          "title_similarity": 0.516,
+          "title_contains_alias": false,
+          "film_year": 2026,
+          "candidate_year": 2025,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:27:57.575708+00:00"
+      }
+    },
+    "28665": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:28:19.360826+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "hashima-project",
+        "title": "Hashima Project",
+        "original_title": "Hashima Project",
+        "year": 2013,
+        "runtime_min": 121,
+        "tmdb_id": 255254,
+        "imdb_id": "tt3206074",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:27:57.575751+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:27:54.488599+00:00"
+  "updated_at": "2026-08-24T16:28:19.360846+00:00"
 }
