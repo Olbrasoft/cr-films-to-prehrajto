@@ -16890,6 +16890,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:24:49.919658+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "f4ac39f3a291127f",
+              "url": "https://prehraj.to/omniscient-reader-the-prophecy-2025-2160p-web-dl-dual-dd5-1-hdr10-h-265-spidey/f4ac39f3a291127f",
+              "title": "Omniscient.Reader.The.Prophecy.2025.2160p.WEB-DL.DUAL.DD5.1.HDR10+.H.265-Spidey",
+              "year": null,
+              "duration_sec": 7014,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.871,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:10:28.639515+00:00"
         }
       ],
       "identity": {
@@ -16908,7 +16939,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:24:31.079004+00:00"
+        "at": "2026-08-24T22:10:10.372959+00:00"
       }
     },
     "28972": {
@@ -18123,5 +18154,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:10:06.354089+00:00"
+  "updated_at": "2026-08-24T22:10:28.639536+00:00"
 }
