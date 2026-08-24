@@ -30318,7 +30318,109 @@
         },
         "at": "2026-08-24T23:05:24.455483+00:00"
       }
+    },
+    "26747": {
+      "attempts": [],
+      "identity": {
+        "slug": "the-interceptor",
+        "title": "The Interceptor",
+        "original_title": "The Interceptor",
+        "year": 2009,
+        "runtime_min": 90,
+        "tmdb_id": 36698,
+        "imdb_id": "tt1245736",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:05:50.519787+00:00"
+      }
+    },
+    "26745": {
+      "attempts": [],
+      "identity": {
+        "slug": "vyckavani",
+        "title": "Vyčkávání",
+        "original_title": "The Wait",
+        "year": 2022,
+        "runtime_min": 100,
+        "tmdb_id": 716814,
+        "imdb_id": "tt12453124",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:06:05.117089+00:00"
+      }
+    },
+    "26741": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e857c6ec09a7",
+              "url": "https://prehraj.to/puls-1-2006-usa-horor-thriller-scifi/5e857c6ec09a7",
+              "title": "Puls 1-2006,USA-horor,thriller,scifi",
+              "year": null,
+              "duration_sec": 4740,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.255,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 4740,
+                "runtime_delta": 0.274,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T23:06:33.144753+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "kings-of-comedy-usa",
+        "title": "Kings of Comedy USA",
+        "original_title": null,
+        "year": 2006,
+        "runtime_min": 62,
+        "tmdb_id": 573308,
+        "imdb_id": "tt12432772",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:06:11.503001+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T23:05:49.050622+00:00"
+  "updated_at": "2026-08-24T23:06:33.144772+00:00"
 }
