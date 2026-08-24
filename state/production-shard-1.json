@@ -7721,7 +7721,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-24T16:02:21.864317+00:00"
+        "at": "2026-08-24T22:01:18.750049+00:00"
       }
     },
     "29523": {
@@ -7735,6 +7735,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:02:42.884414+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6898654639537",
+              "url": "https://prehraj.to/bird-of-prey-podivuhodna-promena-harley-quinn-harely-quinn-birds-of-prey-2020-fullhd-1080p-h264-cz-dabing-ac3-audio-tw1nky/6898654639537",
+              "title": "Bird of Prey Podivuhodna promena Harley Quinn - Harely Quinn Birds of Prey (2020) - FullHD 1080p (H264) - CZ dabing (AC3 audio) - TW1NKY",
+              "year": null,
+              "duration_sec": 6532,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.191,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6532,
+                "runtime_delta": 0.196,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:01:35.598455+00:00"
         }
       ],
       "identity": {
@@ -7753,7 +7791,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:02:21.864354+00:00"
+        "at": "2026-08-24T22:01:18.750092+00:00"
       }
     },
     "29513": {
@@ -22359,5 +22397,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:01:15.239769+00:00"
+  "updated_at": "2026-08-24T22:01:35.598475+00:00"
 }
