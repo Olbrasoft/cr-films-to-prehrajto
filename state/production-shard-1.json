@@ -10714,7 +10714,67 @@
         },
         "at": "2026-08-24T16:14:40.693802+00:00"
       }
+    },
+    "29147": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "584193892a20a",
+              "url": "https://prehraj.to/charles-bronson-rodina-policajtu-2-zkouska-viry-1997-cz-avi/584193892a20a",
+              "title": "Charles-Bronson-Rodina-Policajtů-2-Zkouška-Víry-1997-Cz.avi",
+              "year": null,
+              "duration_sec": 5252,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.157,
+                "title_contains_alias": false,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5252,
+                "runtime_delta": 0.038,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:14:50.107326+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "cinderella-and-the-prince-charles",
+        "title": "Cinderella and the Prince Charles",
+        "original_title": null,
+        "year": 1997,
+        "runtime_min": 91,
+        "tmdb_id": 300085,
+        "imdb_id": "tt4285188",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:14:45.730643+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:14:44.366070+00:00"
+  "updated_at": "2026-08-24T16:14:50.107346+00:00"
 }
