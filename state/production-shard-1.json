@@ -22005,6 +22005,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:49:21.124907+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "682b90ced5011",
+              "url": "https://prehraj.to/western-mkv-cz-dab-velky-skaut-a-holka-1976-1080p-cz-dab/682b90ced5011",
+              "title": "Western MKV cz dab-Velký skaut a holka (1976) 1080p cz dab",
+              "year": null,
+              "duration_sec": 6366,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.658,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:32:34.034246+00:00"
         }
       ],
       "identity": {
@@ -22023,7 +22054,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:49:02.910392+00:00"
+        "at": "2026-08-24T22:32:17.343298+00:00"
       }
     },
     "27907": {
@@ -25548,5 +25579,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:32:13.660904+00:00"
+  "updated_at": "2026-08-24T22:32:34.034266+00:00"
 }
