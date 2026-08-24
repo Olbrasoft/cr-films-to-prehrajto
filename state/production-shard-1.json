@@ -29935,7 +29935,91 @@
         },
         "at": "2026-08-24T23:01:45.689001+00:00"
       }
+    },
+    "26823": {
+      "attempts": [],
+      "identity": {
+        "slug": "shank",
+        "title": "Shank",
+        "original_title": null,
+        "year": 2009,
+        "runtime_min": 94,
+        "tmdb_id": 26630,
+        "imdb_id": "tt1288571",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25478533",
+          "account_name": "Shank (2010)",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2009,
+          "candidate_year": 2010,
+          "year_match": true,
+          "film_runtime_min": 94,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T23:02:07.089816+00:00"
+      }
+    },
+    "26821": {
+      "attempts": [],
+      "identity": {
+        "slug": "kung-fu-panda-tajemstvi-peti-postrachu",
+        "title": "Kung Fu Panda: Tajemství Pěti postrachů",
+        "original_title": "Kung Fu Panda: Secrets of the Furious Five",
+        "year": 2008,
+        "runtime_min": 25,
+        "tmdb_id": 15854,
+        "imdb_id": "tt1287845",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:02:07.090154+00:00"
+      }
+    },
+    "26813": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T23:03:36.175752+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "break-the-silence-the-movie",
+        "title": "Break the Silence: The Movie",
+        "original_title": null,
+        "year": 2020,
+        "runtime_min": 90,
+        "tmdb_id": 730647,
+        "imdb_id": "tt12850582",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:03:15.031141+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T23:02:05.353946+00:00"
+  "updated_at": "2026-08-24T23:03:36.175771+00:00"
 }
