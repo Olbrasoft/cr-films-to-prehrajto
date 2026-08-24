@@ -9046,7 +9046,91 @@
         },
         "at": "2026-08-24T16:10:58.125279+00:00"
       }
+    },
+    "29321": {
+      "attempts": [],
+      "identity": {
+        "slug": "ninos-en-la-cumbre",
+        "title": "Niños en la Cumbre",
+        "original_title": "Children on the Summit",
+        "year": 2012,
+        "runtime_min": 84,
+        "tmdb_id": 1555741,
+        "imdb_id": "tt5144012",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25404899",
+          "account_name": "The Summit (2013) SK Titulky",
+          "title_similarity": 0.541,
+          "title_contains_alias": false,
+          "film_year": 2012,
+          "candidate_year": 2013,
+          "year_match": true,
+          "film_runtime_min": 84,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:11:24.268865+00:00"
+      }
+    },
+    "29317": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a2582fe1b816",
+              "url": "https://prehraj.to/horizont-2015-cz-dab/5a2582fe1b816",
+              "title": "Horizont-2015-Cz dab",
+              "year": null,
+              "duration_sec": 5255,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.758,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:11:25.263861+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "something-horizontal",
+        "title": "Something Horizontal",
+        "original_title": null,
+        "year": 2015,
+        "runtime_min": 10,
+        "tmdb_id": 324334,
+        "imdb_id": "tt5131278",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:11:24.268906+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:11:20.242294+00:00"
+  "updated_at": "2026-08-24T16:11:25.263881+00:00"
 }
