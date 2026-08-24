@@ -12872,7 +12872,121 @@
         },
         "at": "2026-08-24T16:06:17.835384+00:00"
       }
+    },
+    "29378": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61f6c2fe1042b",
+              "url": "https://prehraj.to/my-mistress-2014-hdrip-xvid-ac3-evo/61f6c2fe1042b",
+              "title": "My.Mistress.2014.HDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 6006,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.107,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 123,
+                "candidate_runtime_sec": 6006,
+                "runtime_delta": 0.186,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b6ce19dcaf8",
+              "url": "https://prehraj.to/beyond-the-lights-2014-dc-brrip-xvid-ac3-evo/55b6ce19dcaf8",
+              "title": "Beyond.the.Lights.2014.DC.BRRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 6992,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.085,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 123,
+                "candidate_runtime_sec": 6992,
+                "runtime_delta": 0.053,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55d1b2440121d",
+              "url": "https://prehraj.to/dark-was-the-night-2014-hdrip-xvid-ac3-evo/55d1b2440121d",
+              "title": "Dark.Was.the.Night.2014.HDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 5912,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.095,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 123,
+                "candidate_runtime_sec": 5912,
+                "runtime_delta": 0.199,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:06:40.531156+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "evolution-within-extinction",
+        "title": "Evolution Within Extinction",
+        "original_title": null,
+        "year": 2014,
+        "runtime_min": 123,
+        "tmdb_id": 1051822,
+        "imdb_id": "tt5483934",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:06:39.792328+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:06:35.378221+00:00"
+  "updated_at": "2026-08-24T16:06:40.531177+00:00"
 }
