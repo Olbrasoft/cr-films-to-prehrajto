@@ -6,7 +6,18 @@
   },
   "films": {
     "29918": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v2",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T14:35:59.066809+00:00"
+        }
+      ],
       "identity": {
         "slug": "hrdina",
         "title": "Hrdina",
@@ -23,7 +34,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T14:26:00.420738+00:00"
+        "at": "2026-08-24T14:35:42.354333+00:00"
       }
     },
     "29898": {
@@ -1099,5 +1110,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T14:31:39.731689+00:00"
+  "updated_at": "2026-08-24T14:35:59.066828+00:00"
 }
