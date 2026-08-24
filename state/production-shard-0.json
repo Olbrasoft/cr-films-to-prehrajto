@@ -6165,7 +6165,67 @@
         },
         "at": "2026-08-24T15:01:39.220368+00:00"
       }
+    },
+    "29762": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5df68bad239cb",
+              "url": "https://prehraj.to/sicario-day-of-the-soldado-2018-cz-titulky-720p-web-dl-ac3-5-1/5df68bad239cb",
+              "title": "Sicario Day of the Soldado.2018.Cz titulky.720p.WEB-DL.AC3.5.1☆☆☆",
+              "year": null,
+              "duration_sec": 7344,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.132,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7344,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:02:16.963118+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ufc-fight-night-132-cowboy-vs-edwards",
+        "title": "UFC Fight Night 132: Cowboy vs. Edwards",
+        "original_title": null,
+        "year": 2018,
+        "runtime_min": null,
+        "tmdb_id": 525333,
+        "imdb_id": "tt8440522",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T15:02:00.236931+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T15:01:56.439205+00:00"
+  "updated_at": "2026-08-24T15:02:16.963135+00:00"
 }
