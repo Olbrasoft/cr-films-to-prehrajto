@@ -13164,7 +13164,67 @@
         },
         "at": "2026-08-24T16:07:13.790922+00:00"
       }
+    },
+    "29364": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "682b79d6a97f9",
+              "url": "https://prehraj.to/western-mkv-cz-dab-souboj-django-vs-sartana-cz-dab-1970-remasted/682b79d6a97f9",
+              "title": "Western MKV cz dab-Souboj Django vs Sartana cz dab(1970)-Remasted",
+              "year": null,
+              "duration_sec": 5080,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 1970,
+                "candidate_year": 1970,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 5080,
+                "runtime_delta": 0.176,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:07:41.865637+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "my-name-is-john-ford-i-make-westerns",
+        "title": "My Name Is John Ford, I Make Westerns",
+        "original_title": null,
+        "year": 1970,
+        "runtime_min": 72,
+        "tmdb_id": 225022,
+        "imdb_id": "tt5336134",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:07:40.790741+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:07:35.161195+00:00"
+  "updated_at": "2026-08-24T16:07:41.865658+00:00"
 }
