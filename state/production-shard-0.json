@@ -6016,7 +6016,60 @@
         },
         "at": "2026-08-24T15:00:26.434686+00:00"
       }
+    },
+    "29778": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f661299531ec",
+              "url": "https://prehraj.to/swallow-drama-2019-cz-titulky/5f661299531ec",
+              "title": "Swallow-(drama)-(2019)--cz-titulky",
+              "year": null,
+              "duration_sec": 5717,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 12.612,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:00:50.305214+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "swallow-grass-snakes",
+        "title": "Swallow Grass Snakes",
+        "original_title": null,
+        "year": 2019,
+        "runtime_min": 7,
+        "tmdb_id": 614342,
+        "imdb_id": "tt8598156",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T15:00:49.341763+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T15:00:45.527996+00:00"
+  "updated_at": "2026-08-24T15:00:50.305231+00:00"
 }
