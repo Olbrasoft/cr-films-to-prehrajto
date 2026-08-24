@@ -17426,7 +17426,81 @@
         },
         "at": "2026-08-24T16:49:43.475219+00:00"
       }
+    },
+    "27895": {
+      "attempts": [],
+      "identity": {
+        "slug": "kryci-jmeno-tygr",
+        "title": "Krycí jméno Tygr",
+        "original_title": "Ek Tha Tiger",
+        "year": 2012,
+        "runtime_min": 133,
+        "tmdb_id": 85985,
+        "imdb_id": "tt2016894",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:50:04.592401+00:00"
+      }
+    },
+    "27893": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60b24d2a10553",
+              "url": "https://prehraj.to/vysoke-nebe-western-1952-cz-dabing/60b24d2a10553",
+              "title": "Vysoké nebe-(western)-(1952)--cz-dabing",
+              "year": null,
+              "duration_sec": 7305,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.87,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:50:55.935843+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "western-wheat",
+        "title": "Western Wheat",
+        "original_title": null,
+        "year": 1952,
+        "runtime_min": 25,
+        "tmdb_id": 1240142,
+        "imdb_id": "tt20115976",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:50:32.716237+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:50:03.205393+00:00"
+  "updated_at": "2026-08-24T16:50:55.935863+00:00"
 }
