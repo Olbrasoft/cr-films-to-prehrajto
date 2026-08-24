@@ -20647,7 +20647,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-24T16:42:35.121669+00:00"
+        "at": "2026-08-24T22:27:05.926237+00:00"
       }
     },
     "28147": {
@@ -20678,7 +20678,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-24T16:42:35.122385+00:00"
+        "at": "2026-08-24T22:27:05.926988+00:00"
       }
     },
     "28111": {
@@ -20692,6 +20692,96 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:42:56.082184+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5caa77b9c382f",
+              "url": "https://prehraj.to/2012-supernova-cz-dabing-akcni-sci-fi-usa-2009-nejlepsi-filmy-mypage-cz/5caa77b9c382f",
+              "title": "2012-Supernova-CZ-dabing---Akční--Sci-Fi,-USA,-2009-(nejlepsi-filmy.mypage.cz)",
+              "year": null,
+              "duration_sec": 5225,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5225,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6788679102e2c",
+              "url": "https://prehraj.to/semafor-hity-2-t3c46-jiri-suchy-jitka-molavcova-kdo-chce-psa-bit/6788679102e2c",
+              "title": "Semafor Hity 2.T3C46.Jiří Suchý & Jitka Molavcová - Kdo…",
+              "year": null,
+              "duration_sec": 137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 137,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bat City USA (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678ad51ced708",
+              "url": "https://prehraj.to/semafor-hity-2-t3c46-jiri-suchy-jitka-molavcova-kdo-chce-psa-bit-bydejv/678ad51ced708",
+              "title": "Semafor Hity 2.T3C46.Jiří Suchý & Jitka Molavcová - Kdo…",
+              "year": null,
+              "duration_sec": 137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 137,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bat City USA (2012)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:27:08.760826+00:00"
         }
       ],
       "identity": {
@@ -20710,7 +20800,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:42:35.122538+00:00"
+        "at": "2026-08-24T22:27:05.927145+00:00"
       }
     },
     "28107": {
@@ -25214,5 +25304,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:27:02.383826+00:00"
+  "updated_at": "2026-08-24T22:27:08.760846+00:00"
 }
