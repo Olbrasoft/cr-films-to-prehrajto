@@ -3,13 +3,7 @@ from dataclasses import replace
 import pytest
 import requests
 
-from cr_films_to_prehrajto.models import (
-    AccountVideo,
-    Candidate,
-    LanguageTier,
-    MatchTier,
-    Subtitle,
-)
+from cr_films_to_prehrajto.models import Candidate, LanguageTier, MatchTier, Subtitle
 from cr_films_to_prehrajto.pipeline import HybridPipeline, validate_limit
 from cr_films_to_prehrajto.providers.prehrajto import ProviderError
 from cr_films_to_prehrajto.providers.sktorrent import SkTorrentProvider
@@ -323,7 +317,9 @@ def test_partial_subtitle_upload_is_repaired_without_second_video(tmp_path, film
     pipeline = HybridPipeline(
         prehrajto=Provider([candidate]),
         sktorrent=Provider([]),
-        inventory=[AccountVideo("777", "Pelíšky (1999) CZ titulky")],
+        # The production inventory is intentionally persisted and may predate
+        # a crash-safe partial upload recorded by a previous runner.
+        inventory=[],
         state=state,
         transfer=transfer,
     )

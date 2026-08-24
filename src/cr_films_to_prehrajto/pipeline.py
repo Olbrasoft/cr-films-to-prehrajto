@@ -90,7 +90,7 @@ class HybridPipeline:
             partial_id = (
                 str(partial.get("partial_target_video_id")) if partial else None
             )
-            if partial_id and partial_id in self._inventory_by_id:
+            if partial_id:
                 status = ReconciliationStatus.MISSING
                 evidence = {
                     "method": "partial_upload_requires_subtitle_repair",
