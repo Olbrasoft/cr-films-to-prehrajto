@@ -20692,7 +20692,85 @@
         },
         "at": "2026-08-24T22:28:21.039287+00:00"
       }
+    },
+    "28446": {
+      "attempts": [],
+      "identity": {
+        "slug": "strangers-the-brief-encounters-between-alka-and-micah",
+        "title": "Strangers: The Brief Encounters between Alka and Micah",
+        "original_title": "Strangers",
+        "year": 2023,
+        "runtime_min": 20,
+        "tmdb_id": 1128736,
+        "imdb_id": "tt27799790",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25279144",
+              "account_name": "Perfect Strangers (2022) CZ Titulky",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2023,
+              "candidate_year": 2022,
+              "year_match": true,
+              "film_runtime_min": 20,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25436722",
+              "account_name": "Friends and Strangers (2022)",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2023,
+              "candidate_year": 2022,
+              "year_match": true,
+              "film_runtime_min": 20,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-24T22:28:43.704503+00:00"
+      }
+    },
+    "28436": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:29:05.654194+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vlasov-dvazhdy-proklyatyy-general",
+        "title": "Vlasov. Dvazhdy proklyatyy general",
+        "original_title": "Vlasov: General for Two Devils",
+        "year": 1995,
+        "runtime_min": 60,
+        "tmdb_id": 1170646,
+        "imdb_id": "tt27683912",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:28:43.704556+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:28:39.969083+00:00"
+  "updated_at": "2026-08-24T22:29:05.654215+00:00"
 }
