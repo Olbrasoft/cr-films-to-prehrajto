@@ -63,7 +63,11 @@ class HybridPipeline:
         validate_limit(limit)
         plan = []
         classifications_since_save = 0
-        for film in sorted(films, key=lambda item: item.cr_film_id):
+        for film in sorted(
+            films,
+            key=lambda item: (item.added_at or item.created_at or "", item.cr_film_id),
+            reverse=True,
+        ):
             if self.state.uploaded(film.cr_film_id):
                 continue
             partial = self.state.pending_partial_upload(film.cr_film_id)
@@ -95,6 +99,8 @@ class HybridPipeline:
                     "runtime_min": film.runtime_min,
                     "tmdb_id": film.tmdb_id,
                     "imdb_id": film.imdb_id,
+                    "created_at": film.created_at,
+                    "added_at": film.added_at,
                 },
                 persist=status == ReconciliationStatus.MISSING,
             )

@@ -46,6 +46,8 @@ class Film:
     description: str
     tmdb_id: int | None = None
     imdb_id: str | None = None
+    created_at: str | None = None
+    added_at: str | None = None
     sources: tuple[dict[str, Any], ...] = ()
 
     @classmethod
@@ -61,6 +63,8 @@ class Film:
             description=row.get("description") or "",
             tmdb_id=row.get("tmdb_id"),
             imdb_id=row.get("imdb_id"),
+            created_at=row.get("created_at"),
+            added_at=row.get("added_at"),
             sources=tuple(row.get("sources") or ()),
         )
 

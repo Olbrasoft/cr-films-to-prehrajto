@@ -114,7 +114,14 @@ def test_sk_search_decode_failure_returns_no_candidates(film):
 
 
 def test_pilot_limit_counts_only_films_with_sources(tmp_path, film):
-    second = replace(film, cr_film_id=43, slug="second", title="Second")
+    first = replace(film, added_at="2026-02-01T00:00:00Z")
+    second = replace(
+        film,
+        cr_film_id=43,
+        slug="second",
+        title="Second",
+        added_at="2026-01-01T00:00:00Z",
+    )
 
     class ConditionalProvider:
         def discover(self, current):
@@ -125,7 +132,7 @@ def test_pilot_limit_counts_only_films_with_sources(tmp_path, film):
         sktorrent=ConditionalProvider(),
         inventory=[],
         state=StateStore(tmp_path / "state.json"),
-    ).build_plan([film, second], 1)
+    ).build_plan([first, second], 1)
     assert len(plan) == 1
     assert plan[0]["film"]["cr_film_id"] == 43
 

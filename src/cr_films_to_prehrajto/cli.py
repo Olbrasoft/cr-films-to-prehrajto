@@ -24,6 +24,12 @@ def load_historical(paths: list[Path]) -> dict[int, str]:
         if not path.exists():
             continue
         payload = json.loads(path.read_text())
+        if isinstance(payload.get("films"), dict):
+            for film_id, upload in payload["films"].items():
+                video_id = upload.get("target_video_id")
+                if video_id is not None:
+                    mappings[int(film_id)] = str(video_id)
+            continue
         for upload in payload.get("uploads", []):
             film_id = upload.get("cr_film_id")
             video_id = upload.get("prehrajto_video_id") or upload.get("target_video_id")
