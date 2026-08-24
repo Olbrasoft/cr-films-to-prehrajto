@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import defaultdict
 from datetime import UTC, datetime
 from pathlib import Path
@@ -10,6 +11,9 @@ from .matching import YEAR_RE, normalize_title
 from .models import AccountVideo, Film
 
 TARGET_ACCOUNT = "filmy.prehrajto@post.cz"
+ACCOUNT_STATUS_NOISE_RE = re.compile(
+    r"\.(?:mp4|mkv|avi|webm)\b|\(\s*zpracovává se\s*\)", re.IGNORECASE
+)
 
 
 def _load(path: Path) -> dict:
@@ -99,9 +103,10 @@ def reconcile_live_index(
             for alias in (film.title, film.original_title)
             if alias
         }
-        match = YEAR_RE.search(video.name)
+        clean_name = ACCOUNT_STATUS_NOISE_RE.sub(" ", video.name)
+        match = YEAR_RE.search(clean_name)
         candidate_year = int(match.group(1)) if match else None
-        base_name = normalize_title(YEAR_RE.sub(" ", video.name))
+        base_name = normalize_title(YEAR_RE.sub(" ", clean_name))
         year_matches = (
             not film.year
             or not candidate_year
