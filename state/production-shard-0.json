@@ -16277,7 +16277,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-24T16:23:01.818976+00:00"
+        "at": "2026-08-24T22:08:31.079434+00:00"
       }
     },
     "29040": {
@@ -16328,9 +16328,10 @@
       "reconciliation": {
         "status": "missing",
         "evidence": {
-          "method": "no_confident_account_match"
+          "method": "partial_upload_requires_subtitle_repair",
+          "target_video_id": "28789922"
         },
-        "at": "2026-08-24T16:23:01.819018+00:00"
+        "at": "2026-08-24T22:08:31.079461+00:00"
       }
     },
     "29026": {
@@ -16344,6 +16345,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:23:24.023021+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64f777f27474a",
+              "url": "https://prehraj.to/godzilla-1-2014-1920x800-kino-5-1-cz/64f777f27474a",
+              "title": "Godzilla 1 (2014) ( 1920x800 - Kino 5.1 ) CZ",
+              "year": null,
+              "duration_sec": 7387,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.368,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:08:58.737526+00:00"
         }
       ],
       "identity": {
@@ -16362,7 +16394,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:23:03.053219+00:00"
+        "at": "2026-08-24T22:08:31.965252+00:00"
       }
     },
     "29024": {
@@ -17733,5 +17765,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:08:27.633351+00:00"
+  "updated_at": "2026-08-24T22:08:58.737546+00:00"
 }
