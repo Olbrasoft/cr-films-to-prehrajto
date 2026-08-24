@@ -132,7 +132,14 @@ def test_live_reconciliation_rejects_related_title_false_positive():
     }
     reconciled = reconcile_live_index(
         snapshot,
-        {"films": {}},
+        {
+            "films": {
+                "1": {
+                    "target_video_id": "300",
+                    "display_name": "incorrect historical mapping",
+                }
+            }
+        },
         {
             "videos": [
                 {
@@ -144,3 +151,4 @@ def test_live_reconciliation_rejects_related_title_false_positive():
         {"videos": []},
     )
     assert reconciled["films"] == {}
+    assert reconciled["inactive_films"]["1"]["status"] == "identity_mismatch"

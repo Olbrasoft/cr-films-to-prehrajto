@@ -88,6 +88,27 @@ def reconcile_live_index(
     deleted_ids = {
         str(row["video_id"]) for row in deleted_inventory.get("videos", [])
     }
+    catalog_films = {
+        str(row["cr_film_id"]): Film.from_dict(row)
+        for row in snapshot.get("films", [])
+    }
+
+    def is_exact_account_match(film: Film, video: AccountVideo) -> bool:
+        aliases = {
+            normalize_title(alias)
+            for alias in (film.title, film.original_title)
+            if alias
+        }
+        match = YEAR_RE.search(video.name)
+        candidate_year = int(match.group(1)) if match else None
+        base_name = normalize_title(YEAR_RE.sub(" ", video.name))
+        year_matches = (
+            not film.year
+            or not candidate_year
+            or film.year == candidate_year
+        )
+        return base_name in aliases and year_matches
+
     films = {}
     inactive_films = {}
     for film_id, row in index.get("films", {}).items():
@@ -95,7 +116,17 @@ def reconcile_live_index(
             continue
         target_video_id = str(row["target_video_id"])
         if target_video_id in active_by_id:
-            films[str(int(film_id))] = row
+            film = catalog_films.get(str(int(film_id)))
+            if film is None or is_exact_account_match(
+                film, active_by_id[target_video_id]
+            ):
+                films[str(int(film_id))] = row
+            else:
+                inactive_films[str(int(film_id))] = {
+                    **row,
+                    "status": "identity_mismatch",
+                    "live_display_name": active_by_id[target_video_id].name,
+                }
         else:
             inactive_films[str(int(film_id))] = {
                 **row,
@@ -104,8 +135,22 @@ def reconcile_live_index(
     for film_id, row in index.get("inactive_films", {}).items():
         target_video_id = str(row["target_video_id"])
         if target_video_id in active_by_id:
-            restored = {key: value for key, value in row.items() if key != "status"}
-            films[str(int(film_id))] = restored
+            film = catalog_films.get(str(int(film_id)))
+            if film is None or is_exact_account_match(
+                film, active_by_id[target_video_id]
+            ):
+                restored = {
+                    key: value
+                    for key, value in row.items()
+                    if key not in {"status", "live_display_name"}
+                }
+                films[str(int(film_id))] = restored
+            else:
+                inactive_films[str(int(film_id))] = {
+                    **row,
+                    "status": "identity_mismatch",
+                    "live_display_name": active_by_id[target_video_id].name,
+                }
         else:
             inactive_films[str(int(film_id))] = {
                 **row,
@@ -134,22 +179,9 @@ def reconcile_live_index(
         if key in films:
             continue
         candidates = plausible_inventory(film)
-        aliases = {
-            normalize_title(alias)
-            for alias in (film.title, film.original_title)
-            if alias
-        }
         exact = []
         for video in candidates:
-            match = YEAR_RE.search(video.name)
-            candidate_year = int(match.group(1)) if match else None
-            base_name = normalize_title(YEAR_RE.sub(" ", video.name))
-            year_matches = (
-                not film.year
-                or not candidate_year
-                or abs(film.year - candidate_year) <= 1
-            )
-            if base_name in aliases and year_matches:
+            if is_exact_account_match(film, video):
                 exact.append(video)
         if exact:
             selected = max(exact, key=lambda video: int(video.video_id))
