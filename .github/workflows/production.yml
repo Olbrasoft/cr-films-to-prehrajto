@@ -189,7 +189,16 @@ jobs:
           git push origin HEAD:main
 
       - name: Continue while uploads make progress
-        if: ${{ inputs.auto_continue && fromJSON(steps.backlog.outputs.after) > 0 && (fromJSON(steps.backlog.outputs.after) < fromJSON(steps.backlog.outputs.before) || fromJSON(steps.verification.outputs.pending) > 0) }}
+        if: >-
+          ${{
+            needs.upload.result == 'success' &&
+            inputs.auto_continue &&
+            fromJSON(steps.backlog.outputs.after) > 0 &&
+            (
+              fromJSON(steps.backlog.outputs.after) < fromJSON(steps.backlog.outputs.before) ||
+              fromJSON(steps.verification.outputs.pending) > 0
+            )
+          }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: >-
