@@ -4,6 +4,7 @@ from collections import defaultdict
 
 from .matching import normalize_title
 from .models import Film, LanguageTier, ReconciliationStatus
+from .providers.prehrajto import ProviderError
 from .ranking import rank_candidates
 from .reconciliation import reconcile_film
 from .state import StateStore
@@ -104,11 +105,18 @@ class HybridPipeline:
                     classifications_since_save = 0
                 continue
             repair_provider = partial.get("provider") if partial else None
-            prehraj_candidates = (
-                self.prehrajto.discover(film)
-                if repair_provider in (None, "prehrajto")
-                else []
-            )
+            provider_errors = []
+            try:
+                prehraj_candidates = (
+                    self.prehrajto.discover(film)
+                    if repair_provider in (None, "prehrajto")
+                    else []
+                )
+            except ProviderError as error:
+                prehraj_candidates = []
+                provider_errors.append(
+                    {"provider": "prehrajto", "reason": str(error)}
+                )
             ranked = rank_candidates(prehraj_candidates)
             all_candidates = list(prehraj_candidates)
             if not ranked and repair_provider in (None, "sktorrent"):
@@ -153,6 +161,7 @@ class HybridPipeline:
                         else "not required"
                     ),
                     "candidates": [candidate.to_dict() for candidate in all_candidates],
+                    "provider_errors": provider_errors,
                 }
             )
             if len(plan) >= limit:
