@@ -7682,6 +7682,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:04:52.135697+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a98a34a7cf49",
+              "url": "https://prehraj.to/glory-2017-cz-avi/5a98a34a7cf49",
+              "title": "Glory(2017)-CZ.avi",
+              "year": null,
+              "duration_sec": 7334,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.004,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:50:43.267647+00:00"
         }
       ],
       "identity": {
@@ -7700,7 +7731,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:04:33.886508+00:00"
+        "at": "2026-08-24T15:50:42.586040+00:00"
       }
     },
     "29664": {
@@ -8939,5 +8970,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T15:50:38.563192+00:00"
+  "updated_at": "2026-08-24T15:50:43.267667+00:00"
 }
