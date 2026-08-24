@@ -8983,7 +8983,7 @@
             }
           ]
         },
-        "at": "2026-08-24T15:05:47.458789+00:00"
+        "at": "2026-08-24T15:51:28.022290+00:00"
       }
     },
     "29626": {
@@ -9004,9 +9004,142 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:05:47.459331+00:00"
+        "at": "2026-08-24T15:51:28.022838+00:00"
+      }
+    },
+    "29624": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5976aa10e214d",
+              "url": "https://prehraj.to/war-machine-2017-hdrip-xvid-ac3-cz-sub-evo/5976aa10e214d",
+              "title": "War.Machine.2017.HDRip.XviD.AC3.CZ-Sub-EVO",
+              "year": null,
+              "duration_sec": 7358,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.263,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a2e6e1f580f4",
+              "url": "https://prehraj.to/the-pirates-of-somalia-2017-hdrip-xvid-ac3-evo/5a2e6e1f580f4",
+              "title": "The.Pirates.of.Somalia.2017.HDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 7061,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.768,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cf2989d189a9",
+              "url": "https://prehraj.to/battlecreek-2017-hdrip-xvid-ac3-evo/5cf2989d189a9",
+              "title": "Battlecreek.2017.HDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 5984,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.973,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d674d668d4a7",
+              "url": "https://prehraj.to/battlecreek-2017-hdrip-xvid-ac3-evo/5d674d668d4a7",
+              "title": "Battlecreek.2017.HDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 5984,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.973,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "599176a55922f",
+              "url": "https://prehraj.to/naslednici-2-descendants-2-2017-hdrip-xvid-ac3-evo/599176a55922f",
+              "title": "Naslednici.2.Descendants.2.2017.HDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 6695,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.158,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:52:32.119740+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "chamber-check-evolution-of-a-fight-scene",
+        "title": "Chamber Check: Evolution of a Fight Scene",
+        "original_title": null,
+        "year": 2017,
+        "runtime_min": 10,
+        "tmdb_id": 601124,
+        "imdb_id": "tt7161906",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T15:52:09.515921+00:00"
       }
     }
   },
-  "updated_at": "2026-08-24T15:51:24.494094+00:00"
+  "updated_at": "2026-08-24T15:52:32.119758+00:00"
 }
