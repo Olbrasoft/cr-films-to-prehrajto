@@ -3067,7 +3067,46 @@
       }
     },
     "29826": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v2",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "cdd911b6481425e2",
+              "url": "https://prehraj.to/ikarus-legenda-o-mietku-koszovi-sktit/cdd911b6481425e2",
+              "title": "Ikarus Legenda o Mietku Koszovi SKtit",
+              "year": null,
+              "duration_sec": 7007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 122,
+                "candidate_runtime_sec": 7007,
+                "runtime_delta": 0.043,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Ikarus. Legenda o Mietku Koszovi (2019)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T14:41:23.336706+00:00"
+        }
+      ],
       "identity": {
         "slug": "ikarus-legenda-o-mietku-koszovi",
         "title": "Ikarus. Legenda o Mietku Koszovi",
@@ -3084,9 +3123,9 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T14:31:39.731671+00:00"
+        "at": "2026-08-24T14:40:39.339354+00:00"
       }
     }
   },
-  "updated_at": "2026-08-24T14:40:36.316843+00:00"
+  "updated_at": "2026-08-24T14:41:23.336726+00:00"
 }
