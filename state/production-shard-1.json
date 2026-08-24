@@ -5559,6 +5559,82 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:53:33.913745+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b47bf14ed0e2",
+              "url": "https://prehraj.to/wallander-s02-02-krimi-serial-cz-dab-2010-jad/5b47bf14ed0e2",
+              "title": "Wallander s02-02-krimi serial-cz dab.-2010-jad",
+              "year": null,
+              "duration_sec": 5242,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.496,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5963a43882e4a",
+              "url": "https://prehraj.to/issho-ni-training-ofuro-bathtime-with-hinako-hiyoko-02/5963a43882e4a",
+              "title": "Issho_ni_Training_Ofuro_Bathtime_with_Hinako_&_Hiyoko_02",
+              "year": null,
+              "duration_sec": 1503,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2010,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 35,
+                "candidate_runtime_sec": 1503,
+                "runtime_delta": 0.284,
+                "rejection_reason": "title_only"
+              },
+              "query": "Issho ni Training Ofuro: Bathtime with Hinako & Hiyoko (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5963a45b9c1c1",
+              "url": "https://prehraj.to/issho-ni-training-ofuro-bathtime-with-hinako-hiyoko-01/5963a45b9c1c1",
+              "title": "Issho_ni_Training_Ofuro_Bathtime_with_Hinako_&_Hiyoko_01",
+              "year": null,
+              "duration_sec": 620,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.705,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Issho ni Training Ofuro: Bathtime with Hinako & Hiyoko (2010)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T21:55:06.153054+00:00"
         }
       ],
       "identity": {
@@ -5577,7 +5653,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:53:17.930021+00:00"
+        "at": "2026-08-24T21:55:04.984793+00:00"
       }
     },
     "29653": {
@@ -21285,5 +21361,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T21:54:55.567772+00:00"
+  "updated_at": "2026-08-24T21:55:06.153074+00:00"
 }
