@@ -3,12 +3,13 @@ from __future__ import annotations
 import re
 import subprocess
 import time
+from collections.abc import Callable
 from pathlib import Path
 
 import requests
 
-from .models import Candidate, LanguageTier
-from .providers.prehrajto import BASE_URL, inventory_account, upload_video
+from .models import Candidate, Film, LanguageTier
+from .providers.prehrajto import BASE_URL, parse_inventory_html, upload_video
 from .ranking import CZECH_CODES, display_name
 
 MIN_FILE_SIZE = 10_000_000
@@ -154,25 +155,34 @@ def upload_czech_subtitle(session: requests.Session, video_id: str, url: str) ->
 
 
 def verify_czech_subtitle(
-    session: requests.Session, video_id: str, attempts: int = 3
+    session: requests.Session,
+    video_id: str,
+    display_name: str,
+    attempts: int = 3,
 ) -> bool:
     for attempt in range(attempts):
-        video = next(
-            (
-                item
-                for item in inventory_account(session)
-                if item.video_id == str(video_id)
-            ),
-            None,
-        )
-        if video and video.url:
-            response = session.get(urllib_join(BASE_URL, video.url), timeout=30)
-            if response.ok and re.search(
-                r"srclang\s*:\s*[\"'](?:cs|cz|cze|ces)[\"']",
-                response.text,
-                re.IGNORECASE,
-            ):
-                return True
+        try:
+            listing = session.get(
+                BASE_URL + "/profil/nahrana-videa",
+                params={"searchPhrase": display_name},
+                timeout=30,
+            )
+            listing.raise_for_status()
+            rows, _ = parse_inventory_html(listing.text)
+            video = next(
+                (item for item in rows if item.video_id == str(video_id)),
+                None,
+            )
+            if video and video.url:
+                response = session.get(urllib_join(BASE_URL, video.url), timeout=30)
+                if response.ok and re.search(
+                    r"srclang\s*:\s*[\"'](?:cs|cz|cze|ces)[\"']",
+                    response.text,
+                    re.IGNORECASE,
+                ):
+                    return True
+        except requests.RequestException:
+            pass
         if attempt + 1 < attempts:
             time.sleep(30)
     return False
@@ -185,9 +195,16 @@ def urllib_join(base: str, value: str) -> str:
 
 
 class TransferService:
-    def __init__(self, session: requests.Session, temp_dir: Path):
+    def __init__(
+        self,
+        session: requests.Session,
+        temp_dir: Path,
+        *,
+        on_partial_upload: Callable[[Film, Candidate, dict], None] | None = None,
+    ):
         self.session = session
         self.temp_dir = temp_dir
+        self.on_partial_upload = on_partial_upload
 
     def transfer(self, film, candidate: Candidate) -> dict:
         if not candidate.stream_url:
@@ -204,6 +221,16 @@ class TransferService:
                     f"Video upload failed ({type(error).__name__})"
                 ) from None
             if candidate.language_tier == LanguageTier.CZECH_SUBTITLES:
+                if self.on_partial_upload:
+                    self.on_partial_upload(
+                        film,
+                        candidate,
+                        {
+                            "target_video_id": str(video_id),
+                            "display_name": name,
+                            "size_bytes": size,
+                        },
+                    )
                 subtitle = next(
                     (
                         s
@@ -219,7 +246,7 @@ class TransferService:
                         target_video_id=video_id,
                     )
                 upload_czech_subtitle(self.session, video_id, subtitle.url)
-                if not verify_czech_subtitle(self.session, video_id):
+                if not verify_czech_subtitle(self.session, video_id, name):
                     raise TransferError(
                         "Czech subtitle verification failed", target_video_id=video_id
                     )
@@ -247,13 +274,14 @@ class TransferService:
                 target_video_id=video_id,
             )
         upload_czech_subtitle(self.session, video_id, subtitle.url)
-        if not verify_czech_subtitle(self.session, video_id):
+        name = display_name(film, candidate)
+        if not verify_czech_subtitle(self.session, video_id, name):
             raise TransferError(
                 "Czech subtitle repair verification failed", target_video_id=video_id
             )
         return {
             "target_video_id": video_id,
-            "display_name": display_name(film, candidate),
+            "display_name": name,
             "size_bytes": None,
             "repaired_partial_upload": True,
         }
