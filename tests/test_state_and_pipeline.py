@@ -1,3 +1,5 @@
+from dataclasses import replace
+
 import pytest
 import requests
 
@@ -109,6 +111,23 @@ def test_sk_search_decode_failure_returns_no_candidates(film):
 
     provider = SkTorrentProvider(BrokenSession())
     assert provider.discover(film) == []
+
+
+def test_pilot_limit_counts_only_films_with_sources(tmp_path, film):
+    second = replace(film, cr_film_id=43, slug="second", title="Second")
+
+    class ConditionalProvider:
+        def discover(self, current):
+            return [] if current.cr_film_id == 42 else [acceptable("sktorrent", "s1")]
+
+    plan = HybridPipeline(
+        prehrajto=Provider([]),
+        sktorrent=ConditionalProvider(),
+        inventory=[],
+        state=StateStore(tmp_path / "state.json"),
+    ).build_plan([film, second], 1)
+    assert len(plan) == 1
+    assert plan[0]["film"]["cr_film_id"] == 43
 
 
 def test_one_source_failure_advances_to_next(tmp_path, film):
