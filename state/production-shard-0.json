@@ -248,6 +248,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T14:36:56.104008+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v3",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68ca0d870cb69",
+              "url": "https://prehrajto.cz/greta-2018-cz-dabing/68ca0d870cb69",
+              "title": "Greta (2018) CZ dabing",
+              "year": null,
+              "duration_sec": 5917,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5917,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "616f0ae2ce0e4",
+              "url": "https://prehrajto.cz/greta-smrtiaca-navnada-greta-2018-thriller-sk-dab-1920x800p-full/616f0ae2ce0e4",
+              "title": "Greta - Smrtiaca návnada - Greta (2018)Thriller SK dab 1920x800p Full",
+              "year": null,
+              "duration_sec": 5917,
+              "language_tier": "unacceptable",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.312,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5917,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T14:45:32.983300+00:00"
         }
       ],
       "identity": {
@@ -266,7 +331,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T14:36:36.068631+00:00"
+        "at": "2026-08-24T14:45:13.128174+00:00"
       }
     },
     "29876": {
@@ -3216,5 +3281,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T14:45:11.698500+00:00"
+  "updated_at": "2026-08-24T14:45:32.983319+00:00"
 }
