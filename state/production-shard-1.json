@@ -24965,6 +24965,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:55:30.212346+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61e82c463c5c3",
+              "url": "https://prehraj.to/film-son-horor-cz-titulky-2021/61e82c463c5c3",
+              "title": "Film - Son - horor CZ titulky 2021",
+              "year": null,
+              "duration_sec": 5883,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 5883,
+                "runtime_delta": 0.109,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65f18afab458c",
+              "url": "https://prehraj.to/the-cursed-the-dead-man-s-prey/65f18afab458c",
+              "title": "The Cursed - The Dead Man's Prey",
+              "year": null,
+              "duration_sec": 6574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.929,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 6574,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Cursed: Dead Man's Prey (2021)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:36:10.155047+00:00"
         }
       ],
       "identity": {
@@ -24983,7 +25048,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:55:13.081260+00:00"
+        "at": "2026-08-24T22:35:48.654988+00:00"
       }
     },
     "27645": {
@@ -25678,5 +25743,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:35:44.355826+00:00"
+  "updated_at": "2026-08-24T22:36:10.155067+00:00"
 }
