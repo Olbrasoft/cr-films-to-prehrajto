@@ -34,6 +34,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check out authoritative target-account state
+        uses: actions/checkout@v4
+        with:
+          repository: Olbrasoft/prehrajto-to-prehrajto
+          ref: main
+          path: historical
+          fetch-depth: 1
+          sparse-checkout: state
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -85,6 +94,18 @@ jobs:
             --database-url "host=127.0.0.1 port=15432 dbname=cr user=cr" \
             --out data/catalog.json
 
+      - name: Build persisted target-account inventory
+        run: |
+          mkdir -p data
+          jq -s '{videos: ([.[].uploads[] | select(.prehrajto_video_id != null) | {video_id:(.prehrajto_video_id|tostring), name:(.display_name // ((.title // "") + (if .year then " (" + (.year|tostring) + ")" else "" end))), url:null}] | unique_by(.video_id))}' \
+            historical/state/uploaded.json \
+            historical/state/uploaded-shard-0.json \
+            historical/state/uploaded-shard-1.json \
+            historical/state/phase2-uploaded-shard-0.json \
+            historical/state/phase2-uploaded-shard-1.json \
+            > data/account-inventory.json
+          test "$(jq '.videos | length' data/account-inventory.json)" -ge 27000
+
       - name: Build dry-run review plan
         id: plan
         env:
@@ -94,7 +115,12 @@ jobs:
           CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
         run: >-
           cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
-          --inventory-out artifacts/account-inventory.json
+          --inventory data/account-inventory.json
+          --historical-state historical/state/uploaded.json
+          --historical-state historical/state/uploaded-shard-0.json
+          --historical-state historical/state/uploaded-shard-1.json
+          --historical-state historical/state/phase2-uploaded-shard-0.json
+          --historical-state historical/state/phase2-uploaded-shard-1.json
           --mode dry-run --report artifacts/pilot-report.md --plan artifacts/pilot-plan.json
 
       - name: Upload reviewed pilot
@@ -106,7 +132,12 @@ jobs:
           CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
         run: >-
           cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
-          --inventory artifacts/account-inventory.json
+          --inventory data/account-inventory.json
+          --historical-state historical/state/uploaded.json
+          --historical-state historical/state/uploaded-shard-0.json
+          --historical-state historical/state/uploaded-shard-1.json
+          --historical-state historical/state/phase2-uploaded-shard-0.json
+          --historical-state historical/state/phase2-uploaded-shard-1.json
           --mode upload --approved-plan-sha "${{ inputs.approved_plan_sha }}"
           --report artifacts/upload-report.md --plan artifacts/upload-plan.json
 
