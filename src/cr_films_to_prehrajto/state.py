@@ -110,12 +110,15 @@ class StateStore:
                 return attempt
         return None
 
-    def discovery_exhausted_for_snapshot(self, cr_film_id: int) -> bool:
+    def discovery_exhausted_for_snapshot(
+        self, cr_film_id: int, discovery_version: str | None = None
+    ) -> bool:
         snapshot_id = self.data.get("snapshot", {}).get("id")
         return any(
             attempt.get("status") == "no_acceptable_source"
             and attempt.get("discovery_exhausted") is True
             and attempt.get("snapshot_id") == snapshot_id
+            and attempt.get("discovery_version") == discovery_version
             for attempt in reversed(
                 self.data["films"].get(str(cr_film_id), {}).get("attempts", [])
             )

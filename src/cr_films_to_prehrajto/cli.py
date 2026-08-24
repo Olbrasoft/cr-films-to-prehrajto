@@ -177,6 +177,7 @@ def run_production(args) -> int:
         transfer=TransferService(authenticated, Path(temporary.name)),
         historical=load_historical(args.historical_state),
         defer_processing_verification=True,
+        discovery_version="catalog-prehrajto-v2",
     )
     before = sum(1 for row in state.data["films"].values() if row.get("upload"))
     try:

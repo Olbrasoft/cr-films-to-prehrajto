@@ -13,9 +13,9 @@ import requests
 from bs4 import BeautifulSoup
 
 from ..audio import detect_audio_language
-from ..matching import classify_candidate
+from ..matching import YEAR_RE, classify_candidate, normalize_title
 from ..models import AccountVideo, Candidate, Film, MatchTier, Subtitle
-from ..ranking import language_tier
+from ..ranking import language_tier, rank_candidates
 
 TARGET_EMAIL = "filmy.prehrajto@post.cz"
 BASE_URL = "https://prehraj.to"
@@ -308,6 +308,141 @@ class PrehrajtoProvider:
     use_whisper: bool = False
     _last_request: float = 0.0
 
+    @staticmethod
+    def _catalog_candidates(film: Film) -> list[Candidate]:
+        candidates = []
+        for source in film.sources:
+            if source.get("provider") != "prehrajto" or not source.get(
+                "is_alive", True
+            ):
+                continue
+            metadata = source.get("metadata") or {}
+            url = metadata.get("url")
+            source_id = source.get("external_id")
+            if not url or source_id is None:
+                continue
+            title = source.get("title") or film.title
+            result = classify_candidate(
+                film,
+                title,
+                duration_sec=source.get("duration_sec"),
+            )
+            # Release noise makes very short exact titles (for example "EX")
+            # score poorly. A catalog-linked source may pass only when its
+            # title prefix, exact year, and runtime all corroborate identity.
+            if result.reason == "title_mismatch" and film.year:
+                source_title = normalize_title(YEAR_RE.sub(" ", title))
+                aliases = {
+                    normalize_title(alias)
+                    for alias in (film.title, film.original_title)
+                    if alias
+                }
+                duration = source.get("duration_sec")
+                runtime_delta = (
+                    abs(duration / 60 - film.runtime_min) / film.runtime_min
+                    if duration and film.runtime_min
+                    else None
+                )
+                embedded_year = YEAR_RE.search(title)
+                exact_prefix = any(
+                    source_title == alias or source_title.startswith(alias + " ")
+                    for alias in aliases
+                )
+                if (
+                    exact_prefix
+                    and embedded_year
+                    and int(embedded_year.group(1)) == film.year
+                    and runtime_delta is not None
+                    and runtime_delta <= 0.20
+                ):
+                    result = type(result)(
+                        MatchTier.SOLID,
+                        1.0,
+                        {
+                            "method": "catalog_source_exact_prefix_year_runtime",
+                            "film_year": film.year,
+                            "candidate_year": film.year,
+                            "runtime_delta": round(runtime_delta, 3),
+                        },
+                    )
+            candidates.append(
+                Candidate(
+                    provider="prehrajto",
+                    source_id=str(source_id),
+                    url=str(url),
+                    title=title,
+                    duration_sec=source.get("duration_sec"),
+                    audio_language=source.get("audio_lang"),
+                    language_evidence=source.get("audio_detected_by")
+                    or "catalog_metadata",
+                    match_tier=result.tier,
+                    match_evidence={
+                        **result.evidence,
+                        "catalog_source": True,
+                        "rejection_reason": result.reason,
+                    },
+                    query="exported_catalog_source",
+                )
+            )
+        return candidates
+
+    def _resolve_candidates(
+        self, film: Film, candidates: list[Candidate]
+    ) -> list[Candidate]:
+        resolved = []
+        for candidate in candidates:
+            if candidate.match_tier not in (MatchTier.STRONG, MatchTier.SOLID):
+                resolved.append(candidate)
+                continue
+            try:
+                variants, subtitles, detail_duration = parse_detail_html(
+                    self._proxy_get(candidate.url).text
+                )
+            except ProviderError:
+                continue
+            candidate.resolution, candidate.stream_url = max(
+                variants, key=lambda item: item[0]
+            )
+            candidate.subtitles = subtitles
+            candidate.duration_sec = detail_duration or candidate.duration_sec
+            resolved_match = classify_candidate(
+                film, candidate.title, duration_sec=candidate.duration_sec
+            )
+            resolved_runtime_delta = resolved_match.evidence.get("runtime_delta")
+            catalog_override = (
+                candidate.match_evidence.get("method")
+                == "catalog_source_exact_prefix_year_runtime"
+                and resolved_match.reason == "title_mismatch"
+                and resolved_runtime_delta is not None
+                and resolved_runtime_delta <= 0.20
+            )
+            if not catalog_override:
+                candidate.match_tier = resolved_match.tier
+                candidate.match_evidence = {
+                    **resolved_match.evidence,
+                    "catalog_source": candidate.match_evidence.get(
+                        "catalog_source", False
+                    ),
+                    "rejection_reason": resolved_match.reason,
+                }
+            audio = candidate.audio_language
+            evidence = candidate.language_evidence
+            if not audio:
+                audio, evidence = infer_title_language(
+                    candidate.title, film, subtitles
+                )
+            detected = detect_audio_language(
+                candidate.stream_url, use_whisper=self.use_whisper
+            )
+            if detected.language:
+                audio = detected.language
+                evidence = f"{detected.method}:{detected.confidence:.3f}"
+            candidate.audio_language = audio
+            candidate.language_evidence = evidence
+            candidate.language_tier = language_tier(audio, subtitles)
+            resolved.append(candidate)
+        return resolved
+
     def _proxy_get(self, url: str):
         if self.allow_direct:
             try:
@@ -358,6 +493,12 @@ class PrehrajtoProvider:
         return response
 
     def discover(self, film: Film) -> list[Candidate]:
+        catalog_candidates = self._resolve_candidates(
+            film, self._catalog_candidates(film)
+        )
+        if rank_candidates(catalog_candidates):
+            return catalog_candidates
+
         discovered: dict[str, Candidate] = {}
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
@@ -402,45 +543,7 @@ class PrehrajtoProvider:
                         query=query,
                     ),
                 )
-        resolved = []
-        for candidate in discovered.values():
-            if candidate.match_tier not in (MatchTier.STRONG, MatchTier.SOLID):
-                resolved.append(candidate)
-                continue
-            try:
-                variants, subtitles, detail_duration = parse_detail_html(
-                    self._proxy_get(candidate.url).text
-                )
-            except ProviderError:
-                continue
-            candidate.resolution, candidate.stream_url = max(
-                variants, key=lambda item: item[0]
-            )
-            candidate.subtitles = subtitles
-            candidate.duration_sec = detail_duration or candidate.duration_sec
-            resolved_match = classify_candidate(
-                film, candidate.title, duration_sec=candidate.duration_sec
-            )
-            candidate.match_tier = resolved_match.tier
-            candidate.match_evidence = {
-                **resolved_match.evidence,
-                "rejection_reason": resolved_match.reason,
-            }
-            if resolved_match.tier not in (MatchTier.STRONG, MatchTier.SOLID):
-                resolved.append(candidate)
-                continue
-            audio, evidence = infer_title_language(candidate.title, film, subtitles)
-            detected = detect_audio_language(
-                candidate.stream_url, use_whisper=self.use_whisper
-            )
-            if detected.language:
-                audio = detected.language
-                evidence = f"{detected.method}:{detected.confidence:.3f}"
-            candidate.audio_language = audio
-            candidate.language_evidence = evidence
-            candidate.language_tier = language_tier(audio, subtitles)
-            resolved.append(candidate)
-        return resolved
+        return self._resolve_candidates(film, list(discovered.values()))
 
 
 def upload_video(

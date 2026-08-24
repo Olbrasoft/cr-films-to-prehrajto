@@ -226,6 +226,29 @@ def test_production_skips_discovery_exhausted_for_current_snapshot(tmp_path, fil
     assert prehraj.calls == 0
 
 
+def test_new_discovery_version_retries_previous_exhaustion(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    state.set_snapshot("snapshot-1", None)
+    state.record_attempt(
+        film.cr_film_id,
+        {
+            "status": "no_acceptable_source",
+            "discovery_exhausted": True,
+            "discovery_version": "old",
+        },
+    )
+    prehraj = Provider([acceptable("prehrajto", "p1")])
+    plan = HybridPipeline(
+        prehrajto=prehraj,
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+        discovery_version="new",
+    ).build_plan([film], 1, maximum=20, skip_exhausted_snapshot=True)
+    assert len(plan) == 1
+    assert prehraj.calls == 1
+
+
 def test_partial_subtitle_upload_is_repaired_without_second_video(tmp_path, film):
     state = StateStore(tmp_path / "state.json")
     state.record_attempt(
