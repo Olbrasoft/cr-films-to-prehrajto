@@ -4,7 +4,7 @@ from types import SimpleNamespace
 import pytest
 import requests
 
-from cr_films_to_prehrajto.audio import AudioEvidence
+from cr_films_to_prehrajto.audio import AudioEvidence, normalize_iso
 from cr_films_to_prehrajto.models import Candidate, MatchTier
 from cr_films_to_prehrajto.providers.prehrajto import (
     PrehrajtoProvider,
@@ -19,6 +19,12 @@ def test_only_target_post_account_is_allowed():
     validate_target_email("filmy.prehrajto@post.cz")
     with pytest.raises(ValueError):
         validate_target_email("filmy.prehrajto@email.cz")
+
+
+def test_undefined_audio_tag_does_not_override_language_evidence():
+    assert normalize_iso("und") is None
+    assert normalize_iso("zxx") is None
+    assert normalize_iso("mul") is None
 
 
 def test_signed_urls_are_redacted():

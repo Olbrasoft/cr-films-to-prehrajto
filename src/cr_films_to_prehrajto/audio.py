@@ -7,11 +7,14 @@ from dataclasses import dataclass
 from pathlib import Path
 
 ISO_MAP = {"cze": "cs", "ces": "cs", "cz": "cs", "slo": "sk", "slk": "sk"}
+UNDEFINED_LANGUAGE_CODES = {"und", "zxx", "mul"}
 
 
 def normalize_iso(value: str | None) -> str | None:
     value = (value or "").strip().lower()
     if not value:
+        return None
+    if value in UNDEFINED_LANGUAGE_CODES:
         return None
     return ISO_MAP.get(value, value if len(value) in (2, 3) else None)
 
