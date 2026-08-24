@@ -15477,7 +15477,70 @@
         },
         "at": "2026-08-24T16:36:54.333881+00:00"
       }
+    },
+    "28413": {
+      "attempts": [],
+      "identity": {
+        "slug": "pariz-v-zrcadle-casu",
+        "title": "Paříž v zrcadle času",
+        "original_title": "Paris, the Great Saga",
+        "year": 2012,
+        "runtime_min": 52,
+        "tmdb_id": 354895,
+        "imdb_id": "tt2720844",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25213974",
+          "account_name": "Paris-Manhattan (2012) CZ",
+          "title_similarity": 0.5,
+          "title_contains_alias": false,
+          "film_year": 2012,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 52,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:37:21.064866+00:00"
+      }
+    },
+    "28405": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:37:37.343421+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-titan-fallout",
+        "title": "The Titan Fallout",
+        "original_title": null,
+        "year": 2022,
+        "runtime_min": 37,
+        "tmdb_id": 1097920,
+        "imdb_id": "tt27076169",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:37:21.064909+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:37:15.736345+00:00"
+  "updated_at": "2026-08-24T16:37:37.343441+00:00"
 }
