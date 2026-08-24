@@ -1,0 +1,102 @@
+name: ten-film-pilot
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Dry-run creates a review plan; upload requires its SHA-256"
+        required: true
+        type: choice
+        options: [dry-run, upload]
+        default: dry-run
+      limit:
+        description: "Number of films (hard maximum 10)"
+        required: true
+        type: choice
+        options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        default: "10"
+      approved_plan_sha:
+        description: "Reviewed dry-run plan SHA-256; required for upload"
+        required: false
+        type: string
+
+concurrency:
+  group: cr-films-ten-film-pilot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -e '.[test]'
+
+      - name: Run unit tests
+        run: pytest
+
+      - name: Validate target account and pilot inputs
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          MODE: ${{ inputs.mode }}
+          LIMIT: ${{ inputs.limit }}
+          APPROVED_PLAN_SHA: ${{ inputs.approved_plan_sha }}
+        run: |
+          test "$PREHRAJTO_EMAIL" = "filmy.prehrajto@post.cz"
+          test "$LIMIT" -ge 1 -a "$LIMIT" -le 10
+          if [ "$MODE" = upload ]; then test -n "$APPROVED_PLAN_SHA"; fi
+
+      - name: Export read-only catalog snapshot
+        env:
+          DATABASE_URL: ${{ secrets.CR_DATABASE_URL }}
+        run: cr-films-pilot export --out data/catalog.json
+
+      - name: Build dry-run review plan
+        id: plan
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+          CZ_PROXY_URL: ${{ secrets.CZ_PROXY_URL }}
+          CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
+        run: >-
+          cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
+          --mode dry-run --report artifacts/pilot-report.md --plan artifacts/pilot-plan.json
+
+      - name: Upload reviewed pilot
+        if: ${{ inputs.mode == 'upload' }}
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+          CZ_PROXY_URL: ${{ secrets.CZ_PROXY_URL }}
+          CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
+        run: >-
+          cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
+          --mode upload --approved-plan-sha "${{ inputs.approved_plan_sha }}"
+          --report artifacts/upload-report.md --plan artifacts/upload-plan.json
+
+      - name: Upload dry-run evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pilot-evidence-${{ github.run_id }}
+          path: artifacts/
+          if-no-files-found: warn
+
+      - name: Persist pilot state
+        if: ${{ always() && inputs.mode == 'upload' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/pilot.json
+          git diff --cached --quiet || git commit -m "chore: persist pilot state"
+          git push

@@ -13,6 +13,9 @@ htmlcov/
 .idea/
 .vscode/
 .playwright-mcp/
+*.egg-info/
+data/*.json
+artifacts/
 *.mp4
 *.mkv
 *.avi
@@ -21,3 +24,6 @@ htmlcov/
 *.tmp
 logs/
 exports/
+credentials*.json
+cookies*.json
+secrets*.json
