@@ -23936,7 +23936,85 @@
         },
         "at": "2026-08-24T22:39:38.650166+00:00"
       }
+    },
+    "27966": {
+      "attempts": [],
+      "identity": {
+        "slug": "zavod-s-casem-2013",
+        "title": "Závod s časem",
+        "original_title": "Hours",
+        "year": 2013,
+        "runtime_min": 97,
+        "tmdb_id": 172803,
+        "imdb_id": "tt2094018",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25183815",
+              "account_name": "Burákova cesta časem (2012) CZ Dabing",
+              "title_similarity": 0.526,
+              "title_contains_alias": false,
+              "film_year": 2013,
+              "candidate_year": 2012,
+              "year_match": true,
+              "film_runtime_min": 97,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25317266",
+              "account_name": "These Final Hours (2014) CZ Titulky",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2013,
+              "candidate_year": 2014,
+              "year_match": true,
+              "film_runtime_min": 97,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-24T22:40:01.269274+00:00"
+      }
+    },
+    "27958": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:40:17.905008+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-sky-of-my-childhood",
+        "title": "The Sky of My Childhood",
+        "original_title": "The Sky of My Childhood",
+        "year": 2011,
+        "runtime_min": 111,
+        "tmdb_id": 487945,
+        "imdb_id": "tt2086942",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:40:01.269327+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:39:57.538107+00:00"
+  "updated_at": "2026-08-24T22:40:17.905032+00:00"
 }
