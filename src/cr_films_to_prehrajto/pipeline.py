@@ -11,11 +11,12 @@ from .state import StateStore
 from .transfer import TransferError
 
 MAX_PILOT_FILMS = 10
+MAX_PRODUCTION_BATCH = 20
 
 
-def validate_limit(limit: int) -> int:
-    if not 1 <= limit <= MAX_PILOT_FILMS:
-        raise ValueError("Pilot limit must be between 1 and 10")
+def validate_limit(limit: int, maximum: int = MAX_PILOT_FILMS) -> int:
+    if not 1 <= limit <= maximum:
+        raise ValueError(f"Limit must be between 1 and {maximum}")
     return limit
 
 
@@ -29,6 +30,7 @@ class HybridPipeline:
         state: StateStore,
         transfer=None,
         historical=None,
+        defer_processing_verification: bool = False,
     ):
         self.prehrajto = prehrajto
         self.sktorrent = sktorrent
@@ -36,6 +38,7 @@ class HybridPipeline:
         self.state = state
         self.transfer = transfer
         self.historical = historical or {}
+        self.defer_processing_verification = defer_processing_verification
         self._candidates: dict[int, list] = {}
         self._subtitle_repairs: dict[int, str] = {}
         self._inventory_by_id = {str(item.video_id): item for item in inventory}
@@ -59,8 +62,15 @@ class HybridPipeline:
             plausible[item.video_id] = item
         return list(plausible.values())
 
-    def build_plan(self, films: list[Film], limit: int) -> list[dict]:
-        validate_limit(limit)
+    def build_plan(
+        self,
+        films: list[Film],
+        limit: int,
+        *,
+        maximum: int = MAX_PILOT_FILMS,
+        skip_exhausted_snapshot: bool = False,
+    ) -> list[dict]:
+        validate_limit(limit, maximum)
         plan = []
         classifications_since_save = 0
         for film in sorted(
@@ -69,6 +79,10 @@ class HybridPipeline:
             reverse=True,
         ):
             if self.state.uploaded(film.cr_film_id):
+                continue
+            if skip_exhausted_snapshot and self.state.discovery_exhausted_for_snapshot(
+                film.cr_film_id
+            ):
                 continue
             partial = self.state.pending_partial_upload(film.cr_film_id)
             partial_id = (
@@ -147,6 +161,7 @@ class HybridPipeline:
                     {
                         "status": "no_acceptable_source",
                         "permanent": False,
+                        "discovery_exhausted": True,
                         "reason": "No currently acceptable source was discovered",
                         "candidate_evidence": [
                             candidate.to_dict() for candidate in all_candidates
@@ -226,6 +241,11 @@ class HybridPipeline:
                             "language_tier": candidate.language_tier.name.lower(),
                             "actual_resolution": candidate.resolution,
                             "subtitle_handling": row["subtitle_handling"],
+                            "processing_status": (
+                                "pending"
+                                if self.defer_processing_verification
+                                else "active"
+                            ),
                         },
                     )
                     success = True
@@ -240,6 +260,7 @@ class HybridPipeline:
                     {
                         "status": "no_acceptable_source",
                         "permanent": False,
+                        "discovery_exhausted": False,
                         "reason": "All currently acceptable candidates were exhausted",
                     },
                 )

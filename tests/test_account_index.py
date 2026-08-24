@@ -36,7 +36,14 @@ def test_index_merges_historical_and_pilot_state(tmp_path):
                             "display_name": "New film",
                             "uploaded_at": "2026-02-01T00:00:00Z",
                         }
-                    }
+                    },
+                    "3": {
+                        "upload": {
+                            "target_video_id": "300",
+                            "display_name": "Still processing",
+                            "processing_status": "pending",
+                        }
+                    },
                 }
             }
         )
@@ -72,6 +79,21 @@ def test_account_index_is_accepted_as_historical_state(tmp_path):
         )
     )
     assert load_historical([path]) == {42: "123"}
+
+
+def test_production_state_is_accepted_as_historical_state(tmp_path):
+    path = tmp_path / "production.json"
+    path.write_text(
+        json.dumps(
+            {
+                "films": {
+                    "42": {"upload": {"target_video_id": "456"}},
+                    "43": {"attempts": []},
+                }
+            }
+        )
+    )
+    assert load_historical([path]) == {42: "456"}
 
 
 def test_live_reconciliation_excludes_deleted_and_matches_manual_uploads():

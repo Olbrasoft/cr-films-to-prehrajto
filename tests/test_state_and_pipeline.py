@@ -69,6 +69,12 @@ def test_limit_cannot_exceed_ten():
         validate_limit(0)
 
 
+def test_production_limit_can_be_twenty_without_changing_pilot_default():
+    assert validate_limit(20, 20) == 20
+    with pytest.raises(ValueError):
+        validate_limit(21, 20)
+
+
 def test_prehrajto_wins_and_sk_is_not_called(tmp_path, film):
     state = StateStore(tmp_path / "state.json")
     prehraj = Provider([acceptable("prehrajto", "p1")])
@@ -166,12 +172,58 @@ def test_rerun_after_success_is_idempotent(tmp_path, film):
     assert prehraj.calls == 0
 
 
+def test_production_upload_stays_pending_until_remote_verification(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    pipeline = HybridPipeline(
+        prehrajto=Provider([acceptable("prehrajto", "p1")]),
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+        transfer=Transfer(),
+        defer_processing_verification=True,
+    )
+    pipeline.execute(pipeline.build_plan([film], 1, maximum=20))
+    assert state.film(film.cr_film_id)["upload"]["processing_status"] == "pending"
+
+
 def test_state_is_valid_after_every_attempt(tmp_path, film):
     path = tmp_path / "state.json"
     state = StateStore(path)
     state.record_attempt(film.cr_film_id, {"source_id": "p1", "permanent": False})
     reloaded = StateStore(path)
     assert reloaded.film(film.cr_film_id)["attempts"][0]["source_id"] == "p1"
+
+
+def test_attempt_persists_to_remote_callback_with_snapshot(tmp_path, film):
+    persisted = []
+    state = StateStore(tmp_path / "state.json", on_persist=persisted.append)
+    state.set_snapshot("snapshot-1", None)
+    state.record_reconciliation(film.cr_film_id, "missing", {})
+    assert persisted == []
+    state.record_attempt(
+        film.cr_film_id,
+        {"status": "no_acceptable_source", "discovery_exhausted": True},
+    )
+    assert persisted == [state.path]
+    assert state.discovery_exhausted_for_snapshot(film.cr_film_id)
+
+
+def test_production_skips_discovery_exhausted_for_current_snapshot(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    state.set_snapshot("snapshot-1", None)
+    state.record_attempt(
+        film.cr_film_id,
+        {"status": "no_acceptable_source", "discovery_exhausted": True},
+    )
+    prehraj = Provider([acceptable("prehrajto", "p1")])
+    plan = HybridPipeline(
+        prehrajto=prehraj,
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+    ).build_plan([film], 1, maximum=20, skip_exhausted_snapshot=True)
+    assert plan == []
+    assert prehraj.calls == 0
 
 
 def test_partial_subtitle_upload_is_repaired_without_second_video(tmp_path, film):
