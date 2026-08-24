@@ -14696,7 +14696,87 @@
         },
         "at": "2026-08-24T16:21:18.688768+00:00"
       }
+    },
+    "29092": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ff6189f7485d",
+              "url": "https://prehraj.to/jeskyne-2014-cztitulky/5ff6189f7485d",
+              "title": "Jeskyně (2014) CZtitulky",
+              "year": null,
+              "duration_sec": 4791,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.736,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9860da59eb99fcb3",
+              "url": "https://prehraj.to/alfa-a-omega-legenda-o-zubate-jeskyni-2014-cs/9860da59eb99fcb3",
+              "title": "Alfa a Omega: Legenda o Zubaté jeskyni - 2014 CS",
+              "year": null,
+              "duration_sec": 2734,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.881,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 46,
+                "candidate_runtime_sec": 2734,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Alfa a Omega 4: Legenda o Zubaté jeskyni (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:22:30.109620+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "alfa-a-omega-4-legenda-o-zubate-jeskyni",
+        "title": "Alfa a Omega 4: Legenda o Zubaté jeskyni",
+        "original_title": "Alpha and Omega: The Legend of the Saw Tooth Cave",
+        "year": 2014,
+        "runtime_min": 46,
+        "tmdb_id": 294512,
+        "imdb_id": "tt4061848",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:21:45.526258+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:21:41.495409+00:00"
+  "updated_at": "2026-08-24T16:22:30.109640+00:00"
 }
