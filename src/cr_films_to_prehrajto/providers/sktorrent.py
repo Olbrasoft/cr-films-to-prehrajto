@@ -123,8 +123,15 @@ class SkTorrentProvider:
             )
             if runtime_delta > 0.50:
                 return None
-        detail = self.session.get(f"{BASE_URL}/video/{source_id}/", timeout=30)
-        subtitles = parse_tracks(detail.text) if detail.ok else []
+        try:
+            detail = self.session.get(
+                f"{BASE_URL}/video/{source_id}/",
+                headers={"Accept-Encoding": "identity"},
+                timeout=30,
+            )
+        except requests.RequestException:
+            detail = None
+        subtitles = parse_tracks(detail.text) if detail is not None and detail.ok else []
         for sub in source.get("subtitles") or []:
             subtitles.append(
                 Subtitle(
@@ -174,9 +181,15 @@ class SkTorrentProvider:
 
         # Conservative live search is used only when the snapshot has no SK metadata.
         query = f"{film.title} {film.year or ''}".strip()
-        response = self.session.get(
-            BASE_URL + "/search", params={"q": query}, timeout=30
-        )
+        try:
+            response = self.session.get(
+                BASE_URL + "/search",
+                params={"q": query},
+                headers={"Accept-Encoding": "identity"},
+                timeout=30,
+            )
+        except requests.RequestException:
+            return []
         if not response.ok:
             return []
         for hit in parse_search_html(response.text):

@@ -265,7 +265,7 @@ class PrehrajtoProvider:
     proxy_key: str
     session: requests.Session
     min_gap_seconds: float = 0.0
-    max_rate_limit_retries: int = 2
+    max_rate_limit_retries: int = 1
     use_whisper: bool = False
     _last_request: float = 0.0
 
