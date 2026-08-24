@@ -107,7 +107,7 @@ def test_exported_prehrajto_source_is_resolved_before_live_search(
 
     candidates = provider.discover(film)
 
-    assert calls == [source_url]
+    assert calls == ["https://prehraj.to/pelisky-1999-czdab/abc12345"]
     assert candidates[0].source_id == "abc12345"
     assert candidates[0].resolution == 1080
     assert candidates[0].audio_language == "cs"
