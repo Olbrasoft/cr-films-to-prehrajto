@@ -27697,7 +27697,94 @@
         },
         "at": "2026-08-24T22:46:43.156588+00:00"
       }
+    },
+    "27209": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "615ca2cfa67a8",
+              "url": "https://prehraj.to/prisoners-of-the-ghosland-hd-2021-en-dab-cz-tit-rimini-31-csfd-akcni-sci-fi-thriller-horor/615ca2cfa67a8",
+              "title": "PRISONERS OF THE GHOSLAND (HD) 2021- EN.dab.CZ.Tit.-RIMINI-31% ČSFD-(AKČNÍ, SCI-FI, THRILLER, HOROR,)",
+              "year": null,
+              "duration_sec": 6167,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.224,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6167,
+                "runtime_delta": 0.048,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "614ce4584c32f",
+              "url": "https://prehraj.to/infiinite-nekonecny-fullhd-2021-en-dab-cz-tit-rimini-43-csfd-akcn-krimi-thrl-sci-fi/614ce4584c32f",
+              "title": "INFIINITE (NEKONEČNÝ) (FULLHD) 2021- EN.dab.CZ.Tit,-RIMINI-43% ČSFD-(AKČN.,KRIMI,THRL.,SCI-FI)",
+              "year": null,
+              "duration_sec": 6381,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.183,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6381,
+                "runtime_delta": 0.015,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:47:41.962127+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "brollop-begravning-och-dop-filmen",
+        "title": "Bröllop, begravning och dop - filmen",
+        "original_title": null,
+        "year": 2021,
+        "runtime_min": 108,
+        "tmdb_id": 766218,
+        "imdb_id": "tt14631466",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:47:24.407730+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:47:20.872367+00:00"
+  "updated_at": "2026-08-24T22:47:41.962148+00:00"
 }
