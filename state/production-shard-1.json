@@ -13967,7 +13967,70 @@
         },
         "at": "2026-08-24T16:28:23.131224+00:00"
       }
+    },
+    "28647": {
+      "attempts": [],
+      "identity": {
+        "slug": "a",
+        "title": "A",
+        "original_title": "Alpha",
+        "year": 2015,
+        "runtime_min": 80,
+        "tmdb_id": 333465,
+        "imdb_id": "tt3166734",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24807554",
+          "account_name": "Appleseed Alpha (2014) CZ Dabing",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2015,
+          "candidate_year": 2014,
+          "year_match": true,
+          "film_runtime_min": 80,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:28:42.726387+00:00"
+      }
+    },
+    "28623": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:28:59.767598+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "proc-hruza",
+        "title": "Proč hrůza?",
+        "original_title": "Why Horror?",
+        "year": 2014,
+        "runtime_min": 81,
+        "tmdb_id": 291540,
+        "imdb_id": "tt3135424",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:28:42.727506+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:28:39.336142+00:00"
+  "updated_at": "2026-08-24T16:28:59.767619+00:00"
 }
