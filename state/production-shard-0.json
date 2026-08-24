@@ -21047,7 +21047,111 @@
         },
         "at": "2026-08-24T22:30:28.069187+00:00"
       }
+    },
+    "28344": {
+      "attempts": [],
+      "identity": {
+        "slug": "i-am-santa-claus",
+        "title": "I Am Santa Claus",
+        "original_title": null,
+        "year": 2014,
+        "runtime_min": 89,
+        "tmdb_id": 298445,
+        "imdb_id": "tt2526846",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "28788116",
+          "account_name": "Santa Claus (2014) CZ Dabing",
+          "title_similarity": 0.688,
+          "title_contains_alias": false,
+          "film_year": 2014,
+          "candidate_year": 2014,
+          "year_match": true,
+          "film_runtime_min": 89,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T22:30:58.035082+00:00"
+      }
+    },
+    "28306": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60a89d4417d45",
+              "url": "https://prehraj.to/x-men-days-of-future-past-2014-720p-hdrip-xvid-ac3-cz-gringo/60a89d4417d45",
+              "title": "X.Men.Days.of.Future.Past.2014.720p.HDRip.XViD.AC3.CZ-GRiNGO",
+              "year": null,
+              "duration_sec": 7896,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.666,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60fa081a574e5",
+              "url": "https://prehraj.to/the-raid-2-2014-480p-bdrip-xvid-ac3-cz-gringo/60fa081a574e5",
+              "title": "The.Raid.2.2014.480p.BDRip.XViD.AC3.CZ-GRiNGO",
+              "year": null,
+              "duration_sec": 9028,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.905,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:31:14.693228+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "gringo-trails",
+        "title": "Gringo Trails",
+        "original_title": null,
+        "year": 2014,
+        "runtime_min": 79,
+        "tmdb_id": 290743,
+        "imdb_id": "tt2458912",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:30:58.035157+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:30:50.540211+00:00"
+  "updated_at": "2026-08-24T22:31:14.693249+00:00"
 }
