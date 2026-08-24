@@ -9162,7 +9162,88 @@
         },
         "at": "2026-08-24T16:11:27.924410+00:00"
       }
+    },
+    "29305": {
+      "attempts": [],
+      "identity": {
+        "slug": "the-dark-tapes",
+        "title": "The Dark Tapes",
+        "original_title": null,
+        "year": 2017,
+        "runtime_min": 98,
+        "tmdb_id": 390883,
+        "imdb_id": "tt5068650",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:11:50.856027+00:00"
+      }
+    },
+    "29281": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6672415c51c8c",
+              "url": "https://prehraj.to/jak-dostat-tatinka-do-polepsovny-1978-1080p-web-dl-x264-r-i-h/6672415c51c8c",
+              "title": "Jak.Dostat.Tatínka.Do.Polepšovny.1978.1080p.WEB-DL.x264-R.i.H",
+              "year": null,
+              "duration_sec": 5471,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.24,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5471,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:12:40.679715+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tactics-of-long-distance-running",
+        "title": "Tactics of Long-Distance Running",
+        "original_title": "Tactics of Long-Distance Running",
+        "year": 1978,
+        "runtime_min": null,
+        "tmdb_id": 394898,
+        "imdb_id": "tt4966120",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:12:34.617575+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:11:45.906802+00:00"
+  "updated_at": "2026-08-24T16:12:40.679735+00:00"
 }
