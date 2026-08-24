@@ -7619,6 +7619,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:04:26.029106+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac0f6b3d6124",
+              "url": "https://prehraj.to/nhl-2017-2018-rs-31-03-2018-edmonton-oilers-calgary-flames/5ac0f6b3d6124",
+              "title": "NHL 2017-2018 / RS / 31.03.2018 / Edmonton Oilers @ Calgary Flames ",
+              "year": null,
+              "duration_sec": 9940,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.762,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:50:38.563172+00:00"
         }
       ],
       "identity": {
@@ -7637,7 +7668,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:04:08.195317+00:00"
+        "at": "2026-08-24T15:50:21.138106+00:00"
       }
     },
     "29676": {
@@ -8908,5 +8939,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T15:50:16.934859+00:00"
+  "updated_at": "2026-08-24T15:50:38.563192+00:00"
 }
