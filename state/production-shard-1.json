@@ -10611,6 +10611,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:07:01.819205+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a7479b06672f",
+              "url": "https://prehraj.to/hotel-sacher-2-cast-cz-dab-2016-jad/5a7479b06672f",
+              "title": "Hotel Sacher -2.část-cz dab.-2016-jad",
+              "year": null,
+              "duration_sec": 6142,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.324,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6142,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a747466ada85",
+              "url": "https://prehraj.to/hotel-sacher-drama-1-cast-cz-dab-2016-jad/5a747466ada85",
+              "title": "Hotel Sacher-drama- 1.část-cz dab.-2016-jad",
+              "year": null,
+              "duration_sec": 5858,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.35,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5858,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:05:06.823555+00:00"
         }
       ],
       "identity": {
@@ -10629,7 +10694,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:06:45.530459+00:00"
+        "at": "2026-08-24T22:04:46.834835+00:00"
       }
     },
     "29435": {
@@ -23316,5 +23381,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:04:45.608260+00:00"
+  "updated_at": "2026-08-24T22:05:06.823575+00:00"
 }
