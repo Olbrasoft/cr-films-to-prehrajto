@@ -7471,6 +7471,122 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:04:04.041654+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e6a356b925a5",
+              "url": "https://prehraj.to/honey-boy-2019-1080p-amzn-web-dl-ddp5-1-h-264-tepes/5e6a356b925a5",
+              "title": "Honey.Boy.2019.1080p.AMZN.WEB-DL.DDP5.1.H.264-TEPES",
+              "year": null,
+              "duration_sec": 5651,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.292,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 109,
+                "candidate_runtime_sec": 5651,
+                "runtime_delta": 0.136,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0feeff02ebaa54c9",
+              "url": "https://prehraj.to/vsem-klukum-navzdy-s-laskou-lana-condor-noah-centineo-2020-komedie-drama-romanticky-bdrip-1080p-cz-dabing/0feeff02ebaa54c9",
+              "title": "Všem klukům-Navždy s láskou (Lana Condor, Noah Centineo…",
+              "year": null,
+              "duration_sec": 6960,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 109,
+                "candidate_runtime_sec": 6960,
+                "runtime_delta": 0.064,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Noah Land (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "37f59980baeacf14",
+              "url": "https://prehraj.to/vsem-klukum-navzdy-s-laskou-lana-condor-noah-centineo-2020-komedie-drama-romanticky-bdrip-1080p-cz-dabing/37f59980baeacf14",
+              "title": "Všem klukům-Navždy s láskou (Lana Condor, Noah Centineo…",
+              "year": null,
+              "duration_sec": 6960,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 109,
+                "candidate_runtime_sec": 6960,
+                "runtime_delta": 0.064,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Noah Land (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a5d083e806e92f4e",
+              "url": "https://prehraj.to/vsem-klukum-navzdy-s-laskou-lana-condor-noah-centineo-2020-komedie-drama-romanticky-bdrip-1080p-cz-dabing/a5d083e806e92f4e",
+              "title": "Všem klukům-Navždy s láskou (Lana Condor, Noah Centineo…",
+              "year": null,
+              "duration_sec": 6960,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 109,
+                "candidate_runtime_sec": 6960,
+                "runtime_delta": 0.064,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Noah Land (2019)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:50:16.934837+00:00"
         }
       ],
       "identity": {
@@ -7489,7 +7605,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:03:42.063506+00:00"
+        "at": "2026-08-24T15:49:40.146340+00:00"
       }
     },
     "29686": {
@@ -8792,5 +8908,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T15:49:35.766541+00:00"
+  "updated_at": "2026-08-24T15:50:16.934859+00:00"
 }
