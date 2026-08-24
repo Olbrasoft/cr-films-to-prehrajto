@@ -58,8 +58,32 @@ jobs:
 
       - name: Export read-only catalog snapshot
         env:
-          DATABASE_URL: ${{ secrets.CR_DATABASE_URL }}
-        run: cr-films-pilot export --out data/catalog.json
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_PORT: ${{ secrets.VPS_SSH_PORT }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+          PGPASSWORD: ${{ secrets.CR_DB_PASSWORD }}
+        run: |
+          set -euo pipefail
+          install -d -m 700 "$RUNNER_TEMP/ssh"
+          printf '%s\n' "$VPS_SSH_KEY" > "$RUNNER_TEMP/ssh/id_ed25519"
+          printf '%s\n' "$VPS_KNOWN_HOSTS" > "$RUNNER_TEMP/ssh/known_hosts"
+          chmod 600 "$RUNNER_TEMP/ssh/id_ed25519" "$RUNNER_TEMP/ssh/known_hosts"
+          SOCKET="$RUNNER_TEMP/ssh/cr-db-tunnel"
+          ssh -M -S "$SOCKET" -fNT \
+            -i "$RUNNER_TEMP/ssh/id_ed25519" \
+            -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile="$RUNNER_TEMP/ssh/known_hosts" \
+            -p "$VPS_SSH_PORT" -L 15432:127.0.0.1:5432 \
+            "root@$VPS_HOST"
+          cleanup() {
+            ssh -S "$SOCKET" -O exit "root@$VPS_HOST" >/dev/null 2>&1 || true
+            rm -f "$RUNNER_TEMP/ssh/id_ed25519"
+          }
+          trap cleanup EXIT
+          cr-films-pilot export \
+            --database-url "host=127.0.0.1 port=15432 dbname=cr user=cr" \
+            --out data/catalog.json
 
       - name: Build dry-run review plan
         id: plan

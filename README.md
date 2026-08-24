@@ -120,7 +120,15 @@ Configure these repository or environment Actions secrets in GitHub settings:
 - `PREHRAJTO_PASSWORD`
 - `CZ_PROXY_URL`
 - `CZ_PROXY_KEY`
-- `CR_DATABASE_URL`
+- `CR_DB_PASSWORD`
+- `VPS_HOST`
+- `VPS_SSH_PORT`
+- `VPS_SSH_KEY`
+- `VPS_KNOWN_HOSTS`
+
+The workflow opens an SSH control-socket tunnel only for the export step,
+connects to PostgreSQL through localhost, verifies read-only mode, then closes
+the tunnel and removes the temporary private-key file before discovery starts.
 
 Do not put secret values in workflow YAML, local `.env` files committed to
 Git, issue comments, reports, or command-line arguments. The implementation
