@@ -2,8 +2,12 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import defaultdict
 from datetime import UTC, datetime
 from pathlib import Path
+
+from .matching import YEAR_RE, normalize_title
+from .models import AccountVideo, Film
 
 TARGET_ACCOUNT = "filmy.prehrajto@post.cz"
 
@@ -14,12 +18,16 @@ def _load(path: Path) -> dict:
 
 def build_index(historical_paths: list[Path], pilot_path: Path | None) -> dict:
     films: dict[str, dict] = {}
+    inactive_films: dict[str, dict] = {}
+    live_inventory = None
     for path in historical_paths:
         payload = _load(path)
         if payload.get("target_account") == TARGET_ACCOUNT and isinstance(
             payload.get("films"), dict
         ):
             films.update(payload["films"])
+            inactive_films.update(payload.get("inactive_films", {}))
+            live_inventory = payload.get("live_inventory") or live_inventory
             continue
         for upload in payload.get("uploads", []):
             film_id = upload.get("cr_film_id")
@@ -51,6 +59,107 @@ def build_index(historical_paths: list[Path], pilot_path: Path | None) -> dict:
                 "uploaded_at": upload.get("uploaded_at"),
                 "source": "cr-films-to-prehrajto",
             }
+            inactive_films.pop(str(int(film_id)), None)
+
+    payload = {
+        "schema_version": 1,
+        "target_account": TARGET_ACCOUNT,
+        "generated_at": datetime.now(UTC).isoformat(),
+        "film_count": len(films),
+        "films": dict(sorted(films.items(), key=lambda item: int(item[0]))),
+        "inactive_film_count": len(inactive_films),
+        "inactive_films": dict(
+            sorted(inactive_films.items(), key=lambda item: int(item[0]))
+        ),
+    }
+    if live_inventory:
+        payload["live_inventory"] = live_inventory
+    return payload
+
+
+def reconcile_live_index(
+    snapshot: dict,
+    index: dict,
+    inventory: dict,
+    deleted_inventory: dict,
+) -> dict:
+    active = [AccountVideo(**row) for row in inventory.get("videos", [])]
+    active_by_id = {str(video.video_id): video for video in active}
+    deleted_ids = {
+        str(row["video_id"]) for row in deleted_inventory.get("videos", [])
+    }
+    films = {}
+    inactive_films = {}
+    for film_id, row in index.get("films", {}).items():
+        if str(row.get("source", "")).startswith("live-account-"):
+            continue
+        target_video_id = str(row["target_video_id"])
+        if target_video_id in active_by_id:
+            films[str(int(film_id))] = row
+        else:
+            inactive_films[str(int(film_id))] = {
+                **row,
+                "status": "deleted" if target_video_id in deleted_ids else "absent",
+            }
+    for film_id, row in index.get("inactive_films", {}).items():
+        target_video_id = str(row["target_video_id"])
+        if target_video_id in active_by_id:
+            restored = {key: value for key, value in row.items() if key != "status"}
+            films[str(int(film_id))] = restored
+        else:
+            inactive_films[str(int(film_id))] = {
+                **row,
+                "status": "deleted" if target_video_id in deleted_ids else "absent",
+            }
+
+    inventory_by_token = defaultdict(list)
+    for video in active:
+        for token in set(normalize_title(video.name).split()):
+            inventory_by_token[token].append(video)
+
+    def plausible_inventory(film: Film) -> list[AccountVideo]:
+        plausible = {}
+        for alias in (film.title, film.original_title):
+            tokens = normalize_title(alias or "").split()
+            if not tokens:
+                continue
+            rarest = min(tokens, key=lambda token: len(inventory_by_token[token]))
+            for video in inventory_by_token[rarest]:
+                plausible[video.video_id] = video
+        return list(plausible.values())
+
+    for row in snapshot.get("films", []):
+        film = Film.from_dict(row)
+        key = str(film.cr_film_id)
+        if key in films:
+            continue
+        candidates = plausible_inventory(film)
+        aliases = {
+            normalize_title(alias)
+            for alias in (film.title, film.original_title)
+            if alias
+        }
+        exact = []
+        for video in candidates:
+            match = YEAR_RE.search(video.name)
+            candidate_year = int(match.group(1)) if match else None
+            base_name = normalize_title(YEAR_RE.sub(" ", video.name))
+            year_matches = (
+                not film.year
+                or not candidate_year
+                or abs(film.year - candidate_year) <= 1
+            )
+            if base_name in aliases and year_matches:
+                exact.append(video)
+        if exact:
+            selected = max(exact, key=lambda video: int(video.video_id))
+            films[key] = {
+                "target_video_id": selected.video_id,
+                "display_name": selected.name,
+                "uploaded_at": None,
+                "source": "live-account-exact-title-year",
+            }
+            inactive_films.pop(key, None)
 
     return {
         "schema_version": 1,
@@ -58,6 +167,15 @@ def build_index(historical_paths: list[Path], pilot_path: Path | None) -> dict:
         "generated_at": datetime.now(UTC).isoformat(),
         "film_count": len(films),
         "films": dict(sorted(films.items(), key=lambda item: int(item[0]))),
+        "inactive_film_count": len(inactive_films),
+        "inactive_films": dict(
+            sorted(inactive_films.items(), key=lambda item: int(item[0]))
+        ),
+        "live_inventory": {
+            "active_video_count": len(active_by_id),
+            "deleted_video_count": len(deleted_ids),
+            "reconciled_at": datetime.now(UTC).isoformat(),
+        },
     }
 
 
@@ -117,6 +235,13 @@ def main(argv: list[str] | None = None) -> int:
     inventory_parser.add_argument("--index", type=Path, required=True)
     inventory_parser.add_argument("--out", type=Path, required=True)
 
+    reconcile_parser = subparsers.add_parser("reconcile")
+    reconcile_parser.add_argument("--snapshot", type=Path, required=True)
+    reconcile_parser.add_argument("--index", type=Path, required=True)
+    reconcile_parser.add_argument("--inventory", type=Path, required=True)
+    reconcile_parser.add_argument("--deleted-inventory", type=Path, required=True)
+    reconcile_parser.add_argument("--out", type=Path, required=True)
+
     backlog_parser = subparsers.add_parser("backlog")
     backlog_parser.add_argument("--snapshot", type=Path, required=True)
     backlog_parser.add_argument("--index", type=Path, required=True)
@@ -127,6 +252,13 @@ def main(argv: list[str] | None = None) -> int:
         payload = build_index(args.historical_state, args.pilot_state)
     elif args.command == "inventory":
         payload = inventory_from_index(_load(args.index))
+    elif args.command == "reconcile":
+        payload = reconcile_live_index(
+            _load(args.snapshot),
+            _load(args.index),
+            _load(args.inventory),
+            _load(args.deleted_inventory),
+        )
     else:
         payload = build_missing_backlog(_load(args.snapshot), _load(args.index))
     _write(args.out, payload)

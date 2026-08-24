@@ -4,6 +4,7 @@ from cr_films_to_prehrajto.account_index import (
     build_index,
     build_missing_backlog,
     inventory_from_index,
+    reconcile_live_index,
 )
 from cr_films_to_prehrajto.cli import load_historical
 
@@ -71,3 +72,75 @@ def test_account_index_is_accepted_as_historical_state(tmp_path):
         )
     )
     assert load_historical([path]) == {42: "123"}
+
+
+def test_live_reconciliation_excludes_deleted_and_matches_manual_uploads():
+    snapshot = {
+        "films": [
+            {
+                "cr_film_id": 1,
+                "slug": "deleted",
+                "title": "Deleted Film",
+                "original_title": None,
+                "year": 2020,
+                "runtime_min": 90,
+                "original_language": "cs",
+                "description": "",
+            },
+            {
+                "cr_film_id": 2,
+                "slug": "manual",
+                "title": "Manual Film",
+                "original_title": None,
+                "year": 2024,
+                "runtime_min": 100,
+                "original_language": "cs",
+                "description": "",
+            },
+        ]
+    }
+    index = {
+        "films": {
+            "1": {"target_video_id": "100", "display_name": "Deleted Film"}
+        }
+    }
+    reconciled = reconcile_live_index(
+        snapshot,
+        index,
+        {"videos": [{"video_id": "200", "name": "Manual Film (2024) CZ"}]},
+        {"videos": [{"video_id": "100", "name": "Deleted Film (2020) CZ"}]},
+    )
+    assert set(reconciled["films"]) == {"2"}
+    assert reconciled["films"]["2"]["target_video_id"] == "200"
+    assert reconciled["inactive_films"]["1"]["status"] == "deleted"
+
+
+def test_live_reconciliation_rejects_related_title_false_positive():
+    snapshot = {
+        "films": [
+            {
+                "cr_film_id": 1,
+                "slug": "batman",
+                "title": "Batman",
+                "original_title": None,
+                "year": 2022,
+                "runtime_min": 120,
+                "original_language": "en",
+                "description": "",
+            }
+        ]
+    }
+    reconciled = reconcile_live_index(
+        snapshot,
+        {"films": {}},
+        {
+            "videos": [
+                {
+                    "video_id": "300",
+                    "name": "Batman: Duše draka (2021) CZ Dabing",
+                }
+            ]
+        },
+        {"videos": []},
+    )
+    assert reconciled["films"] == {}
