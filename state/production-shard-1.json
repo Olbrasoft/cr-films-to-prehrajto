@@ -9243,7 +9243,165 @@
         },
         "at": "2026-08-24T16:12:34.617575+00:00"
       }
+    },
+    "29279": {
+      "attempts": [],
+      "identity": {
+        "slug": "lego-dc-super-hrdinove-liga-spravedlivych-vs-legie-zkazy",
+        "title": "Lego DC Super hrdinové: Liga spravedlivých vs Legie zkázy",
+        "original_title": "LEGO DC Comics Super Heroes: Justice League - Attack of the Legion of Doom!",
+        "year": 2015,
+        "runtime_min": 77,
+        "tmdb_id": 353595,
+        "imdb_id": "tt4938416",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25177313",
+          "account_name": "Lego DC Super hrdinové: Liga spravedlivých - Vesmírný souboj (2016) CZ Dabing",
+          "title_similarity": 0.78,
+          "title_contains_alias": false,
+          "film_year": 2015,
+          "candidate_year": 2016,
+          "year_match": true,
+          "film_runtime_min": 77,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:12:44.329288+00:00"
+      }
+    },
+    "29247": {
+      "attempts": [],
+      "identity": {
+        "slug": "vanocni-prekvapeni",
+        "title": "Vánoční překvapení",
+        "original_title": "Family for Christmas",
+        "year": 2015,
+        "runtime_min": 82,
+        "tmdb_id": 348393,
+        "imdb_id": "tt4766018",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25098021",
+              "account_name": "Doba ledová: Velikonoční překvapení (2016) CZ Dabing",
+              "title_similarity": 0.632,
+              "title_contains_alias": false,
+              "film_year": 2015,
+              "candidate_year": 2016,
+              "year_match": true,
+              "film_runtime_min": 82,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25204383",
+              "account_name": "Překvapení (2015) CZ Dabing",
+              "title_similarity": 0.606,
+              "title_contains_alias": false,
+              "film_year": 2015,
+              "candidate_year": 2015,
+              "year_match": true,
+              "film_runtime_min": 82,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-24T16:12:44.331226+00:00"
+      }
+    },
+    "29223": {
+      "attempts": [],
+      "identity": {
+        "slug": "to-je-vrazda-napekla-zahada-cokoladovych-susenek",
+        "title": "To je vražda, napekla: Záhada čokoládových sušenek",
+        "original_title": "Murder, She Baked: A Chocolate Chip Cookie Mystery",
+        "year": 2015,
+        "runtime_min": 80,
+        "tmdb_id": 328848,
+        "imdb_id": "tt4621642",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:12:44.331287+00:00"
+      }
+    },
+    "29211": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5edeab6405341",
+              "url": "https://prehraj.to/home-2015-480p-bdrip-xvid-ac3-cz-hide/5edeab6405341",
+              "title": "Home.2015.480p.BDRip.XviD.AC3.CZ-HiDE",
+              "year": null,
+              "duration_sec": 5628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.133,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 125,
+                "candidate_runtime_sec": 5628,
+                "runtime_delta": 0.25,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:13:01.858701+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "hide-50th-anniversary-film-junk-story",
+        "title": "hide 50th anniversary FILM 「JUNK STORY」",
+        "original_title": "Junk Story",
+        "year": 2015,
+        "runtime_min": 125,
+        "tmdb_id": 460124,
+        "imdb_id": "tt4569908",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:12:50.649525+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:12:40.679735+00:00"
+  "updated_at": "2026-08-24T16:13:01.858721+00:00"
 }
