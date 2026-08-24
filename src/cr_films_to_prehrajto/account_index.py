@@ -57,6 +57,8 @@ def build_index(historical_paths: list[Path], pilot_path: Path | None) -> dict:
             upload = state.get("upload") or {}
             if not upload.get("target_video_id"):
                 continue
+            if upload.get("processing_status") == "pending":
+                continue
             films[str(int(film_id))] = {
                 "target_video_id": str(upload["target_video_id"]),
                 "display_name": upload.get("display_name") or "",

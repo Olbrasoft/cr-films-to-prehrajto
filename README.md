@@ -187,6 +187,32 @@ self-continuation and no scheduled run to disable. Recovery is a fresh manual
 dispatch: the state and live inventory prevent already successful films from
 being uploaded twice.
 
+## Production upload
+
+The completed pilot remains manual and capped at ten. The separate
+`upload-missing-films` workflow is the production continuation authorized
+after the pilot. It runs two deterministic shards in parallel, uploads ten
+films per shard by default, and dispatches the next run only when the committed
+backlog count decreased.
+
+Each shard owns `state/production-shard-N.json`. Every source failure and every
+successful upload is committed and pushed immediately, so runner cancellation
+loses no completed transfer. After both shards stop, a final job folds their
+successes into `state/account-index.json`, regenerates
+`state/missing-films.json`, and starts the next batch. Films with no acceptable
+source in the current snapshot are recorded and skipped until a later catalog
+refresh; transient transfer failures remain retryable.
+
+Start the full continuation manually once:
+
+```bash
+gh workflow run production.yml -f batch_size=10 -f auto_continue=true
+```
+
+There is no schedule. To stop future continuation, cancel the current workflow
+and any queued `upload-missing-films` run. A later manual dispatch resumes from
+the per-shard state without uploading completed films again.
+
 ## Related repositories
 
 - [`Olbrasoft/prehrajto-to-prehrajto`](https://github.com/Olbrasoft/prehrajto-to-prehrajto)

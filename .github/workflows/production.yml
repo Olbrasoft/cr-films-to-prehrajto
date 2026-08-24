@@ -1,0 +1,198 @@
+name: upload-missing-films
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Films per shard and run"
+        required: true
+        type: choice
+        options: ["5", "10", "15", "20"]
+        default: "10"
+      auto_continue:
+        description: "Dispatch the next batch while progress is made"
+        required: true
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e '.[test]'
+      - run: pytest
+
+  upload:
+    needs: test
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1]
+    concurrency:
+      group: cr-films-production-shard-${{ matrix.shard }}
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Refresh queued checkout
+        run: git pull --rebase origin main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -e '.[test]'
+
+      - name: Validate target and build persisted inventory
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+        run: |
+          test "$PREHRAJTO_EMAIL" = "filmy.prehrajto@post.cz"
+          mkdir -p data artifacts
+          cr-films-index inventory \
+            --index state/account-index.json \
+            --out data/account-inventory.json
+          test "$(jq '.videos | length' data/account-inventory.json)" -ge 19000
+
+      - name: Configure crash-safe state commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Upload production shard
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+          CZ_PROXY_URL: ${{ secrets.CZ_PROXY_URL }}
+          CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
+        run: >-
+          cr-films-pilot production
+          --snapshot state/missing-films.json
+          --inventory data/account-inventory.json
+          --historical-state state/account-index.json
+          --state state/production-shard-${{ matrix.shard }}.json
+          --report artifacts/production-shard-${{ matrix.shard }}.md
+          --plan artifacts/production-shard-${{ matrix.shard }}.json
+          --limit "${{ inputs.batch_size }}"
+          --shard-id "${{ matrix.shard }}"
+          --num-shards 2
+          --push-state
+
+      - name: Persist any remaining shard state
+        if: always()
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: |
+          set -euo pipefail
+          state_path="state/production-shard-${SHARD}.json"
+          test -f "$state_path" || exit 0
+          git add "$state_path"
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(production shard ${SHARD}): persist final state"
+          fi
+          for attempt in 1 2 3 4 5; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main
+            sleep "$attempt"
+          done
+          exit 1
+
+      - name: Upload batch evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-evidence-${{ github.run_id }}-${{ matrix.shard }}
+          path: artifacts/
+          if-no-files-found: warn
+
+  finalize:
+    if: ${{ always() && needs.test.result == 'success' }}
+    needs: [test, upload]
+    concurrency:
+      group: cr-films-production-finalize
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    outputs:
+      before: ${{ steps.backlog.outputs.before }}
+      after: ${{ steps.backlog.outputs.after }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e .
+
+      - name: Refresh finalized shard state
+        run: git pull --rebase origin main
+
+      - name: Verify transcoding outcome
+        id: verification
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+        run: >-
+          cr-films-pilot verify-production
+          --state state/production-shard-0.json
+          --state state/production-shard-1.json
+          --attempts 10
+          --delay-seconds 30
+
+      - name: Consolidate shard state and backlog
+        id: backlog
+        run: |
+          set -euo pipefail
+          before=$(jq -r '.film_count' state/missing-films.json)
+          for shard_state in state/production-shard-*.json; do
+            test -e "$shard_state" || continue
+            cr-films-index index \
+              --historical-state state/account-index.json \
+              --pilot-state "$shard_state" \
+              --out state/account-index.json
+          done
+          cr-films-index backlog \
+            --snapshot state/missing-films.json \
+            --index state/account-index.json \
+            --out state/missing-films.json
+          after=$(jq -r '.film_count' state/missing-films.json)
+          echo "before=$before" >> "$GITHUB_OUTPUT"
+          echo "after=$after" >> "$GITHUB_OUTPUT"
+
+      - name: Push consolidated source of truth
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/account-index.json state/missing-films.json \
+            state/production-shard-*.json
+          git diff --cached --quiet || \
+            git commit -m "chore(production): refresh missing-film backlog"
+          git push origin HEAD:main
+
+      - name: Continue while uploads make progress
+        if: ${{ inputs.auto_continue && fromJSON(steps.backlog.outputs.after) > 0 && (fromJSON(steps.backlog.outputs.after) < fromJSON(steps.backlog.outputs.before) || fromJSON(steps.verification.outputs.pending) > 0) }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh workflow run production.yml
+          -f batch_size="${{ inputs.batch_size }}"
+          -f auto_continue=true
