@@ -16426,7 +16426,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:23:25.562229+00:00"
+        "at": "2026-08-24T22:09:01.981142+00:00"
       }
     },
     "29000": {
@@ -16440,6 +16440,364 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:24:05.433659+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "642e8e1209df1",
+              "url": "https://prehraj.to/nejlepsi-pritel-2017-pohadka-cz-aac-2-0-1080p/642e8e1209df1",
+              "title": "Nejlepší přítel (2017) Pohádka, CZ-AAC-2.0, 1080p",
+              "year": null,
+              "duration_sec": 5831,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.304,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5831,
+                "runtime_delta": 0.092,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24ae57c659e",
+              "url": "https://prehraj.to/death-stranding-part-11-chapter-2-amelie-4k-no-commentary/5f24ae57c659e",
+              "title": "Death Stranding - [Part 11] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 1298,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.757,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24855010653",
+              "url": "https://prehraj.to/death-stranding-part-9-chapter-2-amelie-4k-no-commentary/5f24855010653",
+              "title": "Death Stranding - [Part 9] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 2973,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.255,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 2973,
+                "runtime_delta": 0.443,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2497fc72792",
+              "url": "https://prehraj.to/death-stranding-part-7-chapter-2-amelie-4k-no-commentary/5f2497fc72792",
+              "title": "Death Stranding - [Part 7] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 1935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.638,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24cec6c3b73",
+              "url": "https://prehraj.to/death-stranding-part-6-chapter-2-amelie-4k-no-commentary/5f24cec6c3b73",
+              "title": "Death Stranding - [Part 6] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 2251,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.578,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24aa504ae9a",
+              "url": "https://prehraj.to/death-stranding-part-10-chapter-2-amelie-4k-no-commentary/5f24aa504ae9a",
+              "title": "Death Stranding - [Part 10] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 1996,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.626,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24cc40f2915",
+              "url": "https://prehraj.to/death-stranding-part-12-chapter-2-amelie-4k-no-commentary/5f24cc40f2915",
+              "title": "Death Stranding - [Part 12] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 930,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.826,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24cbf0254ae",
+              "url": "https://prehraj.to/death-stranding-part-8-chapter-2-amelie-4k-no-commentary/5f24cbf0254ae",
+              "title": "Death Stranding - [Part 8] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 2235,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.581,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24c7b9e239e",
+              "url": "https://prehraj.to/death-stranding-part-5-chapter-2-amelie-4k-no-commentary/5f24c7b9e239e",
+              "title": "Death Stranding - [Part 5] - Chapter 2 - Amelie - 4K - No…",
+              "year": null,
+              "duration_sec": 1683,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.685,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6130f98f00d85",
+              "url": "https://prehraj.to/bob-ballard-a-jeho-expedice-amelia-2020-czdab/6130f98f00d85",
+              "title": "Bob Ballard a jeho Expedice Amelia (2020) CZdab",
+              "year": null,
+              "duration_sec": 2639,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61dddd8a7d23d",
+              "url": "https://prehraj.to/bob-ballard-a-jeho-expedice-amelia-2020-czdab/61dddd8a7d23d",
+              "title": "Bob Ballard a jeho Expedice - Amelia (2020) CZdab",
+              "year": null,
+              "duration_sec": 2639,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "613c4036c3407",
+              "url": "https://prehraj.to/bob-ballard-a-jeho-expedice-amelia-ngc-hd/613c4036c3407",
+              "title": "Bob Ballard a jeho Expedice Amelia NGC HD",
+              "year": null,
+              "duration_sec": 2639,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.506,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6029cefd62f64e78",
+              "url": "https://prehraj.to/neznamy-25-dil-zahadne-zmizeni-amelie-earhartove-a-jejiho-navigatora-pri-pokusu-o-oblet-zemekoule-v-roce-1937/6029cefd62f64e78",
+              "title": "Neznámý - 25. díl - Záhadné zmizení Amelie Earhartové a…",
+              "year": null,
+              "duration_sec": 270,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685abe329d247",
+              "url": "https://prehraj.to/12-alizee-amelie-m-a-dit-live-hd/685abe329d247",
+              "title": "12. Alizée - Amélie m'a dit (Live HD)",
+              "year": null,
+              "duration_sec": 230,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.957,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c2314a463c59",
+              "url": "https://prehraj.to/amelie-a-horsky-zazrak-mountain-miracle-an-unexpected-friendship/5c2314a463c59",
+              "title": "Amélie a horský zázrak - Mountain Miracle - An Unexpected…",
+              "year": null,
+              "duration_sec": 5782,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.254,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5782,
+                "runtime_delta": 0.083,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "02c4d063fa454821",
+              "url": "https://prehraj.to/slysim-poprvy-07-dil-7-amelie-siba-james-harries/02c4d063fa454821",
+              "title": "Slyším poprvý - 07. díl - 7. Amelie Siba & James Harries",
+              "year": null,
+              "duration_sec": 780,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.854,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d81222c2437",
+              "url": "https://prehraj.to/p-f-tv-dok-09-velke-zahady-co-sa-stalo-amelii-earhartovej/67d81222c2437",
+              "title": "P.F. TV Dok-09 Velké Záhady - Čo sa stalo Amelii Earhartovej",
+              "year": null,
+              "duration_sec": 1490,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.721,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Amelia 2.0 (2017)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:10:06.354068+00:00"
         }
       ],
       "identity": {
@@ -16458,7 +16816,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:23:48.763911+00:00"
+        "at": "2026-08-24T22:10:00.117015+00:00"
       }
     },
     "28984": {
@@ -17765,5 +18123,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:08:58.737546+00:00"
+  "updated_at": "2026-08-24T22:10:06.354089+00:00"
 }
