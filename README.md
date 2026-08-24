@@ -9,6 +9,43 @@ The production catalog is never changed. Its only use is a read-only export to
 a local JSON snapshot; discovery, ranking, download, upload, and state handling
 operate on that snapshot.
 
+## Repository source of truth
+
+`state/account-index.json` is the canonical account index for this project. It
+maps each known CR film ID to the target Prehraj.to video ID and display name.
+It was bootstrapped from the authoritative `filmy.prehrajto@post.cz` shard
+states in `Olbrasoft/prehrajto-to-prehrajto`, reconciled against a complete
+one-time snapshot of both active and deleted target-account pages, and is
+updated from `state/pilot.json` after every upload workflow. Deleted and absent
+historical mappings are retained separately as inactive evidence and do not
+suppress re-upload.
+
+`state/missing-films.json` is regenerated from that index and the latest
+read-only production snapshot. It contains only currently playable films that
+are not in the account index, ordered by `films.added_at` newest first. These
+two versioned files avoid repeatedly listing every page of the large target
+account and provide deterministic input for subsequent GitHub-runner batches.
+
+The raw active/deleted account page cache stays local and ignored. To refresh
+the committed source of truth after collecting those two inventory snapshots:
+
+```bash
+cr-films-index reconcile \
+  --snapshot data/catalog.json \
+  --index state/account-index.json \
+  --inventory data/live-account-inventory.json \
+  --deleted-inventory data/deleted-account-inventory.json \
+  --out state/account-index.json
+cr-films-index backlog \
+  --snapshot data/catalog.json \
+  --index state/account-index.json \
+  --out state/missing-films.json
+```
+
+Only a live historical video ID or an exact normalized Czech/original title
+with a compatible year suppresses a film. Related titles and deleted videos
+remain in the missing backlog.
+
 ## Selection rules
 
 The source order is fixed:

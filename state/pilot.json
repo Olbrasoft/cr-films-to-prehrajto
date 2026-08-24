@@ -20227,7 +20227,17 @@
       }
     },
     "1567": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "7720",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": false,
+          "deleted_target_video_id": "28780110",
+          "at": "2026-08-24T14:07:28.746227+00:00"
+        }
+      ],
       "identity": {
         "slug": "vlastnici",
         "title": "Vlastníci",
@@ -20243,17 +20253,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-24T13:33:24.238654+00:00"
-      },
-      "upload": {
-        "target_video_id": "28780110",
-        "display_name": "Vlastníci (2019) CZ Dabing",
-        "size_bytes": 683359108,
-        "provider": "sktorrent",
-        "source_id": "7720",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "uploaded_at": "2026-08-24T14:02:24.489251+00:00"
       }
     },
     "1569": {

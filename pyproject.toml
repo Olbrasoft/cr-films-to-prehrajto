@@ -19,6 +19,7 @@ whisper = ["faster-whisper>=1.0"]
 
 [project.scripts]
 cr-films-pilot = "cr_films_to_prehrajto.cli:main"
+cr-films-index = "cr_films_to_prehrajto.account_index:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

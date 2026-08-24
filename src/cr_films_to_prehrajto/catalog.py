@@ -24,6 +24,8 @@ SELECT
     COALESCE(f.description, '') AS description,
     f.tmdb_id,
     f.imdb_id,
+    f.created_at,
+    f.added_at,
     COALESCE(
       jsonb_agg(
         jsonb_build_object(
