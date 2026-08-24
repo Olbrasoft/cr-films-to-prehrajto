@@ -24421,7 +24421,136 @@
         },
         "at": "2026-08-24T22:42:31.383061+00:00"
       }
+    },
+    "27842": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5820395da95d8",
+              "url": "https://prehraj.to/zvonik-od-matky-bozi-historicky-drama-usa-1939-m-o-hara-ch-laughton-cz-dabing-720p/5820395da95d8",
+              "title": "Zvoník od Matky Boží-Historický,Drama-USA-1939(M.O'Hara,Ch.Laughton) cz dabing 720p.",
+              "year": null,
+              "duration_sec": 6620,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.033,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f3167b387262",
+              "url": "https://prehraj.to/the-last-of-us-2-gameplay-walkthrough-part-11-survival-mode-ps4-pro-4k-hdr-all-collectibles-100/5f3167b387262",
+              "title": "THE LAST OF US 2 - Gameplay Walkthrough Part 11 Survival…",
+              "year": null,
+              "duration_sec": 6628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.047,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Made in the USA (1939)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1fed71d2bef",
+              "url": "https://prehraj.to/the-last-of-us-2-gameplay-walkthrough-part-11-survival-mode-ps4-pro-4k-hdr-all-collectibles-100/5f1fed71d2bef",
+              "title": "THE LAST OF US 2 - Gameplay Walkthrough Part 11 Survival…",
+              "year": null,
+              "duration_sec": 6628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.047,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Made in the USA (1939)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1fefd8a2985",
+              "url": "https://prehraj.to/the-last-of-us-2-gameplay-walkthrough-part-13-survival-mode-ps4-pro-4k-hdr-all-collectibles-100/5f1fefd8a2985",
+              "title": "THE LAST OF US 2 - Gameplay Walkthrough Part 13 Survival…",
+              "year": null,
+              "duration_sec": 6268,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.447,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Made in the USA (1939)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1fefefbe6cd",
+              "url": "https://prehraj.to/the-last-of-us-2-gameplay-walkthrough-part-12-survival-mode-ps4-pro-4k-hdr-all-collectibles-100/5f1fefefbe6cd",
+              "title": "THE LAST OF US 2 - Gameplay Walkthrough Part 12 Survival…",
+              "year": null,
+              "duration_sec": 6107,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.178,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Made in the USA (1939)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:42:53.195157+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "made-in-the-usa",
+        "title": "Made in the USA",
+        "original_title": null,
+        "year": 1939,
+        "runtime_min": 10,
+        "tmdb_id": 821757,
+        "imdb_id": "tt1964892",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:42:51.583743+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:42:48.062298+00:00"
+  "updated_at": "2026-08-24T22:42:53.195178+00:00"
 }
