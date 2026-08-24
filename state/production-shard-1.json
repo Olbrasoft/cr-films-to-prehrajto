@@ -1798,6 +1798,56 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T14:56:05.050404+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "678241530ad90",
+              "url": "https://prehraj.to/zamotek-2-navrat-1988-1080p-web-dl-h264-cz/678241530ad90",
+              "title": "Zámotek 2 Návrat 1988.1080p.WEB-DL.H264.CZ",
+              "year": null,
+              "duration_sec": 6982,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.771,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68c0b356de560",
+              "url": "https://prehraj.to/to-nam-byl-cert-dluzen-1988/68c0b356de560",
+              "title": "To nám byl čert dlužen-1988",
+              "year": null,
+              "duration_sec": 4007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.59,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "To nám byl čert dlužen (1988)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:43:52.520419+00:00"
         }
       ],
       "identity": {
@@ -1816,7 +1866,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T14:55:48.045630+00:00"
+        "at": "2026-08-24T15:43:31.607226+00:00"
       }
     },
     "29871": {
@@ -3561,5 +3611,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T15:43:30.203765+00:00"
+  "updated_at": "2026-08-24T15:43:52.520441+00:00"
 }
