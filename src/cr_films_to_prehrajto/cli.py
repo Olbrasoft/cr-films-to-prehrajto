@@ -169,12 +169,32 @@ def run_production(args) -> int:
     )
     sktorrent = SkTorrentProvider(requests.Session(), use_whisper=False)
     temporary = tempfile.TemporaryDirectory(prefix=f"cr-films-shard-{args.shard_id}-")
+
+    def persist_partial_upload(film, candidate, upload: dict) -> None:
+        state.record_attempt(
+            film.cr_film_id,
+            {
+                "provider": candidate.provider,
+                "source_id": candidate.source_id,
+                "status": "partial_upload",
+                "permanent": False,
+                "partial_target_video_id": upload["target_video_id"],
+                "display_name": upload["display_name"],
+                "size_bytes": upload["size_bytes"],
+                "reason": "Video uploaded; Czech subtitle completion is pending",
+            },
+        )
+
     pipeline = HybridPipeline(
         prehrajto=prehrajto,
         sktorrent=sktorrent,
         inventory=inventory,
         state=state,
-        transfer=TransferService(authenticated, Path(temporary.name)),
+        transfer=TransferService(
+            authenticated,
+            Path(temporary.name),
+            on_partial_upload=persist_partial_upload,
+        ),
         historical=load_historical(args.historical_state),
         defer_processing_verification=True,
         discovery_version="catalog-prehrajto-v4",

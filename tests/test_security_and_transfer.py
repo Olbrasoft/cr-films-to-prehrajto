@@ -5,14 +5,19 @@ import pytest
 import requests
 
 from cr_films_to_prehrajto.audio import AudioEvidence, normalize_iso
-from cr_films_to_prehrajto.models import Candidate, MatchTier
+from cr_films_to_prehrajto.models import Candidate, LanguageTier, MatchTier
 from cr_films_to_prehrajto.providers.prehrajto import (
     PrehrajtoProvider,
     ProviderError,
     validate_target_email,
 )
 from cr_films_to_prehrajto.security import redact, safe_url
-from cr_films_to_prehrajto.transfer import vtt_to_srt
+from cr_films_to_prehrajto.transfer import (
+    TransferError,
+    TransferService,
+    verify_czech_subtitle,
+    vtt_to_srt,
+)
 
 
 def test_only_target_post_account_is_allowed():
@@ -138,3 +143,69 @@ def test_vtt_conversion_supports_short_timestamps():
     converted = vtt_to_srt(content)
     assert b"00:00:01,000 --> 00:00:03,500" in converted
     assert b"Hello" in converted
+
+
+def test_subtitle_verification_searches_only_the_uploaded_video(monkeypatch):
+    class Response:
+        def __init__(self, text):
+            self.text = text
+            self.status_code = 200
+            self.ok = True
+
+        def raise_for_status(self):
+            return None
+
+    class Session:
+        def __init__(self):
+            self.calls = []
+
+        def get(self, url, **kwargs):
+            self.calls.append((url, kwargs))
+            if "nahrana-videa" in url:
+                return Response(
+                    '<div data-video-id="777"><input value="Pelisky (1999) CZ titulky">'
+                    '<a href="/pelisky/777">detail</a></div>'
+                )
+            return Response('var tracks = [{srclang: "cs"}];')
+
+    session = Session()
+    monkeypatch.setattr("cr_films_to_prehrajto.transfer.time.sleep", lambda _n: None)
+
+    assert verify_czech_subtitle(session, "777", "Pelisky (1999) CZ titulky")
+    assert session.calls[0][1]["params"] == {
+        "searchPhrase": "Pelisky (1999) CZ titulky"
+    }
+    assert len(session.calls) == 2
+
+
+def test_subtitle_video_is_persisted_before_subtitle_work(
+    tmp_path, film, monkeypatch
+):
+    candidate = Candidate(
+        provider="prehrajto",
+        source_id="source-1",
+        url="https://prehraj.to/pelisky/source-1",
+        title="Pelisky (1999) CZ titulky",
+        stream_url="https://cdn.example/movie.mp4",
+        match_tier=MatchTier.SOLID,
+    )
+    candidate.language_tier = LanguageTier.CZECH_SUBTITLES
+    candidate.subtitles = []
+    partials = []
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.transfer.download", lambda _url, _path: 20_000_000
+    )
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.transfer.upload_video", lambda *_args: "777"
+    )
+    service = TransferService(
+        requests.Session(), tmp_path, on_partial_upload=lambda *args: partials.append(args)
+    )
+
+    with pytest.raises(
+        TransferError, match="Czech subtitle track cannot be preserved"
+    ):
+        service.transfer(film, candidate)
+
+    assert partials[0][2]["target_video_id"] == "777"
+    assert partials[0][1].source_id == "source-1"
