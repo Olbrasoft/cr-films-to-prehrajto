@@ -10928,6 +10928,16 @@
           "reason": "All currently acceptable candidates were exhausted",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T17:39:50.276693+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:07:01.479085+00:00"
         }
       ],
       "identity": {
@@ -10944,9 +10954,10 @@
       "reconciliation": {
         "status": "missing",
         "evidence": {
-          "method": "no_confident_account_match"
+          "method": "partial_upload_requires_subtitle_repair",
+          "target_video_id": "28786739"
         },
-        "at": "2026-08-24T16:08:28.316291+00:00"
+        "at": "2026-08-24T22:06:40.598400+00:00"
       }
     },
     "29381": {
@@ -23421,5 +23432,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:06:36.336534+00:00"
+  "updated_at": "2026-08-24T22:07:01.479101+00:00"
 }
