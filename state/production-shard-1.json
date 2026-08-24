@@ -27520,7 +27520,67 @@
         },
         "at": "2026-08-24T22:44:39.796924+00:00"
       }
+    },
+    "27221": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b48a46ef23a8",
+              "url": "https://prehraj.to/wallander-s03-02-krimi-serial-cz-dab-2012-jad/5b48a46ef23a8",
+              "title": "Wallander s03-02-krimi serial-cz dab.-2012-jad",
+              "year": null,
+              "duration_sec": 5305,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.289,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 5305,
+                "runtime_delta": 0.228,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:45:38.456437+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "senritsu-kaiki-file-kowasugi-file-02-shivering-ghost",
+        "title": "Senritsu Kaiki File Kowasugi! File 02: Shivering Ghost",
+        "original_title": "Senritsu Kaiki File Kowasugi! File 02: Shivering Ghost",
+        "year": 2012,
+        "runtime_min": 72,
+        "tmdb_id": 854335,
+        "imdb_id": "tt14726856",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:45:19.370401+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:45:17.901141+00:00"
+  "updated_at": "2026-08-24T22:45:38.456463+00:00"
 }
