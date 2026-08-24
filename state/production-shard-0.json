@@ -14840,7 +14840,91 @@
         },
         "at": "2026-08-24T16:22:39.545653+00:00"
       }
+    },
+    "29046": {
+      "attempts": [],
+      "identity": {
+        "slug": "doba-ledova-2014",
+        "title": "Doba ledová",
+        "original_title": "Age of Ice",
+        "year": 2014,
+        "runtime_min": 85,
+        "tmdb_id": 297544,
+        "imdb_id": "tt3924510",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25172386",
+          "account_name": "Nová doba ledová (2013) CZ",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2014,
+          "candidate_year": 2013,
+          "year_match": true,
+          "film_runtime_min": 85,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:23:01.818976+00:00"
+      }
+    },
+    "29040": {
+      "attempts": [],
+      "identity": {
+        "slug": "brian-banks",
+        "title": "Brian Banks",
+        "original_title": null,
+        "year": 2019,
+        "runtime_min": 99,
+        "tmdb_id": 535845,
+        "imdb_id": "tt3920820",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:23:01.819018+00:00"
+      }
+    },
+    "29026": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:23:24.023021+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "caligari-wie-der-horror-ins-kino-kam",
+        "title": "Caligari — Wie der Horror ins Kino kam",
+        "original_title": "Caligari: When Horror Came to Cinema",
+        "year": 2014,
+        "runtime_min": 52,
+        "tmdb_id": 255666,
+        "imdb_id": "tt3898470",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:23:03.053219+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:22:58.441524+00:00"
+  "updated_at": "2026-08-24T16:23:24.023041+00:00"
 }
