@@ -5680,7 +5680,60 @@
         },
         "at": "2026-08-24T15:56:44.170265+00:00"
       }
+    },
+    "29597": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60ad8ff27bfe0",
+              "url": "https://prehraj.to/upir-2011-cztitulky/60ad8ff27bfe0",
+              "title": "Upír (2011) CZtitulky",
+              "year": null,
+              "duration_sec": 7095,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.516,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:58:02.609471+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "kostry-upiru",
+        "title": "Kostry upírů",
+        "original_title": "Vampire Skeletons",
+        "year": 2011,
+        "runtime_min": 47,
+        "tmdb_id": 836846,
+        "imdb_id": "tt6979504",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T15:57:25.341319+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T15:57:20.888821+00:00"
+  "updated_at": "2026-08-24T15:58:02.609491+00:00"
 }
