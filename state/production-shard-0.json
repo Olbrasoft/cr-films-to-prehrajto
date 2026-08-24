@@ -940,7 +940,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T14:44:44.074660+00:00"
+        "at": "2026-08-24T14:49:34.997281+00:00"
       }
     },
     "29882": {
@@ -1001,6 +1001,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T14:45:11.698482+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5d64a4d0ecc01",
+              "url": "https://prehraj.to/co-jsme-komu-zase-udelali-qu-est-ce-qu-on-a-encore-fait-au-bon-dieu-2019-french-1080p-bluray-x264-utt/5d64a4d0ecc01",
+              "title": "Co jsme komu zase udělali.Qu.est.ce.qu.on.a.Encore.fait.au.Bon.Dieu.2019.FRENCH.1080p.BluRay.x264-UTT",
+              "year": null,
+              "duration_sec": 5896,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.193,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 130,
+                "candidate_runtime_sec": 5896,
+                "runtime_delta": 0.244,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T14:49:56.976202+00:00"
         }
       ],
       "identity": {
@@ -1019,7 +1057,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T14:45:10.383078+00:00"
+        "at": "2026-08-24T14:49:35.618306+00:00"
       }
     },
     "29878": {
@@ -4075,5 +4113,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T14:49:31.062812+00:00"
+  "updated_at": "2026-08-24T14:49:56.976217+00:00"
 }
