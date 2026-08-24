@@ -21340,6 +21340,64 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:45:56.694282+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5668d6cb0d84a",
+              "url": "https://prehraj.to/scrat-2011-cz-dvdrip-xvid/5668d6cb0d84a",
+              "title": "Scrat-(2011)-CZ-DVDRip-XviD",
+              "year": null,
+              "duration_sec": 3829,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 20.272,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "918f718f2fe14071",
+              "url": "https://prehraj.to/scrat-s-continental-crack-up-part-2-2011-cs/918f718f2fe14071",
+              "title": "Scrat's Continental Crack-Up: Part 2 - 2011 CS",
+              "year": null,
+              "duration_sec": 154,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 3,
+                "candidate_runtime_sec": 154,
+                "runtime_delta": 0.144,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Scrat's Continental Crack-Up: Part 2 (2011)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:30:10.522091+00:00"
         }
       ],
       "identity": {
@@ -21358,7 +21416,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:45:31.529217+00:00"
+        "at": "2026-08-24T22:29:43.903807+00:00"
       }
     },
     "27973": {
@@ -25374,5 +25432,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:29:40.374132+00:00"
+  "updated_at": "2026-08-24T22:30:10.522111+00:00"
 }
