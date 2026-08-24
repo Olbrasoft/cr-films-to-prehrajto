@@ -12593,7 +12593,113 @@
         },
         "at": "2026-08-24T16:22:47.323284+00:00"
       }
+    },
+    "28833": {
+      "attempts": [],
+      "identity": {
+        "slug": "sestry-na-zivot-a-na-smrt",
+        "title": "Sestry na život a na smrt",
+        "original_title": "The Good Sister",
+        "year": 2014,
+        "runtime_min": 84,
+        "tmdb_id": 276578,
+        "imdb_id": "tt3521746",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25385862",
+              "account_name": "Bad Sister (2015) SK Dabing",
+              "title_similarity": 0.533,
+              "title_contains_alias": false,
+              "film_year": 2014,
+              "candidate_year": 2015,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25319204",
+              "account_name": "Dark Sister (2014) CZ Titulky",
+              "title_similarity": 0.516,
+              "title_contains_alias": false,
+              "film_year": 2014,
+              "candidate_year": 2014,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-24T16:23:35.610928+00:00"
+      }
+    },
+    "28825": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "c5f4ccc0ffd3f87c",
+              "url": "https://prehraj.to/fifty-shades-of-grey-2015-unrated-bdrip-xvid-ac3-cz-grace/c5f4ccc0ffd3f87c",
+              "title": "Fifty.Shades.of.Grey.2015.UNRATED.BDRip.XviD.AC3.CZ-GRAcE",
+              "year": null,
+              "duration_sec": 7709,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.338,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 7709,
+                "runtime_delta": 0.382,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:23:39.516051+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "a-girl-like-grace",
+        "title": "A Girl Like Grace",
+        "original_title": null,
+        "year": 2015,
+        "runtime_min": 93,
+        "tmdb_id": 361588,
+        "imdb_id": "tt3507138",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:23:35.611635+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:23:31.714851+00:00"
+  "updated_at": "2026-08-24T16:23:39.516071+00:00"
 }
