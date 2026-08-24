@@ -14064,7 +14064,91 @@
         },
         "at": "2026-08-24T16:16:18.004866+00:00"
       }
+    },
+    "29228": {
+      "attempts": [],
+      "identity": {
+        "slug": "las-elegidas",
+        "title": "Las elegidas",
+        "original_title": "The Chosen Ones",
+        "year": 2015,
+        "runtime_min": 105,
+        "tmdb_id": 336201,
+        "imdb_id": "tt4636042",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25456980",
+          "account_name": "The Chosen (2015)",
+          "title_similarity": 0.733,
+          "title_contains_alias": false,
+          "film_year": 2015,
+          "candidate_year": 2015,
+          "year_match": true,
+          "film_runtime_min": 105,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:16:36.098662+00:00"
+      }
+    },
+    "29222": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ee11ef59b46a",
+              "url": "https://prehraj.to/joker-2019-cz-dabing-bdrip-x264-1080p-dd-5-1-novinka-cz-forced/5ee11ef59b46a",
+              "title": "Joker 2019 CZ Dabing BDRip.x264.1080p.DD-5.1 NOVINKA CZ FORCED",
+              "year": null,
+              "duration_sec": 7309,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.74,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:16:54.499449+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "forced-change",
+        "title": "Forced Change",
+        "original_title": null,
+        "year": 2019,
+        "runtime_min": 70,
+        "tmdb_id": 690461,
+        "imdb_id": "tt4621608",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:16:36.098705+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:16:34.573741+00:00"
+  "updated_at": "2026-08-24T16:16:54.499468+00:00"
 }
