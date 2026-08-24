@@ -4,6 +4,7 @@ import json
 import re
 import time
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -107,16 +108,39 @@ def parse_inventory_html(html: str) -> tuple[list[AccountVideo], int]:
         match = re.search(r"uploadedVideoListing-videoId=(\d+)", link.get("href", ""))
         if not match:
             continue
-        container = link.find_parent(["article", "li", "tr", "div"])
-        name_node = (
-            container.select_one("input[name*='name'], .video__title, h3")
-            if container
-            else None
-        )
+        video_id = match.group(1)
+        container = link.parent
+        name_node = None
+        detail_link = None
+        for _ in range(12):
+            if container is None:
+                break
+            name_node = container.select_one(
+                f"#snippet-uploadedVideoListing-videoName-{video_id}"
+            )
+            detail_link = next(
+                (
+                    anchor
+                    for anchor in container.select("a[href]")
+                    if "Detail souboru" in anchor.get_text(" ", strip=True)
+                ),
+                None,
+            )
+            if name_node is not None and detail_link is not None:
+                break
+            container = container.parent
+        if name_node is None or detail_link is None:
+            raise ProviderError(
+                f"Could not safely parse target inventory video {video_id}"
+            )
         name = (
             name_node.get("value") if name_node and name_node.name == "input" else None
         ) or (name_node.get_text(" ", strip=True) if name_node else "")
-        videos.setdefault(match.group(1), AccountVideo(match.group(1), name.strip()))
+        detail_url = detail_link.get("href") if detail_link else None
+        videos.setdefault(
+            video_id,
+            AccountVideo(video_id, name.strip(), detail_url),
+        )
 
     pages = [
         int(v)
@@ -126,10 +150,7 @@ def parse_inventory_html(html: str) -> tuple[list[AccountVideo], int]:
 
 
 def inventory_account(session: requests.Session) -> list[AccountVideo]:
-    inventory: dict[str, AccountVideo] = {}
-    page = 1
-    last_page = 1
-    while page <= last_page:
+    def fetch_page(page: int) -> tuple[list[AccountVideo], int]:
         response = session.get(
             BASE_URL + "/profil/nahrana-videa",
             params={"uploadedVideoListing-visualPaginator-page": page}
@@ -138,11 +159,18 @@ def inventory_account(session: requests.Session) -> list[AccountVideo]:
             timeout=30,
         )
         response.raise_for_status()
-        rows, detected_last = parse_inventory_html(response.text)
-        last_page = max(last_page, detected_last)
-        for row in rows:
-            inventory[row.video_id] = row
-        page += 1
+        return parse_inventory_html(response.text)
+
+    inventory: dict[str, AccountVideo] = {}
+    first_rows, last_page = fetch_page(1)
+    for row in first_rows:
+        inventory[row.video_id] = row
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        pages = executor.map(fetch_page, range(2, last_page + 1))
+        for rows, _ in pages:
+            for row in rows:
+                inventory[row.video_id] = row
     return sorted(inventory.values(), key=lambda item: int(item.video_id))
 
 
