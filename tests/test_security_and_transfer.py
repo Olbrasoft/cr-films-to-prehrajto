@@ -53,6 +53,19 @@ def test_proxy_exception_does_not_expose_key():
     assert "dummy-value" not in str(raised.value)
 
 
+def test_direct_source_mode_does_not_require_proxy_configuration():
+    class DirectSession:
+        def get(self, url, timeout):
+            assert url == "https://prehraj.to/hledej/test"
+            response = requests.Response()
+            response.status_code = 200
+            response._content = b"ok"
+            return response
+
+    provider = PrehrajtoProvider("", "", DirectSession(), allow_direct=True)
+    assert provider._proxy_get("https://prehraj.to/hledej/test").text == "ok"
+
+
 def test_vtt_conversion_supports_short_timestamps():
     content = b"WEBVTT\n\n00:01.000 --> 00:03.500 align:center\nHello\n"
     converted = vtt_to_srt(content)

@@ -55,6 +55,25 @@ def run_pilot(args) -> int:
     else:
         authenticated = login(email, password)
         inventory = inventory_account(authenticated)
+        if args.inventory_out:
+            args.inventory_out.parent.mkdir(parents=True, exist_ok=True)
+            args.inventory_out.write_text(
+                json.dumps(
+                    {
+                        "videos": [
+                            {
+                                "video_id": item.video_id,
+                                "name": item.name,
+                                "url": item.url,
+                            }
+                            for item in inventory
+                        ]
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                )
+                + "\n"
+            )
 
     provider_session = requests.Session()
     prehrajto = PrehrajtoProvider(
@@ -62,6 +81,8 @@ def run_pilot(args) -> int:
         proxy_key=os.environ.get("CZ_PROXY_KEY", ""),
         session=provider_session,
         min_gap_seconds=float(os.environ.get("CZ_PROXY_MIN_GAP_SECONDS", "5")),
+        allow_direct=os.environ.get("PREHRAJTO_ALLOW_DIRECT", "").lower()
+        in {"1", "true", "yes"},
         use_whisper=os.environ.get("ENABLE_WHISPER", "").lower()
         in {"1", "true", "yes"},
     )
@@ -120,6 +141,7 @@ def build_parser() -> argparse.ArgumentParser:
     pilot = subparsers.add_parser("pilot", help="Plan or execute the manual pilot")
     pilot.add_argument("--snapshot", type=Path, required=True)
     pilot.add_argument("--inventory", type=Path)
+    pilot.add_argument("--inventory-out", type=Path)
     pilot.add_argument("--state", type=Path, default=Path("state/pilot.json"))
     pilot.add_argument("--report", type=Path, default=Path("artifacts/pilot-report.md"))
     pilot.add_argument("--plan", type=Path, default=Path("artifacts/pilot-plan.json"))

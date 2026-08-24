@@ -94,6 +94,7 @@ jobs:
           CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
         run: >-
           cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
+          --inventory-out artifacts/account-inventory.json
           --mode dry-run --report artifacts/pilot-report.md --plan artifacts/pilot-plan.json
 
       - name: Upload reviewed pilot
@@ -105,6 +106,7 @@ jobs:
           CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
         run: >-
           cr-films-pilot pilot --snapshot data/catalog.json --limit "${{ inputs.limit }}"
+          --inventory artifacts/account-inventory.json
           --mode upload --approved-plan-sha "${{ inputs.approved_plan_sha }}"
           --report artifacts/upload-report.md --plan artifacts/upload-plan.json
 
