@@ -321,6 +321,17 @@ class PrehrajtoProvider:
             source_id = source.get("external_id")
             if not url or source_id is None:
                 continue
+            parsed_url = urllib.parse.urlsplit(str(url))
+            if parsed_url.hostname in {"prehrajto.cz", "www.prehrajto.cz"}:
+                url = urllib.parse.urlunsplit(
+                    (
+                        "https",
+                        "prehraj.to",
+                        parsed_url.path,
+                        parsed_url.query,
+                        "",
+                    )
+                )
             title = source.get("title") or film.title
             result = classify_candidate(
                 film,
