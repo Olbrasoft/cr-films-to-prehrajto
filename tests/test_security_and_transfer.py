@@ -1,6 +1,10 @@
+from dataclasses import replace
+from types import SimpleNamespace
+
 import pytest
 import requests
 
+from cr_films_to_prehrajto.audio import AudioEvidence
 from cr_films_to_prehrajto.models import Candidate, MatchTier
 from cr_films_to_prehrajto.providers.prehrajto import (
     PrehrajtoProvider,
@@ -64,6 +68,63 @@ def test_direct_source_mode_does_not_require_proxy_configuration():
 
     provider = PrehrajtoProvider("", "", DirectSession(), allow_direct=True)
     assert provider._proxy_get("https://prehraj.to/hledej/test").text == "ok"
+
+
+def test_exported_prehrajto_source_is_resolved_before_live_search(
+    film, fixtures, monkeypatch
+):
+    source_url = "https://prehrajto.cz/pelisky-1999-czdab/abc12345"
+    film = replace(
+        film,
+        sources=(
+            {
+                "provider": "prehrajto",
+                "external_id": "abc12345",
+                "title": "Pelíšky (1999) CZdab",
+                "duration_sec": 6900,
+                "audio_lang": "cs",
+                "is_alive": True,
+                "metadata": {"url": source_url},
+            },
+        ),
+    )
+    calls = []
+    provider = PrehrajtoProvider("proxy", "key", requests.Session())
+    provider._proxy_get = lambda url: (
+        calls.append(url)
+        or SimpleNamespace(text=(fixtures / "prehrajto_detail.html").read_text())
+    )
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.providers.prehrajto.detect_audio_language",
+        lambda *_args, **_kwargs: AudioEvidence(None, "unknown", 0.0),
+    )
+
+    candidates = provider.discover(film)
+
+    assert calls == [source_url]
+    assert candidates[0].source_id == "abc12345"
+    assert candidates[0].resolution == 1080
+    assert candidates[0].audio_language == "cs"
+
+
+def test_catalog_source_rejects_wrong_title_even_with_stable_film_link(film):
+    film = replace(
+        film,
+        sources=(
+            {
+                "provider": "prehrajto",
+                "external_id": "wrong123",
+                "title": "Completely Different Film (1999) CZdab",
+                "duration_sec": 6900,
+                "audio_lang": "cs",
+                "is_alive": True,
+                "metadata": {"url": "https://prehraj.to/wrong/wrong123"},
+            },
+        ),
+    )
+    candidate = PrehrajtoProvider._catalog_candidates(film)[0]
+    assert candidate.match_tier == MatchTier.REJECT
+    assert candidate.match_evidence["rejection_reason"] == "title_mismatch"
 
 
 def test_vtt_conversion_supports_short_timestamps():

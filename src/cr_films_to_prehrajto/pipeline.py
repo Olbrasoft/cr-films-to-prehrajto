@@ -31,6 +31,7 @@ class HybridPipeline:
         transfer=None,
         historical=None,
         defer_processing_verification: bool = False,
+        discovery_version: str | None = None,
     ):
         self.prehrajto = prehrajto
         self.sktorrent = sktorrent
@@ -39,6 +40,7 @@ class HybridPipeline:
         self.transfer = transfer
         self.historical = historical or {}
         self.defer_processing_verification = defer_processing_verification
+        self.discovery_version = discovery_version
         self._candidates: dict[int, list] = {}
         self._subtitle_repairs: dict[int, str] = {}
         self._inventory_by_id = {str(item.video_id): item for item in inventory}
@@ -81,7 +83,7 @@ class HybridPipeline:
             if self.state.uploaded(film.cr_film_id):
                 continue
             if skip_exhausted_snapshot and self.state.discovery_exhausted_for_snapshot(
-                film.cr_film_id
+                film.cr_film_id, self.discovery_version
             ):
                 continue
             partial = self.state.pending_partial_upload(film.cr_film_id)
@@ -162,6 +164,7 @@ class HybridPipeline:
                         "status": "no_acceptable_source",
                         "permanent": False,
                         "discovery_exhausted": True,
+                        "discovery_version": self.discovery_version,
                         "reason": "No currently acceptable source was discovered",
                         "candidate_evidence": [
                             candidate.to_dict() for candidate in all_candidates
@@ -261,6 +264,7 @@ class HybridPipeline:
                         "status": "no_acceptable_source",
                         "permanent": False,
                         "discovery_exhausted": False,
+                        "discovery_version": self.discovery_version,
                         "reason": "All currently acceptable candidates were exhausted",
                     },
                 )
