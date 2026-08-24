@@ -8,6 +8,7 @@ from cr_films_to_prehrajto.models import (
     Subtitle,
 )
 from cr_films_to_prehrajto.pipeline import HybridPipeline, validate_limit
+from cr_films_to_prehrajto.providers.prehrajto import ProviderError
 from cr_films_to_prehrajto.state import StateStore
 from cr_films_to_prehrajto.transfer import TransferError
 
@@ -33,6 +34,11 @@ class Provider:
     def discover(self, film):
         self.calls += 1
         return list(self.rows)
+
+
+class FailingProvider:
+    def discover(self, film):
+        raise ProviderError("Proxy HTTP 429")
 
 
 class Transfer:
@@ -80,6 +86,18 @@ def test_sk_is_called_only_as_fallback(tmp_path, film):
     ).build_plan([film], 1)
     assert plan[0]["selected"]["provider"] == "sktorrent"
     assert sk.calls == 1
+
+
+def test_transient_prehrajto_failure_falls_back_to_sk(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    sk = Provider([acceptable("sktorrent", "s1")])
+    plan = HybridPipeline(
+        prehrajto=FailingProvider(), sktorrent=sk, inventory=[], state=state
+    ).build_plan([film], 1)
+    assert plan[0]["selected"]["provider"] == "sktorrent"
+    assert plan[0]["provider_errors"] == [
+        {"provider": "prehrajto", "reason": "Proxy HTTP 429"}
+    ]
 
 
 def test_one_source_failure_advances_to_next(tmp_path, film):

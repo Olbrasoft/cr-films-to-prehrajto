@@ -265,30 +265,39 @@ class PrehrajtoProvider:
     proxy_key: str
     session: requests.Session
     min_gap_seconds: float = 0.0
+    max_rate_limit_retries: int = 2
     use_whisper: bool = False
     _last_request: float = 0.0
 
     def _proxy_get(self, url: str):
         if not self.proxy_url or not self.proxy_key:
             raise ProviderError("CZ proxy configuration is required")
-        wait = self.min_gap_seconds - (time.monotonic() - self._last_request)
-        if wait > 0:
-            time.sleep(wait)
-        try:
-            response = self.session.get(
-                self.proxy_url,
-                params={"key": self.proxy_key, "url": url},
-                timeout=30,
-            )
-        except requests.RequestException as error:
-            # requests includes the prepared URL (and therefore proxy key) in
-            # exception text. Never propagate that text to public CI logs.
-            raise ProviderError(
-                f"CZ proxy request failed ({type(error).__name__})"
-            ) from None
-        self._last_request = time.monotonic()
+        for attempt in range(self.max_rate_limit_retries + 1):
+            wait = self.min_gap_seconds - (time.monotonic() - self._last_request)
+            if wait > 0:
+                time.sleep(wait)
+            try:
+                response = self.session.get(
+                    self.proxy_url,
+                    params={"key": self.proxy_key, "url": url},
+                    timeout=30,
+                )
+            except requests.RequestException as error:
+                # requests includes the prepared URL (and therefore proxy key) in
+                # exception text. Never propagate that text to public CI logs.
+                raise ProviderError(
+                    f"CZ proxy request failed ({type(error).__name__})"
+                ) from None
+            self._last_request = time.monotonic()
+            if response.status_code != 429 or attempt == self.max_rate_limit_retries:
+                break
+            retry_after = response.headers.get("Retry-After", "")
+            delay = int(retry_after) if retry_after.isdigit() else 15 * (attempt + 1)
+            time.sleep(min(delay, 60))
         if response.status_code == 404:
             raise ProviderError("Source not found", permanent=True)
+        if response.status_code == 429:
+            raise ProviderError("Proxy HTTP 429")
         if response.status_code >= 500:
             raise ProviderError(f"Proxy HTTP {response.status_code}")
         if response.status_code >= 400:
