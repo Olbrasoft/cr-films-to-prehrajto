@@ -30051,7 +30051,79 @@
         },
         "at": "2026-08-24T23:03:37.777584+00:00"
       }
+    },
+    "26803": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61153da11bb5f",
+              "url": "https://prehraj.to/krasny-kluk-drama-beautiful-boy-2018-480p-web-dl-x264-ddp-5-1-cz/61153da11bb5f",
+              "title": "Krásny kluk - Dráma - Beautiful.Boy.2018.480p.WEB-DL.x264.DDP.5.1.CZ",
+              "year": null,
+              "duration_sec": 7214,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 23.047,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66e031b6da777",
+              "url": "https://prehraj.to/zaskoceni-laskou-jennifer-aniston-steve-zahn-woody-harrelson-komedie-drama-romanticky-2008-cz-dab/66e031b6da777",
+              "title": "Zaskočení láskou - Jennifer Aniston Steve Zahn Woody…",
+              "year": null,
+              "duration_sec": 5613,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 17.71,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Doody Drama (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T23:04:17.791563+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "doody-drama",
+        "title": "Doody Drama",
+        "original_title": null,
+        "year": 2018,
+        "runtime_min": 5,
+        "tmdb_id": 1145570,
+        "imdb_id": "tt12799104",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:03:57.755742+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T23:03:56.334140+00:00"
+  "updated_at": "2026-08-24T23:04:17.791586+00:00"
 }
