@@ -398,7 +398,9 @@ class PrehrajtoProvider:
                 variants, subtitles, detail_duration = parse_detail_html(
                     self._proxy_get(candidate.url).text
                 )
-            except ProviderError:
+            except ProviderError as error:
+                if not error.permanent:
+                    raise
                 continue
             candidate.resolution, candidate.stream_url = max(
                 variants, key=lambda item: item[0]
@@ -543,7 +545,12 @@ class PrehrajtoProvider:
                         query=query,
                     ),
                 )
-        return self._resolve_candidates(film, list(discovered.values()))
+        live_candidates = self._resolve_candidates(film, list(discovered.values()))
+        combined = {
+            candidate.source_id: candidate
+            for candidate in [*catalog_candidates, *live_candidates]
+        }
+        return list(combined.values())
 
 
 def upload_video(

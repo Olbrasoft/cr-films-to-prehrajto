@@ -110,6 +110,22 @@ def test_transient_prehrajto_failure_falls_back_to_sk(tmp_path, film):
     ]
 
 
+def test_transient_discovery_failure_is_not_marked_exhausted(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    state.set_snapshot("snapshot-1", None)
+    pipeline = HybridPipeline(
+        prehrajto=FailingProvider(),
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+        discovery_version="v1",
+    )
+    assert pipeline.build_plan(
+        [film], 1, maximum=20, skip_exhausted_snapshot=True
+    ) == []
+    assert not state.discovery_exhausted_for_snapshot(film.cr_film_id, "v1")
+
+
 def test_sk_search_decode_failure_returns_no_candidates(film):
     class BrokenSession:
         def get(self, *args, **kwargs):

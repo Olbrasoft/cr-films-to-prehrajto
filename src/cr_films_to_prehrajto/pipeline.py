@@ -163,7 +163,7 @@ class HybridPipeline:
                     {
                         "status": "no_acceptable_source",
                         "permanent": False,
-                        "discovery_exhausted": True,
+                        "discovery_exhausted": not provider_errors,
                         "discovery_version": self.discovery_version,
                         "reason": "No currently acceptable source was discovered",
                         "candidate_evidence": [
