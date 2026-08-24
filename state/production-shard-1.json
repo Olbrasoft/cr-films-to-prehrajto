@@ -10885,7 +10885,131 @@
         },
         "at": "2026-08-24T16:14:51.542612+00:00"
       }
+    },
+    "29113": {
+      "attempts": [],
+      "identity": {
+        "slug": "cesta-vikingu",
+        "title": "Cesta Vikingů",
+        "original_title": "Viking Quest",
+        "year": 2014,
+        "runtime_min": 88,
+        "tmdb_id": 317960,
+        "imdb_id": "tt4155144",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25022611",
+          "account_name": "Království Vikingů (2013) CZ Dabing",
+          "title_similarity": 0.556,
+          "title_contains_alias": false,
+          "film_year": 2014,
+          "candidate_year": 2013,
+          "year_match": true,
+          "film_runtime_min": 88,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T16:15:33.790215+00:00"
+      }
+    },
+    "29103": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5d2b0d188d266",
+              "url": "https://prehraj.to/pomsta-hrisnice-2-cz-dab-2014-jad/5d2b0d188d266",
+              "title": "Pomsta hříšnice 2-cz dab,-2014-jad",
+              "year": null,
+              "duration_sec": 7145,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.29,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ba4a4a2085ab",
+              "url": "https://prehraj.to/halo-4-akcni-sci-fi-cz-titulky-2014-jad/5ba4a4a2085ab",
+              "title": "Halo 4-Akční-Sci-Fi-cz titulky-2014-jad",
+              "year": null,
+              "duration_sec": 5483,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.757,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d36dfaa0719e",
+              "url": "https://prehraj.to/pomsta-hrisnice-2-cz-dab-2014-jad/5d36dfaa0719e",
+              "title": "Pomsta hříšnice 2-cz dab,-2014-jad",
+              "year": null,
+              "duration_sec": 7145,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.29,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:16:11.670582+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "jadrna-historie-jadernych-bomb",
+        "title": "Jadrná historie jaderných bomb",
+        "original_title": "A Short History of Nuclear Folly",
+        "year": 2014,
+        "runtime_min": 52,
+        "tmdb_id": 376832,
+        "imdb_id": "tt4107860",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:15:33.790274+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:15:31.100344+00:00"
+  "updated_at": "2026-08-24T16:16:11.670603+00:00"
 }
