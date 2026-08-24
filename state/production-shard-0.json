@@ -7745,6 +7745,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:05:15.172140+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c50ac8f97681",
+              "url": "https://prehraj.to/serialy-zahranicne-voyo-sk-videoarchiv-televizie-markiza-s-jedinecnou-ponukou-filmov-serialov-a-relacii-dila-ii-48-28-01-2019-katikaa/5c50ac8f97681",
+              "title": "Seriály zahraničné - Voyo.sk - Videoarchív televízie Markíza s jedinečnou ponukou filmov, seriálov a relácií - Dila II. 48 - 28.01.2019 (KATIKAA)",
+              "year": null,
+              "duration_sec": 4069,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.139,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 4069,
+                "runtime_delta": 0.348,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T15:51:24.494073+00:00"
         }
       ],
       "identity": {
@@ -7763,7 +7801,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:04:56.200826+00:00"
+        "at": "2026-08-24T15:50:46.066627+00:00"
       }
     },
     "29658": {
@@ -8970,5 +9008,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T15:50:43.267667+00:00"
+  "updated_at": "2026-08-24T15:51:24.494094+00:00"
 }
