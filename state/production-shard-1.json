@@ -20654,7 +20654,67 @@
         },
         "at": "2026-08-24T17:01:27.931399+00:00"
       }
+    },
+    "27407": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55a49b188e1be",
+              "url": "https://prehraj.to/serge-gainsbourg-heroicky-zivot-cz-upload-ch-daniels-2010/55a49b188e1be",
+              "title": "Serge-Gainsbourg---Heroický-život-CZ-(upload-Ch.Daniels)-2010",
+              "year": null,
+              "duration_sec": 7779,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.266,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2010,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7779,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T17:02:05.383875+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sergeant-keroro-the-super-duper-movie-5-creation-ultimate-keroro-wonder-space-time-island",
+        "title": "Sergeant Keroro The Super Duper Movie 5: Creation! Ultimate Keroro, Wonder Space-Time Island",
+        "original_title": "Sergeant Keroro The Super Duper Movie 5: Creation! Ultimate Keroro, Wonder Space-Time Island",
+        "year": 2010,
+        "runtime_min": null,
+        "tmdb_id": 235289,
+        "imdb_id": "tt1606599",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T17:01:46.822564+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T17:01:45.206830+00:00"
+  "updated_at": "2026-08-24T17:02:05.383895+00:00"
 }
