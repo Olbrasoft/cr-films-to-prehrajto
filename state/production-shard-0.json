@@ -20087,7 +20087,70 @@
         },
         "at": "2026-08-24T22:21:32.485197+00:00"
       }
+    },
+    "28662": {
+      "attempts": [],
+      "identity": {
+        "slug": "bibi-tina-der-film",
+        "title": "Bibi & Tina - Der Film",
+        "original_title": "Bibi & Tina",
+        "year": 2014,
+        "runtime_min": 100,
+        "tmdb_id": 248601,
+        "imdb_id": "tt3202200",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25175848",
+          "account_name": "Bibi a Tina: Zmatená a okouzlená (2014) CZ Dabing",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2014,
+          "candidate_year": 2014,
+          "year_match": true,
+          "film_runtime_min": 100,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-24T22:22:04.872978+00:00"
+      }
+    },
+    "28660": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:22:43.670248+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "persona3-the-movie-1-spring-of-birth",
+        "title": "PERSONA3 THE MOVIE —#1 Spring of Birth—",
+        "original_title": "Persona 3 the Movie: #1 Spring of Birth",
+        "year": 2013,
+        "runtime_min": 98,
+        "tmdb_id": 212153,
+        "imdb_id": "tt3198652",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:22:04.873327+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:21:52.695991+00:00"
+  "updated_at": "2026-08-24T22:22:43.670268+00:00"
 }
