@@ -22271,9 +22271,10 @@
       "reconciliation": {
         "status": "missing",
         "evidence": {
-          "method": "no_confident_account_match"
+          "method": "partial_upload_requires_subtitle_repair",
+          "target_video_id": "28792171"
         },
-        "at": "2026-08-24T16:50:04.592401+00:00"
+        "at": "2026-08-24T22:32:37.510766+00:00"
       }
     },
     "27893": {
@@ -22340,6 +22341,16 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:51:10.025675+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:33:41.400007+00:00"
         }
       ],
       "identity": {
@@ -22358,7 +22369,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:50:58.625692+00:00"
+        "at": "2026-08-24T22:33:25.048344+00:00"
       }
     },
     "27879": {
@@ -25579,5 +25590,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T22:32:34.034266+00:00"
+  "updated_at": "2026-08-24T22:33:41.400029+00:00"
 }
