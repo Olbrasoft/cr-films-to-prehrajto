@@ -28921,7 +28921,139 @@
         },
         "at": "2026-08-24T22:53:39.579537+00:00"
       }
+    },
+    "26989": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58698a6f63bf6",
+              "url": "https://prehraj.to/apartment-1303-cz-titulky-horor-japonsko-2007/58698a6f63bf6",
+              "title": "Apartment-1303-CZ-Titulky-Horor,-Japonsko,-2007",
+              "year": null,
+              "duration_sec": 5795,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.073,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c03253d22812",
+              "url": "https://prehraj.to/small-apartments/5c03253d22812",
+              "title": "Small Apartments",
+              "year": null,
+              "duration_sec": 5761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.002,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Small Apartment (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b440698242e",
+              "url": "https://prehraj.to/small-apartments-2012-matt-lucas-johnny-knoxville/58b440698242e",
+              "title": "Small-Apartments-2012-Matt-Lucas,-Johnny-Knoxville...",
+              "year": null,
+              "duration_sec": 5761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Small Apartment (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5abe76b7ae456",
+              "url": "https://prehraj.to/small-apartments-2012/5abe76b7ae456",
+              "title": "Small Apartments (2012)",
+              "year": null,
+              "duration_sec": 5761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Small Apartment (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9a156f93d9bc72fe",
+              "url": "https://prehraj.to/secret-mall-apartment-2024-en/9a156f93d9bc72fe",
+              "title": "Secret Mall Apartment - 2024 EN",
+              "year": null,
+              "duration_sec": 5522,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Small Apartment (2007)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T22:54:21.977491+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "small-apartment",
+        "title": "Small Apartment",
+        "original_title": null,
+        "year": 2007,
+        "runtime_min": 8,
+        "tmdb_id": 478115,
+        "imdb_id": "tt1353037",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T22:54:01.903094+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T22:54:00.518802+00:00"
+  "updated_at": "2026-08-24T22:54:21.977510+00:00"
 }
