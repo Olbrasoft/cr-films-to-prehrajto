@@ -114,9 +114,7 @@ class HybridPipeline:
                 )
             except ProviderError as error:
                 prehraj_candidates = []
-                provider_errors.append(
-                    {"provider": "prehrajto", "reason": str(error)}
-                )
+                provider_errors.append({"provider": "prehrajto", "reason": str(error)})
             ranked = rank_candidates(prehraj_candidates)
             all_candidates = list(prehraj_candidates)
             if not ranked and repair_provider in (None, "sktorrent"):
@@ -149,11 +147,12 @@ class HybridPipeline:
                         ],
                     },
                 )
+                continue
             plan.append(
                 {
                     "film": film.to_dict(),
                     "reconciliation": {"status": status.value, "evidence": evidence},
-                    "selected": selected.to_dict() if selected else None,
+                    "selected": selected.to_dict(),
                     "subtitle_handling": (
                         "external Czech track will be uploaded and verified"
                         if selected
