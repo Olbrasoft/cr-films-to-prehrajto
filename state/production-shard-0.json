@@ -7458,11 +7458,21 @@
         "added_at": "2026-04-20 22:32:43.318708+02:00"
       },
       "reconciliation": {
-        "status": "missing",
+        "status": "preexisting_on_account",
         "evidence": {
-          "method": "no_confident_account_match"
+          "method": "title_year_runtime",
+          "target_video_id": "28790525",
+          "account_name": "Louskáček - Divadlo Mariinsky (2012) (2012) CZ Dabing",
+          "title_similarity": 0.613,
+          "title_contains_alias": false,
+          "film_year": 2013,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 59,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
         },
-        "at": "2026-08-24T15:48:36.940967+00:00"
+        "at": "2026-08-24T21:51:28.801973+00:00"
       }
     },
     "29762": {
@@ -7624,6 +7634,16 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:49:35.766520+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T21:52:06.137453+00:00"
         }
       ],
       "identity": {
@@ -7642,7 +7662,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:49:08.216670+00:00"
+        "at": "2026-08-24T21:51:28.803308+00:00"
       }
     },
     "29728": {
@@ -16700,5 +16720,5 @@
       }
     }
   },
-  "updated_at": "2026-08-24T21:51:25.153523+00:00"
+  "updated_at": "2026-08-24T21:52:06.137473+00:00"
 }
