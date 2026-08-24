@@ -135,6 +135,29 @@ def test_sk_search_decode_failure_returns_no_candidates(film):
     assert provider.discover(film) == []
 
 
+def test_sk_cdn_edges_are_probed_in_parallel_batches():
+    class Response:
+        def __init__(self, ok):
+            self.status_code = 200 if ok else 404
+            self.headers = {"Content-Length": "2000000" if ok else "0"}
+
+    class Session:
+        def __init__(self):
+            self.calls = []
+
+        def head(self, url, **_kwargs):
+            self.calls.append(url)
+            return Response("online3.sktorrent.eu" in url)
+
+    session = Session()
+    provider = SkTorrentProvider(session)
+    resolved = provider._resolve_cdn(
+        "https://online.sktorrent.eu/media/videos//h264/42_720p.mp4"
+    )
+    assert resolved == "https://online3.sktorrent.eu/media/videos//h264/42_720p.mp4"
+    assert len(session.calls) == 8
+
+
 def test_pilot_limit_counts_only_films_with_sources(tmp_path, film):
     first = replace(film, added_at="2026-02-01T00:00:00Z")
     second = replace(

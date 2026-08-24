@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 
 import requests
@@ -90,22 +91,33 @@ class SkTorrentProvider:
     session: requests.Session
     use_whisper: bool = False
 
+    def _probe_cdn(self, candidate: str) -> bool:
+        try:
+            response = self.session.head(
+                candidate,
+                headers={"Referer": "https://sktorrent.eu/"},
+                timeout=8,
+                allow_redirects=True,
+            )
+        except requests.RequestException:
+            return False
+        return (
+            response.status_code in (200, 206)
+            and int(response.headers.get("Content-Length", "0")) > 1_000_000
+        )
+
     def _resolve_cdn(self, url: str) -> str | None:
-        for candidate in cdn_candidates(url):
-            try:
-                response = self.session.head(
-                    candidate,
-                    headers={"Referer": "https://sktorrent.eu/"},
-                    timeout=8,
-                    allow_redirects=True,
-                )
-            except requests.RequestException:
-                continue
-            if (
-                response.status_code in (200, 206)
-                and int(response.headers.get("Content-Length", "0")) > 1_000_000
-            ):
-                return candidate
+        candidates = list(cdn_candidates(url))
+        # Probe bounded batches concurrently. This retains deterministic edge
+        # preference while reducing the worst case from 31 * 8 seconds to
+        # four 8-second batches.
+        for offset in range(0, len(candidates), 8):
+            batch = candidates[offset : offset + 8]
+            with ThreadPoolExecutor(max_workers=len(batch)) as executor:
+                results = list(executor.map(self._probe_cdn, batch))
+            for candidate, available in zip(batch, results, strict=True):
+                if available:
+                    return candidate
         return None
 
     def _from_source(self, film: Film, source: dict) -> Candidate | None:
