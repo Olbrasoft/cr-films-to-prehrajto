@@ -30123,7 +30123,115 @@
         },
         "at": "2026-08-24T23:03:57.755742+00:00"
       }
+    },
+    "26799": {
+      "attempts": [],
+      "identity": {
+        "slug": "tajemstvi-rodinneho-sidla",
+        "title": "Tajemství rodinného sídla",
+        "original_title": "Secrets of the Summer House",
+        "year": 2008,
+        "runtime_min": 86,
+        "tmdb_id": 70177,
+        "imdb_id": "tt1277733",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:04:19.717684+00:00"
+      }
+    },
+    "26775": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "609daa6eeb66b",
+              "url": "https://prehraj.to/covid-19-koronavirus-film-cz-dabing-2020/609daa6eeb66b",
+              "title": "COVID-19 (KORONAVIRUS) - FILM CZ DABING 2020",
+              "year": null,
+              "duration_sec": 4834,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.312,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 78,
+                "candidate_runtime_sec": 4834,
+                "runtime_delta": 0.033,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f7031dbe513e",
+              "url": "https://prehraj.to/covid-19-svet-v-ohrozeni-2020-discovery-channel-hd/5f7031dbe513e",
+              "title": "Covid-19 - Svět v ohrozění 2020 (Discovery Channel HD)",
+              "year": null,
+              "duration_sec": 3967,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.247,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 78,
+                "candidate_runtime_sec": 3967,
+                "runtime_delta": 0.152,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T23:05:23.020199+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "all-in-washington-a-concert-for-covid-19-relief",
+        "title": "All in Washington: A Concert for COVID-19 Relief",
+        "original_title": null,
+        "year": 2020,
+        "runtime_min": 78,
+        "tmdb_id": 792146,
+        "imdb_id": "tt12635378",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T23:05:16.306747+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T23:04:17.791586+00:00"
+  "updated_at": "2026-08-24T23:05:23.020220+00:00"
 }
