@@ -8940,7 +8940,60 @@
         },
         "at": "2026-08-24T16:10:16.978257+00:00"
       }
+    },
+    "29333": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "658845ba4d005",
+              "url": "https://prehraj.to/wasabi-2xcz-sk-fr-2001-1080p-ac3-2-0-5-1-dts-hd-bd-remux/658845ba4d005",
+              "title": "Wasabi.2xCZ.SK.FR.2001.1080p.AC3-2.0-5.1.DTS.HD.BD-Remux",
+              "year": null,
+              "duration_sec": 5630,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.182,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-24T16:10:53.398142+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "r-e-m-mtv-unplugged-no-2-0",
+        "title": "R.E.M.: MTV Unplugged No. 2.0",
+        "original_title": null,
+        "year": 2001,
+        "runtime_min": 43,
+        "tmdb_id": 797131,
+        "imdb_id": "tt5201684",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-24T16:10:34.652967+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-24T16:10:33.236182+00:00"
+  "updated_at": "2026-08-24T16:10:53.398162+00:00"
 }
