@@ -39642,7 +39642,39 @@
         },
         "at": "2026-08-25T15:31:20.727146+00:00"
       }
+    },
+    "25618": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:31:23.602607+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "paragraph-78-film-one",
+        "title": "Paragraph 78: Film One",
+        "original_title": "Paragraph 78: Film One",
+        "year": 2007,
+        "runtime_min": 88,
+        "tmdb_id": 53086,
+        "imdb_id": "tt0459924",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:31:23.014903+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:31:21.443337+00:00"
+  "updated_at": "2026-08-25T15:31:23.602627+00:00"
 }
