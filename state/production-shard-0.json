@@ -41530,7 +41530,67 @@
         },
         "at": "2026-08-25T15:33:22.740076+00:00"
       }
+    },
+    "24546": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b69c94d23be",
+              "url": "https://prehraj.to/recept-na-rozloucenou-cs-drama-1989-tvrip/55b69c94d23be",
+              "title": "Recept-na-rozloucenou-CS-drama-1989-TVrip",
+              "year": null,
+              "duration_sec": 3805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.264,
+                "title_contains_alias": false,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 77,
+                "candidate_runtime_sec": 3805,
+                "runtime_delta": 0.176,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:33:28.971271+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "la-reception",
+        "title": "La réception",
+        "original_title": "The Reception",
+        "year": 1989,
+        "runtime_min": 77,
+        "tmdb_id": 390420,
+        "imdb_id": "tt0246207",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:33:25.348314+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:33:23.242462+00:00"
+  "updated_at": "2026-08-25T15:33:28.971291+00:00"
 }
