@@ -38823,6 +38823,42 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:56:47.512526+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "16439",
+              "url": "https://online.sktorrent.eu/video/16439/",
+              "title": "Upcoming Remake of 'Riders of Justice'",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:05:19.473537+00:00"
         }
       ],
       "identity": {
@@ -38841,7 +38877,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:56:37.062991+00:00"
+        "at": "2026-08-25T15:05:18.585683+00:00"
       }
     },
     "16845": {
@@ -40572,5 +40608,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:05:16.989421+00:00"
+  "updated_at": "2026-08-25T15:05:19.473550+00:00"
 }
