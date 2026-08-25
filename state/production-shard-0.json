@@ -20242,6 +20242,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:23:41.422837+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "618da39fc8474",
+              "url": "https://prehraj.to/host-2014-cztitulky/618da39fc8474",
+              "title": "Host (2014) CZtitulky",
+              "year": null,
+              "duration_sec": 6025,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 6025,
+                "runtime_delta": 0.016,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:40:06.339060+00:00"
         }
       ],
       "identity": {
@@ -20260,7 +20298,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:23:40.885606+00:00"
+        "at": "2026-08-25T15:38:31.559016+00:00"
       }
     },
     "28706": {
@@ -43814,5 +43852,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:38:29.834980+00:00"
+  "updated_at": "2026-08-25T15:40:06.339079+00:00"
 }
