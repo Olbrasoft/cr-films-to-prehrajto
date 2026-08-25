@@ -41552,6 +41552,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:04:40.192869+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "610c47759b35f",
+              "url": "https://prehraj.to/hotel-snu-06-indie-2006-czdab/610c47759b35f",
+              "title": "Hotel snů 06 - Indie (2006) CZdab",
+              "year": null,
+              "duration_sec": 5374,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.38,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 161,
+                "candidate_runtime_sec": 5374,
+                "runtime_delta": 0.444,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:08:18.488123+00:00"
         }
       ],
       "identity": {
@@ -41570,7 +41608,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:04:39.727973+00:00"
+        "at": "2026-08-25T15:08:17.799416+00:00"
       }
     },
     "26239": {
@@ -41778,5 +41816,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:08:15.680277+00:00"
+  "updated_at": "2026-08-25T15:08:18.488133+00:00"
 }
