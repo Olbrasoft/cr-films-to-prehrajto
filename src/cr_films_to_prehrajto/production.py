@@ -13,7 +13,7 @@ from .state import StateStore, now_iso
 
 
 class GitStatePusher:
-    def __init__(self, state_path: Path, shard_id: int, retries: int = 5):
+    def __init__(self, state_path: Path, shard_id: int, retries: int = 30):
         self.state_path = state_path
         self.shard_id = shard_id
         self.retries = retries
@@ -45,8 +45,15 @@ class GitStatePusher:
                 return
             pull = self._run("pull", "--rebase", "origin", "main")
             if pull.returncode != 0:
-                raise RuntimeError("Could not rebase production state")
-            time.sleep(attempt + 1)
+                # Another shard can update main while the rebase is running.
+                # Retry the complete fetch/rebase/push cycle instead of
+                # aborting the production job on a transient race.
+                time.sleep(min(attempt + 1, 10))
+                continue
+            # Give the other shard a short window to finish its push.  The
+            # bounded backoff prevents two fast shards from starving each
+            # other while keeping state persistence crash-safe.
+            time.sleep(min(attempt + 1, 10))
         raise RuntimeError("Could not push production state after retries")
 
 
