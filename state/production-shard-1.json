@@ -31771,6 +31771,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:02:14.965095+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "1c51cbb334285e76",
+              "url": "https://prehraj.to/pose-2025-1080p-amzn-web-dl-ddp5-1-h-264-flux/1c51cbb334285e76",
+              "title": "Pose.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX",
+              "year": null,
+              "duration_sec": 4803,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.216,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 4803,
+                "runtime_delta": 0.207,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4a9f9192883d6843",
+              "url": "https://prehraj.to/black-phone-2-2025-1080p-ma-web-dl-ddp5-1-atmos-h-264-flux-mkv/4a9f9192883d6843",
+              "title": "Black Phone 2 2025 1080p MA WEB-DL DDP5 1 Atmos H 264-FLUX.mkv",
+              "year": null,
+              "duration_sec": 6836,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.148,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 6836,
+                "runtime_delta": 0.128,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:06:13.567324+00:00"
         }
       ],
       "identity": {
@@ -31789,7 +31854,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:02:14.454661+00:00"
+        "at": "2026-08-25T15:06:13.127773+00:00"
       }
     },
     "27007": {
@@ -40855,5 +40920,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:06:11.552840+00:00"
+  "updated_at": "2026-08-25T15:06:13.567337+00:00"
 }
