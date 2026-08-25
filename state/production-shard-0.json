@@ -42343,7 +42343,67 @@
         },
         "at": "2026-08-25T15:34:22.560016+00:00"
       }
+    },
+    "24284": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b61b44b65a8",
+              "url": "https://prehraj.to/petka-s-hvezdickou-1985/58b61b44b65a8",
+              "title": "Pětka-s-hvězdičkou-(1985)",
+              "year": null,
+              "duration_sec": 4434,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.45,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 4434,
+                "runtime_delta": 0.188,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:34:26.255405+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "od-petka-do-petka",
+        "title": "Od petka do petka",
+        "original_title": "From One Friday to the Next",
+        "year": 1985,
+        "runtime_min": 91,
+        "tmdb_id": 444115,
+        "imdb_id": "tt0182347",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:34:25.651199+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:34:24.158913+00:00"
+  "updated_at": "2026-08-25T15:34:26.255424+00:00"
 }
