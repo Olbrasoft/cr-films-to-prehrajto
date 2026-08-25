@@ -154,7 +154,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T06:37:43.829059+00:00"
+        "at": "2026-08-25T06:42:05.286316+00:00"
       }
     },
     "29887": {
@@ -4341,7 +4341,7 @@
             }
           ]
         },
-        "at": "2026-08-25T06:23:43.899004+00:00"
+        "at": "2026-08-25T06:42:05.303959+00:00"
       }
     },
     "29785": {
@@ -5960,6 +5960,77 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T21:55:26.229720+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5847de8e3204e",
+              "url": "https://prehraj.to/testament-mladi-cz-dabing-csfd-77-valecny-historicky-2014/5847de8e3204e",
+              "title": "Testament-mladi-cz-dabing.csfd-77-valecny..historicky-2014",
+              "year": null,
+              "duration_sec": 7718,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.569,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "562c6ede94c13",
+              "url": "https://prehraj.to/testament-mladi-2014-480p-bdrip-xvid-cz-by-deejay-snoopy77/562c6ede94c13",
+              "title": "Testament-mladi-2014-480p.BDRip.XViD.CZ.-by-DeeJay-Snoopy77",
+              "year": null,
+              "duration_sec": 7784,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.582,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "562c705738f9b",
+              "url": "https://prehraj.to/testament-mladi-2014-480p-bdrip-xvid-cz-by-deejay-snoopy77/562c705738f9b",
+              "title": "Testament-mladi-2014-480p.BDRip.XViD.CZ.-by-DeeJay-Snoopy77",
+              "year": null,
+              "duration_sec": 7784,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.582,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T06:42:18.735492+00:00"
         }
       ],
       "identity": {
@@ -5978,7 +6049,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T21:55:07.606727+00:00"
+        "at": "2026-08-25T06:42:05.304105+00:00"
       }
     },
     "29643": {
@@ -11255,7 +11326,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28786739"
         },
-        "at": "2026-08-25T06:33:31.749858+00:00"
+        "at": "2026-08-25T06:39:59.611024+00:00"
       }
     },
     "29381": {
@@ -19671,7 +19742,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28795601"
         },
-        "at": "2026-08-25T06:34:38.290332+00:00"
+        "at": "2026-08-25T06:40:51.789682+00:00"
       }
     },
     "28451": {
@@ -26374,7 +26445,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28796436"
         },
-        "at": "2026-08-25T06:35:35.118732+00:00"
+        "at": "2026-08-25T06:41:48.691142+00:00"
       }
     },
     "27389": {
@@ -29358,7 +29429,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28796669"
         },
-        "at": "2026-08-25T06:35:43.409692+00:00"
+        "at": "2026-08-25T06:41:56.979135+00:00"
       }
     },
     "26993": {
@@ -32961,5 +33032,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T06:37:43.829132+00:00"
+  "updated_at": "2026-08-25T06:42:18.735510+00:00"
 }
