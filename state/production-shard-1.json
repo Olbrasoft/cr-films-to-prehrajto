@@ -36850,6 +36850,96 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:20:49.637700+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e9702df899ca",
+              "url": "https://prehraj.to/mortal-kombat-legends-scorpion-s-revenge-animace-2020-480p-x264-s-cz-titulky-84-sten-ok/5e9702df899ca",
+              "title": "Mortal Kombat Legends Scorpion’s Revenge animace 2020.480p…",
+              "year": null,
+              "duration_sec": 4805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4805,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e9702df899ec",
+              "url": "https://prehraj.to/mortal-kombat-legends-scorpion-s-revenge-animace-2020-1080p-5-1-h264-s-cz-titulky-84-sten-ok/5e9702df899ec",
+              "title": "Mortal Kombat Legends Scorpion’s Revenge animace 2020.1080p…",
+              "year": null,
+              "duration_sec": 4805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4805,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "9259",
+              "url": "https://online.sktorrent.eu/video/9259/",
+              "title": "Mortal Kombat Legends: Scorpion's Revenge",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T14:57:33.918552+00:00"
         }
       ],
       "identity": {
@@ -36868,7 +36958,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:20:47.023774+00:00"
+        "at": "2026-08-25T14:57:25.153658+00:00"
       }
     },
     "17167": {
@@ -37063,5 +37153,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T14:57:20.910645+00:00"
+  "updated_at": "2026-08-25T14:57:33.918567+00:00"
 }
