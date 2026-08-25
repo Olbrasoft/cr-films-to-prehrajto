@@ -35218,6 +35218,57 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:03:25.409220+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c1e791c062",
+              "url": "https://prehraj.to/pani-z-monsoreau-2008-dvd2/586c1e791c062",
+              "title": "PANI-Z-MONSOREAU-2008-DVD2",
+              "year": null,
+              "duration_sec": 5465,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.57,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586c1e69221db",
+              "url": "https://prehraj.to/pani-z-monsoreau-2008-dvd1/586c1e69221db",
+              "title": "PANI-Z-MONSOREAU-2008-DVD1",
+              "year": null,
+              "duration_sec": 5743,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.65,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:07:17.353254+00:00"
         }
       ],
       "identity": {
@@ -35236,7 +35287,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:03:23.741649+00:00"
+        "at": "2026-08-25T15:07:16.663588+00:00"
       }
     },
     "26615": {
@@ -41209,5 +41260,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:07:15.058717+00:00"
+  "updated_at": "2026-08-25T15:07:17.353266+00:00"
 }
