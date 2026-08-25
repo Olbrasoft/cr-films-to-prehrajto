@@ -13,7 +13,10 @@ from .transfer import TransferError
 MAX_PILOT_FILMS = 10
 MAX_PRODUCTION_BATCH = 20
 MAX_DISCOVERY_RETRIES_PER_SNAPSHOT = 3
-MAX_PARTIAL_REPAIRS_PER_BATCH = 2
+# Subtitle repairs can require a long remote processing cycle. Keep them out
+# of the production batch's critical path so new films continue to increase
+# the account statistics; pending repairs remain resumable in state.
+MAX_PARTIAL_REPAIRS_PER_BATCH = 0
 
 
 def _has_plausible_catalog_source(film) -> bool:
