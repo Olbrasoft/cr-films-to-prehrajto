@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T18:19:16.521316+00:00"
+        "at": "2026-08-25T18:33:56.792393+00:00"
       }
     },
     "29091": {
@@ -311,7 +311,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T18:19:27.640649+00:00"
+        "at": "2026-08-25T18:33:56.792950+00:00"
       }
     },
     "28619": {
@@ -457,7 +457,7 @@
             }
           ]
         },
-        "at": "2026-08-25T18:19:35.796637+00:00"
+        "at": "2026-08-25T18:33:56.795483+00:00"
       }
     },
     "28443": {
@@ -488,7 +488,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T18:19:35.797139+00:00"
+        "at": "2026-08-25T18:33:56.795981+00:00"
       }
     },
     "28071": {
@@ -633,7 +633,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T18:19:41.186062+00:00"
+        "at": "2026-08-25T18:33:56.796744+00:00"
       }
     },
     "27399": {
@@ -682,7 +682,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T18:33:51.467971+00:00"
       }
+    },
+    "27267": {
+      "attempts": [],
+      "identity": {
+        "slug": "vrazedna-dohoda",
+        "title": "Vražedná dohoda",
+        "original_title": "Breaking the Girls",
+        "year": 2013,
+        "runtime_min": 83,
+        "tmdb_id": 136850,
+        "imdb_id": "tt1510686",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25172417",
+          "account_name": "Svatební dohoda (2014) CZ Dabing",
+          "title_similarity": 0.629,
+          "title_contains_alias": false,
+          "film_year": 2013,
+          "candidate_year": 2014,
+          "year_match": true,
+          "film_runtime_min": 83,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T18:33:56.797991+00:00"
+      }
+    },
+    "27263": {
+      "attempts": [],
+      "identity": {
+        "slug": "film-59",
+        "title": "ಜಾಕಿ ಚಾನ್",
+        "original_title": "Jackie Chan",
+        "year": 1997,
+        "runtime_min": 140,
+        "tmdb_id": 1126583,
+        "imdb_id": "tt15085380",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T18:33:56.798429+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T18:33:51.467988+00:00"
+  "updated_at": "2026-08-25T18:35:41.568181+00:00"
 }
