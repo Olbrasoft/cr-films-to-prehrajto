@@ -13,6 +13,7 @@ import requests
 from cr_films_to_prehrajto.matching import classify_candidate, normalize_title
 from cr_films_to_prehrajto.models import Film, MatchTier
 from cr_films_to_prehrajto.providers.prehrajto import (
+    BASE_URL,
     SEARCH_BASE_URL,
     USER_AGENT,
     parse_search_html,
@@ -44,13 +45,20 @@ def main() -> None:
         hits: dict[str, dict] = {}
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
-            try:
-                response = session.get(
-                    SEARCH_BASE_URL + "/hledej/" + urllib.parse.quote(query, safe=""),
-                    timeout=15,
-                )
-                response.raise_for_status()
-            except requests.RequestException:
+            response = None
+            for search_base in (BASE_URL, SEARCH_BASE_URL):
+                try:
+                    candidate_response = session.get(
+                        search_base + "/hledej/" + urllib.parse.quote(query, safe=""),
+                        timeout=15,
+                    )
+                    candidate_response.raise_for_status()
+                    if parse_search_html(candidate_response.text):
+                        response = candidate_response
+                        break
+                except requests.RequestException:
+                    continue
+            if response is None:
                 continue
             for hit in parse_search_html(response.text):
                 match = classify_candidate(

@@ -20,6 +20,7 @@ from ..ranking import language_tier, rank_candidates
 TARGET_EMAIL = "filmy.prehrajto@post.cz"
 BASE_URL = "https://prehraj.to"
 SEARCH_BASE_URL = "https://prehrajto.cz"
+SEARCH_BASE_URLS = (BASE_URL, SEARCH_BASE_URL)
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/145 Safari/537.36"
 )
@@ -584,10 +585,18 @@ class PrehrajtoProvider:
                 return resolved
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
-            response = self._proxy_get(
-                SEARCH_BASE_URL + "/hledej/" + urllib.parse.quote(query, safe="")
-            )
-            for hit in parse_search_html(response.text):
+            hits = []
+            for search_base in SEARCH_BASE_URLS:
+                try:
+                    response = self._proxy_get(
+                        search_base + "/hledej/" + urllib.parse.quote(query, safe="")
+                    )
+                except ProviderError:
+                    continue
+                hits = parse_search_html(response.text)
+                if hits:
+                    break
+            for hit in hits:
                 match = classify_candidate(
                     film, hit["title"], duration_sec=hit["duration_sec"]
                 )
