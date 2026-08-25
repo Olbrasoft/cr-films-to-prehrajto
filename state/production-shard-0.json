@@ -28708,7 +28708,70 @@
         },
         "at": "2026-08-25T07:14:32.782787+00:00"
       }
+    },
+    "22860": {
+      "attempts": [],
+      "identity": {
+        "slug": "obet-1986",
+        "title": "Oběť",
+        "original_title": "The Sacrifice",
+        "year": 1986,
+        "runtime_min": 149,
+        "tmdb_id": 24657,
+        "imdb_id": "tt0091670",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25411565",
+          "account_name": "Oběť (1986) EN",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 1986,
+          "candidate_year": 1986,
+          "year_match": true,
+          "film_runtime_min": 149,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T07:14:35.311283+00:00"
+      }
+    },
+    "22750": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:14:36.976294+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vitezove",
+        "title": "Vítězové",
+        "original_title": "American Flyers",
+        "year": 1985,
+        "runtime_min": 113,
+        "tmdb_id": 14040,
+        "imdb_id": "tt0088707",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:14:35.311523+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:14:34.054976+00:00"
+  "updated_at": "2026-08-25T07:14:36.976315+00:00"
 }
