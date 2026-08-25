@@ -35872,7 +35872,70 @@
         },
         "at": "2026-08-25T15:27:07.122546+00:00"
       }
+    },
+    "27156": {
+      "attempts": [],
+      "identity": {
+        "slug": "ma-nuit",
+        "title": "Ma nuit",
+        "original_title": "My Night",
+        "year": 2022,
+        "runtime_min": 87,
+        "tmdb_id": 854363,
+        "imdb_id": "tt14369304",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25294002",
+          "account_name": "American Night (2021) CZ Titulky",
+          "title_similarity": 0.519,
+          "title_contains_alias": false,
+          "film_year": 2022,
+          "candidate_year": 2021,
+          "year_match": true,
+          "film_runtime_min": 87,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T15:27:09.088559+00:00"
+      }
+    },
+    "27136": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:27:09.576753+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lava-kusha",
+        "title": "Lava Kusha",
+        "original_title": null,
+        "year": 2007,
+        "runtime_min": null,
+        "tmdb_id": 282633,
+        "imdb_id": "tt14282852",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:27:09.088602+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:27:07.602108+00:00"
+  "updated_at": "2026-08-25T15:27:09.576772+00:00"
 }
