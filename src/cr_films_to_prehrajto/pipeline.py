@@ -13,10 +13,7 @@ from .transfer import TransferError
 MAX_PILOT_FILMS = 10
 MAX_PRODUCTION_BATCH = 20
 MAX_DISCOVERY_RETRIES_PER_SNAPSHOT = 3
-# Subtitle repairs can require a long remote processing cycle. Keep them out
-# of the production batch's critical path so new films continue to increase
-# the account statistics; pending repairs remain resumable in state.
-MAX_PARTIAL_REPAIRS_PER_BATCH = 0
+MAX_PARTIAL_REPAIRS_PER_BATCH = 2
 
 
 def _has_plausible_catalog_source(film) -> bool:
@@ -98,6 +95,7 @@ class HybridPipeline:
         *,
         maximum: int = MAX_PILOT_FILMS,
         skip_exhausted_snapshot: bool = False,
+        partial_repairs: int = MAX_PARTIAL_REPAIRS_PER_BATCH,
     ) -> list[dict]:
         validate_limit(limit, maximum)
         plan = []
@@ -121,9 +119,9 @@ class HybridPipeline:
         # small number of existing videos, but reserve the rest of the batch
         # for genuinely new films so account growth does not stall.
         for film in [
-            *partial_films[:MAX_PARTIAL_REPAIRS_PER_BATCH],
+            *partial_films[:partial_repairs],
             *regular_films,
-            *partial_films[MAX_PARTIAL_REPAIRS_PER_BATCH:],
+            *partial_films[partial_repairs:],
         ]:
             if self.state.uploaded(film.cr_film_id):
                 continue

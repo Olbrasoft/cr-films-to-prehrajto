@@ -209,6 +209,9 @@ def run_production(args) -> int:
             args.limit,
             maximum=MAX_PRODUCTION_BATCH,
             skip_exhausted_snapshot=True,
+            # Keep slow subtitle repairs out of the production batch's
+            # critical path; they remain resumable for a later repair run.
+            partial_repairs=0,
         )
         digest = write_report(plan, args.report, args.plan)
         print(
