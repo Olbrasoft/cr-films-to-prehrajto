@@ -45502,7 +45502,67 @@
         },
         "at": "2026-08-25T15:11:26.854120+00:00"
       }
+    },
+    "24905": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5817f1bc04a4e",
+              "url": "https://prehraj.to/andel-blazene-smrti-cz-1965-drama-tvrip-pro-pametniky/5817f1bc04a4e",
+              "title": "Andel-blazene-smrti-CZ-1965-Drama-TVrip---Pro-pametniky",
+              "year": null,
+              "duration_sec": 4954,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.185,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4954,
+                "runtime_delta": 0.019,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:11:31.737902+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "strakati-andele",
+        "title": "Strakatí andělé",
+        "original_title": null,
+        "year": 1965,
+        "runtime_min": 81,
+        "tmdb_id": 792499,
+        "imdb_id": "tt0318088",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:11:29.850937+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:11:27.627221+00:00"
+  "updated_at": "2026-08-25T15:11:31.737916+00:00"
 }
