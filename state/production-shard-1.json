@@ -34434,7 +34434,39 @@
         },
         "at": "2026-08-25T07:01:22.050273+00:00"
       }
+    },
+    "22515": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:01:26.748599+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "taxi-zum-klo",
+        "title": "Taxi zum Klo",
+        "original_title": null,
+        "year": 1981,
+        "runtime_min": 96,
+        "tmdb_id": 35125,
+        "imdb_id": "tt0081606",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:01:25.769441+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:01:24.434452+00:00"
+  "updated_at": "2026-08-25T07:01:26.748621+00:00"
 }
