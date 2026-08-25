@@ -115,9 +115,9 @@ jobs:
       # Discovery keeps hundreds of verified sources queued, while measured
       # transfers are the bottleneck. Each shard owns a separate state file
       # and GitStatePusher rebases concurrent commits safely.
-      max-parallel: 4
+      max-parallel: 8
       matrix:
-        shard: [0, 1, 2, 3]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
     concurrency:
       group: cr-films-production-shard-${{ matrix.shard }}
       cancel-in-progress: false
@@ -175,7 +175,7 @@ jobs:
           --plan artifacts/production-shard-${{ matrix.shard }}.json
           --limit "${{ inputs.batch_size }}"
           --shard-id "${{ matrix.shard }}"
-          --num-shards 4
+          --num-shards 8
           --push-state
 
       - name: Persist any remaining shard state
@@ -241,6 +241,10 @@ jobs:
           --state state/production-shard-1.json
           --state state/production-shard-2.json
           --state state/production-shard-3.json
+          --state state/production-shard-4.json
+          --state state/production-shard-5.json
+          --state state/production-shard-6.json
+          --state state/production-shard-7.json
           --attempts 10
           --delay-seconds 30
 

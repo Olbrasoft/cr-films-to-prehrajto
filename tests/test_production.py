@@ -159,7 +159,7 @@ def test_production_discovers_and_executes_each_film_incrementally(tmp_path, fil
     assert len(json.loads((tmp_path / "plan.json").read_text())["films"]) == 2
 
 
-def test_production_cli_defaults_to_four_shards():
+def test_production_cli_defaults_to_eight_shards():
     args = build_parser().parse_args(
         [
             "production",
@@ -178,4 +178,4 @@ def test_production_cli_defaults_to_four_shards():
         ]
     )
 
-    assert args.num_shards == 4
+    assert args.num_shards == 8
