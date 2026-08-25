@@ -13,7 +13,8 @@ import requests
 from cr_films_to_prehrajto.matching import classify_candidate, normalize_title
 from cr_films_to_prehrajto.models import Film, MatchTier
 from cr_films_to_prehrajto.providers.prehrajto import (
-    BASE_URL,
+    SEARCH_BASE_URL,
+    USER_AGENT,
     parse_search_html,
 )
 
@@ -30,6 +31,14 @@ def main() -> None:
     if args.limit:
         films = films[: args.limit]
     session = requests.Session()
+    session.headers.update(
+        {
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "cs,en;q=0.8",
+            "Referer": SEARCH_BASE_URL + "/",
+        }
+    )
     result: dict[str, list[dict]] = {}
     for index, film in enumerate(films, 1):
         hits: dict[str, dict] = {}
@@ -37,7 +46,7 @@ def main() -> None:
             query = f"{alias} ({film.year})" if film.year else alias
             try:
                 response = session.get(
-                    BASE_URL + "/hledej/" + urllib.parse.quote(query, safe=""),
+                    SEARCH_BASE_URL + "/hledej/" + urllib.parse.quote(query, safe=""),
                     timeout=15,
                 )
                 response.raise_for_status()

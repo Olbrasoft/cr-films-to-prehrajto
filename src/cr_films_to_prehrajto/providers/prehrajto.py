@@ -19,6 +19,7 @@ from ..ranking import language_tier, rank_candidates
 
 TARGET_EMAIL = "filmy.prehrajto@post.cz"
 BASE_URL = "https://prehraj.to"
+SEARCH_BASE_URL = "https://prehrajto.cz"
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/145 Safari/537.36"
 )
@@ -474,6 +475,11 @@ class PrehrajtoProvider:
         return resolved
 
     def _proxy_get(self, url: str):
+        self.session.headers.setdefault("User-Agent", USER_AGENT)
+        self.session.headers.setdefault(
+            "Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        )
+        self.session.headers.setdefault("Accept-Language", "cs,en;q=0.8")
         if self.allow_direct:
             try:
                 response = self.session.get(url, timeout=30)
@@ -563,7 +569,7 @@ class PrehrajtoProvider:
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
             response = self._proxy_get(
-                BASE_URL + "/hledej/" + urllib.parse.quote(query, safe="")
+                SEARCH_BASE_URL + "/hledej/" + urllib.parse.quote(query, safe="")
             )
             for hit in parse_search_html(response.text):
                 match = classify_candidate(
