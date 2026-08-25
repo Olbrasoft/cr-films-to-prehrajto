@@ -39851,7 +39851,67 @@
         },
         "at": "2026-08-25T15:04:07.312261+00:00"
       }
+    },
+    "26331": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68f54920edbf6",
+              "url": "https://prehraj.to/vcelar-2024-the-beekeeper-4kuhd-x265-cz-en-audio/68f54920edbf6",
+              "title": "Včelař (2024) [The Beekeeper] [4kUHD-x265,CZ,EN Audio]",
+              "year": null,
+              "duration_sec": 6314,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.346,
+                "title_contains_alias": false,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6314,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:04:10.021029+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "age-of-audio",
+        "title": "Age of Audio",
+        "original_title": null,
+        "year": 2024,
+        "runtime_min": null,
+        "tmdb_id": 1372700,
+        "imdb_id": "tt10581486",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:04:09.651709+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:04:07.881757+00:00"
+  "updated_at": "2026-08-25T15:04:10.021045+00:00"
 }
