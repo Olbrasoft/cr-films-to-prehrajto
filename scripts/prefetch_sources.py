@@ -10,7 +10,7 @@ from pathlib import Path
 
 import requests
 
-from cr_films_to_prehrajto.matching import classify_candidate
+from cr_films_to_prehrajto.matching import classify_candidate, normalize_title
 from cr_films_to_prehrajto.models import Film, MatchTier
 from cr_films_to_prehrajto.providers.prehrajto import (
     BASE_URL,
@@ -47,7 +47,18 @@ def main() -> None:
                 match = classify_candidate(
                     film, hit["title"], duration_sec=hit["duration_sec"]
                 )
-                if match.tier in (MatchTier.STRONG, MatchTier.SOLID):
+                normalized_hit = normalize_title(hit["title"])
+                aliases = [
+                    normalize_title(value)
+                    for value in (film.title, film.original_title)
+                    if value
+                ]
+                identity = any(
+                    normalized_hit.startswith(alias) or f" {alias} " in normalized_hit
+                    for alias in aliases
+                    if len(alias) >= 4
+                )
+                if identity and match.tier in (MatchTier.STRONG, MatchTier.SOLID):
                     hits[hit["source_id"]] = hit
             time.sleep(args.delay)
         if hits:
