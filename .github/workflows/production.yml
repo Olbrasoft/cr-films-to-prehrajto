@@ -80,6 +80,9 @@ jobs:
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
           CZ_PROXY_URL: ${{ secrets.CZ_PROXY_URL }}
           CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
+          # The runner can reach current prehraj.to HTML directly; retain the
+          # CZ proxy as the fallback for geofenced responses.
+          PREHRAJTO_ALLOW_DIRECT: "true"
         run: >-
           cr-films-pilot production
           --snapshot state/missing-films.json
