@@ -147,7 +147,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:11:57.299148+00:00"
+        "at": "2026-08-25T22:16:01.266673+00:00"
       }
     },
     "25204": {
@@ -241,7 +241,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:11:57.308794+00:00"
+        "at": "2026-08-25T22:16:01.276244+00:00"
       }
     },
     "24308": {
@@ -306,7 +306,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:11:57.309080+00:00"
+        "at": "2026-08-25T22:16:01.276525+00:00"
       }
     },
     "22860": {
@@ -337,7 +337,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:11:57.310303+00:00"
+        "at": "2026-08-25T22:16:01.277799+00:00"
       }
     },
     "22380": {
@@ -373,7 +373,94 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:15:57.739732+00:00"
       }
+    },
+    "21244": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bd4c80805bb",
+              "url": "https://prehraj.to/tarzan-and-the-leopard-woman-johnny-weissmuller-1946-engsub/55bd4c80805bb",
+              "title": "Tarzan-and-the-Leopard-Woman--Johnny-Weissmuller-(1946)…",
+              "year": null,
+              "duration_sec": 4332,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1946,
+                "candidate_year": 1946,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4332,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "463b5bea2597a897",
+              "url": "https://prehraj.to/tarzan-and-the-leopard-woman-1946-en/463b5bea2597a897",
+              "title": "Tarzan and the Leopard Woman (1946) EN",
+              "year": null,
+              "duration_sec": 4332,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1946,
+                "candidate_year": 1946,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4332,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:16:04.613644+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tarzan-and-the-leopard-woman",
+        "title": "Tarzan and the Leopard Woman",
+        "original_title": null,
+        "year": 1946,
+        "runtime_min": 72,
+        "tmdb_id": 55873,
+        "imdb_id": "tt0039011",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:16:01.277837+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:15:57.739757+00:00"
+  "updated_at": "2026-08-25T22:16:04.613660+00:00"
 }
