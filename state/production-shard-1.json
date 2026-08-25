@@ -45357,7 +45357,120 @@
         },
         "at": "2026-08-25T15:11:21.816606+00:00"
       }
+    },
+    "24923": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "581fb00acbd5c",
+              "url": "https://prehraj.to/drsny-a-drsnejsi-drama-krimi-usa-1986-cz/581fb00acbd5c",
+              "title": "DRSNÝ-A-DRSNĚJŠÍ---drama,krimi--USA--(1986)--cz",
+              "year": null,
+              "duration_sec": 6278,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.18,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b7b10bdff95",
+              "url": "https://prehraj.to/the-hitcher-1-stopar-1-horor-1986-cz-dabing/55b7b10bdff95",
+              "title": "The-Hitcher-1.--Stopař-1.--horor-(1986)-cz.dabing",
+              "year": null,
+              "duration_sec": 5609,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.948,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583b253e8f77b",
+              "url": "https://prehraj.to/the-hitcher-1-stopar-1-horor-1986-cz-dabing/583b253e8f77b",
+              "title": "The-Hitcher_1.-_Stopař_1.-_horor_(1986)_cz.dabing",
+              "year": null,
+              "duration_sec": 5609,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.948,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58409f5ff2d5f",
+              "url": "https://prehraj.to/withnail-a-ja-vb-komedie-1986-cs-titulky-tvrip/58409f5ff2d5f",
+              "title": "Withnail-a-ja-VB-komedie-1986-CS-titulky-TVrip",
+              "year": null,
+              "duration_sec": 6174,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.144,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:11:24.949043+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-muppets-a-celebration-of-30-years",
+        "title": "The Muppets: A Celebration of 30 Years",
+        "original_title": null,
+        "year": 1986,
+        "runtime_min": 48,
+        "tmdb_id": 117389,
+        "imdb_id": "tt0323321",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:11:24.496085+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:11:22.265919+00:00"
+  "updated_at": "2026-08-25T15:11:24.949057+00:00"
 }
