@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "snapshot": {
+    "id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+    "exported_at": null
+  },
+  "films": {
+    "29479": {
+      "attempts": [],
+      "identity": {
+        "slug": "the-bride",
+        "title": "The Bride",
+        "original_title": "The Bride",
+        "year": 2017,
+        "runtime_min": 90,
+        "tmdb_id": 422715,
+        "imdb_id": "tt6095090",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25308784",
+          "account_name": "The Russian Bride (2018) CZ Titulky",
+          "title_similarity": 0.581,
+          "title_contains_alias": false,
+          "film_year": 2017,
+          "candidate_year": 2018,
+          "year_match": true,
+          "film_runtime_min": 90,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T22:09:11.596527+00:00"
+      }
+    },
+    "28991": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61ced5b4b8967a16",
+              "url": "https://prehraj.to/the-internship-2026-eng1080p-mp4/61ced5b4b8967a16",
+              "title": "The Internship -2026 [ENG1080p].mp4",
+              "year": null,
+              "duration_sec": 5478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5478,
+                "runtime_delta": 0.003,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c13e83463ed2081",
+              "url": "https://prehraj.to/the-internship-2026-mp4/1c13e83463ed2081",
+              "title": "The Internship (2026).mp4",
+              "year": null,
+              "duration_sec": 5478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5478,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "50169531a06ce5ea",
+              "url": "https://prehraj.to/the-internship-2026-1080p-webrip-10bit-ddp5-1-x265-neonoir-mkv/50169531a06ce5ea",
+              "title": "The.Internship.2026.1080p.WEBRip.10Bit.DDP5.1.x265-NeoNoir…",
+              "year": null,
+              "duration_sec": 5478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "eng",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "eng1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "eng2",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5478,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:09:14.617572+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-internship",
+        "title": "The Internship",
+        "original_title": null,
+        "year": 2026,
+        "runtime_min": 91,
+        "tmdb_id": 1584215,
+        "imdb_id": "tt38238651",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:09:11.596576+00:00"
+      }
+    }
+  },
+  "updated_at": "2026-08-25T22:09:14.617590+00:00"
+}
