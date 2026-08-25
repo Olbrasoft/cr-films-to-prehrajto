@@ -34773,7 +34773,153 @@
         },
         "at": "2026-08-25T07:01:48.762439+00:00"
       }
+    },
+    "17581": {
+      "attempts": [],
+      "identity": {
+        "slug": "rodinne-portrety-2019",
+        "title": "Rodinné portréty",
+        "original_title": "Family Pictures",
+        "year": 2019,
+        "runtime_min": 87,
+        "tmdb_id": 613877,
+        "imdb_id": "tt9431144",
+        "created_at": "2026-04-14 16:19:18.476618+02:00",
+        "added_at": "2023-03-18 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:01:54.253309+00:00"
+      }
+    },
+    "16855": {
+      "attempts": [],
+      "identity": {
+        "slug": "mladi-a-neklidni-2021",
+        "title": "Mladí a neklidní",
+        "original_title": "Here Are the Young Men",
+        "year": 2021,
+        "runtime_min": 96,
+        "tmdb_id": 540248,
+        "imdb_id": "tt5598868",
+        "created_at": "2026-04-14 16:13:05.679882+02:00",
+        "added_at": "2022-10-09 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:01:56.347941+00:00"
+      }
+    },
+    "17517": {
+      "attempts": [],
+      "identity": {
+        "slug": "dokonala-desitka-2020",
+        "title": "Dokonalá desítka",
+        "original_title": "Perfect 10",
+        "year": 2020,
+        "runtime_min": 84,
+        "tmdb_id": 582908,
+        "imdb_id": "tt9070230",
+        "created_at": "2026-04-14 16:19:18.476618+02:00",
+        "added_at": "2021-08-07 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25399572",
+              "account_name": "Dan Carter: A Perfect 10 (2019) SK Titulky",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2020,
+              "candidate_year": 2019,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25299820",
+              "account_name": "A Perfect Enemy (2020) CZ Titulky",
+              "title_similarity": 0.6,
+              "title_contains_alias": false,
+              "film_year": 2020,
+              "candidate_year": 2020,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-25T07:01:58.191298+00:00"
+      }
+    },
+    "17525": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "18242",
+              "url": "https://online.sktorrent.eu/video/18242/",
+              "title": "Knuckledust",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:02:00.403801+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "knuckledust-2021",
+        "title": "Knuckledust",
+        "original_title": "Knuckledust",
+        "year": 2021,
+        "runtime_min": 105,
+        "tmdb_id": 749407,
+        "imdb_id": "tt9109072",
+        "created_at": "2026-04-14 16:19:18.476618+02:00",
+        "added_at": "2021-06-29 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:01:58.191336+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:01:52.953474+00:00"
+  "updated_at": "2026-08-25T07:02:00.403820+00:00"
 }
