@@ -22242,6 +22242,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:23:45.730690+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67809f72c0242",
+              "url": "https://prehraj.to/the-return-2024-1080p-cz-sub/67809f72c0242",
+              "title": "The.Return.2024.1080p.cz sub",
+              "year": null,
+              "duration_sec": 6955,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.898,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:40:12.033761+00:00"
         }
       ],
       "identity": {
@@ -22260,7 +22291,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:23:45.234904+00:00"
+        "at": "2026-08-25T15:40:11.576908+00:00"
       }
     },
     "28610": {
@@ -44133,5 +44164,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:40:09.123788+00:00"
+  "updated_at": "2026-08-25T15:40:12.033780+00:00"
 }
