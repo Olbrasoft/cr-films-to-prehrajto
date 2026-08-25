@@ -43,6 +43,39 @@ def test_pending_production_upload_becomes_active(tmp_path):
     assert payload["films"]["42"]["upload"]["processing_status"] == "active"
 
 
+def test_pending_czech_subtitle_is_verified_without_blocking_upload(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text(
+        json.dumps(
+            {
+                "schema_version": 1,
+                "snapshot": {"id": "snapshot-1"},
+                "films": {
+                    "42": {
+                        "attempts": [],
+                        "upload": {
+                            "target_video_id": "777",
+                            "display_name": "Film (2024) CZ titulky",
+                            "processing_status": "pending",
+                            "language_tier": "czech_subtitles",
+                            "subtitle_verification": "pending",
+                        },
+                    }
+                },
+            }
+        )
+    )
+    counts = verify_pending_uploads(
+        [path],
+        lambda _name, video_id: ("active", AccountVideo(video_id, "Film")),
+        subtitle_lookup=lambda _name, _video_id: True,
+    )
+    saved = json.loads(path.read_text())["films"]["42"]["upload"]
+    assert saved["processing_status"] == "active"
+    assert saved["subtitle_verification"] == "verified"
+    assert counts == {"active": 1, "pending": 0, "failed": 0}
+
+
 def test_deleted_production_upload_returns_to_retryable_state(tmp_path):
     path = tmp_path / "state.json"
     write_pending_state(path)

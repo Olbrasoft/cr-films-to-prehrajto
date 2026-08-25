@@ -5,7 +5,7 @@ import pytest
 import requests
 
 from cr_films_to_prehrajto.audio import AudioEvidence, normalize_iso
-from cr_films_to_prehrajto.models import Candidate, LanguageTier, MatchTier
+from cr_films_to_prehrajto.models import Candidate, LanguageTier, MatchTier, Subtitle
 from cr_films_to_prehrajto.providers.prehrajto import (
     PrehrajtoProvider,
     ProviderError,
@@ -240,3 +240,34 @@ def test_subtitle_video_is_persisted_before_subtitle_work(
 
     assert partials[0][2]["target_video_id"] == "777"
     assert partials[0][1].source_id == "source-1"
+
+
+def test_subtitle_processing_delay_does_not_discard_successful_upload(
+    tmp_path, film, monkeypatch
+):
+    candidate = Candidate(
+        provider="prehrajto",
+        source_id="source-2",
+        url="https://prehraj.to/pelisky/source-2",
+        title="Pelisky (1999) CZ titulky",
+        stream_url="https://cdn.example/movie.mp4",
+        match_tier=MatchTier.SOLID,
+        language_tier=LanguageTier.CZECH_SUBTITLES,
+        subtitles=[],
+    )
+    candidate.subtitles = [Subtitle("cs", "https://example/sub.vtt")]
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.transfer.download", lambda _url, _path: 20_000_000
+    )
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.transfer.upload_video", lambda *_args: "778"
+    )
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.transfer.upload_czech_subtitle", lambda *_args: None
+    )
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.transfer.verify_czech_subtitle", lambda *args, **kwargs: False
+    )
+    result = TransferService(requests.Session(), tmp_path).transfer(film, candidate)
+    assert result["target_video_id"] == "778"
+    assert result["subtitle_verification"] == "pending"
