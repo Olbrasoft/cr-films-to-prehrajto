@@ -181,6 +181,38 @@ def test_only_two_partial_repairs_precede_new_films(tmp_path, film):
     assert [row["film"]["cr_film_id"] for row in plan] == [102, 101, 200]
 
 
+def test_catalog_identity_source_is_prioritized_over_newer_unknown_film(
+    tmp_path, film
+):
+    state = StateStore(tmp_path / "state.json")
+    matched = replace(
+        film,
+        cr_film_id=101,
+        title="Matched Film",
+        year=2020,
+        added_at="2020-01-01",
+        sources=(
+            {
+                "provider": "prehrajto",
+                "external_id": "source-1",
+                "title": "Matched Film (2020) CZ Dabing",
+                "is_alive": True,
+                "duration_sec": 6900,
+                "metadata": {"url": "https://prehraj.to/matched/source-1"},
+            },
+        ),
+    )
+    newer = replace(film, cr_film_id=102, title="Unknown", added_at="2099-01-01")
+    candidate = acceptable("prehrajto", "source-1")
+    plan = HybridPipeline(
+        prehrajto=Provider([candidate]),
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+    ).build_plan([newer, matched], 1)
+    assert plan[0]["film"]["cr_film_id"] == 101
+
+
 def test_sk_search_decode_failure_returns_no_candidates(film):
     class BrokenSession:
         def get(self, *args, **kwargs):
