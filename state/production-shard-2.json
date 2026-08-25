@@ -3110,7 +3110,121 @@
         },
         "at": "2026-08-25T22:47:44.832316+00:00"
       }
+    },
+    "29826": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e0450f24d7fb",
+              "url": "https://prehraj.to/jarhead-law-of-return-2019-1080p-amzn-web-dl-dd-5-1-h-264-ika/5e0450f24d7fb",
+              "title": "Jarhead.Law.of.Return.2019.1080p.AMZN.WEB-DL.DD+5.1.H.264-iKA",
+              "year": null,
+              "duration_sec": 6172,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.35,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 122,
+                "candidate_runtime_sec": 6172,
+                "runtime_delta": 0.157,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5db8d8fab8924",
+              "url": "https://prehraj.to/girls-guns-and-blood-2019-1080p-amzn-web-dl-dd-2-0-h-264-ika/5db8d8fab8924",
+              "title": "Girls.Guns.and.Blood.2019.1080p.AMZN.WEB-DL.DD+2.0.H.264-iKA",
+              "year": null,
+              "duration_sec": 4543,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.278,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 122,
+                "candidate_runtime_sec": 4543,
+                "runtime_delta": 0.379,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cdd911b6481425e2",
+              "url": "https://prehraj.to/ikarus-legenda-o-mietku-koszovi-sktit/cdd911b6481425e2",
+              "title": "Ikarus Legenda o Mietku Koszovi SKtit",
+              "year": null,
+              "duration_sec": 7007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 122,
+                "candidate_runtime_sec": 7007,
+                "runtime_delta": 0.043,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:47:51.027383+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ikarus-legenda-o-mietku-koszovi",
+        "title": "Ikarus. Legenda o Mietku Koszovi",
+        "original_title": "Icarus. The Legend of Mietek Kosz",
+        "year": 2019,
+        "runtime_min": 122,
+        "tmdb_id": 575575,
+        "imdb_id": "tt9121954",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:47:48.083694+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:47:46.709978+00:00"
+  "updated_at": "2026-08-25T22:47:51.027403+00:00"
 }
