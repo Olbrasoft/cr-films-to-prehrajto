@@ -52731,7 +52731,67 @@
         },
         "at": "2026-08-25T15:16:31.507862+00:00"
       }
+    },
+    "23227": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5877e91390723",
+              "url": "https://prehraj.to/nekde-je-mozna-hezky-cesky-film-1991/5877e91390723",
+              "title": "Někde-je-možná-hezky---český-film-(1991)",
+              "year": null,
+              "duration_sec": 5256,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.385,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5256,
+                "runtime_delta": 0.106,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:16:37.994612+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "nekdy-se-vraceji",
+        "title": "Někdy se vracejí",
+        "original_title": "Sometimes They Come Back",
+        "year": 1991,
+        "runtime_min": 98,
+        "tmdb_id": 27769,
+        "imdb_id": "tt0102960",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:16:37.047945+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:16:31.978376+00:00"
+  "updated_at": "2026-08-25T15:16:37.994625+00:00"
 }
