@@ -24517,6 +24517,57 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:24:39.300319+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bf9fd724056",
+              "url": "https://prehraj.to/alain-delon-le-choc-1982/55bf9fd724056",
+              "title": "_ALAIN-DELON__Le-Choc_(1982)",
+              "year": null,
+              "duration_sec": 5645,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.72,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c2ff1fb557f",
+              "url": "https://prehraj.to/alain-delon-le-choc-1982/55c2ff1fb557f",
+              "title": "_ALAIN-DELON__Le-Choc_(1982)",
+              "year": null,
+              "duration_sec": 5645,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.72,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:50:51.266545+00:00"
         }
       ],
       "identity": {
@@ -24535,7 +24586,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:24:38.812035+00:00"
+        "at": "2026-08-25T15:50:50.894215+00:00"
       }
     },
     "28284": {
@@ -44598,5 +44649,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:50:49.096212+00:00"
+  "updated_at": "2026-08-25T15:50:51.266565+00:00"
 }
