@@ -37028,7 +37028,67 @@
         },
         "at": "2026-08-25T15:28:15.985182+00:00"
       }
+    },
+    "26760": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f9a07d55d83f",
+              "url": "https://prehraj.to/alice-2019-cztitulky/5f9a07d55d83f",
+              "title": "Alice 2019 CZtitulky",
+              "year": null,
+              "duration_sec": 6309,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 6309,
+                "runtime_delta": 0.252,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:28:19.903435+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "alice-miranda-pratele-navzdy",
+        "title": "Alice Miranda: Přátelé navždy",
+        "original_title": "Alice-Miranda Friends Forever",
+        "year": 2019,
+        "runtime_min": 84,
+        "tmdb_id": 707701,
+        "imdb_id": "tt12580204",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:28:19.297088+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:28:16.470118+00:00"
+  "updated_at": "2026-08-25T15:28:19.903451+00:00"
 }
