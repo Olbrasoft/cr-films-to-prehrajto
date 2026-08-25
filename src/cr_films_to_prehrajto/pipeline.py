@@ -12,6 +12,7 @@ from .transfer import TransferError
 
 MAX_PILOT_FILMS = 10
 MAX_PRODUCTION_BATCH = 20
+MAX_DISCOVERY_RETRIES_PER_SNAPSHOT = 3
 
 
 def validate_limit(limit: int, maximum: int = MAX_PILOT_FILMS) -> int:
@@ -89,11 +90,18 @@ class HybridPipeline:
         for film in [*partial_films, *regular_films]:
             if self.state.uploaded(film.cr_film_id):
                 continue
-            if skip_exhausted_snapshot and self.state.discovery_exhausted_for_snapshot(
-                film.cr_film_id, self.discovery_version
-            ):
-                continue
             partial = self.state.pending_partial_upload(film.cr_film_id)
+            exhausted = self.state.discovery_exhausted_for_snapshot(
+                film.cr_film_id, self.discovery_version
+            )
+            repeated = (
+                self.state.discovery_attempts_for_snapshot(
+                    film.cr_film_id, self.discovery_version
+                )
+                >= MAX_DISCOVERY_RETRIES_PER_SNAPSHOT
+            )
+            if skip_exhausted_snapshot and not partial and (exhausted or repeated):
+                continue
             partial_id = (
                 str(partial.get("partial_target_video_id")) if partial else None
             )

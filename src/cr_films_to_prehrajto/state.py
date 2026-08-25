@@ -123,3 +123,16 @@ class StateStore:
                 self.data["films"].get(str(cr_film_id), {}).get("attempts", [])
             )
         )
+
+    def discovery_attempts_for_snapshot(
+        self, cr_film_id: int, discovery_version: str | None = None
+    ) -> int:
+        snapshot_id = self.data.get("snapshot", {}).get("id")
+        return sum(
+            attempt.get("status") == "no_acceptable_source"
+            and attempt.get("snapshot_id") == snapshot_id
+            and attempt.get("discovery_version") == discovery_version
+            for attempt in self.data["films"].get(str(cr_film_id), {}).get(
+                "attempts", []
+            )
+        )
