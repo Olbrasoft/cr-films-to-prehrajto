@@ -38901,7 +38901,67 @@
         },
         "at": "2026-08-25T15:30:22.581195+00:00"
       }
+    },
+    "26090": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "689f81a4f32aa",
+              "url": "https://prehraj.to/valecnici-jet-li-andy-lau-takesi-kanesiro-2007-akcni-drama-historicky-romanticky-valecny-hdtvrip-cz-dabing/689f81a4f32aa",
+              "title": "Válečníci (Jet Li, Andy Lau, Takeši Kaneširo-2007 Akční-Drama-Historický-Romantický-Válečný-Hdtvrip.) Cz dabing",
+              "year": null,
+              "duration_sec": 6518,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.279,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 6518,
+                "runtime_delta": 0.181,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:30:26.793601+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "muj-zivot-neni-romanticka-komedie",
+        "title": "Můj život není romantická komedie",
+        "original_title": "It Had to be You",
+        "year": 2007,
+        "runtime_min": 92,
+        "tmdb_id": 49389,
+        "imdb_id": "tt0910911",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:30:26.200945+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:30:23.001415+00:00"
+  "updated_at": "2026-08-25T15:30:26.793619+00:00"
 }
