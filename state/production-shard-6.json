@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:22:32.922264+00:00"
+        "at": "2026-08-25T22:41:53.867972+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:22:32.923219+00:00"
+        "at": "2026-08-25T22:41:53.868927+00:00"
       }
     },
     "27238": {
@@ -578,7 +578,121 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:41:52.501795+00:00"
       }
+    },
+    "23094": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "615edb21a30f4",
+              "url": "https://prehraj.to/the-incredible-hulk-the-death-of-the-incredible-hulk-1990-dvdrip/615edb21a30f4",
+              "title": "The.Incredible.Hulk.The.Death.Of.The.Incredible.Hulk.1990…",
+              "year": null,
+              "duration_sec": 5689,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5689,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Death of the Incredible Hulk (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c0746e76fc20031a",
+              "url": "https://prehraj.to/smrt-neuveritelneho-hulka-smrt-neuveritelneho-hulka-1990/c0746e76fc20031a",
+              "title": "SMRT NEUVĚŘITELNÉHO HULKA (Smrt neuvěřitelného Hulka) [1990]",
+              "year": null,
+              "duration_sec": 5689,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5689,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c41befa42b5af7ec",
+              "url": "https://prehraj.to/the-death-of-the-incredible-hulk-1990/c41befa42b5af7ec",
+              "title": "The Death of the Incredible Hulk (1990)",
+              "year": null,
+              "duration_sec": 5689,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5689,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Death of the Incredible Hulk (1990)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:41:57.796718+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "smrt-neuveritelneho-hulka",
+        "title": "Smrt neuvěřitelného Hulka",
+        "original_title": "The Death of the Incredible Hulk",
+        "year": 1990,
+        "runtime_min": 95,
+        "tmdb_id": 19593,
+        "imdb_id": "tt0099387",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:41:53.869129+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:41:52.501824+00:00"
+  "updated_at": "2026-08-25T22:41:57.796736+00:00"
 }
