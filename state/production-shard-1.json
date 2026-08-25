@@ -14698,7 +14698,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:35:17.577249+00:00"
+        "at": "2026-08-25T22:37:43.253082+00:00"
       }
     },
     "29121": {
@@ -14782,7 +14782,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:35:17.578178+00:00"
+        "at": "2026-08-25T22:37:43.254000+00:00"
       }
     },
     "29103": {
@@ -15177,7 +15177,7 @@
             }
           ]
         },
-        "at": "2026-08-25T15:54:03.622592+00:00"
+        "at": "2026-08-25T22:37:43.258863+00:00"
       }
     },
     "29045": {
@@ -16212,6 +16212,110 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:58:53.695131+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "57f32c5a1c9dc",
+              "url": "https://prehraj.to/goal-of-the-dead-2014-bluray-720p-800mb-ganool/57f32c5a1c9dc",
+              "title": "Goal-of-the-Dead-2014-BluRay-720p-800MB-Ganool",
+              "year": null,
+              "duration_sec": 7262,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.502,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5acc07ec7ffb3",
+              "url": "https://prehraj.to/scooby-doo-vitezne-goly-2014/5acc07ec7ffb3",
+              "title": "Scooby Doo: Vítězné góly (2014)",
+              "year": null,
+              "duration_sec": 1294,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1294,
+                "runtime_delta": 0.02,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1a7e817a19886a65",
+              "url": "https://prehraj.to/scooby-doo-vitezne-goly-2014-cs/1a7e817a19886a65",
+              "title": "Scooby Doo: Vítězné góly - 2014 CS",
+              "year": null,
+              "duration_sec": 1294,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1294,
+                "runtime_delta": 0.02,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7910e0f9a2597f99",
+              "url": "https://prehraj.to/scooby-doo-vitezne-goly-2014-cs/7910e0f9a2597f99",
+              "title": "Scooby Doo: Vítězné góly - 2014 CS",
+              "year": null,
+              "duration_sec": 6515,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.936,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Scooby Doo: Vítězné góly (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:37:46.561011+00:00"
         }
       ],
       "identity": {
@@ -16230,7 +16334,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:58:53.236276+00:00"
+        "at": "2026-08-25T22:37:43.258905+00:00"
       }
     },
     "28977": {
@@ -41192,7 +41296,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:35:17.580145+00:00"
+        "at": "2026-08-25T22:37:43.255939+00:00"
       }
     },
     "25169": {
@@ -42085,7 +42189,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:35:17.581415+00:00"
+        "at": "2026-08-25T22:37:43.257223+00:00"
       }
     },
     "23061": {
@@ -57490,5 +57594,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T22:37:39.709391+00:00"
+  "updated_at": "2026-08-25T22:37:46.561032+00:00"
 }
