@@ -52883,7 +52883,39 @@
         },
         "at": "2026-08-25T15:16:44.570653+00:00"
       }
+    },
+    "23139": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:16:48.639053+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tales-from-the-darkside-the-movie",
+        "title": "Tales from the Darkside: The Movie",
+        "original_title": null,
+        "year": 1990,
+        "runtime_min": 93,
+        "tmdb_id": 20701,
+        "imdb_id": "tt0100740",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:16:47.443626+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:16:45.263478+00:00"
+  "updated_at": "2026-08-25T15:16:48.639066+00:00"
 }
