@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:44:14.758454+00:00"
+        "at": "2026-08-25T22:47:44.818634+00:00"
       }
     },
     "27350": {
@@ -911,7 +911,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:44:14.759876+00:00"
+        "at": "2026-08-25T22:47:44.819910+00:00"
       }
     },
     "22730": {
@@ -2949,7 +2949,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:44:14.772853+00:00"
+        "at": "2026-08-25T22:47:44.831368+00:00"
       }
     },
     "22474": {
@@ -2980,7 +2980,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:44:14.773560+00:00"
+        "at": "2026-08-25T22:47:44.832014+00:00"
       }
     },
     "22354": {
@@ -3050,7 +3050,67 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:47:38.769900+00:00"
       }
+    },
+    "21890": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5dfe36c8f093a",
+              "url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+              "title": "Project X 1968 - ENG",
+              "year": null,
+              "duration_sec": 5825,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5825,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:47:46.709960+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "project-x",
+        "title": "Project X",
+        "original_title": null,
+        "year": 1968,
+        "runtime_min": 97,
+        "tmdb_id": 29398,
+        "imdb_id": "tt0063465",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:47:44.832316+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:47:38.769930+00:00"
+  "updated_at": "2026-08-25T22:47:46.709978+00:00"
 }
