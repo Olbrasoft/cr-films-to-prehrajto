@@ -333,6 +333,13 @@ class PrehrajtoProvider:
                     )
                 )
             title = source.get("title") or film.title
+            audio_language = source.get("audio_lang")
+            if not audio_language:
+                audio_language, language_evidence = infer_title_language(
+                    title, film, []
+                )
+            else:
+                language_evidence = source.get("audio_detected_by") or "catalog_metadata"
             result = classify_candidate(
                 film,
                 title,
@@ -383,9 +390,9 @@ class PrehrajtoProvider:
                     url=str(url),
                     title=title,
                     duration_sec=source.get("duration_sec"),
-                    audio_language=source.get("audio_lang"),
-                    language_evidence=source.get("audio_detected_by")
-                    or "catalog_metadata",
+                    audio_language=audio_language,
+                    language_evidence=language_evidence,
+                    language_tier=language_tier(audio_language, []),
                     match_tier=result.tier,
                     match_evidence={
                         **result.evidence,
@@ -506,11 +513,21 @@ class PrehrajtoProvider:
         return response
 
     def discover(self, film: Film) -> list[Candidate]:
-        catalog_candidates = self._resolve_candidates(
-            film, self._catalog_candidates(film)
-        )
-        if rank_candidates(catalog_candidates):
-            return catalog_candidates
+        catalog_candidates = self._catalog_candidates(film)
+        # Catalog metadata already identifies Czech/Slovak audio for most
+        # sources. Resolve only the best few candidates, instead of probing
+        # every catalog URL (ffprobe can take up to 30 seconds per source).
+        catalog_ranked = rank_candidates(catalog_candidates)
+        if catalog_ranked:
+            resolved = []
+            for candidate in catalog_ranked[:3]:
+                try:
+                    resolved.extend(self._resolve_candidates(film, [candidate]))
+                except ProviderError:
+                    continue
+                if rank_candidates(resolved):
+                    return resolved
+            catalog_candidates = resolved
 
         discovered: dict[str, Candidate] = {}
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
