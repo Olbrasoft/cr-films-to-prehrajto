@@ -10130,7 +10130,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:16:58.932283+00:00"
+        "at": "2026-08-25T14:54:56.214234+00:00"
       }
     },
     "29467": {
@@ -13912,7 +13912,7 @@
             }
           ]
         },
-        "at": "2026-08-25T07:16:58.933078+00:00"
+        "at": "2026-08-25T14:54:56.214825+00:00"
       }
     },
     "29121": {
@@ -13996,7 +13996,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:16:58.934145+00:00"
+        "at": "2026-08-25T14:54:56.215561+00:00"
       }
     },
     "29103": {
@@ -18185,7 +18185,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:16:58.934724+00:00"
+        "at": "2026-08-25T14:54:56.215947+00:00"
       }
     },
     "28665": {
@@ -19426,7 +19426,7 @@
             }
           ]
         },
-        "at": "2026-08-25T07:16:58.937255+00:00"
+        "at": "2026-08-25T14:54:56.217665+00:00"
       }
     },
     "28533": {
@@ -20377,7 +20377,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:16:58.937763+00:00"
+        "at": "2026-08-25T14:54:56.218019+00:00"
       }
     },
     "28423": {
@@ -20849,7 +20849,7 @@
             }
           ]
         },
-        "at": "2026-08-25T07:16:58.939054+00:00"
+        "at": "2026-08-25T14:54:56.218931+00:00"
       }
     },
     "28277": {
@@ -21409,7 +21409,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:16:58.939848+00:00"
+        "at": "2026-08-25T14:54:56.219466+00:00"
       }
     },
     "28111": {
@@ -24594,7 +24594,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:16:58.940650+00:00"
+        "at": "2026-08-25T14:54:56.219966+00:00"
       }
     },
     "27753": {
@@ -28178,7 +28178,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:16:58.941923+00:00"
+        "at": "2026-08-25T14:54:56.220826+00:00"
       }
     },
     "27263": {
@@ -30978,7 +30978,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T07:17:22.568348+00:00"
+        "at": "2026-08-25T14:54:56.220899+00:00"
       }
     },
     "26821": {
@@ -33574,6 +33574,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:17:29.571031+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60890c9639116",
+              "url": "https://prehraj.to/naha-zvirata-nackte-tiere-2020-720p-hdtv-de-cz-sub/60890c9639116",
+              "title": "Naha zvirata - Nackte.Tiere.2020.720p.HDTV.DE.CZ.sub",
+              "year": null,
+              "duration_sec": 5007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 83,
+                "candidate_runtime_sec": 5007,
+                "runtime_delta": 0.005,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T14:54:57.264905+00:00"
         }
       ],
       "identity": {
@@ -33592,7 +33630,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:17:28.214158+00:00"
+        "at": "2026-08-25T14:54:56.221129+00:00"
       }
     },
     "26419": {
@@ -36444,5 +36482,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T14:54:54.764093+00:00"
+  "updated_at": "2026-08-25T14:54:57.264921+00:00"
 }
