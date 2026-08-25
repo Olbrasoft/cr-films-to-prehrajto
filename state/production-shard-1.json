@@ -31938,6 +31938,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:02:16.836313+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "603244b528eff",
+              "url": "https://prehraj.to/koruna-04-04-oblibenci-drama-2020-cz-dabing/603244b528eff",
+              "title": "Koruna-04-04-Oblíbenci-(drama)-(2020)--cz-dabing",
+              "year": null,
+              "duration_sec": 3625,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.028,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:06:16.038332+00:00"
         }
       ],
       "identity": {
@@ -31956,7 +31987,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:02:16.390056+00:00"
+        "at": "2026-08-25T15:06:15.362613+00:00"
       }
     },
     "26997": {
@@ -40920,5 +40951,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:06:13.567337+00:00"
+  "updated_at": "2026-08-25T15:06:16.038344+00:00"
 }
