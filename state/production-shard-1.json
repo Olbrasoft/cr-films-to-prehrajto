@@ -52066,7 +52066,67 @@
         },
         "at": "2026-08-25T15:15:33.906580+00:00"
       }
+    },
+    "23561": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5859d6de08cc7",
+              "url": "https://prehraj.to/muj-milovany-nepritel-mein-liebster-feind-klaus-kinski-1999-cz-tit/5859d6de08cc7",
+              "title": "Můj-milovaný-nepřítel-_-Mein-liebster-Feind---Klaus-Kinski-1999,-CZ-tit",
+              "year": null,
+              "duration_sec": 5935,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.272,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5935,
+                "runtime_delta": 0.111,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:15:43.481456+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "muj-ucitel-parohac",
+        "title": "Můj učitel paroháč",
+        "original_title": "My Teacher's Wife",
+        "year": 1999,
+        "runtime_min": 89,
+        "tmdb_id": 39001,
+        "imdb_id": "tt0112444",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:15:41.967204+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:15:34.953627+00:00"
+  "updated_at": "2026-08-25T15:15:43.481468+00:00"
 }
