@@ -27344,7 +27344,39 @@
         },
         "at": "2026-08-25T07:12:35.686044+00:00"
       }
+    },
+    "27238": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:12:39.840208+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lebanon",
+        "title": "Lebanon",
+        "original_title": "Lebanon",
+        "year": 2009,
+        "runtime_min": 93,
+        "tmdb_id": 32084,
+        "imdb_id": "tt1483831",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:12:38.397643+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:12:37.097307+00:00"
+  "updated_at": "2026-08-25T07:12:39.840229+00:00"
 }
