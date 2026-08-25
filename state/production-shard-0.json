@@ -18373,6 +18373,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:12:58.475336+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac9ad11ce283",
+              "url": "https://prehraj.to/star-wars-darth-maul-returns-2012/5ac9ad11ce283",
+              "title": "Star Wars Darth Maul Returns (2012)",
+              "year": null,
+              "duration_sec": 5107,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.737,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5107,
+                "runtime_delta": 0.022,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:23:05.916379+00:00"
         }
       ],
       "identity": {
@@ -18391,7 +18429,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:12:36.738797+00:00"
+        "at": "2026-08-25T15:23:05.530874+00:00"
       }
     },
     "28926": {
@@ -33753,5 +33791,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:23:03.680795+00:00"
+  "updated_at": "2026-08-25T15:23:05.916398+00:00"
 }
