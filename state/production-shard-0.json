@@ -40633,7 +40633,67 @@
         },
         "at": "2026-08-25T15:32:20.166237+00:00"
       }
+    },
+    "24974": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5841590ae4f40",
+              "url": "https://prehraj.to/terc-utoku-1989-cz-dub/5841590ae4f40",
+              "title": "Terc-utoku-1989.cz.dub",
+              "year": null,
+              "duration_sec": 5466,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.261,
+                "title_contains_alias": false,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5466,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:32:23.319203+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "cipayos-la-tercera-invasion",
+        "title": "Cipayos (la tercera invasión)",
+        "original_title": null,
+        "year": 1989,
+        "runtime_min": null,
+        "tmdb_id": 774113,
+        "imdb_id": "tt0332588",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:32:22.924493+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:32:20.682177+00:00"
+  "updated_at": "2026-08-25T15:32:23.319222+00:00"
 }
