@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:15:25.542984+00:00"
+        "at": "2026-08-25T23:18:10.100245+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-25T23:15:25.545471+00:00"
+        "at": "2026-08-25T23:18:10.102684+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:15:25.546191+00:00"
+        "at": "2026-08-25T23:18:10.103431+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:15:25.546268+00:00"
+        "at": "2026-08-25T23:18:10.103516+00:00"
       }
     },
     "23807": {
@@ -760,7 +760,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:15:25.548121+00:00"
+        "at": "2026-08-25T23:18:10.105347+00:00"
       }
     },
     "28863": {
@@ -791,7 +791,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:15:25.548607+00:00"
+        "at": "2026-08-25T23:18:10.105839+00:00"
       }
     },
     "28823": {
@@ -1301,7 +1301,390 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T23:18:06.538737+00:00"
       }
+    },
+    "26639": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c976b6b39a47",
+              "url": "https://prehraj.to/volani-divociny-lvice-elza-cz-dab-1983-jad/5c976b6b39a47",
+              "title": "Volaní divočiny-Lvice Elza-cz dab.-1983-jad",
+              "year": null,
+              "duration_sec": 5710,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.535,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ca1edf864a70",
+              "url": "https://prehraj.to/volani-divociny-lvice-elza-cz-dab-1983-jad/5ca1edf864a70",
+              "title": "Volaní divočiny-Lvice Elza-cz dab.-1983-jad",
+              "year": null,
+              "duration_sec": 5710,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.535,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f6b6f10ec9bc",
+              "url": "https://prehraj.to/volani-divociny-lvice-elza-cz-dab-1983-jad/5f6b6f10ec9bc",
+              "title": "Volaní divočiny-Lvice Elza-cz dab.-1983-jad",
+              "year": null,
+              "duration_sec": 5710,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.535,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f74443593c6e",
+              "url": "https://prehraj.to/volani-divociny-lvice-elza-cz-dab-1983-jad/5f74443593c6e",
+              "title": "Volaní divočiny-Lvice Elza-cz dab.-1983-jad",
+              "year": null,
+              "duration_sec": 5710,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.535,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ad26ac8da332a76b",
+              "url": "https://prehraj.to/o-bilem-jadyrku-pohadka-1983/ad26ac8da332a76b",
+              "title": "O bílém jadýrku pohadka 1983",
+              "year": null,
+              "duration_sec": 3687,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3687,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6858ac23e205b",
+              "url": "https://prehraj.to/o-bilem-jadyrku-1983/6858ac23e205b",
+              "title": "O bílém jadýrku - 1983",
+              "year": null,
+              "duration_sec": 3687,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3687,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7390d53e32933ee3",
+              "url": "https://prehraj.to/o-bilem-jadyrku-1983-ceskoslovenske-pohadky/7390d53e32933ee3",
+              "title": "O bílém jadýrku - 1983  Československé pohádky",
+              "year": null,
+              "duration_sec": 3687,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3687,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b51ddc6e84130b7c",
+              "url": "https://prehraj.to/o-bilem-jadyrku-1983-ceskoslovensko/b51ddc6e84130b7c",
+              "title": "O bílém jadýrku  1983 Československo",
+              "year": null,
+              "duration_sec": 3687,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3687,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5855451438dd8",
+              "url": "https://prehraj.to/o-bilem-jadyrku-cssr-1983/5855451438dd8",
+              "title": "O-bílém-jadýrku-(ČSSR,-1983)",
+              "year": null,
+              "duration_sec": 3691,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3691,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "681612dbc8c86",
+              "url": "https://prehraj.to/o-bilem-jadyrku-cssr-1983/681612dbc8c86",
+              "title": "O-bílém-jadýrku-(ČSSR,-1983)",
+              "year": null,
+              "duration_sec": 3691,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3691,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6383bceb5723a",
+              "url": "https://prehraj.to/o-bilem-jadyrku-pohadka-1983/6383bceb5723a",
+              "title": "O bílém jadýrku pohadka 1983",
+              "year": null,
+              "duration_sec": 3687,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3687,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "657b05dcf40a7",
+              "url": "https://prehraj.to/o-bilem-jadyrku-1983/657b05dcf40a7",
+              "title": "O bílém jadýrku  1983",
+              "year": null,
+              "duration_sec": 3687,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3687,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9fffd506410",
+              "url": "https://prehraj.to/o-bilem-jadyrku-1983/5a9fffd506410",
+              "title": "O bílém jadýrku (1983)",
+              "year": null,
+              "duration_sec": 3547,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3547,
+                "runtime_delta": 0.047,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "41f2471d1cdd19ff",
+              "url": "https://prehraj.to/o-bilem-jadyrku-1983-cs/41f2471d1cdd19ff",
+              "title": "O bílém jadýrku - 1983 CS",
+              "year": null,
+              "duration_sec": 3547,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 62,
+                "candidate_runtime_sec": 3547,
+                "runtime_delta": 0.047,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T23:18:20.479632+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "o-bilem-jadyrku",
+        "title": "O bílém jadýrku",
+        "original_title": null,
+        "year": 1983,
+        "runtime_min": 62,
+        "tmdb_id": 512644,
+        "imdb_id": "tt1196213",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T23:18:10.105893+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T23:18:06.538763+00:00"
+  "updated_at": "2026-08-25T23:18:20.479650+00:00"
 }
