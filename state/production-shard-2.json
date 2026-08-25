@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:47:44.818634+00:00"
+        "at": "2026-08-25T22:50:49.306228+00:00"
       }
     },
     "27350": {
@@ -911,7 +911,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:47:44.819910+00:00"
+        "at": "2026-08-25T22:50:49.307554+00:00"
       }
     },
     "22730": {
@@ -2949,7 +2949,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:47:44.831368+00:00"
+        "at": "2026-08-25T22:50:49.319164+00:00"
       }
     },
     "22474": {
@@ -2980,7 +2980,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:47:44.832014+00:00"
+        "at": "2026-08-25T22:50:49.319827+00:00"
       }
     },
     "22354": {
@@ -3271,7 +3271,121 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:50:48.133758+00:00"
       }
+    },
+    "29562": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61c791e1be154",
+              "url": "https://prehraj.to/jako-sestry-2021-cztitulky/61c791e1be154",
+              "title": "Jako sestry (2021) CZtitulky",
+              "year": null,
+              "duration_sec": 5461,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.478,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5461,
+                "runtime_delta": 0.058,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "612cd2ce546e0",
+              "url": "https://prehraj.to/sisters-with-transistors-2020-1080p-webrip-x264-aac5-1-yts-mx/612cd2ce546e0",
+              "title": "Sisters.With.Transistors.2020.1080p.WEBRip.x264.AAC5.1-[YTS…",
+              "year": null,
+              "duration_sec": 5137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5137,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "612cd2d566f96",
+              "url": "https://prehraj.to/sisters-with-transistors-2020-720p-webrip-x264-aac-yts-mx/612cd2d566f96",
+              "title": "Sisters.With.Transistors.2020.720p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 5137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5137,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:50:52.702626+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sestry-s-tranzistory",
+        "title": "Sestry s tranzistory",
+        "original_title": "Sisters with Transistors",
+        "year": 2021,
+        "runtime_min": 86,
+        "tmdb_id": 682757,
+        "imdb_id": "tt6744250",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:50:49.319867+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:50:48.133781+00:00"
+  "updated_at": "2026-08-25T22:50:52.702645+00:00"
 }
