@@ -14685,7 +14685,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:25:16.101373+00:00"
+        "at": "2026-08-25T22:32:11.249001+00:00"
       }
     },
     "29121": {
@@ -14769,7 +14769,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:25:16.102274+00:00"
+        "at": "2026-08-25T22:32:11.249910+00:00"
       }
     },
     "29103": {
@@ -41179,7 +41179,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:25:16.104237+00:00"
+        "at": "2026-08-25T22:32:11.251829+00:00"
       }
     },
     "25169": {
@@ -42072,7 +42072,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:54:03.592058+00:00"
+        "at": "2026-08-25T22:32:11.253099+00:00"
       }
     },
     "23061": {
@@ -42520,6 +42520,348 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:55:58.244437+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "559ab73753af4",
+              "url": "https://prehraj.to/producenti-producers-the-brooks-1968/559ab73753af4",
+              "title": "Producenti-Producers,-The-Brooks-1968",
+              "year": null,
+              "duration_sec": 5378,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5378,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67826f8580999",
+              "url": "https://prehraj.to/dg-the-producer-hef/67826f8580999",
+              "title": "DG the Producer - Hef",
+              "year": null,
+              "duration_sec": 270,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6632895d73f3e",
+              "url": "https://prehraj.to/dg-the-producer-alane/6632895d73f3e",
+              "title": "DG The Producer - Alane",
+              "year": null,
+              "duration_sec": 202,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.962,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cef0d7d8c88",
+              "url": "https://prehraj.to/dg-the-producer-alane/68cef0d7d8c88",
+              "title": "DG The Producer - Alane",
+              "year": null,
+              "duration_sec": 203,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.962,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ceee3a3cc65",
+              "url": "https://prehraj.to/dg-the-producer-hef/68ceee3a3cc65",
+              "title": "DG the Producer - Hef",
+              "year": null,
+              "duration_sec": 271,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "663289e5dc19d",
+              "url": "https://prehraj.to/dg-the-producer-hef/663289e5dc19d",
+              "title": "DG the Producer - Hef",
+              "year": null,
+              "duration_sec": 270,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6782ce0940b89",
+              "url": "https://prehraj.to/dg-the-producer-irish-lullaby/6782ce0940b89",
+              "title": "DG The Producer - Irish Lullaby",
+              "year": null,
+              "duration_sec": 208,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.961,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cecdbec5698",
+              "url": "https://prehraj.to/dg-the-producer-bustarhymes-terror/68cecdbec5698",
+              "title": "DG The Producer - BustaRhymes Terror",
+              "year": null,
+              "duration_sec": 302,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.943,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cef0f06ddff",
+              "url": "https://prehraj.to/dg-the-producer-irish-lullaby/68cef0f06ddff",
+              "title": "DG The Producer - Irish Lullaby",
+              "year": null,
+              "duration_sec": 208,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.961,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67826de2396aa",
+              "url": "https://prehraj.to/dg-the-producer-bustarhymes-terror/67826de2396aa",
+              "title": "DG The Producer - BustaRhymes Terror",
+              "year": null,
+              "duration_sec": 302,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.943,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "663289666e877",
+              "url": "https://prehraj.to/dg-the-producer-irish-lullaby/663289666e877",
+              "title": "DG The Producer - Irish Lullaby",
+              "year": null,
+              "duration_sec": 208,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.961,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6632896c2b1aa",
+              "url": "https://prehraj.to/dg-the-producer-bustarhymes-terror/6632896c2b1aa",
+              "title": "DG The Producer - BustaRhymes Terror",
+              "year": null,
+              "duration_sec": 302,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.943,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6632329d5585a",
+              "url": "https://prehraj.to/dg-the-producer-terror-in-texas/6632329d5585a",
+              "title": "DG The Producer - Terror in Texas",
+              "year": null,
+              "duration_sec": 251,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cecc4cd87fe",
+              "url": "https://prehraj.to/dg-the-producer-terror-in-texas/68cecc4cd87fe",
+              "title": "DG The Producer - Terror in Texas",
+              "year": null,
+              "duration_sec": 251,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e438e1877ca",
+              "url": "https://prehraj.to/the-dj-producer-can-t-fuck-with-me-prspct/68e438e1877ca",
+              "title": "The Dj Producer - Can't Fuck With Me (PRSPCT)",
+              "year": null,
+              "duration_sec": 338,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67840f2b59882",
+              "url": "https://prehraj.to/the-dj-producer-can-t-fuck-with-me-prspct/67840f2b59882",
+              "title": "The Dj Producer - Can't Fuck With Me (PRSPCT)",
+              "year": null,
+              "duration_sec": 338,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66ec4d4b66489",
+              "url": "https://prehraj.to/a-day-in-the-life-of-a-hardcore-producer-at-home-edition-uptempo-dayinthelife-shorts/66ec4d4b66489",
+              "title": "A DAY IN THE LIFE OF A HARDCORE PRODUCER AT HOME EDITION …",
+              "year": null,
+              "duration_sec": 58,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.989,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Producers (1968)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:32:18.513237+00:00"
         }
       ],
       "identity": {
@@ -42538,7 +42880,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:55:57.416750+00:00"
+        "at": "2026-08-25T22:32:11.253206+00:00"
       }
     },
     "21809": {
@@ -57122,5 +57464,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T22:32:06.550416+00:00"
+  "updated_at": "2026-08-25T22:32:18.513257+00:00"
 }
