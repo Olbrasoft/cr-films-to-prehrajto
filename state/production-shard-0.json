@@ -136,7 +136,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28785395"
         },
-        "at": "2026-08-25T06:40:07.592909+00:00"
+        "at": "2026-08-25T06:44:38.375970+00:00"
       }
     },
     "29898": {
@@ -4367,7 +4367,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T06:22:15.951154+00:00"
+        "at": "2026-08-25T06:46:01.405154+00:00"
       }
     },
     "29848": {
@@ -6253,7 +6253,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T06:23:00.889563+00:00"
+        "at": "2026-08-25T06:46:01.405837+00:00"
       }
     },
     "29812": {
@@ -6548,7 +6548,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T06:23:39.071715+00:00"
+        "at": "2026-08-25T06:46:01.406835+00:00"
       }
     },
     "29788": {
@@ -7359,7 +7359,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28785478"
         },
-        "at": "2026-08-25T06:41:49.689120+00:00"
+        "at": "2026-08-25T06:45:21.142398+00:00"
       }
     },
     "29778": {
@@ -7768,7 +7768,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T06:24:22.457744+00:00"
+        "at": "2026-08-25T06:46:01.407088+00:00"
       }
     },
     "29762": {
@@ -9494,7 +9494,7 @@
             }
           ]
         },
-        "at": "2026-08-25T06:24:44.627841+00:00"
+        "at": "2026-08-25T06:46:01.414992+00:00"
       }
     },
     "29626": {
@@ -10101,7 +10101,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T21:53:53.690318+00:00"
+        "at": "2026-08-25T06:46:01.415577+00:00"
       }
     },
     "29564": {
@@ -10125,6 +10125,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T21:54:31.116025+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad4670b1686d",
+              "url": "https://prehraj.to/jindrich-viii-2-dil-historicky-cz-dad-2003-jad/5ad4670b1686d",
+              "title": "Jindřich-VIII.-2.díl-historický,cz.dad.-2003-jad",
+              "year": null,
+              "duration_sec": 5662,
+              "language_tier": "unacceptable",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.182,
+                "title_contains_alias": false,
+                "film_year": 2003,
+                "candidate_year": 2003,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5662,
+                "runtime_delta": 0.085,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T06:47:55.814014+00:00"
         }
       ],
       "identity": {
@@ -10143,7 +10181,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T21:54:14.899194+00:00"
+        "at": "2026-08-25T06:47:31.269131+00:00"
       }
     },
     "29562": {
@@ -26403,5 +26441,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T06:41:49.689137+00:00"
+  "updated_at": "2026-08-25T06:47:55.814033+00:00"
 }
