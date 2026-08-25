@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:11:50.822047+00:00"
+        "at": "2026-08-25T22:15:02.047945+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:11:50.822991+00:00"
+        "at": "2026-08-25T22:15:02.048881+00:00"
       }
     },
     "27238": {
@@ -309,7 +309,94 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:14:58.527364+00:00"
       }
+    },
+    "24566": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "bda9af5829e3c992",
+              "url": "https://prehraj.to/vojnarka-1936/bda9af5829e3c992",
+              "title": "Vojnarka (1936)",
+              "year": null,
+              "duration_sec": 4265,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1936,
+                "candidate_year": 1936,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4265,
+                "runtime_delta": 0.289,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587427720d5a0",
+              "url": "https://prehraj.to/vojnarka-cs-drama-1936-tvrip/587427720d5a0",
+              "title": "Vojnarka-CS-drama-1936-TVrip",
+              "year": null,
+              "duration_sec": 4265,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1936,
+                "candidate_year": 1936,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4265,
+                "runtime_delta": 0.289,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:15:06.208210+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vojnarka",
+        "title": "Vojnarka",
+        "original_title": null,
+        "year": 1936,
+        "runtime_min": 100,
+        "tmdb_id": 643811,
+        "imdb_id": "tt0247807",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:15:02.048918+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:14:58.527390+00:00"
+  "updated_at": "2026-08-25T22:15:06.208227+00:00"
 }
