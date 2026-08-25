@@ -28134,7 +28134,39 @@
         },
         "at": "2026-08-25T07:13:35.157698+00:00"
       }
+    },
+    "24566": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:13:42.091036+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vojnarka",
+        "title": "Vojnarka",
+        "original_title": null,
+        "year": 1936,
+        "runtime_min": 100,
+        "tmdb_id": 643811,
+        "imdb_id": "tt0247807",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:13:38.870553+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:13:37.486084+00:00"
+  "updated_at": "2026-08-25T07:13:42.091057+00:00"
 }
