@@ -45141,7 +45141,85 @@
         },
         "at": "2026-08-25T15:11:09.964337+00:00"
       }
+    },
+    "25001": {
+      "attempts": [],
+      "identity": {
+        "slug": "sniper-2",
+        "title": "Sniper 2",
+        "original_title": null,
+        "year": 2004,
+        "runtime_min": 91,
+        "tmdb_id": 14245,
+        "imdb_id": "tt0338450",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25151848",
+              "account_name": "DC Sniper - 23 dní strachu (2003) CZ Dabing",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2004,
+              "candidate_year": 2003,
+              "year_match": true,
+              "film_runtime_min": 91,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25192582",
+              "account_name": "Sniper 3 (2005) CZ Dabing",
+              "title_similarity": 0.762,
+              "title_contains_alias": false,
+              "film_year": 2004,
+              "candidate_year": 2005,
+              "year_match": true,
+              "film_runtime_min": 91,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-25T15:11:13.812634+00:00"
+      }
+    },
+    "24963": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:11:14.399350+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "azaad-desh-ke-gulam",
+        "title": "Azaad Desh Ke Gulam",
+        "original_title": null,
+        "year": 1990,
+        "runtime_min": 150,
+        "tmdb_id": 604062,
+        "imdb_id": "tt0330019",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:11:13.812679+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:11:10.534293+00:00"
+  "updated_at": "2026-08-25T15:11:14.399359+00:00"
 }
