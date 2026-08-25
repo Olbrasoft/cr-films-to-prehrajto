@@ -33045,7 +33045,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:54:03.588037+00:00"
+        "at": "2026-08-25T16:45:01.654260+00:00"
       }
     },
     "27263": {
@@ -33079,6 +33079,70 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:16:00.179040+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583ed2eba176c",
+              "url": "https://prehraj.to/jackie-chan-terc-cz-1997/583ed2eba176c",
+              "title": "Jackie_Chan_-_Terč_-_CZ-1997...",
+              "year": null,
+              "duration_sec": 5077,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 140,
+                "candidate_runtime_sec": 5077,
+                "runtime_delta": 0.396,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e0de7ee89f662468",
+              "url": "https://prehraj.to/jaki-can-1997/e0de7ee89f662468",
+              "title": "ಜಾಕಿ ಚಾನ್ (1997)",
+              "year": null,
+              "duration_sec": 5076,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.0,
+                "title_contains_alias": false,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 140,
+                "candidate_runtime_sec": 5076,
+                "runtime_delta": 0.396,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "ಜಾಕಿ ಚಾನ್ (1997)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T16:46:35.822086+00:00"
         }
       ],
       "identity": {
@@ -33097,7 +33161,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:15:55.929049+00:00"
+        "at": "2026-08-25T16:45:01.654622+00:00"
       }
     },
     "27257": {
@@ -56330,5 +56394,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T16:44:57.768786+00:00"
+  "updated_at": "2026-08-25T16:46:35.822106+00:00"
 }
