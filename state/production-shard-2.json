@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:04:19.030404+00:00"
+        "at": "2026-08-25T23:09:41.718352+00:00"
       }
     },
     "27350": {
@@ -911,7 +911,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:04:19.031745+00:00"
+        "at": "2026-08-25T23:09:41.719706+00:00"
       }
     },
     "22730": {
@@ -2949,7 +2949,7 @@
             }
           ]
         },
-        "at": "2026-08-25T23:04:19.043615+00:00"
+        "at": "2026-08-25T23:09:41.731265+00:00"
       }
     },
     "22474": {
@@ -2980,7 +2980,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:04:19.044260+00:00"
+        "at": "2026-08-25T23:09:41.731920+00:00"
       }
     },
     "22354": {
@@ -3495,7 +3495,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:04:19.044654+00:00"
+        "at": "2026-08-25T23:09:41.732285+00:00"
       }
     },
     "28426": {
@@ -3644,7 +3644,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T23:09:40.523184+00:00"
       }
+    },
+    "28106": {
+      "attempts": [],
+      "identity": {
+        "slug": "lego-hero-factory-divoka-planeta",
+        "title": "LEGO Hero Factory: Divoká planeta",
+        "original_title": "LEGO Hero Factory: Savage Planet",
+        "year": 2011,
+        "runtime_min": 44,
+        "tmdb_id": 264646,
+        "imdb_id": "tt2234550",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25170513",
+          "account_name": "LEGO Hero Factory: Nový tým (2010) CZ",
+          "title_similarity": 0.645,
+          "title_contains_alias": false,
+          "film_year": 2011,
+          "candidate_year": 2010,
+          "year_match": true,
+          "film_runtime_min": 44,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T23:09:41.732469+00:00"
+      }
+    },
+    "27970": {
+      "attempts": [],
+      "identity": {
+        "slug": "doba-ledova-mamuti-vanoce",
+        "title": "Doba ledová: Mamutí Vánoce",
+        "original_title": "Ice Age: A Mammoth Christmas",
+        "year": 2011,
+        "runtime_min": 24,
+        "tmdb_id": 79218,
+        "imdb_id": "tt2100546",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T23:09:41.732727+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T23:09:40.523213+00:00"
+  "updated_at": "2026-08-25T23:09:49.348328+00:00"
 }
