@@ -23969,6 +23969,98 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:24:31.988210+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b05690f804e7",
+              "url": "https://prehraj.to/prci-prci-prcicky-1-komedie-cz-dab-1999-jad/5b05690f804e7",
+              "title": "Prci,Prci,Prcičky 1-komedie-cz dab.-1999-jad",
+              "year": null,
+              "duration_sec": 5504,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.13,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5504,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bab9bf12cb81",
+              "url": "https://prehraj.to/ohnem-a-mecem-2-dil-historicky-cz-dab-1999-jad/5bab9bf12cb81",
+              "title": "Ohněm a mečem 2.díl-historický-cz dab.-1999-jad",
+              "year": null,
+              "duration_sec": 6204,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.122,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6204,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cb99c0d8d295",
+              "url": "https://prehraj.to/prci-prci-prcicky-1-komedie-cz-dab-1999-jad/5cb99c0d8d295",
+              "title": "Prci Prci Prcičky 1-komedie-cz dab.-1999-jad",
+              "year": null,
+              "duration_sec": 5506,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.13,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5506,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:50:43.995966+00:00"
         }
       ],
       "identity": {
@@ -23987,7 +24079,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:24:31.457344+00:00"
+        "at": "2026-08-25T15:50:43.600642+00:00"
       }
     },
     "28354": {
@@ -44430,5 +44522,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:50:41.932432+00:00"
+  "updated_at": "2026-08-25T15:50:43.995987+00:00"
 }
