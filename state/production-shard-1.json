@@ -46931,7 +46931,121 @@
         },
         "at": "2026-08-25T15:13:24.515369+00:00"
       }
+    },
+    "24345": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "577c25e8e8963",
+              "url": "https://prehraj.to/misto-cinu-schimanski-1986-cz-a-12-vymena/577c25e8e8963",
+              "title": "Místo-činu---Schimanski-(1986)---CZ-(A)---12---Výměna",
+              "year": null,
+              "duration_sec": 5280,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5280,
+                "runtime_delta": 0.011,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586a4b4350d09",
+              "url": "https://prehraj.to/misto-cinu-schimanski-1986-cz-a-13-cerny-vikend/586a4b4350d09",
+              "title": "Místo-činu---Schimanski-(1986)---CZ-(A)---13---Černý-víkend",
+              "year": null,
+              "duration_sec": 5687,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.179,
+                "title_contains_alias": false,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5687,
+                "runtime_delta": 0.089,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "605ff445b19e8",
+              "url": "https://prehraj.to/misto-cinu-schimanski-1986-cz-a-12-vymena/605ff445b19e8",
+              "title": "Místo činu - Schimanski (1986) - CZ (A) - 12 - Výměna",
+              "year": null,
+              "duration_sec": 5280,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5280,
+                "runtime_delta": 0.011,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:13:28.026619+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "doppio-misto",
+        "title": "Doppio misto",
+        "original_title": "Mixed Double",
+        "year": 1986,
+        "runtime_min": 87,
+        "tmdb_id": 354847,
+        "imdb_id": "tt0196509",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:13:27.368745+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:13:25.001710+00:00"
+  "updated_at": "2026-08-25T15:13:28.026633+00:00"
 }
