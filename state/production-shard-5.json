@@ -994,7 +994,155 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:42:01.260108+00:00"
       }
+    },
+    "23061": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5877729e0c686",
+              "url": "https://prehraj.to/paganini-horror-1989-dvdrip-xvid-ac3-shag/5877729e0c686",
+              "title": "Paganini.Horror.1989.DVDRip.XviD.AC3-SHAG",
+              "year": null,
+              "duration_sec": 4824,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 4824,
+                "runtime_delta": 0.18,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f1fe095782d706de",
+              "url": "https://prehraj.to/shag-1989-720p-bluray-x264-yts-lt-cz-tit/f1fe095782d706de",
+              "title": "Shag.1989.720p.BluRay.x264-[YTS.LT]-cz tit",
+              "year": null,
+              "duration_sec": 5947,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5947,
+                "runtime_delta": 0.011,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ebdc6c90c5c5e1a1",
+              "url": "https://prehraj.to/shag-1989-cs/ebdc6c90c5c5e1a1",
+              "title": "Shag - 1989 CS",
+              "year": null,
+              "duration_sec": 5936,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5936,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9d5dd7d3189",
+              "url": "https://prehraj.to/shag-1989/5a9d5dd7d3189",
+              "title": "Shag (1989)",
+              "year": null,
+              "duration_sec": 5937,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5937,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:42:08.880407+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "shag",
+        "title": "Shag",
+        "original_title": null,
+        "year": 1989,
+        "runtime_min": 98,
+        "tmdb_id": 38043,
+        "imdb_id": "tt0098300",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:42:05.260413+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:42:01.260135+00:00"
+  "updated_at": "2026-08-25T22:42:08.880422+00:00"
 }
