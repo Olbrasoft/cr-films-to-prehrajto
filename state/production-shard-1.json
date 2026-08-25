@@ -34562,7 +34562,70 @@
         },
         "at": "2026-08-25T07:01:34.264866+00:00"
       }
+    },
+    "21777": {
+      "attempts": [],
+      "identity": {
+        "slug": "film-3",
+        "title": "Film",
+        "original_title": null,
+        "year": 1965,
+        "runtime_min": 20,
+        "tmdb_id": 45592,
+        "imdb_id": "tt0060410",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25375324",
+          "account_name": "Onibaba : Film Location (1964) CZ Titulky",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 1965,
+          "candidate_year": 1964,
+          "year_match": true,
+          "film_runtime_min": 20,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T07:01:37.599021+00:00"
+      }
+    },
+    "21381": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:01:38.854371+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "farma-zvirat",
+        "title": "Farma zvířat",
+        "original_title": "Animal Farm",
+        "year": 1954,
+        "runtime_min": 73,
+        "tmdb_id": 11848,
+        "imdb_id": "tt0047834",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:01:37.599169+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:01:36.280697+00:00"
+  "updated_at": "2026-08-25T07:01:38.854390+00:00"
 }
