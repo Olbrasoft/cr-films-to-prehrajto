@@ -32412,7 +32412,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:15:47.808509+00:00"
+        "at": "2026-08-25T07:25:53.267382+00:00"
       }
     },
     "17574": {
@@ -32472,7 +32472,107 @@
         },
         "at": "2026-08-25T07:15:49.664928+00:00"
       }
+    },
+    "17528": {
+      "attempts": [],
+      "identity": {
+        "slug": "dum-na-musce-2023",
+        "title": "Dům na mušce",
+        "original_title": "Chasse gardée",
+        "year": 2023,
+        "runtime_min": 101,
+        "tmdb_id": 1001026,
+        "imdb_id": "tt9115752",
+        "created_at": "2026-04-14 16:19:18.476618+02:00",
+        "added_at": "2024-06-21 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:26:00.527509+00:00"
+      }
+    },
+    "17012": {
+      "attempts": [],
+      "identity": {
+        "slug": "monica-2023",
+        "title": "Monica",
+        "original_title": "Monica",
+        "year": 2023,
+        "runtime_min": 113,
+        "tmdb_id": 540549,
+        "imdb_id": "tt6337816",
+        "created_at": "2026-04-14 16:14:39.175424+02:00",
+        "added_at": "2024-03-24 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:26:06.182714+00:00"
+      }
+    },
+    "17318": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "29592",
+              "url": "https://online.sktorrent.eu/video/29592/",
+              "title": "Operace Fortune: Ruse de Guerre",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:26:14.598179+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "operace-fortune-ruse-de-guerre-2023",
+        "title": "Operace Fortune: Ruse de Guerre",
+        "original_title": "Operation Fortune: Ruse de Guerre",
+        "year": 2023,
+        "runtime_min": 113,
+        "tmdb_id": 739405,
+        "imdb_id": "tt7985704",
+        "created_at": "2026-04-14 16:17:46.898874+02:00",
+        "added_at": "2023-04-29 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:26:11.850440+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:25:51.908505+00:00"
+  "updated_at": "2026-08-25T07:26:14.598199+00:00"
 }
