@@ -34834,6 +34834,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:01:18.335536+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "20b4d8946e9a475c",
+              "url": "https://prehraj.to/top-gun-1986-1080p-en-3xcz-2xsk-atvp-web-dl-ddpa-5-1-h-264-pirates/20b4d8946e9a475c",
+              "title": "Top Gun 1986 1080p EN.3xCZ.2xSK.ATVP WEB-DL DDPA 5 1 H 264-PiRaTeS",
+              "year": null,
+              "duration_sec": 6582,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": 124,
+                "candidate_runtime_sec": 6582,
+                "runtime_delta": 0.115,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:19:19.240217+00:00"
         }
       ],
       "identity": {
@@ -34852,7 +34890,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:01:17.512800+00:00"
+        "at": "2026-08-25T07:19:18.379113+00:00"
       }
     },
     "22707": {
@@ -35499,5 +35537,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T07:19:16.853729+00:00"
+  "updated_at": "2026-08-25T07:19:19.240227+00:00"
 }
