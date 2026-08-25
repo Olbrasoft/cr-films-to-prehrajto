@@ -42559,7 +42559,67 @@
         },
         "at": "2026-08-25T15:34:36.295059+00:00"
       }
+    },
+    "24214": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "682f588e796fd",
+              "url": "https://prehraj.to/thriller-drsny-film-christina-lindberg-heinz-hopf-solveig-andersson-1973-horor-thriller-krimi-akcni-pornograficky-bdrip-1080p-swe-dabing-cz-titulky/682f588e796fd",
+              "title": "Thriller-Drsny film (Christina Lindberg,Heinz Hopf,Solveig Andersson-1973 Horor-Thriller-Krimi-Akční-Pornografický-Bdrip.1080p.) Swe dabing+Cz titulky",
+              "year": null,
+              "duration_sec": 6216,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.106,
+                "title_contains_alias": false,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 6216,
+                "runtime_delta": 0.219,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:34:39.097881+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "home-sweet-home",
+        "title": "Home Sweet Home",
+        "original_title": null,
+        "year": 1973,
+        "runtime_min": 85,
+        "tmdb_id": 2380,
+        "imdb_id": "tt0173904",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:34:38.121808+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:34:36.688265+00:00"
+  "updated_at": "2026-08-25T15:34:39.097901+00:00"
 }
