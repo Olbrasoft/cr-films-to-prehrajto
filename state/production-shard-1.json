@@ -23220,6 +23220,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:29:40.374115+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587ca855ecea4",
+              "url": "https://prehraj.to/inga-lindstrom-divoci-kone-2011-cz-xvid/587ca855ecea4",
+              "title": "Inga-Lindström--Divocí-koně-2011-CZ_xvid.",
+              "year": null,
+              "duration_sec": 5305,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.768,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:00:41.588417+00:00"
         }
       ],
       "identity": {
@@ -23238,7 +23269,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:29:18.424308+00:00"
+        "at": "2026-08-25T15:00:41.228667+00:00"
       }
     },
     "27989": {
@@ -38362,5 +38393,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:00:39.857702+00:00"
+  "updated_at": "2026-08-25T15:00:41.588434+00:00"
 }
