@@ -52268,7 +52268,97 @@
         },
         "at": "2026-08-25T15:15:52.424748+00:00"
       }
+    },
+    "23455": {
+      "attempts": [],
+      "identity": {
+        "slug": "andele",
+        "title": "Andělé",
+        "original_title": "Angels in the Outfield",
+        "year": 1994,
+        "runtime_min": 103,
+        "tmdb_id": 24795,
+        "imdb_id": "tt0109127",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25075133",
+              "account_name": "Strážní andělé (1995) CZ Dabing",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 1994,
+              "candidate_year": 1995,
+              "year_match": true,
+              "film_runtime_min": 103,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25128141",
+              "account_name": "Andělé nejsou andělé (1994) CZ",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 1994,
+              "candidate_year": 1994,
+              "year_match": true,
+              "film_runtime_min": 103,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25503682",
+              "account_name": "Padlí andělé (1995)",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 1994,
+              "candidate_year": 1995,
+              "year_match": true,
+              "film_runtime_min": 103,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-25T15:15:55.780134+00:00"
+      }
+    },
+    "23447": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:15:57.837937+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "71-fragmente-einer-chronologie-des-zufalls",
+        "title": "71 Fragmente einer Chronologie des Zufalls",
+        "original_title": "71 Fragments of a Chronology of Chance",
+        "year": 1995,
+        "runtime_min": 100,
+        "tmdb_id": 32764,
+        "imdb_id": "tt0109020",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:15:55.780198+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:15:53.498269+00:00"
+  "updated_at": "2026-08-25T15:15:57.837950+00:00"
 }
