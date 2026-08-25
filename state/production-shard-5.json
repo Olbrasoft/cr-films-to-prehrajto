@@ -1583,7 +1583,59 @@
         },
         "at": "2026-08-25T23:08:48.820053+00:00"
       }
+    },
+    "28413": {
+      "attempts": [],
+      "identity": {
+        "slug": "pariz-v-zrcadle-casu",
+        "title": "Paříž v zrcadle času",
+        "original_title": "Paris, the Great Saga",
+        "year": 2012,
+        "runtime_min": 52,
+        "tmdb_id": 354895,
+        "imdb_id": "tt2720844",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25213974",
+          "account_name": "Paris-Manhattan (2012) CZ",
+          "title_similarity": 0.5,
+          "title_contains_alias": false,
+          "film_year": 2012,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 52,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T23:08:54.237172+00:00"
+      }
+    },
+    "28277": {
+      "attempts": [],
+      "identity": {
+        "slug": "20-dnu-v-mariupolu",
+        "title": "20 dnů v Mariupolu",
+        "original_title": "20 Days in Mariupol",
+        "year": 2023,
+        "runtime_min": 94,
+        "tmdb_id": 1058616,
+        "imdb_id": "tt24082438",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T23:08:54.237224+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T23:08:53.004541+00:00"
+  "updated_at": "2026-08-25T23:08:55.276754+00:00"
 }
