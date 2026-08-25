@@ -2164,7 +2164,206 @@
         },
         "at": "2026-08-25T22:36:15.535662+00:00"
       }
+    },
+    "27931": {
+      "attempts": [],
+      "identity": {
+        "slug": "barbie-a-skola-pro-princezny",
+        "title": "Barbie a Škola pro princezny",
+        "original_title": "Barbie: Princess Charm School",
+        "year": 2011,
+        "runtime_min": 79,
+        "tmdb_id": 73456,
+        "imdb_id": "tt2066832",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25024786",
+          "account_name": "Vánoce labutí princezny (2012) CZ Dabing",
+          "title_similarity": 0.536,
+          "title_contains_alias": false,
+          "film_year": 2011,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 79,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T22:36:19.855650+00:00"
+      }
+    },
+    "27675": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c2feb0a29ba5",
+              "url": "https://prehraj.to/vila-2011/5c2feb0a29ba5",
+              "title": "Víla (2011)",
+              "year": null,
+              "duration_sec": 5647,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.207,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 5647,
+                "runtime_delta": 0.307,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6af9c3adf7196610",
+              "url": "https://prehraj.to/barbie-tajemstvi-vil-2011-cs/6af9c3adf7196610",
+              "title": "Barbie: Tajemství víl - 2011 CS",
+              "year": null,
+              "duration_sec": 4313,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4313,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9e48ecce86facc29",
+              "url": "https://prehraj.to/barbie-tajemstvi-vil-2011-cs/9e48ecce86facc29",
+              "title": "Barbie: Tajemství víl - 2011 CS",
+              "year": null,
+              "duration_sec": 4313,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4313,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "849ff78b0c314161",
+              "url": "https://prehraj.to/barbie-a-fairy-secret-2011-imdbid-tt1800254-webdl-1080p-ac3-2-0-h264-pitbull/849ff78b0c314161",
+              "title": "Barbie A Fairy Secret (2011) [imdbid-tt1800254] - [WEBDL…",
+              "year": null,
+              "duration_sec": 4346,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4346,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Barbie: A Fairy Secret (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1ac2d74433d572b7",
+              "url": "https://prehraj.to/barbie-a-fairy-secret-2011-imdbid-tt1800254-webdl-1080p-ac3-2/1ac2d74433d572b7",
+              "title": "Barbie A Fairy Secret (2011) [imdbid-tt1800254] - [WEBDL…",
+              "year": null,
+              "duration_sec": 4346,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4346,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Barbie: A Fairy Secret (2011)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:36:23.759809+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "barbie-tajemstvi-vil",
+        "title": "Barbie: Tajemství víl",
+        "original_title": "Barbie: A Fairy Secret",
+        "year": 2011,
+        "runtime_min": 72,
+        "tmdb_id": 57737,
+        "imdb_id": "tt1800254",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:36:19.856144+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:36:18.628813+00:00"
+  "updated_at": "2026-08-25T22:36:23.759827+00:00"
 }
