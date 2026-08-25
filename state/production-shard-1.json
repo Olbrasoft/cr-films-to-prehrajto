@@ -52006,7 +52006,67 @@
         },
         "at": "2026-08-25T15:15:31.144281+00:00"
       }
+    },
+    "23583": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5855a141af056",
+              "url": "https://prehraj.to/shootfighter-2-msta-1995-cz-dabing/5855a141af056",
+              "title": "Shootfighter-2-Msta-1995-CZ-dabing",
+              "year": null,
+              "duration_sec": 5219,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.27,
+                "title_contains_alias": false,
+                "film_year": 1995,
+                "candidate_year": 1995,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5219,
+                "runtime_delta": 0.075,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:15:34.953617+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "zelezne-pesti",
+        "title": "Železné pěsti",
+        "original_title": "Fists of Iron",
+        "year": 1995,
+        "runtime_min": 94,
+        "tmdb_id": 29801,
+        "imdb_id": "tt0113075",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:15:33.906580+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:15:31.608235+00:00"
+  "updated_at": "2026-08-25T15:15:34.953627+00:00"
 }
