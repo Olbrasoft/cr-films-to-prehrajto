@@ -31064,7 +31064,39 @@
         },
         "at": "2026-08-25T07:15:07.013931+00:00"
       }
+    },
+    "21890": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:15:11.687677+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "project-x",
+        "title": "Project X",
+        "original_title": null,
+        "year": 1968,
+        "runtime_min": 97,
+        "tmdb_id": 29398,
+        "imdb_id": "tt0063465",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:15:09.403458+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:15:08.066969+00:00"
+  "updated_at": "2026-08-25T07:15:11.687697+00:00"
 }
