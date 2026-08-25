@@ -40,7 +40,7 @@ jobs:
   prefetch:
     needs: test
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 350
     outputs:
       queue: ${{ steps.queue.outputs.queue }}
       scanned: ${{ steps.queue.outputs.scanned }}
@@ -63,29 +63,50 @@ jobs:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
         run: |
-          test "$PREHRAJTO_EMAIL" = "filmy.prehrajto@post.cz"
-          python scripts/prefetch_sources.py \
-            --snapshot state/missing-films.json \
-            --out state/source-prefetch.json \
-            --scan-state state/source-prefetch-scan.json \
-            --limit 1000 \
-            --delay 0.25 \
-            --merge
-
-      - name: Persist prefetched queue
-        run: |
           set -euo pipefail
+          test "$PREHRAJTO_EMAIL" = "filmy.prehrajto@post.cz"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/source-prefetch.json state/source-prefetch-scan.json
-          git diff --cached --quiet || \
-            git commit -m "chore(prefetch): refresh source queue"
-          for attempt in 1 2 3 4 5 6 7 8 9 10; do
-            git push origin HEAD:main && exit 0
-            git pull --rebase origin main
-            sleep "$attempt"
+          remaining=1
+          previous_scanned=-1
+          stalled_batches=0
+          while (( remaining > 0 )); do
+            python scripts/prefetch_sources.py \
+              --snapshot state/missing-films.json \
+              --out state/source-prefetch.json \
+              --scan-state state/source-prefetch-scan.json \
+              --status-out "$RUNNER_TEMP/prefetch-status.json" \
+              --limit 100 \
+              --delay 0.25 \
+              --merge
+            remaining=$(jq -r '.remaining' "$RUNNER_TEMP/prefetch-status.json")
+            scanned=$(jq -r '.scanned' "$RUNNER_TEMP/prefetch-status.json")
+            git add state/source-prefetch.json state/source-prefetch-scan.json
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(prefetch): refresh source queue"
+              pushed=false
+              for attempt in 1 2 3 4 5 6 7 8 9 10; do
+                if git push origin HEAD:main; then
+                  pushed=true
+                  break
+                fi
+                git pull --rebase origin main
+                sleep "$attempt"
+              done
+              test "$pushed" = true
+            fi
+            if (( scanned == previous_scanned )); then
+              stalled_batches=$((stalled_batches + 1))
+              if (( stalled_batches >= 3 )); then
+                echo "Search made no progress in three consecutive batches."
+                break
+              fi
+              sleep 60
+            else
+              stalled_batches=0
+            fi
+            previous_scanned=$scanned
           done
-          exit 1
 
   upload:
     needs: test
