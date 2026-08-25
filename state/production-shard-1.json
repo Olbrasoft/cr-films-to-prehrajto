@@ -30718,7 +30718,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-24T23:02:07.089816+00:00"
+        "at": "2026-08-25T06:59:23.156561+00:00"
       }
     },
     "26821": {
@@ -31095,7 +31095,18 @@
       }
     },
     "26745": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T06:59:25.206311+00:00"
+        }
+      ],
       "identity": {
         "slug": "vyckavani",
         "title": "Vyčkávání",
@@ -31112,7 +31123,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T23:06:05.117089+00:00"
+        "at": "2026-08-25T06:59:23.156741+00:00"
       }
     },
     "26741": {
@@ -33244,5 +33255,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T06:59:21.840309+00:00"
+  "updated_at": "2026-08-25T06:59:25.206332+00:00"
 }
