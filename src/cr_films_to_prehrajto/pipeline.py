@@ -75,11 +75,18 @@ class HybridPipeline:
         validate_limit(limit, maximum)
         plan = []
         classifications_since_save = 0
-        for film in sorted(
+        ordered_films = sorted(
             films,
             key=lambda item: (item.added_at or item.created_at or "", item.cr_film_id),
             reverse=True,
-        ):
+        )
+        partial_films = [
+            film
+            for film in ordered_films
+            if self.state.pending_partial_upload(film.cr_film_id)
+        ]
+        regular_films = [film for film in ordered_films if film not in partial_films]
+        for film in [*partial_films, *regular_films]:
             if self.state.uploaded(film.cr_film_id):
                 continue
             if skip_exhausted_snapshot and self.state.discovery_exhausted_for_snapshot(

@@ -161,7 +161,10 @@ def run_production(args) -> int:
         proxy_url=os.environ.get("CZ_PROXY_URL", ""),
         proxy_key=os.environ.get("CZ_PROXY_KEY", ""),
         session=requests.Session(),
-        min_gap_seconds=float(os.environ.get("CZ_PROXY_MIN_GAP_SECONDS", "5")),
+        min_gap_seconds=float(os.environ.get("CZ_PROXY_MIN_GAP_SECONDS", "8")),
+        max_rate_limit_retries=int(
+            os.environ.get("CZ_PROXY_MAX_RATE_LIMIT_RETRIES", "3")
+        ),
         allow_direct=os.environ.get("PREHRAJTO_ALLOW_DIRECT", "").lower()
         in {"1", "true", "yes"},
         use_whisper=os.environ.get("ENABLE_WHISPER", "").lower()

@@ -68,6 +68,37 @@ def test_proxy_exception_does_not_expose_key():
     assert "dummy-value" not in str(raised.value)
 
 
+def test_proxy_rate_limit_is_retried_with_bounded_backoff(monkeypatch):
+    class Response:
+        def __init__(self, status_code):
+            self.status_code = status_code
+            self.headers = {"Retry-After": "1"}
+            self.text = "ok"
+
+    class Session:
+        def __init__(self):
+            self.calls = 0
+
+        def get(self, *_args, **_kwargs):
+            self.calls += 1
+            return Response(429 if self.calls < 3 else 200)
+
+    waits = []
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.providers.prehrajto.time.sleep", waits.append
+    )
+    session = Session()
+    provider = PrehrajtoProvider(
+        "https://proxy.example/",
+        "dummy-value",
+        session,
+        max_rate_limit_retries=2,
+    )
+    assert provider._proxy_get("https://prehraj.to/film/abc").status_code == 200
+    assert session.calls == 3
+    assert waits == [1, 1]
+
+
 def test_direct_source_mode_does_not_require_proxy_configuration():
     class DirectSession:
         def get(self, url, timeout):
