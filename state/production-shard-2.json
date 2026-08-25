@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T18:38:59.322944+00:00"
+        "at": "2026-08-25T18:42:29.165820+00:00"
       }
     },
     "28166": {
@@ -163,7 +163,74 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T18:42:19.157652+00:00"
       }
+    },
+    "27966": {
+      "attempts": [],
+      "identity": {
+        "slug": "zavod-s-casem-2013",
+        "title": "Závod s časem",
+        "original_title": "Hours",
+        "year": 2013,
+        "runtime_min": 97,
+        "tmdb_id": 172803,
+        "imdb_id": "tt2094018",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25183815",
+              "account_name": "Burákova cesta časem (2012) CZ Dabing",
+              "title_similarity": 0.526,
+              "title_contains_alias": false,
+              "film_year": 2013,
+              "candidate_year": 2012,
+              "year_match": true,
+              "film_runtime_min": 97,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25317266",
+              "account_name": "These Final Hours (2014) CZ Titulky",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2013,
+              "candidate_year": 2014,
+              "year_match": true,
+              "film_runtime_min": 97,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-25T18:42:29.167014+00:00"
+      }
+    },
+    "27702": {
+      "attempts": [],
+      "identity": {
+        "slug": "tajemstvi-noemovy-archy",
+        "title": "Tajemství Noemovy archy",
+        "original_title": "Visus - Expedition Arche Noah",
+        "year": 2011,
+        "runtime_min": 125,
+        "tmdb_id": 65910,
+        "imdb_id": "tt1822363",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T18:42:29.167058+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T18:42:19.157686+00:00"
+  "updated_at": "2026-08-25T18:42:29.696467+00:00"
 }
