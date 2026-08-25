@@ -27615,7 +27615,18 @@
       }
     },
     "27816": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:25:37.274697+00:00"
+        }
+      ],
       "identity": {
         "slug": "sector-7",
         "title": "Sector 7",
@@ -27632,7 +27643,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:43:17.554625+00:00"
+        "at": "2026-08-25T15:25:36.797213+00:00"
       }
     },
     "27814": {
@@ -34885,5 +34896,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:25:35.223717+00:00"
+  "updated_at": "2026-08-25T15:25:37.274716+00:00"
 }
