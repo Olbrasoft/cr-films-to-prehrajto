@@ -35612,6 +35612,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T23:14:34.686954+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55fff3b6e8580",
+              "url": "https://prehraj.to/jaky-otec-takova-dcera-2000-cz-dab-komedie-p-p/55fff3b6e8580",
+              "title": "Jaký otec, taková dcera - 2000 cz dab.komedie p.p",
+              "year": null,
+              "duration_sec": 4878,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.848,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:03:42.457024+00:00"
         }
       ],
       "identity": {
@@ -35630,7 +35661,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T23:14:15.766281+00:00"
+        "at": "2026-08-25T15:03:41.250527+00:00"
       }
     },
     "26497": {
@@ -39493,5 +39524,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:03:39.735773+00:00"
+  "updated_at": "2026-08-25T15:03:42.457041+00:00"
 }
