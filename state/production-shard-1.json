@@ -7950,6 +7950,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T06:56:37.844027+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac2e88469233",
+              "url": "https://prehraj.to/louis-c-k-2017-2017/5ac2e88469233",
+              "title": "Louis C.K.: 2017 (2017)",
+              "year": null,
+              "duration_sec": 4467,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 74,
+                "candidate_runtime_sec": 4467,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Louis C.K. 2017 (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "75e588fc83a34dea",
+              "url": "https://prehraj.to/louis-c-k-2017-2017/75e588fc83a34dea",
+              "title": "Louis C.K. 2017 (2017)",
+              "year": null,
+              "duration_sec": 4467,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 74,
+                "candidate_runtime_sec": 4467,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Louis C.K. 2017 (2017)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T16:03:57.647229+00:00"
         }
       ],
       "identity": {
@@ -7968,7 +8033,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T06:54:51.775340+00:00"
+        "at": "2026-08-25T16:03:55.377829+00:00"
       }
     },
     "29553": {
@@ -53236,5 +53301,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:54:11.297957+00:00"
+  "updated_at": "2026-08-25T16:03:57.647242+00:00"
 }
