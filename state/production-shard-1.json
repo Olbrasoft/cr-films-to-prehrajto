@@ -4943,6 +4943,117 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T21:51:51.707533+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fd5672d07e59",
+              "url": "https://prehraj.to/freaks-2018-1080p-cz-sub-bluray-x264/5fd5672d07e59",
+              "title": "Freaks.2018.1080p.cz.sub.BluRay.x264",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5de56fea9ce0c",
+              "url": "https://prehraj.to/freaks-drama-2018-cz-titulky/5de56fea9ce0c",
+              "title": "Freaks-(drama)-(2018)--cz-titulky",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e036a38c172b",
+              "url": "https://prehraj.to/freaks-2018-720p-hd-sk-titulky/5e036a38c172b",
+              "title": "Freaks.(2018).720p.HD.SK.TITULKY",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61dc06695ac81",
+              "url": "https://prehraj.to/hotel-transylvania-3-summer-vacation-2018-1080p-bluray-dts-x264-geek-cz-sk-ftu/61dc06695ac81",
+              "title": "Hotel.Transylvania.3.Summer.Vacation.2018.1080p.BluRay.DTS.x264-Geek.CZ.SK-FTU",
+              "year": null,
+              "duration_sec": 5843,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.522,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "612dd7b714149",
+              "url": "https://prehraj.to/freaks-2018-1080p-bluray-h264-aac-rarbg/612dd7b714149",
+              "title": "Freaks.2018.1080p.BluRay.H264.AAC-RARBG",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "catalog_metadata",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T06:25:26.599938+00:00"
         }
       ],
       "identity": {
@@ -4961,7 +5072,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T21:51:35.200827+00:00"
+        "at": "2026-08-25T06:25:10.289502+00:00"
       }
     },
     "29731": {
@@ -32815,5 +32926,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T06:25:06.470685+00:00"
+  "updated_at": "2026-08-25T06:25:26.599957+00:00"
 }
