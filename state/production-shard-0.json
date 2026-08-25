@@ -28549,7 +28549,70 @@
         },
         "at": "2026-08-25T07:14:21.694669+00:00"
       }
+    },
+    "23442": {
+      "attempts": [],
+      "identity": {
+        "slug": "tenkrat-v-cine-3",
+        "title": "Tenkrát v Číně 3",
+        "original_title": "Once Upon a Time in China III",
+        "year": 1993,
+        "runtime_min": 112,
+        "tmdb_id": 10619,
+        "imdb_id": "tt0108592",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25124925",
+          "account_name": "Tenkrát v Číně 2 (1992) CZ",
+          "title_similarity": 0.811,
+          "title_contains_alias": false,
+          "film_year": 1993,
+          "candidate_year": 1992,
+          "year_match": true,
+          "film_runtime_min": 112,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T07:14:24.548296+00:00"
+      }
+    },
+    "23350": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:14:26.027503+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "cementova-zahrada",
+        "title": "Cementová zahrada",
+        "original_title": "The Cement Garden",
+        "year": 1993,
+        "runtime_min": 102,
+        "tmdb_id": 14832,
+        "imdb_id": "tt0106535",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:14:24.548344+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:14:23.094409+00:00"
+  "updated_at": "2026-08-25T07:14:26.027524+00:00"
 }
