@@ -103,6 +103,11 @@ class HybridPipeline:
         ordered_films = sorted(
             films,
             key=lambda item: (
+                bool(
+                    getattr(self.prehrajto, "has_prefetched", lambda _film: False)(
+                        item
+                    )
+                ),
                 _has_plausible_catalog_source(item),
                 item.added_at or item.created_at or "",
                 item.cr_film_id,

@@ -309,16 +309,24 @@ class PrehrajtoProvider:
     allow_direct: bool = False
     use_whisper: bool = False
     _last_request: float = 0.0
+    _prefetch_data: dict[str, list[dict]] | None = None
 
     def _prefetched_hits(self, film: Film) -> list[dict]:
+        if self._prefetch_data is not None:
+            return list(self._prefetch_data.get(str(film.cr_film_id), []))
         path = os.environ.get("PREHRAJTO_PREFETCH_PATH", "")
         if not path:
+            self._prefetch_data = {}
             return []
         try:
             payload = json.loads(Path(path).read_text())
-            return list(payload.get(str(film.cr_film_id), []))
+            self._prefetch_data = payload
         except (OSError, ValueError, TypeError):
-            return []
+            self._prefetch_data = {}
+        return list(self._prefetch_data.get(str(film.cr_film_id), []))
+
+    def has_prefetched(self, film: Film) -> bool:
+        return bool(self._prefetched_hits(film))
 
     @staticmethod
     def _catalog_candidates(film: Film) -> list[Candidate]:
