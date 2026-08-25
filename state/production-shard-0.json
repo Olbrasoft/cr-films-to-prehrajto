@@ -28042,7 +28042,18 @@
       }
     },
     "27780": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:25:45.165786+00:00"
+        }
+      ],
       "identity": {
         "slug": "flower-and-snake-3-punishment",
         "title": "Flower and Snake 3: Punishment",
@@ -28059,7 +28070,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:44:35.055776+00:00"
+        "at": "2026-08-25T15:25:43.845105+00:00"
       }
     },
     "27766": {
@@ -34907,5 +34918,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:25:42.371290+00:00"
+  "updated_at": "2026-08-25T15:25:45.165805+00:00"
 }
