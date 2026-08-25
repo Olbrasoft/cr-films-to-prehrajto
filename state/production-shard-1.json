@@ -52158,7 +52158,85 @@
         },
         "at": "2026-08-25T15:15:45.460056+00:00"
       }
+    },
+    "23547": {
+      "attempts": [],
+      "identity": {
+        "slug": "tri-barvy-cervena",
+        "title": "Tři barvy: Červená",
+        "original_title": "Three Colors: Red",
+        "year": 1994,
+        "runtime_min": 95,
+        "tmdb_id": 110,
+        "imdb_id": "tt0111495",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "24950118",
+              "account_name": "Tři barvy: Modrá (1993) CZ Dabing",
+              "title_similarity": 0.649,
+              "title_contains_alias": false,
+              "film_year": 1994,
+              "candidate_year": 1993,
+              "year_match": true,
+              "film_runtime_min": 95,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25222740",
+              "account_name": "Tři barvy: Bílá (1994) CZ Dabing",
+              "title_similarity": 0.611,
+              "title_contains_alias": false,
+              "film_year": 1994,
+              "candidate_year": 1994,
+              "year_match": true,
+              "film_runtime_min": 95,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-25T15:15:48.161594+00:00"
+      }
+    },
+    "23543": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:15:48.914410+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "svedska-trojka",
+        "title": "Švédská trojka",
+        "original_title": "Threesome",
+        "year": 1994,
+        "runtime_min": 93,
+        "tmdb_id": 10635,
+        "imdb_id": "tt0111418",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:15:48.161638+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:15:46.040219+00:00"
+  "updated_at": "2026-08-25T15:15:48.914422+00:00"
 }
