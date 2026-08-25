@@ -1321,7 +1321,18 @@
       }
     },
     "22707": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "63bd1db86c459",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:21:56.087762+00:00"
+        }
+      ],
       "identity": {
         "slug": "andilek",
         "title": "Andílek",
@@ -1342,5 +1353,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T22:21:52.540658+00:00"
+  "updated_at": "2026-08-25T22:21:56.087789+00:00"
 }
