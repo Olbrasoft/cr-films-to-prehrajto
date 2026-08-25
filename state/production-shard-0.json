@@ -31372,7 +31372,86 @@
         },
         "at": "2026-08-25T07:15:42.295481+00:00"
       }
+    },
+    "13408": {
+      "attempts": [],
+      "identity": {
+        "slug": "spine-chillers-2003-s01e05-goths",
+        "title": "Spine chillers 2003 S01E05 Goths",
+        "original_title": "Spine chillers 2003 S01E05 Goths",
+        "year": null,
+        "runtime_min": 29,
+        "tmdb_id": 1635349,
+        "imdb_id": "tt0379668",
+        "created_at": "2026-04-14 15:46:52.096658+02:00",
+        "added_at": "2026-02-05 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:15:47.808509+00:00"
+      }
+    },
+    "17574": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "54840",
+              "url": "https://online.sktorrent.eu/video/54840/",
+              "title": "Die My Love",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:15:54.601287+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "die-my-love-2025",
+        "title": "Die My Love",
+        "original_title": "Die My Love",
+        "year": 2025,
+        "runtime_min": 119,
+        "tmdb_id": 1033148,
+        "imdb_id": "tt9362736",
+        "created_at": "2026-04-14 16:19:18.476618+02:00",
+        "added_at": "2025-12-21 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:15:49.664928+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:15:46.415058+00:00"
+  "updated_at": "2026-08-25T07:15:54.601306+00:00"
 }
