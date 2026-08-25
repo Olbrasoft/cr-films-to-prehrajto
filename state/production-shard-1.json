@@ -52823,7 +52823,67 @@
         },
         "at": "2026-08-25T15:16:40.101111+00:00"
       }
+    },
+    "23147": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b5fa60ebe63",
+              "url": "https://prehraj.to/pilat-pontsky-onoho-dne-cs-tv-inscenace-1991-tvrip/55b5fa60ebe63",
+              "title": "Pilat-Pontsky-onoho-dne-CS-TV-inscenace-1991-TVrip",
+              "year": null,
+              "duration_sec": 3903,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.107,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 3903,
+                "runtime_delta": 0.244,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:16:45.263465+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "o-co-si-koledujes-mari-pili",
+        "title": "O co si koleduješ, Mari Pili?",
+        "original_title": "What Do You Bet, Mari Pili?",
+        "year": 1991,
+        "runtime_min": 86,
+        "tmdb_id": 115740,
+        "imdb_id": "tt0101028",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:16:44.570653+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:16:42.672298+00:00"
+  "updated_at": "2026-08-25T15:16:45.263478+00:00"
 }
