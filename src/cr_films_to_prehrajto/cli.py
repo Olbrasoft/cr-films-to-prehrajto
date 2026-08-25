@@ -160,7 +160,9 @@ def run_production(args) -> int:
     prehrajto = PrehrajtoProvider(
         proxy_url=os.environ.get("CZ_PROXY_URL", ""),
         proxy_key=os.environ.get("CZ_PROXY_KEY", ""),
-        session=requests.Session(),
+        # Reuse the authenticated account session for search/detail requests;
+        # anonymous searches are more aggressively rate-limited.
+        session=authenticated,
         min_gap_seconds=float(os.environ.get("CZ_PROXY_MIN_GAP_SECONDS", "8")),
         max_rate_limit_retries=int(
             os.environ.get("CZ_PROXY_MAX_RATE_LIMIT_RETRIES", "3")
