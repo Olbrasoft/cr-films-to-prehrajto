@@ -40505,7 +40505,39 @@
         },
         "at": "2026-08-25T15:32:08.996584+00:00"
       }
+    },
+    "25060": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:32:12.163322+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "esta-noche-cena-pancho",
+        "title": "Esta noche cena Pancho",
+        "original_title": null,
+        "year": 1986,
+        "runtime_min": 96,
+        "tmdb_id": 542225,
+        "imdb_id": "tt0352328",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:32:11.662305+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:32:09.535421+00:00"
+  "updated_at": "2026-08-25T15:32:12.163341+00:00"
 }
