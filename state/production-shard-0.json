@@ -18817,6 +18817,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:15:01.834277+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67bf8d7adf220",
+              "url": "https://prehraj.to/amoruv-ulet-2006-1080i-bluray-remux-avc-dd-5-1-dts-hd-ma-5-1-cz-en-chollerick/67bf8d7adf220",
+              "title": "Amorův.úlet.2006.1080i.BluRay.REMUX.AVC.DD.5.1.DTS-HD.MA.5.1.CZ.EN-Chollerick",
+              "year": null,
+              "duration_sec": 5268,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5268,
+                "runtime_delta": 0.097,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:23:18.047630+00:00"
         }
       ],
       "identity": {
@@ -18835,7 +18873,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:14:45.123755+00:00"
+        "at": "2026-08-25T15:23:17.662458+00:00"
       }
     },
     "28886": {
@@ -33945,5 +33983,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:23:16.221407+00:00"
+  "updated_at": "2026-08-25T15:23:18.047650+00:00"
 }
