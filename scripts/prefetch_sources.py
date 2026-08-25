@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import time
 import urllib.parse
 from pathlib import Path
@@ -16,6 +17,7 @@ from cr_films_to_prehrajto.providers.prehrajto import (
     BASE_URL,
     SEARCH_BASE_URL,
     USER_AGENT,
+    login,
     parse_search_html,
 )
 
@@ -26,12 +28,19 @@ def main() -> None:
     parser.add_argument("--out", type=Path, default=Path("state/source-prefetch.json"))
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--delay", type=float, default=1.0)
+    parser.add_argument("--merge", action="store_true")
+    parser.add_argument("--target-count", type=int, default=0)
+    parser.add_argument(
+        "--uploaded-index", type=Path, default=Path("state/account-index.json")
+    )
     args = parser.parse_args()
     snapshot = json.loads(args.snapshot.read_text())
     films = [Film.from_dict(row) for row in snapshot["films"]]
     if args.limit:
         films = films[: args.limit]
-    session = requests.Session()
+    email = os.environ.get("PREHRAJTO_EMAIL", "")
+    password = os.environ.get("PREHRAJTO_PASSWORD", "")
+    session = login(email, password) if email and password else requests.Session()
     session.headers.update(
         {
             "User-Agent": USER_AGENT,
@@ -41,7 +50,33 @@ def main() -> None:
         }
     )
     result: dict[str, list[dict]] = {}
+    if args.merge and args.out.exists():
+        payload = json.loads(args.out.read_text())
+        if isinstance(payload, dict):
+            result.update(payload)
+    uploaded_ids: set[str] = set()
+    if args.uploaded_index.exists():
+        uploaded_payload = json.loads(args.uploaded_index.read_text())
+        uploaded_ids.update((uploaded_payload.get("films") or {}).keys())
+    for state_path in Path("state").glob("production-shard-*.json"):
+        state_payload = json.loads(state_path.read_text())
+        uploaded_ids.update(
+            film_id
+            for film_id, row in (state_payload.get("films") or {}).items()
+            if row.get("upload")
+        )
+    result = {
+        film_id: hits
+        for film_id, hits in result.items()
+        if film_id not in uploaded_ids
+    }
     for index, film in enumerate(films, 1):
+        if args.target_count and len(result) >= args.target_count:
+            break
+        if str(film.cr_film_id) in uploaded_ids:
+            continue
+        if str(film.cr_film_id) in result:
+            continue
         hits: dict[str, dict] = {}
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
@@ -83,7 +118,9 @@ def main() -> None:
         if index % 25 == 0:
             print(f"prefetched {index}/{len(films)} films", flush=True)
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    temporary = args.out.with_suffix(args.out.suffix + ".tmp")
+    temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    temporary.replace(args.out)
     print(f"saved {len(result)} films to {args.out}")
 
 
