@@ -26965,7 +26965,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:18:54.531527+00:00"
+        "at": "2026-08-25T16:44:02.724553+00:00"
       }
     },
     "28160": {
@@ -27059,7 +27059,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:17:05.488636+00:00"
+        "at": "2026-08-25T16:44:03.380682+00:00"
       }
     },
     "28144": {
@@ -27234,6 +27234,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:17:15.181923+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "65863cf1a19fd",
+              "url": "https://prehraj.to/the-ghost-station-2023/65863cf1a19fd",
+              "title": "The Ghost Station 2023",
+              "year": null,
+              "duration_sec": 4829,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4829,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Ghost Station (2023)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T16:44:06.954887+00:00"
         }
       ],
       "identity": {
@@ -27252,7 +27290,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:17:09.185130+00:00"
+        "at": "2026-08-25T16:44:03.950278+00:00"
       }
     },
     "28112": {
@@ -45563,5 +45601,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T16:44:01.113622+00:00"
+  "updated_at": "2026-08-25T16:44:06.954907+00:00"
 }
