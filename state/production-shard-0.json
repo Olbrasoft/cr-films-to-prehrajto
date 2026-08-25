@@ -22531,6 +22531,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:23:53.955158+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6042a2b8efe3d",
+              "url": "https://prehraj.to/jsem-tva-jeg-er-din-i-am-yours-drama-2013-720p-bluray-x264-naptime-publichd-telefilm/6042a2b8efe3d",
+              "title": "Jsem tvá - Jeg er din - I am Yours - drama 2013 - 720p BluRay x264-NAPTiME [PublicHD], telefilm",
+              "year": null,
+              "duration_sec": 5747,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.177,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 139,
+                "candidate_runtime_sec": 5747,
+                "runtime_delta": 0.311,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:42:52.008841+00:00"
         }
       ],
       "identity": {
@@ -22549,7 +22587,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:23:53.430904+00:00"
+        "at": "2026-08-25T15:42:50.988991+00:00"
       }
     },
     "28530": {
@@ -44243,5 +44281,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:42:47.807643+00:00"
+  "updated_at": "2026-08-25T15:42:52.008859+00:00"
 }
