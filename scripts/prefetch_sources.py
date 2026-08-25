@@ -142,8 +142,20 @@ def main() -> None:
         json.dumps({"film_ids": sorted(scanned_ids, key=int)}, indent=2) + "\n"
     )
     scan_temporary.replace(args.scan_state)
+    remaining = sum(
+        str(film.cr_film_id) not in uploaded_ids
+        and str(film.cr_film_id) not in scanned_ids
+        for film in films
+    )
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with Path(github_output).open("a") as output:
+            output.write(f"queue={len(result)}\n")
+            output.write(f"scanned={len(scanned_ids)}\n")
+            output.write(f"remaining={remaining}\n")
     print(
-        f"searched {searched} films; saved {len(result)} queued films to {args.out}"
+        f"searched {searched} films; saved {len(result)} queued films; "
+        f"{remaining} films remain unscanned"
     )
 
 

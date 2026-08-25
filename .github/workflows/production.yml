@@ -41,6 +41,10 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    outputs:
+      queue: ${{ steps.queue.outputs.queue }}
+      scanned: ${{ steps.queue.outputs.scanned }}
+      remaining: ${{ steps.queue.outputs.remaining }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -54,6 +58,7 @@ jobs:
       - run: pip install -e .
 
       - name: Prefetch the next upload queue
+        id: queue
         env:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
@@ -252,7 +257,11 @@ jobs:
             fromJSON(steps.backlog.outputs.after) > 0 &&
             (
               fromJSON(steps.backlog.outputs.after) < fromJSON(steps.backlog.outputs.before) ||
-              fromJSON(steps.verification.outputs.pending) > 0
+              fromJSON(steps.verification.outputs.pending) > 0 ||
+              (
+                needs.prefetch.result == 'success' &&
+                fromJSON(needs.prefetch.outputs.remaining) > 0
+              )
             )
           }}
         env:
