@@ -413,7 +413,198 @@
         },
         "at": "2026-08-25T18:19:27.640686+00:00"
       }
+    },
+    "28535": {
+      "attempts": [],
+      "identity": {
+        "slug": "death-house",
+        "title": "Death House",
+        "original_title": null,
+        "year": 2018,
+        "runtime_min": 88,
+        "tmdb_id": 287523,
+        "imdb_id": "tt2984576",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25044999",
+              "account_name": "Death Fighter (2017) CZ",
+              "title_similarity": 0.552,
+              "title_contains_alias": false,
+              "film_year": 2018,
+              "candidate_year": 2017,
+              "year_match": true,
+              "film_runtime_min": 88,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25070128",
+              "account_name": "Death Note (2017) CZ",
+              "title_similarity": 0.615,
+              "title_contains_alias": false,
+              "film_year": 2018,
+              "candidate_year": 2017,
+              "year_match": true,
+              "film_runtime_min": 88,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-25T18:19:35.796637+00:00"
+      }
+    },
+    "28443": {
+      "attempts": [],
+      "identity": {
+        "slug": "la-citta-proibita",
+        "title": "La città proibita",
+        "original_title": "The Forbidden City",
+        "year": 2025,
+        "runtime_min": 138,
+        "tmdb_id": 1127674,
+        "imdb_id": "tt27766538",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25412850",
+          "account_name": "Forbidden Fruits (2026)",
+          "title_similarity": 0.615,
+          "title_contains_alias": false,
+          "film_year": 2025,
+          "candidate_year": 2026,
+          "year_match": true,
+          "film_runtime_min": 138,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T18:19:35.797139+00:00"
+      }
+    },
+    "28071": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5650892378de3",
+              "url": "https://prehraj.to/wildlike-2015-eng-dobrodr-drama-thrill/5650892378de3",
+              "title": "Wildlike - 2015 eng.dobrodr.drama thrill",
+              "year": null,
+              "duration_sec": 6244,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 6244,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "560e653250da3",
+              "url": "https://prehraj.to/wildlike-2015-eng-dobrodr-drama-thrill/560e653250da3",
+              "title": "Wildlike - 2015 eng.dobrodr.drama thrill",
+              "year": null,
+              "duration_sec": 6243,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 6243,
+                "runtime_delta": 0.0,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "44076f4335173d57",
+              "url": "https://prehraj.to/wildlike-2015-eng-dobrodr-drama-thrill/44076f4335173d57",
+              "title": "Wildlike - 2015 eng.dobrodr.drama thrill",
+              "year": null,
+              "duration_sec": 6243,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 6243,
+                "runtime_delta": 0.0,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T18:19:40.098619+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "wildlike",
+        "title": "Wildlike",
+        "original_title": null,
+        "year": 2015,
+        "runtime_min": 104,
+        "tmdb_id": 300654,
+        "imdb_id": "tt2204080",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T18:19:35.797166+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T18:19:31.632921+00:00"
+  "updated_at": "2026-08-25T18:19:40.098634+00:00"
 }
