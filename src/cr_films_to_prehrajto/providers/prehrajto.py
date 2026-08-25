@@ -475,11 +475,13 @@ class PrehrajtoProvider:
         return resolved
 
     def _proxy_get(self, url: str):
-        self.session.headers.setdefault("User-Agent", USER_AGENT)
-        self.session.headers.setdefault(
-            "Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-        )
-        self.session.headers.setdefault("Accept-Language", "cs,en;q=0.8")
+        session_headers = getattr(self.session, "headers", None)
+        if session_headers is not None:
+            session_headers.setdefault("User-Agent", USER_AGENT)
+            session_headers.setdefault(
+                "Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            )
+            session_headers.setdefault("Accept-Language", "cs,en;q=0.8")
         if self.allow_direct:
             try:
                 response = self.session.get(url, timeout=30)
