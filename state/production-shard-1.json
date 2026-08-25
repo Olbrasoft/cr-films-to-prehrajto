@@ -35520,7 +35520,7 @@
             }
           ]
         },
-        "at": "2026-08-25T07:01:58.191298+00:00"
+        "at": "2026-08-25T07:20:08.169003+00:00"
       }
     },
     "17525": {
@@ -35633,9 +35633,67 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:02:03.819133+00:00"
+        "at": "2026-08-25T07:20:08.169639+00:00"
+      }
+    },
+    "17431": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "16568",
+              "url": "https://online.sktorrent.eu/video/16568/",
+              "title": "Adverse",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:20:16.577504+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "adverse-2021",
+        "title": "Adverse",
+        "original_title": "Adverse",
+        "year": 2021,
+        "runtime_min": 94,
+        "tmdb_id": 661020,
+        "imdb_id": "tt8597594",
+        "created_at": "2026-04-14 16:17:46.898874+02:00",
+        "added_at": "2021-03-19 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:20:13.981001+00:00"
       }
     }
   },
-  "updated_at": "2026-08-25T07:20:05.702175+00:00"
+  "updated_at": "2026-08-25T07:20:16.577520+00:00"
 }
