@@ -19,6 +19,12 @@ permissions:
   contents: write
   actions: write
 
+# State is committed to main after every attempt. Keep complete production
+# runs serialized so jobs from different dispatches cannot race each other.
+concurrency:
+  group: cr-films-production-workflow
+  cancel-in-progress: false
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -35,12 +41,11 @@ jobs:
     needs: test
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
         shard: [0, 1]
     concurrency:
-      # Both shards persist state to main after every attempt. Serialize the
-      # jobs so one shard cannot continuously invalidate the other's push.
-      group: cr-films-production-shards
+      group: cr-films-production-shard-${{ matrix.shard }}
       cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 350
