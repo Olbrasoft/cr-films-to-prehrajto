@@ -19977,6 +19977,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:16:57.453210+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac28ae9dc3ae",
+              "url": "https://prehraj.to/rudhramadevi-2015/5ac28ae9dc3ae",
+              "title": "Rudhramadevi (2015)",
+              "year": null,
+              "duration_sec": 9374,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 165,
+                "candidate_runtime_sec": 9374,
+                "runtime_delta": 0.053,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T14:54:54.764075+00:00"
         }
       ],
       "identity": {
@@ -19996,7 +20034,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28795601"
         },
-        "at": "2026-08-25T07:16:56.913878+00:00"
+        "at": "2026-08-25T14:54:54.401877+00:00"
       }
     },
     "28451": {
@@ -36406,5 +36444,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T14:54:52.882569+00:00"
+  "updated_at": "2026-08-25T14:54:54.764093+00:00"
 }
