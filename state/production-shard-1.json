@@ -135,8 +135,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T17:04:00.281621+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T17:04:00.281621+00:00",
+        "verified_at": "2026-08-25T21:49:08.461207+00:00",
+        "live_display_name": "Star Trek X - Nemesis (2002) CZ Dabing"
       }
     },
     "29895": {
@@ -7323,8 +7325,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T17:13:31.613537+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T17:13:31.613537+00:00",
+        "verified_at": "2026-08-25T21:49:18.874682+00:00",
+        "live_display_name": "Muž, co zabil Hitlera a pak yettiho (2019) CZ Dabing"
       }
     },
     "29599": {
@@ -7586,14 +7590,16 @@
         "target_video_id": "28832906",
         "display_name": "Una vita spericolata (2018) CZ titulky",
         "size_bytes": 403136829,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "5c010031b3993",
         "language_tier": "czech_subtitles",
         "actual_resolution": 480,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T17:24:32.750991+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T17:24:32.750991+00:00",
+        "verified_at": "2026-08-25T21:49:29.081340+00:00",
+        "live_display_name": "Una vita spericolata (2018) CZ titulky"
       }
     },
     "29585": {
@@ -7669,8 +7675,10 @@
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T17:29:40.739413+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T17:29:40.739413+00:00",
+        "verified_at": "2026-08-25T22:07:54.962565+00:00",
+        "live_display_name": "Až umřu, budou mě milovat (2018) CZ titulky"
       }
     },
     "29573": {
@@ -17126,8 +17134,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T17:35:19.924998+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T17:35:19.924998+00:00",
+        "verified_at": "2026-08-25T21:50:11.283949+00:00",
+        "live_display_name": "Sidelined 2: Intercepted (2025) CZ Dabing"
       }
     },
     "28863": {
@@ -18399,8 +18409,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T17:45:38.852594+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T17:45:38.852594+00:00",
+        "verified_at": "2026-08-25T21:50:21.546156+00:00",
+        "live_display_name": "Vzpomínky na něj (2026) CZ Dabing"
       }
     },
     "28737": {
@@ -18464,8 +18476,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T19:10:21.726871+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T19:10:21.726871+00:00",
+        "verified_at": "2026-08-25T21:50:31.714277+00:00",
+        "live_display_name": "Nelituju ničeho (2025) CZ Dabing"
       }
     },
     "28719": {
@@ -21044,8 +21058,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:15:52.695315+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T20:15:52.695315+00:00",
+        "verified_at": "2026-08-25T21:50:42.322975+00:00",
+        "live_display_name": "Encanto (2021) CZ Dabing"
       }
     },
     "28511": {
@@ -22163,6 +22179,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T20:21:13.014430+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "586c3b34b2552",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28836006",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T21:51:02.586957+00:00"
         }
       ],
       "identity": {
@@ -22182,19 +22209,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-25T20:15:58.132866+00:00"
-      },
-      "upload": {
-        "target_video_id": "28836006",
-        "display_name": "Šéfka (2016) CZ titulky",
-        "size_bytes": 1247878024,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "586c3b34b2552",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 720,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:21:40.480388+00:00"
       }
     },
     "28391": {
@@ -22310,8 +22324,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:27:53.345433+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T20:27:53.345433+00:00",
+        "verified_at": "2026-08-25T21:51:12.743563+00:00",
+        "live_display_name": "Na skok do divočiny (2026) CZ Dabing"
       }
     },
     "28361": {
@@ -36410,14 +36426,16 @@
         "target_video_id": "28836555",
         "display_name": "The Unhealer (2021) CZ titulky",
         "size_bytes": 1387241806,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "635ecdbe422ba",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:59:25.875078+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T20:59:25.875078+00:00",
+        "verified_at": "2026-08-25T21:51:22.966143+00:00",
+        "live_display_name": "The Unhealer (2021) CZ titulky"
       }
     },
     "26903": {
@@ -37033,8 +37051,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T21:02:56.852940+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T21:02:56.852940+00:00",
+        "verified_at": "2026-08-25T21:51:44.155346+00:00",
+        "live_display_name": "Pohanský rituál (2011) CZ Dabing"
       }
     },
     "26845": {
@@ -37783,14 +37803,16 @@
         "target_video_id": "28836938",
         "display_name": "Vyčkávání (2022) CZ titulky",
         "size_bytes": 2168625503,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "643c654f7ae48",
         "language_tier": "czech_subtitles",
         "actual_resolution": 1080,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T21:21:03.248957+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T21:21:03.248957+00:00",
+        "verified_at": "2026-08-25T21:51:54.244681+00:00",
+        "live_display_name": "Vyčkávání (2022) CZ titulky"
       }
     },
     "26741": {
@@ -40642,8 +40664,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T21:24:09.370500+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T21:24:09.370500+00:00",
+        "verified_at": "2026-08-25T21:52:14.972201+00:00",
+        "live_display_name": "Jonah Hex (2010) CZ Dabing"
       }
     },
     "26279": {
@@ -40878,8 +40902,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T21:43:06.893471+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T21:43:06.893471+00:00",
+        "verified_at": "2026-08-25T21:52:35.729622+00:00",
+        "live_display_name": "Hodnej polda, zlej polda (2006) CZ Dabing"
       }
     },
     "25643": {
@@ -42776,8 +42802,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T07:05:17.612176+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T07:05:17.612176+00:00",
+        "verified_at": "2026-08-25T21:52:45.609661+00:00",
+        "live_display_name": "Vánoce v přímém přenosu (2016) CZ Dabing"
       }
     },
     "17083": {
@@ -43038,8 +43066,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T07:15:00.050271+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T07:15:00.050271+00:00",
+        "verified_at": "2026-08-25T21:52:55.732574+00:00",
+        "live_display_name": "Krev pelikána: Z lásky k dceři (2020) CZ Dabing"
       }
     },
     "17451": {
@@ -43534,8 +43564,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T07:28:13.196882+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T07:28:13.196882+00:00",
+        "verified_at": "2026-08-25T21:53:06.230485+00:00",
+        "live_display_name": "Ideální palác (2019) CZ Dabing"
       }
     },
     "16539": {
@@ -44157,8 +44189,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T07:33:08.581339+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T07:33:08.581339+00:00",
+        "verified_at": "2026-08-25T21:53:16.608874+00:00",
+        "live_display_name": "Hotel Mumbai (2019) CZ Dabing"
       }
     },
     "17263": {
@@ -44222,8 +44256,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T07:36:32.160730+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T07:36:32.160730+00:00",
+        "verified_at": "2026-08-25T21:53:26.910937+00:00",
+        "live_display_name": "Neviditelná Sue (2019) CZ Dabing"
       }
     },
     "16919": {
@@ -44256,8 +44292,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T07:40:22.904058+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T07:40:22.904058+00:00",
+        "verified_at": "2026-08-25T21:53:37.469253+00:00",
+        "live_display_name": "Vita a Virginia (2019) CZ Dabing"
       }
     },
     "26441": {
@@ -57045,5 +57083,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T21:43:06.893503+00:00"
+  "updated_at": "2026-08-25T22:08:05.793277+00:00"
 }

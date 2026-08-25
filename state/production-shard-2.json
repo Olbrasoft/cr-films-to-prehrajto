@@ -37,7 +37,19 @@
       }
     },
     "28166": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "d8fd4cdc69a39b9a",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28834181",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T21:53:57.697891+00:00"
+        }
+      ],
       "identity": {
         "slug": "klaun-v-kukuricnem-poli",
         "title": "Klaun v kukuřičném poli",
@@ -55,19 +67,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-25T18:19:20.011196+00:00"
-      },
-      "upload": {
-        "target_video_id": "28834181",
-        "display_name": "Klaun v kukuřičném poli (2025) CZ Dabing",
-        "size_bytes": 773411778,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "d8fd4cdc69a39b9a",
-        "language_tier": "slovak_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T18:38:47.799191+00:00"
       }
     },
     "28126": {
@@ -160,8 +159,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T18:42:19.157652+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T18:42:19.157652+00:00",
+        "verified_at": "2026-08-25T21:54:07.876560+00:00",
+        "live_display_name": "Deranged (2012) CZ Dabing"
       }
     },
     "27966": {
@@ -240,8 +241,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T19:07:19.812167+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T19:07:19.812167+00:00",
+        "verified_at": "2026-08-25T21:54:17.997933+00:00",
+        "live_display_name": "Tajemství Noemovy archy (2011) CZ Dabing"
       }
     },
     "27646": {
@@ -274,8 +277,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T19:49:21.798572+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T19:49:21.798572+00:00",
+        "verified_at": "2026-08-25T21:54:27.693867+00:00",
+        "live_display_name": "Nikdo nepřežije (2013) CZ Dabing"
       }
     },
     "27610": {
@@ -321,8 +326,10 @@
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T19:58:26.562950+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T19:58:26.562950+00:00",
+        "verified_at": "2026-08-25T21:54:37.973144+00:00",
+        "live_display_name": "Vamp U (2013) CZ titulky"
       }
     },
     "27354": {
@@ -386,8 +393,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:27:30.865181+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T20:27:30.865181+00:00",
+        "verified_at": "2026-08-25T21:54:48.338666+00:00",
+        "live_display_name": "Můj přítel delfín (2011) CZ Dabing"
       }
     },
     "27342": {
@@ -427,14 +436,16 @@
         "target_video_id": "28836350",
         "display_name": "Rogue River (2012) CZ titulky",
         "size_bytes": 498481727,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "69057b4a4f3e2",
         "language_tier": "czech_subtitles",
         "actual_resolution": 480,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:43:40.983731+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T20:43:40.983731+00:00",
+        "verified_at": "2026-08-25T21:54:58.740920+00:00",
+        "live_display_name": "Rogue River (2012) CZ titulky"
       }
     },
     "27238": {
@@ -567,8 +578,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:51:10.383658+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T20:51:10.383658+00:00",
+        "verified_at": "2026-08-25T21:55:19.405901+00:00",
+        "live_display_name": "Anny (2021) CZ Dabing"
       }
     },
     "26810": {
@@ -608,14 +621,16 @@
         "target_video_id": "28836520",
         "display_name": "Happy Halloween, Scooby-Doo! (2020) CZ titulky",
         "size_bytes": 1066087080,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "3685eee55d236307",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-25T20:56:21.363654+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-25T20:56:21.363654+00:00",
+        "verified_at": "2026-08-25T21:55:29.404492+00:00",
+        "live_display_name": "Happy Halloween, Scooby-Doo! (2020) CZ titulky"
       }
     },
     "26538": {
@@ -653,5 +668,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T21:17:52.253083+00:00"
+  "updated_at": "2026-08-25T21:55:40.156043+00:00"
 }
