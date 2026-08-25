@@ -43385,7 +43385,67 @@
         },
         "at": "2026-08-25T15:35:24.795296+00:00"
       }
+    },
+    "23818": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab58e747191e",
+              "url": "https://prehraj.to/akt-1997/5ab58e747191e",
+              "title": "Akt (1997)",
+              "year": null,
+              "duration_sec": 6191,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.195,
+                "title_contains_alias": false,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6191,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:35:27.185922+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "koerbers-akte-todliches-ultimatum",
+        "title": "Koerbers Akte: Tödliches Ultimatum",
+        "original_title": null,
+        "year": 1997,
+        "runtime_min": null,
+        "tmdb_id": 372161,
+        "imdb_id": "tt0119474",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:35:26.746664+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:35:25.332960+00:00"
+  "updated_at": "2026-08-25T15:35:27.185941+00:00"
 }
