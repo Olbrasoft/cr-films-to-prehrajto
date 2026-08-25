@@ -120,6 +120,31 @@ def test_transient_discovery_failure_is_not_marked_exhausted(tmp_path, film):
     assert not state.discovery_exhausted_for_snapshot(film.cr_film_id, "v1")
 
 
+def test_partial_uploads_are_planned_before_new_backlog_films(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    state.record_attempt(
+        film.cr_film_id,
+        {
+            "provider": "prehrajto",
+            "source_id": "partial-source",
+            "status": "partial_upload",
+            "partial_target_video_id": "777",
+            "permanent": False,
+        },
+    )
+    newer = replace(film, cr_film_id=99, title="Newer", added_at="2099-01-01")
+    candidate = acceptable("prehrajto", "partial-source")
+    candidate.language_tier = LanguageTier.CZECH_SUBTITLES
+    candidate.subtitles = [Subtitle("cs", "https://example/sub.vtt")]
+    plan = HybridPipeline(
+        prehrajto=Provider([candidate]),
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+    ).build_plan([newer, film], 1)
+    assert plan[0]["film"]["cr_film_id"] == film.cr_film_id
+
+
 def test_sk_search_decode_failure_returns_no_candidates(film):
     class BrokenSession:
         def get(self, *args, **kwargs):
