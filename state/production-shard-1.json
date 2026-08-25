@@ -33880,7 +33880,18 @@
       }
     },
     "26681": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:03:13.566247+00:00"
+        }
+      ],
       "identity": {
         "slug": "ufc-fight-night-13-florian-vs-lauzon",
         "title": "UFC Fight Night 13: Florian vs. Lauzon",
@@ -33897,7 +33908,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T23:09:04.958080+00:00"
+        "at": "2026-08-25T15:03:12.983678+00:00"
       }
     },
     "26661": {
@@ -39354,5 +39365,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:03:10.515594+00:00"
+  "updated_at": "2026-08-25T15:03:13.566265+00:00"
 }
