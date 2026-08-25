@@ -33003,6 +33003,42 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:26:14.598179+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "29592",
+              "url": "https://online.sktorrent.eu/video/29592/",
+              "title": "Operace Fortune: Ruse de Guerre",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:21:25.282468+00:00"
         }
       ],
       "identity": {
@@ -33021,7 +33057,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:26:11.850440+00:00"
+        "at": "2026-08-25T15:21:21.518690+00:00"
       }
     },
     "16198": {
@@ -33127,5 +33163,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:21:20.092048+00:00"
+  "updated_at": "2026-08-25T15:21:25.282486+00:00"
 }
