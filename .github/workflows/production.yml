@@ -38,7 +38,9 @@ jobs:
       matrix:
         shard: [0, 1]
     concurrency:
-      group: cr-films-production-shard-${{ matrix.shard }}
+      # Both shards persist state to main after every attempt. Serialize the
+      # jobs so one shard cannot continuously invalidate the other's push.
+      group: cr-films-production-shards
       cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 350
