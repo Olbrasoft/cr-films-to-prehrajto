@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:58:03.794454+00:00"
+        "at": "2026-08-25T23:02:07.629764+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:58:03.796878+00:00"
+        "at": "2026-08-25T23:02:07.632223+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:58:03.797622+00:00"
+        "at": "2026-08-25T23:02:07.632985+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:58:03.797700+00:00"
+        "at": "2026-08-25T23:02:07.633065+00:00"
       }
     },
     "23807": {
@@ -731,7 +731,156 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T23:02:06.352661+00:00"
       }
+    },
+    "17263": {
+      "attempts": [],
+      "identity": {
+        "slug": "svatebni-host-2019",
+        "title": "Svatební host",
+        "original_title": "The Wedding Guest",
+        "year": 2019,
+        "runtime_min": 96,
+        "tmdb_id": 500899,
+        "imdb_id": "tt7645780",
+        "created_at": "2026-04-14 16:16:14.112735+02:00",
+        "added_at": "2020-01-21 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24903033",
+          "account_name": "Nezvaný host (2020) CZ Dabing",
+          "title_similarity": 0.533,
+          "title_contains_alias": false,
+          "film_year": 2019,
+          "candidate_year": 2020,
+          "year_match": true,
+          "film_runtime_min": 96,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T23:02:07.634949+00:00"
+      }
+    },
+    "28863": {
+      "attempts": [],
+      "identity": {
+        "slug": "vecnost",
+        "title": "Věčnost",
+        "original_title": "Eternity",
+        "year": 2016,
+        "runtime_min": 115,
+        "tmdb_id": 382501,
+        "imdb_id": "tt3564574",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25179538",
+          "account_name": "Záhada v květinářství: Květiny na věčnost (2016) CZ Dabing",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2016,
+          "candidate_year": 2016,
+          "year_match": true,
+          "film_runtime_min": 115,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T23:02:07.635448+00:00"
+      }
+    },
+    "28823": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55e1a878d80fc",
+              "url": "https://prehraj.to/the-prince-elitni-zabijak-2014-sk-dabing-b-willis/55e1a878d80fc",
+              "title": "The Prince-Elitní zabiják-2014-Sk.dabing-B.Willis",
+              "year": null,
+              "duration_sec": 5440,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.344,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 5440,
+                "runtime_delta": 0.242,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "79314452511bda13",
+              "url": "https://prehraj.to/barbie-perlova-princezna-2014-cs/79314452511bda13",
+              "title": "Barbie Perlová princezna - 2014 CS",
+              "year": null,
+              "duration_sec": 4415,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4415,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T23:02:10.686700+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "barbie-perlova-princezna",
+        "title": "Barbie: Perlová princezna",
+        "original_title": "Barbie: The Pearl Princess",
+        "year": 2014,
+        "runtime_min": 73,
+        "tmdb_id": 255718,
+        "imdb_id": "tt3504064",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T23:02:07.635989+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T23:02:06.352689+00:00"
+  "updated_at": "2026-08-25T23:02:10.686719+00:00"
 }
