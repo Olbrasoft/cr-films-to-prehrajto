@@ -33051,7 +33051,18 @@
       }
     },
     "26821": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:02:53.479949+00:00"
+        }
+      ],
       "identity": {
         "slug": "kung-fu-panda-tajemstvi-peti-postrachu",
         "title": "Kung Fu Panda: Tajemství Pěti postrachů",
@@ -33068,7 +33079,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T23:02:07.090154+00:00"
+        "at": "2026-08-25T15:02:53.000858+00:00"
       }
     },
     "26813": {
@@ -39260,5 +39271,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:02:51.467118+00:00"
+  "updated_at": "2026-08-25T15:02:53.479965+00:00"
 }
