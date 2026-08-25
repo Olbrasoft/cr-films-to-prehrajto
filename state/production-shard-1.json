@@ -43339,7 +43339,67 @@
         },
         "at": "2026-08-25T15:09:12.956868+00:00"
       }
+    },
+    "25791": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68f6aacdc157a",
+              "url": "https://prehraj.to/hop-nebo-trop-8-tri-vdovy-2008/68f6aacdc157a",
+              "title": "Hop nebo trop - 8 - Tři vdovy (2008)",
+              "year": null,
+              "duration_sec": 4318,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.065,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4318,
+                "runtime_delta": 0.28,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:09:16.632702+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "8",
+        "title": "8",
+        "original_title": null,
+        "year": 2008,
+        "runtime_min": 100,
+        "tmdb_id": 50621,
+        "imdb_id": "tt0493101",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:09:16.157682+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:09:13.516874+00:00"
+  "updated_at": "2026-08-25T15:09:16.632715+00:00"
 }
