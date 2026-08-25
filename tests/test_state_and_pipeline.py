@@ -145,6 +145,42 @@ def test_partial_uploads_are_planned_before_new_backlog_films(tmp_path, film):
     assert plan[0]["film"]["cr_film_id"] == film.cr_film_id
 
 
+def test_only_two_partial_repairs_precede_new_films(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    partials = []
+    for index in range(3):
+        current = replace(film, cr_film_id=100 + index, title=f"Partial {index}")
+        state.record_attempt(
+            current.cr_film_id,
+            {
+                "provider": "prehrajto",
+                "source_id": f"partial-{index}",
+                "status": "partial_upload",
+                "partial_target_video_id": str(700 + index),
+                "permanent": False,
+            },
+        )
+        candidate = acceptable("prehrajto", f"partial-{index}")
+        candidate.language_tier = LanguageTier.CZECH_SUBTITLES
+        candidate.subtitles = [Subtitle("cs", "https://example/sub.vtt")]
+        partials.append((current, candidate))
+    newer = replace(film, cr_film_id=200, title="New film", added_at="2099-01-01")
+
+    class MultiProvider(Provider):
+        def discover(self, current):
+            if current.cr_film_id == newer.cr_film_id:
+                return [acceptable("prehrajto", "new-source")]
+            return [candidate for partial, candidate in partials if partial.cr_film_id == current.cr_film_id]
+
+    plan = HybridPipeline(
+        prehrajto=MultiProvider([]),
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+    ).build_plan([*(item[0] for item in partials), newer], 3)
+    assert [row["film"]["cr_film_id"] for row in plan] == [102, 101, 200]
+
+
 def test_sk_search_decode_failure_returns_no_candidates(film):
     class BrokenSession:
         def get(self, *args, **kwargs):

@@ -13,6 +13,7 @@ from .transfer import TransferError
 MAX_PILOT_FILMS = 10
 MAX_PRODUCTION_BATCH = 20
 MAX_DISCOVERY_RETRIES_PER_SNAPSHOT = 3
+MAX_PARTIAL_REPAIRS_PER_BATCH = 2
 
 
 def validate_limit(limit: int, maximum: int = MAX_PILOT_FILMS) -> int:
@@ -87,7 +88,14 @@ class HybridPipeline:
             if self.state.pending_partial_upload(film.cr_film_id)
         ]
         regular_films = [film for film in ordered_films if film not in partial_films]
-        for film in [*partial_films, *regular_films]:
+        # Subtitle processing can lag for several minutes. Keep repairing a
+        # small number of existing videos, but reserve the rest of the batch
+        # for genuinely new films so account growth does not stall.
+        for film in [
+            *partial_films[:MAX_PARTIAL_REPAIRS_PER_BATCH],
+            *regular_films,
+            *partial_films[MAX_PARTIAL_REPAIRS_PER_BATCH:],
+        ]:
             if self.state.uploaded(film.cr_film_id):
                 continue
             partial = self.state.pending_partial_upload(film.cr_film_id)
