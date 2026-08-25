@@ -22297,6 +22297,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:26:42.058128+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "639f84e1524f9",
+              "url": "https://prehraj.to/white-house-down-2013-1080p-bluray-x264-multidub-cz-fl/639f84e1524f9",
+              "title": "White.House.Down.2013.1080p.BluRay.x264.MultiDub.CZ-FL",
+              "year": null,
+              "duration_sec": 7893,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.156,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 7893,
+                "runtime_delta": 0.329,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:00:27.823061+00:00"
         }
       ],
       "identity": {
@@ -22315,7 +22353,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:26:26.023166+00:00"
+        "at": "2026-08-25T15:00:27.407822+00:00"
       }
     },
     "28163": {
@@ -38236,5 +38274,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:00:25.903683+00:00"
+  "updated_at": "2026-08-25T15:00:27.823078+00:00"
 }
