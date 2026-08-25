@@ -468,17 +468,18 @@ class PrehrajtoProvider:
             try:
                 response = self.session.get(url, timeout=30)
             except requests.RequestException as error:
-                raise ProviderError(
-                    f"Direct source request failed ({type(error).__name__})"
-                ) from None
-            if response.status_code >= 500:
-                raise ProviderError(f"Direct source HTTP {response.status_code}")
-            if response.status_code >= 400:
+                response = None
+            if response is not None and response.status_code < 400:
+                return response
+            # Direct access is preferred, but rate limiting and transient
+            # server errors must fall through to the configured proxy.
+            if response is not None and response.status_code in {404, 410}:
                 raise ProviderError(
                     f"Direct source HTTP {response.status_code}", permanent=True
                 )
-            return response
         if not self.proxy_url or not self.proxy_key:
+            if self.allow_direct:
+                raise ProviderError("Direct source request failed")
             raise ProviderError("CZ proxy configuration is required")
         for attempt in range(self.max_rate_limit_retries + 1):
             wait = self.min_gap_seconds - (time.monotonic() - self._last_request)
