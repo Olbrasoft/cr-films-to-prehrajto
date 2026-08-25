@@ -21632,7 +21632,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:18:54.531451+00:00"
+        "at": "2026-08-25T15:36:27.336429+00:00"
       }
     },
     "28660": {
@@ -26941,7 +26941,7 @@
             }
           ]
         },
-        "at": "2026-08-25T15:19:01.382091+00:00"
+        "at": "2026-08-25T15:36:27.337700+00:00"
       }
     },
     "27958": {
@@ -29378,7 +29378,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:19:19.795949+00:00"
+        "at": "2026-08-25T15:36:27.338310+00:00"
       }
     },
     "27350": {
@@ -29505,7 +29505,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:19:19.797562+00:00"
+        "at": "2026-08-25T15:36:27.339951+00:00"
       }
     },
     "27116": {
@@ -29997,7 +29997,7 @@
             }
           ]
         },
-        "at": "2026-08-25T15:19:43.893598+00:00"
+        "at": "2026-08-25T15:36:27.341231+00:00"
       }
     },
     "26538": {
@@ -30376,7 +30376,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:20:01.018953+00:00"
+        "at": "2026-08-25T15:36:27.342144+00:00"
       }
     },
     "25232": {
@@ -30522,7 +30522,7 @@
             }
           ]
         },
-        "at": "2026-08-25T15:20:04.111816+00:00"
+        "at": "2026-08-25T15:36:27.350749+00:00"
       }
     },
     "24934": {
@@ -30825,7 +30825,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:20:24.937914+00:00"
+        "at": "2026-08-25T15:36:27.351027+00:00"
       }
     },
     "23896": {
@@ -31280,7 +31280,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:20:46.918767+00:00"
+        "at": "2026-08-25T15:36:27.352654+00:00"
       }
     },
     "23350": {
@@ -31499,7 +31499,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:20:54.801313+00:00"
+        "at": "2026-08-25T15:36:27.353768+00:00"
       }
     },
     "22750": {
@@ -33589,7 +33589,7 @@
             }
           ]
         },
-        "at": "2026-08-25T15:21:00.161758+00:00"
+        "at": "2026-08-25T15:36:27.369832+00:00"
       }
     },
     "22664": {
@@ -33684,7 +33684,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:21:00.162553+00:00"
+        "at": "2026-08-25T15:36:27.370678+00:00"
       }
     },
     "22416": {
@@ -34690,6 +34690,42 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:21:25.282468+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "29592",
+              "url": "https://online.sktorrent.eu/video/29592/",
+              "title": "Operace Fortune: Ruse de Guerre",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:36:32.210839+00:00"
         }
       ],
       "identity": {
@@ -34708,7 +34744,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:21:21.518690+00:00"
+        "at": "2026-08-25T15:36:27.370787+00:00"
       }
     },
     "16198": {
@@ -43543,5 +43579,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:35:34.149428+00:00"
+  "updated_at": "2026-08-25T15:36:32.210856+00:00"
 }
