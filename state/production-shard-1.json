@@ -43307,7 +43307,39 @@
         },
         "at": "2026-08-25T15:09:10.416647+00:00"
       }
+    },
+    "25799": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:09:13.516862+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "this-film-is-not-yet-rated",
+        "title": "This Film Is Not Yet Rated",
+        "original_title": null,
+        "year": 2006,
+        "runtime_min": 98,
+        "tmdb_id": 16070,
+        "imdb_id": "tt0493459",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:09:12.956868+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:09:10.976643+00:00"
+  "updated_at": "2026-08-25T15:09:13.516874+00:00"
 }
