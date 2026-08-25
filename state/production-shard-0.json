@@ -31314,7 +31314,65 @@
         },
         "at": "2026-08-25T07:15:33.843477+00:00"
       }
+    },
+    "17014": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "57203",
+              "url": "https://online.sktorrent.eu/video/57203/",
+              "title": "Mrknutím oka",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:15:46.415039+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "mrknutim-oka-2026",
+        "title": "Mrknutím oka",
+        "original_title": "In the Blink of an Eye",
+        "year": 2026,
+        "runtime_min": 94,
+        "tmdb_id": 1032892,
+        "imdb_id": "tt6341826",
+        "created_at": "2026-04-14 16:14:39.175424+02:00",
+        "added_at": "2026-03-01 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:15:42.295481+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:15:40.870983+00:00"
+  "updated_at": "2026-08-25T07:15:46.415058+00:00"
 }
