@@ -35374,6 +35374,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T23:12:51.295550+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "558bd23705039",
+              "url": "https://prehraj.to/parfum-sk-komedie-2009-kk/558bd23705039",
+              "title": "Parfum-SK.Komedie-2009.kk",
+              "year": null,
+              "duration_sec": 5540,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.171,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5540,
+                "runtime_delta": 0.028,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:03:31.146587+00:00"
         }
       ],
       "identity": {
@@ -35392,7 +35430,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T23:12:32.171074+00:00"
+        "at": "2026-08-25T15:03:29.704280+00:00"
       }
     },
     "26575": {
@@ -39415,5 +39453,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:03:28.237688+00:00"
+  "updated_at": "2026-08-25T15:03:31.146604+00:00"
 }
