@@ -16,6 +16,28 @@ MAX_DISCOVERY_RETRIES_PER_SNAPSHOT = 3
 MAX_PARTIAL_REPAIRS_PER_BATCH = 2
 
 
+def _has_plausible_catalog_source(film) -> bool:
+    aliases = [
+        normalize_title(alias)
+        for alias in (film.title, film.original_title)
+        if alias and len(normalize_title(alias)) >= 4
+    ]
+    if not aliases:
+        return False
+    year = str(film.year) if film.year else ""
+    for source in film.sources:
+        if source.get("provider") not in {"prehrajto", "sktorrent"}:
+            continue
+        if not source.get("is_alive", True):
+            continue
+        title = normalize_title(source.get("title") or "")
+        if year and year not in title:
+            continue
+        if any(alias in title or title in alias for alias in aliases):
+            return True
+    return False
+
+
 def validate_limit(limit: int, maximum: int = MAX_PILOT_FILMS) -> int:
     if not 1 <= limit <= maximum:
         raise ValueError(f"Limit must be between 1 and {maximum}")
@@ -79,7 +101,11 @@ class HybridPipeline:
         classifications_since_save = 0
         ordered_films = sorted(
             films,
-            key=lambda item: (item.added_at or item.created_at or "", item.cr_film_id),
+            key=lambda item: (
+                _has_plausible_catalog_source(item),
+                item.added_at or item.created_at or "",
+                item.cr_film_id,
+            ),
             reverse=True,
         )
         partial_films = [
