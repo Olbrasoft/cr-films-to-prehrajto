@@ -11451,6 +11451,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T21:58:03.029763+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad65f840cfd3",
+              "url": "https://prehraj.to/clovek-2015/5ad65f840cfd3",
+              "title": "Člověk (2015)",
+              "year": null,
+              "duration_sec": 8024,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.462,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 8024,
+                "runtime_delta": 0.337,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:22:04.209846+00:00"
         }
       ],
       "identity": {
@@ -11469,7 +11507,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T21:57:46.810221+00:00"
+        "at": "2026-08-25T15:22:03.582161+00:00"
       }
     },
     "29490": {
@@ -33457,5 +33495,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:22:00.879277+00:00"
+  "updated_at": "2026-08-25T15:22:04.209865+00:00"
 }
