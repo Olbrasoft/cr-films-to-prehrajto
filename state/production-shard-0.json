@@ -31801,6 +31801,98 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:15:02.009553+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588b296307ba9",
+              "url": "https://prehraj.to/baxterova-vera-baxterova-1977-ceske-titulky/588b296307ba9",
+              "title": "Baxterová,-Vera-Baxterová-(1977)-české-titulky",
+              "year": null,
+              "duration_sec": 5451,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 130,
+                "candidate_runtime_sec": 5451,
+                "runtime_delta": 0.301,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "603307157f47d0d7",
+              "url": "https://prehraj.to/sandokan-se-vraci-1977-1080p-h264-ac3-6ch-czsub-cz-mkv/603307157f47d0d7",
+              "title": "Sandokan se vrací 1977-(1080p.h264.AC3.6ch)-CZsub.CZ.mkv",
+              "year": null,
+              "duration_sec": 7160,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 130,
+                "candidate_runtime_sec": 7160,
+                "runtime_delta": 0.082,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "92abebf507012adf",
+              "url": "https://prehraj.to/sandokan-se-vraci-1977-1080p-h264-ac3-6ch-cztit-cz-mkv/92abebf507012adf",
+              "title": "Sandokan se vrací 1977-(1080p.h264.AC3.6ch)-CZtit.CZ.mkv",
+              "year": null,
+              "duration_sec": 7160,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 130,
+                "candidate_runtime_sec": 7160,
+                "runtime_delta": 0.082,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:25:05.658343+00:00"
         }
       ],
       "identity": {
@@ -31819,7 +31911,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:14:58.440932+00:00"
+        "at": "2026-08-25T07:24:57.733145+00:00"
       }
     },
     "22088": {
@@ -32274,5 +32366,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T07:24:54.422169+00:00"
+  "updated_at": "2026-08-25T07:25:05.658365+00:00"
 }
