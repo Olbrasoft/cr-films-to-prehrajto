@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:52:45.517920+00:00"
+        "at": "2026-08-25T22:58:03.794454+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:52:45.520326+00:00"
+        "at": "2026-08-25T22:58:03.796878+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:52:45.521068+00:00"
+        "at": "2026-08-25T22:58:03.797622+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:52:45.521145+00:00"
+        "at": "2026-08-25T22:58:03.797700+00:00"
       }
     },
     "23807": {
@@ -599,7 +599,92 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:58:02.438054+00:00"
       }
+    },
+    "17431": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "603e12ce44f3b",
+              "url": "https://prehraj.to/adverse-2021-dvdrip-xvid-ac3-evo/603e12ce44f3b",
+              "title": "Adverse.2021.DVDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 5646,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5646,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "16568",
+              "url": "https://online.sktorrent.eu/video/16568/",
+              "title": "Adverse",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:58:07.422203+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "adverse-2021",
+        "title": "Adverse",
+        "original_title": "Adverse",
+        "year": 2021,
+        "runtime_min": 94,
+        "tmdb_id": 661020,
+        "imdb_id": "tt8597594",
+        "created_at": "2026-04-14 16:17:46.898874+02:00",
+        "added_at": "2021-03-19 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:58:03.797727+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:58:02.438081+00:00"
+  "updated_at": "2026-08-25T22:58:07.422218+00:00"
 }
