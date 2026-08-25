@@ -504,7 +504,21 @@ class PrehrajtoProvider:
             try:
                 response = self.session.get(
                     self.proxy_url,
-                    params={"key": self.proxy_key, "url": url},
+                    params={
+                        "key": self.proxy_key,
+                        "url": url,
+                        # The proxy forwards these browser-like request
+                        # headers to the origin when its API supports it.
+                        "headers": json.dumps(
+                            {
+                                "User-Agent": USER_AGENT,
+                                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                "Accept-Language": "cs,en;q=0.8",
+                                "Referer": SEARCH_BASE_URL + "/",
+                            },
+                            separators=(",", ":"),
+                        ),
+                    },
                     timeout=30,
                 )
             except requests.RequestException as error:
