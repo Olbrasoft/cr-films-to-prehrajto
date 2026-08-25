@@ -44212,7 +44212,101 @@
         },
         "at": "2026-08-25T15:10:12.882113+00:00"
       }
+    },
+    "25405": {
+      "attempts": [],
+      "identity": {
+        "slug": "predtucha-2004",
+        "title": "Předtucha",
+        "original_title": "Premonition",
+        "year": 2004,
+        "runtime_min": 95,
+        "tmdb_id": 40069,
+        "imdb_id": "tt0419280",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25365298",
+          "account_name": "Premonition (2005) CZ Titulky",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2004,
+          "candidate_year": 2005,
+          "year_match": true,
+          "film_runtime_min": 95,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T15:10:15.138830+00:00"
+      }
+    },
+    "25377": {
+      "attempts": [],
+      "identity": {
+        "slug": "duch-podzemi",
+        "title": "Duch podzemí",
+        "original_title": "Intermedio",
+        "year": 2005,
+        "runtime_min": 82,
+        "tmdb_id": 30402,
+        "imdb_id": "tt0414161",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25159655",
+          "account_name": "Peklo v podzemí (2006) CZ Dabing",
+          "title_similarity": 0.5,
+          "title_contains_alias": false,
+          "film_year": 2005,
+          "candidate_year": 2006,
+          "year_match": true,
+          "film_runtime_min": 82,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T15:10:15.139471+00:00"
+      }
+    },
+    "25357": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:10:15.726587+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dieses-jahr-in-czernowitz",
+        "title": "Dieses Jahr in Czernowitz",
+        "original_title": "This Year in Czernowitz",
+        "year": 2004,
+        "runtime_min": 130,
+        "tmdb_id": 366176,
+        "imdb_id": "tt0409894",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:10:15.139517+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:10:13.475943+00:00"
+  "updated_at": "2026-08-25T15:10:15.726596+00:00"
 }
