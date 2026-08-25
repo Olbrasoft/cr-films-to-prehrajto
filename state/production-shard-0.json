@@ -24340,7 +24340,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:24:36.420517+00:00"
+        "at": "2026-08-25T15:50:48.590392+00:00"
       }
     },
     "28306": {
@@ -24437,6 +24437,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:24:36.904971+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe51f018a055",
+              "url": "https://prehraj.to/bella-germania-1-cast-laska-2020-sk-dab/5fe51f018a055",
+              "title": "Bella Germania - 1 časť - Láska (2020)Sk dab",
+              "year": null,
+              "duration_sec": 5429,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.156,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5429,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:50:49.096191+00:00"
         }
       ],
       "identity": {
@@ -24455,7 +24493,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:24:36.420705+00:00"
+        "at": "2026-08-25T15:50:48.590605+00:00"
       }
     },
     "28286": {
@@ -44560,5 +44598,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:50:46.662468+00:00"
+  "updated_at": "2026-08-25T15:50:49.096212+00:00"
 }
