@@ -1273,7 +1273,7 @@
             }
           ]
         },
-        "at": "2026-08-25T23:08:48.819734+00:00"
+        "at": "2026-08-25T23:12:02.920728+00:00"
       }
     },
     "16845": {
@@ -1612,7 +1612,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:08:54.237172+00:00"
+        "at": "2026-08-25T23:12:02.921476+00:00"
       }
     },
     "28277": {
@@ -1648,7 +1648,118 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T23:11:56.453755+00:00"
       }
+    },
+    "28005": {
+      "attempts": [],
+      "identity": {
+        "slug": "outpost-11",
+        "title": "Outpost 11",
+        "original_title": null,
+        "year": 2012,
+        "runtime_min": 91,
+        "tmdb_id": 225301,
+        "imdb_id": "tt2133302",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25471431",
+          "account_name": "Outpost: Black Sun (2012)",
+          "title_similarity": 0.562,
+          "title_contains_alias": false,
+          "film_year": 2012,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 91,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T23:12:02.921766+00:00"
+      }
+    },
+    "27989": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5668d6cb0d84a",
+              "url": "https://prehraj.to/scrat-2011-cz-dvdrip-xvid/5668d6cb0d84a",
+              "title": "Scrat-(2011)-CZ-DVDRip-XviD",
+              "year": null,
+              "duration_sec": 3829,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 20.272,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "918f718f2fe14071",
+              "url": "https://prehraj.to/scrat-s-continental-crack-up-part-2-2011-cs/918f718f2fe14071",
+              "title": "Scrat's Continental Crack-Up: Part 2 - 2011 CS",
+              "year": null,
+              "duration_sec": 154,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 3,
+                "candidate_runtime_sec": 154,
+                "runtime_delta": 0.144,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T23:12:07.369008+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "scratovo-rozdeleni-kontinentu-cast-2",
+        "title": "Scratovo rozdělení kontinentů - část 2",
+        "original_title": "Scrat's Continental Crack-Up: Part 2",
+        "year": 2011,
+        "runtime_min": 3,
+        "tmdb_id": 98857,
+        "imdb_id": "tt2115386",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T23:12:02.921818+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T23:11:56.453788+00:00"
+  "updated_at": "2026-08-25T23:12:07.369027+00:00"
 }
