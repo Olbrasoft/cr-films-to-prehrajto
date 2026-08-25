@@ -33161,7 +33161,190 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T07:37:55.203103+00:00"
       }
+    },
+    "17460": {
+      "attempts": [],
+      "identity": {
+        "slug": "falesne-bezpeci-2019",
+        "title": "Falešné bezpečí",
+        "original_title": "Who's Stalking Me?",
+        "year": 2019,
+        "runtime_min": 87,
+        "tmdb_id": 584130,
+        "imdb_id": "tt8785034",
+        "created_at": "2026-04-14 16:17:46.898874+02:00",
+        "added_at": "2021-10-19 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:21:26.808192+00:00"
+      }
+    },
+    "17132": {
+      "attempts": [],
+      "identity": {
+        "slug": "zivot-jako-abeceda-2021",
+        "title": "Život jako abeceda",
+        "original_title": "H Is for Happiness",
+        "year": 2021,
+        "runtime_min": 98,
+        "tmdb_id": 541481,
+        "imdb_id": "tt6943854",
+        "created_at": "2026-04-14 16:16:14.112735+02:00",
+        "added_at": "2021-08-03 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:21:28.282539+00:00"
+      }
+    },
+    "17040": {
+      "attempts": [],
+      "identity": {
+        "slug": "the-neighborhood-nightmare-2018",
+        "title": "The Neighborhood Nightmare",
+        "original_title": "The Neighborhood Nightmare",
+        "year": 2018,
+        "runtime_min": 89,
+        "tmdb_id": 528942,
+        "imdb_id": "tt6437346",
+        "created_at": "2026-04-14 16:14:39.175424+02:00",
+        "added_at": "2020-12-22 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:21:29.292706+00:00"
+      }
+    },
+    "16834": {
+      "attempts": [],
+      "identity": {
+        "slug": "zemrit-stastny-2018",
+        "title": "Zemřít šťastný",
+        "original_title": "The Etruscan Smile",
+        "year": 2018,
+        "runtime_min": 103,
+        "tmdb_id": 513243,
+        "imdb_id": "tt5459382",
+        "created_at": "2026-04-14 16:13:05.679882+02:00",
+        "added_at": "2020-03-02 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24888525",
+          "account_name": "Zemřít mladí (2019) CZ Dabing",
+          "title_similarity": 0.516,
+          "title_contains_alias": false,
+          "film_year": 2018,
+          "candidate_year": 2019,
+          "year_match": true,
+          "film_runtime_min": 103,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T15:21:31.450924+00:00"
+      }
+    },
+    "17126": {
+      "attempts": [],
+      "identity": {
+        "slug": "gloria-bell-2019",
+        "title": "Gloria Bell",
+        "original_title": "Gloria Bell",
+        "year": 2019,
+        "runtime_min": 102,
+        "tmdb_id": 491473,
+        "imdb_id": "tt6902696",
+        "created_at": "2026-04-14 16:16:14.112735+02:00",
+        "added_at": "2020-01-29 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25061020",
+          "account_name": "Gloria (2018) CZ Dabing",
+          "title_similarity": 0.636,
+          "title_contains_alias": false,
+          "film_year": 2019,
+          "candidate_year": 2018,
+          "year_match": true,
+          "film_runtime_min": 102,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T15:21:31.451313+00:00"
+      }
+    },
+    "16782": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "4204",
+              "url": "https://online.sktorrent.eu/video/4204/",
+              "title": "Wild Rose",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:21:32.824374+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "wild-rose-2019",
+        "title": "Wild Rose",
+        "original_title": "Wild Rose",
+        "year": 2019,
+        "runtime_min": 101,
+        "tmdb_id": 482981,
+        "imdb_id": "tt5117428",
+        "created_at": "2026-04-14 16:13:05.679882+02:00",
+        "added_at": "2019-09-26 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:21:31.452022+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:21:25.282486+00:00"
+  "updated_at": "2026-08-25T15:21:32.824392+00:00"
 }
