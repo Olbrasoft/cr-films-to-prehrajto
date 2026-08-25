@@ -28357,7 +28357,39 @@
         },
         "at": "2026-08-25T07:14:03.381330+00:00"
       }
+    },
+    "23630": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:14:07.341140+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sabrina-1995",
+        "title": "Sabrina",
+        "original_title": null,
+        "year": 1995,
+        "runtime_min": 122,
+        "tmdb_id": 11860,
+        "imdb_id": "tt0114319",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:14:05.978864+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:14:04.662778+00:00"
+  "updated_at": "2026-08-25T07:14:07.341161+00:00"
 }
