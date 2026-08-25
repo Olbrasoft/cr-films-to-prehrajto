@@ -246,14 +246,18 @@ class TransferService:
                         target_video_id=video_id,
                     )
                 upload_czech_subtitle(self.session, video_id, subtitle.url)
-                if not verify_czech_subtitle(self.session, video_id, name):
-                    raise TransferError(
-                        "Czech subtitle verification failed", target_video_id=video_id
-                    )
+                subtitle_status = (
+                    "verified"
+                    if verify_czech_subtitle(self.session, video_id, name, attempts=1)
+                    else "pending"
+                )
+            else:
+                subtitle_status = "not_required"
             return {
                 "target_video_id": video_id,
                 "display_name": name,
                 "size_bytes": size,
+                "subtitle_verification": subtitle_status,
             }
         finally:
             path.unlink(missing_ok=True)
@@ -275,13 +279,15 @@ class TransferService:
             )
         upload_czech_subtitle(self.session, video_id, subtitle.url)
         name = display_name(film, candidate)
-        if not verify_czech_subtitle(self.session, video_id, name):
-            raise TransferError(
-                "Czech subtitle repair verification failed", target_video_id=video_id
-            )
+        subtitle_status = (
+            "verified"
+            if verify_czech_subtitle(self.session, video_id, name, attempts=1)
+            else "pending"
+        )
         return {
             "target_video_id": video_id,
             "display_name": name,
             "size_bytes": None,
             "repaired_partial_upload": True,
+            "subtitle_verification": subtitle_status,
         }

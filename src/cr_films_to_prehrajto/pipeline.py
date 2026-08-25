@@ -251,6 +251,9 @@ class HybridPipeline:
                             "language_tier": candidate.language_tier.name.lower(),
                             "actual_resolution": candidate.resolution,
                             "subtitle_handling": row["subtitle_handling"],
+                            "subtitle_verification": upload.get(
+                                "subtitle_verification", "not_required"
+                            ),
                             "processing_status": (
                                 "pending"
                                 if self.defer_processing_verification

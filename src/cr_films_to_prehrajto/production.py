@@ -80,6 +80,7 @@ def verify_pending_uploads(
     *,
     attempts: int = 1,
     delay_seconds: float = 0,
+    subtitle_lookup: Callable[[str, str], bool] | None = None,
 ) -> dict[str, int]:
     states = [StateStore(path) for path in state_paths if path.exists()]
     for attempt_number in range(attempts):
@@ -87,7 +88,10 @@ def verify_pending_uploads(
         for state in states:
             for film_id, row in state.data["films"].items():
                 upload = row.get("upload") or {}
-                if upload.get("processing_status") == "pending":
+                if upload.get("processing_status") == "pending" or (
+                    upload.get("language_tier") == "czech_subtitles"
+                    and upload.get("subtitle_verification") == "pending"
+                ):
                     pending.append((state, film_id, row, upload))
         if not pending:
             break
@@ -100,6 +104,16 @@ def verify_pending_uploads(
                 upload["verified_at"] = now_iso()
                 if video and video.name:
                     upload["live_display_name"] = video.name
+                if (
+                    upload.get("language_tier") == "czech_subtitles"
+                    and upload.get("subtitle_verification") == "pending"
+                    and subtitle_lookup
+                    and subtitle_lookup(
+                        upload.get("display_name", ""),
+                        str(upload["target_video_id"]),
+                    )
+                ):
+                    upload["subtitle_verification"] = "verified"
                 state.save(notify=False)
             elif status == "deleted":
                 failed = row.pop("upload")
@@ -129,7 +143,10 @@ def verify_pending_uploads(
             upload = row.get("upload") or {}
             if upload.get("processing_status") == "active":
                 counts["active"] += 1
-            elif upload.get("processing_status") == "pending":
+            elif upload.get("processing_status") == "pending" or (
+                upload.get("language_tier") == "czech_subtitles"
+                and upload.get("subtitle_verification") == "pending"
+            ):
                 counts["pending"] += 1
             counts["failed"] += sum(
                 attempt.get("status") == "failed_after_upload"

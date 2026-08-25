@@ -16,7 +16,7 @@ from .providers.prehrajto import PrehrajtoProvider, inventory_account, login
 from .providers.sktorrent import SkTorrentProvider
 from .report import write_report
 from .state import StateStore
-from .transfer import TransferService
+from .transfer import TransferService, verify_czech_subtitle
 
 
 def load_historical(paths: list[Path]) -> dict[int, str]:
@@ -234,6 +234,9 @@ def run_production_verification(args) -> int:
         ),
         attempts=args.attempts,
         delay_seconds=args.delay_seconds,
+        subtitle_lookup=lambda name, video_id: verify_czech_subtitle(
+            authenticated, video_id, name, attempts=1
+        ),
     )
     print(
         "Production verification: "
