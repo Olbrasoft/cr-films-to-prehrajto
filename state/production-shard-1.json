@@ -12359,7 +12359,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-24T22:08:25.178288+00:00"
+        "at": "2026-08-25T14:58:37.082932+00:00"
       }
     },
     "29317": {
@@ -12436,6 +12436,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:08:43.736975+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "d64bc2d7722e48c7",
+              "url": "https://prehraj.to/dukla-61-01-epizoda-2018-drama-historicky-cz-eac3-5-1-cz-aac-2-0-h265-2160p-mkv/d64bc2d7722e48c7",
+              "title": "Dukla 61, 01 Epizoda (2018) Drama, Historický, CZ-EAC3-5.1, CZ-AAC-2.0, H265, 2160p.mkv",
+              "year": null,
+              "duration_sec": 4849,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.092,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 149,
+                "candidate_runtime_sec": 4849,
+                "runtime_delta": 0.458,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T14:58:37.438287+00:00"
         }
       ],
       "identity": {
@@ -12454,7 +12492,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:08:25.178826+00:00"
+        "at": "2026-08-25T14:58:37.083309+00:00"
       }
     },
     "29305": {
@@ -37464,5 +37502,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T14:58:34.932567+00:00"
+  "updated_at": "2026-08-25T14:58:37.438303+00:00"
 }
