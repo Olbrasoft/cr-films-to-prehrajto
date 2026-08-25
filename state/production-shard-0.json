@@ -9873,6 +9873,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T21:53:48.827469+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5db6b48960df6",
+              "url": "https://prehraj.to/attraction-cz-titulky-2017/5db6b48960df6",
+              "title": "Attraction CZ Titulky 2017",
+              "year": null,
+              "duration_sec": 7961,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 12.268,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T06:26:25.934588+00:00"
         }
       ],
       "identity": {
@@ -26338,5 +26369,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T06:26:09.106379+00:00"
+  "updated_at": "2026-08-25T06:26:25.934609+00:00"
 }
