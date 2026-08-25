@@ -35402,6 +35402,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:19:37.861291+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6811934cee9ef",
+              "url": "https://prehraj.to/german-retro-blazing-stewardesses-1975-720p-bluray-x264-aac-yts-mx/6811934cee9ef",
+              "title": "German Retro-Blazing.Stewardesses.1975.720p.BluRay.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 5883,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1975,
+                "candidate_year": 1975,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5883,
+                "runtime_delta": 0.032,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T14:55:55.584162+00:00"
         }
       ],
       "identity": {
@@ -35420,7 +35458,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:19:36.354921+00:00"
+        "at": "2026-08-25T14:55:54.940616+00:00"
       }
     },
     "21889": {
@@ -36730,5 +36768,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T14:55:53.562231+00:00"
+  "updated_at": "2026-08-25T14:55:55.584178+00:00"
 }
