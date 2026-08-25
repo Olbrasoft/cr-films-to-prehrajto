@@ -1,6 +1,8 @@
 import json
 import subprocess
+from dataclasses import replace
 
+from cr_films_to_prehrajto.cli import execute_production_incrementally
 from cr_films_to_prehrajto.models import AccountVideo
 from cr_films_to_prehrajto.production import GitStatePusher, verify_pending_uploads
 
@@ -108,3 +110,50 @@ def test_git_state_pusher_commits_and_pushes_only_its_state(tmp_path):
     assert calls[0] == ("add", "--", str(state_path))
     assert calls[2][:2] == ("commit", "-m")
     assert calls[3] == ("push", "origin", "HEAD:main")
+
+
+def test_production_discovers_and_executes_each_film_incrementally(tmp_path, film):
+    second = replace(film, cr_film_id=43, slug="second", title="Second")
+
+    class Pipeline:
+        def __init__(self):
+            self.events = []
+
+        def build_plan(self, films, limit, **kwargs):
+            self.events.append(("discover", [item.cr_film_id for item in films]))
+            assert limit == 1
+            assert kwargs["skip_exhausted_snapshot"] is True
+            if not films:
+                return []
+            selected = films[0]
+            return [
+                {
+                    "film": selected.to_dict(),
+                    "reconciliation": {"status": "missing"},
+                    "selected": None,
+                    "candidates": [],
+                }
+            ]
+
+        def execute(self, plan):
+            self.events.append(("upload", plan[0]["film"]["cr_film_id"]))
+
+    pipeline = Pipeline()
+    plan = execute_production_incrementally(
+        pipeline,
+        [film, second],
+        2,
+        tmp_path / "report.md",
+        tmp_path / "plan.json",
+        shard_id=0,
+        num_shards=2,
+    )
+
+    assert pipeline.events == [
+        ("discover", [42, 43]),
+        ("upload", 42),
+        ("discover", [43]),
+        ("upload", 43),
+    ]
+    assert [row["film"]["cr_film_id"] for row in plan] == [42, 43]
+    assert len(json.loads((tmp_path / "plan.json").read_text())["films"]) == 2

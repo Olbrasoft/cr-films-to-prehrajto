@@ -138,6 +138,51 @@ def run_pilot(args) -> int:
             temporary.cleanup()
 
 
+def execute_production_incrementally(
+    pipeline: HybridPipeline,
+    films: list[Film],
+    limit: int,
+    report_path: Path,
+    plan_path: Path,
+    *,
+    shard_id: int,
+    num_shards: int,
+) -> list[dict]:
+    """Discover and transfer one film at a time while retaining batch evidence."""
+    remaining_films = list(films)
+    complete_plan: list[dict] = []
+    digest = write_report(complete_plan, report_path, plan_path)
+    for slot in range(limit):
+        next_plan = pipeline.build_plan(
+            remaining_films,
+            1,
+            maximum=MAX_PRODUCTION_BATCH,
+            skip_exhausted_snapshot=True,
+            # Keep slow subtitle repairs out of the production batch's
+            # critical path; they remain resumable for a later repair run.
+            partial_repairs=0,
+        )
+        if not next_plan:
+            break
+        film_id = int(next_plan[0]["film"]["cr_film_id"])
+        remaining_films = [
+            film for film in remaining_films if film.cr_film_id != film_id
+        ]
+        complete_plan.extend(next_plan)
+        # Persist evidence before starting the potentially long transfer.
+        digest = write_report(complete_plan, report_path, plan_path)
+        print(
+            f"Production shard {shard_id}/{num_shards} selected film "
+            f"{slot + 1}/{limit}; plan_sha256={digest}"
+        )
+        pipeline.execute(next_plan)
+    print(
+        f"Production shard {shard_id}/{num_shards} plan contains "
+        f"{len(complete_plan)} films; plan_sha256={digest}"
+    )
+    return complete_plan
+
+
 def run_production(args) -> int:
     validate_limit(args.limit, MAX_PRODUCTION_BATCH)
     if not 0 <= args.shard_id < args.num_shards:
@@ -206,21 +251,15 @@ def run_production(args) -> int:
     )
     before = sum(1 for row in state.data["films"].values() if row.get("upload"))
     try:
-        plan = pipeline.build_plan(
+        execute_production_incrementally(
+            pipeline,
             films,
             args.limit,
-            maximum=MAX_PRODUCTION_BATCH,
-            skip_exhausted_snapshot=True,
-            # Keep slow subtitle repairs out of the production batch's
-            # critical path; they remain resumable for a later repair run.
-            partial_repairs=0,
+            args.report,
+            args.plan,
+            shard_id=args.shard_id,
+            num_shards=args.num_shards,
         )
-        digest = write_report(plan, args.report, args.plan)
-        print(
-            f"Production shard {args.shard_id}/{args.num_shards} plan contains "
-            f"{len(plan)} films; plan_sha256={digest}"
-        )
-        pipeline.execute(plan)
     finally:
         temporary.cleanup()
     after = sum(1 for row in state.data["films"].values() if row.get("upload"))
