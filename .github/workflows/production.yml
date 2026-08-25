@@ -112,7 +112,11 @@ jobs:
     needs: test
     strategy:
       fail-fast: false
-      max-parallel: 1
+      # The sister production pipeline has proven two account uploads in
+      # parallel. Each shard owns a separate state file and GitStatePusher
+      # rebases concurrent state commits, so serializing them only halves
+      # throughput and leaves long gaps in the account statistics.
+      max-parallel: 2
       matrix:
         shard: [0, 1]
     concurrency:
