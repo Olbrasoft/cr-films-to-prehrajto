@@ -62,9 +62,9 @@ jobs:
           python scripts/prefetch_sources.py \
             --snapshot state/missing-films.json \
             --out state/source-prefetch.json \
+            --scan-state state/source-prefetch-scan.json \
             --limit 1000 \
             --delay 0.25 \
-            --target-count 20 \
             --merge
 
       - name: Persist prefetched queue
@@ -72,7 +72,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/source-prefetch.json
+          git add state/source-prefetch.json state/source-prefetch-scan.json
           git diff --cached --quiet || \
             git commit -m "chore(prefetch): refresh source queue"
           for attempt in 1 2 3 4 5 6 7 8 9 10; do

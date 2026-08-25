@@ -31,13 +31,16 @@ def main() -> None:
     parser.add_argument("--merge", action="store_true")
     parser.add_argument("--target-count", type=int, default=0)
     parser.add_argument(
+        "--scan-state",
+        type=Path,
+        default=Path("state/source-prefetch-scan.json"),
+    )
+    parser.add_argument(
         "--uploaded-index", type=Path, default=Path("state/account-index.json")
     )
     args = parser.parse_args()
     snapshot = json.loads(args.snapshot.read_text())
     films = [Film.from_dict(row) for row in snapshot["films"]]
-    if args.limit:
-        films = films[: args.limit]
     email = os.environ.get("PREHRAJTO_EMAIL", "")
     password = os.environ.get("PREHRAJTO_PASSWORD", "")
     session = login(email, password) if email and password else requests.Session()
@@ -70,13 +73,24 @@ def main() -> None:
         for film_id, hits in result.items()
         if film_id not in uploaded_ids
     }
+    scanned_ids: set[str] = set()
+    if args.merge and args.scan_state.exists():
+        scan_payload = json.loads(args.scan_state.read_text())
+        scanned_ids.update(str(value) for value in scan_payload.get("film_ids", []))
+    searched = 0
     for index, film in enumerate(films, 1):
         if args.target_count and len(result) >= args.target_count:
+            break
+        if args.limit and searched >= args.limit:
             break
         if str(film.cr_film_id) in uploaded_ids:
             continue
         if str(film.cr_film_id) in result:
+            scanned_ids.add(str(film.cr_film_id))
             continue
+        if str(film.cr_film_id) in scanned_ids:
+            continue
+        searched += 1
         hits: dict[str, dict] = {}
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
@@ -115,13 +129,22 @@ def main() -> None:
             time.sleep(args.delay)
         if hits:
             result[str(film.cr_film_id)] = list(hits.values())
+        scanned_ids.add(str(film.cr_film_id))
         if index % 25 == 0:
             print(f"prefetched {index}/{len(films)} films", flush=True)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     temporary = args.out.with_suffix(args.out.suffix + ".tmp")
     temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
     temporary.replace(args.out)
-    print(f"saved {len(result)} films to {args.out}")
+    args.scan_state.parent.mkdir(parents=True, exist_ok=True)
+    scan_temporary = args.scan_state.with_suffix(args.scan_state.suffix + ".tmp")
+    scan_temporary.write_text(
+        json.dumps({"film_ids": sorted(scanned_ids, key=int)}, indent=2) + "\n"
+    )
+    scan_temporary.replace(args.scan_state)
+    print(
+        f"searched {searched} films; saved {len(result)} queued films to {args.out}"
+    )
 
 
 if __name__ == "__main__":
