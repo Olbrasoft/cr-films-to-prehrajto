@@ -37843,7 +37843,60 @@
         },
         "at": "2026-08-25T15:29:16.760343+00:00"
       }
+    },
+    "26496": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6036a69f380df",
+              "url": "https://prehraj.to/2020-rozpolceny-split-rozpolteny-cz-dabing/6036a69f380df",
+              "title": "2020 Rozpolceny - Split - Rozpolteny  CZ dabing ___",
+              "year": null,
+              "duration_sec": 7028,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.01,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:29:19.793618+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "split-second",
+        "title": "Split Second",
+        "original_title": null,
+        "year": 2020,
+        "runtime_min": 13,
+        "tmdb_id": 769128,
+        "imdb_id": "tt11342642",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:29:18.813334+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:29:17.275627+00:00"
+  "updated_at": "2026-08-25T15:29:19.793637+00:00"
 }
