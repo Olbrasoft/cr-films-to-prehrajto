@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "snapshot": {
+    "id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+    "exported_at": null
+  },
+  "films": {
+    "27116": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68250c7a87657",
+              "url": "https://prehraj.to/prezidentka-2022/68250c7a87657",
+              "title": "Prezidentka 2022",
+              "year": null,
+              "duration_sec": 5582,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5582,
+                "runtime_delta": 0.041,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "06da133f53bd5b84",
+              "url": "https://prehraj.to/prezidentka-2022/06da133f53bd5b84",
+              "title": "Prezidentka (2022)",
+              "year": null,
+              "duration_sec": 5582,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5582,
+                "runtime_delta": 0.041,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d56e8a39439c7a51",
+              "url": "https://prehraj.to/prezidentka-2022/d56e8a39439c7a51",
+              "title": "Prezidentka (2022)",
+              "year": null,
+              "duration_sec": 5582,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5582,
+                "runtime_delta": 0.041,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:09:17.567519+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "prezidentka-2022",
+        "title": "Prezidentka",
+        "original_title": "Madam President",
+        "year": 2022,
+        "runtime_min": 97,
+        "tmdb_id": 768106,
+        "imdb_id": "tt14203808",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:09:11.191188+00:00"
+      }
+    }
+  },
+  "updated_at": "2026-08-25T22:09:17.567536+00:00"
+}
