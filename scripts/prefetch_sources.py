@@ -71,7 +71,7 @@ def main() -> None:
                     if value
                 ]
                 identity = any(
-                    normalized_hit.startswith(alias) or f" {alias} " in normalized_hit
+                    normalized_hit.startswith(alias)
                     for alias in aliases
                     if len(alias) >= 4
                 )
