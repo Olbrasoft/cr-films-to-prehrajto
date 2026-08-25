@@ -18526,6 +18526,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:13:39.618997+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6095a551dfe84",
+              "url": "https://prehraj.to/lilly-schonauer-svatba-me-sestry-2014-czdab/6095a551dfe84",
+              "title": "Lilly Schönauer - Svatba mé sestry (2014) CZdab",
+              "year": null,
+              "duration_sec": 5276,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5276,
+                "runtime_delta": 0.023,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:23:09.884870+00:00"
         }
       ],
       "identity": {
@@ -18544,7 +18582,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:13:20.628627+00:00"
+        "at": "2026-08-25T15:23:09.418813+00:00"
       }
     },
     "28922": {
@@ -33822,5 +33860,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:23:07.910725+00:00"
+  "updated_at": "2026-08-25T15:23:09.884889+00:00"
 }
