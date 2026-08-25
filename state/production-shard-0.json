@@ -26314,6 +26314,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:38:30.008697+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "ed4fe32265ceaf74",
+              "url": "https://prehraj.to/to-1-it-2017-cz-en-h264-ezio-mkv/ed4fe32265ceaf74",
+              "title": "To 1 - It 2017 CZ,EN H264 Ezio.mkv",
+              "year": null,
+              "duration_sec": 8082,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.216,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 8082,
+                "runtime_delta": 0.295,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:25:10.362033+00:00"
         }
       ],
       "identity": {
@@ -26332,7 +26370,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:38:13.159773+00:00"
+        "at": "2026-08-25T15:25:09.933449+00:00"
       }
     },
     "28032": {
@@ -34452,5 +34490,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:25:07.862058+00:00"
+  "updated_at": "2026-08-25T15:25:10.362061+00:00"
 }
