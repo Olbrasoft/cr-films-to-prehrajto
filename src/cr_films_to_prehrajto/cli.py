@@ -326,7 +326,7 @@ def build_parser() -> argparse.ArgumentParser:
     production.add_argument("--plan", type=Path, required=True)
     production.add_argument("--limit", type=int, default=10)
     production.add_argument("--shard-id", type=int, required=True)
-    production.add_argument("--num-shards", type=int, default=2)
+    production.add_argument("--num-shards", type=int, default=4)
     production.add_argument("--push-state", action="store_true")
 
     verify = subparsers.add_parser(

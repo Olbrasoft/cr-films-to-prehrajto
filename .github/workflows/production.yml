@@ -112,13 +112,12 @@ jobs:
     needs: test
     strategy:
       fail-fast: false
-      # The sister production pipeline has proven two account uploads in
-      # parallel. Each shard owns a separate state file and GitStatePusher
-      # rebases concurrent state commits, so serializing them only halves
-      # throughput and leaves long gaps in the account statistics.
-      max-parallel: 2
+      # Discovery keeps hundreds of verified sources queued, while measured
+      # transfers are the bottleneck. Each shard owns a separate state file
+      # and GitStatePusher rebases concurrent commits safely.
+      max-parallel: 4
       matrix:
-        shard: [0, 1]
+        shard: [0, 1, 2, 3]
     concurrency:
       group: cr-films-production-shard-${{ matrix.shard }}
       cancel-in-progress: false
@@ -176,7 +175,7 @@ jobs:
           --plan artifacts/production-shard-${{ matrix.shard }}.json
           --limit "${{ inputs.batch_size }}"
           --shard-id "${{ matrix.shard }}"
-          --num-shards 2
+          --num-shards 4
           --push-state
 
       - name: Persist any remaining shard state
@@ -240,6 +239,8 @@ jobs:
           cr-films-pilot verify-production
           --state state/production-shard-0.json
           --state state/production-shard-1.json
+          --state state/production-shard-2.json
+          --state state/production-shard-3.json
           --attempts 10
           --delay-seconds 30
 

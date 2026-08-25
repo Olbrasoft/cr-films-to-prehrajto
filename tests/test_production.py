@@ -2,7 +2,7 @@ import json
 import subprocess
 from dataclasses import replace
 
-from cr_films_to_prehrajto.cli import execute_production_incrementally
+from cr_films_to_prehrajto.cli import build_parser, execute_production_incrementally
 from cr_films_to_prehrajto.models import AccountVideo
 from cr_films_to_prehrajto.production import GitStatePusher, verify_pending_uploads
 
@@ -157,3 +157,25 @@ def test_production_discovers_and_executes_each_film_incrementally(tmp_path, fil
     ]
     assert [row["film"]["cr_film_id"] for row in plan] == [42, 43]
     assert len(json.loads((tmp_path / "plan.json").read_text())["films"]) == 2
+
+
+def test_production_cli_defaults_to_four_shards():
+    args = build_parser().parse_args(
+        [
+            "production",
+            "--snapshot",
+            "missing.json",
+            "--inventory",
+            "inventory.json",
+            "--state",
+            "state.json",
+            "--report",
+            "report.md",
+            "--plan",
+            "plan.json",
+            "--shard-id",
+            "0",
+        ]
+    )
+
+    assert args.num_shards == 4

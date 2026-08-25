@@ -191,7 +191,7 @@ being uploaded twice.
 
 The completed pilot remains manual and capped at ten. The separate
 `upload-missing-films` workflow is the production continuation authorized
-after the pilot. It runs two deterministic shards in parallel, uploads ten
+after the pilot. It runs four deterministic shards in parallel, uploads ten
 films per shard by default, and dispatches the next run only when the committed
 backlog count decreased.
 
