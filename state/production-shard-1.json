@@ -35759,7 +35759,7 @@
             }
           ]
         },
-        "at": "2026-08-24T23:15:03.550584+00:00"
+        "at": "2026-08-25T15:03:44.589834+00:00"
       }
     },
     "26483": {
@@ -35773,6 +35773,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T23:15:22.303289+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f6237d0433d0",
+              "url": "https://prehraj.to/mirage-2019-cztitulky/5f6237d0433d0",
+              "title": "Mirage (2019) CZtitulky",
+              "year": null,
+              "duration_sec": 7755,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.232,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:03:45.053772+00:00"
         }
       ],
       "identity": {
@@ -35791,7 +35822,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T23:15:03.550636+00:00"
+        "at": "2026-08-25T15:03:44.589884+00:00"
       }
     },
     "26461": {
@@ -39524,5 +39555,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T15:03:42.457041+00:00"
+  "updated_at": "2026-08-25T15:03:45.053789+00:00"
 }
