@@ -7860,6 +7860,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T21:59:23.840851+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b48a251c7c23",
+              "url": "https://prehraj.to/wallander-s03-01-krimi-serial-cz-dab-2012-jad/5b48a251c7c23",
+              "title": "Wallander s03-01-krimi serial-cz dab.-2012-jad",
+              "year": null,
+              "duration_sec": 5305,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.243,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 70,
+                "candidate_runtime_sec": 5305,
+                "runtime_delta": 0.263,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T14:58:01.061307+00:00"
         }
       ],
       "identity": {
@@ -7878,7 +7916,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T21:59:07.691322+00:00"
+        "at": "2026-08-25T14:58:00.694935+00:00"
       }
     },
     "29561": {
@@ -37241,5 +37279,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T14:57:57.667053+00:00"
+  "updated_at": "2026-08-25T14:58:01.061349+00:00"
 }
