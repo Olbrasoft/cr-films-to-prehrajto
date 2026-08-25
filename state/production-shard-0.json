@@ -38756,7 +38756,60 @@
         },
         "at": "2026-08-25T15:30:12.551185+00:00"
       }
+    },
+    "26134": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bec15b5fe16",
+              "url": "https://prehraj.to/sovi-hnizdo-cs-krimi-1981-tvrip/55bec15b5fe16",
+              "title": "Sovi-hnizdo-CS-krimi-1981-TVrip",
+              "year": null,
+              "duration_sec": 3752,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.523,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:30:16.314782+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-kgb-connections-an-investigation-into-soviet-operations-in-north-america",
+        "title": "The KGB Connections: An Investigation into Soviet Operations in North America",
+        "original_title": null,
+        "year": 1981,
+        "runtime_min": 131,
+        "tmdb_id": 273031,
+        "imdb_id": "tt0949880",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:30:15.893508+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:30:14.388255+00:00"
+  "updated_at": "2026-08-25T15:30:16.314801+00:00"
 }
