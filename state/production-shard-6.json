@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T22:45:51.460428+00:00"
+        "at": "2026-08-25T22:56:10.895543+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-25T22:45:51.461458+00:00"
+        "at": "2026-08-25T22:56:10.896505+00:00"
       }
     },
     "27238": {
@@ -773,7 +773,99 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-25T22:56:07.155422+00:00"
       }
+    },
+    "17574": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "39d6812c2ddf71be",
+              "url": "https://prehraj.to/die-my-love-2025-cz-tit/39d6812c2ddf71be",
+              "title": "Die My Love (2025) CZ tit",
+              "year": null,
+              "duration_sec": 7122,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 119,
+                "candidate_runtime_sec": 7122,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "54840",
+              "url": "https://online.sktorrent.eu/video/54840/",
+              "title": "Die My Love",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:56:15.419134+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "die-my-love-2025",
+        "title": "Die My Love",
+        "original_title": "Die My Love",
+        "year": 2025,
+        "runtime_min": 119,
+        "tmdb_id": 1033148,
+        "imdb_id": "tt9362736",
+        "created_at": "2026-04-14 16:19:18.476618+02:00",
+        "added_at": "2025-12-21 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T22:56:10.900016+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T22:56:07.155451+00:00"
+  "updated_at": "2026-08-25T22:56:15.419150+00:00"
 }
