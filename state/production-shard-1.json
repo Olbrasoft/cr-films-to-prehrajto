@@ -25795,6 +25795,37 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:49:41.815711+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "630150af3fdf3",
+              "url": "https://prehraj.to/beast-2022-hdcam-850mb-c1nem4-x264-sunscreen/630150af3fdf3",
+              "title": "Beast.2022.HDCAM.850MB.c1nem4.x264-SUNSCREEN",
+              "year": null,
+              "duration_sec": 5268,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.982,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T16:43:01.621939+00:00"
         }
       ],
       "identity": {
@@ -25813,7 +25844,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:49:22.972281+00:00"
+        "at": "2026-08-25T16:43:00.464130+00:00"
       }
     },
     "27899": {
@@ -54883,5 +54914,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T16:42:58.299152+00:00"
+  "updated_at": "2026-08-25T16:43:01.621960+00:00"
 }
