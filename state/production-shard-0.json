@@ -42843,7 +42843,101 @@
         },
         "at": "2026-08-25T15:34:53.412324+00:00"
       }
+    },
+    "24106": {
+      "attempts": [],
+      "identity": {
+        "slug": "pripad-chobotnice",
+        "title": "Případ Chobotnice",
+        "original_title": "The Octopus",
+        "year": 1998,
+        "runtime_min": 100,
+        "tmdb_id": 62012,
+        "imdb_id": "tt0162555",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24836687",
+          "account_name": "Chobotnice (1998) CZ Dabing",
+          "title_similarity": 0.625,
+          "title_contains_alias": false,
+          "film_year": 1998,
+          "candidate_year": 1998,
+          "year_match": true,
+          "film_runtime_min": 100,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T15:34:55.401182+00:00"
+      }
+    },
+    "24084": {
+      "attempts": [],
+      "identity": {
+        "slug": "zlodeji-casu-2002",
+        "title": "Zloději času",
+        "original_title": "Clockstoppers",
+        "year": 2002,
+        "runtime_min": 94,
+        "tmdb_id": 15028,
+        "imdb_id": "tt0157472",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25140548",
+          "account_name": "Zloději z Harvardu (2002) CZ Dabing",
+          "title_similarity": 0.571,
+          "title_contains_alias": false,
+          "film_year": 2002,
+          "candidate_year": 2002,
+          "year_match": true,
+          "film_runtime_min": 94,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-25T15:34:55.402301+00:00"
+      }
+    },
+    "24078": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:34:55.998810+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "film-15",
+        "title": "മാറ്റൊലി",
+        "original_title": "Mattoli",
+        "year": 1978,
+        "runtime_min": null,
+        "tmdb_id": 733238,
+        "imdb_id": "tt0156755",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:34:55.402332+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:34:53.920913+00:00"
+  "updated_at": "2026-08-25T15:34:55.998829+00:00"
 }
