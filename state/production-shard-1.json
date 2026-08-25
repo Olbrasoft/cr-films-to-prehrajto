@@ -17109,6 +17109,152 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:59:16.947856+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61aeefc8953d4",
+              "url": "https://prehraj.to/film-tucnaci-z-madagaskaru-2014-pohadka-animovane-cz-dabing/61aeefc8953d4",
+              "title": "Film - Tucnaci-z-madagaskaru-2014-pohadka-animovane-cz-dabing",
+              "year": null,
+              "duration_sec": 5510,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.329,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5510,
+                "runtime_delta": 0.023,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "599cc9323f1aa",
+              "url": "https://prehraj.to/filmy-by-boos-pamatkari-cz-dabing-supr-film-novinka-new-nove-najstahovanejsie-2014-2015-dabing/599cc9323f1aa",
+              "title": "FILMY-BY-BOOS-PAMATKARI-CZ-DABING-SUPR-FILM---NOVINKA-NEW-NOVE-NAJSTAHOVANEJSIE-2014---2015-DABING--",
+              "year": null,
+              "duration_sec": 7103,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.212,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 7103,
+                "runtime_delta": 0.259,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6175c447e5140",
+              "url": "https://prehraj.to/filmy-fisun-jizda-svaru-ride-along-2014-cz-dabing/6175c447e5140",
+              "title": "Filmy-Fisun-Jizda-svaru---Ride-Along-2014-CZ-dabing",
+              "year": null,
+              "duration_sec": 5979,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.347,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5979,
+                "runtime_delta": 0.06,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64af058e9ad72",
+              "url": "https://prehraj.to/filmy-fisun-jizda-svaru-2014-cz-dabing-mirkodrizi/64af058e9ad72",
+              "title": "Filmy-Fisun-Jizda-svaru-2014-CZ-dabing - (MirkoDrizi)",
+              "year": null,
+              "duration_sec": 5979,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5979,
+                "runtime_delta": 0.06,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65a73000e2fa3",
+              "url": "https://prehraj.to/zakazane-filmy-nacisticke-propagandy-2014/65a73000e2fa3",
+              "title": "Zakázané filmy nacistické propagandy (2014)",
+              "year": null,
+              "duration_sec": 3151,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 3151,
+                "runtime_delta": 0.441,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T22:37:51.328762+00:00"
         }
       ],
       "identity": {
@@ -17127,7 +17273,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:59:15.430184+00:00"
+        "at": "2026-08-25T22:37:48.019252+00:00"
       }
     },
     "28885": {
@@ -57594,5 +57740,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T22:37:46.561032+00:00"
+  "updated_at": "2026-08-25T22:37:51.328783+00:00"
 }
