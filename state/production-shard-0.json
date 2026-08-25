@@ -28230,7 +28230,39 @@
         },
         "at": "2026-08-25T07:13:47.708500+00:00"
       }
+    },
+    "24082": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": false,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:13:59.075043+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "perfect-blue",
+        "title": "Perfect Blue",
+        "original_title": null,
+        "year": 1998,
+        "runtime_min": 81,
+        "tmdb_id": 10494,
+        "imdb_id": "tt0156887",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:13:50.988480+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:13:49.609031+00:00"
+  "updated_at": "2026-08-25T07:13:59.075064+00:00"
 }
