@@ -40831,7 +40831,67 @@
         },
         "at": "2026-08-25T15:32:31.028902+00:00"
       }
+    },
+    "24890": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586e147e2c45e",
+              "url": "https://prehraj.to/slayer-war-at-the-warfield-2003-720i-dd-5-1-prekodovane-dvd-mr/586e147e2c45e",
+              "title": "SLAYER-War-At-The-Warfield-(2003)-720i-DD-5.1-překodované-DVD-[MR]",
+              "year": null,
+              "duration_sec": 5431,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.162,
+                "title_contains_alias": false,
+                "film_year": 2003,
+                "candidate_year": 2003,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5431,
+                "runtime_delta": 0.078,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:32:35.158457+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "demon-slayer",
+        "title": "Demon Slayer",
+        "original_title": null,
+        "year": 2003,
+        "runtime_min": 84,
+        "tmdb_id": 95993,
+        "imdb_id": "tt0315465",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:32:33.031914+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:32:31.496194+00:00"
+  "updated_at": "2026-08-25T15:32:35.158476+00:00"
 }
