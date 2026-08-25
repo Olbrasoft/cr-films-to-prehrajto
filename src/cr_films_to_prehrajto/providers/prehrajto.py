@@ -308,6 +308,16 @@ class PrehrajtoProvider:
     use_whisper: bool = False
     _last_request: float = 0.0
 
+    def _prefetched_hits(self, film: Film) -> list[dict]:
+        path = os.environ.get("PREHRAJTO_PREFETCH_PATH", "")
+        if not path:
+            return []
+        try:
+            payload = json.loads(Path(path).read_text())
+            return list(payload.get(str(film.cr_film_id), []))
+        except (OSError, ValueError, TypeError):
+            return []
+
     @staticmethod
     def _catalog_candidates(film: Film) -> list[Candidate]:
         candidates = []
@@ -531,6 +541,25 @@ class PrehrajtoProvider:
             catalog_candidates = resolved
 
         discovered: dict[str, Candidate] = {}
+        prefetched = self._prefetched_hits(film)
+        if prefetched:
+            for hit in prefetched:
+                match = classify_candidate(
+                    film, hit.get("title", ""), duration_sec=hit.get("duration_sec")
+                )
+                discovered[str(hit["source_id"])] = Candidate(
+                    provider="prehrajto",
+                    source_id=str(hit["source_id"]),
+                    url=str(hit["url"]),
+                    title=str(hit.get("title", "")),
+                    duration_sec=hit.get("duration_sec"),
+                    match_tier=match.tier,
+                    match_evidence=match.evidence,
+                    query="local_prefetch",
+                )
+            resolved = self._resolve_candidates(film, list(discovered.values()))
+            if rank_candidates(resolved):
+                return resolved
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
             response = self._proxy_get(

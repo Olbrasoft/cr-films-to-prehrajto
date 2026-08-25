@@ -85,6 +85,7 @@ jobs:
           # The runner can reach current prehraj.to HTML directly; retain the
           # CZ proxy as the fallback for geofenced responses.
           PREHRAJTO_ALLOW_DIRECT: "true"
+          PREHRAJTO_PREFETCH_PATH: state/source-prefetch.json
         run: >-
           cr-films-pilot production
           --snapshot state/missing-films.json
