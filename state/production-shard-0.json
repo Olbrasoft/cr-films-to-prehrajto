@@ -40778,7 +40778,60 @@
         },
         "at": "2026-08-25T15:32:28.012426+00:00"
       }
+    },
+    "24894": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9da0b902856",
+              "url": "https://prehraj.to/reka-caruje-1945-hb1200-aac128-2pass-encoding-spark/5a9da0b902856",
+              "title": "Řeka-čaruje-(1945)--HB1200-aac128-(2pass-encoding---Spark)",
+              "year": null,
+              "duration_sec": 5387,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.281,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:32:31.496175+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-right-spark-plug-in-the-right-place",
+        "title": "The Right Spark Plug in the Right Place",
+        "original_title": null,
+        "year": 1945,
+        "runtime_min": 17,
+        "tmdb_id": 374510,
+        "imdb_id": "tt0316490",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:32:31.028902+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:32:28.526639+00:00"
+  "updated_at": "2026-08-25T15:32:31.496194+00:00"
 }
