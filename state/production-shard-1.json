@@ -10323,7 +10323,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:54:03.578553+00:00"
+        "at": "2026-08-25T16:04:01.591199+00:00"
       }
     },
     "29467": {
@@ -14536,7 +14536,7 @@
             }
           ]
         },
-        "at": "2026-08-25T15:54:03.579390+00:00"
+        "at": "2026-08-25T16:04:01.591972+00:00"
       }
     },
     "29121": {
@@ -14620,7 +14620,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:54:03.580435+00:00"
+        "at": "2026-08-25T16:04:01.593010+00:00"
       }
     },
     "29103": {
@@ -14859,6 +14859,98 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T06:56:45.836381+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "e5136a5eb699b6ef",
+              "url": "https://prehraj.to/rikaji-mi-lars-krimi-2026-trailer/e5136a5eb699b6ef",
+              "title": "Říkají mi Lars Krimi 2026 trailer",
+              "year": null,
+              "duration_sec": 4621,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 4621,
+                "runtime_delta": 0.318,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Říkají mi Lars (2026)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2f490b31784b29f9",
+              "url": "https://prehraj.to/rikaji-mi-lars-krimi-2026-trailer/2f490b31784b29f9",
+              "title": "Říkají mi Lars Krimi 2026 trailer",
+              "year": null,
+              "duration_sec": 4621,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 4621,
+                "runtime_delta": 0.318,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Říkají mi Lars (2026)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9b016b2a50857716",
+              "url": "https://prehraj.to/rikaji-mi-lars-krimi-2026-trailer/9b016b2a50857716",
+              "title": "Říkají mi Lars Krimi 2026 trailer",
+              "year": null,
+              "duration_sec": 4621,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 4621,
+                "runtime_delta": 0.318,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Říkají mi Lars (2026)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T16:04:05.192144+00:00"
         }
       ],
       "identity": {
@@ -14877,7 +14969,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T06:56:41.585725+00:00"
+        "at": "2026-08-25T16:04:01.593173+00:00"
       }
     },
     "29089": {
@@ -53301,5 +53393,5 @@
       }
     }
   },
-  "updated_at": "2026-08-25T16:03:57.647242+00:00"
+  "updated_at": "2026-08-25T16:04:05.192158+00:00"
 }
