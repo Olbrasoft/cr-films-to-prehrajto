@@ -33508,7 +33508,39 @@
         },
         "at": "2026-08-25T06:59:56.329164+00:00"
       }
+    },
+    "25643": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T07:00:03.787522+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "michael-clayton",
+        "title": "Michael Clayton",
+        "original_title": null,
+        "year": 2007,
+        "runtime_min": 120,
+        "tmdb_id": 4566,
+        "imdb_id": "tt0465538",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T07:00:02.299533+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T07:00:00.949063+00:00"
+  "updated_at": "2026-08-25T07:00:03.787543+00:00"
 }
