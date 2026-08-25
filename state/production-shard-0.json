@@ -41682,7 +41682,60 @@
         },
         "at": "2026-08-25T15:33:34.341020+00:00"
       }
+    },
+    "24504": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67752fdb5bcac",
+              "url": "https://prehraj.to/james-bond-jeden-svet-nestaci-1999-akcni-dobrodruzny-krimi-thriller-czdab/67752fdb5bcac",
+              "title": "James Bond - Jeden svět nestačí (1999) akční dobrodružný krimi thriller czdab",
+              "year": null,
+              "duration_sec": 7700,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.468,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-25T15:33:37.975855+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-james-bond-story",
+        "title": "The James Bond Story",
+        "original_title": null,
+        "year": 1999,
+        "runtime_min": 52,
+        "tmdb_id": 44650,
+        "imdb_id": "tt0239074",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-25T15:33:37.548106+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-25T15:33:34.737822+00:00"
+  "updated_at": "2026-08-25T15:33:37.975874+00:00"
 }
