@@ -14700,7 +14700,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:19:36.448023+00:00"
+        "at": "2026-08-26T00:31:34.641687+00:00"
       }
     },
     "29121": {
@@ -14784,7 +14784,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:19:36.449039+00:00"
+        "at": "2026-08-26T00:31:34.642727+00:00"
       }
     },
     "29103": {
@@ -15179,7 +15179,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:19:36.454667+00:00"
+        "at": "2026-08-26T00:31:34.648246+00:00"
       }
     },
     "29045": {
@@ -38309,6 +38309,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T23:05:49.050603+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5668ce0b89c8e",
+              "url": "https://prehraj.to/pltma-ba-hy-ze-llivota-alllba-ty-kna-llny-asachticka-c-2-vzpoura-zaata-na-2008/5668ce0b89c8e",
+              "title": "PĹ™Ă­bÄ›hy-ze-Ĺľivota-AlĹľbÄ›ty,--knÄ›Ĺľny-ÄŚachtickĂ©-2-Vzpoura--zaÄŤĂ­nĂˇ----2008",
+              "year": null,
+              "duration_sec": 4857,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.245,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 4857,
+                "runtime_delta": 0.048,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d73e79be815",
+              "url": "https://prehraj.to/ghost-in-the-shell-2-0-2008-tit/65d73e79be815",
+              "title": "Ghost In The Shell 2.0 2008 TIT°",
+              "year": null,
+              "duration_sec": 4987,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 4987,
+                "runtime_delta": 0.022,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:31:37.124474+00:00"
         }
       ],
       "identity": {
@@ -38327,7 +38392,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T23:05:24.455483+00:00"
+        "at": "2026-08-26T00:31:34.648397+00:00"
       }
     },
     "26747": {
@@ -41819,7 +41884,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:19:36.451344+00:00"
+        "at": "2026-08-26T00:31:34.644936+00:00"
       }
     },
     "25169": {
@@ -42716,7 +42781,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:19:36.452756+00:00"
+        "at": "2026-08-26T00:31:34.646373+00:00"
       }
     },
     "23061": {
@@ -58123,5 +58188,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T00:31:32.689756+00:00"
+  "updated_at": "2026-08-26T00:31:37.124485+00:00"
 }
