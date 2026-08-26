@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.459381+00:00"
+        "at": "2026-08-26T10:01:12.113013+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-26T08:26:17.461764+00:00"
+        "at": "2026-08-26T10:01:12.115295+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.462494+00:00"
+        "at": "2026-08-26T10:01:12.115961+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.462570+00:00"
+        "at": "2026-08-26T10:01:12.116040+00:00"
       }
     },
     "23807": {
@@ -768,7 +768,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.464345+00:00"
+        "at": "2026-08-26T10:01:12.117719+00:00"
       }
     },
     "28863": {
@@ -799,7 +799,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.464821+00:00"
+        "at": "2026-08-26T10:01:12.118152+00:00"
       }
     },
     "28823": {
@@ -1812,7 +1812,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.465375+00:00"
+        "at": "2026-08-26T10:01:12.118657+00:00"
       }
     },
     "25951": {
@@ -3036,7 +3036,7 @@
             }
           ]
         },
-        "at": "2026-08-26T08:26:17.468817+00:00"
+        "at": "2026-08-26T10:01:12.121842+00:00"
       }
     },
     "23343": {
@@ -4334,21 +4334,36 @@
         "added_at": "2026-02-28 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "ambiguous",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24803279",
-          "account_name": "Tiché znamení (2024) CZ Dabing",
-          "title_similarity": 0.513,
-          "title_contains_alias": false,
-          "film_year": 2024,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "matches": [
+            {
+              "target_video_id": "24803279",
+              "account_name": "Tiché znamení (2024) CZ Dabing",
+              "title_similarity": 0.513,
+              "title_contains_alias": false,
+              "film_year": 2024,
+              "candidate_year": 2024,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "28853562",
+              "account_name": "Tiché burácení (2025) CZ Dabing",
+              "title_similarity": 0.5,
+              "title_contains_alias": false,
+              "film_year": 2024,
+              "candidate_year": 2025,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
         },
-        "at": "2026-08-26T08:26:17.469882+00:00"
+        "at": "2026-08-26T10:01:12.122898+00:00"
       }
     },
     "15295": {
@@ -4621,7 +4636,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.471336+00:00"
+        "at": "2026-08-26T10:01:12.124268+00:00"
       }
     },
     "7783": {
@@ -4667,7 +4682,7 @@
             }
           ]
         },
-        "at": "2026-08-26T08:26:17.474192+00:00"
+        "at": "2026-08-26T10:01:12.126887+00:00"
       }
     },
     "11135": {
@@ -4976,7 +4991,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.475433+00:00"
+        "at": "2026-08-26T10:01:12.128050+00:00"
       }
     },
     "16119": {
@@ -5272,7 +5287,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:17.476481+00:00"
+        "at": "2026-08-26T10:01:12.129033+00:00"
       }
     },
     "2791": {
@@ -5418,7 +5433,59 @@
         "verified_at": "2026-08-26T09:13:36.052007+00:00",
         "live_display_name": "578 Magnum (2022) CZ Dabing"
       }
+    },
+    "15447": {
+      "attempts": [],
+      "identity": {
+        "slug": "temna-noc-2023",
+        "title": "Temná noc",
+        "original_title": "Karanlık Gece",
+        "year": 2023,
+        "runtime_min": 114,
+        "tmdb_id": 647121,
+        "imdb_id": "tt19815094",
+        "created_at": "2026-04-14 16:02:14.310093+02:00",
+        "added_at": "2025-03-10 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25273759",
+          "account_name": "Temná okna (2023) CZ Titulky",
+          "title_similarity": 0.583,
+          "title_contains_alias": false,
+          "film_year": 2023,
+          "candidate_year": 2023,
+          "year_match": true,
+          "film_runtime_min": 114,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T10:01:12.131512+00:00"
+      }
+    },
+    "7807": {
+      "attempts": [],
+      "identity": {
+        "slug": "lovec-kraven",
+        "title": "Lovec Kraven",
+        "original_title": "Kraven the Hunter",
+        "year": 2024,
+        "runtime_min": null,
+        "tmdb_id": 539972,
+        "imdb_id": "tt8790086",
+        "created_at": "2026-04-13 13:19:26.865181+02:00",
+        "added_at": "2025-02-19 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T10:01:12.131543+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T09:38:44.788370+00:00"
+  "updated_at": "2026-08-26T10:01:13.810777+00:00"
 }
