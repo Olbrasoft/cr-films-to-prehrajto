@@ -4807,7 +4807,18 @@
       }
     },
     "22491": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "67d4a0f4717e3",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:25:03.382616+00:00"
+        }
+      ],
       "identity": {
         "slug": "inspektor-popleta",
         "title": "Inspektor Popleta",
@@ -4828,5 +4839,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T00:25:00.138693+00:00"
+  "updated_at": "2026-08-26T00:25:03.382632+00:00"
 }
