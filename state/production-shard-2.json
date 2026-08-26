@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:21:59.397531+00:00"
+        "at": "2026-08-26T00:25:09.750603+00:00"
       }
     },
     "27350": {
@@ -919,7 +919,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:21:59.399397+00:00"
+        "at": "2026-08-26T00:25:09.752431+00:00"
       }
     },
     "22730": {
@@ -2957,7 +2957,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:21:59.416925+00:00"
+        "at": "2026-08-26T00:25:09.770279+00:00"
       }
     },
     "22474": {
@@ -2988,7 +2988,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:21:59.417854+00:00"
+        "at": "2026-08-26T00:25:09.771211+00:00"
       }
     },
     "22354": {
@@ -3511,7 +3511,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:21:59.418377+00:00"
+        "at": "2026-08-26T00:25:09.771724+00:00"
       }
     },
     "28426": {
@@ -3691,7 +3691,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:21:59.418621+00:00"
+        "at": "2026-08-26T00:25:09.771966+00:00"
       }
     },
     "27970": {
@@ -4238,7 +4238,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:21:59.419106+00:00"
+        "at": "2026-08-26T00:25:09.772493+00:00"
       }
     },
     "25770": {
@@ -4474,7 +4474,113 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:25:06.097378+00:00"
       }
+    },
+    "23322": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5837fb6b85cf9",
+              "url": "https://prehraj.to/utek-do-mexika-the-getaway-1993-picaso11/5837fb6b85cf9",
+              "title": "Utek-do-Mexika-The-Getaway---1993.Picaso11",
+              "year": null,
+              "duration_sec": 6949,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.295,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6949,
+                "runtime_delta": 0.287,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "860fd494e3ba221a",
+              "url": "https://prehraj.to/na-uteku-za-prusvihem-1993-cs/860fd494e3ba221a",
+              "title": "Na útěku za průšvihem - 1993 CS",
+              "year": null,
+              "duration_sec": 5387,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5387,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5907870b05865",
+              "url": "https://prehraj.to/the-garfield-show-106-not-so-sweet-sound-turkey-trouble-sw220/5907870b05865",
+              "title": "The Garfield Show 106 Not So Sweet Sound; Turkey Trouble …",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.755,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Trouble Bound (1993)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:25:14.005828+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "na-uteku-za-prusvihem",
+        "title": "Na útěku za průšvihem",
+        "original_title": "Trouble Bound",
+        "year": 1993,
+        "runtime_min": 90,
+        "tmdb_id": 54845,
+        "imdb_id": "tt0105645",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:25:09.773019+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:25:06.097404+00:00"
+  "updated_at": "2026-08-26T00:25:14.005845+00:00"
 }
