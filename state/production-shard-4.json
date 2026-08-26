@@ -147,7 +147,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.022649+00:00"
+        "at": "2026-08-26T10:49:04.929716+00:00"
       }
     },
     "25204": {
@@ -241,7 +241,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:41:07.032337+00:00"
+        "at": "2026-08-26T10:49:04.939353+00:00"
       }
     },
     "24308": {
@@ -308,7 +308,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.032618+00:00"
+        "at": "2026-08-26T10:49:04.939634+00:00"
       }
     },
     "22860": {
@@ -339,7 +339,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.033840+00:00"
+        "at": "2026-08-26T10:49:04.940854+00:00"
       }
     },
     "22380": {
@@ -1171,7 +1171,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.038885+00:00"
+        "at": "2026-08-26T10:49:04.945885+00:00"
       }
     },
     "26980": {
@@ -1314,7 +1314,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:41:07.043367+00:00"
+        "at": "2026-08-26T10:49:04.950293+00:00"
       }
     },
     "26420": {
@@ -1896,7 +1896,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.044714+00:00"
+        "at": "2026-08-26T10:49:04.951632+00:00"
       }
     },
     "23300": {
@@ -2014,7 +2014,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.044960+00:00"
+        "at": "2026-08-26T10:49:04.951878+00:00"
       }
     },
     "22940": {
@@ -2882,7 +2882,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.045386+00:00"
+        "at": "2026-08-26T10:49:04.952303+00:00"
       }
     },
     "12348": {
@@ -3165,7 +3165,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.046682+00:00"
+        "at": "2026-08-26T10:49:04.953588+00:00"
       }
     },
     "1844": {
@@ -3268,7 +3268,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.049463+00:00"
+        "at": "2026-08-26T10:49:04.956382+00:00"
       }
     },
     "604": {
@@ -3350,7 +3350,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:41:07.052460+00:00"
+        "at": "2026-08-26T10:49:04.959389+00:00"
       }
     },
     "2260": {
@@ -3871,7 +3871,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:41:07.053361+00:00"
+        "at": "2026-08-26T10:49:04.960362+00:00"
       }
     },
     "652": {
@@ -4009,7 +4009,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T10:48:57.442070+00:00"
       }
+    },
+    "7468": {
+      "attempts": [],
+      "identity": {
+        "slug": "vlci-muz",
+        "title": "Vlčí muž",
+        "original_title": "Wolf Man",
+        "year": 2025,
+        "runtime_min": null,
+        "tmdb_id": 710295,
+        "imdb_id": "tt4216984",
+        "created_at": "2026-04-13 13:19:26.672486+02:00",
+        "added_at": "2025-04-14 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24803677",
+          "account_name": "Vlci (2024) CZ Dabing",
+          "title_similarity": 0.588,
+          "title_contains_alias": false,
+          "film_year": 2025,
+          "candidate_year": 2024,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T10:49:04.963880+00:00"
+      }
+    },
+    "532": {
+      "attempts": [],
+      "identity": {
+        "slug": "chudacci",
+        "title": "Chudáčci",
+        "original_title": "Poor Things",
+        "year": 2023,
+        "runtime_min": null,
+        "tmdb_id": 792307,
+        "imdb_id": "tt14230458",
+        "created_at": "2026-04-13 13:19:24.188776+02:00",
+        "added_at": "2025-03-30 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T10:49:04.963913+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T10:48:57.442094+00:00"
+  "updated_at": "2026-08-26T10:49:13.487540+00:00"
 }
