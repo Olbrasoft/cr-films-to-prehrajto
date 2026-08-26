@@ -2988,7 +2988,94 @@
         },
         "at": "2026-08-26T00:07:49.805362+00:00"
       }
+    },
+    "24723": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "576d933656467",
+              "url": "https://prehraj.to/nebe-2002-cz-dabing-drama-thriller-krimi-romanticky/576d933656467",
+              "title": "Nebe-(2002)-CZ-dabing-Drama-Thriller-Krimi-Romantický",
+              "year": null,
+              "duration_sec": 5580,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.271,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": 2002,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5580,
+                "runtime_delta": 0.107,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fb2874065bcd5c79",
+              "url": "https://prehraj.to/nebezpecna-znamost-2002-cs/fb2874065bcd5c79",
+              "title": "Nebezpečná známost - 2002 CS",
+              "year": null,
+              "duration_sec": 4657,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2002,
+                "candidate_year": 2002,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 4657,
+                "runtime_delta": 0.076,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:07:57.441826+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "nebezpecna-znamost-2002",
+        "title": "Nebezpečná známost",
+        "original_title": "Swimfan",
+        "year": 2002,
+        "runtime_min": 84,
+        "tmdb_id": 20616,
+        "imdb_id": "tt0283026",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:07:54.771653+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:07:53.482560+00:00"
+  "updated_at": "2026-08-26T00:07:57.441847+00:00"
 }
