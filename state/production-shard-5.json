@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:29:16.828787+00:00"
+        "at": "2026-08-26T00:37:39.881961+00:00"
       }
     },
     "16845": {
@@ -1624,7 +1624,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:29:16.829582+00:00"
+        "at": "2026-08-26T00:37:39.882723+00:00"
       }
     },
     "28277": {
@@ -1691,7 +1691,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:29:16.829822+00:00"
+        "at": "2026-08-26T00:37:39.882962+00:00"
       }
     },
     "27989": {
@@ -2087,7 +2087,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:29:16.830166+00:00"
+        "at": "2026-08-26T00:37:39.883302+00:00"
       }
     },
     "27149": {
@@ -2600,7 +2600,94 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:37:36.403050+00:00"
       }
+    },
+    "26661": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58507ccd183cd",
+              "url": "https://prehraj.to/pribehy-z-temnoty-cz-dabing-horor-thriller-usa-2008/58507ccd183cd",
+              "title": "Příběhy-z-temnoty-CZ-Dabing,-Horor-,-Thriller,-USA,-2008",
+              "year": null,
+              "duration_sec": 5587,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.275,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5587,
+                "runtime_delta": 0.012,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3859c267e51d79f8",
+              "url": "https://prehraj.to/moji-kamaradi-tygr-a-pu-kamaradske-pribehy-2008-cs/3859c267e51d79f8",
+              "title": "Moji kamarádi Tygr a Pú Kamarádské příběhy - 2008 CS",
+              "year": null,
+              "duration_sec": 4153,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 4153,
+                "runtime_delta": 0.248,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:37:43.242558+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "moji-kamaradi-tygr-a-pu-kamaradske-pribehy",
+        "title": "Moji kamarádi Tygr a Pú: Kamarádské příběhy",
+        "original_title": "My Friends Tigger & Pooh: Friendly Tails",
+        "year": 2008,
+        "runtime_min": 92,
+        "tmdb_id": 322202,
+        "imdb_id": "tt1204933",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:37:39.883387+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:37:36.403076+00:00"
+  "updated_at": "2026-08-26T00:37:43.242575+00:00"
 }
