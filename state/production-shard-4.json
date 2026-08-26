@@ -147,7 +147,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T03:13:12.962535+00:00"
+        "at": "2026-08-26T03:19:27.789751+00:00"
       }
     },
     "25204": {
@@ -241,7 +241,7 @@
             }
           ]
         },
-        "at": "2026-08-26T03:13:12.971015+00:00"
+        "at": "2026-08-26T03:19:27.798216+00:00"
       }
     },
     "24308": {
@@ -308,7 +308,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T03:13:12.971267+00:00"
+        "at": "2026-08-26T03:19:27.798468+00:00"
       }
     },
     "22860": {
@@ -339,7 +339,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T03:13:12.972342+00:00"
+        "at": "2026-08-26T03:19:27.799546+00:00"
       }
     },
     "22380": {
@@ -1171,7 +1171,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T03:13:12.976928+00:00"
+        "at": "2026-08-26T03:19:27.804166+00:00"
       }
     },
     "26980": {
@@ -1314,7 +1314,7 @@
             }
           ]
         },
-        "at": "2026-08-26T03:13:12.981032+00:00"
+        "at": "2026-08-26T03:19:27.808200+00:00"
       }
     },
     "26420": {
@@ -1896,7 +1896,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T03:13:12.982246+00:00"
+        "at": "2026-08-26T03:19:27.809409+00:00"
       }
     },
     "23300": {
@@ -2014,7 +2014,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T03:13:12.982471+00:00"
+        "at": "2026-08-26T03:19:27.809631+00:00"
       }
     },
     "22940": {
@@ -2833,7 +2833,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T03:19:24.116877+00:00"
       }
+    },
+    "8644": {
+      "attempts": [],
+      "identity": {
+        "slug": "cellar-door",
+        "title": "Sklep",
+        "original_title": "Cellar Door",
+        "year": 2024,
+        "runtime_min": null,
+        "tmdb_id": 1361292,
+        "imdb_id": "tt11950888",
+        "created_at": "2026-04-13 13:19:27.237058+02:00",
+        "added_at": "2026-02-18 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25267477",
+          "account_name": "The Cellar (2024) CZ Titulky",
+          "title_similarity": 0.538,
+          "title_contains_alias": false,
+          "film_year": 2024,
+          "candidate_year": 2024,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T03:19:27.809913+00:00"
+      }
+    },
+    "12348": {
+      "attempts": [],
+      "identity": {
+        "slug": "amistad-1997",
+        "title": "Amistad",
+        "original_title": "Amistad",
+        "year": 1997,
+        "runtime_min": 155,
+        "tmdb_id": 11831,
+        "imdb_id": "tt0118607",
+        "created_at": "2026-04-14 15:39:08.886624+02:00",
+        "added_at": "2026-02-17 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T03:19:27.809936+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T03:19:24.116903+00:00"
+  "updated_at": "2026-08-26T03:19:28.969565+00:00"
 }
