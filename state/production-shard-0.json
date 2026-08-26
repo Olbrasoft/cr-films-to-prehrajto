@@ -32344,7 +32344,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:18:38.811557+00:00"
+        "at": "2026-08-26T07:29:22.075172+00:00"
       }
     },
     "27562": {
@@ -32417,7 +32417,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:18:38.811642+00:00"
+        "at": "2026-08-26T07:29:22.075352+00:00"
       }
     },
     "27546": {
@@ -32715,7 +32715,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:18:38.810267+00:00"
+        "at": "2026-08-26T07:29:22.072376+00:00"
       }
     },
     "27116": {
@@ -33356,7 +33356,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:18:38.810944+00:00"
+        "at": "2026-08-26T07:29:22.073840+00:00"
       }
     },
     "26538": {
@@ -40022,7 +40022,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:18:38.811699+00:00"
+        "at": "2026-08-26T07:29:22.075451+00:00"
       }
     },
     "27040": {
@@ -42377,7 +42377,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:18:38.811942+00:00"
+        "at": "2026-08-26T07:29:22.075996+00:00"
       }
     },
     "26252": {
@@ -48482,7 +48482,94 @@
         "verified_at": "2026-08-26T06:22:06.262501+00:00",
         "live_display_name": "Giù la testa... hombre (1971) CZ titulky"
       }
+    },
+    "21736": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5877657b0bb4b",
+              "url": "https://prehraj.to/jerry-cotton-01-1965-vrazedne-pouzdro-na-housle/5877657b0bb4b",
+              "title": "Jerry-Cotton-01-1965---Vrazedne-pouzdro-na-housle",
+              "year": null,
+              "duration_sec": 5053,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.159,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5053,
+                "runtime_delta": 0.054,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b1faca913fe36b50",
+              "url": "https://prehraj.to/noc-v-manhattanu-1965-cs/b1faca913fe36b50",
+              "title": "Noc v Manhattanu - 1965 CS",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 4949,
+                "runtime_delta": 0.073,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T07:29:26.863527+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "noc-v-manhattanu",
+        "title": "Noc v Manhattanu",
+        "original_title": "Manhattan Night of Murder",
+        "year": 1965,
+        "runtime_min": 89,
+        "tmdb_id": 4554,
+        "imdb_id": "tt0059468",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T07:29:22.077087+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T07:25:39.499523+00:00"
+  "updated_at": "2026-08-26T07:29:26.863545+00:00"
 }
