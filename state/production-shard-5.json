@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:06:57.355037+00:00"
+        "at": "2026-08-26T00:15:47.705618+00:00"
       }
     },
     "16845": {
@@ -1624,7 +1624,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:06:57.355842+00:00"
+        "at": "2026-08-26T00:15:47.706396+00:00"
       }
     },
     "28277": {
@@ -1691,7 +1691,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:06:57.356096+00:00"
+        "at": "2026-08-26T00:15:47.706645+00:00"
       }
     },
     "27989": {
@@ -2058,7 +2058,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:15:43.415113+00:00"
       }
+    },
+    "27373": {
+      "attempts": [],
+      "identity": {
+        "slug": "io-sono-l-abisso",
+        "title": "Io sono l'abisso",
+        "original_title": "I Am the Abyss",
+        "year": 2022,
+        "runtime_min": 126,
+        "tmdb_id": 852758,
+        "imdb_id": "tt15823126",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25436883",
+          "account_name": "Juice WRLD: Into the Abyss (2021)",
+          "title_similarity": 0.545,
+          "title_contains_alias": false,
+          "film_year": 2022,
+          "candidate_year": 2021,
+          "year_match": true,
+          "film_runtime_min": 126,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T00:15:47.706995+00:00"
+      }
+    },
+    "27149": {
+      "attempts": [],
+      "identity": {
+        "slug": "batman-dlouhy-halloween-cast-1",
+        "title": "Batman - Dlouhý Halloween, část 1",
+        "original_title": "Batman: The Long Halloween, Part One",
+        "year": 2021,
+        "runtime_min": 85,
+        "tmdb_id": 736073,
+        "imdb_id": "tt14324650",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:15:47.709644+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:15:43.415141+00:00"
+  "updated_at": "2026-08-26T00:15:48.877897+00:00"
 }
