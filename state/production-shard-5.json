@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T11:04:19.526643+00:00"
+        "at": "2026-08-26T12:43:15.157097+00:00"
       }
     },
     "16845": {
@@ -1626,7 +1626,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:04:19.527174+00:00"
+        "at": "2026-08-26T12:43:15.157899+00:00"
       }
     },
     "28277": {
@@ -1693,7 +1693,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:04:19.527348+00:00"
+        "at": "2026-08-26T12:43:15.158160+00:00"
       }
     },
     "27989": {
@@ -2093,7 +2093,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:04:19.527627+00:00"
+        "at": "2026-08-26T12:43:15.158515+00:00"
       }
     },
     "27149": {
@@ -2730,7 +2730,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:04:19.531298+00:00"
+        "at": "2026-08-26T12:43:15.163926+00:00"
       }
     },
     "26629": {
@@ -3419,7 +3419,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:04:19.531469+00:00"
+        "at": "2026-08-26T12:43:15.164182+00:00"
       }
     },
     "23869": {
@@ -3745,7 +3745,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:04:19.532098+00:00"
+        "at": "2026-08-26T12:43:15.165092+00:00"
       }
     },
     "22845": {
@@ -4160,7 +4160,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:04:19.533123+00:00"
+        "at": "2026-08-26T12:43:15.166577+00:00"
       }
     },
     "22133": {
@@ -4728,7 +4728,7 @@
             }
           ]
         },
-        "at": "2026-08-26T11:04:19.533686+00:00"
+        "at": "2026-08-26T12:43:15.167372+00:00"
       }
     },
     "14845": {
@@ -4875,6 +4875,125 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T11:52:03.225180+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "43dec1d699fe5255",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-sk-mp4/43dec1d699fe5255",
+              "title": "Hore je nebo, v doline som ja (2024)(SK).mp4",
+              "year": null,
+              "duration_sec": 5551,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5551,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ed03f32a73f40c9c",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-sk/ed03f32a73f40c9c",
+              "title": "Hore je nebo, v doline som ja (2024)(SK)",
+              "year": null,
+              "duration_sec": 5551,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5551,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "52827e7d290c2345",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-1080p-mkv/52827e7d290c2345",
+              "title": "Hore je nebo, v doline som ja (2024) 1080p.mkv",
+              "year": null,
+              "duration_sec": 5550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5550,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0eb8f4841ec442a9",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-1080p/0eb8f4841ec442a9",
+              "title": "Hore je nebo, v doline som ja (2024) 1080p",
+              "year": null,
+              "duration_sec": 5550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5550,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T12:43:16.713678+00:00"
         }
       ],
       "identity": {
@@ -4893,7 +5012,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T10:01:10.126963+00:00"
+        "at": "2026-08-26T12:43:15.167421+00:00"
       }
     },
     "15893": {
@@ -5640,5 +5759,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T12:41:23.671279+00:00"
+  "updated_at": "2026-08-26T12:43:16.713693+00:00"
 }
