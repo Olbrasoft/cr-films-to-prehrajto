@@ -147,7 +147,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:26:06.530813+00:00"
+        "at": "2026-08-26T00:30:38.971495+00:00"
       }
     },
     "25204": {
@@ -241,7 +241,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:26:06.539197+00:00"
+        "at": "2026-08-26T00:30:38.979680+00:00"
       }
     },
     "24308": {
@@ -308,7 +308,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:26:06.539451+00:00"
+        "at": "2026-08-26T00:30:38.979932+00:00"
       }
     },
     "22860": {
@@ -339,7 +339,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:26:06.540463+00:00"
+        "at": "2026-08-26T00:30:38.980939+00:00"
       }
     },
     "22380": {
@@ -1167,7 +1167,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:26:06.544820+00:00"
+        "at": "2026-08-26T00:30:38.985277+00:00"
       }
     },
     "26980": {
@@ -1250,7 +1250,152 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:30:35.660885+00:00"
       }
+    },
+    "26820": {
+      "attempts": [],
+      "identity": {
+        "slug": "vanocni-nevesta-2020",
+        "title": "Vánoční nevěsta",
+        "original_title": "Jingle Bell Bride",
+        "year": 2020,
+        "runtime_min": 84,
+        "tmdb_id": 737763,
+        "imdb_id": "tt12877642",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "24789729",
+              "account_name": "Krvavá nevěsta (2019) CZ Dabing",
+              "title_similarity": 0.588,
+              "title_contains_alias": false,
+              "film_year": 2020,
+              "candidate_year": 2019,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "24830130",
+              "account_name": "Vánoční nevěsta (2019) CZ Dabing",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2020,
+              "candidate_year": 2019,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25440343",
+              "account_name": "Pravá nevěsta (2020)",
+              "title_similarity": 0.606,
+              "title_contains_alias": false,
+              "film_year": 2020,
+              "candidate_year": 2020,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-26T00:30:38.989143+00:00"
+      }
+    },
+    "26420": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5eecf5c256ac0",
+              "url": "https://prehraj.to/dead-set-2008-zombie-serie-3-dily-v-jednom-souboru-cz-dabing/5eecf5c256ac0",
+              "title": "Dead Set -2008 ZOMBIE SÉRIE 3 DÍLY V JEDNOM SOUBORU CZ DABING",
+              "year": null,
+              "duration_sec": 8531,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 117,
+                "candidate_runtime_sec": 8531,
+                "runtime_delta": 0.215,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4b3c9f318a8cfb7e",
+              "url": "https://prehraj.to/stvanec-ira-2008-cs/4b3c9f318a8cfb7e",
+              "title": "Štvanec IRA - 2008 CS",
+              "year": null,
+              "duration_sec": 6767,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 117,
+                "candidate_runtime_sec": 6767,
+                "runtime_delta": 0.036,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:30:41.796604+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "stvanec-ira",
+        "title": "Štvanec IRA",
+        "original_title": "Fifty Dead Men Walking",
+        "year": 2008,
+        "runtime_min": 117,
+        "tmdb_id": 17622,
+        "imdb_id": "tt1097643",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:30:38.989182+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:30:35.660924+00:00"
+  "updated_at": "2026-08-26T00:30:41.796625+00:00"
 }
