@@ -147,7 +147,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.953921+00:00"
+        "at": "2026-08-26T16:48:27.433844+00:00"
       }
     },
     "25204": {
@@ -241,7 +241,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:34:21.962501+00:00"
+        "at": "2026-08-26T16:48:27.442293+00:00"
       }
     },
     "24308": {
@@ -308,7 +308,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.962768+00:00"
+        "at": "2026-08-26T16:48:27.442550+00:00"
       }
     },
     "22860": {
@@ -339,7 +339,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.963822+00:00"
+        "at": "2026-08-26T16:48:27.443569+00:00"
       }
     },
     "22380": {
@@ -1171,7 +1171,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.968333+00:00"
+        "at": "2026-08-26T16:48:27.447968+00:00"
       }
     },
     "26980": {
@@ -1314,7 +1314,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:34:21.972332+00:00"
+        "at": "2026-08-26T16:48:27.451870+00:00"
       }
     },
     "26420": {
@@ -1896,7 +1896,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.973530+00:00"
+        "at": "2026-08-26T16:48:27.453031+00:00"
       }
     },
     "23300": {
@@ -2014,7 +2014,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.973763+00:00"
+        "at": "2026-08-26T16:48:27.453259+00:00"
       }
     },
     "22940": {
@@ -2882,7 +2882,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.974110+00:00"
+        "at": "2026-08-26T16:48:27.453618+00:00"
       }
     },
     "12348": {
@@ -3271,7 +3271,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.976585+00:00"
+        "at": "2026-08-26T16:48:27.456052+00:00"
       }
     },
     "604": {
@@ -3353,7 +3353,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:34:21.979205+00:00"
+        "at": "2026-08-26T16:48:27.458656+00:00"
       }
     },
     "2260": {
@@ -3878,7 +3878,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.979987+00:00"
+        "at": "2026-08-26T16:48:27.459424+00:00"
       }
     },
     "652": {
@@ -4053,7 +4053,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:34:21.983057+00:00"
+        "at": "2026-08-26T16:48:27.462479+00:00"
       }
     },
     "532": {
@@ -4661,7 +4661,67 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T16:48:23.648764+00:00"
       }
+    },
+    "15404": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "a16660392acdc6de",
+              "url": "https://prehraj.to/snatkova-kancelar-1932-cs/a16660392acdc6de",
+              "title": "Sňatková kancelář - 1932 CS",
+              "year": null,
+              "duration_sec": 5362,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1932,
+                "candidate_year": 1932,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5362,
+                "runtime_delta": 0.059,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T16:48:32.267952+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "snatkova-kancelar-1932",
+        "title": "Sňatková kancelář",
+        "original_title": "Sňatková kancelář",
+        "year": 1932,
+        "runtime_min": 95,
+        "tmdb_id": 609121,
+        "imdb_id": "tt1931537",
+        "created_at": "2026-04-14 16:02:14.310093+02:00",
+        "added_at": "2024-07-13 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T16:48:27.462514+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T16:48:23.648794+00:00"
+  "updated_at": "2026-08-26T16:48:32.267970+00:00"
 }
