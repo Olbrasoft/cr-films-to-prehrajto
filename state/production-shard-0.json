@@ -44934,6 +44934,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:32:41.454462+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b441b9a73ee",
+              "url": "https://prehraj.to/u2-elevation-live-from-boston-2001-dvdrip/58b441b9a73ee",
+              "title": "U2---Elevation-live-from-Boston-2001-dvdrip",
+              "year": null,
+              "duration_sec": 6484,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.853,
+                "title_contains_alias": false,
+                "film_year": 2001,
+                "candidate_year": 2001,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6484,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "U2: Elevation 2001 - Live from Boston (2001)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a53ba181203e23eb",
+              "url": "https://prehraj.to/u2-elevation-2001-live-from-boston-2001/a53ba181203e23eb",
+              "title": "U2: Elevation 2001 - Live from Boston (2001)",
+              "year": null,
+              "duration_sec": 6484,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2001,
+                "candidate_year": 2001,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6484,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:33:33.824819+00:00"
         }
       ],
       "identity": {
@@ -44952,7 +45017,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:32:40.923818+00:00"
+        "at": "2026-08-26T02:33:30.721087+00:00"
       }
     },
     "24810": {
@@ -47510,5 +47575,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T02:33:29.093475+00:00"
+  "updated_at": "2026-08-26T02:33:33.824835+00:00"
 }
