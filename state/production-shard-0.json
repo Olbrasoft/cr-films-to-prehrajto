@@ -32344,7 +32344,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:37:39.084140+00:00"
+        "at": "2026-08-26T10:44:07.857012+00:00"
       }
     },
     "27562": {
@@ -32417,7 +32417,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:39.084282+00:00"
+        "at": "2026-08-26T10:44:07.857168+00:00"
       }
     },
     "27546": {
@@ -32715,7 +32715,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:39.081861+00:00"
+        "at": "2026-08-26T10:44:07.854611+00:00"
       }
     },
     "27116": {
@@ -33356,7 +33356,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:37:39.083066+00:00"
+        "at": "2026-08-26T10:44:07.855830+00:00"
       }
     },
     "26538": {
@@ -40022,7 +40022,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:39.084357+00:00"
+        "at": "2026-08-26T10:44:07.857245+00:00"
       }
     },
     "27040": {
@@ -42377,7 +42377,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:39.084770+00:00"
+        "at": "2026-08-26T10:44:07.857677+00:00"
       }
     },
     "26252": {
@@ -49079,7 +49079,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T10:44:04.213763+00:00"
       }
+    },
+    "6760": {
+      "attempts": [],
+      "identity": {
+        "slug": "hunting-season",
+        "title": "Hunting Season",
+        "original_title": "Hunting Season",
+        "year": 2025,
+        "runtime_min": null,
+        "tmdb_id": 1387382,
+        "imdb_id": "tt32537226",
+        "created_at": "2026-04-13 13:19:26.476505+02:00",
+        "added_at": "2025-12-13 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "28842885",
+          "account_name": "Hunting Grounds (2025) CZ titulky",
+          "title_similarity": 0.588,
+          "title_contains_alias": false,
+          "film_year": 2025,
+          "candidate_year": 2025,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T10:44:07.858225+00:00"
+      }
+    },
+    "14976": {
+      "attempts": [],
+      "identity": {
+        "slug": "temny-priliv-2012",
+        "title": "Temný příliv",
+        "original_title": "Dark Tide",
+        "year": 2012,
+        "runtime_min": 113,
+        "tmdb_id": 59963,
+        "imdb_id": "tt1507563",
+        "created_at": "2026-04-14 15:59:06.390616+02:00",
+        "added_at": "2025-11-28 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T10:44:07.859064+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T10:44:04.213795+00:00"
+  "updated_at": "2026-08-26T10:44:08.603819+00:00"
 }
