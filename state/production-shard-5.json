@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:37:30.249137+00:00"
+        "at": "2026-08-26T10:52:04.824019+00:00"
       }
     },
     "16845": {
@@ -1626,7 +1626,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:30.250021+00:00"
+        "at": "2026-08-26T10:52:04.824569+00:00"
       }
     },
     "28277": {
@@ -1693,7 +1693,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:30.250331+00:00"
+        "at": "2026-08-26T10:52:04.824741+00:00"
       }
     },
     "27989": {
@@ -2093,7 +2093,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:30.250707+00:00"
+        "at": "2026-08-26T10:52:04.824985+00:00"
       }
     },
     "27149": {
@@ -2730,7 +2730,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:30.255274+00:00"
+        "at": "2026-08-26T10:52:04.828592+00:00"
       }
     },
     "26629": {
@@ -3419,7 +3419,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:30.255481+00:00"
+        "at": "2026-08-26T10:52:04.828763+00:00"
       }
     },
     "23869": {
@@ -3745,7 +3745,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:30.256223+00:00"
+        "at": "2026-08-26T10:52:04.829373+00:00"
       }
     },
     "22845": {
@@ -4160,7 +4160,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:37:30.257463+00:00"
+        "at": "2026-08-26T10:52:04.830380+00:00"
       }
     },
     "22133": {
@@ -4728,7 +4728,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:37:30.258126+00:00"
+        "at": "2026-08-26T10:52:04.830933+00:00"
       }
     },
     "14845": {
@@ -5422,7 +5422,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T10:52:00.732867+00:00"
       }
+    },
+    "10157": {
+      "attempts": [],
+      "identity": {
+        "slug": "utok",
+        "title": "Útok",
+        "original_title": "Ambush",
+        "year": 2023,
+        "runtime_min": null,
+        "tmdb_id": 1074034,
+        "imdb_id": "tt8270664",
+        "created_at": "2026-04-13 13:19:27.767511+02:00",
+        "added_at": "2025-12-03 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "28847393",
+          "account_name": "Útok zdrogovaného aligátora (2024) CZ titulky",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2023,
+          "candidate_year": 2024,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T10:52:04.832226+00:00"
+      }
+    },
+    "4877": {
+      "attempts": [],
+      "identity": {
+        "slug": "nikdo-2",
+        "title": "Nikdo 2",
+        "original_title": "Nobody 2",
+        "year": 2025,
+        "runtime_min": null,
+        "tmdb_id": 1007734,
+        "imdb_id": "tt28996126",
+        "created_at": "2026-04-13 13:19:25.700583+02:00",
+        "added_at": "2025-11-20 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T10:52:04.834153+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T10:52:00.732902+00:00"
+  "updated_at": "2026-08-26T10:52:08.689956+00:00"
 }
