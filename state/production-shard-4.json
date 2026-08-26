@@ -147,7 +147,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.702995+00:00"
+        "at": "2026-08-26T06:10:59.598171+00:00"
       }
     },
     "25204": {
@@ -241,7 +241,7 @@
             }
           ]
         },
-        "at": "2026-08-26T06:03:30.712457+00:00"
+        "at": "2026-08-26T06:10:59.607729+00:00"
       }
     },
     "24308": {
@@ -308,7 +308,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.712734+00:00"
+        "at": "2026-08-26T06:10:59.608004+00:00"
       }
     },
     "22860": {
@@ -339,7 +339,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.713952+00:00"
+        "at": "2026-08-26T06:10:59.609187+00:00"
       }
     },
     "22380": {
@@ -1171,7 +1171,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.718947+00:00"
+        "at": "2026-08-26T06:10:59.614057+00:00"
       }
     },
     "26980": {
@@ -1314,7 +1314,7 @@
             }
           ]
         },
-        "at": "2026-08-26T06:03:30.723340+00:00"
+        "at": "2026-08-26T06:10:59.618418+00:00"
       }
     },
     "26420": {
@@ -1896,7 +1896,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.724672+00:00"
+        "at": "2026-08-26T06:10:59.619748+00:00"
       }
     },
     "23300": {
@@ -2014,7 +2014,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.724916+00:00"
+        "at": "2026-08-26T06:10:59.619995+00:00"
       }
     },
     "22940": {
@@ -2880,7 +2880,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.725340+00:00"
+        "at": "2026-08-26T06:10:59.620425+00:00"
       }
     },
     "12348": {
@@ -3149,7 +3149,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.726457+00:00"
+        "at": "2026-08-26T06:10:59.621555+00:00"
       }
     },
     "1844": {
@@ -3248,7 +3248,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T06:03:30.728958+00:00"
+        "at": "2026-08-26T06:10:59.624066+00:00"
       }
     },
     "604": {
@@ -3284,7 +3284,74 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T06:10:55.633886+00:00"
       }
+    },
+    "140": {
+      "attempts": [],
+      "identity": {
+        "slug": "otec",
+        "title": "Otec",
+        "original_title": "The Father",
+        "year": 2020,
+        "runtime_min": null,
+        "tmdb_id": 600354,
+        "imdb_id": "tt10272386",
+        "created_at": "2026-04-13 13:19:23.907755+02:00",
+        "added_at": "2025-12-13 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25385087",
+              "account_name": "Vzorný otec: Příběh Martina MacNeilla (2021) SK Dabing",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2020,
+              "candidate_year": 2021,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25396619",
+              "account_name": "Show Me the Father (2021) SK Titulky",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2020,
+              "candidate_year": 2021,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-26T06:10:59.627068+00:00"
+      }
+    },
+    "2260": {
+      "attempts": [],
+      "identity": {
+        "slug": "krotitele-duchu-odkaz",
+        "title": "Krotitelé duchů: Odkaz",
+        "original_title": "Ghostbusters: Afterlife",
+        "year": 2021,
+        "runtime_min": null,
+        "tmdb_id": 425909,
+        "imdb_id": "tt4513678",
+        "created_at": "2026-04-13 13:19:24.741618+02:00",
+        "added_at": "2025-11-05 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T06:10:59.627857+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T06:10:55.633913+00:00"
+  "updated_at": "2026-08-26T06:11:00.217034+00:00"
 }
