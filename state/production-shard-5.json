@@ -4864,6 +4864,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T09:07:13.486755+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "ed03f32a73f40c9c",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28864176",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T11:52:03.225180+00:00"
         }
       ],
       "identity": {
@@ -4883,19 +4894,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T10:01:10.126963+00:00"
-      },
-      "upload": {
-        "target_video_id": "28864176",
-        "display_name": "Nahoře nebe, v dolině já (2025) CZ Dabing",
-        "size_bytes": 650302252,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "ed03f32a73f40c9c",
-        "language_tier": "slovak_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:04:47.709473+00:00"
       }
     },
     "15893": {
@@ -5024,8 +5022,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T08:01:35.080797+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T08:01:35.080797+00:00",
+        "verified_at": "2026-08-26T11:52:13.504967+00:00",
+        "live_display_name": "Harry Potter a vězeň z Azkabanu (2004) CZ Dabing"
       }
     },
     "15693": {
@@ -5141,8 +5141,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T08:13:01.902626+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T08:13:01.902626+00:00",
+        "verified_at": "2026-08-26T11:52:34.631748+00:00",
+        "live_display_name": "Bugonia (2025) CZ Dabing"
       }
     },
     "4021": {
@@ -5283,8 +5285,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:14:54.118808+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:14:54.118808+00:00",
+        "verified_at": "2026-08-26T11:52:45.058449+00:00",
+        "live_display_name": "Dvojitá hra (2025) CZ Dabing"
       }
     },
     "16197": {
@@ -5317,8 +5321,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:23:00.805156+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:23:00.805156+00:00",
+        "verified_at": "2026-08-26T11:52:55.688843+00:00",
+        "live_display_name": "Jak mi Jane Austenová zničila život (2025) CZ Dabing"
       }
     },
     "2773": {
@@ -5351,8 +5357,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:30:22.210033+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:30:22.210033+00:00",
+        "verified_at": "2026-08-26T12:41:23.671256+00:00",
+        "live_display_name": "Sisu: Odplata (2025) CZ Dabing"
       }
     },
     "15557": {
@@ -5385,8 +5393,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:37:18.994608+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:37:18.994608+00:00",
+        "verified_at": "2026-08-26T11:53:15.586945+00:00",
+        "live_display_name": "Pekelně horké léto (2025) CZ Dabing"
       }
     },
     "8365": {
@@ -5419,8 +5429,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:52:00.732867+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:52:00.732867+00:00",
+        "verified_at": "2026-08-26T12:04:05.290717+00:00",
+        "live_display_name": "Hurá, zase Vánoce! (2025) CZ Dabing"
       }
     },
     "10157": {
@@ -5484,8 +5496,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:58:27.400241+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:58:27.400241+00:00",
+        "verified_at": "2026-08-26T11:53:36.205190+00:00",
+        "live_display_name": "Nikdo 2 (2025) CZ Dabing"
       }
     },
     "8893": {
@@ -5518,8 +5532,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:59:26.607542+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:59:26.607542+00:00",
+        "verified_at": "2026-08-26T11:53:46.209621+00:00",
+        "live_display_name": "Morbius (2022) CZ Dabing"
       }
     },
     "9341": {
@@ -5617,10 +5633,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T11:14:15.612232+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T11:14:15.612232+00:00",
+        "verified_at": "2026-08-26T12:09:53.858199+00:00",
+        "live_display_name": "Dospělost (2025) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-26T11:14:15.612268+00:00"
+  "updated_at": "2026-08-26T12:41:23.671279+00:00"
 }
