@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:52:20.708667+00:00"
+        "at": "2026-08-26T16:57:44.735555+00:00"
       }
     },
     "16845": {
@@ -1626,7 +1626,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.709453+00:00"
+        "at": "2026-08-26T16:57:44.736332+00:00"
       }
     },
     "28277": {
@@ -1693,7 +1693,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.709691+00:00"
+        "at": "2026-08-26T16:57:44.736569+00:00"
       }
     },
     "27989": {
@@ -2093,7 +2093,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.710035+00:00"
+        "at": "2026-08-26T16:57:44.736981+00:00"
       }
     },
     "27149": {
@@ -2730,7 +2730,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.715338+00:00"
+        "at": "2026-08-26T16:57:44.742295+00:00"
       }
     },
     "26629": {
@@ -3419,7 +3419,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.715590+00:00"
+        "at": "2026-08-26T16:57:44.742541+00:00"
       }
     },
     "23869": {
@@ -3745,7 +3745,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.716469+00:00"
+        "at": "2026-08-26T16:57:44.743415+00:00"
       }
     },
     "22845": {
@@ -4160,7 +4160,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.717908+00:00"
+        "at": "2026-08-26T16:57:44.744868+00:00"
       }
     },
     "22133": {
@@ -4728,7 +4728,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:52:20.718692+00:00"
+        "at": "2026-08-26T16:57:44.745664+00:00"
       }
     },
     "14845": {
@@ -5582,7 +5582,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.720677+00:00"
+        "at": "2026-08-26T16:57:44.747675+00:00"
       }
     },
     "4877": {
@@ -5685,7 +5685,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.722607+00:00"
+        "at": "2026-08-26T16:57:44.749632+00:00"
       }
     },
     "13525": {
@@ -5788,7 +5788,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.723385+00:00"
+        "at": "2026-08-26T16:57:44.750391+00:00"
       }
     },
     "15333": {
@@ -5855,7 +5855,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.724198+00:00"
+        "at": "2026-08-26T16:57:44.751189+00:00"
       }
     },
     "14493": {
@@ -5958,7 +5958,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:52:20.724513+00:00"
+        "at": "2026-08-26T16:57:44.751502+00:00"
       }
     },
     "10133": {
@@ -6393,7 +6393,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T16:57:41.289434+00:00"
       }
+    },
+    "12421": {
+      "attempts": [],
+      "identity": {
+        "slug": "tanec-na-konci-leta-1998",
+        "title": "Tanec na konci léta",
+        "original_title": "Dancing at Lughnasa",
+        "year": 1998,
+        "runtime_min": 96,
+        "tmdb_id": 5332,
+        "imdb_id": "tt0120643",
+        "created_at": "2026-04-14 15:39:08.886624+02:00",
+        "added_at": "2025-03-05 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24956002",
+          "account_name": "Nejasná zpráva o konci světa (1997) CZ Dabing",
+          "title_similarity": 0.538,
+          "title_contains_alias": false,
+          "film_year": 1998,
+          "candidate_year": 1997,
+          "year_match": true,
+          "film_runtime_min": 96,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T16:57:44.755232+00:00"
+      }
+    },
+    "2501": {
+      "attempts": [],
+      "identity": {
+        "slug": "jezek-sonic-3",
+        "title": "Ježek Sonic 3",
+        "original_title": "Sonic the Hedgehog 3",
+        "year": 2024,
+        "runtime_min": null,
+        "tmdb_id": 939243,
+        "imdb_id": "tt18259086",
+        "created_at": "2026-04-13 13:19:24.741618+02:00",
+        "added_at": "2025-03-04 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T16:57:44.755390+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T16:57:41.289460+00:00"
+  "updated_at": "2026-08-26T16:57:48.548986+00:00"
 }
