@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T02:51:54.785469+00:00"
+        "at": "2026-08-26T03:03:42.330625+00:00"
       }
     },
     "16845": {
@@ -1626,7 +1626,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:51:54.786246+00:00"
+        "at": "2026-08-26T03:03:42.331397+00:00"
       }
     },
     "28277": {
@@ -1693,7 +1693,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:51:54.786490+00:00"
+        "at": "2026-08-26T03:03:42.331640+00:00"
       }
     },
     "27989": {
@@ -2093,7 +2093,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:51:54.786871+00:00"
+        "at": "2026-08-26T03:03:42.332018+00:00"
       }
     },
     "27149": {
@@ -2730,7 +2730,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:51:54.791765+00:00"
+        "at": "2026-08-26T03:03:42.336831+00:00"
       }
     },
     "26629": {
@@ -3419,7 +3419,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:51:54.792056+00:00"
+        "at": "2026-08-26T03:03:42.337101+00:00"
       }
     },
     "23869": {
@@ -3737,7 +3737,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:51:54.792935+00:00"
+        "at": "2026-08-26T03:03:42.337980+00:00"
       }
     },
     "22845": {
@@ -4001,7 +4001,121 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T03:03:38.080899+00:00"
       }
+    },
+    "22445": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c23ea03e6d69",
+              "url": "https://prehraj.to/polska-krev-1978-opera-oskar-nedbal/5c23ea03e6d69",
+              "title": "Polská krev 1978 - opera - Oskar Nedbal",
+              "year": null,
+              "duration_sec": 7471,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.327,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 7471,
+                "runtime_delta": 0.311,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "259b6222eea886cc",
+              "url": "https://prehraj.to/spravni-chlapi-nosi-cernou-1978-good-guys-wear-black-chuck-norris/259b6222eea886cc",
+              "title": "Správní chlapi nosí černou 1978  (Good Guys Wear Black)…",
+              "year": null,
+              "duration_sec": 5736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5736,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "39c1178f07196fbf",
+              "url": "https://prehraj.to/spravni-chlapi-nosi-cernou-1978-cs/39c1178f07196fbf",
+              "title": "Správní chlapi nosí černou - 1978 CS",
+              "year": null,
+              "duration_sec": 5736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5736,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T03:03:46.453694+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "spravni-chlapi-nosi-cernou",
+        "title": "Správní chlapi nosí černou",
+        "original_title": "Good Guys Wear Black",
+        "year": 1978,
+        "runtime_min": 95,
+        "tmdb_id": 42205,
+        "imdb_id": "tt0079227",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T03:03:42.338183+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T03:03:38.080928+00:00"
+  "updated_at": "2026-08-26T03:03:46.453712+00:00"
 }
