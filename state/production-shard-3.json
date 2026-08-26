@@ -6283,6 +6283,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T11:47:15.052734+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "5df5ec0b2ab86",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28866746",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T15:14:06.466675+00:00"
         }
       ],
       "identity": {
@@ -6302,19 +6313,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T12:43:16.174403+00:00"
-      },
-      "upload": {
-        "target_video_id": "28866746",
-        "display_name": "Mafiánovi (2013) CZ Dabing",
-        "size_bytes": 594929438,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "5df5ec0b2ab86",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T12:46:58.424609+00:00"
       }
     },
     "13419": {
@@ -6470,7 +6468,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T08:02:17.574699+00:00",
-        "verified_at": "2026-08-26T12:40:20.825730+00:00",
+        "verified_at": "2026-08-26T16:08:50.414695+00:00",
         "live_display_name": "Tajemství loňského léta 3 (2006) CZ titulky"
       }
     },
@@ -6854,8 +6852,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T10:28:31.745727+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T10:28:31.745727+00:00",
+        "verified_at": "2026-08-26T15:14:37.506240+00:00",
+        "live_display_name": "Captain America: Nový svět (2025) CZ Dabing"
       }
     },
     "14275": {
@@ -7068,8 +7068,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T12:49:48.186603+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T12:49:48.186603+00:00",
+        "verified_at": "2026-08-26T15:14:48.077696+00:00",
+        "live_display_name": "Krev na křídlech (2011) CZ Dabing"
       }
     },
     "8179": {
@@ -7133,8 +7135,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:03:11.221899+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T13:03:11.221899+00:00",
+        "verified_at": "2026-08-26T15:39:56.300055+00:00",
+        "live_display_name": "Ráj (2024) CZ Dabing"
       }
     },
     "14675": {
@@ -7174,14 +7178,16 @@
         "target_video_id": "28867189",
         "display_name": "Kouzelná Beruška a Černý kocour: Londýn – Na pokraji času (2024) CZ titulky",
         "size_bytes": 1170103181,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "6851b82c90246",
         "language_tier": "czech_subtitles",
         "actual_resolution": 1080,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:09:06.682174+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T13:09:06.682174+00:00",
+        "verified_at": "2026-08-26T15:15:08.797997+00:00",
+        "live_display_name": "Kouzelná Beruška a Černý kocour: Londýn – Na pokraji času (2024) CZ titulky"
       }
     },
     "3603": {
@@ -7214,8 +7220,10 @@
         "language_tier": "slovak_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:15:55.244476+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T13:15:55.244476+00:00",
+        "verified_at": "2026-08-26T15:55:13.819349+00:00",
+        "live_display_name": "MIKI (2024) CZ Dabing"
       }
     },
     "15571": {
@@ -7279,12 +7287,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:22:09.503684+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T13:22:09.503684+00:00",
+        "verified_at": "2026-08-26T15:15:40.992701+00:00",
+        "live_display_name": "Reportéři (2024) CZ Dabing"
       }
     },
     "5779": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "67c157cb83034",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28867535",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T15:16:01.815884+00:00"
+        }
+      ],
       "identity": {
         "slug": "jedna-noc",
         "title": "Jedna noc",
@@ -7302,19 +7324,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T13:22:13.981963+00:00"
-      },
-      "upload": {
-        "target_video_id": "28867535",
-        "display_name": "Jedna noc (2024) CZ Dabing",
-        "size_bytes": 1386480258,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "67c157cb83034",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:27:52.283340+00:00"
       }
     },
     "14955": {
@@ -7347,8 +7356,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:35:55.333846+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T13:35:55.333846+00:00",
+        "verified_at": "2026-08-26T15:16:12.180519+00:00",
+        "live_display_name": "Dívka se zlatýma rukama (2022) CZ Dabing"
       }
     },
     "2819": {
@@ -7381,8 +7392,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:46:00.718256+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T13:46:00.718256+00:00",
+        "verified_at": "2026-08-26T15:16:22.709611+00:00",
+        "live_display_name": "Kaskadér (2024) CZ Dabing"
       }
     },
     "4379": {
@@ -7415,10 +7428,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T14:01:19.623739+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T14:01:19.623739+00:00",
+        "verified_at": "2026-08-26T15:16:33.169103+00:00",
+        "live_display_name": "Proti slunci (2015) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-26T14:01:19.623767+00:00"
+  "updated_at": "2026-08-26T16:09:00.849618+00:00"
 }
