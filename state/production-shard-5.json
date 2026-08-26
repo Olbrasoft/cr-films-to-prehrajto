@@ -2687,7 +2687,59 @@
         },
         "at": "2026-08-26T00:37:39.883387+00:00"
       }
+    },
+    "26653": {
+      "attempts": [],
+      "identity": {
+        "slug": "krvava-jizda",
+        "title": "Krvavá jízda",
+        "original_title": "Hit and Run",
+        "year": 2009,
+        "runtime_min": 81,
+        "tmdb_id": 14838,
+        "imdb_id": "tt1199550",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25024268",
+          "account_name": "Krvavá aréna (2010) CZ",
+          "title_similarity": 0.552,
+          "title_contains_alias": false,
+          "film_year": 2009,
+          "candidate_year": 2010,
+          "year_match": true,
+          "film_runtime_min": 81,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T00:37:44.577973+00:00"
+      }
+    },
+    "26629": {
+      "attempts": [],
+      "identity": {
+        "slug": "pani-zima",
+        "title": "Paní Zima",
+        "original_title": "Frau Holle",
+        "year": 2008,
+        "runtime_min": 58,
+        "tmdb_id": 1066132,
+        "imdb_id": "tt1194193",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:37:44.578803+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:37:43.242575+00:00"
+  "updated_at": "2026-08-26T00:37:45.550886+00:00"
 }
