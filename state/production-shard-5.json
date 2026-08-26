@@ -4115,7 +4115,59 @@
         },
         "at": "2026-08-26T03:03:42.338183+00:00"
       }
+    },
+    "22413": {
+      "attempts": [],
+      "identity": {
+        "slug": "posledni-kanibalove",
+        "title": "Poslední kanibalové",
+        "original_title": "Last Cannibal World",
+        "year": 1977,
+        "runtime_min": 92,
+        "tmdb_id": 30876,
+        "imdb_id": "tt0078437",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25111532",
+          "account_name": "Kanibalové 2 (1978) CZ Dabing",
+          "title_similarity": 0.556,
+          "title_contains_alias": false,
+          "film_year": 1977,
+          "candidate_year": 1978,
+          "year_match": true,
+          "film_runtime_min": 92,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T03:03:50.044213+00:00"
+      }
+    },
+    "22133": {
+      "attempts": [],
+      "identity": {
+        "slug": "papirovy-mesic",
+        "title": "Papírový měsíc",
+        "original_title": "Paper Moon",
+        "year": 1973,
+        "runtime_min": 102,
+        "tmdb_id": 11293,
+        "imdb_id": "tt0070510",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T03:03:50.044655+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T03:03:46.453712+00:00"
+  "updated_at": "2026-08-26T03:03:51.608259+00:00"
 }
