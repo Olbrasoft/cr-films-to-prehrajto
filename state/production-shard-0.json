@@ -32344,7 +32344,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:48:50.283379+00:00"
+        "at": "2026-08-26T10:51:25.301273+00:00"
       }
     },
     "27562": {
@@ -32417,7 +32417,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:48:50.283520+00:00"
+        "at": "2026-08-26T10:51:25.301417+00:00"
       }
     },
     "27546": {
@@ -32715,7 +32715,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:48:50.281122+00:00"
+        "at": "2026-08-26T10:51:25.298992+00:00"
       }
     },
     "27116": {
@@ -33356,7 +33356,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:48:50.282296+00:00"
+        "at": "2026-08-26T10:51:25.300181+00:00"
       }
     },
     "26538": {
@@ -40022,7 +40022,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:48:50.283595+00:00"
+        "at": "2026-08-26T10:51:25.301492+00:00"
       }
     },
     "27040": {
@@ -42377,7 +42377,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:48:50.284048+00:00"
+        "at": "2026-08-26T10:51:25.301912+00:00"
       }
     },
     "26252": {
@@ -49108,7 +49108,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:48:50.284613+00:00"
+        "at": "2026-08-26T10:51:25.302464+00:00"
       }
     },
     "14976": {
@@ -49178,7 +49178,74 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T10:51:18.626559+00:00"
       }
+    },
+    "2800": {
+      "attempts": [],
+      "identity": {
+        "slug": "velky-pan",
+        "title": "Velký pán",
+        "original_title": "Velký pán",
+        "year": 2024,
+        "runtime_min": null,
+        "tmdb_id": 1165416,
+        "imdb_id": "tt30877290",
+        "created_at": "2026-04-13 13:19:24.930925+02:00",
+        "added_at": "2025-11-18 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "24724597",
+              "account_name": "Velký Marty (2025) CZ Dabing",
+              "title_similarity": 0.56,
+              "title_contains_alias": false,
+              "film_year": 2024,
+              "candidate_year": 2025,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "24783615",
+              "account_name": "Velký útěkář (2023) CZ Dabing",
+              "title_similarity": 0.538,
+              "title_contains_alias": false,
+              "film_year": 2024,
+              "candidate_year": 2023,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-26T10:51:25.309041+00:00"
+      }
+    },
+    "664": {
+      "attempts": [],
+      "identity": {
+        "slug": "blazniva-strela",
+        "title": "Bláznivá střela",
+        "original_title": "The Naked Gun: From the Files of Police Squad!",
+        "year": 1988,
+        "runtime_min": null,
+        "tmdb_id": 37136,
+        "imdb_id": "tt0095705",
+        "created_at": "2026-04-13 13:19:24.188776+02:00",
+        "added_at": "2025-11-11 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T10:51:25.309665+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T10:51:18.626592+00:00"
+  "updated_at": "2026-08-26T10:51:26.190615+00:00"
 }
