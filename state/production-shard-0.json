@@ -47456,6 +47456,124 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:35:19.355785+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c52aebda0002",
+              "url": "https://prehraj.to/james-bond-18-zitrek-nikdy-neumira-brosnan-1997-cz-dabing/5c52aebda0002",
+              "title": "James-Bond-18-Zitrek-nikdy-neumira-(Brosnan)-(1997)--cz-dabing",
+              "year": null,
+              "duration_sec": 6859,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.293,
+                "title_contains_alias": false,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6859,
+                "runtime_delta": 0.058,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63e1dcb240d3c65d",
+              "url": "https://prehraj.to/james-dean-race-with-destiny-1997-tit/63e1dcb240d3c65d",
+              "title": "James Dean Race With Destiny 1997-tit",
+              "year": null,
+              "duration_sec": 5677,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "unk2",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 5677,
+                "runtime_delta": 0.124,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "81d2812c9e68767d",
+              "url": "https://prehraj.to/james-dean-race-with-destiny-1997-casper-van-dien-robert-mitch-cs/81d2812c9e68767d",
+              "title": "James Dean Race With Destiny 1997 - Casper Van Dien Robert…",
+              "year": null,
+              "duration_sec": 6108,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "unk2",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6108,
+                "runtime_delta": 0.057,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:57:00.575455+00:00"
         }
       ],
       "identity": {
@@ -47474,7 +47592,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:35:18.846973+00:00"
+        "at": "2026-08-26T02:56:57.457120+00:00"
       }
     },
     "23868": {
@@ -47730,5 +47848,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T02:56:55.939943+00:00"
+  "updated_at": "2026-08-26T02:57:00.575472+00:00"
 }
