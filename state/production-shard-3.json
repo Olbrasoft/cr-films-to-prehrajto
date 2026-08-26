@@ -311,7 +311,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:24:59.048470+00:00"
+        "at": "2026-08-26T00:25:06.655227+00:00"
       }
     },
     "28619": {
@@ -488,7 +488,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:24:59.048774+00:00"
+        "at": "2026-08-26T00:25:06.655589+00:00"
       }
     },
     "28071": {
@@ -713,7 +713,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:24:59.049481+00:00"
+        "at": "2026-08-26T00:25:06.656385+00:00"
       }
     },
     "27263": {
@@ -1578,7 +1578,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:24:59.050220+00:00"
+        "at": "2026-08-26T00:25:06.657222+00:00"
       }
     },
     "17083": {
@@ -1898,7 +1898,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:24:59.058762+00:00"
+        "at": "2026-08-26T00:25:06.667023+00:00"
       }
     },
     "29755": {
@@ -2237,7 +2237,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:24:59.059574+00:00"
+        "at": "2026-08-26T00:25:06.667932+00:00"
       }
     },
     "27675": {
@@ -3104,7 +3104,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:24:59.059759+00:00"
+        "at": "2026-08-26T00:25:06.668133+00:00"
       }
     },
     "24091": {
@@ -3345,7 +3345,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:24:59.060215+00:00"
+        "at": "2026-08-26T00:25:06.668672+00:00"
       }
     },
     "23395": {
@@ -4846,7 +4846,260 @@
         },
         "at": "2026-08-26T00:24:59.060376+00:00"
       }
+    },
+    "22187": {
+      "attempts": [],
+      "identity": {
+        "slug": "pohadky-tisice-a-jedne-noci",
+        "title": "Pohádky tisíce a jedné noci",
+        "original_title": "A Thousand and One Nights",
+        "year": 1974,
+        "runtime_min": 93,
+        "tmdb_id": 46657,
+        "imdb_id": "tt0072004",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25181329",
+          "account_name": "Kytice z tisíce a jedné noci (1974) CZ Dabing",
+          "title_similarity": 0.733,
+          "title_contains_alias": false,
+          "film_year": 1974,
+          "candidate_year": 1974,
+          "year_match": true,
+          "film_runtime_min": 93,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T00:25:06.669649+00:00"
+      }
+    },
+    "21859": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "57dfb2dc2123d",
+              "url": "https://prehraj.to/tonouci-se-stebla-chyta-1967-czdab/57dfb2dc2123d",
+              "title": "Tonoucí se stébla chytá (1967)CZdab",
+              "year": null,
+              "duration_sec": 5340,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5340,
+                "runtime_delta": 0.11,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bce0f3459ec3",
+              "url": "https://prehraj.to/tonouci-se-stebla-chyta-1967-cz-tvrip-komedie/5bce0f3459ec3",
+              "title": "Tonoucí se stébla chytá (1967) (CZ) (TVRip) (Komedie)",
+              "year": null,
+              "duration_sec": 5374,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.203,
+                "title_contains_alias": false,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5374,
+                "runtime_delta": 0.104,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4d9fb95907d",
+              "url": "https://prehraj.to/tonouci-se-stebla-chyta-funes-1967-cz-dabing/5c4d9fb95907d",
+              "title": "Tonouci-se-stebla-chyta-(Funes)-(1967)--cz-dabing",
+              "year": null,
+              "duration_sec": 5340,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.275,
+                "title_contains_alias": false,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5340,
+                "runtime_delta": 0.11,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55bb36e51ec28",
+              "url": "https://prehraj.to/tonouci-se-stebla-chyta-1967/55bb36e51ec28",
+              "title": "Tonoucí-se-stébla-chytá-(1967)",
+              "year": null,
+              "duration_sec": 5340,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5340,
+                "runtime_delta": 0.11,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55ee359d85bb1",
+              "url": "https://prehraj.to/tonouci-se-stebla-chyta-1967-czdab/55ee359d85bb1",
+              "title": "Tonoucí se stébla chytá (1967)CZdab",
+              "year": null,
+              "duration_sec": 5340,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5340,
+                "runtime_delta": 0.11,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "56aa60053810c",
+              "url": "https://prehraj.to/tonouci-se-stebla-chyta-1967/56aa60053810c",
+              "title": "Tonoucí se stébla chytá-1967",
+              "year": null,
+              "duration_sec": 5341,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5341,
+                "runtime_delta": 0.11,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1119e5345c06f065",
+              "url": "https://prehraj.to/sedmkrat-zena-1967-cs/1119e5345c06f065",
+              "title": "Sedmkrát žena - 1967 CS",
+              "year": null,
+              "duration_sec": 6484,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6484,
+                "runtime_delta": 0.081,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:25:09.588537+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sedmkrat-zena",
+        "title": "Sedmkrát žena",
+        "original_title": "Woman Times Seven",
+        "year": 1967,
+        "runtime_min": 100,
+        "tmdb_id": 61041,
+        "imdb_id": "tt0062502",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:25:06.669779+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:25:05.421413+00:00"
+  "updated_at": "2026-08-26T00:25:09.588559+00:00"
 }
