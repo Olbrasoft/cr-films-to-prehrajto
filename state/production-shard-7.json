@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:08:07.762845+00:00"
+        "at": "2026-08-26T05:19:34.550377+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:08:07.765067+00:00"
+        "at": "2026-08-26T05:19:34.552530+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:08:07.765717+00:00"
+        "at": "2026-08-26T05:19:34.553169+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:08:07.765783+00:00"
+        "at": "2026-08-26T05:19:34.553233+00:00"
       }
     },
     "23807": {
@@ -768,7 +768,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:08:07.767428+00:00"
+        "at": "2026-08-26T05:19:34.554789+00:00"
       }
     },
     "28863": {
@@ -799,7 +799,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:08:07.767858+00:00"
+        "at": "2026-08-26T05:19:34.555214+00:00"
       }
     },
     "28823": {
@@ -1812,7 +1812,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:08:07.768386+00:00"
+        "at": "2026-08-26T05:19:34.555706+00:00"
       }
     },
     "25951": {
@@ -3036,7 +3036,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:08:07.771513+00:00"
+        "at": "2026-08-26T05:19:34.558678+00:00"
       }
     },
     "23343": {
@@ -4340,7 +4340,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:08:07.772402+00:00"
+        "at": "2026-08-26T05:19:34.559543+00:00"
       }
     },
     "15295": {
@@ -4423,7 +4423,92 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T05:19:30.967472+00:00"
       }
+    },
+    "16359": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "0b0f6bb330925110",
+              "url": "https://prehraj.to/killer-whale-2026-cz-titulky-1080p/0b0f6bb330925110",
+              "title": "Killer Whale 2026 CZ TITULKY 1080p.",
+              "year": null,
+              "duration_sec": 5348,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5348,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "55878",
+              "url": "https://online.sktorrent.eu/video/55878/",
+              "title": "Killer Whale",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T05:19:37.434716+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "killer-whale-2026",
+        "title": "Killer Whale",
+        "original_title": "Killer Whale",
+        "year": 2026,
+        "runtime_min": 89,
+        "tmdb_id": 1412598,
+        "imdb_id": "tt33479805",
+        "created_at": "2026-04-14 16:09:59.379592+02:00",
+        "added_at": "2026-01-22 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T05:19:34.559571+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T05:19:30.967503+00:00"
+  "updated_at": "2026-08-26T05:19:37.434735+00:00"
 }
