@@ -1193,7 +1193,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:17:38.434934+00:00",
-        "verified_at": "2026-08-26T16:09:52.305300+00:00",
+        "verified_at": "2026-08-26T20:35:59.556166+00:00",
         "live_display_name": "Buena Vista Social Club: Adios (2017) CZ titulky"
       }
     },
@@ -5455,18 +5455,32 @@
         "target_video_id": "28870827",
         "display_name": "The Well (2024) CZ titulky",
         "size_bytes": 1131354983,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "670820a8085cc",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T16:18:39.271918+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T16:18:39.271918+00:00",
+        "verified_at": "2026-08-26T19:54:22.745113+00:00",
+        "live_display_name": "The Well (2024) CZ titulky"
       }
     },
     "2814": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "9541a6f153b49ac6",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28870954",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T19:54:54.329373+00:00"
+        }
+      ],
       "identity": {
         "slug": "to-se-mi-snad-zda",
         "title": "To se mi snad zdá",
@@ -5484,19 +5498,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T16:18:40.788822+00:00"
-      },
-      "upload": {
-        "target_video_id": "28870954",
-        "display_name": "To se mi snad zdá (2023) CZ Dabing",
-        "size_bytes": 826555977,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "9541a6f153b49ac6",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T16:23:55.738298+00:00"
       }
     },
     "5350": {
@@ -5529,8 +5530,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T16:26:58.680871+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T16:26:58.680871+00:00",
+        "verified_at": "2026-08-26T19:55:04.788270+00:00",
+        "live_display_name": "Spící hrozba (2024) CZ Dabing"
       }
     },
     "1294": {
@@ -5546,6 +5549,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T16:40:33.536787+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "65db676e30daa",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28871118",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T19:55:25.656117+00:00"
         }
       ],
       "identity": {
@@ -5565,19 +5579,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T16:27:02.683027+00:00"
-      },
-      "upload": {
-        "target_video_id": "28871118",
-        "display_name": "Zóna zájmu (2023) CZ titulky",
-        "size_bytes": 2608523280,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "65db676e30daa",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 1080,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T16:41:02.761434+00:00"
       }
     },
     "14614": {
@@ -5610,8 +5611,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T16:43:35.068329+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T16:43:35.068329+00:00",
+        "verified_at": "2026-08-26T19:55:35.352979+00:00",
+        "live_display_name": "Barevný sen (2024) CZ Dabing"
       }
     },
     "10206": {
@@ -5651,14 +5654,16 @@
         "target_video_id": "28871415",
         "display_name": "The Best Man (2023) CZ titulky",
         "size_bytes": 1577188693,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "646a8981eeb86",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T16:53:07.680931+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T16:53:07.680931+00:00",
+        "verified_at": "2026-08-26T19:55:47.395291+00:00",
+        "live_display_name": "The Best Man (2023) CZ titulky"
       }
     },
     "8398": {
@@ -5691,8 +5696,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T16:59:19.122889+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T16:59:19.122889+00:00",
+        "verified_at": "2026-08-26T19:56:09.759907+00:00",
+        "live_display_name": "Suprákovi (2022) CZ Dabing"
       }
     },
     "8134": {
@@ -5725,8 +5732,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T17:03:29.104561+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T17:03:29.104561+00:00",
+        "verified_at": "2026-08-26T19:56:20.374239+00:00",
+        "live_display_name": "Prázdniny s Broučkem (2024) CZ Dabing"
       }
     },
     "12470": {
@@ -5759,8 +5768,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T17:17:23.501413+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T17:17:23.501413+00:00",
+        "verified_at": "2026-08-26T19:56:31.169050+00:00",
+        "live_display_name": "Nebeští jezdci (1968) CZ Dabing"
       }
     },
     "678": {
@@ -5793,10 +5804,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T18:06:04.627008+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T18:06:04.627008+00:00",
+        "verified_at": "2026-08-26T19:56:41.879077+00:00",
+        "live_display_name": "Víly z Inisherinu (2022) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-26T18:06:04.627042+00:00"
+  "updated_at": "2026-08-26T20:36:11.265227+00:00"
 }
