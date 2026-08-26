@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.394016+00:00"
+        "at": "2026-08-26T10:38:08.139865+00:00"
       }
     },
     "27350": {
@@ -919,7 +919,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.395094+00:00"
+        "at": "2026-08-26T10:38:08.140955+00:00"
       }
     },
     "22730": {
@@ -2969,7 +2969,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:30:54.405163+00:00"
+        "at": "2026-08-26T10:38:08.151191+00:00"
       }
     },
     "22474": {
@@ -3000,7 +3000,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.405715+00:00"
+        "at": "2026-08-26T10:38:08.151732+00:00"
       }
     },
     "22354": {
@@ -3525,7 +3525,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.406030+00:00"
+        "at": "2026-08-26T10:38:08.152047+00:00"
       }
     },
     "28426": {
@@ -3705,7 +3705,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.406177+00:00"
+        "at": "2026-08-26T10:38:08.152209+00:00"
       }
     },
     "27970": {
@@ -4254,7 +4254,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.406495+00:00"
+        "at": "2026-08-26T10:38:08.152501+00:00"
       }
     },
     "25770": {
@@ -5280,7 +5280,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.406812+00:00"
+        "at": "2026-08-26T10:38:08.152884+00:00"
       }
     },
     "16546": {
@@ -5347,7 +5347,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.407159+00:00"
+        "at": "2026-08-26T10:38:08.153278+00:00"
       }
     },
     "1266": {
@@ -6037,7 +6037,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.407494+00:00"
+        "at": "2026-08-26T10:38:08.153599+00:00"
       }
     },
     "15882": {
@@ -6104,7 +6104,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:30:54.408639+00:00"
+        "at": "2026-08-26T10:38:08.154793+00:00"
       }
     },
     "15074": {
@@ -6220,7 +6220,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:30:54.409089+00:00"
+        "at": "2026-08-26T10:38:08.155276+00:00"
       }
     },
     "17490": {
@@ -6381,7 +6381,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:30:54.410308+00:00"
+        "at": "2026-08-26T10:38:08.156523+00:00"
       }
     },
     "9842": {
@@ -6502,7 +6502,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T10:37:19.469363+00:00"
       }
+    },
+    "9106": {
+      "attempts": [],
+      "identity": {
+        "slug": "kickboxer-odplata",
+        "title": "Kickboxer: Odplata",
+        "original_title": "Kickboxer: Retaliation",
+        "year": 2017,
+        "runtime_min": null,
+        "tmdb_id": 447665,
+        "imdb_id": "tt5208950",
+        "created_at": "2026-04-13 13:19:27.408668+02:00",
+        "added_at": "2025-05-22 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24894552",
+          "account_name": "Kickboxer: Vengeance (2016) CZ Dabing",
+          "title_similarity": 0.537,
+          "title_contains_alias": false,
+          "film_year": 2017,
+          "candidate_year": 2016,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T10:38:08.157113+00:00"
+      }
+    },
+    "14978": {
+      "attempts": [],
+      "identity": {
+        "slug": "velky-film-maleho-zralocatka-2024",
+        "title": "Velký film malého žraločátka",
+        "original_title": "Baby Shark's Big Movie",
+        "year": 2024,
+        "runtime_min": 78,
+        "tmdb_id": 1008437,
+        "imdb_id": "tt15084854",
+        "created_at": "2026-04-14 15:59:06.390616+02:00",
+        "added_at": "2025-05-10 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T10:38:08.158061+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T10:37:19.469395+00:00"
+  "updated_at": "2026-08-26T10:38:14.944303+00:00"
 }
