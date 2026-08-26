@@ -60175,7 +60175,94 @@
         },
         "at": "2026-08-26T02:22:09.901857+00:00"
       }
+    },
+    "22193": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586af3089564e",
+              "url": "https://prehraj.to/pani-flatbushe-1974-s-stallone/586af3089564e",
+              "title": "Páni-Flatbushe-1974-S.Stallone",
+              "year": null,
+              "duration_sec": 5037,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.087,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5037,
+                "runtime_delta": 0.057,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "35990d542326e12c",
+              "url": "https://prehraj.to/lady-snowblood-2-love-song-of-vengeance-1974-720p-bluray-x264-aac-yts-mx/35990d542326e12c",
+              "title": "Lady.Snowblood.2.Love.Song.Of.Vengeance.1974.720p.BluRay…",
+              "year": null,
+              "duration_sec": 5364,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5364,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:22:17.236343+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lady-snowblood-2-love-song-of-vengeance",
+        "title": "Lady Snowblood 2: Love Song of Vengeance",
+        "original_title": "Lady Snowblood 2: Love Song of Vengeance",
+        "year": 1974,
+        "runtime_min": 89,
+        "tmdb_id": 18818,
+        "imdb_id": "tt0072157",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T02:22:14.955593+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T02:22:13.383918+00:00"
+  "updated_at": "2026-08-26T02:22:17.236355+00:00"
 }
