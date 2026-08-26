@@ -311,7 +311,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:56:54.236801+00:00"
+        "at": "2026-08-26T02:03:36.358335+00:00"
       }
     },
     "28619": {
@@ -488,7 +488,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:56:54.237104+00:00"
+        "at": "2026-08-26T02:03:36.358890+00:00"
       }
     },
     "28071": {
@@ -713,7 +713,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:56:54.237837+00:00"
+        "at": "2026-08-26T02:03:36.360130+00:00"
       }
     },
     "27263": {
@@ -1578,7 +1578,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:56:54.238612+00:00"
+        "at": "2026-08-26T02:03:36.361431+00:00"
       }
     },
     "17083": {
@@ -1900,7 +1900,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:56:54.247321+00:00"
+        "at": "2026-08-26T02:03:36.377034+00:00"
       }
     },
     "29755": {
@@ -2239,7 +2239,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:56:54.248129+00:00"
+        "at": "2026-08-26T02:03:36.378404+00:00"
       }
     },
     "27675": {
@@ -3106,7 +3106,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:56:54.248328+00:00"
+        "at": "2026-08-26T02:03:36.378734+00:00"
       }
     },
     "24091": {
@@ -3351,7 +3351,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:56:54.248799+00:00"
+        "at": "2026-08-26T02:03:36.379527+00:00"
       }
     },
     "23395": {
@@ -4838,6 +4838,78 @@
           "reason": "All currently acceptable candidates were exhausted",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:25:05.421398+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67d4a0f4717e3",
+              "url": "https://prehraj.to/inspektor-popleta-1980/67d4a0f4717e3",
+              "title": "Inspektor Popleta (1980)",
+              "year": null,
+              "duration_sec": 6135,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1980,
+                "candidate_year": 1980,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6135,
+                "runtime_delta": 0.022,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c977989575cb7a8b",
+              "url": "https://prehraj.to/inspektor-popleta-1980-juraison-avi/c977989575cb7a8b",
+              "title": "Inspektor Popleta (1980) [juraison+].avi",
+              "year": null,
+              "duration_sec": 5876,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1980,
+                "candidate_year": 1980,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5876,
+                "runtime_delta": 0.021,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:03:37.377725+00:00"
         }
       ],
       "identity": {
@@ -4856,7 +4928,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:24:59.060376+00:00"
+        "at": "2026-08-26T02:03:36.379791+00:00"
       }
     },
     "22187": {
@@ -5359,5 +5431,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T01:58:24.082404+00:00"
+  "updated_at": "2026-08-26T02:03:37.377741+00:00"
 }
