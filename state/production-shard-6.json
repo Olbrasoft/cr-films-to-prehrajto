@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T17:17:34.730107+00:00"
+        "at": "2026-08-26T20:37:21.445216+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-26T17:17:34.731280+00:00"
+        "at": "2026-08-26T20:37:21.446493+00:00"
       }
     },
     "27238": {
@@ -1016,7 +1016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T17:17:34.731718+00:00"
+        "at": "2026-08-26T20:37:21.446947+00:00"
       }
     },
     "16782": {
@@ -1096,7 +1096,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T17:17:34.732622+00:00"
+        "at": "2026-08-26T20:37:21.447911+00:00"
       }
     },
     "29350": {
@@ -1225,7 +1225,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T17:17:34.734924+00:00"
+        "at": "2026-08-26T20:37:21.450444+00:00"
       }
     },
     "28934": {
@@ -2571,7 +2571,7 @@
             }
           ]
         },
-        "at": "2026-08-26T17:17:34.735978+00:00"
+        "at": "2026-08-26T20:37:21.451598+00:00"
       }
     },
     "22670": {
@@ -3880,7 +3880,7 @@
             }
           ]
         },
-        "at": "2026-08-26T17:17:34.737528+00:00"
+        "at": "2026-08-26T20:37:21.453194+00:00"
       }
     },
     "15846": {
@@ -5379,7 +5379,7 @@
             }
           ]
         },
-        "at": "2026-08-26T17:17:34.741219+00:00"
+        "at": "2026-08-26T20:37:21.457221+00:00"
       }
     },
     "3606": {
@@ -5479,6 +5479,44 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T19:54:54.329373+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "9541a6f153b49ac6",
+              "url": "https://prehraj.to/to-se-mi-snad-zda-dream-scenario-2023-cz-720p/9541a6f153b49ac6",
+              "title": "To se mi snad zdá _ Dream Scenario (2023)(CZ)_720p",
+              "year": null,
+              "duration_sec": 5855,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5855,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T20:37:21.863166+00:00"
         }
       ],
       "identity": {
@@ -5497,7 +5535,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T16:18:40.788822+00:00"
+        "at": "2026-08-26T20:37:21.457422+00:00"
       }
     },
     "5350": {
@@ -5811,5 +5849,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T20:36:11.265227+00:00"
+  "updated_at": "2026-08-26T20:37:21.863183+00:00"
 }
