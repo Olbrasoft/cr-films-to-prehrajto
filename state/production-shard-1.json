@@ -14700,7 +14700,7 @@
             }
           ]
         },
-        "at": "2026-08-26T02:57:39.033491+00:00"
+        "at": "2026-08-26T03:25:39.077615+00:00"
       }
     },
     "29121": {
@@ -14784,7 +14784,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:57:39.034517+00:00"
+        "at": "2026-08-26T03:25:39.078622+00:00"
       }
     },
     "29103": {
@@ -15179,7 +15179,7 @@
             }
           ]
         },
-        "at": "2026-08-26T02:57:39.040030+00:00"
+        "at": "2026-08-26T03:25:39.084059+00:00"
       }
     },
     "29045": {
@@ -41892,7 +41892,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:57:39.036739+00:00"
+        "at": "2026-08-26T03:25:39.080827+00:00"
       }
     },
     "25169": {
@@ -42789,7 +42789,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:57:39.038169+00:00"
+        "at": "2026-08-26T03:25:39.082228+00:00"
       }
     },
     "23061": {
@@ -48081,7 +48081,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:57:39.044539+00:00"
+        "at": "2026-08-26T03:25:39.088484+00:00"
       }
     },
     "25951": {
@@ -50526,7 +50526,7 @@
             }
           ]
         },
-        "at": "2026-08-26T02:57:39.045401+00:00"
+        "at": "2026-08-26T03:25:39.089339+00:00"
       }
     },
     "24963": {
@@ -60840,7 +60840,92 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T03:25:34.518487+00:00"
       }
+    },
+    "16313": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "91ccb622ae81be3a",
+              "url": "https://prehraj.to/dolly-2026-cz-titulky/91ccb622ae81be3a",
+              "title": "Dolly-2026-CZ Titulky",
+              "year": null,
+              "duration_sec": 4977,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 83,
+                "candidate_runtime_sec": 4977,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "59021",
+              "url": "https://online.sktorrent.eu/video/59021/",
+              "title": "Dolly",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T03:25:44.865766+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dolly-2026",
+        "title": "Dolly",
+        "original_title": "Dolly",
+        "year": 2026,
+        "runtime_min": 83,
+        "tmdb_id": 1309083,
+        "imdb_id": "tt32639175",
+        "created_at": "2026-04-14 16:09:59.379592+02:00",
+        "added_at": "2026-04-06 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T03:25:39.089666+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T03:25:34.518509+00:00"
+  "updated_at": "2026-08-26T03:25:44.865780+00:00"
 }
