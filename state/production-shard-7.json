@@ -4051,8 +4051,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T02:54:07.939626+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T02:54:07.939626+00:00",
+        "verified_at": "2026-08-26T06:35:40.345745+00:00",
+        "live_display_name": "Srdce je sval (2026) CZ Dabing"
       }
     },
     "14607": {
@@ -4085,8 +4087,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T03:08:52.434086+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T03:08:52.434086+00:00",
+        "verified_at": "2026-08-26T06:35:50.270206+00:00",
+        "live_display_name": "Zlom vaz, bav se, neumři (2026) CZ Dabing"
       }
     },
     "12543": {
@@ -4274,8 +4278,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T04:50:29.717532+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T04:50:29.717532+00:00",
+        "verified_at": "2026-08-26T06:36:10.013965+00:00",
+        "live_display_name": "Karavan (2025) CZ Dabing"
       }
     },
     "7119": {
@@ -4308,8 +4314,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T05:02:05.025639+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T05:02:05.025639+00:00",
+        "verified_at": "2026-08-26T06:45:01.897404+00:00",
+        "live_display_name": "SpongeBob: Pirátské dobrodružství (2025) CZ Dabing"
       }
     },
     "4903": {
@@ -4380,14 +4388,16 @@
         "target_video_id": "28844973",
         "display_name": "Americana (2025) CZ titulky",
         "size_bytes": 1335867594,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "8d59eeb480c56030",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T05:08:04.463875+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T05:08:04.463875+00:00",
+        "verified_at": "2026-08-26T06:36:30.188837+00:00",
+        "live_display_name": "Americana (2025) CZ titulky"
       }
     },
     "3567": {
@@ -4539,8 +4549,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T05:27:25.876743+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T05:27:25.876743+00:00",
+        "verified_at": "2026-08-26T06:36:59.922711+00:00",
+        "live_display_name": "Někdo to rád plešaté (2025) CZ Dabing"
       }
     },
     "2415": {
@@ -4573,8 +4585,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T05:41:50.227031+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T05:41:50.227031+00:00",
+        "verified_at": "2026-08-26T07:28:41.130456+00:00",
+        "live_display_name": "Poslední skaut (1991) CZ Dabing"
       }
     },
     "823": {
@@ -4695,8 +4709,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T05:49:39.475590+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T05:49:39.475590+00:00",
+        "verified_at": "2026-08-26T06:45:32.631642+00:00",
+        "live_display_name": "Černé Vánoce (1974) CZ Dabing"
       }
     },
     "12471": {
@@ -4712,6 +4728,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T05:56:53.793177+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "306046f396455040",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28845730",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T06:37:39.106977+00:00"
         }
       ],
       "identity": {
@@ -4731,19 +4758,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T05:49:42.757842+00:00"
-      },
-      "upload": {
-        "target_video_id": "28845730",
-        "display_name": "Indián (1999) CZ titulky",
-        "size_bytes": 2101970698,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "306046f396455040",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 720,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T05:57:20.249054+00:00"
       }
     },
     "11279": {
@@ -4890,10 +4904,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T06:04:37.040298+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T06:04:37.040298+00:00",
+        "verified_at": "2026-08-26T06:58:51.267546+00:00",
+        "live_display_name": "Until Dawn (2025) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-26T06:04:37.040331+00:00"
+  "updated_at": "2026-08-26T07:28:41.130473+00:00"
 }
