@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.861754+00:00"
+        "at": "2026-08-26T08:40:36.125224+00:00"
       }
     },
     "27350": {
@@ -919,7 +919,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.863574+00:00"
+        "at": "2026-08-26T08:40:36.127046+00:00"
       }
     },
     "22730": {
@@ -2969,7 +2969,7 @@
             }
           ]
         },
-        "at": "2026-08-26T08:26:09.881234+00:00"
+        "at": "2026-08-26T08:40:36.144830+00:00"
       }
     },
     "22474": {
@@ -3000,7 +3000,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.882163+00:00"
+        "at": "2026-08-26T08:40:36.145743+00:00"
       }
     },
     "22354": {
@@ -3525,7 +3525,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.882688+00:00"
+        "at": "2026-08-26T08:40:36.146236+00:00"
       }
     },
     "28426": {
@@ -3705,7 +3705,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.882930+00:00"
+        "at": "2026-08-26T08:40:36.146471+00:00"
       }
     },
     "27970": {
@@ -4254,7 +4254,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.883417+00:00"
+        "at": "2026-08-26T08:40:36.146970+00:00"
       }
     },
     "25770": {
@@ -5280,7 +5280,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.883987+00:00"
+        "at": "2026-08-26T08:40:36.147507+00:00"
       }
     },
     "16546": {
@@ -5347,7 +5347,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.884618+00:00"
+        "at": "2026-08-26T08:40:36.148125+00:00"
       }
     },
     "1266": {
@@ -6025,7 +6025,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T08:26:09.885160+00:00"
+        "at": "2026-08-26T08:40:36.148687+00:00"
       }
     },
     "15882": {
@@ -6061,7 +6061,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T08:40:31.939362+00:00"
       }
+    },
+    "15986": {
+      "attempts": [],
+      "identity": {
+        "slug": "kralovna-ringu-2025",
+        "title": "Královna ringu",
+        "original_title": "Queen of the Ring",
+        "year": 2025,
+        "runtime_min": 130,
+        "tmdb_id": 1144932,
+        "imdb_id": "tt28070202",
+        "created_at": "2026-04-14 16:06:53.885489+02:00",
+        "added_at": "2025-11-03 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24839135",
+          "account_name": "Na dno ringu (2025) CZ Dabing",
+          "title_similarity": 0.516,
+          "title_contains_alias": false,
+          "film_year": 2025,
+          "candidate_year": 2025,
+          "year_match": true,
+          "film_runtime_min": 130,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T08:40:36.150604+00:00"
+      }
+    },
+    "15074": {
+      "attempts": [],
+      "identity": {
+        "slug": "alemanie-2024",
+        "title": "Alemánie",
+        "original_title": "Alemania",
+        "year": 2024,
+        "runtime_min": 87,
+        "tmdb_id": 862754,
+        "imdb_id": "tt15475516",
+        "created_at": "2026-04-14 15:59:06.390616+02:00",
+        "added_at": "2025-10-15 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T08:40:36.150635+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T08:40:31.939387+00:00"
+  "updated_at": "2026-08-26T08:40:36.822528+00:00"
 }
