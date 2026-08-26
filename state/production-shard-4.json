@@ -2315,7 +2315,94 @@
         },
         "at": "2026-08-26T00:51:44.986708+00:00"
       }
+    },
+    "21884": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5839865ac8942",
+              "url": "https://prehraj.to/lovci-skalpu-cz-dabing-western-komedie-usa-1968-filmy-site88-net/5839865ac8942",
+              "title": "Lovci-skalpů-CZ-dabing---Western-Komedie,-USA,-1968-(Filmy.Site88.net)",
+              "year": null,
+              "duration_sec": 5939,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5939,
+                "runtime_delta": 0.138,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6792c0091813c",
+              "url": "https://prehraj.to/lovci-carodejnic-1968-vincent-price-bydejv/6792c0091813c",
+              "title": "Lovci čarodějnic  1968  -  Vincent-Price byDejv",
+              "year": null,
+              "duration_sec": 4972,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 4972,
+                "runtime_delta": 0.048,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:51:50.556529+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lovci-carodejnic",
+        "title": "Lovci čarodějnic",
+        "original_title": "Witchfinder General",
+        "year": 1968,
+        "runtime_min": 87,
+        "tmdb_id": 31965,
+        "imdb_id": "tt0063285",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:51:48.599772+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:51:47.480209+00:00"
+  "updated_at": "2026-08-26T00:51:50.556549+00:00"
 }
