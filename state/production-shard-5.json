@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:49:39.123280+00:00"
+        "at": "2026-08-26T00:52:09.555533+00:00"
       }
     },
     "16845": {
@@ -1624,7 +1624,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:49:39.124060+00:00"
+        "at": "2026-08-26T00:52:09.556259+00:00"
       }
     },
     "28277": {
@@ -1691,7 +1691,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:49:39.124296+00:00"
+        "at": "2026-08-26T00:52:09.556531+00:00"
       }
     },
     "27989": {
@@ -2087,7 +2087,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:49:39.124671+00:00"
+        "at": "2026-08-26T00:52:09.556875+00:00"
       }
     },
     "27149": {
@@ -2716,7 +2716,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:49:39.129620+00:00"
+        "at": "2026-08-26T00:52:09.561666+00:00"
       }
     },
     "26629": {
@@ -3250,7 +3250,127 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:52:05.505224+00:00"
       }
+    },
+    "25669": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c21d900c1a9e",
+              "url": "https://prehraj.to/cert-vi-proc-2003-ceska-filmova-pohadka-vanoce-2018/5c21d900c1a9e",
+              "title": "Čert Ví Proč (2003) Česká Filmová Pohádka - Vánoce 2018",
+              "year": null,
+              "duration_sec": 5983,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.319,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c1e29a547485",
+              "url": "https://prehraj.to/cert-vi-proc-2003-ceska-filmova-pohadka-vanoce-2018/5c1e29a547485",
+              "title": "Čert Ví Proč (2003) Česká Filmová Pohádka - Vánoce 2018",
+              "year": null,
+              "duration_sec": 5983,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.319,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c23f22395f4b",
+              "url": "https://prehraj.to/cert-vi-proc-2003-ceska-filmova-pohadka-vanoce-2018/5c23f22395f4b",
+              "title": "Čert Ví Proč (2003) Česká Filmová Pohádka - Vánoce 2018",
+              "year": null,
+              "duration_sec": 5983,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.319,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584d810072646",
+              "url": "https://prehraj.to/jahudka-2-jahudciny-vanoce/584d810072646",
+              "title": "Jahudka_2_-_Jahudčiny_vánoce",
+              "year": null,
+              "duration_sec": 2600,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2003,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 43,
+                "candidate_runtime_sec": 2600,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:52:13.139750+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "jahudka-2-jahudciny-vanoce",
+        "title": "Jahůdka 2: Jahůdčiny Vánoce",
+        "original_title": "Strawberry Shortcake: Berry, Merry Christmas",
+        "year": 2003,
+        "runtime_min": 43,
+        "tmdb_id": 292043,
+        "imdb_id": "tt0469836",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:52:09.561730+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:52:05.505250+00:00"
+  "updated_at": "2026-08-26T00:52:13.139767+00:00"
 }
