@@ -6305,6 +6305,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T19:47:14.081233+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "686d60c5c2913",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28875365",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T23:05:37.280616+00:00"
         }
       ],
       "identity": {
@@ -6324,19 +6335,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T20:37:26.010794+00:00"
-      },
-      "upload": {
-        "target_video_id": "28875365",
-        "display_name": "Mafiánovi (2013) CZ Dabing",
-        "size_bytes": 761691565,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "686d60c5c2913",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T20:44:18.794492+00:00"
       }
     },
     "13419": {
@@ -6492,7 +6490,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T08:02:17.574699+00:00",
-        "verified_at": "2026-08-26T20:35:03.233266+00:00",
+        "verified_at": "2026-08-26T23:56:36.417105+00:00",
         "live_display_name": "Tajemství loňského léta 3 (2006) CZ titulky"
       }
     },
@@ -7791,8 +7789,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T20:48:08.011664+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T20:48:08.011664+00:00",
+        "verified_at": "2026-08-26T23:06:08.918455+00:00",
+        "live_display_name": "Tlapková patrola ve velkofilmu (2023) CZ Dabing"
       }
     },
     "16667": {
@@ -7825,8 +7825,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T21:13:27.047912+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T21:13:27.047912+00:00",
+        "verified_at": "2026-08-26T23:06:20.436510+00:00",
+        "live_display_name": "Poblouzněný Vincent (2016) CZ Dabing"
       }
     },
     "14475": {
@@ -7859,8 +7861,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T21:29:59.464356+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T21:29:59.464356+00:00",
+        "verified_at": "2026-08-26T23:06:31.960379+00:00",
+        "live_display_name": "Dej si pohov, mladej! (2022) CZ Dabing"
       }
     },
     "10947": {
@@ -7893,8 +7897,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T21:49:13.549131+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T21:49:13.549131+00:00",
+        "verified_at": "2026-08-26T23:06:43.315153+00:00",
+        "live_display_name": "Ukradená vzducholoď (1967) CZ Dabing"
       }
     },
     "15123": {
@@ -7927,8 +7933,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T21:56:16.848119+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T21:56:16.848119+00:00",
+        "verified_at": "2026-08-26T23:06:54.101494+00:00",
+        "live_display_name": "Alelujá (2023) CZ Dabing"
       }
     },
     "15227": {
@@ -7961,8 +7969,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T22:02:36.887675+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T22:02:36.887675+00:00",
+        "verified_at": "2026-08-26T23:07:04.010368+00:00",
+        "live_display_name": "Rodilý vězeň (2023) CZ Dabing"
       }
     },
     "11467": {
@@ -7995,8 +8005,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T22:09:45.800328+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T22:09:45.800328+00:00",
+        "verified_at": "2026-08-26T23:07:13.785502+00:00",
+        "live_display_name": "Faunovo velmi pozdní odpoledne (1984) CZ Dabing"
       }
     },
     "16635": {
@@ -8029,8 +8041,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T22:17:49.560842+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T22:17:49.560842+00:00",
+        "verified_at": "2026-08-26T23:07:23.828858+00:00",
+        "live_display_name": "Jak stvořit dívku (2020) CZ Dabing"
       }
     },
     "7515": {
@@ -8063,10 +8077,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-26T22:29:14.307395+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-26T22:29:14.307395+00:00",
+        "verified_at": "2026-08-26T23:07:34.058774+00:00",
+        "live_display_name": "Ponor (2023) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-26T22:29:14.307424+00:00"
+  "updated_at": "2026-08-26T23:56:46.456693+00:00"
 }
