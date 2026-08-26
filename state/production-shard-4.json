@@ -147,7 +147,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:48:38.704318+00:00"
+        "at": "2026-08-26T00:51:44.966948+00:00"
       }
     },
     "25204": {
@@ -241,7 +241,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:48:38.712606+00:00"
+        "at": "2026-08-26T00:51:44.975407+00:00"
       }
     },
     "24308": {
@@ -308,7 +308,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:48:38.712858+00:00"
+        "at": "2026-08-26T00:51:44.975663+00:00"
       }
     },
     "22860": {
@@ -339,7 +339,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:48:38.713869+00:00"
+        "at": "2026-08-26T00:51:44.976694+00:00"
       }
     },
     "22380": {
@@ -1167,7 +1167,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:48:38.718252+00:00"
+        "at": "2026-08-26T00:51:44.981204+00:00"
       }
     },
     "26980": {
@@ -1306,7 +1306,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:48:38.722142+00:00"
+        "at": "2026-08-26T00:51:44.985229+00:00"
       }
     },
     "26420": {
@@ -1886,7 +1886,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:48:38.723411+00:00"
+        "at": "2026-08-26T00:51:44.986438+00:00"
       }
     },
     "23300": {
@@ -2004,7 +2004,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:48:38.723643+00:00"
+        "at": "2026-08-26T00:51:44.986671+00:00"
       }
     },
     "22940": {
@@ -2228,7 +2228,94 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:51:41.699038+00:00"
       }
+    },
+    "22364": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "589045ce7eeac",
+              "url": "https://prehraj.to/ve-znameni-merkura-cssr-1978-pribeh-ctvrty/589045ce7eeac",
+              "title": "Ve-znamení-Merkura-(ČSSR,-1978,-příběh-čtvrtý)",
+              "year": null,
+              "duration_sec": 4698,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 4698,
+                "runtime_delta": 0.167,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a7bde1e8705925f3",
+              "url": "https://prehraj.to/to-be-twenty/a7bde1e8705925f3",
+              "title": "To Be Twenty",
+              "year": null,
+              "duration_sec": 5028,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1978,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5028,
+                "runtime_delta": 0.109,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:51:47.480189+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "avere-vent-anni",
+        "title": "Avere vent'anni",
+        "original_title": "To Be Twenty",
+        "year": 1978,
+        "runtime_min": 94,
+        "tmdb_id": 55685,
+        "imdb_id": "tt0077191",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:51:44.986708+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:51:41.699069+00:00"
+  "updated_at": "2026-08-26T00:51:47.480209+00:00"
 }
