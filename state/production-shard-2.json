@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.290967+00:00"
+        "at": "2026-08-26T10:30:54.394016+00:00"
       }
     },
     "27350": {
@@ -919,7 +919,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.292042+00:00"
+        "at": "2026-08-26T10:30:54.395094+00:00"
       }
     },
     "22730": {
@@ -2969,7 +2969,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:24:18.302231+00:00"
+        "at": "2026-08-26T10:30:54.405163+00:00"
       }
     },
     "22474": {
@@ -3000,7 +3000,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.302778+00:00"
+        "at": "2026-08-26T10:30:54.405715+00:00"
       }
     },
     "22354": {
@@ -3525,7 +3525,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.303090+00:00"
+        "at": "2026-08-26T10:30:54.406030+00:00"
       }
     },
     "28426": {
@@ -3705,7 +3705,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.303256+00:00"
+        "at": "2026-08-26T10:30:54.406177+00:00"
       }
     },
     "27970": {
@@ -4254,7 +4254,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.303549+00:00"
+        "at": "2026-08-26T10:30:54.406495+00:00"
       }
     },
     "25770": {
@@ -5280,7 +5280,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.303872+00:00"
+        "at": "2026-08-26T10:30:54.406812+00:00"
       }
     },
     "16546": {
@@ -5347,7 +5347,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.304250+00:00"
+        "at": "2026-08-26T10:30:54.407159+00:00"
       }
     },
     "1266": {
@@ -6037,7 +6037,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.304574+00:00"
+        "at": "2026-08-26T10:30:54.407494+00:00"
       }
     },
     "15882": {
@@ -6104,7 +6104,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T10:24:18.305738+00:00"
+        "at": "2026-08-26T10:30:54.408639+00:00"
       }
     },
     "15074": {
@@ -6220,7 +6220,7 @@
             }
           ]
         },
-        "at": "2026-08-26T10:24:18.306199+00:00"
+        "at": "2026-08-26T10:30:54.409089+00:00"
       }
     },
     "17490": {
@@ -6337,7 +6337,138 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T10:30:50.936126+00:00"
       }
+    },
+    "15898": {
+      "attempts": [],
+      "identity": {
+        "slug": "letni-tabor-2024",
+        "title": "Letní tábor",
+        "original_title": "Summer Camp",
+        "year": 2024,
+        "runtime_min": 96,
+        "tmdb_id": 1094009,
+        "imdb_id": "tt26928684",
+        "created_at": "2026-04-14 16:06:53.885489+02:00",
+        "added_at": "2025-06-15 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "24789011",
+              "account_name": "Divadelní tábor (2023) CZ Dabing",
+              "title_similarity": 0.581,
+              "title_contains_alias": false,
+              "film_year": 2024,
+              "candidate_year": 2023,
+              "year_match": true,
+              "film_runtime_min": 96,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "24796348",
+              "account_name": "Vesmírný tábor (2023) CZ Dabing",
+              "title_similarity": 0.533,
+              "title_contains_alias": false,
+              "film_year": 2024,
+              "candidate_year": 2023,
+              "year_match": true,
+              "film_runtime_min": 96,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-26T10:30:54.410308+00:00"
+      }
+    },
+    "9842": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad0897667a3e1ae",
+              "url": "https://prehraj.to/rosario-2025-cz-titulky-v-obraze/5ad0897667a3e1ae",
+              "title": "Rosario (2025) CZ titulky v obraze",
+              "year": null,
+              "duration_sec": 5310,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5310,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "46751",
+              "url": "https://online.sktorrent.eu/video/46751/",
+              "title": "Rosario: Prokletí",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T10:30:59.215489+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "rosario-prokleti",
+        "title": "Rosario: Prokletí",
+        "original_title": "Rosario",
+        "year": 2025,
+        "runtime_min": null,
+        "tmdb_id": 1297028,
+        "imdb_id": "tt27674700",
+        "created_at": "2026-04-13 13:19:27.586412+02:00",
+        "added_at": "2025-06-09 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T10:30:54.410331+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T10:30:50.936161+00:00"
+  "updated_at": "2026-08-26T10:30:59.215508+00:00"
 }
