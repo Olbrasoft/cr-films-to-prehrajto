@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:27:29.182047+00:00"
+        "at": "2026-08-26T05:41:53.697718+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:27:29.184198+00:00"
+        "at": "2026-08-26T05:41:53.699854+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:27:29.184823+00:00"
+        "at": "2026-08-26T05:41:53.700493+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:27:29.184885+00:00"
+        "at": "2026-08-26T05:41:53.700556+00:00"
       }
     },
     "23807": {
@@ -768,7 +768,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:27:29.186432+00:00"
+        "at": "2026-08-26T05:41:53.702102+00:00"
       }
     },
     "28863": {
@@ -799,7 +799,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:27:29.186835+00:00"
+        "at": "2026-08-26T05:41:53.702536+00:00"
       }
     },
     "28823": {
@@ -1812,7 +1812,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:27:29.187339+00:00"
+        "at": "2026-08-26T05:41:53.703024+00:00"
       }
     },
     "25951": {
@@ -3036,7 +3036,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:27:29.190277+00:00"
+        "at": "2026-08-26T05:41:53.705998+00:00"
       }
     },
     "23343": {
@@ -4340,7 +4340,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:27:29.191112+00:00"
+        "at": "2026-08-26T05:41:53.706850+00:00"
       }
     },
     "15295": {
@@ -4576,7 +4576,105 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T05:41:50.227031+00:00"
       }
+    },
+    "823": {
+      "attempts": [],
+      "identity": {
+        "slug": "smrtonosna-zbran",
+        "title": "Smrtonosná zbraň",
+        "original_title": "Lethal Weapon",
+        "year": 1987,
+        "runtime_min": null,
+        "tmdb_id": 941,
+        "imdb_id": "tt0093409",
+        "created_at": "2026-04-13 13:19:24.188776+02:00",
+        "added_at": "2025-12-27 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24706058",
+          "account_name": "Smrtonosná past (1988) CZ Dabing",
+          "title_similarity": 0.667,
+          "title_contains_alias": false,
+          "film_year": 1987,
+          "candidate_year": 1988,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T05:41:53.708088+00:00"
+      }
+    },
+    "7783": {
+      "attempts": [],
+      "identity": {
+        "slug": "stastne-a-krvave",
+        "title": "Šťastné a krvavé",
+        "original_title": "There's Something in the Barn",
+        "year": 2023,
+        "runtime_min": null,
+        "tmdb_id": 956920,
+        "imdb_id": "tt23060796",
+        "created_at": "2026-04-13 13:19:26.865181+02:00",
+        "added_at": "2025-12-26 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "24803664",
+              "account_name": "Šťastně až do smrti (2022) CZ Dabing",
+              "title_similarity": 0.55,
+              "title_contains_alias": false,
+              "film_year": 2023,
+              "candidate_year": 2022,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "24897921",
+              "account_name": "Šťastně podvedená (2023) CZ Dabing",
+              "title_similarity": 0.526,
+              "title_contains_alias": false,
+              "film_year": 2023,
+              "candidate_year": 2023,
+              "year_match": true,
+              "film_runtime_min": null,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-26T05:41:53.710646+00:00"
+      }
+    },
+    "11135": {
+      "attempts": [],
+      "identity": {
+        "slug": "cerne-vanoce-1974",
+        "title": "Černé Vánoce",
+        "original_title": "Black Christmas",
+        "year": 1974,
+        "runtime_min": 98,
+        "tmdb_id": 16938,
+        "imdb_id": "tt0071222",
+        "created_at": "2026-04-14 15:29:45.394337+02:00",
+        "added_at": "2025-12-17 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T05:41:53.716985+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T05:41:50.227063+00:00"
+  "updated_at": "2026-08-26T05:41:56.879341+00:00"
 }
