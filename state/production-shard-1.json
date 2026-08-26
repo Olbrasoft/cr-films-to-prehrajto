@@ -59111,7 +59111,696 @@
         },
         "at": "2026-08-26T02:04:06.509601+00:00"
       }
+    },
+    "22713": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68d6a6f787af6",
+              "url": "https://prehraj.to/1984-george-orwell-1984-cz-dabing-tvrip/68d6a6f787af6",
+              "title": "1984 George Orwell (1984) CZ DABING TvRip",
+              "year": null,
+              "duration_sec": 6342,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.057,
+                "title_contains_alias": false,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 152,
+                "candidate_runtime_sec": 6342,
+                "runtime_delta": 0.305,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583ed4ea04429",
+              "url": "https://prehraj.to/george-orwell-1984-cz-dabing/583ed4ea04429",
+              "title": "george-orwell-1984-cz-dabing",
+              "year": null,
+              "duration_sec": 6356,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.083,
+                "title_contains_alias": false,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 152,
+                "candidate_runtime_sec": 6356,
+                "runtime_delta": 0.303,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "633c6df82b1dc",
+              "url": "https://prehraj.to/carmen-1983-cztitulky/633c6df82b1dc",
+              "title": "Carmen (1983) CZtitulky",
+              "year": null,
+              "duration_sec": 5842,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1984,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 152,
+                "candidate_runtime_sec": 5842,
+                "runtime_delta": 0.359,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "632de7e3a936a",
+              "url": "https://prehraj.to/carmen-2022/632de7e3a936a",
+              "title": "Carmen 2022",
+              "year": null,
+              "duration_sec": 5226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8e6403146047701e",
+              "url": "https://prehraj.to/carmen-2022-en-en-tit-sk-tit-cz-tit-mkv/8e6403146047701e",
+              "title": "Carmen 2022, EN - EN tit - SK tit - CZ tit.mkv",
+              "year": null,
+              "duration_sec": 7000,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8ad418ea5a238e99",
+              "url": "https://prehraj.to/carmen-2012-cs/8ad418ea5a238e99",
+              "title": "Carmen - 2012 CS",
+              "year": null,
+              "duration_sec": 6721,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "281a1e911c544b06",
+              "url": "https://prehraj.to/carmen-2022-cz-titulky/281a1e911c544b06",
+              "title": "Carmen (2022) CZ Titulky",
+              "year": null,
+              "duration_sec": 7000,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "920c429e2ed36b38",
+              "url": "https://prehraj.to/carmen-y-carmen-2020-cs/920c429e2ed36b38",
+              "title": "Carmen Y Carmen - 2020 CS",
+              "year": null,
+              "duration_sec": 4388,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64b985727ef3e",
+              "url": "https://prehraj.to/carmen-2023-cz-titulky-1080p/64b985727ef3e",
+              "title": "Carmen 2023 CZ Titulky 1080p",
+              "year": null,
+              "duration_sec": 6986,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57229c00bfc6f4e7",
+              "url": "https://prehraj.to/carmen-2022-en/57229c00bfc6f4e7",
+              "title": "Carmen - 2022 EN",
+              "year": null,
+              "duration_sec": 6986,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64b8506f4635e",
+              "url": "https://prehraj.to/carmen-2023-cztitulky/64b8506f4635e",
+              "title": "Carmen (2023) CZtitulky",
+              "year": null,
+              "duration_sec": 6986,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1984,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6689a793eb3ab",
+              "url": "https://prehraj.to/carmen-y-carmen-ceska-televize/6689a793eb3ab",
+              "title": "Carmen  y Carmen  Česká  televize",
+              "year": null,
+              "duration_sec": 4389,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.519,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6001e9a2aeb74",
+              "url": "https://prehraj.to/carmen-sandiego-s04e04-cztitulky/6001e9a2aeb74",
+              "title": "Carmen Sandiego S04E04 CZtitulky",
+              "year": null,
+              "duration_sec": 1466,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60024900ccaa8",
+              "url": "https://prehraj.to/carmen-sandiego-s04e01-cz-sub-1080p-web-h264-strontium/60024900ccaa8",
+              "title": "Carmen.Sandiego.S04E01.cz.sub.1080p.WEB.H264-STRONTiUM",
+              "year": null,
+              "duration_sec": 1472,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f78d99015970",
+              "url": "https://prehraj.to/carmen-sandiego-s03e05-cz-titulky/5f78d99015970",
+              "title": "Carmen Sandiego S03E05 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1473,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f78d9901b004",
+              "url": "https://prehraj.to/carmen-sandiego-s03e02-cz-titulky/5f78d9901b004",
+              "title": "Carmen Sandiego S03E02 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1466,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f7b49aef067d",
+              "url": "https://prehraj.to/carmen-sandiego-s03e03-cztitulky/5f7b49aef067d",
+              "title": "Carmen Sandiego S03E03 CZtitulky",
+              "year": null,
+              "duration_sec": 1464,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6001e8181958b",
+              "url": "https://prehraj.to/carmen-sandiego-s04e02-cztitulky/6001e8181958b",
+              "title": "Carmen Sandiego S04E02 CZtitulky",
+              "year": null,
+              "duration_sec": 1473,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "921d984dacef798c",
+              "url": "https://prehraj.to/carmen-curlers-s01e02/921d984dacef798c",
+              "title": "Carmen Curlers S01E02",
+              "year": null,
+              "duration_sec": 3250,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4ae4c75d09391b6e",
+              "url": "https://prehraj.to/carmen-curlers-s01e05/4ae4c75d09391b6e",
+              "title": "Carmen Curlers S01E05",
+              "year": null,
+              "duration_sec": 3499,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8f3c9f5eb2ea2462",
+              "url": "https://prehraj.to/carmen-curlers-s01e01/8f3c9f5eb2ea2462",
+              "title": "Carmen Curlers S01E01",
+              "year": null,
+              "duration_sec": 3285,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f5bced0bc61274b5",
+              "url": "https://prehraj.to/carmen-sandiego-s03e01-1-epizoda-cz-titulky/f5bced0bc61274b5",
+              "title": "Carmen Sandiego S03E01 - 1. epizoda CZ Titulky",
+              "year": null,
+              "duration_sec": 1466,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c2246b1cd7ee4cf8",
+              "url": "https://prehraj.to/carmen-sandiego-s2e4-the-fashionista-caper-es/c2246b1cd7ee4cf8",
+              "title": "Carmen Sandiego - S2E4 The Fashionista Caper ES",
+              "year": null,
+              "duration_sec": 1454,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e4477f0e3ade197",
+              "url": "https://prehraj.to/carmen-sandiego-s3e4-the-masks-of-venice-caper-en/5e4477f0e3ade197",
+              "title": "Carmen Sandiego - S3E4 The Masks of Venice Caper EN",
+              "year": null,
+              "duration_sec": 1470,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "189df9555af48313",
+              "url": "https://prehraj.to/carmen-sandiego-s1e5-the-duke-of-vermeer-caper-es/189df9555af48313",
+              "title": "Carmen Sandiego - S1E5 The Duke of Vermeer Caper ES",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e8757ebdfbeaa8d9",
+              "url": "https://prehraj.to/carmen-sandiego-s4e2-the-big-bad-ivy-caper-en/e8757ebdfbeaa8d9",
+              "title": "Carmen Sandiego - S4E2 The Big Bad Ivy Caper EN",
+              "year": null,
+              "duration_sec": 1472,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a8ea06e5b3ad715c",
+              "url": "https://prehraj.to/carmen-sandiego-s1e3-the-sticky-rice-caper-es/a8ea06e5b3ad715c",
+              "title": "Carmen Sandiego - S1E3 The Sticky Rice Caper ES",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2ba37ee8a4b4246f",
+              "url": "https://prehraj.to/carmen-sandiego-s1e4-the-fishy-doubloon-caper-es/2ba37ee8a4b4246f",
+              "title": "Carmen Sandiego - S1E4 The Fishy Doubloon Caper ES",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8d8ace2bc9ae0756",
+              "url": "https://prehraj.to/carmen-sandiego-s3e3-the-haunted-bayou-caper-en/8d8ace2bc9ae0756",
+              "title": "Carmen Sandiego - S3E3 The Haunted Bayou Caper EN",
+              "year": null,
+              "duration_sec": 1464,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0169f2db7db11d9c",
+              "url": "https://prehraj.to/carmen-sandiego-s4e7-the-viennese-waltz-caper-en/0169f2db7db11d9c",
+              "title": "Carmen Sandiego - S4E7 The Viennese Waltz Caper EN",
+              "year": null,
+              "duration_sec": 1468,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c738a34ebf5f",
+              "url": "https://prehraj.to/carmen-sandiego-s01e02/5c738a34ebf5f",
+              "title": "Carmen Sandiego - s01e02",
+              "year": null,
+              "duration_sec": 1663,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c738e8d4f1d9",
+              "url": "https://prehraj.to/carmen-sandiego-s01e07/5c738e8d4f1d9",
+              "title": "Carmen Sandiego - s01e07",
+              "year": null,
+              "duration_sec": 1432,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c738abcabf4f",
+              "url": "https://prehraj.to/carmen-sandiego-s01e04/5c738abcabf4f",
+              "title": "Carmen Sandiego - s01e04",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c738eecb2f92",
+              "url": "https://prehraj.to/carmen-sandiego-s01e09/5c738eecb2f92",
+              "title": "Carmen Sandiego - s01e09",
+              "year": null,
+              "duration_sec": 1438,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Carmen (1984)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:04:14.098807+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "carmen-1984",
+        "title": "Carmen",
+        "original_title": null,
+        "year": 1984,
+        "runtime_min": 152,
+        "tmdb_id": 21193,
+        "imdb_id": "tt0087034",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T02:04:11.597029+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T02:04:10.038608+00:00"
+  "updated_at": "2026-08-26T02:04:14.098820+00:00"
 }
