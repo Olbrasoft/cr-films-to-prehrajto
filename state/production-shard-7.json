@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.545838+00:00"
+        "at": "2026-08-26T07:47:12.867211+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-26T07:29:23.548346+00:00"
+        "at": "2026-08-26T07:47:12.869615+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.549110+00:00"
+        "at": "2026-08-26T07:47:12.870416+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.549189+00:00"
+        "at": "2026-08-26T07:47:12.870498+00:00"
       }
     },
     "23807": {
@@ -768,7 +768,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.551058+00:00"
+        "at": "2026-08-26T07:47:12.872394+00:00"
       }
     },
     "28863": {
@@ -799,7 +799,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.551549+00:00"
+        "at": "2026-08-26T07:47:12.872851+00:00"
       }
     },
     "28823": {
@@ -1812,7 +1812,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.552094+00:00"
+        "at": "2026-08-26T07:47:12.873408+00:00"
       }
     },
     "25951": {
@@ -3036,7 +3036,7 @@
             }
           ]
         },
-        "at": "2026-08-26T07:29:23.555720+00:00"
+        "at": "2026-08-26T07:47:12.876866+00:00"
       }
     },
     "23343": {
@@ -4348,7 +4348,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.556729+00:00"
+        "at": "2026-08-26T07:47:12.877839+00:00"
       }
     },
     "15295": {
@@ -4619,7 +4619,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T07:29:23.558229+00:00"
+        "at": "2026-08-26T07:47:12.879275+00:00"
       }
     },
     "7783": {
@@ -4665,7 +4665,7 @@
             }
           ]
         },
-        "at": "2026-08-26T07:29:23.561097+00:00"
+        "at": "2026-08-26T07:47:12.882035+00:00"
       }
     },
     "11135": {
@@ -4943,7 +4943,123 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T07:47:08.786194+00:00"
       }
+    },
+    "9447": {
+      "attempts": [],
+      "identity": {
+        "slug": "kryci-oddil",
+        "title": "Krycí oddíl",
+        "original_title": "Shadow Force",
+        "year": 2025,
+        "runtime_min": null,
+        "tmdb_id": 757725,
+        "imdb_id": "tt11092020",
+        "created_at": "2026-04-13 13:19:27.408668+02:00",
+        "added_at": "2025-10-22 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25414550",
+          "account_name": "Shadow of God (2025)",
+          "title_similarity": 0.533,
+          "title_contains_alias": false,
+          "film_year": 2025,
+          "candidate_year": 2025,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T07:47:12.883254+00:00"
+      }
+    },
+    "16119": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "1a88be8b30288916",
+              "url": "https://prehraj.to/scurry-2025-mkv/1a88be8b30288916",
+              "title": "Scurry (2025).mkv",
+              "year": null,
+              "duration_sec": 6028,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 6028,
+                "runtime_delta": 0.047,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "51465",
+              "url": "https://online.sktorrent.eu/video/51465/",
+              "title": "Scurry",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T07:47:18.052699+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "scurry-2025",
+        "title": "Scurry",
+        "original_title": "Scurry",
+        "year": 2025,
+        "runtime_min": 96,
+        "tmdb_id": 1332316,
+        "imdb_id": "tt29716595",
+        "created_at": "2026-04-14 16:08:26.500585+02:00",
+        "added_at": "2025-10-07 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T07:47:12.883283+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T07:47:08.786220+00:00"
+  "updated_at": "2026-08-26T07:47:18.052716+00:00"
 }
