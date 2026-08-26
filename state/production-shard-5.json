@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:47:05.632671+00:00"
+        "at": "2026-08-26T00:49:39.123280+00:00"
       }
     },
     "16845": {
@@ -1624,7 +1624,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:47:05.633450+00:00"
+        "at": "2026-08-26T00:49:39.124060+00:00"
       }
     },
     "28277": {
@@ -1691,7 +1691,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:47:05.633691+00:00"
+        "at": "2026-08-26T00:49:39.124296+00:00"
       }
     },
     "27989": {
@@ -2087,7 +2087,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:47:05.634041+00:00"
+        "at": "2026-08-26T00:49:39.124671+00:00"
       }
     },
     "27149": {
@@ -2716,7 +2716,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:47:05.638874+00:00"
+        "at": "2026-08-26T00:49:39.129620+00:00"
       }
     },
     "26629": {
@@ -2786,7 +2786,343 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:49:35.276862+00:00"
       }
+    },
+    "26453": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58be75202d875",
+              "url": "https://prehraj.to/wally-2008-cz-dabing/58be75202d875",
+              "title": "Wally 2008 CZ-DABING",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.275,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58db986e7e06b",
+              "url": "https://prehraj.to/wally-2008-cz-dabing/58db986e7e06b",
+              "title": "Wally 2008 CZ-DABING",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.275,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58d972cea1ba0",
+              "url": "https://prehraj.to/wally-2008-cz-dabing/58d972cea1ba0",
+              "title": "Wally 2008 CZ-DABING",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.275,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68bda07dd64d8",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-2008-animovany-kratkometrazni-komedie-rodinny-czdab/68bda07dd64d8",
+              "title": "Wallace a Gromit - Otázka chleba a smrti (2008) animovaný…",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654fb981abecf",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-r-2008-1280x720-by-ugare/654fb981abecf",
+              "title": "Wallace a Gromit - Otázka chleba a smrti (r.2008 - 1280x720…",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65ce2a21b137a",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-2008-bydejv/65ce2a21b137a",
+              "title": "Wallace a Gromit - Otázka chleba a smrti 2008 byDejv",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6717b265b2531",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-r-2008-1280x720/6717b265b2531",
+              "title": "Wallace a Gromit - Otázka chleba a smrti (r.2008 - 1280x720)",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686606a4477c5",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-2008-1280x720-bydejv/686606a4477c5",
+              "title": "Wallace a Gromit - Otázka chleba a smrti 2008 - 1280x720…",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "689b10cdeca49",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-r-2008-1280x720-bydejv/689b10cdeca49",
+              "title": "Wallace a Gromit - Otázka chleba a smrti (r.2008 -…",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65f038f31c389",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-r-2008-1280x720-by-ugare-by-ugare/65f038f31c389",
+              "title": "Wallace a Gromit - Otázka chleba a smrti (r.2008 - 1280x720…",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65f507a6e1b7c",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-r-2008-1280x720-bydejv/65f507a6e1b7c",
+              "title": "Wallace a Gromit - Otázka chleba a smrti (r.2008 - 1280x720…",
+              "year": null,
+              "duration_sec": 1751,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1751,
+                "runtime_delta": 0.027,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "88b7c97ff7e6240e",
+              "url": "https://prehraj.to/wallace-a-gromit-otazka-chleba-a-smrti-2008-cs/88b7c97ff7e6240e",
+              "title": "Wallace a Gromit: Otázka chleba a smrti - 2008 CS",
+              "year": null,
+              "duration_sec": 1750,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 30,
+                "candidate_runtime_sec": 1750,
+                "runtime_delta": 0.028,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:49:48.907827+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "wallace-a-gromit-otazka-chleba-a-smrti",
+        "title": "Wallace a Gromit: Otázka chleba a smrti",
+        "original_title": "A Matter of Loaf and Death",
+        "year": 2008,
+        "runtime_min": 30,
+        "tmdb_id": 14447,
+        "imdb_id": "tt1118511",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:49:39.129675+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:49:35.276886+00:00"
+  "updated_at": "2026-08-26T00:49:48.907843+00:00"
 }
