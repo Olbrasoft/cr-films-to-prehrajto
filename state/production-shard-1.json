@@ -58945,6 +58945,152 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:17:20.375289+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58829f1a2c36a",
+              "url": "https://prehraj.to/cas-nasili-1988-vreme-razdelno-cd1/58829f1a2c36a",
+              "title": "Čas-násilí-1988-Vreme-Razdelno-CD1",
+              "year": null,
+              "duration_sec": 3762,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.348,
+                "title_contains_alias": false,
+                "film_year": 1988,
+                "candidate_year": 1988,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 3762,
+                "runtime_delta": 0.347,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58829f34c0d9b",
+              "url": "https://prehraj.to/cas-nasili-1988-vreme-razdelno-cd2/58829f34c0d9b",
+              "title": "Čas-násilí-1988-Vreme-Razdelno-CD2",
+              "year": null,
+              "duration_sec": 3916,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.348,
+                "title_contains_alias": false,
+                "film_year": 1988,
+                "candidate_year": 1988,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 3916,
+                "runtime_delta": 0.32,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58829f50085dd",
+              "url": "https://prehraj.to/cas-nasili-1988-vreme-razdelno-cd3/58829f50085dd",
+              "title": "Čas-násilí-1988-Vreme-Razdelno-CD3",
+              "year": null,
+              "duration_sec": 4252,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.348,
+                "title_contains_alias": false,
+                "film_year": 1988,
+                "candidate_year": 1988,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 4252,
+                "runtime_delta": 0.262,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58829f5546344",
+              "url": "https://prehraj.to/cas-nasili-1988-vreme-razdelno-cd4/58829f5546344",
+              "title": "Čas-násilí-1988-Vreme-Razdelno-CD4",
+              "year": null,
+              "duration_sec": 4350,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.348,
+                "title_contains_alias": false,
+                "film_year": 1988,
+                "candidate_year": 1988,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 4350,
+                "runtime_delta": 0.245,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b9fc865b69c75092",
+              "url": "https://prehraj.to/drsne-nasili-1988-cs/b9fc865b69c75092",
+              "title": "Drsné násilí - 1988 CS",
+              "year": null,
+              "duration_sec": 5563,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1988,
+                "candidate_year": 1988,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5563,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:04:10.038595+00:00"
         }
       ],
       "identity": {
@@ -58963,9 +59109,9 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:17:19.670834+00:00"
+        "at": "2026-08-26T02:04:06.509601+00:00"
       }
     }
   },
-  "updated_at": "2026-08-26T02:03:40.379119+00:00"
+  "updated_at": "2026-08-26T02:04:10.038608+00:00"
 }
