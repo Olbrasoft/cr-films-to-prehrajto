@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:06:54.000550+00:00"
+        "at": "2026-08-26T00:09:33.142481+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:06:54.002271+00:00"
+        "at": "2026-08-26T00:09:33.144164+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:06:54.002764+00:00"
+        "at": "2026-08-26T00:09:33.144648+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:06:54.002814+00:00"
+        "at": "2026-08-26T00:09:33.144696+00:00"
       }
     },
     "23807": {
@@ -768,7 +768,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:06:54.004054+00:00"
+        "at": "2026-08-26T00:09:33.145930+00:00"
       }
     },
     "28863": {
@@ -799,7 +799,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:06:54.004380+00:00"
+        "at": "2026-08-26T00:09:33.146279+00:00"
       }
     },
     "28823": {
@@ -1777,7 +1777,206 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:09:26.858706+00:00"
       }
+    },
+    "26031": {
+      "attempts": [],
+      "identity": {
+        "slug": "nora-roberts-mestecko-angels-fall",
+        "title": "Nora Roberts: Městečko Angels Fall",
+        "original_title": "Nora Roberts' Angels Fall",
+        "year": 2007,
+        "runtime_min": 90,
+        "tmdb_id": 30335,
+        "imdb_id": "tt0869921",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25161691",
+          "account_name": "Nora Roberts: Posedlost ohněm (2007) CZ Dabing",
+          "title_similarity": 0.606,
+          "title_contains_alias": false,
+          "film_year": 2007,
+          "candidate_year": 2007,
+          "year_match": true,
+          "film_runtime_min": 90,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T00:09:33.146666+00:00"
+      }
+    },
+    "25951": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad7a41c1576d",
+              "url": "https://prehraj.to/slecna-marplova-cukani-v-palci-2006/5ad7a41c1576d",
+              "title": "Slečna Marplová: Cukání v palci (2006)",
+              "year": null,
+              "duration_sec": 5583,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.391,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5583,
+                "runtime_delta": 0.095,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58a06410a81de",
+              "url": "https://prehraj.to/slecna-marplova-cukani-v-palci-2006/58a06410a81de",
+              "title": "slecna-marplova-cukani-v-palci-2006",
+              "year": null,
+              "duration_sec": 5583,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.391,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5583,
+                "runtime_delta": 0.095,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58a0655d3b3ff",
+              "url": "https://prehraj.to/slecna-marplova-neni-koure-bez-ohynku-2006/58a0655d3b3ff",
+              "title": "slecna-marplova-neni-koure-bez-ohynku-2006",
+              "year": null,
+              "duration_sec": 5581,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.377,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5581,
+                "runtime_delta": 0.094,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58a068f38e3ff",
+              "url": "https://prehraj.to/slecna-marplova-sittafordska-ahada-2006/58a068f38e3ff",
+              "title": "slecna-marplova-sittafordska-ahada-2006",
+              "year": null,
+              "duration_sec": 5571,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.32,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5571,
+                "runtime_delta": 0.092,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8e55e8d73eb2f1ab",
+              "url": "https://prehraj.to/slecna-guru-2006-cs/8e55e8d73eb2f1ab",
+              "title": "Slečna Guru - 2006 CS",
+              "year": null,
+              "duration_sec": 5067,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5067,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:09:34.991100+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "slecna-guru",
+        "title": "Slečna Guru",
+        "original_title": null,
+        "year": 2006,
+        "runtime_min": 85,
+        "tmdb_id": 724850,
+        "imdb_id": "tt0819845",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:09:33.146747+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:09:26.858736+00:00"
+  "updated_at": "2026-08-26T00:09:34.991117+00:00"
 }
