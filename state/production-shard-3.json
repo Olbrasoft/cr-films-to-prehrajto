@@ -3075,7 +3075,152 @@
         },
         "at": "2026-08-26T00:07:54.771653+00:00"
       }
+    },
+    "24635": {
+      "attempts": [],
+      "identity": {
+        "slug": "a-holocaust-szemei",
+        "title": "A Holocaust szemei",
+        "original_title": "Eyes of the Holocaust",
+        "year": 2000,
+        "runtime_min": 56,
+        "tmdb_id": 409933,
+        "imdb_id": "tt0262468",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25523185",
+          "account_name": "Holocaust 2000 (1977)",
+          "title_similarity": 0.541,
+          "title_contains_alias": false,
+          "film_year": 2000,
+          "candidate_year": 2000,
+          "year_match": true,
+          "film_runtime_min": 56,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T00:07:58.699765+00:00"
+      }
+    },
+    "24091": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588bb63081eb8",
+              "url": "https://prehraj.to/sen-noci-svatojanske-tv-film-1973/588bb63081eb8",
+              "title": "Sen-noci-svatojánské---tv-film-(1973)",
+              "year": null,
+              "duration_sec": 4461,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.17,
+                "title_contains_alias": false,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 4461,
+                "runtime_delta": 0.234,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d80c5c12a19f9228",
+              "url": "https://prehraj.to/lady-snowblood-1973-cz-sub-by-arafat-shurayukihime/d80c5c12a19f9228",
+              "title": "Lady Snowblood (1973) CZ sub by arafat, Shurayukihime",
+              "year": null,
+              "duration_sec": 5828,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5828,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "665d1c427b995",
+              "url": "https://prehraj.to/lady-snowblood-1973-hk-video-1080p-bluray-x265-r00t/665d1c427b995",
+              "title": "Lady Snowblood (1973) HK Video (1080p BluRay x265 r00t)",
+              "year": null,
+              "duration_sec": 5828,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5828,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:08:01.927951+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lady-snowblood",
+        "title": "Lady Snowblood",
+        "original_title": null,
+        "year": 1973,
+        "runtime_min": 97,
+        "tmdb_id": 2487,
+        "imdb_id": "tt0158714",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:07:58.699798+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:07:57.441847+00:00"
+  "updated_at": "2026-08-26T00:08:01.927972+00:00"
 }
