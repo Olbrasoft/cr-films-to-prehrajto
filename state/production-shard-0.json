@@ -32340,7 +32340,7 @@
             }
           ]
         },
-        "at": "2026-08-26T02:45:55.237239+00:00"
+        "at": "2026-08-26T02:56:50.220620+00:00"
       }
     },
     "27562": {
@@ -32413,7 +32413,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:45:55.237468+00:00"
+        "at": "2026-08-26T02:56:50.220794+00:00"
       }
     },
     "27546": {
@@ -32711,7 +32711,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:45:55.234487+00:00"
+        "at": "2026-08-26T02:56:50.217898+00:00"
       }
     },
     "27116": {
@@ -33352,7 +33352,7 @@
             }
           ]
         },
-        "at": "2026-08-26T02:45:55.235958+00:00"
+        "at": "2026-08-26T02:56:50.219298+00:00"
       }
     },
     "26538": {
@@ -40016,7 +40016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:45:55.237571+00:00"
+        "at": "2026-08-26T02:56:50.220884+00:00"
       }
     },
     "27040": {
@@ -42367,7 +42367,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:45:55.238062+00:00"
+        "at": "2026-08-26T02:56:50.221405+00:00"
       }
     },
     "26252": {
@@ -47300,6 +47300,98 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:35:15.494477+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5876e89bc4ac6",
+              "url": "https://prehraj.to/sberatelka-la-collectionneuse-1967-srt-cz/5876e89bc4ac6",
+              "title": "Sberatelka--La-Collectionneuse.1967-srt.cz",
+              "year": null,
+              "duration_sec": 5191,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5191,
+                "runtime_delta": 0.039,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8187992f58e2c7a4",
+              "url": "https://prehraj.to/blazen-z-laboratore-4-1967-cs/8187992f58e2c7a4",
+              "title": "Blázen z laboratoře 4 - 1967 CS",
+              "year": null,
+              "duration_sec": 5232,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5232,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1f07619dc9106ea8",
+              "url": "https://prehraj.to/blazen-z-laboratore-4-1967-cs/1f07619dc9106ea8",
+              "title": "Blázen z laboratoře 4 - 1967 CS",
+              "year": null,
+              "duration_sec": 5300,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5300,
+                "runtime_delta": 0.019,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:56:55.939925+00:00"
         }
       ],
       "identity": {
@@ -47318,7 +47410,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:35:14.989560+00:00"
+        "at": "2026-08-26T02:56:50.221464+00:00"
       }
     },
     "23954": {
@@ -47638,5 +47730,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T02:56:46.442099+00:00"
+  "updated_at": "2026-08-26T02:56:55.939943+00:00"
 }
