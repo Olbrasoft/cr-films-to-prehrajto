@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:15:36.101995+00:00"
+        "at": "2026-08-26T11:21:54.640281+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-26T11:15:36.103391+00:00"
+        "at": "2026-08-26T11:21:54.641657+00:00"
       }
     },
     "27238": {
@@ -1016,7 +1016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:15:36.103865+00:00"
+        "at": "2026-08-26T11:21:54.642178+00:00"
       }
     },
     "16782": {
@@ -1096,7 +1096,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:15:36.104925+00:00"
+        "at": "2026-08-26T11:21:54.643263+00:00"
       }
     },
     "29350": {
@@ -1225,7 +1225,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T11:15:36.107780+00:00"
+        "at": "2026-08-26T11:21:54.646095+00:00"
       }
     },
     "28934": {
@@ -2571,7 +2571,7 @@
             }
           ]
         },
-        "at": "2026-08-26T11:15:36.109180+00:00"
+        "at": "2026-08-26T11:21:54.647366+00:00"
       }
     },
     "22670": {
@@ -3876,7 +3876,7 @@
             }
           ]
         },
-        "at": "2026-08-26T11:15:36.110899+00:00"
+        "at": "2026-08-26T11:21:54.649090+00:00"
       }
     },
     "15846": {
@@ -4228,7 +4228,723 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T11:21:50.658201+00:00"
       }
+    },
+    "11966": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6f44298da05fe989",
+              "url": "https://prehraj.to/kour-1990-avi/6f44298da05fe989",
+              "title": "Kour (1990).avi",
+              "year": null,
+              "duration_sec": 5361,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5361,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "257d4fefe17fd2be",
+              "url": "https://prehraj.to/kour-1990/257d4fefe17fd2be",
+              "title": "Kouř (1990)",
+              "year": null,
+              "duration_sec": 5361,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5361,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b877528916529334",
+              "url": "https://prehraj.to/kour-1990/b877528916529334",
+              "title": "Kour (1990)",
+              "year": null,
+              "duration_sec": 5361,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5361,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d7022b120a4",
+              "url": "https://prehraj.to/chinaski-dlouhej-kour/67d7022b120a4",
+              "title": "Chinaski - Dlouhej kour",
+              "year": null,
+              "duration_sec": 225,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.958,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d702e11cf1c",
+              "url": "https://prehraj.to/chinaski-dlohej-kour/67d702e11cf1c",
+              "title": "Chinaski - Dlohej kouř",
+              "year": null,
+              "duration_sec": 224,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.959,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6902644365baf",
+              "url": "https://prehraj.to/www-neurobeat-kour/6902644365baf",
+              "title": "WWW - Neurobeat - Kouř",
+              "year": null,
+              "duration_sec": 260,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.952,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "675574d7cd0c7",
+              "url": "https://prehraj.to/1991-album-josef-kobr/675574d7cd0c7",
+              "title": "1991-Album, Josef Kobr",
+              "year": null,
+              "duration_sec": 3141,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.24,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 3141,
+                "runtime_delta": 0.418,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ffcc38a5c239cba8",
+              "url": "https://prehraj.to/kour-je-to-fajn-klip-z-filmu/ffcc38a5c239cba8",
+              "title": "KOUŘ  - Je to fajn - Klip z filmu",
+              "year": null,
+              "duration_sec": 246,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.954,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "35e42722504377a1",
+              "url": "https://prehraj.to/your-host-2025-horor-usa-sk-titulky-1080p-mkv/35e42722504377a1",
+              "title": "Your Host (2025) horor USA SK TITULKY 1080p.mkv",
+              "year": null,
+              "duration_sec": 5584,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "614d1a3886909",
+              "url": "https://prehraj.to/zdena-mane-dala-kour/614d1a3886909",
+              "title": "Zdena Mane dala kour",
+              "year": null,
+              "duration_sec": 3788,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 3788,
+                "runtime_delta": 0.299,
+                "rejection_reason": "title_only"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "73ab46f2614f99f4",
+              "url": "https://prehraj.to/jack-reachers03e06-kour-na-vode/73ab46f2614f99f4",
+              "title": "Jack ReacherS03E06 Kouř na vodě",
+              "year": null,
+              "duration_sec": 2898,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 2898,
+                "runtime_delta": 0.463,
+                "rejection_reason": "title_only"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60bbc90fcf9c6",
+              "url": "https://prehraj.to/nour-2019-cztitulky/60bbc90fcf9c6",
+              "title": "Nour (2019) CZtitulky",
+              "year": null,
+              "duration_sec": 5417,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c2ec61c8f99a9586",
+              "url": "https://prehraj.to/nour-2019-en/c2ec61c8f99a9586",
+              "title": "Nour - 2019 EN",
+              "year": null,
+              "duration_sec": 5417,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab643eb588b7",
+              "url": "https://prehraj.to/kouc-2010/5ab643eb588b7",
+              "title": "Kouč (2010)",
+              "year": null,
+              "duration_sec": 5215,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "712d5a01cb16f9e9",
+              "url": "https://prehraj.to/kouc-2010-cs/712d5a01cb16f9e9",
+              "title": "Kouč - 2010 CS",
+              "year": null,
+              "duration_sec": 5215,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "320b001b1edc08cd",
+              "url": "https://prehraj.to/kouc-2010-cs/320b001b1edc08cd",
+              "title": "Kouč - 2010 CS",
+              "year": null,
+              "duration_sec": 6245,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5df4876bbab3d",
+              "url": "https://prehraj.to/the-grand-tour-s04e01-cz-titulky/5df4876bbab3d",
+              "title": "The Grand Tour S04E01 CZ titulky",
+              "year": null,
+              "duration_sec": 5495,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6846fd39c4c95",
+              "url": "https://prehraj.to/columbo-vrazda-kour-a-stiny-1989/6846fd39c4c95",
+              "title": "Columbo - Vražda, kouř a stíny (1989)",
+              "year": null,
+              "duration_sec": 5436,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1989,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "604cbb45eb6c2",
+              "url": "https://prehraj.to/sour-2021-1080p-webrip-x264-aac-eng/604cbb45eb6c2",
+              "title": "Sour 2021 1080p.WEBRip.x264.AAC-eng",
+              "year": null,
+              "duration_sec": 4212,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d9ca42ad6f00",
+              "url": "https://prehraj.to/kouc/5d9ca42ad6f00",
+              "title": "Kouč",
+              "year": null,
+              "duration_sec": 5215,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.75,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5215,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c0289a2eae4f",
+              "url": "https://prehraj.to/kouc/5c0289a2eae4f",
+              "title": "Kouč",
+              "year": null,
+              "duration_sec": 5215,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.75,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5215,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67615f01654d1",
+              "url": "https://prehraj.to/02-cartman-kouri/67615f01654d1",
+              "title": "02. Cartman kouří",
+              "year": null,
+              "duration_sec": 1325,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.755,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "619b67673888c",
+              "url": "https://prehraj.to/ctvery-vanoce-four-christmases-2008-bdrip-1080p-cz-sk-en/619b67673888c",
+              "title": "Ctvery Vanoce - Four Christmases 2008 BDRip 1080p CZ SK EN",
+              "year": null,
+              "duration_sec": 5312,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "37c9083fbd829832",
+              "url": "https://prehraj.to/grand-tour-s04e04-04-2019-cz-dab-1080p-masakr-ve-trech/37c9083fbd829832",
+              "title": "Grand Tour S04E04-04 2019 CZ dab 1080p - Masakr ve třech",
+              "year": null,
+              "duration_sec": 4119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5963ca0d70133",
+              "url": "https://prehraj.to/souten-kouro-01/5963ca0d70133",
+              "title": "Souten_Kouro_01",
+              "year": null,
+              "duration_sec": 1369,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.746,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fa7bd01a9259887b",
+              "url": "https://prehraj.to/18-rachel-kouri-avi/fa7bd01a9259887b",
+              "title": "18 Rachel kouří.avi",
+              "year": null,
+              "duration_sec": 1273,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.764,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "624ac821259a1",
+              "url": "https://prehraj.to/02-cartman-kouri/624ac821259a1",
+              "title": "02. Cartman kouří",
+              "year": null,
+              "duration_sec": 1325,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.755,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5963c9a6c1248",
+              "url": "https://prehraj.to/souten-kouro-05/5963c9a6c1248",
+              "title": "Souten_Kouro_05",
+              "year": null,
+              "duration_sec": 1365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.747,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5963c9be97515",
+              "url": "https://prehraj.to/souten-kouro-06/5963c9be97515",
+              "title": "Souten_Kouro_06",
+              "year": null,
+              "duration_sec": 1365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.747,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5963c9b291d42",
+              "url": "https://prehraj.to/souten-kouro-03/5963c9b291d42",
+              "title": "Souten_Kouro_03",
+              "year": null,
+              "duration_sec": 1365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.747,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7cd7d7ef0eacdefb",
+              "url": "https://prehraj.to/the-grand-tour-s06e01-posledni-na-cestu-cz-raty-mkv/7cd7d7ef0eacdefb",
+              "title": "The Grand Tour_S06E01_Poslední na cestu_CZ_[Raty].mkv",
+              "year": null,
+              "duration_sec": 7807,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.109,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 7807,
+                "runtime_delta": 0.446,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Kouř (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5963c9d92db0a",
+              "url": "https://prehraj.to/souten-kouro-02v2/5963c9d92db0a",
+              "title": "Souten_Kouro_02v2",
+              "year": null,
+              "duration_sec": 1431,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.735,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouř (1991)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T11:22:00.871144+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "kour-1991",
+        "title": "Kouř",
+        "original_title": "Kouř",
+        "year": 1991,
+        "runtime_min": 90,
+        "tmdb_id": 55636,
+        "imdb_id": "tt0102234",
+        "created_at": "2026-04-14 15:36:01.703663+02:00",
+        "added_at": "2025-03-06 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T11:21:54.649126+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T11:21:50.658227+00:00"
+  "updated_at": "2026-08-26T11:22:00.871158+00:00"
 }
