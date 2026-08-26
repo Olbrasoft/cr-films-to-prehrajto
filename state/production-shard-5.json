@@ -1281,7 +1281,7 @@
             }
           ]
         },
-        "at": "2026-08-26T00:15:47.705618+00:00"
+        "at": "2026-08-26T00:19:44.940303+00:00"
       }
     },
     "16845": {
@@ -1624,7 +1624,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:15:47.706396+00:00"
+        "at": "2026-08-26T00:19:44.941071+00:00"
       }
     },
     "28277": {
@@ -1691,7 +1691,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:15:47.706645+00:00"
+        "at": "2026-08-26T00:19:44.941313+00:00"
       }
     },
     "27989": {
@@ -2087,7 +2087,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T00:15:47.706995+00:00"
+        "at": "2026-08-26T00:19:44.941683+00:00"
       }
     },
     "27149": {
@@ -2136,7 +2136,94 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T00:19:40.987706+00:00"
       }
+    },
+    "26997": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fca7ed60fa9f",
+              "url": "https://prehraj.to/cadaver-2020-cztitulky/5fca7ed60fa9f",
+              "title": "Cadaver (2020) CZtitulky",
+              "year": null,
+              "duration_sec": 5219,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.524,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5219,
+                "runtime_delta": 0.036,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ff42dc63d3dba959",
+              "url": "https://prehraj.to/el-cadaver-insepulto-2020-cz-titulky/ff42dc63d3dba959",
+              "title": "El cadáver insepulto (2020) CZ titulky",
+              "year": null,
+              "duration_sec": 5217,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5217,
+                "runtime_delta": 0.035,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:19:48.749717+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "el-cadaver-insepulto",
+        "title": "El cadáver insepulto",
+        "original_title": "The Unburied",
+        "year": 2020,
+        "runtime_min": 84,
+        "tmdb_id": 766008,
+        "imdb_id": "tt13575952",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:19:44.941720+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:19:40.987733+00:00"
+  "updated_at": "2026-08-26T00:19:48.749735+00:00"
 }
