@@ -4655,7 +4655,18 @@
       }
     },
     "11135": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "6716af799f765",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T05:41:59.647423+00:00"
+        }
+      ],
       "identity": {
         "slug": "cerne-vanoce-1974",
         "title": "Černé Vánoce",
@@ -4676,5 +4687,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T05:41:56.879341+00:00"
+  "updated_at": "2026-08-26T05:41:59.647443+00:00"
 }
