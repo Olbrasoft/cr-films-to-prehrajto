@@ -1633,7 +1633,121 @@
         },
         "at": "2026-08-26T00:30:01.121623+00:00"
       }
+    },
+    "26622": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61bb1d214ef12",
+              "url": "https://prehraj.to/muz-se-zajecima-usima-2020-1080p-web-dl-dd5-1-h-264-dedo/61bb1d214ef12",
+              "title": "Muz.se.zajecima.usima.2020.1080p.WEB-DL.DD5.1.H.264-DeDo",
+              "year": null,
+              "duration_sec": 6132,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.138,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 6132,
+                "runtime_delta": 0.278,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b44739ded7f",
+              "url": "https://prehraj.to/the-dalton-gang-2020-full-movie-m4uhd/67b44739ded7f",
+              "title": "The Dalton Gang (2020) Full Movie - M4uHD",
+              "year": null,
+              "duration_sec": 4820,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4820,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67cd6f121511e",
+              "url": "https://prehraj.to/the-dalton-gang-2020-720p-webrip-x264-aac-yts-mx/67cd6f121511e",
+              "title": "The.Dalton.Gang.2020.720p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 4819,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4819,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:30:17.921382+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-dalton-gang",
+        "title": "The Dalton Gang",
+        "original_title": null,
+        "year": 2020,
+        "runtime_min": 80,
+        "tmdb_id": 729648,
+        "imdb_id": "tt11902980",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:30:08.323759+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:30:06.950184+00:00"
+  "updated_at": "2026-08-26T00:30:17.921401+00:00"
 }
