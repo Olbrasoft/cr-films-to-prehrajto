@@ -1578,7 +1578,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:05:19.857541+00:00"
+        "at": "2026-08-26T00:07:49.793831+00:00"
       }
     },
     "17083": {
@@ -1898,7 +1898,7 @@
             }
           ]
         },
-        "at": "2026-08-25T23:05:19.873472+00:00"
+        "at": "2026-08-26T00:07:49.804344+00:00"
       }
     },
     "29755": {
@@ -2237,7 +2237,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:05:19.874921+00:00"
+        "at": "2026-08-26T00:07:49.805318+00:00"
       }
     },
     "27675": {
@@ -2874,7 +2874,121 @@
         "verified_at": "2026-08-25T23:29:52.174816+00:00",
         "live_display_name": "Nine Lives (2005) CZ titulky"
       }
+    },
+    "25115": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587edf7423361",
+              "url": "https://prehraj.to/tan-lines-2007-cz-tit/587edf7423361",
+              "title": "Tan-Lines-2007,-CZ-tit",
+              "year": null,
+              "duration_sec": 5777,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.171,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5777,
+                "runtime_delta": 0.014,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6c61f675251f0085",
+              "url": "https://prehraj.to/valentina-a-jeji-tango-2007-cs/6c61f675251f0085",
+              "title": "Valentina a její tango - 2007 CS",
+              "year": null,
+              "duration_sec": 5617,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5617,
+                "runtime_delta": 0.015,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a902f825907e",
+              "url": "https://prehraj.to/valentina-a-jeji-tango-2007/5a902f825907e",
+              "title": "Valentina a její tango (2007)",
+              "year": null,
+              "duration_sec": 5617,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5617,
+                "runtime_delta": 0.015,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:07:53.482537+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "valentina-a-jeji-tango",
+        "title": "Valentina a její tango",
+        "original_title": "Valentina's Tango",
+        "year": 2007,
+        "runtime_min": 95,
+        "tmdb_id": 278965,
+        "imdb_id": "tt0364098",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:07:49.805362+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:06:59.975387+00:00"
+  "updated_at": "2026-08-26T00:07:53.482560+00:00"
 }
