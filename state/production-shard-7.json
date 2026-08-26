@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.744306+00:00"
+        "at": "2026-08-26T05:57:23.629503+00:00"
       }
     },
     "28991": {
@@ -212,7 +212,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:49:42.746473+00:00"
+        "at": "2026-08-26T05:57:23.631658+00:00"
       }
     },
     "28071": {
@@ -357,7 +357,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.747094+00:00"
+        "at": "2026-08-26T05:57:23.632296+00:00"
       }
     },
     "26823": {
@@ -388,7 +388,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.747175+00:00"
+        "at": "2026-08-26T05:57:23.632358+00:00"
       }
     },
     "23807": {
@@ -768,7 +768,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.748721+00:00"
+        "at": "2026-08-26T05:57:23.633883+00:00"
       }
     },
     "28863": {
@@ -799,7 +799,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.749159+00:00"
+        "at": "2026-08-26T05:57:23.634313+00:00"
       }
     },
     "28823": {
@@ -1812,7 +1812,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.749656+00:00"
+        "at": "2026-08-26T05:57:23.634806+00:00"
       }
     },
     "25951": {
@@ -3036,7 +3036,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:49:42.752711+00:00"
+        "at": "2026-08-26T05:57:23.637778+00:00"
       }
     },
     "23343": {
@@ -4340,7 +4340,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.753591+00:00"
+        "at": "2026-08-26T05:57:23.638642+00:00"
       }
     },
     "15295": {
@@ -4605,7 +4605,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T05:49:42.754855+00:00"
+        "at": "2026-08-26T05:57:23.639889+00:00"
       }
     },
     "7783": {
@@ -4651,7 +4651,7 @@
             }
           ]
         },
-        "at": "2026-08-26T05:49:42.757398+00:00"
+        "at": "2026-08-26T05:57:23.642398+00:00"
       }
     },
     "11135": {
@@ -4745,7 +4745,121 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T05:57:20.249054+00:00"
       }
+    },
+    "11279": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587ce782630bb721",
+              "url": "https://prehraj.to/silnejsi-nez-strach-mp4/587ce782630bb721",
+              "title": "Silnější než strach.mp4",
+              "year": null,
+              "duration_sec": 4713,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1979,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4713,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9663fc7b2e074ae3",
+              "url": "https://prehraj.to/silnejsi-nez-strach-1978-cs/9663fc7b2e074ae3",
+              "title": "Silnější než strach - 1978 CS",
+              "year": null,
+              "duration_sec": 4713,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1979,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4713,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "679e00a856b0d",
+              "url": "https://prehraj.to/silnejsi-nez-strach/679e00a856b0d",
+              "title": "Silnější než strach",
+              "year": null,
+              "duration_sec": 4713,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1979,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4713,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T05:57:28.809055+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "silnejsi-nez-strach-1979",
+        "title": "Silnější než strach",
+        "original_title": "Silnější než strach",
+        "year": 1979,
+        "runtime_min": 79,
+        "tmdb_id": 831401,
+        "imdb_id": "tt0078270",
+        "created_at": "2026-04-14 15:31:21.625077+02:00",
+        "added_at": "2025-12-10 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T05:57:23.642785+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T05:57:20.249084+00:00"
+  "updated_at": "2026-08-26T05:57:28.809072+00:00"
 }
