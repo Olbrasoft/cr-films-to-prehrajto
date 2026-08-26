@@ -1747,7 +1747,94 @@
         },
         "at": "2026-08-26T00:30:08.323759+00:00"
       }
+    },
+    "26374": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "65005b0479ed6",
+              "url": "https://prehraj.to/the-dark-knight-2008-2160p-bluray-remux-hevc-dts-hd-ma-5-1-cz-en-tnt/65005b0479ed6",
+              "title": "The.Dark.Knight.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-CZ.EN-TNT",
+              "year": null,
+              "duration_sec": 9132,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.211,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 9132,
+                "runtime_delta": 0.45,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5875fbb0f2068",
+              "url": "https://prehraj.to/scusa-ma-ti-chiamo-amore/5875fbb0f2068",
+              "title": "Scusa-ma-ti-chiamo-amore",
+              "year": null,
+              "duration_sec": 6198,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 6198,
+                "runtime_delta": 0.016,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:30:22.536775+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "scusa-ma-ti-chiamo-amore",
+        "title": "Scusa ma ti chiamo amore",
+        "original_title": "Sorry if I Love You",
+        "year": 2008,
+        "runtime_min": 105,
+        "tmdb_id": 34494,
+        "imdb_id": "tt1074213",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:30:19.349875+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:30:17.921401+00:00"
+  "updated_at": "2026-08-26T00:30:22.536795+00:00"
 }
