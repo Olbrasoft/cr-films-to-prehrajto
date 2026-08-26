@@ -14700,7 +14700,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:46:41.464182+00:00"
+        "at": "2026-08-26T16:53:41.409301+00:00"
       }
     },
     "29121": {
@@ -14784,7 +14784,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:46:41.464936+00:00"
+        "at": "2026-08-26T16:53:41.410019+00:00"
       }
     },
     "29103": {
@@ -15179,7 +15179,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:46:41.468941+00:00"
+        "at": "2026-08-26T16:53:41.413880+00:00"
       }
     },
     "29045": {
@@ -41892,7 +41892,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:46:41.466508+00:00"
+        "at": "2026-08-26T16:53:41.411529+00:00"
       }
     },
     "25169": {
@@ -42789,7 +42789,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:46:41.467551+00:00"
+        "at": "2026-08-26T16:53:41.412540+00:00"
       }
     },
     "23061": {
@@ -48083,7 +48083,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T16:46:41.472343+00:00"
+        "at": "2026-08-26T16:53:41.417316+00:00"
       }
     },
     "25951": {
@@ -50528,7 +50528,7 @@
             }
           ]
         },
-        "at": "2026-08-26T16:46:41.472979+00:00"
+        "at": "2026-08-26T16:53:41.417961+00:00"
       }
     },
     "24963": {
@@ -62669,7 +62669,90 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T16:53:37.594176+00:00"
       }
+    },
+    "15473": {
+      "attempts": [],
+      "identity": {
+        "slug": "co-to-s-tebou-je-2024",
+        "title": "Co to s tebou je?!",
+        "original_title": "Cora Bora",
+        "year": 2024,
+        "runtime_min": 92,
+        "tmdb_id": 976226,
+        "imdb_id": "tt20221208",
+        "created_at": "2026-04-14 16:02:14.310093+02:00",
+        "added_at": "2024-09-07 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25095904",
+          "account_name": "Navždy s tebou? (2025) CZ",
+          "title_similarity": 0.514,
+          "title_contains_alias": false,
+          "film_year": 2024,
+          "candidate_year": 2025,
+          "year_match": true,
+          "film_runtime_min": 92,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T16:53:41.418723+00:00"
+      }
+    },
+    "865": {
+      "attempts": [],
+      "identity": {
+        "slug": "v-hlave-2",
+        "title": "V hlavě 2",
+        "original_title": "Inside Out 2",
+        "year": 2024,
+        "runtime_min": null,
+        "tmdb_id": 1022789,
+        "imdb_id": "tt22022452",
+        "created_at": "2026-04-13 13:19:24.188776+02:00",
+        "added_at": "2024-08-21 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25267364",
+          "account_name": "The Fire Inside (2024) CZ Titulky",
+          "title_similarity": 0.5,
+          "title_contains_alias": false,
+          "film_year": 2024,
+          "candidate_year": 2024,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T16:53:41.420059+00:00"
+      }
+    },
+    "15145": {
+      "attempts": [],
+      "identity": {
+        "slug": "kto-sakra-pozval-charlieho-2023",
+        "title": "Kto sakra pozval Charlieho",
+        "original_title": "Who Invited Charlie?",
+        "year": 2023,
+        "runtime_min": 101,
+        "tmdb_id": 1042279,
+        "imdb_id": "tt16021872",
+        "created_at": "2026-04-14 16:00:39.118682+02:00",
+        "added_at": "2024-08-10 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T16:53:41.420091+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T16:53:37.594211+00:00"
+  "updated_at": "2026-08-26T16:53:42.086768+00:00"
 }
