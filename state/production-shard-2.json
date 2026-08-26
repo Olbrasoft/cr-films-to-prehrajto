@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:14:01.487255+00:00"
+        "at": "2026-08-26T02:23:40.210815+00:00"
       }
     },
     "27350": {
@@ -919,7 +919,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:14:01.488895+00:00"
+        "at": "2026-08-26T02:23:40.212515+00:00"
       }
     },
     "22730": {
@@ -2957,7 +2957,7 @@
             }
           ]
         },
-        "at": "2026-08-26T02:14:01.503871+00:00"
+        "at": "2026-08-26T02:23:40.227676+00:00"
       }
     },
     "22474": {
@@ -2988,7 +2988,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:14:01.504689+00:00"
+        "at": "2026-08-26T02:23:40.228513+00:00"
       }
     },
     "22354": {
@@ -3513,7 +3513,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:14:01.505158+00:00"
+        "at": "2026-08-26T02:23:40.228991+00:00"
       }
     },
     "28426": {
@@ -3693,7 +3693,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:14:01.505372+00:00"
+        "at": "2026-08-26T02:23:40.229213+00:00"
       }
     },
     "27970": {
@@ -4242,7 +4242,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-26T02:14:01.505797+00:00"
+        "at": "2026-08-26T02:23:40.229646+00:00"
       }
     },
     "25770": {
@@ -4898,7 +4898,121 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T02:23:33.044264+00:00"
       }
+    },
+    "22314": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55be9821dea94",
+              "url": "https://prehraj.to/bocianie-hniezdo-cast-4-sr-drama-1981-tvrip/55be9821dea94",
+              "title": "Bocianie-Hniezdo-cast-4-SR-drama-1981-TVrip",
+              "year": null,
+              "duration_sec": 4019,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.291,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 4019,
+                "runtime_delta": 0.239,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55be953a01962",
+              "url": "https://prehraj.to/bocianie-hniezdo-cast-3-sr-drama-1981-tvrip/55be953a01962",
+              "title": "Bocianie-hniezdo-cast-3-SR-drama-1981-TVrip",
+              "year": null,
+              "duration_sec": 3872,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.291,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3872,
+                "runtime_delta": 0.267,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e2b75a34164252d5",
+              "url": "https://prehraj.to/casta-e-pura-1981-it-fr-esp-eroticky-komedie/e2b75a34164252d5",
+              "title": "Casta e pura-1981,IT,FR,ESP-eroticky,komedie",
+              "year": null,
+              "duration_sec": 5041,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5041,
+                "runtime_delta": 0.045,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T02:23:43.509093+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "casta-e-pura",
+        "title": "Casta e pura",
+        "original_title": "Chaste and Pure",
+        "year": 1981,
+        "runtime_min": 88,
+        "tmdb_id": 292592,
+        "imdb_id": "tt0075816",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T02:23:40.229689+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T02:23:33.044296+00:00"
+  "updated_at": "2026-08-26T02:23:43.509113+00:00"
 }
