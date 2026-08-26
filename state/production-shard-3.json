@@ -311,7 +311,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:05:19.854346+00:00"
+        "at": "2026-08-26T00:06:59.480850+00:00"
       }
     },
     "28619": {
@@ -488,7 +488,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:05:19.854932+00:00"
+        "at": "2026-08-26T00:06:59.481207+00:00"
       }
     },
     "28071": {
@@ -713,7 +713,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T23:05:19.856200+00:00"
+        "at": "2026-08-26T00:06:59.482017+00:00"
       }
     },
     "27263": {
@@ -1344,6 +1344,44 @@
           "reason": "All currently acceptable candidates were exhausted",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:21:59.557371+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "63bd1db86c459",
+              "url": "https://prehraj.to/the-karate-kid-1984-2160p-remux-hevc-10bit-hdr-dovi-cz-eng-truehd-7-1-atmos-angel/63bd1db86c459",
+              "title": "The Karate Kid 1984 2160p REMUX HEVC 10bit HDR DoVi Cz Eng TrueHD 7.1 Atmos-Angel",
+              "year": null,
+              "duration_sec": 7615,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 7615,
+                "runtime_delta": 0.365,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-26T00:06:59.975369+00:00"
         }
       ],
       "identity": {
@@ -1362,7 +1400,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:21:52.033222+00:00"
+        "at": "2026-08-26T00:06:59.482685+00:00"
       }
     },
     "22515": {
@@ -2838,5 +2876,5 @@
       }
     }
   },
-  "updated_at": "2026-08-26T00:05:24.185881+00:00"
+  "updated_at": "2026-08-26T00:06:59.975387+00:00"
 }
