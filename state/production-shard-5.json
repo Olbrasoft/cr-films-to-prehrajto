@@ -3370,7 +3370,59 @@
         },
         "at": "2026-08-26T00:52:09.561730+00:00"
       }
+    },
+    "25405": {
+      "attempts": [],
+      "identity": {
+        "slug": "predtucha-2004",
+        "title": "Předtucha",
+        "original_title": "Premonition",
+        "year": 2004,
+        "runtime_min": 95,
+        "tmdb_id": 40069,
+        "imdb_id": "tt0419280",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25365298",
+          "account_name": "Premonition (2005) CZ Titulky",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2004,
+          "candidate_year": 2005,
+          "year_match": true,
+          "film_runtime_min": 95,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-26T00:52:16.703295+00:00"
+      }
+    },
+    "23869": {
+      "attempts": [],
+      "identity": {
+        "slug": "the-ugly",
+        "title": "The Ugly",
+        "original_title": null,
+        "year": 1997,
+        "runtime_min": 93,
+        "tmdb_id": 40961,
+        "imdb_id": "tt0120401",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-26T00:52:16.703439+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-26T00:52:13.139767+00:00"
+  "updated_at": "2026-08-26T00:52:18.119047+00:00"
 }
