@@ -33134,7 +33134,18 @@
       }
     },
     "11679": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "51069",
+          "status": "failed",
+          "reason": "Video upload failed (HTTPError)",
+          "permanent": false,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T22:00:50.256068+00:00"
+        }
+      ],
       "identity": {
         "slug": "polda-1988",
         "title": "Polda",
@@ -33155,5 +33166,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T21:56:01.958295+00:00"
+  "updated_at": "2026-08-27T22:00:50.256097+00:00"
 }
