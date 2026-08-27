@@ -18992,7 +18992,67 @@
         },
         "at": "2026-08-27T16:00:48.557533+00:00"
       }
+    },
+    "27735": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "598b18ace7125",
+              "url": "https://prehraj.to/jack-irish-black-tide-2012-bdrip-xvid-taste/598b18ace7125",
+              "title": "jack.irish.black.tide.2012.bdrip.xvid-taste",
+              "year": null,
+              "duration_sec": 5862,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.255,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5862,
+                "runtime_delta": 0.123,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:01:00.033102+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "a-taste-of-romance",
+        "title": "A Taste of Romance",
+        "original_title": null,
+        "year": 2012,
+        "runtime_min": 87,
+        "tmdb_id": 85887,
+        "imdb_id": "tt1849868",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:00:51.701776+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:00:49.942979+00:00"
+  "updated_at": "2026-08-27T16:01:00.033123+00:00"
 }
