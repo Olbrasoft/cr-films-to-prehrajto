@@ -25914,7 +25914,67 @@
         },
         "at": "2026-08-27T16:13:51.659678+00:00"
       }
+    },
+    "24119": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5889e51308fad",
+              "url": "https://prehraj.to/ma-laska-s-jakubem-1981-cesky-film-do-mobilu-misa/5889e51308fad",
+              "title": "Má-láska-s-Jakubem-1981-Český-film-do-mobilu-míša",
+              "year": null,
+              "duration_sec": 5342,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.167,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5342,
+                "runtime_delta": 0.011,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:13:56.950864+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "si-ma-gueule-vous-plait",
+        "title": "Si ma gueule vous plaît...",
+        "original_title": null,
+        "year": 1981,
+        "runtime_min": 90,
+        "tmdb_id": 566516,
+        "imdb_id": "tt0164885",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:13:55.223033+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:13:53.183949+00:00"
+  "updated_at": "2026-08-27T16:13:56.950883+00:00"
 }
