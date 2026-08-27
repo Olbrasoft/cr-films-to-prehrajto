@@ -30170,7 +30170,831 @@
         },
         "at": "2026-08-27T16:24:34.502496+00:00"
       }
+    },
+    "21647": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5891d66682e36",
+              "url": "https://prehraj.to/volani-divociny-1962-cz-rodinny-drama-dobrodruzny/5891d66682e36",
+              "title": "Volání-divočiny-1962-CZ-Rodinný,-Drama,-Dobrodružný",
+              "year": null,
+              "duration_sec": 5709,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.894,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab4f13c95fe5",
+              "url": "https://prehraj.to/na-divokem-zapade-1937/5ab4f13c95fe5",
+              "title": "Na divokém západě (1937)",
+              "year": null,
+              "duration_sec": 3592,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1937,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "605d016471f31",
+              "url": "https://prehraj.to/na-divokem-zapade-1937-czdab/605d016471f31",
+              "title": "Na divokém západě (1937) CZdab",
+              "year": null,
+              "duration_sec": 3593,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1937,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c069c567dd4d",
+              "url": "https://prehraj.to/na-divokem-zapade/5c069c567dd4d",
+              "title": "Na divokém západě",
+              "year": null,
+              "duration_sec": 3592,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.483,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4029806e57c491c9",
+              "url": "https://prehraj.to/na-divokem-zapade-1937-cs/4029806e57c491c9",
+              "title": "Na divokém západě - 1937 CS",
+              "year": null,
+              "duration_sec": 3592,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1937,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "72602f21c13b2d3d",
+              "url": "https://prehraj.to/na-divokem-zapade-1937-cs/72602f21c13b2d3d",
+              "title": "Na divokém západě - 1937 CS",
+              "year": null,
+              "duration_sec": 3743,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1937,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b6b7ace2c17",
+              "url": "https://prehraj.to/22-na-divokem-zapade/68b6b7ace2c17",
+              "title": "22. Na divokem zapade",
+              "year": null,
+              "duration_sec": 419,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 419,
+                "runtime_delta": 0.127,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "926c96888a6a0e6c",
+              "url": "https://prehraj.to/ztraceni-na-divokem-zapade-s1e3-cs/926c96888a6a0e6c",
+              "title": "Ztraceni na Divokém západě - S1E3 CS",
+              "year": null,
+              "duration_sec": 2654,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cfc5f1d484f2217d",
+              "url": "https://prehraj.to/ztraceni-na-divokem-zapade-s1e1-epizoda-1-cs/cfc5f1d484f2217d",
+              "title": "Ztraceni na Divokém západě - S1E1 Epizoda 1 CS",
+              "year": null,
+              "duration_sec": 2634,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6866169637bef",
+              "url": "https://prehraj.to/22-na-divokem-zapade-bydejv/6866169637bef",
+              "title": "22 Na divokem zapade byDejv",
+              "year": null,
+              "duration_sec": 419,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 419,
+                "runtime_delta": 0.127,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c88074124a1b5c8b",
+              "url": "https://prehraj.to/ztraceni-na-divokem-zapade-s1e2-cs/c88074124a1b5c8b",
+              "title": "Ztraceni na Divokém západě - S1E2 CS",
+              "year": null,
+              "duration_sec": 2663,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a45fd0573b8426f1",
+              "url": "https://prehraj.to/ztraceni-na-divokem-zapade-s1e2-epizoda-2-cs/a45fd0573b8426f1",
+              "title": "Ztraceni na Divokém západě - S1E2 Epizoda 2 CS",
+              "year": null,
+              "duration_sec": 2663,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68f4457c08e13",
+              "url": "https://prehraj.to/12-na-divokem-zapade/68f4457c08e13",
+              "title": "12.Na Divokém západě",
+              "year": null,
+              "duration_sec": 441,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 441,
+                "runtime_delta": 0.081,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65c0a68983a58",
+              "url": "https://prehraj.to/22-na-divokem-zapade/65c0a68983a58",
+              "title": "22.Na divokem zapade",
+              "year": null,
+              "duration_sec": 418,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 418,
+                "runtime_delta": 0.129,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2f7f19b85860d0c4",
+              "url": "https://prehraj.to/ztraceni-na-divokem-zapade-s1e3-epizoda-3-cs/2f7f19b85860d0c4",
+              "title": "Ztraceni na Divokém západě - S1E3 Epizoda 3 CS",
+              "year": null,
+              "duration_sec": 2654,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ebf2f3da8deee9c3",
+              "url": "https://prehraj.to/ztraceni-na-divokem-zapade-s1e1-cs/ebf2f3da8deee9c3",
+              "title": "Ztraceni na Divokém západě - S1E1 CS",
+              "year": null,
+              "duration_sec": 2634,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6634a2e75c210",
+              "url": "https://prehraj.to/036-kaceri-na-divokem-zapade/6634a2e75c210",
+              "title": "036 Kaceri na divokem zapade",
+              "year": null,
+              "duration_sec": 1371,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.856,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dd4b4b43f82a79e",
+              "url": "https://prehraj.to/lucky-luke-na-divokem-zapade-2007-cs/5dd4b4b43f82a79e",
+              "title": "Lucky Luke na Divokém západě - 2007 CS",
+              "year": null,
+              "duration_sec": 4983,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 2007,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa47c8ab51ad512",
+              "url": "https://prehraj.to/lucky-luke-na-divokem-zapade-2007-cs/5aa47c8ab51ad512",
+              "title": "Lucky Luke na Divokém západě - 2007 CS",
+              "year": null,
+              "duration_sec": 5000,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 2007,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55d65eec02926",
+              "url": "https://prehraj.to/lucky-luke-na-divokem-zapade-2014-cz-dab-anim-pohadka-koko/55d65eec02926",
+              "title": "Lucky Luke na divokém západě - 2014 cz dab.anim.pohádka koko",
+              "year": null,
+              "duration_sec": 4985,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678acd9da02ae",
+              "url": "https://prehraj.to/lucky-luke-na-divokem-zapade-2014/678acd9da02ae",
+              "title": "Lucky Luke na divokem zapade_2014",
+              "year": null,
+              "duration_sec": 4985,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.385,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a520bba71008",
+              "url": "https://prehraj.to/bob-bobek-na-divokem-zapade/5a520bba71008",
+              "title": "Bob & Bobek - Na divokém západě",
+              "year": null,
+              "duration_sec": 417,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 417,
+                "runtime_delta": 0.131,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a318a2d2be97",
+              "url": "https://prehraj.to/postak-pat-zachrana-na-divokem-zapade/5a318a2d2be97",
+              "title": "Postak Pat_Zachrana na Divokem zapade",
+              "year": null,
+              "duration_sec": 900,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.875,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "acfca2cd3a90b39e",
+              "url": "https://prehraj.to/bolek-a-lolek-na-divokem-zapade-1986-cz/acfca2cd3a90b39e",
+              "title": "Bolek a Lolek na Divokém západě (1986) CZ",
+              "year": null,
+              "duration_sec": 3941,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1986,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4911de4b03e897f4",
+              "url": "https://prehraj.to/kocour-v-botach-na-divokem-zapade-1972-cs/4911de4b03e897f4",
+              "title": "Kocour v botách na divokém západě - 1972 CS",
+              "year": null,
+              "duration_sec": 3165,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f2d82040211a2265",
+              "url": "https://prehraj.to/kocour-v-botach-na-divokem-zapade-1972-cs/f2d82040211a2265",
+              "title": "Kocour v botách na divokém západě - 1972 CS",
+              "year": null,
+              "duration_sec": 3165,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61d99ed16d243",
+              "url": "https://prehraj.to/kacerovo-sk-036-kaceri-na-divokem-zapade/61d99ed16d243",
+              "title": "Kacerovo (SK) - 036 Kaceri na divokem zapade",
+              "year": null,
+              "duration_sec": 1371,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.856,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58a5bb7a051cf",
+              "url": "https://prehraj.to/kaceri-pribehy-042-kaceri-na-divokem-zapade-dvdrip-cz-ss23-bt/58a5bb7a051cf",
+              "title": "Kaceri-pribehy---042.-Kaceri-na-Divokem-zapade-DVDRip-Cz…",
+              "year": null,
+              "duration_sec": 1278,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.663,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b579615b266",
+              "url": "https://prehraj.to/americky-ocasek-2-fievel-na-divokem-zapade-1991-cz-nomad1205/55b579615b266",
+              "title": "AMERICKÝ-OCÁSEK-2-Fievel-na-divokém-západě-1991-Cz-…",
+              "year": null,
+              "duration_sec": 4314,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c006d1a41437",
+              "url": "https://prehraj.to/americky-ocasek-2-fievel-na-divokem-zapade/5c006d1a41437",
+              "title": "Americký ocásek 2: Fievel na Divokém západě",
+              "year": null,
+              "duration_sec": 4314,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.988,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0d2843c3f01202e5",
+              "url": "https://prehraj.to/americky-ocasek-2-fievel-na-divokem-zapade-1991-cz/0d2843c3f01202e5",
+              "title": "Americký ocásek 2: Fievel na Divokém západě (1991) CZ",
+              "year": null,
+              "duration_sec": 4314,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "609019d05abe1",
+              "url": "https://prehraj.to/bolek-a-lolek-na-divokem-zapade-anim-1986-cz-dabing/609019d05abe1",
+              "title": "Bolek a Lolek na divokém západě-(anim)-(1986)--cz-dabing",
+              "year": null,
+              "duration_sec": 3942,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1986,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688a0fa9474c3",
+              "url": "https://prehraj.to/bob-a-bobek-61-na-divokem-zapade/688a0fa9474c3",
+              "title": "Bob a Bobek - 61 Na Divokém Západě",
+              "year": null,
+              "duration_sec": 417,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 417,
+                "runtime_delta": 0.131,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Na divokém západě (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "595cebdb5a19e",
+              "url": "https://prehraj.to/tom-jerry-124-tall-in-the-trap-1962-09-01/595cebdb5a19e",
+              "title": "TOM & JERRY - 124 - Tall In The Trap (1962-09-01)",
+              "year": null,
+              "duration_sec": 439,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": 1962,
+                "year_match": true,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 439,
+                "runtime_delta": 0.085,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tall in the Trap (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "606a5d32b27a7",
+              "url": "https://prehraj.to/chq-tom-and-jerry-124-tall-in-the-trap-dvdrip-mp3-xvid-1962-2caba052/606a5d32b27a7",
+              "title": "[CHQ] Tom and Jerry - 124 - Tall in the Trap [DVDrip][MP3]…",
+              "year": null,
+              "duration_sec": 439,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 439,
+                "runtime_delta": 0.085,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tall in the Trap (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c59505d0f243a63",
+              "url": "https://prehraj.to/chq-tom-and-jerry-124-tall-in-the-trap-dvdrip-mp3-xvid-1962-2caba052-avi/1c59505d0f243a63",
+              "title": "[CHQ] Tom and Jerry - 124 - Tall in the Trap [DVDrip][MP3]…",
+              "year": null,
+              "duration_sec": 439,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 439,
+                "runtime_delta": 0.085,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tall in the Trap (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e39962665f2c",
+              "url": "https://prehraj.to/tom-and-jerry-124-tall-in-the-trap-1962/5e39962665f2c",
+              "title": "Tom and Jerry - 124   Tall in the Trap [1962]",
+              "year": null,
+              "duration_sec": 439,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": 1962,
+                "year_match": true,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 439,
+                "runtime_delta": 0.085,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tall in the Trap (1962)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:24:50.096074+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "na-divokem-zapade",
+        "title": "Na divokém západě",
+        "original_title": "Tall in the Trap",
+        "year": 1962,
+        "runtime_min": 8,
+        "tmdb_id": 223027,
+        "imdb_id": "tt0056553",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:24:44.289448+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:24:40.368254+00:00"
+  "updated_at": "2026-08-27T16:24:50.096104+00:00"
 }
