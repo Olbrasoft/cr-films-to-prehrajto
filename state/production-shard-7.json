@@ -26982,7 +26982,303 @@
         },
         "at": "2026-08-27T16:14:02.174205+00:00"
       }
+    },
+    "23983": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586af4efe2aef",
+              "url": "https://prehraj.to/plast-marie-terezie-cssr-1982/586af4efe2aef",
+              "title": "Plášť-Marie-Terezie-(ČSSR,-1982)",
+              "year": null,
+              "duration_sec": 5708,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 1982,
+                "candidate_year": 1982,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5708,
+                "runtime_delta": 0.057,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68480890ba84a",
+              "url": "https://prehraj.to/la-novia-ensangrentada-the-blood-spattered-bride-1972/68480890ba84a",
+              "title": "La novia ensangrentada (The Blood Spattered Bride) 1972 -",
+              "year": null,
+              "duration_sec": 6134,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1982,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e83816b05b67",
+              "url": "https://prehraj.to/bloodride-s01e01-cz-titulky/5e83816b05b67",
+              "title": "Bloodride S01E01 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63b35aa7be295",
+              "url": "https://prehraj.to/bloodride-s01e01-2160p-nf-web-dl-ddp5-1-hevc-dbbd/63b35aa7be295",
+              "title": "Bloodride.S01E01.2160p.NF.WEB-DL.DDP5.1.HEVC-DBBd",
+              "year": null,
+              "duration_sec": 1885,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63b35c0eeeb99",
+              "url": "https://prehraj.to/bloodride-s01e04-2160p-nf-web-dl-ddp5-1-hevc-dbbd/63b35c0eeeb99",
+              "title": "Bloodride.S01E04.2160p.NF.WEB-DL.DDP5.1.HEVC-DBBd",
+              "year": null,
+              "duration_sec": 1976,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63b35c9cb2a7a",
+              "url": "https://prehraj.to/bloodride-s01e06-2160p-nf-web-dl-ddp5-1-hevc-dbbd/63b35c9cb2a7a",
+              "title": "Bloodride.S01E06.2160p.NF.WEB-DL.DDP5.1.HEVC-DBBd",
+              "year": null,
+              "duration_sec": 1646,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e83836309360",
+              "url": "https://prehraj.to/bloodride-s01e06-cz-titulky/5e83836309360",
+              "title": "Bloodride S01E06 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1646,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63b35af8514be",
+              "url": "https://prehraj.to/bloodride-s01e02-2160p-nf-web-dl-ddp5-1-hevc-dbbd/63b35af8514be",
+              "title": "Bloodride.S01E02.2160p.NF.WEB-DL.DDP5.1.HEVC-DBBd",
+              "year": null,
+              "duration_sec": 1638,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63b35ba6003f5",
+              "url": "https://prehraj.to/bloodride-s01e03-2160p-nf-web-dl-ddp5-1-hevc-dbbd/63b35ba6003f5",
+              "title": "Bloodride.S01E03.2160p.NF.WEB-DL.DDP5.1.HEVC-DBBd",
+              "year": null,
+              "duration_sec": 1664,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63b35c538d397",
+              "url": "https://prehraj.to/bloodride-s01e05-2160p-nf-web-dl-ddp5-1-hevc-dbbd/63b35c538d397",
+              "title": "Bloodride.S01E05.2160p.NF.WEB-DL.DDP5.1.HEVC-DBBd",
+              "year": null,
+              "duration_sec": 1704,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e83836309cce",
+              "url": "https://prehraj.to/bloodride-s01e03-cz-titulky/5e83836309cce",
+              "title": "Bloodride S01E03 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1664,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e83836309221",
+              "url": "https://prehraj.to/bloodride-s01e02-cz-titulky/5e83836309221",
+              "title": "Bloodride S01E02 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1638,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e8383630789f",
+              "url": "https://prehraj.to/bloodride-s01e05-cz-titulky/5e8383630789f",
+              "title": "Bloodride S01E05 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1705,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e838363044db",
+              "url": "https://prehraj.to/bloodride-s01e04-cz-titulky/5e838363044db",
+              "title": "Bloodride S01E04 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 1976,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blood Bride (1982)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:14:05.896156+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "blood-bride",
+        "title": "Blood Bride",
+        "original_title": null,
+        "year": 1982,
+        "runtime_min": 90,
+        "tmdb_id": 225449,
+        "imdb_id": "tt0137392",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:14:04.778422+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:14:03.334045+00:00"
+  "updated_at": "2026-08-27T16:14:05.896175+00:00"
 }
