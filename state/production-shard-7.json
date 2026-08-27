@@ -13452,7 +13452,67 @@
         },
         "at": "2026-08-27T15:57:19.188367+00:00"
       }
+    },
+    "29703": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "611520e09b535",
+              "url": "https://prehraj.to/boar-2017-horor-cz-titulky-v-obraze-c-p/611520e09b535",
+              "title": "BOAR-(2017)-Horor-CZ.TITULKY V OBRAZE-č.p.",
+              "year": null,
+              "duration_sec": 5765,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.324,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 70,
+                "candidate_runtime_sec": 5765,
+                "runtime_delta": 0.373,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T15:57:24.016305+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "widow-boarding-house-we-also-rent-out-cleavage",
+        "title": "Widow Boarding House? We also rent out cleavage",
+        "original_title": "Widow Boarding House? We also rent out cleavage",
+        "year": 2017,
+        "runtime_min": 70,
+        "tmdb_id": 860427,
+        "imdb_id": "tt7831378",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T15:57:22.389953+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T15:57:20.299121+00:00"
+  "updated_at": "2026-08-27T15:57:24.016327+00:00"
 }
