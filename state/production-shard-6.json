@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:19:35.182430+00:00"
+        "at": "2026-08-27T03:25:18.109447+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:19:35.183677+00:00"
+        "at": "2026-08-27T03:25:18.110633+00:00"
       }
     },
     "27238": {
@@ -1016,7 +1016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:19:35.184116+00:00"
+        "at": "2026-08-27T03:25:18.111044+00:00"
       }
     },
     "16782": {
@@ -1096,7 +1096,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:19:35.185108+00:00"
+        "at": "2026-08-27T03:25:18.111980+00:00"
       }
     },
     "29350": {
@@ -1225,7 +1225,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:19:35.187664+00:00"
+        "at": "2026-08-27T03:25:18.114413+00:00"
       }
     },
     "28934": {
@@ -2571,7 +2571,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:19:35.188787+00:00"
+        "at": "2026-08-27T03:25:18.115493+00:00"
       }
     },
     "22670": {
@@ -3880,7 +3880,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:19:35.190349+00:00"
+        "at": "2026-08-27T03:25:18.117000+00:00"
       }
     },
     "15846": {
@@ -5379,7 +5379,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:19:35.194301+00:00"
+        "at": "2026-08-27T03:25:18.120753+00:00"
       }
     },
     "3606": {
@@ -6702,7 +6702,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:19:35.195942+00:00"
+        "at": "2026-08-27T03:25:18.122353+00:00"
       }
     },
     "8142": {
@@ -7417,7 +7417,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:19:35.196428+00:00"
+        "at": "2026-08-27T03:25:18.122834+00:00"
       }
     },
     "15054": {
@@ -7605,7 +7605,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:19:35.197584+00:00"
+        "at": "2026-08-27T03:25:18.123976+00:00"
       }
     },
     "1910": {
@@ -7711,7 +7711,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T03:25:14.413041+00:00"
       }
+    },
+    "5878": {
+      "attempts": [],
+      "identity": {
+        "slug": "ztracene-mesto",
+        "title": "Ztracené město",
+        "original_title": "The Lost City",
+        "year": 2022,
+        "runtime_min": null,
+        "tmdb_id": 752623,
+        "imdb_id": "tt13320622",
+        "created_at": "2026-04-13 13:19:26.108979+02:00",
+        "added_at": "2022-10-22 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25292441",
+          "account_name": "Případ ztracené kozy (2021) CZ Titulky",
+          "title_similarity": 0.513,
+          "title_contains_alias": false,
+          "film_year": 2022,
+          "candidate_year": 2021,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-27T03:25:18.128393+00:00"
+      }
+    },
+    "1438": {
+      "attempts": [],
+      "identity": {
+        "slug": "mclaren",
+        "title": "McLaren",
+        "original_title": "McLaren",
+        "year": 2017,
+        "runtime_min": null,
+        "tmdb_id": 419192,
+        "imdb_id": "tt5031332",
+        "created_at": "2026-04-13 13:19:24.364518+02:00",
+        "added_at": "2022-10-08 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T03:25:18.128421+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T03:25:14.413074+00:00"
+  "updated_at": "2026-08-27T03:25:18.598872+00:00"
 }
