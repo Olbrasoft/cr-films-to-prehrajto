@@ -24330,7 +24330,94 @@
         },
         "at": "2026-08-27T16:13:00.040833+00:00"
       }
+    },
+    "25007": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583c87181d794",
+              "url": "https://prehraj.to/absolutne-scary-2003/583c87181d794",
+              "title": "Absolutně Scary (2003)",
+              "year": null,
+              "duration_sec": 5330,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.304,
+                "title_contains_alias": false,
+                "film_year": 2003,
+                "candidate_year": 2003,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5330,
+                "runtime_delta": 0.065,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b72d716fa640361a",
+              "url": "https://prehraj.to/absolutne-scary-kdo-zabil-pamelu-rose-2003-komedie-czdab-mp4/b72d716fa640361a",
+              "title": "Absolutně Scary - Kdo zabil Pamelu Rose (2003) komedie…",
+              "year": null,
+              "duration_sec": 5329,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2003,
+                "candidate_year": 2003,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5329,
+                "runtime_delta": 0.065,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Kdo zabil Pamelu Rose? (2003)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:13:16.453367+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "kdo-zabil-pamelu-rose",
+        "title": "Kdo zabil Pamelu Rose?",
+        "original_title": "Mais qui a tué Pamela Rose ?",
+        "year": 2003,
+        "runtime_min": 95,
+        "tmdb_id": 20106,
+        "imdb_id": "tt0338828",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:13:08.614592+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:13:06.850182+00:00"
+  "updated_at": "2026-08-27T16:13:16.453387+00:00"
 }
