@@ -28996,7 +28996,67 @@
         },
         "at": "2026-08-27T16:14:39.717087+00:00"
       }
+    },
+    "22935": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5877df58e9daa",
+              "url": "https://prehraj.to/klenotnikuv-obchod-rak-nem-romant-1989-sk-dabing-tvrip/5877df58e9daa",
+              "title": "Klenotnikuv-obchod-Rak-Nem-romant-1989-SK-dabing-TVrip",
+              "year": null,
+              "duration_sec": 5271,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.209,
+                "title_contains_alias": false,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5271,
+                "runtime_delta": 0.002,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:14:46.694475+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "la-bottega-dell-orefice",
+        "title": "La bottega dell'orefice",
+        "original_title": "The Jeweller's Shop",
+        "year": 1989,
+        "runtime_min": 88,
+        "tmdb_id": 309452,
+        "imdb_id": "tt0094787",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:14:45.049478+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:14:43.006938+00:00"
+  "updated_at": "2026-08-27T16:14:46.694495+00:00"
 }
