@@ -25679,7 +25679,242 @@
         },
         "at": "2026-08-27T16:13:48.748788+00:00"
       }
+    },
+    "24239": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "667f95f1b01db",
+              "url": "https://prehraj.to/duna-1-dil-2000-cz-dab/667f95f1b01db",
+              "title": "Duna - 1. díl 2000 CZ dab ",
+              "year": null,
+              "duration_sec": 5502,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.154,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5502,
+                "runtime_delta": 0.064,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "45de6c0d1dc9813e",
+              "url": "https://prehraj.to/duna-1-dil-2000-cz-dab-mp4/45de6c0d1dc9813e",
+              "title": "Duna - 1. díl 2000 CZ dab.mp4",
+              "year": null,
+              "duration_sec": 5501,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.143,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5501,
+                "runtime_delta": 0.064,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c523fe52d993",
+              "url": "https://prehraj.to/duna-2-hurt-2000-cz-dabing/5c523fe52d993",
+              "title": "Duna-2-(Hurt)-(2000)--cz-dabing",
+              "year": null,
+              "duration_sec": 6755,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.151,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6755,
+                "runtime_delta": 0.149,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c523f2adc244",
+              "url": "https://prehraj.to/duna-1-hurt-2000-cz-dabing/5c523f2adc244",
+              "title": "Duna-1-(Hurt)-(2000)--cz-dabing",
+              "year": null,
+              "duration_sec": 9641,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c524065dc3d6",
+              "url": "https://prehraj.to/duna-3-hurt-2000-cz-dabing/5c524065dc3d6",
+              "title": "Duna-3-(Hurt)-(2000)--cz-dabing",
+              "year": null,
+              "duration_sec": 5627,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.151,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5627,
+                "runtime_delta": 0.043,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "607aba3b7c129",
+              "url": "https://prehraj.to/duna-2-sci-fi-2000-cz-dabing/607aba3b7c129",
+              "title": "Duna-2-(sci-fi)-(2000)--cz-dabing",
+              "year": null,
+              "duration_sec": 6755,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.145,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6755,
+                "runtime_delta": 0.149,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "607ab9824c42d",
+              "url": "https://prehraj.to/duna-1-sci-fi-2000-cz-dabing/607ab9824c42d",
+              "title": "Duna-1-(sci-fi)-(2000)--cz-dabing",
+              "year": null,
+              "duration_sec": 9641,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "667f98f04cb18",
+              "url": "https://prehraj.to/duna-2-dil-2000-cz-dab/667f98f04cb18",
+              "title": "Duna - 2. díl 2000 CZ dab ",
+              "year": null,
+              "duration_sec": 5658,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.154,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5658,
+                "runtime_delta": 0.038,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:13:53.183928+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "freeway-ii-confessions-of-a-trickbaby",
+        "title": "Freeway II: Confessions of a Trickbaby",
+        "original_title": null,
+        "year": 2000,
+        "runtime_min": 98,
+        "tmdb_id": 39927,
+        "imdb_id": "tt0175536",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:13:51.659678+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:13:49.877261+00:00"
+  "updated_at": "2026-08-27T16:13:53.183949+00:00"
 }
