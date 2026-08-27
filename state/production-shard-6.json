@@ -8062,7 +8062,18 @@
       }
     },
     "11422": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "62c5937d690fc",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T04:11:50.675654+00:00"
+        }
+      ],
       "identity": {
         "slug": "bingo-bongo-1982",
         "title": "Bingo Bongo",
@@ -8083,5 +8094,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T04:11:48.078459+00:00"
+  "updated_at": "2026-08-27T04:11:50.675675+00:00"
 }
