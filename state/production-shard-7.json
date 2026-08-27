@@ -29851,7 +29851,94 @@
         },
         "at": "2026-08-27T16:23:53.317662+00:00"
       }
+    },
+    "22231": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "585893238cdb0",
+              "url": "https://prehraj.to/stipku-soli-cast-1-ceskoslovensko-1976-komedie/585893238cdb0",
+              "title": "Štipku-soli-část-1-Československo-1976-komedie",
+              "year": null,
+              "duration_sec": 4245,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 1976,
+                "candidate_year": 1976,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4245,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58589363c01a3",
+              "url": "https://prehraj.to/stipku-soli-cast-2-ceskoslovensko-1976-komedie/58589363c01a3",
+              "title": "Štipku-soli-část-2-Československo-1976-komedie",
+              "year": null,
+              "duration_sec": 5188,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 1976,
+                "candidate_year": 1976,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5188,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:23:59.303931+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "le-jeu-du-solitaire",
+        "title": "Le Jeu du solitaire",
+        "original_title": "The Game of Solitaire",
+        "year": 1976,
+        "runtime_min": null,
+        "tmdb_id": 497045,
+        "imdb_id": "tt0073204",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:23:57.088785+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:23:55.569313+00:00"
+  "updated_at": "2026-08-27T16:23:59.303952+00:00"
 }
