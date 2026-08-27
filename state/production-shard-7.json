@@ -20340,7 +20340,160 @@
         },
         "at": "2026-08-27T16:01:42.568223+00:00"
       }
+    },
+    "27295": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "56788af561208",
+              "url": "https://prehraj.to/dinosaurus-walt-disney-pohadka-2010-cz-dabing/56788af561208",
+              "title": "Dinosaurus  - Walt Disney pohadka 2010 cz dabing",
+              "year": null,
+              "duration_sec": 4725,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.921,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55ca34531cb55",
+              "url": "https://prehraj.to/dinosaurus-walt-disney-pohadka-2010-cz-dabing/55ca34531cb55",
+              "title": "Dinosaurus  - Walt Disney pohadka 2010 cz dabing",
+              "year": null,
+              "duration_sec": 4725,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.921,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55cda9824681c",
+              "url": "https://prehraj.to/dinosaurus-walt-disney-pohadka-2010-cz-dabing/55cda9824681c",
+              "title": "Dinosaurus  - Walt Disney pohadka 2010 cz dabing",
+              "year": null,
+              "duration_sec": 4725,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.921,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c6b61b52204",
+              "url": "https://prehraj.to/dinosaurus-walt-disney-pohadka-2010-cz-p-p/55c6b61b52204",
+              "title": "Dinosaurus  - Walt Disney pohádka 2010 cz p.p.",
+              "year": null,
+              "duration_sec": 4725,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.921,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "567ae95cc0efe",
+              "url": "https://prehraj.to/dinosaurus-walt-disney-pohadka-2010-cz-p-p/567ae95cc0efe",
+              "title": "Dinosaurus  - Walt Disney pohádka 2010 cz p.p.",
+              "year": null,
+              "duration_sec": 4725,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.921,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586692cf29c32",
+              "url": "https://prehraj.to/knucklehead-2010-dvdrip-xvid-rx-cztit/586692cf29c32",
+              "title": "Knucklehead.2010.DVDRip.XviD-Rx.CZtit",
+              "year": null,
+              "duration_sec": 6010,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.443,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:01:47.671277+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sea-rex-3d-vyprava-do-casu-dinosauru",
+        "title": "Sea Rex 3D: Výprava do časů dinosaurů",
+        "original_title": "Sea Rex 3D: Journey to a Prehistoric World",
+        "year": 2010,
+        "runtime_min": 41,
+        "tmdb_id": 78394,
+        "imdb_id": "tt1529567",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:01:45.930514+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:01:43.815974+00:00"
+  "updated_at": "2026-08-27T16:01:47.671297+00:00"
 }
