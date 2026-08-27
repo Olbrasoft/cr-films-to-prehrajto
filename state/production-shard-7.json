@@ -22870,7 +22870,168 @@
         },
         "at": "2026-08-27T16:12:11.502947+00:00"
       }
+    },
+    "25863": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5d61fd0347e45",
+              "url": "https://prehraj.to/prusmyk-smrti-valecny-1-2-dil-2006-jad/5d61fd0347e45",
+              "title": "Průsmyk smrti-válečný-1-2.díl-2006-jad",
+              "year": null,
+              "duration_sec": 6005,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.259,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6005,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d56b933871e3",
+              "url": "https://prehraj.to/prusmyk-smrti-valecny-1-2-dil-2006-jad/5d56b933871e3",
+              "title": "Průsmyk smrti-válečný-1-2.díl-2006-jad",
+              "year": null,
+              "duration_sec": 6005,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.259,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6005,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "606f28e604956",
+              "url": "https://prehraj.to/prusmyk-smrti-1-2-valecny-2006-cz-dabing/606f28e604956",
+              "title": "Průsmyk smrti-1-2-(valecny)-(2006)--cz-dabing",
+              "year": null,
+              "duration_sec": 6005,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.304,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6005,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "632b24c32f3e2",
+              "url": "https://prehraj.to/prusmyk-smrti-1-2-valecny-2006-cz-dabing/632b24c32f3e2",
+              "title": "Průsmyk smrti-1-2-(valecny)-(2006)--cz-dabing",
+              "year": null,
+              "duration_sec": 6005,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.304,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6005,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8a21f59fa3ac4b1a",
+              "url": "https://prehraj.to/pred-maturitou-1932-cs/8a21f59fa3ac4b1a",
+              "title": "Před maturitou - 1932 CS",
+              "year": null,
+              "duration_sec": 5480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 1932,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Před maturitou 1 (2006)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:12:16.566644+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "pred-maturitou-1",
+        "title": "Před maturitou 1",
+        "original_title": "The Night Before the Exams",
+        "year": 2006,
+        "runtime_min": 100,
+        "tmdb_id": 33365,
+        "imdb_id": "tt0772187",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:12:14.587861+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:12:12.603258+00:00"
+  "updated_at": "2026-08-27T16:12:16.566664+00:00"
 }
