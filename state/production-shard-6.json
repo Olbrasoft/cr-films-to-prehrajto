@@ -10060,7 +10060,18 @@
       }
     },
     "10782": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "68ae7a86248ee3ed",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T12:36:50.496745+00:00"
+        }
+      ],
       "identity": {
         "slug": "ben-hur-1959",
         "title": "Ben Hur",
@@ -10081,5 +10092,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T12:36:46.803024+00:00"
+  "updated_at": "2026-08-27T12:36:50.496763+00:00"
 }
