@@ -16733,7 +16733,98 @@
         },
         "at": "2026-08-27T15:59:38.968293+00:00"
       }
+    },
+    "28647": {
+      "attempts": [],
+      "identity": {
+        "slug": "a",
+        "title": "A",
+        "original_title": "Alpha",
+        "year": 2015,
+        "runtime_min": 80,
+        "tmdb_id": 333465,
+        "imdb_id": "tt3166734",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24807554",
+          "account_name": "Appleseed Alpha (2014) CZ Dabing",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2015,
+          "candidate_year": 2014,
+          "year_match": true,
+          "film_runtime_min": 80,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-27T15:59:41.579961+00:00"
+      }
+    },
+    "28615": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "65c4c4128e0cf",
+              "url": "https://prehraj.to/sever-a-jih-1985-1986-11-12-cz/65c4c4128e0cf",
+              "title": "Sever a Jih_(1985-1986)_(11-12)_CZ",
+              "year": null,
+              "duration_sec": 5412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5412,
+                "runtime_delta": 0.002,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T15:59:42.666471+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "eleven-cats-and-an-albatross",
+        "title": "Eleven Cats and an Albatross",
+        "original_title": "Eleven Cats and an Albatross",
+        "year": 1985,
+        "runtime_min": 90,
+        "tmdb_id": 408028,
+        "imdb_id": "tt31284621",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T15:59:41.580022+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T15:59:40.031498+00:00"
+  "updated_at": "2026-08-27T15:59:42.666493+00:00"
 }
