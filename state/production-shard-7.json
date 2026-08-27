@@ -18534,7 +18534,405 @@
         },
         "at": "2026-08-27T16:00:43.232880+00:00"
       }
+    },
+    "27855": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55a4879e48959",
+              "url": "https://prehraj.to/namorni-policie-2012-komedie-cz-dab/55a4879e48959",
+              "title": "Námořní-policie-2012-komedie-cz-dab",
+              "year": null,
+              "duration_sec": 5859,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.378,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 5859,
+                "runtime_delta": 0.07,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63667e36af6d3",
+              "url": "https://prehraj.to/my-policeman-2022-1080p-cz-sub/63667e36af6d3",
+              "title": "My.Policeman.2022.1080p.cz sub",
+              "year": null,
+              "duration_sec": 6850,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6365c952a7a6e",
+              "url": "https://prehraj.to/my-policeman-2022-cztitulky/6365c952a7a6e",
+              "title": "My Policeman (2022) CZtitulky",
+              "year": null,
+              "duration_sec": 6850,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65883b687b586",
+              "url": "https://prehraj.to/policeman-and-me-2017-bluray-720p-900mb-ganool-ee/65883b687b586",
+              "title": "Policeman.and.Me.2017.BluRay.720p.900MB.Ganool.ee",
+              "year": null,
+              "duration_sec": 7457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64e4cadae3906",
+              "url": "https://prehraj.to/policeman-and-me-2017-cz-titulky/64e4cadae3906",
+              "title": "Policeman and Me 2017 cz titulky",
+              "year": null,
+              "duration_sec": 7457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fbbc7f75da1b094c",
+              "url": "https://prehraj.to/muj-policista-my-policeman-2022-en-cz-tit-mkv/fbbc7f75da1b094c",
+              "title": "Můj policista / My Policeman 2022, EN - CZ tit.mkv",
+              "year": null,
+              "duration_sec": 6850,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61fe675ec816f",
+              "url": "https://prehraj.to/the-policemans-lineage-2022-1080p-webrip-x264-aac-yts-mx/61fe675ec816f",
+              "title": "The.Policemans.Lineage.2022.1080p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 7175,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6ceac269e327990d",
+              "url": "https://prehraj.to/muj-policista-my-policeman-2022-en-cz-tit-mkv/6ceac269e327990d",
+              "title": "Můj policista / My Policeman 2022, EN - CZ tit.mkv",
+              "year": null,
+              "duration_sec": 6850,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a3d142a3933d97a7",
+              "url": "https://prehraj.to/muj-policista-my-policeman-2022-en-cz-tit-mkv/a3d142a3933d97a7",
+              "title": "Můj policista / My Policeman 2022, EN - CZ tit.mkv",
+              "year": null,
+              "duration_sec": 6850,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61b7961c9ceef",
+              "url": "https://prehraj.to/p-to-jk-policeman-and-me-2017-jap-hd-sk-tit/61b7961c9ceef",
+              "title": "P to JK Policeman and Me 2017 Jap HD SK tit",
+              "year": null,
+              "duration_sec": 7457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d0e5f70efaf96150",
+              "url": "https://prehraj.to/detektiv-conan-s1e483-the-missing-policeman-ja/d0e5f70efaf96150",
+              "title": "Detektiv Conan - S1E483 The Missing Policeman JA",
+              "year": null,
+              "duration_sec": 1499,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66f31f8c904ad",
+              "url": "https://prehraj.to/century-of-the-self-03-policeman-inside-our-heads-2002-cz-sktitulky/66f31f8c904ad",
+              "title": "Century of the Self 03 - Policeman Inside Our Heads (2002)…",
+              "year": null,
+              "duration_sec": 3531,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2012,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66f364166ef42",
+              "url": "https://prehraj.to/the-century-of-the-self-03-policeman-inside-our-heads-2002-cz-sktitulky/66f364166ef42",
+              "title": "The Century of the Self 03 - Policeman Inside Our Heads …",
+              "year": null,
+              "duration_sec": 3531,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2012,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 3531,
+                "runtime_delta": 0.44,
+                "rejection_reason": "title_only"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a7514f94faf",
+              "url": "https://prehraj.to/87-she-made-the-policeman-cry-just-for-laughs-gags/68a7514f94faf",
+              "title": "87. She Made The Policeman Cry   Just For Laughs Gags",
+              "year": null,
+              "duration_sec": 1304,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.793,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a751b2a5bba",
+              "url": "https://prehraj.to/89-policeman-steals-criminal-for-credit-just-for-laughs-gags/68a751b2a5bba",
+              "title": "89. Policeman Steals Criminal For Credit   Just For Laughs…",
+              "year": null,
+              "duration_sec": 731,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.884,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "38b48d45cd422960",
+              "url": "https://prehraj.to/detektiv-conan-s1e276-case-of-the-missing-policeman-s-notebook-ja/38b48d45cd422960",
+              "title": "Detektiv Conan - S1E276 Case Of The Missing Policeman's…",
+              "year": null,
+              "duration_sec": 1488,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a74664075f4",
+              "url": "https://prehraj.to/11-the-policeman-asks-for-people-s-contribution-just-for-laughs-gags/68a74664075f4",
+              "title": "11. The policeman asks for people's contribution...   Just…",
+              "year": null,
+              "duration_sec": 257,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.959,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Policeman (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "665b297e260f3",
+              "url": "https://prehraj.to/dj-paul-elstak-the-unfamous-mr-policeman-fucked-up-by-paul-the-unfamous-bootleg/665b297e260f3",
+              "title": "DJ Paul Elstak & The Unfamous - Mr. Policeman (Fucked Up By…",
+              "year": null,
+              "duration_sec": 266,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.958,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Policeman (2012)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:00:47.058763+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "policeman",
+        "title": "Policeman",
+        "original_title": "Policeman",
+        "year": 2012,
+        "runtime_min": 105,
+        "tmdb_id": 96888,
+        "imdb_id": "tt1978447",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:00:45.899952+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:00:44.369585+00:00"
+  "updated_at": "2026-08-27T16:00:47.058782+00:00"
 }
