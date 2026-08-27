@@ -311,7 +311,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.196033+00:00"
+        "at": "2026-08-27T06:00:58.110084+00:00"
       }
     },
     "28619": {
@@ -488,7 +488,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.196587+00:00"
+        "at": "2026-08-27T06:00:58.110484+00:00"
       }
     },
     "28071": {
@@ -713,7 +713,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.197837+00:00"
+        "at": "2026-08-27T06:00:58.111337+00:00"
       }
     },
     "27263": {
@@ -1578,7 +1578,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.199156+00:00"
+        "at": "2026-08-27T06:00:58.112269+00:00"
       }
     },
     "17083": {
@@ -1900,7 +1900,7 @@
             }
           ]
         },
-        "at": "2026-08-27T04:18:26.215189+00:00"
+        "at": "2026-08-27T06:00:58.123253+00:00"
       }
     },
     "29755": {
@@ -2239,7 +2239,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.216566+00:00"
+        "at": "2026-08-27T06:00:58.124241+00:00"
       }
     },
     "27675": {
@@ -3106,7 +3106,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.216912+00:00"
+        "at": "2026-08-27T06:00:58.124458+00:00"
       }
     },
     "24091": {
@@ -3351,7 +3351,7 @@
             }
           ]
         },
-        "at": "2026-08-27T04:18:26.217736+00:00"
+        "at": "2026-08-27T06:00:58.125010+00:00"
       }
     },
     "23395": {
@@ -4959,7 +4959,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.219352+00:00"
+        "at": "2026-08-27T06:00:58.126186+00:00"
       }
     },
     "21859": {
@@ -5619,7 +5619,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.219897+00:00"
+        "at": "2026-08-27T06:00:58.126545+00:00"
       }
     },
     "9147": {
@@ -5701,7 +5701,7 @@
             }
           ]
         },
-        "at": "2026-08-27T04:18:26.220401+00:00"
+        "at": "2026-08-27T06:00:58.126890+00:00"
       }
     },
     "1019": {
@@ -5984,7 +5984,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T04:18:26.221097+00:00"
+        "at": "2026-08-27T06:00:58.127374+00:00"
       }
     },
     "14867": {
@@ -6030,7 +6030,7 @@
             }
           ]
         },
-        "at": "2026-08-27T04:18:26.225500+00:00"
+        "at": "2026-08-27T06:00:58.130552+00:00"
       }
     },
     "1643": {
@@ -6338,6 +6338,260 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T04:47:31.069881+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64596e13c8015",
+              "url": "https://prehraj.to/the-family-2013-bdrip-xvid-cz-trezzor/64596e13c8015",
+              "title": "The.Family.2013.Bdrip.Xvid.Cz-Trezzor",
+              "year": null,
+              "duration_sec": 6694,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6694,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a86c51dcf874c1ab",
+              "url": "https://prehraj.to/the-family-2013-bdrip-xvid-cz-trezzor/a86c51dcf874c1ab",
+              "title": "The.Family.2013.Bdrip.Xvid.Cz-Trezzor",
+              "year": null,
+              "duration_sec": 6693,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6693,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686d60c5c2913",
+              "url": "https://prehraj.to/the-family-2013-cz-dabing/686d60c5c2913",
+              "title": "The Family-2013-CZ Dabing",
+              "year": null,
+              "duration_sec": 6693,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6693,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8aba9bc6c5e72abb",
+              "url": "https://prehraj.to/the-family-2013-cz-dabing-avi/8aba9bc6c5e72abb",
+              "title": "The Family-2013-CZ Dabing.avi",
+              "year": null,
+              "duration_sec": 6693,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6693,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64aa308faf522",
+              "url": "https://prehraj.to/the-family-2013-bdrip-xvid-cz-trezzor/64aa308faf522",
+              "title": "The.Family.2013.BDRip.XviD.CZ-TreZzoR",
+              "year": null,
+              "duration_sec": 6693,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6693,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "580203d87a5eb",
+              "url": "https://prehraj.to/the-family-2013-bdrip-xvid-cz-trezzor/580203d87a5eb",
+              "title": "The.Family.2013.BDRip.XviD.CZ-TreZzoR",
+              "year": null,
+              "duration_sec": 6693,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6693,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5df5ec0b2ab86",
+              "url": "https://prehraj.to/the-family-2013-brrip-xvid-cz/5df5ec0b2ab86",
+              "title": "The.Family.2013.BRRip.XviD.CZ",
+              "year": null,
+              "duration_sec": 6693,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6693,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57f7c0fc63337",
+              "url": "https://prehraj.to/the-family-2013-hd-cz-tit/57f7c0fc63337",
+              "title": "The-Family-2013-HD-CZ-tit",
+              "year": null,
+              "duration_sec": 6416,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6416,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "36b92ea53cac61ce",
+              "url": "https://prehraj.to/mafianovi-the-family-2013-sk-mp4/36b92ea53cac61ce",
+              "title": "Mafiánovi _ The Family (2013)(SK).mp4",
+              "year": null,
+              "duration_sec": 6049,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6049,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T06:01:01.685956+00:00"
         }
       ],
       "identity": {
@@ -6356,7 +6610,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T03:12:37.123879+00:00"
+        "at": "2026-08-27T06:00:58.131103+00:00"
       }
     },
     "13419": {
@@ -8987,5 +9241,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T05:58:03.253756+00:00"
+  "updated_at": "2026-08-27T06:01:01.685970+00:00"
 }
