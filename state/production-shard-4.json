@@ -7693,7 +7693,59 @@
         },
         "at": "2026-08-27T10:14:36.421838+00:00"
       }
+    },
+    "5620": {
+      "attempts": [],
+      "identity": {
+        "slug": "inferno",
+        "title": "Inferno",
+        "original_title": "Inferno",
+        "year": 2016,
+        "runtime_min": null,
+        "tmdb_id": 207932,
+        "imdb_id": "tt3062096",
+        "created_at": "2026-04-13 13:19:26.108979+02:00",
+        "added_at": "2021-05-11 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25313393",
+          "account_name": "Hotel Inferno 2: The Cathedral of Pain (2017) CZ Titulky",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2016,
+          "candidate_year": 2017,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-27T10:14:54.429320+00:00"
+      }
+    },
+    "988": {
+      "attempts": [],
+      "identity": {
+        "slug": "iluzionista",
+        "title": "Iluzionista",
+        "original_title": "The Illusionist",
+        "year": 2006,
+        "runtime_min": null,
+        "tmdb_id": 1491,
+        "imdb_id": "tt0443543",
+        "created_at": "2026-04-13 13:19:24.188776+02:00",
+        "added_at": "2021-04-16 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T10:14:54.429431+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T10:14:42.070596+00:00"
+  "updated_at": "2026-08-27T10:14:59.141793+00:00"
 }
