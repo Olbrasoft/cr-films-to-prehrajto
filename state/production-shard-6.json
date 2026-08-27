@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:20:15.065218+00:00"
+        "at": "2026-08-27T01:42:51.376789+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-27T01:20:15.066600+00:00"
+        "at": "2026-08-27T01:42:51.378162+00:00"
       }
     },
     "27238": {
@@ -1016,7 +1016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:20:15.067057+00:00"
+        "at": "2026-08-27T01:42:51.378665+00:00"
       }
     },
     "16782": {
@@ -1096,7 +1096,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:20:15.068098+00:00"
+        "at": "2026-08-27T01:42:51.379748+00:00"
       }
     },
     "29350": {
@@ -1225,7 +1225,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:20:15.070874+00:00"
+        "at": "2026-08-27T01:42:51.382563+00:00"
       }
     },
     "28934": {
@@ -2571,7 +2571,7 @@
             }
           ]
         },
-        "at": "2026-08-27T01:20:15.072119+00:00"
+        "at": "2026-08-27T01:42:51.383821+00:00"
       }
     },
     "22670": {
@@ -3880,7 +3880,7 @@
             }
           ]
         },
-        "at": "2026-08-27T01:20:15.073872+00:00"
+        "at": "2026-08-27T01:42:51.385568+00:00"
       }
     },
     "15846": {
@@ -5379,7 +5379,7 @@
             }
           ]
         },
-        "at": "2026-08-27T01:20:15.078159+00:00"
+        "at": "2026-08-27T01:42:51.389858+00:00"
       }
     },
     "3606": {
@@ -6702,7 +6702,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:20:15.079990+00:00"
+        "at": "2026-08-27T01:42:51.391730+00:00"
       }
     },
     "8142": {
@@ -7403,7 +7403,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:20:15.080558+00:00"
+        "at": "2026-08-27T01:42:51.392309+00:00"
       }
     },
     "15054": {
@@ -7473,7 +7473,67 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T01:42:47.363203+00:00"
       }
+    },
+    "12558": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "85a15e895c711e2c",
+              "url": "https://prehraj.to/labuti-princezna-3-tajemstvi-kouzelneho-pokladu-1998-cs/85a15e895c711e2c",
+              "title": "Labutí princezna 3: Tajemství kouzelného pokladu - 1998 CS",
+              "year": null,
+              "duration_sec": 4181,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1998,
+                "candidate_year": 1998,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 4181,
+                "runtime_delta": 0.019,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T01:42:57.826827+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu-1998",
+        "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
+        "original_title": "The Swan Princess: The Mystery of the Enchanted Kingdom",
+        "year": 1998,
+        "runtime_min": 71,
+        "tmdb_id": 28302,
+        "imdb_id": "tt0149215",
+        "created_at": "2026-04-14 15:40:44.459099+02:00",
+        "added_at": "2023-03-24 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T01:42:51.393566+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T01:42:47.363230+00:00"
+  "updated_at": "2026-08-27T01:42:57.826845+00:00"
 }
