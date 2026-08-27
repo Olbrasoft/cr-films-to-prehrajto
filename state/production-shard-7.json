@@ -22761,7 +22761,116 @@
         },
         "at": "2026-08-27T16:12:02.107119+00:00"
       }
+    },
+    "26055": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6e8c7889284",
+              "url": "https://prehraj.to/nicive-plamene-lasky-romanticka-drama-taliansko-2006-diel-2-dab-sk-g-avi/5a6e8c7889284",
+              "title": "Ničivé-plamene-lásky---Romantická-dráma-Taliansko---2006---diel-2---dab.-SK----G--.avi",
+              "year": null,
+              "duration_sec": 5818,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.515,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6e8c7838fb0",
+              "url": "https://prehraj.to/nicive-plamene-lasky-romanticka-drama-taliansko-2006-diel-1-dab-sk-g-avi/5a6e8c7838fb0",
+              "title": "Ničivé-plamene-lásky---Romantická-dráma-Taliansko---2006---diel-1---dab.-SK----G---.avi",
+              "year": null,
+              "duration_sec": 5892,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.509,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8d38b8d5236dae77",
+              "url": "https://prehraj.to/assunta-spina-s1e2-sk/8d38b8d5236dae77",
+              "title": "Assunta Spina - S1E2 SK",
+              "year": null,
+              "duration_sec": 5817,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Assunta Spina (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c383ce748a85878d",
+              "url": "https://prehraj.to/assunta-spina-s1e1-sk/c383ce748a85878d",
+              "title": "Assunta Spina - S1E1 SK",
+              "year": null,
+              "duration_sec": 5891,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Assunta Spina (2006)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:12:12.603236+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "assunta-spina",
+        "title": "Assunta Spina",
+        "original_title": null,
+        "year": 2006,
+        "runtime_min": 200,
+        "tmdb_id": 124969,
+        "imdb_id": "tt0886453",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:12:11.502947+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:12:08.745485+00:00"
+  "updated_at": "2026-08-27T16:12:12.603258+00:00"
 }
