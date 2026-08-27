@@ -17061,7 +17061,60 @@
         },
         "at": "2026-08-27T15:59:50.169671+00:00"
       }
+    },
+    "28303": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6000acf839f29",
+              "url": "https://prehraj.to/breeder-2020-nordic-1080p-web-dl-h-264-aac5-1-twa/6000acf839f29",
+              "title": "Breeder.2020.NORDiC.1080p.WEB-DL.H.264.AAC5.1-TWA",
+              "year": null,
+              "duration_sec": 6186,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.887,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:00:05.752226+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "twas-the-coup-before-christmas",
+        "title": "Twas the Coup Before Christmas",
+        "original_title": null,
+        "year": 2020,
+        "runtime_min": 8,
+        "tmdb_id": 1520937,
+        "imdb_id": "tt24513670",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T15:59:58.507199+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T15:59:57.083532+00:00"
+  "updated_at": "2026-08-27T16:00:05.752246+00:00"
 }
