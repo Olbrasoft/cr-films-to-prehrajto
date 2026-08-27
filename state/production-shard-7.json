@@ -17432,7 +17432,119 @@
         },
         "at": "2026-08-27T16:00:15.036341+00:00"
       }
+    },
+    "28111": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5caa77b9c382f",
+              "url": "https://prehraj.to/2012-supernova-cz-dabing-akcni-sci-fi-usa-2009-nejlepsi-filmy-mypage-cz/5caa77b9c382f",
+              "title": "2012-Supernova-CZ-dabing---Akční--Sci-Fi,-USA,-2009-(nejlepsi-filmy.mypage.cz)",
+              "year": null,
+              "duration_sec": 5225,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5225,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6788679102e2c",
+              "url": "https://prehraj.to/semafor-hity-2-t3c46-jiri-suchy-jitka-molavcova-kdo-chce-psa-bit/6788679102e2c",
+              "title": "Semafor Hity 2.T3C46.Jiří Suchý & Jitka Molavcová - Kdo…",
+              "year": null,
+              "duration_sec": 137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 137,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bat City USA (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678ad51ced708",
+              "url": "https://prehraj.to/semafor-hity-2-t3c46-jiri-suchy-jitka-molavcova-kdo-chce-psa-bit-bydejv/678ad51ced708",
+              "title": "Semafor Hity 2.T3C46.Jiří Suchý & Jitka Molavcová - Kdo…",
+              "year": null,
+              "duration_sec": 137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 137,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bat City USA (2012)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:00:26.618793+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bat-city-usa",
+        "title": "Bat City USA",
+        "original_title": null,
+        "year": 2012,
+        "runtime_min": null,
+        "tmdb_id": 798112,
+        "imdb_id": "tt2237128",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:00:23.620452+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:00:18.097080+00:00"
+  "updated_at": "2026-08-27T16:00:26.618814+00:00"
 }
