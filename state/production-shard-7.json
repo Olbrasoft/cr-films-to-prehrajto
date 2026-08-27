@@ -17684,7 +17684,67 @@
         },
         "at": "2026-08-27T16:00:31.353162+00:00"
       }
+    },
+    "27967": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa2d1e9eb450",
+              "url": "https://prehraj.to/avgust-vosmogo-2012/5aa2d1e9eb450",
+              "title": "Avgust. Vosmogo (2012)",
+              "year": null,
+              "duration_sec": 7929,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.438,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 120,
+                "candidate_runtime_sec": 7929,
+                "runtime_delta": 0.101,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:00:35.178821+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "august-eighth",
+        "title": "August. Eighth",
+        "original_title": "August. Eighth",
+        "year": 2012,
+        "runtime_min": 120,
+        "tmdb_id": 96231,
+        "imdb_id": "tt2094767",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:00:34.133351+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:00:32.433181+00:00"
+  "updated_at": "2026-08-27T16:00:35.178842+00:00"
 }
