@@ -5627,7 +5627,18 @@
       }
     },
     "2228": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "035b1f1541ab7668",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T01:06:46.301993+00:00"
+        }
+      ],
       "identity": {
         "slug": "mezi-zivly",
         "title": "Mezi živly",
@@ -5648,5 +5659,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T01:06:42.725546+00:00"
+  "updated_at": "2026-08-27T01:06:46.302016+00:00"
 }
