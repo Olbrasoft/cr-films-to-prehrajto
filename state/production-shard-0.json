@@ -53633,7 +53633,20 @@
       }
     },
     "9760": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "64f1b26c6995d",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28889902",
+          "display_name": "Narušitel (2023) CZ titulky",
+          "size_bytes": 857915363,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T13:27:29.854114+00:00"
+        }
+      ],
       "identity": {
         "slug": "narusitel-2023",
         "title": "Narušitel",
@@ -53654,5 +53667,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T13:23:38.344178+00:00"
+  "updated_at": "2026-08-27T13:27:29.854136+00:00"
 }
