@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.552495+00:00"
+        "at": "2026-08-27T03:56:11.171698+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:43:16.553721+00:00"
+        "at": "2026-08-27T03:56:11.172935+00:00"
       }
     },
     "27238": {
@@ -1016,7 +1016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.554128+00:00"
+        "at": "2026-08-27T03:56:11.173341+00:00"
       }
     },
     "16782": {
@@ -1096,7 +1096,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.555075+00:00"
+        "at": "2026-08-27T03:56:11.174296+00:00"
       }
     },
     "29350": {
@@ -1225,7 +1225,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.557543+00:00"
+        "at": "2026-08-27T03:56:11.176860+00:00"
       }
     },
     "28934": {
@@ -2571,7 +2571,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:43:16.558662+00:00"
+        "at": "2026-08-27T03:56:11.177967+00:00"
       }
     },
     "22670": {
@@ -3880,7 +3880,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:43:16.560172+00:00"
+        "at": "2026-08-27T03:56:11.179483+00:00"
       }
     },
     "15846": {
@@ -5379,7 +5379,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:43:16.563950+00:00"
+        "at": "2026-08-27T03:56:11.183242+00:00"
       }
     },
     "3606": {
@@ -6702,7 +6702,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.565519+00:00"
+        "at": "2026-08-27T03:56:11.184830+00:00"
       }
     },
     "8142": {
@@ -7417,7 +7417,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.566003+00:00"
+        "at": "2026-08-27T03:56:11.185300+00:00"
       }
     },
     "15054": {
@@ -7605,7 +7605,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:43:16.567147+00:00"
+        "at": "2026-08-27T03:56:11.186442+00:00"
       }
     },
     "1910": {
@@ -7740,7 +7740,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.571581+00:00"
+        "at": "2026-08-27T03:56:11.190890+00:00"
       }
     },
     "1438": {
@@ -7818,7 +7818,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:43:16.572027+00:00"
+        "at": "2026-08-27T03:56:11.191323+00:00"
       }
     },
     "14390": {
@@ -7982,7 +7982,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T03:56:07.521800+00:00"
       }
+    },
+    "1942": {
+      "attempts": [],
+      "identity": {
+        "slug": "free-guy-hra-na-hrdinu",
+        "title": "Free Guy",
+        "original_title": "Free Guy",
+        "year": 2021,
+        "runtime_min": null,
+        "tmdb_id": 550988,
+        "imdb_id": "tt6264654",
+        "created_at": "2026-04-13 13:19:24.548653+02:00",
+        "added_at": "2022-07-27 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25437293",
+          "account_name": "Free Byrd (2021)",
+          "title_similarity": 0.545,
+          "title_contains_alias": false,
+          "film_year": 2021,
+          "candidate_year": 2021,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-27T03:56:11.191669+00:00"
+      }
+    },
+    "1118": {
+      "attempts": [],
+      "identity": {
+        "slug": "panstvi-downton-nova-era",
+        "title": "Panství Downton: Nová éra",
+        "original_title": "Downton Abbey: A New Era",
+        "year": 2022,
+        "runtime_min": null,
+        "tmdb_id": 820446,
+        "imdb_id": "tt11703710",
+        "created_at": "2026-04-13 13:19:24.364518+02:00",
+        "added_at": "2022-07-20 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T03:56:11.192269+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T03:56:07.521834+00:00"
+  "updated_at": "2026-08-27T03:56:13.983855+00:00"
 }
