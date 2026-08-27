@@ -9980,7 +9980,18 @@
       }
     },
     "5722": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "474bbe6e9aa017d6",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T07:21:58.401161+00:00"
+        }
+      ],
       "identity": {
         "slug": "transformers-3",
         "title": "Transformers 3",
@@ -10001,5 +10012,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T07:21:55.635017+00:00"
+  "updated_at": "2026-08-27T07:21:58.401181+00:00"
 }
