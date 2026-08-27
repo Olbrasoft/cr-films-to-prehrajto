@@ -29938,7 +29938,67 @@
         },
         "at": "2026-08-27T16:23:57.088785+00:00"
       }
+    },
+    "22175": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "7b8262ec92c0a3b2",
+              "url": "https://prehraj.to/emmanuelle-1974-remastered-1080p-cz-fr/7b8262ec92c0a3b2",
+              "title": "Emmanuelle (1974) REMASTERED 1080p (CZ+FR)",
+              "year": null,
+              "duration_sec": 5620,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.323,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5620,
+                "runtime_delta": 0.073,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:24:15.909330+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "le-journal-erotique-d-un-bucheron",
+        "title": "Le journal érotique d'un bûcheron",
+        "original_title": "The Erotic Diary of a Lumberjack",
+        "year": 1974,
+        "runtime_min": 101,
+        "tmdb_id": 351156,
+        "imdb_id": "tt0071701",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:24:01.784116+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:23:59.303952+00:00"
+  "updated_at": "2026-08-27T16:24:15.909352+00:00"
 }
