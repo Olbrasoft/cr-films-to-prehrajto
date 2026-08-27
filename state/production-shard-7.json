@@ -23877,7 +23877,146 @@
         },
         "at": "2026-08-27T16:12:40.048233+00:00"
       }
+    },
+    "25503": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587cc5bfb842c",
+              "url": "https://prehraj.to/noksaek-uija-zelene-kreslo-2005-cz-tit/587cc5bfb842c",
+              "title": "Noksaek-uija-_-Zelené-křeslo-_-녹색-의자-2005,-CZ-tit",
+              "year": null,
+              "duration_sec": 6281,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.217,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6281,
+                "runtime_delta": 0.068,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6843fefb15900",
+              "url": "https://prehraj.to/nocebo-eva-green-mark-strong-chai-fonacier-2022-thriller-psychologicky-cz-dabing/6843fefb15900",
+              "title": "Nocebo (Eva Green,Mark Strong,Chai Fonacier-2022 Thriller…",
+              "year": null,
+              "duration_sec": 5849,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2005,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Green Chair (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6844054f8e5ee",
+              "url": "https://prehraj.to/nocebo-eva-green-mark-strong-chai-fonacier-2022-thriller-psychologicky-cz-dabing/6844054f8e5ee",
+              "title": "Nocebo (Eva Green,Mark Strong,Chai Fonacier-2022 Thriller…",
+              "year": null,
+              "duration_sec": 5850,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2005,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Green Chair (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68440ac2d2923",
+              "url": "https://prehraj.to/nocebo-eva-green-mark-strong-chai-fonacier-2022-thriller-psychologicky-cz-dabing/68440ac2d2923",
+              "title": "Nocebo (Eva Green,Mark Strong,Chai Fonacier-2022 Thriller…",
+              "year": null,
+              "duration_sec": 5849,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2005,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Green Chair (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59912bd58fb56",
+              "url": "https://prehraj.to/the-red-green-show-extras-handyman-tip-hair-dryer-radar/59912bd58fb56",
+              "title": "The Red Green Show Extras Handyman Tip Hair Dryer Radar",
+              "year": null,
+              "duration_sec": 48,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.992,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Green Chair (2005)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:12:44.823240+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "green-chair",
+        "title": "Green Chair",
+        "original_title": "Green Chair",
+        "year": 2005,
+        "runtime_min": 98,
+        "tmdb_id": 30043,
+        "imdb_id": "tt0436639",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:12:43.700261+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:12:41.938875+00:00"
+  "updated_at": "2026-08-27T16:12:44.823260+00:00"
 }
