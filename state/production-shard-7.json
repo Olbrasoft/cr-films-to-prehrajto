@@ -31747,7 +31747,60 @@
         },
         "at": "2026-08-27T16:24:57.041225+00:00"
       }
+    },
+    "21247": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588e9e51ea06c",
+              "url": "https://prehraj.to/film-nikdo-nic-nevi-nobody-knows-anything-1947-online-ke-shlednuti-onlinefilmykeshlednuti-cz-tisice-online-filmu-ke-shlednuti-ve-vysoke-kvalite/588e9e51ea06c",
+              "title": "Film-Nikdo-nic-neví-(Nobody-Knows-Anything)-1947-online-ke-shlédnuti--Onlinefilmykeshlednuti.cz---tisíce-online-filmů-ke-shlédnutí-ve-vysoké-kvalitě",
+              "year": null,
+              "duration_sec": 4183,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.32,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:25:02.599367+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "give-us-the-earth",
+        "title": "Give Us the Earth!",
+        "original_title": null,
+        "year": 1947,
+        "runtime_min": 21,
+        "tmdb_id": 240426,
+        "imdb_id": "tt0039425",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:25:01.475238+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:24:58.731721+00:00"
+  "updated_at": "2026-08-27T16:25:02.599387+00:00"
 }
