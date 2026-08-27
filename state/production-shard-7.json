@@ -25974,7 +25974,679 @@
         },
         "at": "2026-08-27T16:13:55.223033+00:00"
       }
+    },
+    "24111": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5886cc2605e8d",
+              "url": "https://prehraj.to/sam-od-bile-vody-1977/5886cc2605e8d",
+              "title": "Sam-od-bílé-vody-1977",
+              "year": null,
+              "duration_sec": 5322,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.308,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 68,
+                "candidate_runtime_sec": 5322,
+                "runtime_delta": 0.304,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85743f80d",
+              "url": "https://prehraj.to/sammy-j-randy-2015-comedy-up-late-on-abc-ep8/59df85743f80d",
+              "title": "Sammy J & Randy - 2015 Comedy Up Late on ABC (Ep8)",
+              "year": null,
+              "duration_sec": 365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85ba7c98b",
+              "url": "https://prehraj.to/sammy-j-randy-pokies/59df85ba7c98b",
+              "title": "Sammy J & Randy - Pokies",
+              "year": null,
+              "duration_sec": 190,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85c3b37c6",
+              "url": "https://prehraj.to/sammy-j-randy-secrets/59df85c3b37c6",
+              "title": "Sammy J & Randy - Secrets",
+              "year": null,
+              "duration_sec": 250,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.939,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c2bf6853449d29d",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e6-en/5c2bf6853449d29d",
+              "title": "Sammy's Children's Day - S1E6 EN",
+              "year": null,
+              "duration_sec": 2594,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "89fb5751ddf8e218",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e3-en/89fb5751ddf8e218",
+              "title": "Sammy's Children's Day - S1E3 EN",
+              "year": null,
+              "duration_sec": 3101,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85b680cdb",
+              "url": "https://prehraj.to/sammy-j-randy-good-times/59df85b680cdb",
+              "title": "Sammy J & Randy - Good Times",
+              "year": null,
+              "duration_sec": 155,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.962,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85aaa3967",
+              "url": "https://prehraj.to/sammy-j-randy-digital-tv/59df85aaa3967",
+              "title": "Sammy J & Randy - Digital TV",
+              "year": null,
+              "duration_sec": 275,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.933,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85ee3e1fe",
+              "url": "https://prehraj.to/sammy-j-randy-the-inheritance/59df85ee3e1fe",
+              "title": "Sammy J & Randy_ The Inheritance",
+              "year": null,
+              "duration_sec": 509,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.875,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85794ae2b",
+              "url": "https://prehraj.to/sammy-j-randy-armageddon-part-2/59df85794ae2b",
+              "title": "Sammy J & Randy - Armageddon (Part 2)",
+              "year": null,
+              "duration_sec": 376,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.908,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df858e37e23",
+              "url": "https://prehraj.to/sammy-j-randy-aussie-christmas/59df858e37e23",
+              "title": "Sammy J & Randy - Aussie Christmas",
+              "year": null,
+              "duration_sec": 180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.956,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df859aa6f74",
+              "url": "https://prehraj.to/sammy-j-randy-backbenchers-elevator/59df859aa6f74",
+              "title": "Sammy J & Randy - Backbenchers (Elevator)",
+              "year": null,
+              "duration_sec": 196,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.952,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "870ac581d8f40024",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e9-en/870ac581d8f40024",
+              "title": "Sammy's Children's Day - S1E9 EN",
+              "year": null,
+              "duration_sec": 2409,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "21d604748564a479",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e1-en/21d604748564a479",
+              "title": "Sammy's Children's Day - S1E1 EN",
+              "year": null,
+              "duration_sec": 3291,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ee441dfc63f809f5",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e5-en/ee441dfc63f809f5",
+              "title": "Sammy's Children's Day - S1E5 EN",
+              "year": null,
+              "duration_sec": 2671,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1fa7f785c102ea73",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e8-en/1fa7f785c102ea73",
+              "title": "Sammy's Children's Day - S1E8 EN",
+              "year": null,
+              "duration_sec": 667,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "133794d42f8da3ce",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e2-en/133794d42f8da3ce",
+              "title": "Sammy's Children's Day - S1E2 EN",
+              "year": null,
+              "duration_sec": 2917,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "25473b5176fd356c",
+              "url": "https://prehraj.to/sammy-s-children-s-day-s1e7-en/25473b5176fd356c",
+              "title": "Sammy's Children's Day - S1E7 EN",
+              "year": null,
+              "duration_sec": 3462,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85c9909df",
+              "url": "https://prehraj.to/sammy-j-randy-twitter-song/59df85c9909df",
+              "title": "Sammy J & Randy - Twitter Song",
+              "year": null,
+              "duration_sec": 142,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.965,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59df85c943c78",
+              "url": "https://prehraj.to/sammy-j-randy-the-queen/59df85c943c78",
+              "title": "Sammy J & Randy - The Queen",
+              "year": null,
+              "duration_sec": 135,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.967,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "570f87bc0d392",
+              "url": "https://prehraj.to/tammy-cz-dabing-2014/570f87bc0d392",
+              "title": "Tammy, CZ dabing (2014)",
+              "year": null,
+              "duration_sec": 5564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a98093637cbc",
+              "url": "https://prehraj.to/tammy-2014/5a98093637cbc",
+              "title": "Tammy (2014)",
+              "year": null,
+              "duration_sec": 5805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5867a8127856e",
+              "url": "https://prehraj.to/tammy-cz-dabing-2014-by-brute/5867a8127856e",
+              "title": "Tammy [CZ dabing, 2014] by BRUTE",
+              "year": null,
+              "duration_sec": 5564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5abab51fce584",
+              "url": "https://prehraj.to/tammy-cz-dabing-2014/5abab51fce584",
+              "title": "Tammy [CZ dabing, 2014]",
+              "year": null,
+              "duration_sec": 5564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4771171edfdad1df",
+              "url": "https://prehraj.to/tammy-2014-sk/4771171edfdad1df",
+              "title": "Tammy - 2014 SK",
+              "year": null,
+              "duration_sec": 5805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58403af8e71c1",
+              "url": "https://prehraj.to/tammy-2014-czdabing/58403af8e71c1",
+              "title": "Tammy 2014 CZdabing",
+              "year": null,
+              "duration_sec": 5805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61e303265e696",
+              "url": "https://prehraj.to/tammy-2014-cz-dabing/61e303265e696",
+              "title": "Tammy 2014 CZ DABING",
+              "year": null,
+              "duration_sec": 5806,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654f1db19896f",
+              "url": "https://prehraj.to/tammy-2014-1080p-theatrical-cut-bdrip-xvid-ac3-cz-by-deejay-snoopy77-by-ugare/654f1db19896f",
+              "title": "Tammy (2014) 1080p.Theatrical.Cut.BDRip.XViD.AC3.CZ.by…",
+              "year": null,
+              "duration_sec": 5806,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5831f40f3c685",
+              "url": "https://prehraj.to/tammy-cz-dabing-2014-by-kamer/5831f40f3c685",
+              "title": "Tammy, CZ dabing (2014) by KAMer",
+              "year": null,
+              "duration_sec": 5564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5837ff1fc2af0",
+              "url": "https://prehraj.to/tammy-cz-dabing-2014-tuta/5837ff1fc2af0",
+              "title": "Tammy, CZ dabing (2014)  (tuta)",
+              "year": null,
+              "duration_sec": 5564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5874dcf69ad33",
+              "url": "https://prehraj.to/tammy-cz-dabing-2014-tuta/5874dcf69ad33",
+              "title": "Tammy, CZ dabing (2014) (TUTA)",
+              "year": null,
+              "duration_sec": 5564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0947dc0be9c3b577",
+              "url": "https://prehraj.to/tammy-2014-cz-dabing/0947dc0be9c3b577",
+              "title": "Tammy (2014) CZ Dabing",
+              "year": null,
+              "duration_sec": 5563,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1977,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sammy (1977)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59e3976e8080f",
+              "url": "https://prehraj.to/tammy-s01e19/59e3976e8080f",
+              "title": "Tammy.S01E19",
+              "year": null,
+              "duration_sec": 1456,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Sammy (1977)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:14:00.606181+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sammy",
+        "title": "Sammy",
+        "original_title": null,
+        "year": 1977,
+        "runtime_min": 68,
+        "tmdb_id": 370910,
+        "imdb_id": "tt0163817",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:13:58.409123+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:13:56.950883+00:00"
+  "updated_at": "2026-08-27T16:14:00.606203+00:00"
 }
