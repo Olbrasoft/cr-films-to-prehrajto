@@ -54322,7 +54322,18 @@
       }
     },
     "776": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "04a3020426612910",
+          "status": "failed",
+          "reason": "Download failed with curl exit 28",
+          "permanent": false,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T19:27:39.650236+00:00"
+        }
+      ],
       "identity": {
         "slug": "strazci-galaxie-vol-2",
         "title": "Strážci Galaxie Vol. 2",
@@ -54343,5 +54354,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T18:27:34.847559+00:00"
+  "updated_at": "2026-08-27T19:27:39.650261+00:00"
 }
