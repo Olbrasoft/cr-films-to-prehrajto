@@ -6316,6 +6316,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T23:05:37.280616+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "8aba9bc6c5e72abb",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28878607",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T02:11:31.141784+00:00"
         }
       ],
       "identity": {
@@ -6335,19 +6346,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T23:58:51.598707+00:00"
-      },
-      "upload": {
-        "target_video_id": "28878607",
-        "display_name": "Mafiánovi (2013) CZ Dabing",
-        "size_bytes": 761691565,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "8aba9bc6c5e72abb",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:03:42.935459+00:00"
       }
     },
     "13419": {
@@ -6503,7 +6501,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T08:02:17.574699+00:00",
-        "verified_at": "2026-08-26T23:56:36.417105+00:00",
+        "verified_at": "2026-08-27T03:09:47.939562+00:00",
         "live_display_name": "Tajemství loňského léta 3 (2006) CZ titulky"
       }
     },
@@ -8126,8 +8124,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:16:12.574495+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T00:16:12.574495+00:00",
+        "verified_at": "2026-08-27T02:11:58.842930+00:00",
+        "live_display_name": "Gran Turismo (2023) CZ Dabing"
       }
     },
     "4515": {
@@ -8160,12 +8160,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:20:42.203484+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T00:20:42.203484+00:00",
+        "verified_at": "2026-08-27T02:12:07.788544+00:00",
+        "live_display_name": "Služka (2023) CZ Dabing"
       }
     },
     "7963": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "6902e78b1b5b6",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28878906",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T02:12:25.439300+00:00"
+        }
+      ],
       "identity": {
         "slug": "follow-me",
         "title": "Follow Me",
@@ -8183,19 +8197,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T00:20:49.660972+00:00"
-      },
-      "upload": {
-        "target_video_id": "28878906",
-        "display_name": "Follow Me (2020) CZ Dabing",
-        "size_bytes": 266277131,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "6902e78b1b5b6",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:22:32.474227+00:00"
       }
     },
     "7731": {
@@ -8259,8 +8260,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:34:39.708807+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T00:34:39.708807+00:00",
+        "verified_at": "2026-08-27T02:12:34.648883+00:00",
+        "live_display_name": "Star Trek: Do temnoty (2013) CZ Dabing"
       }
     },
     "14819": {
@@ -8293,8 +8296,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:40:50.430764+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T00:40:50.430764+00:00",
+        "verified_at": "2026-08-27T02:12:43.625180+00:00",
+        "live_display_name": "Grand Prix (2022) CZ Dabing"
       }
     },
     "475": {
@@ -8327,8 +8332,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:51:09.112469+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T00:51:09.112469+00:00",
+        "verified_at": "2026-08-27T02:12:52.747306+00:00",
+        "live_display_name": "Rogue One: Star Wars Story (2016) CZ Dabing"
       }
     },
     "555": {
@@ -8361,8 +8368,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T00:57:00.831018+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T00:57:00.831018+00:00",
+        "verified_at": "2026-08-27T02:13:01.770255+00:00",
+        "live_display_name": "Všechno, všude, najednou (2022) CZ Dabing"
       }
     },
     "10339": {
@@ -8395,8 +8404,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T01:04:01.664398+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T01:04:01.664398+00:00",
+        "verified_at": "2026-08-27T02:13:10.756859+00:00",
+        "live_display_name": "V létě ti řeknu, jak se mám (2022) CZ Dabing"
       }
     },
     "17323": {
@@ -8436,16 +8447,18 @@
         "target_video_id": "28879626",
         "display_name": "Condor's Nest (2023) CZ titulky",
         "size_bytes": 970872565,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "486315c658c224b1",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T01:10:59.807564+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T01:10:59.807564+00:00",
+        "verified_at": "2026-08-27T02:13:19.863674+00:00",
+        "live_display_name": "Condor's Nest (2023) CZ titulky"
       }
     }
   },
-  "updated_at": "2026-08-27T01:10:59.807590+00:00"
+  "updated_at": "2026-08-27T03:09:58.136951+00:00"
 }
