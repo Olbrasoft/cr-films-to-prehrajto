@@ -21292,7 +21292,80 @@
         },
         "at": "2026-08-27T16:02:45.536676+00:00"
       }
+    },
+    "26911": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe0e47704347",
+              "url": "https://prehraj.to/the-croods-a-new-age-2020-uhd-2160p-web-ddp5-1-hdr-hevc-ddr/5fe0e47704347",
+              "title": "The.Croods.A.New.Age.2020.UHD.2160p.WEB.DDP5.1.HDR.HEVC-DDR",
+              "year": null,
+              "duration_sec": 5715,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.832,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe37e9e0aa93",
+              "url": "https://prehraj.to/the-croods-a-new-age-2020-cz-sub-uhd-2160p-web-ddp5-1-hdr-hevc-ddr/5fe37e9e0aa93",
+              "title": "The.Croods.A.New.Age.2020.CZ.sub.UHD.2160p.WEB.DDP5.1.HDR.HEVC-DDR",
+              "year": null,
+              "duration_sec": 5715,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.832,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:02:50.159794+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "wende-im-eis-die-geschichte-der-letzten-ddr-antarktisforscher",
+        "title": "Wende im Eis - Die Geschichte der letzten DDR-Antarktisforscher",
+        "original_title": "Reunification in the Ice: The Story of the Last GDR Antarctic Explorers",
+        "year": 2020,
+        "runtime_min": 52,
+        "tmdb_id": 749454,
+        "imdb_id": "tt13199916",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:02:48.443026+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:02:46.694297+00:00"
+  "updated_at": "2026-08-27T16:02:50.159815+00:00"
 }
