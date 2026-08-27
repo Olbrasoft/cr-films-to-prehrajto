@@ -30058,7 +30058,119 @@
         },
         "at": "2026-08-27T16:24:17.543790+00:00"
       }
+    },
+    "21823": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588e0c613e435",
+              "url": "https://prehraj.to/ringo-del-nebraska-1966-ital-ger-dvdrip-sksub/588e0c613e435",
+              "title": "Ringo-del-Nebraska-(1966)-Ital-ger-DVDRip.SKsub-",
+              "year": null,
+              "duration_sec": 4989,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.182,
+                "title_contains_alias": false,
+                "film_year": 1966,
+                "candidate_year": 1966,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4989,
+                "runtime_delta": 0.168,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "679432ecb5ad5",
+              "url": "https://prehraj.to/franco-e-ciccio-i-due-figli-di-ringo-1966-film-completo/679432ecb5ad5",
+              "title": "Franco e Ciccio - I Due Figli di Ringo 1966 film completo",
+              "year": null,
+              "duration_sec": 6048,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.466,
+                "title_contains_alias": false,
+                "film_year": 1966,
+                "candidate_year": 1966,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6048,
+                "runtime_delta": 0.008,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "I 2 figli di Ringo (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67cf610e65e5b",
+              "url": "https://prehraj.to/p-f-spagetti-western-franco-e-ciccio-i-due-figli-di-ringo-1966/67cf610e65e5b",
+              "title": "P.F. Spagetti Western-Franco e Ciccio - I Due Figli di…",
+              "year": null,
+              "duration_sec": 6056,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.319,
+                "title_contains_alias": false,
+                "film_year": 1966,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6056,
+                "runtime_delta": 0.009,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "I 2 figli di Ringo (1966)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:24:40.368232+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "i-2-figli-di-ringo",
+        "title": "I 2 figli di Ringo",
+        "original_title": "Two Sons of Ringo",
+        "year": 1966,
+        "runtime_min": 100,
+        "tmdb_id": 121329,
+        "imdb_id": "tt0061598",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:24:34.502496+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:24:32.235109+00:00"
+  "updated_at": "2026-08-27T16:24:40.368254+00:00"
 }
