@@ -16288,7 +16288,67 @@
         },
         "at": "2026-08-27T15:59:07.769625+00:00"
       }
+    },
+    "29023": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67dd3f61d19be",
+              "url": "https://prehraj.to/revelations-2025-cz-dabing-1080p/67dd3f61d19be",
+              "title": "Revelations (2025) CZ Dabing 1080p",
+              "year": null,
+              "duration_sec": 7344,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.348,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 122,
+                "candidate_runtime_sec": 7344,
+                "runtime_delta": 0.003,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T15:59:17.106233+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "moment-of-contact-new-revelations-of-alien-encounters",
+        "title": "Moment of Contact: New Revelations of Alien Encounters",
+        "original_title": null,
+        "year": 2025,
+        "runtime_min": 122,
+        "tmdb_id": 1602579,
+        "imdb_id": "tt38890268",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T15:59:15.969819+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T15:59:14.412189+00:00"
+  "updated_at": "2026-08-27T15:59:17.106254+00:00"
 }
