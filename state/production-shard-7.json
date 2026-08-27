@@ -23617,7 +23617,60 @@
         },
         "at": "2026-08-27T16:12:18.694162+00:00"
       }
+    },
+    "25775": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c52a77c11a7e",
+              "url": "https://prehraj.to/james-bond-09-muz-ze-zlatou-zbrani-moore-1974-cz-dabing/5c52a77c11a7e",
+              "title": "James-Bond-09-Muz-ze-zlatou-zbrani-(Moore)-(1974)--cz-dabing",
+              "year": null,
+              "duration_sec": 7227,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.798,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:12:25.664992+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "james-dean-remembered",
+        "title": "James Dean Remembered",
+        "original_title": null,
+        "year": 1974,
+        "runtime_min": 67,
+        "tmdb_id": 238397,
+        "imdb_id": "tt0489093",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:12:21.762714+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:12:19.895543+00:00"
+  "updated_at": "2026-08-27T16:12:25.665013+00:00"
 }
