@@ -17744,7 +17744,684 @@
         },
         "at": "2026-08-27T16:00:34.133351+00:00"
       }
+    },
+    "27959": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "66a6b89cc6a02",
+              "url": "https://prehraj.to/poslusne-hlasim-komedie-1957-cz-film/66a6b89cc6a02",
+              "title": "Poslušně hlásím - Komedie 1957 CZ film",
+              "year": null,
+              "duration_sec": 5475,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.311,
+                "title_contains_alias": false,
+                "film_year": 1957,
+                "candidate_year": 1957,
+                "year_match": true,
+                "film_runtime_min": 77,
+                "candidate_runtime_sec": 5475,
+                "runtime_delta": 0.185,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ab92f03af22",
+              "url": "https://prehraj.to/ride-on-long-ma-jing-shen-2023-czsub-1080p/64ab92f03af22",
+              "title": "Ride On   Long ma jing shen 2023 czsub 1080p",
+              "year": null,
+              "duration_sec": 7540,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64e4e15760870",
+              "url": "https://prehraj.to/jun-jun-01-cztitulky/64e4e15760870",
+              "title": "Jun & Jun 01 CZtitulky",
+              "year": null,
+              "duration_sec": 1538,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.667,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64e4e26b6f3d2",
+              "url": "https://prehraj.to/jun-jun-03-cztitulky/64e4e26b6f3d2",
+              "title": "Jun & Jun 03 CZtitulky",
+              "year": null,
+              "duration_sec": 1428,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.691,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64fe2b30e3289",
+              "url": "https://prehraj.to/jun-jun-06-cztitulky/64fe2b30e3289",
+              "title": "Jun & Jun 06 CZtitulky",
+              "year": null,
+              "duration_sec": 1820,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.606,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64fe2bd715cf9",
+              "url": "https://prehraj.to/jun-jun-07-cztitulky/64fe2bd715cf9",
+              "title": "Jun & Jun 07 CZtitulky",
+              "year": null,
+              "duration_sec": 1736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.624,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64f660beadf14",
+              "url": "https://prehraj.to/jun-jun-07-cztitulky/64f660beadf14",
+              "title": "Jun & Jun 07 CZtitulky",
+              "year": null,
+              "duration_sec": 1737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.624,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b56f7f2f30",
+              "url": "https://prehraj.to/jun-jun-08-cztitulky/650b56f7f2f30",
+              "title": "Jun & Jun 08 CZtitulky",
+              "year": null,
+              "duration_sec": 2007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.566,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ee2cbb9ca31",
+              "url": "https://prehraj.to/jun-jun-04-cztitulky/64ee2cbb9ca31",
+              "title": "Jun & Jun 04 CZtitulky",
+              "year": null,
+              "duration_sec": 1701,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.632,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64fe2a8ce3446",
+              "url": "https://prehraj.to/jun-jun-04-cztitulky/64fe2a8ce3446",
+              "title": "Jun & Jun 04 CZtitulky",
+              "year": null,
+              "duration_sec": 1701,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.632,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64e4e1eba2515",
+              "url": "https://prehraj.to/jun-jun-02-cztitulky/64e4e1eba2515",
+              "title": "Jun & Jun 02 CZtitulky",
+              "year": null,
+              "duration_sec": 1394,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.698,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ee2e11a6d15",
+              "url": "https://prehraj.to/jun-jun-06-cztitulky/64ee2e11a6d15",
+              "title": "Jun & Jun 06 CZtitulky",
+              "year": null,
+              "duration_sec": 1821,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.606,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ee2d5fd6684",
+              "url": "https://prehraj.to/jun-jun-05-cztitulky/64ee2d5fd6684",
+              "title": "Jun & Jun 05 CZtitulky",
+              "year": null,
+              "duration_sec": 1945,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.579,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b5c0e97bb0",
+              "url": "https://prehraj.to/jun-and-jun-08-cztitulky/650b5c0e97bb0",
+              "title": "Jun and Jun 08 CZtitulky",
+              "year": null,
+              "duration_sec": 2007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.566,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b5b63e748d",
+              "url": "https://prehraj.to/jun-and-jun-07-cztitulky/650b5b63e748d",
+              "title": "Jun and Jun 07 CZtitulky",
+              "year": null,
+              "duration_sec": 1736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.624,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b5abb640af",
+              "url": "https://prehraj.to/jun-and-jun-06-cztitulky/650b5abb640af",
+              "title": "Jun and Jun 06 CZtitulky",
+              "year": null,
+              "duration_sec": 1820,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.606,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b59647b59f",
+              "url": "https://prehraj.to/jun-and-jun-04-cztitulky/650b59647b59f",
+              "title": "Jun and Jun 04 CZtitulky",
+              "year": null,
+              "duration_sec": 1701,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.632,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b58db165a8",
+              "url": "https://prehraj.to/jun-and-jun-03-cztitulky/650b58db165a8",
+              "title": "Jun and Jun 03 CZtitulky",
+              "year": null,
+              "duration_sec": 1428,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.691,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b585a2cd87",
+              "url": "https://prehraj.to/jun-and-jun-02-cztitulky/650b585a2cd87",
+              "title": "Jun and Jun 02 CZtitulky",
+              "year": null,
+              "duration_sec": 1394,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.698,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ecd89f7ea30",
+              "url": "https://prehraj.to/jun-jun-04-eng-subtitles/64ecd89f7ea30",
+              "title": "Jun & Jun - 04 (ENG subtitles)",
+              "year": null,
+              "duration_sec": 1701,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.632,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650b57c48a089",
+              "url": "https://prehraj.to/jun-and-jun-01-cztitulky/650b57c48a089",
+              "title": "Jun and Jun 01 CZtitulky",
+              "year": null,
+              "duration_sec": 1538,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.667,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ecd8771f933",
+              "url": "https://prehraj.to/jun-jun-03-eng-subtitles/64ecd8771f933",
+              "title": "Jun & Jun - 03 (ENG subtitles)",
+              "year": null,
+              "duration_sec": 1428,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.691,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ecd8cd41d5a",
+              "url": "https://prehraj.to/jun-jun-05-eng-subtitles/64ecd8cd41d5a",
+              "title": "Jun & Jun - 05 (ENG subtitles)",
+              "year": null,
+              "duration_sec": 1945,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.579,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ecd8e4a397e",
+              "url": "https://prehraj.to/jun-jun-06-eng-subtitles/64ecd8e4a397e",
+              "title": "Jun & Jun - 06 (ENG subtitles)",
+              "year": null,
+              "duration_sec": 1821,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.606,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64f3e469a5897",
+              "url": "https://prehraj.to/jun-jun-07-eng-subtitles/64f3e469a5897",
+              "title": "Jun & Jun - 07 (ENG subtitles)",
+              "year": null,
+              "duration_sec": 1736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.624,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e3e2af7b2c1",
+              "url": "https://prehraj.to/heroes-of-sung-1973-sbunite/68e3e2af7b2c1",
+              "title": "Heroes.Of.Sung.1973.SBunite",
+              "year": null,
+              "duration_sec": 4840,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1973,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6813f2cb4504d",
+              "url": "https://prehraj.to/kung-fu-mkv-rivals-of-kung-fu-1974-dvdrip/6813f2cb4504d",
+              "title": "Kung Fu Mkv-Rivals Of Kung Fu 1974 DVDRip",
+              "year": null,
+              "duration_sec": 5607,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e7d1f09e002",
+              "url": "https://prehraj.to/kung-fu-rivals-of-kung-fu-1974-dvdrip/67e7d1f09e002",
+              "title": "Kung Fu-Rivals Of Kung Fu 1974 DVDRip",
+              "year": null,
+              "duration_sec": 5607,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e7d3a53ee73",
+              "url": "https://prehraj.to/kung-fu-soul-brothers-of-kung-fu-1977-720p-bluray-yts-mx-biao-yuen/67e7d3a53ee73",
+              "title": "Kung Fu-Soul Brothers Of Kung Fu (1977) [720p] [BluRay] …",
+              "year": null,
+              "duration_sec": 5626,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1977,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e80f2266908",
+              "url": "https://prehraj.to/kung-fu-the-master-of-kung-fu-1973-x264-dvdrip-shawbros-kungfu/67e80f2266908",
+              "title": "Kung Fu-The Master Of Kung Fu [1973].x264.DVDrip(ShawBros…",
+              "year": null,
+              "duration_sec": 5522,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1973,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6812c73abd041",
+              "url": "https://prehraj.to/kung-fu-mkv-death-duel-of-kung-fu-1979/6812c73abd041",
+              "title": "Kung Fu Mkv-Death Duel of Kung Fu 1979",
+              "year": null,
+              "duration_sec": 4780,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1979,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e6dbc547a95",
+              "url": "https://prehraj.to/kung-fu-emperor-of-shaolin-kung-fu-1980/67e6dbc547a95",
+              "title": "Kung Fu-Emperor of Shaolin Kung Fu (1980)",
+              "year": null,
+              "duration_sec": 5493,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1980,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e7ce360200c",
+              "url": "https://prehraj.to/kung-fu-seven-steps-of-kung-fu-1979-x264-dvdrip-kungfu-classics/67e7ce360200c",
+              "title": "Kung Fu-Seven Steps Of Kung Fu [1979].x264.DVDrip(KungFu…",
+              "year": null,
+              "duration_sec": 5220,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1957,
+                "candidate_year": 1979,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jung On Film (1957)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:00:38.174284+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "jung-on-film",
+        "title": "Jung On Film",
+        "original_title": null,
+        "year": 1957,
+        "runtime_min": 77,
+        "tmdb_id": 36721,
+        "imdb_id": "tt2087829",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:00:36.793252+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:00:35.178842+00:00"
+  "updated_at": "2026-08-27T16:00:38.174304+00:00"
 }
