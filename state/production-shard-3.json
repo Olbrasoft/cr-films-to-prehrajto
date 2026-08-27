@@ -8278,7 +8278,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:04:05.481519+00:00"
+        "at": "2026-08-27T03:17:51.140349+00:00"
       }
     },
     "643": {
@@ -8509,7 +8509,86 @@
         "verified_at": "2026-08-27T02:13:19.863674+00:00",
         "live_display_name": "Condor's Nest (2023) CZ titulky"
       }
+    },
+    "17483": {
+      "attempts": [],
+      "identity": {
+        "slug": "bozi-pokuseni-2020",
+        "title": "Boží pokušení",
+        "original_title": "Yes, God, Yes",
+        "year": 2020,
+        "runtime_min": 78,
+        "tmdb_id": 527660,
+        "imdb_id": "tt8949056",
+        "created_at": "2026-04-14 16:19:18.476618+02:00",
+        "added_at": "2023-01-27 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "24874272",
+              "account_name": "Osudové pokušení (2020) CZ Dabing",
+              "title_similarity": 0.588,
+              "title_contains_alias": false,
+              "film_year": 2020,
+              "candidate_year": 2020,
+              "year_match": true,
+              "film_runtime_min": 78,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25304534",
+              "account_name": "První pokušení Krista (2019) CZ Titulky",
+              "title_similarity": 0.513,
+              "title_contains_alias": false,
+              "film_year": 2020,
+              "candidate_year": 2019,
+              "year_match": true,
+              "film_runtime_min": 78,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "24868421",
+              "account_name": "YES DAY (2021) CZ Dabing",
+              "title_similarity": 0.522,
+              "title_contains_alias": false,
+              "film_year": 2020,
+              "candidate_year": 2021,
+              "year_match": true,
+              "film_runtime_min": 78,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-27T03:17:51.142852+00:00"
+      }
+    },
+    "12443": {
+      "attempts": [],
+      "identity": {
+        "slug": "efekt-nula-1998",
+        "title": "Efekt nula",
+        "original_title": "Zero Effect",
+        "year": 1998,
+        "runtime_min": 116,
+        "tmdb_id": 16148,
+        "imdb_id": "tt0120906",
+        "created_at": "2026-04-14 15:39:08.886624+02:00",
+        "added_at": "2023-01-26 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T03:17:51.143132+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T03:17:49.867438+00:00"
+  "updated_at": "2026-08-27T03:17:57.827901+00:00"
 }
