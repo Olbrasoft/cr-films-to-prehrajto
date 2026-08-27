@@ -28466,7 +28466,94 @@
         },
         "at": "2026-08-27T16:14:18.883242+00:00"
       }
+    },
+    "23447": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b5a2d13c4e9",
+              "url": "https://prehraj.to/televariete-71-cr-1995/58b5a2d13c4e9",
+              "title": "Televarieté-(71.)-(ČR,-1995)",
+              "year": null,
+              "duration_sec": 3805,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 1995,
+                "candidate_year": 1995,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3805,
+                "runtime_delta": 0.366,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b424f3c6256",
+              "url": "https://prehraj.to/71-fragmentu-chronologie-nahody-71-fragmente-einer-chronologie-des-zufalls-1994-cz-tit/58b424f3c6256",
+              "title": "71-fragmentů-chronologie-náhody-_-71-Fragmente-einer…",
+              "year": null,
+              "duration_sec": 5701,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.591,
+                "title_contains_alias": false,
+                "film_year": 1995,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5701,
+                "runtime_delta": 0.05,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "71 Fragmente einer Chronologie des Zufalls (1995)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:14:29.267206+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "71-fragmente-einer-chronologie-des-zufalls",
+        "title": "71 Fragmente einer Chronologie des Zufalls",
+        "original_title": "71 Fragments of a Chronology of Chance",
+        "year": 1995,
+        "runtime_min": 100,
+        "tmdb_id": 32764,
+        "imdb_id": "tt0109020",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:14:22.889842+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:14:21.279102+00:00"
+  "updated_at": "2026-08-27T16:14:29.267228+00:00"
 }
