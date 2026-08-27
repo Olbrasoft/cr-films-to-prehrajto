@@ -28379,7 +28379,94 @@
         },
         "at": "2026-08-27T16:14:15.736271+00:00"
       }
+    },
+    "23511": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac2564fa6408",
+              "url": "https://prehraj.to/silenstvi-1994/5ac2564fa6408",
+              "title": "Šílenství (1994)",
+              "year": null,
+              "duration_sec": 5723,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.15,
+                "title_contains_alias": false,
+                "film_year": 1994,
+                "candidate_year": 1994,
+                "year_match": true,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 5723,
+                "runtime_delta": 0.109,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c2bd697ea828",
+              "url": "https://prehraj.to/silenstvi-1994/5c2bd697ea828",
+              "title": "Šílenství (1994)",
+              "year": null,
+              "duration_sec": 5723,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.15,
+                "title_contains_alias": false,
+                "film_year": 1994,
+                "candidate_year": 1994,
+                "year_match": true,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 5723,
+                "runtime_delta": 0.109,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:14:21.279072+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-madness-of-king-george",
+        "title": "The Madness of King George",
+        "original_title": null,
+        "year": 1994,
+        "runtime_min": 107,
+        "tmdb_id": 11318,
+        "imdb_id": "tt0110428",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:14:18.883242+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:14:17.387057+00:00"
+  "updated_at": "2026-08-27T16:14:21.279102+00:00"
 }
