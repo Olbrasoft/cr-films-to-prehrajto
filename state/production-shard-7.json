@@ -24924,7 +24924,709 @@
         },
         "at": "2026-08-27T16:13:42.646171+00:00"
       }
+    },
+    "24399": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e46c616e9036",
+              "url": "https://prehraj.to/tajemstvi-reky-bohu-1-cz-dabing-1999/5e46c616e9036",
+              "title": "Tajemství řeky Bohů-1.CZ dabing 1999",
+              "year": null,
+              "duration_sec": 5244,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": 140,
+                "candidate_runtime_sec": 5244,
+                "runtime_delta": 0.376,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58d2a35baadc5",
+              "url": "https://prehraj.to/metrix-1-1999-cz-dabing/58d2a35baadc5",
+              "title": "!Metrix-1-1999-Cz-Dabing",
+              "year": null,
+              "duration_sec": 7846,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.273,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": 140,
+                "candidate_runtime_sec": 7846,
+                "runtime_delta": 0.066,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67128bfd351b4",
+              "url": "https://prehraj.to/bambaska-biri-10-1/67128bfd351b4",
+              "title": "Bambaşka Biri 10-1",
+              "year": null,
+              "duration_sec": 4909,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.444,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 140,
+                "candidate_runtime_sec": 4909,
+                "runtime_delta": 0.416,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65efe47c1ff5d",
+              "url": "https://prehraj.to/akta-x-07-10-byti-a-cas-i-2000-by-ugare-by-ugare/65efe47c1ff5d",
+              "title": "Akta X 07 (10) - Byti a cas (I) (2000) by_UgarE (by_UgarE)",
+              "year": null,
+              "duration_sec": 2682,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.681,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678febf3f2d84",
+              "url": "https://prehraj.to/akta-x-07-10-byti-a-cas-i-2000/678febf3f2d84",
+              "title": "Akta X 07 (10) - Byti a cas (I) (2000)",
+              "year": null,
+              "duration_sec": 2682,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.681,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3487a24e0411d8ab",
+              "url": "https://prehraj.to/mali-letajici-medvidci-bily-dest-i-10-dil/3487a24e0411d8ab",
+              "title": "Malí létající medvídci - Bílý déšť I 10.díl",
+              "year": null,
+              "duration_sec": 1412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.832,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "656a036e958b5",
+              "url": "https://prehraj.to/akta-x-07-10-byti-a-cas-i-2000/656a036e958b5",
+              "title": "Akta X 07 (10) - Byti a cas (I) (2000)",
+              "year": null,
+              "duration_sec": 2682,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.681,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66bbf3c5c0d2a",
+              "url": "https://prehraj.to/akta-x-07-10-byti-a-cas-i-2000/66bbf3c5c0d2a",
+              "title": "Akta X 07 (10) - Byti a cas (I) (2000)",
+              "year": null,
+              "duration_sec": 2682,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.681,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aff5180c612f5296",
+              "url": "https://prehraj.to/bibi-a-tina-i-10-tata-se-uci-jezdit/aff5180c612f5296",
+              "title": "Bibi a Tina I (10) Táta se učí jezdit",
+              "year": null,
+              "duration_sec": 1559,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.814,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "928b18c4da5c38d7",
+              "url": "https://prehraj.to/daikenja-riddle-no-jikan-gyakkou-11-cz-zurici-byci/928b18c4da5c38d7",
+              "title": "Daikenja Riddle no Jikan Gyakkou - 11 CZ - Zuřící býci",
+              "year": null,
+              "duration_sec": 305,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.964,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "29b3eb723177a5a4",
+              "url": "https://prehraj.to/neznamy-20-dil-ctverice-muzu-tvrdila-ze-byli-uneseni-mimozemstany-podstoupili-i-vysetreni-na-detektoru-lzi/29b3eb723177a5a4",
+              "title": "Neznámý - 20. díl - Čtveřice mužů tvrdila, že byli uneseni…",
+              "year": null,
+              "duration_sec": 293,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.965,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b32151462cc07398",
+              "url": "https://prehraj.to/slavne-znacky-85-dil-rolex-jedine-hodinky-ktere-byly-na-absolutnim-dne-i-na-nejvyssim-vrcholu/b32151462cc07398",
+              "title": "Slavné značky - 85. díl - Rolex – Jediné hodinky, které…",
+              "year": null,
+              "duration_sec": 489,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.942,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6eedd059dca4c3d7",
+              "url": "https://prehraj.to/kiwi-a-strit-10-dil-nemocny-kiwi/6eedd059dca4c3d7",
+              "title": "Kiwi a strit - 10. díl - Nemocný Kiwi",
+              "year": null,
+              "duration_sec": 300,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.964,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8b57cff44d1bc87a",
+              "url": "https://prehraj.to/bizarni-rusko-11-dil-ruska-kgb-a-jeji-tajemstvi-na-vyplatni-pasce-byly-i-agentky-svudnice/8b57cff44d1bc87a",
+              "title": "Bizarní rusko - 11. díl - Ruská KGB a její tajemství. Na…",
+              "year": null,
+              "duration_sec": 271,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2a22c8c849962023",
+              "url": "https://prehraj.to/zit-prahu-104-dil-kde-bydli-celebrity-v-praze-luxusni-byty-za-miliony-i-dum-na-periferii/2a22c8c849962023",
+              "title": "Žít prahu - 104. díl - Kde bydlí celebrity v Praze –…",
+              "year": null,
+              "duration_sec": 355,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.958,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "90df941f5f11ad3a",
+              "url": "https://prehraj.to/one-day-03-dil-vojtech-drahokoupil-prozradil-kde-pise-pisnicky-byli-jsme-s-nim-i-na-nove/90df941f5f11ad3a",
+              "title": "One day - 03. díl - Vojtěch Drahokoupil prozradil, kde píše…",
+              "year": null,
+              "duration_sec": 839,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.9,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b739839926692a43",
+              "url": "https://prehraj.to/hvezdna-talkshow-10-dil-zacatky-byly-krute-ale-i-tak-si-tanecnik-tomas-vorechovsky-vyslapal-uspesnou-cesticku/b739839926692a43",
+              "title": "Hvězdná talkshow - 10. díl - Začátky byly kruté, ale i tak…",
+              "year": null,
+              "duration_sec": 1711,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.796,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "96155f722a2f24f3",
+              "url": "https://prehraj.to/dvtv-interview-384-dil-karim-zivot-na-ulici-prostituce-i-hiv-byly-zkouska-ve-vezeni-to-chce-ostre-lokty-ulice-te-semele/96155f722a2f24f3",
+              "title": "Dvtv interview - 384. díl - Karim Život na ulici,…",
+              "year": null,
+              "duration_sec": 668,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.92,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "633b094dc33de",
+              "url": "https://prehraj.to/hra-na-olihen-8-bily-kun-full-hd-jar-cz/633b094dc33de",
+              "title": "Hra na oliheň 8-Bílý kůň FULL HD (JAR) cz",
+              "year": null,
+              "duration_sec": 1969,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.766,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66a36b515ed6c",
+              "url": "https://prehraj.to/akta-x-07-10-byti-a-cas/66a36b515ed6c",
+              "title": "Akta X 07-10 - Bytí a čas",
+              "year": null,
+              "duration_sec": 2641,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.686,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ff3658a34f8a",
+              "url": "https://prehraj.to/honza-a-beranek-jak-byli-na-pouti/5ff3658a34f8a",
+              "title": "Honza a beránek - Jak byli na pouti",
+              "year": null,
+              "duration_sec": 475,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.943,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "93447f901277ae47",
+              "url": "https://prehraj.to/kiwi-a-strit-20-dil-jarni-uklid/93447f901277ae47",
+              "title": "Kiwi a strit - 20. díl - Jarní úklid",
+              "year": null,
+              "duration_sec": 300,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.964,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a57658d36144825d",
+              "url": "https://prehraj.to/filharmonici-na-ulici-16-dil-bici-nastroje/a57658d36144825d",
+              "title": "Filharmonici na ulici - 16. díl - Bicí nástroje",
+              "year": null,
+              "duration_sec": 849,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.899,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "30d0777e110ed97f",
+              "url": "https://prehraj.to/kiwi-a-strit-15-dil-zavod-na-kolech/30d0777e110ed97f",
+              "title": "Kiwi a strit - 15. díl - Závod na kolech",
+              "year": null,
+              "duration_sec": 300,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.964,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "08f38639ab880c3c",
+              "url": "https://prehraj.to/mash-044-jaci-jsme-byli-be-20-8/08f38639ab880c3c",
+              "title": "MASH - 044 - Jací jsme byli . Be.20.8.",
+              "year": null,
+              "duration_sec": 1560,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.814,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6bec7df276100159",
+              "url": "https://prehraj.to/kiwi-a-strit-06-dil-skok-na-lyzich/6bec7df276100159",
+              "title": "Kiwi a strit - 06. díl - Skok na lyžích",
+              "year": null,
+              "duration_sec": 300,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.964,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "010bc92efb2bf20b",
+              "url": "https://prehraj.to/honza-a-beranek-05-dil-jak-byli-na-pouti/010bc92efb2bf20b",
+              "title": "Honza a beránek - 05. díl - Jak byli na pouti",
+              "year": null,
+              "duration_sec": 475,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.943,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0b0a2b99aad8341f",
+              "url": "https://prehraj.to/kristina-se-pta-19-dil-byly-jsme-na-filmu-jarek/0b0a2b99aad8341f",
+              "title": "Kristina se ptá - 19. díl - Byly jsme na filmu Jarek",
+              "year": null,
+              "duration_sec": 448,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.947,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bc70b37d413811c1",
+              "url": "https://prehraj.to/udel-nadani-01-dil-hracka-na-bici-nastroje-a-skladatelka-marketa-mazourova/bc70b37d413811c1",
+              "title": "Úděl nadání - 01. díl - Hráčka na bicí nástroje a…",
+              "year": null,
+              "duration_sec": 1315,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.843,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b7549a026e27b12a",
+              "url": "https://prehraj.to/speedcubing-na-fyftu-16-dil-jak-slozit-rubikovu-kostku-zacnete-pres-bily-kriz/b7549a026e27b12a",
+              "title": "Speedcubing na fyftu - 16. díl - Jak složit rubikovu kostku…",
+              "year": null,
+              "duration_sec": 585,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.93,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "861900c70796b4b8",
+              "url": "https://prehraj.to/kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-07-cz-ota-a-bily-den/861900c70796b4b8",
+              "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun - 07 CZ …",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.831,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e9ddebf1208f79a8",
+              "url": "https://prehraj.to/jak-jsem-potkal-vasi-matku-023-kde-jsme-to-byli-be-20-8/e9ddebf1208f79a8",
+              "title": "Jak jsem potkal vaši matku 023 - Kde jsme to byli. Be.20.8.",
+              "year": null,
+              "duration_sec": 1228,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.854,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b615c48ee17720bc",
+              "url": "https://prehraj.to/tajemne-hrady-45-dil-vypaleny-klaster-ve-kterem-uhoreli-mnisi-a-ti-co-prezili-byli-poveseni-na-strom/b615c48ee17720bc",
+              "title": "Tajemné hrady - 45. díl - Vypálený klášter, ve kterém…",
+              "year": null,
+              "duration_sec": 661,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.921,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68540d4f8ff03",
+              "url": "https://prehraj.to/darwinovy-ceny-541-dil-byci-utoci-jen-na-ty-co-je-provokuji-rekla-si-a-dal-sledovala-telefon/68540d4f8ff03",
+              "title": "Darwinovy ceny - 541. díl - Býci útočí jen na ty, co…",
+              "year": null,
+              "duration_sec": 210,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.975,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Biwi No.1 (1999)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:13:47.219855+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "biwi-no-1",
+        "title": "Biwi No.1",
+        "original_title": "Biwi No.1",
+        "year": 1999,
+        "runtime_min": 140,
+        "tmdb_id": 161226,
+        "imdb_id": "tt0207341",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:13:45.834012+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:13:44.341683+00:00"
+  "updated_at": "2026-08-27T16:13:47.219874+00:00"
 }
