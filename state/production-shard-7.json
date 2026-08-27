@@ -22708,7 +22708,60 @@
         },
         "at": "2026-08-27T16:11:58.275024+00:00"
       }
+    },
+    "26231": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6108f71678fee",
+              "url": "https://prehraj.to/beyond-the-law-s-seagal-2019-cz-titulky-hevc-h265-10-bit/6108f71678fee",
+              "title": "Beyond The Law (S.Seagal,2019)Cz.Titulky-HEVC H265 10 bit",
+              "year": null,
+              "duration_sec": 5382,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 16.94,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:12:08.745463+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ten-meters-and-a-bit",
+        "title": "Ten Meters and a Bit",
+        "original_title": "Ten Meters and a Bit",
+        "year": 2019,
+        "runtime_min": 5,
+        "tmdb_id": 1030998,
+        "imdb_id": "tt10192370",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:12:02.107119+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:12:00.265174+00:00"
+  "updated_at": "2026-08-27T16:12:08.745485+00:00"
 }
