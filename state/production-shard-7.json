@@ -31800,7 +31800,803 @@
         },
         "at": "2026-08-27T16:25:01.475238+00:00"
       }
+    },
+    "21191": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c2d146e254",
+              "url": "https://prehraj.to/adam-a-eva-1940-film-cely/586c2d146e254",
+              "title": "Adam-a-Eva-1940-film-celý",
+              "year": null,
+              "duration_sec": 5701,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.114,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": 1940,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5701,
+                "runtime_delta": 0.131,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "588dd067bbd90",
+              "url": "https://prehraj.to/adam-a-eva-1940-cesky-film-do-mobilu-misa/588dd067bbd90",
+              "title": "Adam-a-Eva-1940-Český-film-do-mobilu-míša",
+              "year": null,
+              "duration_sec": 5701,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.118,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": 1940,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5701,
+                "runtime_delta": 0.131,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "588e2d2549563",
+              "url": "https://prehraj.to/adam-a-eva-1940-film-cely/588e2d2549563",
+              "title": "Adam-a-Eva-1940-film-celý",
+              "year": null,
+              "duration_sec": 5701,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.114,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": 1940,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5701,
+                "runtime_delta": 0.131,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "588e8978bcd05",
+              "url": "https://prehraj.to/adam-a-eva-adam-und-a-eva-adam-and-eva-1940-cz/588e8978bcd05",
+              "title": "Adam-a-Eva-_-Adam-und-a-Eva-_-Adam-and-Eva-1940,-CZ",
+              "year": null,
+              "duration_sec": 5701,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.113,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": 1940,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5701,
+                "runtime_delta": 0.131,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fdfb39aefe30",
+              "url": "https://prehraj.to/little-men-2016-cztitulky/5fdfb39aefe30",
+              "title": "Little Men (2016) CZtitulky",
+              "year": null,
+              "duration_sec": 5102,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62ea32faf2b99",
+              "url": "https://prehraj.to/little-man-2006-blu-ray-1080p-cz-en/62ea32faf2b99",
+              "title": "Little.Man.2006.Blu-ray.1080p.CZ.EN",
+              "year": null,
+              "duration_sec": 5859,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "689847166fc8f",
+              "url": "https://prehraj.to/little-man-1080p-web-dl-dd5-1-h-264-dedo/689847166fc8f",
+              "title": "Little.Man.1080p.WEB-DL.DD5.1.H.264-DeDo",
+              "year": null,
+              "duration_sec": 5859,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.486,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5859,
+                "runtime_delta": 0.163,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "92d6381878a4dfb5",
+              "url": "https://prehraj.to/little-man-2006/92d6381878a4dfb5",
+              "title": "Little Man (2006)",
+              "year": null,
+              "duration_sec": 5860,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7a80a372a3c7ffce",
+              "url": "https://prehraj.to/little-man-2006-blu-ray-1080p-cz/7a80a372a3c7ffce",
+              "title": "Little.Man.2006.Blu-ray.1080p.CZ",
+              "year": null,
+              "duration_sec": 5859,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "646560b70fef8",
+              "url": "https://prehraj.to/pidihajzlik-little-man-2006-by-ugare/646560b70fef8",
+              "title": "Pidihajzlík (Little Man, 2006) by_UgarE",
+              "year": null,
+              "duration_sec": 5619,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b7c7493c987be04c",
+              "url": "https://prehraj.to/little-man-tate-1991-1/b7c7493c987be04c",
+              "title": "Little Man Tate (1991) (1)",
+              "year": null,
+              "duration_sec": 5987,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65fc34a55060e",
+              "url": "https://prehraj.to/pidihajzlik-little-man-2006-by-ugare/65fc34a55060e",
+              "title": "Pidihajzlík (Little Man, 2006) (by_UgarE)",
+              "year": null,
+              "duration_sec": 5619,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61163847b4590",
+              "url": "https://prehraj.to/little-big-man-1970-bdrip-avc-cz-en/61163847b4590",
+              "title": "Little Big Man (1970) BDRip-AVC.CZ.EN",
+              "year": null,
+              "duration_sec": 8364,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654974f614ca4",
+              "url": "https://prehraj.to/pidihajzlik-little-man-2006/654974f614ca4",
+              "title": "Pidihajzlík (Little Man, 2006)",
+              "year": null,
+              "duration_sec": 5619,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5839b63991697",
+              "url": "https://prehraj.to/tri-muzi-a-mlada-dama-three-men-and-a-little-lady-1990-720p/5839b63991697",
+              "title": "Tri-muzi-a-mlada-dama-(Three-Men-And-A-Little-Lady)-(1990)…",
+              "year": null,
+              "duration_sec": 5971,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1990,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ef8da8775901",
+              "url": "https://prehraj.to/an-average-little-man-1977-cztitulky/5ef8da8775901",
+              "title": "An Average Little Man (1977) CZtitulky",
+              "year": null,
+              "duration_sec": 7042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1977,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68af6d7cec805",
+              "url": "https://prehraj.to/maly-velky-muz-little-big-man-1080p-x264-ac3-cz-dab-1970/68af6d7cec805",
+              "title": "Malý Velký Muž Little Big Man 1080p x264 AC3 Cz dab 1970",
+              "year": null,
+              "duration_sec": 8363,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "864e26ae97b4e641",
+              "url": "https://prehraj.to/western-little-big-man-dustin-hoffman-1970-avi/864e26ae97b4e641",
+              "title": "Western - Little Big Man - Dustin Hoffman - 1970.avi",
+              "year": null,
+              "duration_sec": 8363,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "581fe4026b475",
+              "url": "https://prehraj.to/clovicek-tate-2f-little-man-tate-1991-cz/581fe4026b475",
+              "title": "Človíček-Tate-%2F-Little-Man-Tate-1991,-CZ",
+              "year": null,
+              "duration_sec": 5706,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587435b29d7c8",
+              "url": "https://prehraj.to/silly-symphony-the-wise-little-hen/587435b29d7c8",
+              "title": "Silly-Symphony---The-Wise-Little-Hen",
+              "year": null,
+              "duration_sec": 443,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.912,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6779aad122bd5",
+              "url": "https://prehraj.to/western-little-big-man-dustin-hoffman-1970/6779aad122bd5",
+              "title": "Western - Little Big Man - Dustin Hoffman - 1970",
+              "year": null,
+              "duration_sec": 8363,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ef2010b8ae5",
+              "url": "https://prehraj.to/fat-man-and-little-boy-1989-1080p-sk-sub/64ef2010b8ae5",
+              "title": "Fat.Man.And.Little.Boy.1989.1080p.sk sub",
+              "year": null,
+              "duration_sec": 7597,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1989,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59493d10c2a14",
+              "url": "https://prehraj.to/donald-duck-01-the-wise-little-hen-1934-dvdrip-xvid-mrc/59493d10c2a14",
+              "title": "Donald.Duck.01.The.Wise.Little.Hen.1934.DVDRip.XViD-MRC",
+              "year": null,
+              "duration_sec": 444,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1934,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64e9016b46206",
+              "url": "https://prehraj.to/fat-man-and-little-boy-1989-1080p-bluray-h264-aac-lama/64e9016b46206",
+              "title": "Fat.Man.And.Little.Boy.1989.1080p.BluRay.H264.AAC-LAMA",
+              "year": null,
+              "duration_sec": 7591,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1989,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2b3f2cf53d63dd66",
+              "url": "https://prehraj.to/jen-si-tak-trochu-pisknout-just-whistle-a-little-1980-cz/2b3f2cf53d63dd66",
+              "title": "Jen si tak trochu písknout / Just Whistle a Little 1980, CZ",
+              "year": null,
+              "duration_sec": 4732,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1980,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6e83defb4e18c068",
+              "url": "https://prehraj.to/jen-si-tak-trochu-pisknout-just-whistle-a-little-1980-cz-avi/6e83defb4e18c068",
+              "title": "Jen si tak trochu písknout / Just Whistle a Little 1980, CZ…",
+              "year": null,
+              "duration_sec": 4732,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 1980,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65af9ee692f8b",
+              "url": "https://prehraj.to/my-little-pony-vypravej-svuj-pribeh-64-den-hrozneho-hara/65af9ee692f8b",
+              "title": "my-little-pony-vypravej-svuj-pribeh-64-den-hrozneho-hara",
+              "year": null,
+              "duration_sec": 303,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.94,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6886839787756",
+              "url": "https://prehraj.to/5cz-my-little-pony-v-07-mej-si-pratele-ale-discorda-nezatrat/6886839787756",
+              "title": "[5CZ] My Little Pony V (07) (Měj si přátele, ale Discorda…",
+              "year": null,
+              "duration_sec": 1280,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.746,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ba723680c6025113",
+              "url": "https://prehraj.to/vesnicko-ma-strediskova-mon-cher-petit-village-mi-dulce-pueblecito-my-sweet-little-village-1985-cz-f-tit-esp-tit-en-tit-mkv/ba723680c6025113",
+              "title": "Vesničko má středisková / Mon cher petit village / Mi dulce…",
+              "year": null,
+              "duration_sec": 5894,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.215,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5894,
+                "runtime_delta": 0.169,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c120be18d723",
+              "url": "https://prehraj.to/my-little-pony-mentolka-a-vanoce-2005-cz-dabing-animovany-vanoce-2018/5c120be18d723",
+              "title": "My Little Pony - Mentolka a Vánoce (2005) CZ Dabing …",
+              "year": null,
+              "duration_sec": 3803,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2005,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65706e39a9485",
+              "url": "https://prehraj.to/my-little-pony-mentolka-a-vanoce-pohadky-cz/65706e39a9485",
+              "title": "My Little Pony - Mentolka a Vánoce - pohádky cz",
+              "year": null,
+              "duration_sec": 2643,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 2643,
+                "runtime_delta": 0.476,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2c5d633c0ff3835c",
+              "url": "https://prehraj.to/my-little-ponny-mentolka-a-vanoce-2005-cz-dabing/2c5d633c0ff3835c",
+              "title": "My Little Ponny: Mentolka a Vánoce (2005) CZ Dabing",
+              "year": null,
+              "duration_sec": 3803,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2005,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c32bbe96815d",
+              "url": "https://prehraj.to/my-little-pony-mentolka-a-vanoce-2005-cz-dabing-animovany/5c32bbe96815d",
+              "title": "My Little Pony - Mentolka a Vánoce (2005) CZ Dabing …",
+              "year": null,
+              "duration_sec": 3803,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2005,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bfd1f643e278",
+              "url": "https://prehraj.to/my-little-pony-mentolka-a-vanoce-2005-cz-dabing-animovany-vanocni-filmy/5bfd1f643e278",
+              "title": "My Little Pony - Mentolka a Vánoce (2005) CZ Dabing …",
+              "year": null,
+              "duration_sec": 3803,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2005,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2562be3ca832299e",
+              "url": "https://prehraj.to/my-little-ponny-mentolka-a-vanoce-2005-cz-dabing/2562be3ca832299e",
+              "title": "My Little Ponny: Mentolka a Vánoce (2005) CZ Dabing",
+              "year": null,
+              "duration_sec": 3803,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2005,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d8c822183ad991c1",
+              "url": "https://prehraj.to/my-little-ponny-mentolka-a-vanoce-2005-cs/d8c822183ad991c1",
+              "title": "My Little Ponny: Mentolka a Vánoce - 2005 CS",
+              "year": null,
+              "duration_sec": 3805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1940,
+                "candidate_year": 2005,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Men (1940)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:25:05.701403+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "little-men",
+        "title": "Little Men",
+        "original_title": null,
+        "year": 1940,
+        "runtime_min": 84,
+        "tmdb_id": 131322,
+        "imdb_id": "tt0032717",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:25:04.476815+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:25:02.599387+00:00"
+  "updated_at": "2026-08-27T16:25:05.701422+00:00"
 }
