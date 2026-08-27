@@ -32596,7 +32596,147 @@
         },
         "at": "2026-08-27T16:25:04.476815+00:00"
       }
+    },
+    "21167": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588d7ab6682d1",
+              "url": "https://prehraj.to/the-prince-and-the-pauper-princ-a-chudas-1937-sk-tit/588d7ab6682d1",
+              "title": "The-Prince-and-the-Pauper-_-Princ-a-chuďas-1937,-SK-tit",
+              "year": null,
+              "duration_sec": 7465,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.536,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62dc970235ba9",
+              "url": "https://prehraj.to/truth-and-lies-the-last-gangster-2022-cztitulky/62dc970235ba9",
+              "title": "Truth and Lies - The Last Gangster (2022) CZtitulky",
+              "year": null,
+              "duration_sec": 4882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1937,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Last Gangster (1937)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fae58c60c371c70f",
+              "url": "https://prehraj.to/truth-and-lies-the-last-gangster-2022-cz-titulky/fae58c60c371c70f",
+              "title": "Truth and Lies: The Last Gangster (2022) CZ Titulky",
+              "year": null,
+              "duration_sec": 4882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1937,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Last Gangster (1937)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "499d31f4f72c8c06",
+              "url": "https://prehraj.to/truth-and-lies-the-last-gangster-dokument-2022-cz-titulky/499d31f4f72c8c06",
+              "title": "Truth and Lies - The Last Gangster (dokument,2022)Cz.Titulky",
+              "year": null,
+              "duration_sec": 4882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1937,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Last Gangster (1937)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d799de3f306",
+              "url": "https://prehraj.to/p-f-tv-dok-truth-and-lies-the-last-gangster-dokument-2022-cz-titulky/67d799de3f306",
+              "title": "P.F. TV.Dok-Truth and Lies - The Last Gangster (dokument…",
+              "year": null,
+              "duration_sec": 4882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1937,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4882,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Last Gangster (1937)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:25:08.997142+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-last-gangster",
+        "title": "The Last Gangster",
+        "original_title": null,
+        "year": 1937,
+        "runtime_min": 81,
+        "tmdb_id": 28712,
+        "imdb_id": "tt0029118",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:25:07.548952+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:25:05.701422+00:00"
+  "updated_at": "2026-08-27T16:25:08.997161+00:00"
 }
