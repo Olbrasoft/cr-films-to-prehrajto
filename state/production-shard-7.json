@@ -29282,7 +29282,576 @@
         },
         "at": "2026-08-27T16:23:47.315112+00:00"
       }
+    },
+    "22367": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586a4c59e4cc8",
+              "url": "https://prehraj.to/modre-limecky-blue-collar-1978-cz-tit/586a4c59e4cc8",
+              "title": "Modré-límečky-_-Blue-Collar-1978,-CZ-tit",
+              "year": null,
+              "duration_sec": 6536,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6536,
+                "runtime_delta": 0.238,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a5a5575331efd11",
+              "url": "https://prehraj.to/women-in-blue-s01e01-cztitulky/5a5a5575331efd11",
+              "title": "Women in Blue S01E01 CZtitulky",
+              "year": null,
+              "duration_sec": 3457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6414d6b6dfe4a",
+              "url": "https://prehraj.to/maestro-in-blue-s01e04-cztitulky/6414d6b6dfe4a",
+              "title": "Maestro in Blue S01E04 CZtitulky",
+              "year": null,
+              "duration_sec": 3356,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67759c5aa265a",
+              "url": "https://prehraj.to/maestro-in-blue-s03e01-preludes-1080p-nf-web-dl-ddp5-1-h-264/67759c5aa265a",
+              "title": "Maestro.in.Blue.S03E01.Preludes.1080p.NF.WEB-DL.DDP5.1.H…",
+              "year": null,
+              "duration_sec": 3982,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67759c5aae17e",
+              "url": "https://prehraj.to/maestro-in-blue-s03e03-second-chance-1080p-nf-web-dl-ddp5-1-h-264/67759c5aae17e",
+              "title": "Maestro.in.Blue.S03E03.Second.Chance.1080p.NF.WEB-DL.DDP5.1…",
+              "year": null,
+              "duration_sec": 3981,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "665120c3d9d1d",
+              "url": "https://prehraj.to/maestro-in-blue-s02e02-cztitulky/665120c3d9d1d",
+              "title": "Maestro in Blue S02E02 CZtitulky",
+              "year": null,
+              "duration_sec": 3971,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "664ad30467985",
+              "url": "https://prehraj.to/maestro-in-blue-s01e06-720p-cz-titulky/664ad30467985",
+              "title": "Maestro.in.Blue.S01E06.720p. CZ Titulky",
+              "year": null,
+              "duration_sec": 3654,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "664ad77789ac8",
+              "url": "https://prehraj.to/maestro-in-blue-s01e05-720p-cz-titulky/664ad77789ac8",
+              "title": "Maestro.in.Blue.S01E05.720p. CZ Titulky",
+              "year": null,
+              "duration_sec": 3302,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "664ad09e8dba6",
+              "url": "https://prehraj.to/maestro-in-blue-s01e08-720p-cz-titulky/664ad09e8dba6",
+              "title": "Maestro.in.Blue.S01E08.720p. CZ Titulky",
+              "year": null,
+              "duration_sec": 3403,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "664ad1e5e9455",
+              "url": "https://prehraj.to/maestro-in-blue-s01e07-720p-cz-titulky/664ad1e5e9455",
+              "title": "Maestro.in.Blue.S01E07.720p.CZ Titulky",
+              "year": null,
+              "duration_sec": 3406,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "be7c70e475295f46",
+              "url": "https://prehraj.to/life-in-smokey-blue-s1e4-en/be7c70e475295f46",
+              "title": "Life in Smokey Blue - S1E4 EN",
+              "year": null,
+              "duration_sec": 1394,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b430e2779ee",
+              "url": "https://prehraj.to/blue-in-the-face-1995-eng-dvdrip/55b430e2779ee",
+              "title": "Blue-in-the-Face-(1995)-eng-DVDRip-",
+              "year": null,
+              "duration_sec": 4808,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1978,
+                "candidate_year": 1995,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61b7138c00a88",
+              "url": "https://prehraj.to/ballad-in-blue-1965-1080-rarbg/61b7138c00a88",
+              "title": "Ballad.in.Blue.1965.1080.RARBG",
+              "year": null,
+              "duration_sec": 5307,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1978,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555fd47f0465",
+              "url": "https://prehraj.to/bob-dylan-tangled-up-in-blue-official-hd-video/6555fd47f0465",
+              "title": "Bob Dylan - Tangled Up In Blue (Official HD Video)",
+              "year": null,
+              "duration_sec": 268,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65fbcb0c57e90",
+              "url": "https://prehraj.to/the-pink-panther-in-sky-blue-pink/65fbcb0c57e90",
+              "title": "The Pink Panther in  Sky Blue Pink",
+              "year": null,
+              "duration_sec": 377,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.929,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fc1459800f2",
+              "url": "https://prehraj.to/the-pink-panther-in-sky-blue-pink-bydejv/67fc1459800f2",
+              "title": "The Pink Panther in  Sky Blue Pink byDejv",
+              "year": null,
+              "duration_sec": 377,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.929,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6556c3ad8e67e",
+              "url": "https://prehraj.to/joe-satriani-flying-in-a-blue-dream-satchurated-hd-1080p/6556c3ad8e67e",
+              "title": "Joe Satriani - Flying In A Blue Dream - Satchurated HD 1080p",
+              "year": null,
+              "duration_sec": 312,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.941,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4436f59e1e32c439",
+              "url": "https://prehraj.to/the-paper-will-be-blue-hirtia-va-fi-albastra-2006-cz-tit/4436f59e1e32c439",
+              "title": "The Paper Will Be Blue (Hîrtia va fi albastrã) 2006 -cz tit",
+              "year": null,
+              "duration_sec": 5489,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1978,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d6e44000fd19",
+              "url": "https://prehraj.to/code-breaker-02-the-spiral-blue-flower-blossoming-in-flame-darkdream/5d6e44000fd19",
+              "title": "Code Breaker - 02 - The Spiral Blue Flower, Blossoming In…",
+              "year": null,
+              "duration_sec": 1422,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.731,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65ea2eaf69add",
+              "url": "https://prehraj.to/baldi-s-theme-song-reacting-to-basics-in-behavior-blue-the-living-tombstone-feat-or3o-charmx/65ea2eaf69add",
+              "title": "BALDI'S THEME SONG! - Reacting to Basics in Behavior [Blue]…",
+              "year": null,
+              "duration_sec": 335,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aedfb82c46e",
+              "url": "https://prehraj.to/built-in-birmingham-brady-and-the-blues-s01e05/68aedfb82c46e",
+              "title": "Built In Birmingham Brady and The Blues S01E05",
+              "year": null,
+              "duration_sec": 2785,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aedf9c89386",
+              "url": "https://prehraj.to/built-in-birmingham-brady-and-the-blues-s01e01/68aedf9c89386",
+              "title": "Built In Birmingham Brady and The Blues S01E01",
+              "year": null,
+              "duration_sec": 2984,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aedf9c95401",
+              "url": "https://prehraj.to/built-in-birmingham-brady-and-the-blues-s01e03/68aedf9c95401",
+              "title": "Built In Birmingham Brady and The Blues S01E03",
+              "year": null,
+              "duration_sec": 2424,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aedf9ca2814",
+              "url": "https://prehraj.to/built-in-birmingham-brady-and-the-blues-s01e02/68aedf9ca2814",
+              "title": "Built In Birmingham Brady and The Blues S01E02",
+              "year": null,
+              "duration_sec": 3303,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6507236d90bf7",
+              "url": "https://prehraj.to/anime-time-one-piece-0195-off-to-the-blue-sea-a-heartfelt-finale/6507236d90bf7",
+              "title": "[Anime Time] One Piece - 0195 - Off to the Blue Sea!! A…",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.727,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65566fa5964a6",
+              "url": "https://prehraj.to/five-finger-death-punch-blue-on-black-feat-kenny-wayne-shepherd-brantley-gilbert-brian-may-3309491671108173/65566fa5964a6",
+              "title": "Five Finger Death Punch - Blue On Black (feat. Kenny Wayne…",
+              "year": null,
+              "duration_sec": 315,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.94,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "660a742b5c2c8",
+              "url": "https://prehraj.to/ghost-in-the-shell-innocence-3xr-blu-ray-1080p-h264-ac3-7c2c6303/660a742b5c2c8",
+              "title": "Ghost_in_the_Shell_-_Innocence_[3xR][Blu-ray.1080p.H264.AC3…",
+              "year": null,
+              "duration_sec": 6030,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.154,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6030,
+                "runtime_delta": 0.142,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Blue Fin (1978)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2484d1781a6",
+              "url": "https://prehraj.to/sly-cooper-thieves-in-time-11-jailhouse-blues-no-commentary/5f2484d1781a6",
+              "title": "Sly Cooper - Thieves in Time - #11 - Jailhouse Blues - No…",
+              "year": null,
+              "duration_sec": 1154,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.781,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Blue Fin (1978)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:23:55.569293+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "modra-ploutev",
+        "title": "Modrá ploutev",
+        "original_title": "Blue Fin",
+        "year": 1978,
+        "runtime_min": 88,
+        "tmdb_id": 90572,
+        "imdb_id": "tt0077249",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:23:53.317662+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:23:51.775225+00:00"
+  "updated_at": "2026-08-27T16:23:55.569313+00:00"
 }
