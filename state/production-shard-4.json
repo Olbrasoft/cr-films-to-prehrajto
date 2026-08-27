@@ -8887,7 +8887,18 @@
       }
     },
     "12220": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "e672af0491df6826",
+          "status": "failed",
+          "reason": "Download failed with curl exit 28",
+          "permanent": false,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T19:35:32.775596+00:00"
+        }
+      ],
       "identity": {
         "slug": "kongo-1995",
         "title": "Kongo",
@@ -8908,5 +8919,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T18:35:29.283308+00:00"
+  "updated_at": "2026-08-27T19:35:32.775624+00:00"
 }
