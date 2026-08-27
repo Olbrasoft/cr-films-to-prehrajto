@@ -20600,7 +20600,60 @@
         },
         "at": "2026-08-27T16:01:49.362505+00:00"
       }
+    },
+    "27127": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586ae76ea42f9",
+              "url": "https://prehraj.to/hotel-snu-seychely-2006-cz/586ae76ea42f9",
+              "title": "Hotel-snů--Seychely-(2006)-CZ",
+              "year": null,
+              "duration_sec": 5365,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.555,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:01:56.282642+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "hotel-vladivostok",
+        "title": "Hotel Vladivostok",
+        "original_title": null,
+        "year": 2006,
+        "runtime_min": 35,
+        "tmdb_id": 532507,
+        "imdb_id": "tt1424348",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:01:53.872873+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:01:50.503887+00:00"
+  "updated_at": "2026-08-27T16:01:56.282662+00:00"
 }
