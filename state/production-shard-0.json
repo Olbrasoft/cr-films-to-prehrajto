@@ -51830,7 +51830,90 @@
         },
         "at": "2026-08-27T01:33:52.918799+00:00"
       }
+    },
+    "16480": {
+      "attempts": [],
+      "identity": {
+        "slug": "srdce-1978",
+        "title": "Srdce",
+        "original_title": "Srdce",
+        "year": 1978,
+        "runtime_min": null,
+        "tmdb_id": 936989,
+        "imdb_id": "tt3609546",
+        "created_at": "2026-04-14 16:11:32.466219+02:00",
+        "added_at": "2024-03-17 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24930106",
+          "account_name": "Deváté srdce (1979) CZ",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 1978,
+          "candidate_year": 1979,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-27T01:34:00.294161+00:00"
+      }
+    },
+    "4480": {
+      "attempts": [],
+      "identity": {
+        "slug": "prisla-v-noci",
+        "title": "Přišla v noci",
+        "original_title": "Přišla v noci",
+        "year": 2023,
+        "runtime_min": null,
+        "tmdb_id": 1141135,
+        "imdb_id": "tt27988718",
+        "created_at": "2026-04-13 13:19:25.512691+02:00",
+        "added_at": "2024-02-18 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24845725",
+          "account_name": "Přišla za mnou (2023) CZ Dabing",
+          "title_similarity": 0.625,
+          "title_contains_alias": false,
+          "film_year": 2023,
+          "candidate_year": 2023,
+          "year_match": true,
+          "film_runtime_min": null,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-27T01:34:00.294970+00:00"
+      }
+    },
+    "8584": {
+      "attempts": [],
+      "identity": {
+        "slug": "22-minuty",
+        "title": "22 minuty",
+        "original_title": "22 минуты",
+        "year": 2013,
+        "runtime_min": null,
+        "tmdb_id": 271234,
+        "imdb_id": "tt2856896",
+        "created_at": "2026-04-13 13:19:27.237058+02:00",
+        "added_at": "2024-02-11 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T01:34:00.295821+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T01:33:58.967340+00:00"
+  "updated_at": "2026-08-27T01:34:02.271323+00:00"
 }
