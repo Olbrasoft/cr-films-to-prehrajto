@@ -1193,7 +1193,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:17:38.434934+00:00",
-        "verified_at": "2026-08-27T09:15:35.591589+00:00",
+        "verified_at": "2026-08-27T12:20:30.400153+00:00",
         "live_display_name": "Buena Vista Social Club: Adios (2017) CZ titulky"
       }
     },
@@ -9541,8 +9541,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T09:24:11.590762+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T09:24:11.590762+00:00",
+        "verified_at": "2026-08-27T11:08:59.276544+00:00",
+        "live_display_name": "Aféra Clearstream (2015) CZ Dabing"
       }
     },
     "13374": {
@@ -9575,8 +9577,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T09:30:20.098666+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T09:30:20.098666+00:00",
+        "verified_at": "2026-08-27T11:09:09.895048+00:00",
+        "live_display_name": "Krvavé stopy (2005) CZ Dabing"
       }
     },
     "910": {
@@ -9609,8 +9613,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T09:35:45.967091+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T09:35:45.967091+00:00",
+        "verified_at": "2026-08-27T11:09:20.323570+00:00",
+        "live_display_name": "Nadějná mladá žena (2020) CZ Dabing"
       }
     },
     "7702": {
@@ -9674,12 +9680,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T09:37:56.223223+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T09:37:56.223223+00:00",
+        "verified_at": "2026-08-27T11:09:30.618139+00:00",
+        "live_display_name": "When I Live My Life Over Again (2016) CZ Dabing"
       }
     },
     "11518": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "18373",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28886915",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T11:09:51.029960+00:00"
+        }
+      ],
       "identity": {
         "slug": "dvojnici-1984",
         "title": "Dvojníci",
@@ -9697,19 +9717,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T09:38:03.187999+00:00"
-      },
-      "upload": {
-        "target_video_id": "28886915",
-        "display_name": "Dvojníci (1984) CZ Dabing",
-        "size_bytes": 806446128,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "18373",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T09:42:56.561193+00:00"
       }
     },
     "3334": {
@@ -9742,8 +9749,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T09:47:50.277779+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T09:47:50.277779+00:00",
+        "verified_at": "2026-08-27T12:00:43.795302+00:00",
+        "live_display_name": "Oslo (2021) CZ Dabing"
       }
     },
     "1126": {
@@ -9846,8 +9855,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T09:54:15.546644+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T09:54:15.546644+00:00",
+        "verified_at": "2026-08-27T11:10:11.499593+00:00",
+        "live_display_name": "Tajný deník (2017) CZ Dabing"
       }
     },
     "526": {
@@ -9880,8 +9891,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T10:03:28.200129+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T10:03:28.200129+00:00",
+        "verified_at": "2026-08-27T11:10:21.655063+00:00",
+        "live_display_name": "Rošťáci (1985) CZ Dabing"
       }
     },
     "622": {
@@ -9914,8 +9927,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T10:12:43.224873+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T10:12:43.224873+00:00",
+        "verified_at": "2026-08-27T11:10:31.761235+00:00",
+        "live_display_name": "Star Wars: Síla se probouzí (2015) CZ Dabing"
       }
     },
     "4182": {
@@ -9948,10 +9963,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T10:27:33.607291+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T10:27:33.607291+00:00",
+        "verified_at": "2026-08-27T11:21:32.062099+00:00",
+        "live_display_name": "Mizerná jízda (2020) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-27T10:27:33.607322+00:00"
+  "updated_at": "2026-08-27T12:20:41.090261+00:00"
 }
