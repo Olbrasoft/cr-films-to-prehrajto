@@ -17544,7 +17544,94 @@
         },
         "at": "2026-08-27T16:00:23.620452+00:00"
       }
+    },
+    "28103": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "66862c6ce3441",
+              "url": "https://prehraj.to/spiderman-4-cz-dab-2012/66862c6ce3441",
+              "title": "Spiderman-4-CZ dab (2012) ",
+              "year": null,
+              "duration_sec": 8177,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.414,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8177,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66b6a9879db91",
+              "url": "https://prehraj.to/spiderman-4-cz-dab-2012/66b6a9879db91",
+              "title": "Spiderman-4 CZ dab (2012) ❤️",
+              "year": null,
+              "duration_sec": 8177,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.414,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8177,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:00:29.638425+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-amazing-spider-man-t4-premiere-special",
+        "title": "The Amazing Spider-Man T4 Premiere Special",
+        "original_title": null,
+        "year": 2012,
+        "runtime_min": null,
+        "tmdb_id": 587877,
+        "imdb_id": "tt2233044",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:00:28.508480+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:00:26.618814+00:00"
+  "updated_at": "2026-08-27T16:00:29.638445+00:00"
 }
