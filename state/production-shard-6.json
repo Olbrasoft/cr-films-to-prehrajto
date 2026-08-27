@@ -10776,7 +10776,18 @@
       }
     },
     "11318": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "5b9f25a35b251",
+          "status": "failed",
+          "reason": "Download failed with curl exit 28",
+          "permanent": false,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T19:08:25.158604+00:00"
+        }
+      ],
       "identity": {
         "slug": "zlati-uhori-2007",
         "title": "Zlatí úhoři",
@@ -10797,5 +10808,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T18:08:21.611114+00:00"
+  "updated_at": "2026-08-27T19:08:25.158632+00:00"
 }
