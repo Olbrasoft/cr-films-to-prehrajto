@@ -311,7 +311,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.093631+00:00"
+        "at": "2026-08-27T03:17:49.086823+00:00"
       }
     },
     "28619": {
@@ -488,7 +488,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.094182+00:00"
+        "at": "2026-08-27T03:17:49.087327+00:00"
       }
     },
     "28071": {
@@ -713,7 +713,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.095404+00:00"
+        "at": "2026-08-27T03:17:49.088561+00:00"
       }
     },
     "27263": {
@@ -1578,7 +1578,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.096704+00:00"
+        "at": "2026-08-27T03:17:49.089903+00:00"
       }
     },
     "17083": {
@@ -1900,7 +1900,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:12:37.112821+00:00"
+        "at": "2026-08-27T03:17:49.105946+00:00"
       }
     },
     "29755": {
@@ -2239,7 +2239,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.114175+00:00"
+        "at": "2026-08-27T03:17:49.107316+00:00"
       }
     },
     "27675": {
@@ -3106,7 +3106,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.114479+00:00"
+        "at": "2026-08-27T03:17:49.107625+00:00"
       }
     },
     "24091": {
@@ -3351,7 +3351,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:12:37.115300+00:00"
+        "at": "2026-08-27T03:17:49.108483+00:00"
       }
     },
     "23395": {
@@ -4959,7 +4959,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.116929+00:00"
+        "at": "2026-08-27T03:17:49.110143+00:00"
       }
     },
     "21859": {
@@ -5619,7 +5619,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.117449+00:00"
+        "at": "2026-08-27T03:17:49.110690+00:00"
       }
     },
     "9147": {
@@ -5701,7 +5701,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:12:37.117981+00:00"
+        "at": "2026-08-27T03:17:49.111210+00:00"
       }
     },
     "1019": {
@@ -5984,7 +5984,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T03:12:37.118684+00:00"
+        "at": "2026-08-27T03:17:49.111923+00:00"
       }
     },
     "14867": {
@@ -6030,7 +6030,7 @@
             }
           ]
         },
-        "at": "2026-08-27T03:12:37.123085+00:00"
+        "at": "2026-08-27T03:17:49.116419+00:00"
       }
     },
     "1643": {
@@ -7148,7 +7148,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:04:05.479205+00:00"
+        "at": "2026-08-27T03:17:49.117576+00:00"
       }
     },
     "15619": {
@@ -7300,7 +7300,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T01:04:05.479383+00:00"
+        "at": "2026-08-27T03:17:49.117754+00:00"
       }
     },
     "16027": {
@@ -8191,6 +8191,44 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T02:12:25.439300+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6902e78b1b5b6",
+              "url": "https://prehraj.to/follow-me-2020-cz-sktonline/6902e78b1b5b6",
+              "title": "Follow Me (2020)(CZ) - SkTonline",
+              "year": null,
+              "duration_sec": 5274,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5274,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T03:17:49.867425+00:00"
         }
       ],
       "identity": {
@@ -8209,7 +8247,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T00:20:49.660972+00:00"
+        "at": "2026-08-27T03:17:49.117897+00:00"
       }
     },
     "7731": {
@@ -8473,5 +8511,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T03:17:45.469318+00:00"
+  "updated_at": "2026-08-27T03:17:49.867438+00:00"
 }
