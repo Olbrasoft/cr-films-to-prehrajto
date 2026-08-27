@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.252509+00:00"
+        "at": "2026-08-27T06:47:02.024613+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-27T06:45:40.253701+00:00"
+        "at": "2026-08-27T06:47:02.025796+00:00"
       }
     },
     "27238": {
@@ -1016,7 +1016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.254136+00:00"
+        "at": "2026-08-27T06:47:02.026215+00:00"
       }
     },
     "16782": {
@@ -1096,7 +1096,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.255108+00:00"
+        "at": "2026-08-27T06:47:02.027148+00:00"
       }
     },
     "29350": {
@@ -1225,7 +1225,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.257595+00:00"
+        "at": "2026-08-27T06:47:02.029581+00:00"
       }
     },
     "28934": {
@@ -2571,7 +2571,7 @@
             }
           ]
         },
-        "at": "2026-08-27T06:45:40.258709+00:00"
+        "at": "2026-08-27T06:47:02.030669+00:00"
       }
     },
     "22670": {
@@ -3880,7 +3880,7 @@
             }
           ]
         },
-        "at": "2026-08-27T06:45:40.260270+00:00"
+        "at": "2026-08-27T06:47:02.032187+00:00"
       }
     },
     "15846": {
@@ -5379,7 +5379,7 @@
             }
           ]
         },
-        "at": "2026-08-27T06:45:40.264270+00:00"
+        "at": "2026-08-27T06:47:02.036068+00:00"
       }
     },
     "3606": {
@@ -6702,7 +6702,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.265867+00:00"
+        "at": "2026-08-27T06:47:02.037655+00:00"
       }
     },
     "8142": {
@@ -7417,7 +7417,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.266348+00:00"
+        "at": "2026-08-27T06:47:02.038130+00:00"
       }
     },
     "15054": {
@@ -7607,7 +7607,7 @@
             }
           ]
         },
-        "at": "2026-08-27T06:45:40.267503+00:00"
+        "at": "2026-08-27T06:47:02.039270+00:00"
       }
     },
     "1910": {
@@ -7746,7 +7746,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.271977+00:00"
+        "at": "2026-08-27T06:47:02.043662+00:00"
       }
     },
     "1438": {
@@ -7826,7 +7826,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.272407+00:00"
+        "at": "2026-08-27T06:47:02.044099+00:00"
       }
     },
     "14390": {
@@ -8025,7 +8025,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.272738+00:00"
+        "at": "2026-08-27T06:47:02.044425+00:00"
       }
     },
     "1118": {
@@ -8269,7 +8269,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-27T06:45:40.273293+00:00"
+        "at": "2026-08-27T06:47:02.044975+00:00"
       }
     },
     "14110": {
@@ -8419,7 +8419,7 @@
             }
           ]
         },
-        "at": "2026-08-27T06:45:40.276892+00:00"
+        "at": "2026-08-27T06:47:02.048726+00:00"
       }
     },
     "14158": {
@@ -8557,7 +8557,826 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T06:46:58.620428+00:00"
       }
+    },
+    "14022": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "316363880074e672",
+              "url": "https://prehraj.to/spravnej-sound-2020-cz-titulky/316363880074e672",
+              "title": "Správnej sound (2020) CZ titulky",
+              "year": null,
+              "duration_sec": 5413,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5413,
+                "runtime_delta": 0.271,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65c425adab9ae",
+              "url": "https://prehraj.to/trolove-2-svetove-turne-2020-hd-cz-dab/65c425adab9ae",
+              "title": "Trolové 2 - Světové turné (2020) HD CZ Dab.",
+              "year": null,
+              "duration_sec": 5443,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5443,
+                "runtime_delta": 0.278,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fb0ac7e2e6a4",
+              "url": "https://prehraj.to/pan-jangle-a-vanocni-dobrodruzstvi-2020-czdabing/5fb0ac7e2e6a4",
+              "title": "Pan Jangle a vánoční dobrodružství 2020 CZdabing",
+              "year": null,
+              "duration_sec": 7457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.75,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fdecc70c6804",
+              "url": "https://prehraj.to/drobecek-a-boj-o-zlaty-dul-2020-czdabing/5fdecc70c6804",
+              "title": "Drobeček a boj o zlatý důl 2020 CZdabing",
+              "year": null,
+              "duration_sec": 4688,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 4688,
+                "runtime_delta": 0.1,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fb8de7b427cb",
+              "url": "https://prehraj.to/vanoce-z-jineho-sveta-2020-czdabin/5fb8de7b427cb",
+              "title": "Vánoce z jiného světa 2020 CZDabin",
+              "year": null,
+              "duration_sec": 2545,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 2545,
+                "runtime_delta": 0.403,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "672a3773a8dff",
+              "url": "https://prehraj.to/vanocni-kronika-2-dobrodruzny-rodinny-2020-cz-dabingavi/672a3773a8dff",
+              "title": "Vánoční kronika 2-dobrodružný,rodinný (2020) cz.dabingavi",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.624,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2b03a1d4100",
+              "url": "https://prehraj.to/zamek-a-klic-s01e01-2020-czdab/5f2b03a1d4100",
+              "title": "Zámek a klíč S01E01 (2020) CZdab",
+              "year": null,
+              "duration_sec": 3414,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1bd7bddba7f",
+              "url": "https://prehraj.to/stanek-s-polibky-2-2020-czdabing/5f1bd7bddba7f",
+              "title": "Stanek s polibky 2 (2020) CZdabing",
+              "year": null,
+              "duration_sec": 7964,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.869,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6024846b843a0",
+              "url": "https://prehraj.to/trollove-2-svetove-turne-trolls-world-tour-2020-uhd-4k-hdr10-h265-hevc-sk-cz-dd-5-1-en-atmos/6024846b843a0",
+              "title": "Trollové 2 Světové turné - Trolls World Tour (2020) UHD 4K…",
+              "year": null,
+              "duration_sec": 5444,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5444,
+                "runtime_delta": 0.278,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f9b9ecc01a78",
+              "url": "https://prehraj.to/dnes-v-noci-v-lese-nikdo-nespi-cztitulky-2020/5f9b9ecc01a78",
+              "title": "Dnes v noci v lese nikdo nespí CZtitulky 2020",
+              "year": null,
+              "duration_sec": 6204,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.169,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 6204,
+                "runtime_delta": 0.456,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "631e0e807a9c6",
+              "url": "https://prehraj.to/o-vanocni-hvezde-2020-pohadka/631e0e807a9c6",
+              "title": "O vanocni hvezde 2020 pohádka",
+              "year": null,
+              "duration_sec": 5484,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.14,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5484,
+                "runtime_delta": 0.287,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "600fad36dbca6",
+              "url": "https://prehraj.to/zombie-2-z-o-m-b-i-e-s-2-2020-czdabing/600fad36dbca6",
+              "title": "Zombie 2  Z-O-M-B-I-E-S 2 (2020) CZdabing",
+              "year": null,
+              "duration_sec": 5031,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.154,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5031,
+                "runtime_delta": 0.181,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fb1a1de7d252",
+              "url": "https://prehraj.to/gabriel-s-inferno-2020-sktitulky/5fb1a1de7d252",
+              "title": "Gabriel's Inferno 2020 SKtitulky",
+              "year": null,
+              "duration_sec": 7358,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.727,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60a87441840c9",
+              "url": "https://prehraj.to/o-vanocni-hvezde-2020-czdab/60a87441840c9",
+              "title": "O vánoční hvězdě (2020) CZdab",
+              "year": null,
+              "duration_sec": 5486,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.146,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5486,
+                "runtime_delta": 0.288,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f246b102f329",
+              "url": "https://prehraj.to/vsem-klukum-p-s-stale-te-miluju-cz-2020/5f246b102f329",
+              "title": "Všem klukům P.S. Stále tě miluju cz 2020 ",
+              "year": null,
+              "duration_sec": 6126,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 6126,
+                "runtime_delta": 0.438,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6025ee6ff18f5",
+              "url": "https://prehraj.to/rodinny-ranc-2-2020-czdabing/6025ee6ff18f5",
+              "title": "Rodinný ranč 2 (2020) CZdabing",
+              "year": null,
+              "duration_sec": 4947,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.238,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 4947,
+                "runtime_delta": 0.161,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63a36ccccdcb8",
+              "url": "https://prehraj.to/o-lecive-vode-2020-pohadka/63a36ccccdcb8",
+              "title": "O lecive vode 2020 pohadka",
+              "year": null,
+              "duration_sec": 5311,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.1,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5311,
+                "runtime_delta": 0.247,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "613f4188222a8",
+              "url": "https://prehraj.to/v-tom-2020-cz-dabing/613f4188222a8",
+              "title": "V tom 2020 CZ Dabing",
+              "year": null,
+              "duration_sec": 5475,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5475,
+                "runtime_delta": 0.285,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e1a22a453f508ca",
+              "url": "https://prehraj.to/country-v-srdci-2020-cz-dabing/5e1a22a453f508ca",
+              "title": "▲ Country v srdci 2020 CZ Dabing ▼ ●●●",
+              "year": null,
+              "duration_sec": 4963,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 4963,
+                "runtime_delta": 0.165,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "85a12a3297414de9",
+              "url": "https://prehraj.to/country-v-srdci-2020-cz-dabing/85a12a3297414de9",
+              "title": "● Country v srdci 2020 CZ Dabing ●",
+              "year": null,
+              "duration_sec": 4963,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 4963,
+                "runtime_delta": 0.165,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "abf1e61ba5074261",
+              "url": "https://prehraj.to/zombie-2-2020-cz-dabing/abf1e61ba5074261",
+              "title": "▲ Zombie 2 2020 CZ Dabing ▼ ●●●",
+              "year": null,
+              "duration_sec": 5031,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.074,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5031,
+                "runtime_delta": 0.181,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fd6b86445774",
+              "url": "https://prehraj.to/v-2020-cztitulky/5fd6b86445774",
+              "title": "V 2020 CZtitulky",
+              "year": null,
+              "duration_sec": 8429,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.979,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "603990b3d59db",
+              "url": "https://prehraj.to/country-v-srdci-2020-czdabing/603990b3d59db",
+              "title": "Country v srdci 2020 CZdabing",
+              "year": null,
+              "duration_sec": 4963,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 4963,
+                "runtime_delta": 0.165,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6508aed96f2d2",
+              "url": "https://prehraj.to/2-srdce-2-hearts-2020-hd-cz-dabing/6508aed96f2d2",
+              "title": "2 srdce 2 Hearts 2020 HD CZ Dabing",
+              "year": null,
+              "duration_sec": 5853,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.158,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5853,
+                "runtime_delta": 0.374,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "51452a99092f6af8",
+              "url": "https://prehraj.to/madagaskar-3-mkv-mkv/51452a99092f6af8",
+              "title": "madagaskar-3-mkv.mkv",
+              "year": null,
+              "duration_sec": 5604,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.118,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5604,
+                "runtime_delta": 0.315,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f046768e99b0ce34",
+              "url": "https://prehraj.to/hotel-transylvanie-1-2010-cz-dabing-top-kvalita-mp4/f046768e99b0ce34",
+              "title": "hotel-transylvanie-1-2010-cz-dabing-top-kvalita.mp4",
+              "year": null,
+              "duration_sec": 5491,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68db26c856d5c",
+              "url": "https://prehraj.to/shrek-4-zvonec-a-konec-2010-cz-sk/68db26c856d5c",
+              "title": "✳️_Shrek_4*✳️_Zvonec_a_konec -✳️2010 CZ, SK",
+              "year": null,
+              "duration_sec": 5590,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "867f964b0702a13c",
+              "url": "https://prehraj.to/enola-holmes-3-2026-cz-dab/867f964b0702a13c",
+              "title": "Enola Holmes 3 (2026)(CZ dab.)",
+              "year": null,
+              "duration_sec": 6484,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "12fb9ffde8d6968c",
+              "url": "https://prehraj.to/dabel-nosi-pradu-2-2026-cz-26-7-gom-fm/12fb9ffde8d6968c",
+              "title": "Ďábel nosí Pradu 2 (2026) Cz  (26.7) gom.fm",
+              "year": null,
+              "duration_sec": 7216,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a0bfed56439",
+              "url": "https://prehraj.to/buchty-a-klobasy-raj-potravin-s02e02-desaty-chod-cz-dabing/68a0bfed56439",
+              "title": "Buchty a klobásy Ráj potravin S02E02 Desátý chod CZ DABING",
+              "year": null,
+              "duration_sec": 1343,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a0c0599b405",
+              "url": "https://prehraj.to/buchty-a-klobasy-raj-potravin-s02e03-jedenacty-chod-cz-dabing/68a0c0599b405",
+              "title": "Buchty a klobásy Ráj potravin S02E03 Jedenáctý chod CZ…",
+              "year": null,
+              "duration_sec": 1472,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a0c1972b031",
+              "url": "https://prehraj.to/buchty-a-klobasy-raj-potravin-s02e06-ctrnacty-chod-cz-dabing/68a0c1972b031",
+              "title": "Buchty a klobásy Ráj potravin S02E06 Čtrnáctý chod CZ…",
+              "year": null,
+              "duration_sec": 1703,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6e3ecaf95caff1bb",
+              "url": "https://prehraj.to/pirati-z-karibiku-1-prokleti-cerne-perly-cz/6e3ecaf95caff1bb",
+              "title": "🏴‍☠️Piráti z Karibiku 1- Prokletí🏴‍☠️ Černé perly CZ",
+              "year": null,
+              "duration_sec": 8563,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.01,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "音楽 (2020)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "21088",
+              "url": "https://online.sktorrent.eu/video/21088/",
+              "title": "Správnej sound",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T06:47:06.235386+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "spravnej-sound-2020",
+        "title": "Správnej sound",
+        "original_title": "音楽",
+        "year": 2020,
+        "runtime_min": 71,
+        "tmdb_id": 626767,
+        "imdb_id": "tt10487722",
+        "created_at": "2026-04-14 15:51:24.155277+02:00",
+        "added_at": "2022-01-28 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T06:47:02.048852+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T06:46:58.620461+00:00"
+  "updated_at": "2026-08-27T06:47:06.235406+00:00"
 }
