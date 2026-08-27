@@ -20766,7 +20766,60 @@
         },
         "at": "2026-08-27T16:02:01.480870+00:00"
       }
+    },
+    "27031": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "682b816e23a7c",
+              "url": "https://prehraj.to/western-mkv-cz-dab-tas-1984-dvdrip-czdub/682b816e23a7c",
+              "title": "Western MKV cz dab-Tas! 1984 DVDrip_CZdub",
+              "year": null,
+              "duration_sec": 5856,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.627,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:02:11.330088+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "to-the-western-world",
+        "title": "To The Western World",
+        "original_title": null,
+        "year": 1984,
+        "runtime_min": 60,
+        "tmdb_id": 1491554,
+        "imdb_id": "tt1380226",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:02:05.633330+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:02:02.838994+00:00"
+  "updated_at": "2026-08-27T16:02:11.330116+00:00"
 }
