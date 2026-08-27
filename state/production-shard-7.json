@@ -16824,7 +16824,131 @@
         },
         "at": "2026-08-27T15:59:41.580022+00:00"
       }
+    },
+    "28599": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5cf599135557a",
+              "url": "https://prehraj.to/zivot-je-uzasny-2013-cz-titulky/5cf599135557a",
+              "title": "Život je úžasný (2013) cz titulky",
+              "year": null,
+              "duration_sec": 6422,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 6422,
+                "runtime_delta": 0.0,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68bdc45cb4873",
+              "url": "https://prehraj.to/neumirani-o-muzi-ktery-chce-zit-vecne-don-t-die-the-man-who-wants-to-live-forever-2025-cz-1080p/68bdc45cb4873",
+              "title": "Neumírání - O muži, který chce žít věčně - Don't Die - The…",
+              "year": null,
+              "duration_sec": 5390,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.254,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 5390,
+                "runtime_delta": 0.16,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Chce się żyć (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cf1d3c80045",
+              "url": "https://prehraj.to/malice-andy-the-core-feel-so-good-malice-live-edit-ar003/68cf1d3c80045",
+              "title": "Malice  Andy The Core - Feel So Good (Malice Live Edit)) …",
+              "year": null,
+              "duration_sec": 170,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.974,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Life Feels Good (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68d03f51582fa",
+              "url": "https://prehraj.to/malice-andy-the-core-feel-so-good-malice-live-edit-ar003-bydejv/68d03f51582fa",
+              "title": "Malice  Andy The Core - Feel So Good (Malice Live Edit)) …",
+              "year": null,
+              "duration_sec": 170,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.974,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Life Feels Good (2013)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T15:59:45.725209+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "chce-sie-zyc",
+        "title": "Chce się żyć",
+        "original_title": "Life Feels Good",
+        "year": 2013,
+        "runtime_min": 107,
+        "tmdb_id": 226437,
+        "imdb_id": "tt3092552",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T15:59:44.099498+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T15:59:42.666493+00:00"
+  "updated_at": "2026-08-27T15:59:45.725230+00:00"
 }
