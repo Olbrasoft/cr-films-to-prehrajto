@@ -32736,7 +32736,60 @@
         },
         "at": "2026-08-27T16:25:07.548952+00:00"
       }
+    },
+    "21135": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55be209b717a0",
+              "url": "https://prehraj.to/at-zije-kristus-kral-mexiko-1926-cristiada-ceske-titulky-napevno/55be209b717a0",
+              "title": "Ať-žije-Kristus-král-Mexiko-1926-Cristiada-české-titulky-napevno",
+              "year": null,
+              "duration_sec": 8724,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.077,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-27T16:25:14.061426+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ladies-at-play",
+        "title": "Ladies at Play",
+        "original_title": null,
+        "year": 1926,
+        "runtime_min": 70,
+        "tmdb_id": 534579,
+        "imdb_id": "tt0017052",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-27T16:25:10.813542+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-27T16:25:08.997161+00:00"
+  "updated_at": "2026-08-27T16:25:14.061446+00:00"
 }
