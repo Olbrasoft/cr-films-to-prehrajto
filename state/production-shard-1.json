@@ -46630,6 +46630,97 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:06:48.989012+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe33f0fcd5c2",
+              "url": "https://prehraj.to/the-midnight-sky-2020-cz-sub-1080p-nf-web-dl-dd5-1-atmos-x264-ika/5fe33f0fcd5c2",
+              "title": "The.Midnight.Sky.2020.cz.sub.1080p.NF.WEB-DL.DD5.1.Atmos.x264-iKA",
+              "year": null,
+              "duration_sec": 7113,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.239,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fcab9ad4a526",
+              "url": "https://prehraj.to/godmothered-2020-720p-dsnp-web-dl-dd-5-1-atmos-h-264-ika/5fcab9ad4a526",
+              "title": "Godmothered.2020.720p.DSNP.WEB-DL.DD+5.1.Atmos.H.264-iKA",
+              "year": null,
+              "duration_sec": 6582,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.774,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fed37e301a42",
+              "url": "https://prehraj.to/the-midnight-sky-2020-1080p-nf-web-dl-dd5-1-atmos-x264-ika/5fed37e301a42",
+              "title": "The.Midnight.Sky.2020.1080p.NF.WEB-DL.DD5.1.Atmos.x264-iKA",
+              "year": null,
+              "duration_sec": 7113,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.239,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe3935a44ba9",
+              "url": "https://prehraj.to/the-midnight-sky-2020-cz-sub-1080p-nf-web-dl-dd5-1-atmos-x264-ika/5fe3935a44ba9",
+              "title": "The.Midnight.Sky.2020.cz.sub.1080p.NF.WEB-DL.DD5.1.Atmos.x264-iKA",
+              "year": null,
+              "duration_sec": 7113,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.239,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:42:33.279197+00:00"
         }
       ],
       "identity": {
@@ -46648,7 +46739,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:06:48.332447+00:00"
+        "at": "2026-08-28T03:42:21.125076+00:00"
       }
     },
     "26803": {
@@ -75647,5 +75738,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:42:19.594376+00:00"
+  "updated_at": "2026-08-28T03:42:33.279218+00:00"
 }
