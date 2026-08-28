@@ -32592,7 +32592,60 @@
         },
         "at": "2026-08-28T07:40:34.436695+00:00"
       }
+    },
+    "22261": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "675c0c862e1b1",
+              "url": "https://prehraj.to/prilis-vzdaleny-most-1977-blu-ray-1080p-ac3-cz/675c0c862e1b1",
+              "title": "Příliš vzdálený most 1977.Blu-ray.1080p.AC3.CZ",
+              "year": null,
+              "duration_sec": 10572,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.874,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:40:38.849851+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "blue-sunshine",
+        "title": "Blue Sunshine",
+        "original_title": null,
+        "year": 1977,
+        "runtime_min": 94,
+        "tmdb_id": 40955,
+        "imdb_id": "tt0074226",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:40:37.511620+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:40:36.046475+00:00"
+  "updated_at": "2026-08-28T07:40:38.849868+00:00"
 }
