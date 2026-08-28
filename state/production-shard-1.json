@@ -8532,6 +8532,57 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:57:57.667037+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "624e30675c3c5",
+              "url": "https://prehraj.to/stud-1967-czdab/624e30675c3c5",
+              "title": "Stud (1967) CZdab",
+              "year": null,
+              "duration_sec": 6015,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 24.062,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6858c584a159f",
+              "url": "https://prehraj.to/stud-1967-1476x1080-bydejv/6858c584a159f",
+              "title": "Stud 1967 - 1476x1080 byDejv",
+              "year": null,
+              "duration_sec": 6015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 24.062,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:16:37.226268+00:00"
         }
       ],
       "identity": {
@@ -8550,7 +8601,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:57:57.227701+00:00"
+        "at": "2026-08-28T03:16:33.216137+00:00"
       }
     },
     "29565": {
@@ -67611,5 +67662,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:16:31.743366+00:00"
+  "updated_at": "2026-08-28T03:16:37.226288+00:00"
 }
