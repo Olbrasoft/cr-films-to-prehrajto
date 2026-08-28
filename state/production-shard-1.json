@@ -82226,7 +82226,267 @@
         },
         "at": "2026-08-28T06:36:19.584097+00:00"
       }
+    },
+    "21785": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "589250c0eafd4",
+              "url": "https://prehraj.to/hotel-pro-cizince-1966-cesky-film-do-mobilu-misa/589250c0eafd4",
+              "title": "Hotel-pro-cizince-1966-Český-film-do-mobilu-míša",
+              "year": null,
+              "duration_sec": 6109,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.355,
+                "title_contains_alias": false,
+                "film_year": 1966,
+                "candidate_year": 1966,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6109,
+                "runtime_delta": 0.039,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e54510deaf30",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e05-web-x264-tbs/5e54510deaf30",
+              "title": "paradise.hotel.us.2019.s01e05.web.x264-tbs",
+              "year": null,
+              "duration_sec": 5053,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e5450c1068c9",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e02-web-x264-tbs/5e5450c1068c9",
+              "title": "Paradise.Hotel.US.2019.S01E02.WEB.x264-TBS",
+              "year": null,
+              "duration_sec": 2560,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e5450c2bb8e0",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e03-web-x264-tbs/5e5450c2bb8e0",
+              "title": "Paradise.Hotel.US.2019.S01E03.WEB.x264-TBS",
+              "year": null,
+              "duration_sec": 2562,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e5450cde75a2",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e04-web-x264-tbs/5e5450cde75a2",
+              "title": "paradise.hotel.us.2019.s01e04.web.x264-tbs",
+              "year": null,
+              "duration_sec": 5054,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3d636420cf5feeec",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e06-web-x264-tbs/3d636420cf5feeec",
+              "title": "paradise.hotel.us.2019.s01e06.web.x264-tbs",
+              "year": null,
+              "duration_sec": 5054,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6538035d403cc61e",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e04-web-x264-tbs/6538035d403cc61e",
+              "title": "paradise.hotel.us.2019.s01e04.web.x264-tbs",
+              "year": null,
+              "duration_sec": 5054,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e5450619d097",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e01-web-x264-tbs/5e5450619d097",
+              "title": "Paradise.Hotel.US.2019.S01E01.WEB.x264-TBS",
+              "year": null,
+              "duration_sec": 5057,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e545139e89df",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e06-web-x264-tbs/5e545139e89df",
+              "title": "paradise.hotel.us.2019.s01e06.web.x264-tbs",
+              "year": null,
+              "duration_sec": 5055,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "594800fb8f0835f2",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e01-web-x264-tbs/594800fb8f0835f2",
+              "title": "Paradise.Hotel.US.2019.S01E01.WEB.x264-TBS",
+              "year": null,
+              "duration_sec": 5057,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e54514044aef",
+              "url": "https://prehraj.to/paradise-hotel-us-2019-s01e07-finale-480p-x264-msd/5e54514044aef",
+              "title": "Paradise.Hotel.US.2019.S01E07.finale.480p.x264-mSD",
+              "year": null,
+              "duration_sec": 5057,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hotel Paradiso (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6209c61141a70",
+              "url": "https://prehraj.to/velky-blazinec-v-malem-hotelu-guest-house-paradiso-1999-dvdrip-x264-en-cz-www-playme-wtf/6209c61141a70",
+              "title": "Velký blázinec v malém hotelu.Guest.House.Paradiso.1999…",
+              "year": null,
+              "duration_sec": 5152,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1966,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Hotel Paradiso (1966)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:36:29.279411+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "hotel-paradiso",
+        "title": "Hotel Paradiso",
+        "original_title": null,
+        "year": 1966,
+        "runtime_min": 98,
+        "tmdb_id": 117360,
+        "imdb_id": "tt0060520",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:36:28.545293+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:36:24.410536+00:00"
+  "updated_at": "2026-08-28T06:36:29.279425+00:00"
 }
