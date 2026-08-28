@@ -75055,7 +75055,65 @@
         },
         "at": "2026-08-28T15:05:46.513438+00:00"
       }
+    },
+    "16064": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "51882",
+              "url": "https://online.sktorrent.eu/video/51882/",
+              "title": "Killing Faith",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T15:05:55.310602+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "killing-faith-2025",
+        "title": "Killing Faith",
+        "original_title": "Killing Faith",
+        "year": 2025,
+        "runtime_min": 108,
+        "tmdb_id": 1200320,
+        "imdb_id": "tt29101725",
+        "created_at": "2026-04-14 16:06:53.885489+02:00",
+        "added_at": "2025-10-15 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T15:05:51.747523+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T15:05:49.805717+00:00"
+  "updated_at": "2026-08-28T15:05:55.310623+00:00"
 }
