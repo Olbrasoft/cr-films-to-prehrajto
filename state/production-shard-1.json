@@ -13666,6 +13666,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:58:20.686021+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "608a691ad3f44",
+              "url": "https://prehraj.to/abominable-2019-mhd-web-dl-aac2-0-h-264-tommy-cz-sk-ftu/608a691ad3f44",
+              "title": "Abominable.2019.mHD.WEB-DL.AAC2.0.H.264-TOMMY.CZ.SK-FTU",
+              "year": null,
+              "duration_sec": 5833,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.151,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5833,
+                "runtime_delta": 0.013,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:17:18.715146+00:00"
         }
       ],
       "identity": {
@@ -13684,7 +13722,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:58:20.224206+00:00"
+        "at": "2026-08-28T03:17:16.247808+00:00"
       }
     },
     "29411": {
@@ -69118,5 +69156,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:17:14.711661+00:00"
+  "updated_at": "2026-08-28T03:17:18.715168+00:00"
 }
