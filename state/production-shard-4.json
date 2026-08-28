@@ -19132,7 +19132,67 @@
         },
         "at": "2026-08-28T02:42:04.658434+00:00"
       }
+    },
+    "27244": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "603e9fdc22db9",
+              "url": "https://prehraj.to/slayer-the-repentless-killogy-live-at-the-forum-in-inglewood-ca-2019-1080p-2-0-er01/603e9fdc22db9",
+              "title": "Slayer - The Repentless Killogy (Live At The Forum In Inglewood, CA) (2019).1080p.2.0.Er01",
+              "year": null,
+              "duration_sec": 7844,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.248,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 7844,
+                "runtime_delta": 0.245,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:42:08.955096+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "demon-slayer-kimetsu-no-yaiba-sibling-s-bond",
+        "title": "Demon Slayer: Kimetsu no Yaiba - Sibling's Bond",
+        "original_title": "Demon Slayer: Kimetsu no Yaiba - Sibling's Bond",
+        "year": 2019,
+        "runtime_min": 105,
+        "tmdb_id": 820232,
+        "imdb_id": "tt14888860",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:42:08.030110+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:42:06.804701+00:00"
+  "updated_at": "2026-08-28T02:42:08.955119+00:00"
 }
