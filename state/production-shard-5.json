@@ -27146,7 +27146,86 @@
         },
         "at": "2026-08-28T07:39:32.992171+00:00"
       }
+    },
+    "23133": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "636b7877e0e2a",
+              "url": "https://prehraj.to/sherlock-holmes-mistr-mezi-vyderaci-1991-hd/636b7877e0e2a",
+              "title": "Sherlock Holmes - Mistr mezi vyděrači (1991) HD+",
+              "year": null,
+              "duration_sec": 6155,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.514,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 180,
+                "candidate_runtime_sec": 6155,
+                "runtime_delta": 0.43,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e58de646c8f56b43",
+              "url": "https://prehraj.to/sherlock-holmes-a-pekelny-stroj-e1-1991-cs/e58de646c8f56b43",
+              "title": "Sherlock Holmes a pekelný stroj E1 - 1991 CS",
+              "year": null,
+              "duration_sec": 5372,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.503,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sherlock Holmes a pekelný stroj (1991)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:39:45.476009+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sherlock-holmes-a-pekelny-stroj",
+        "title": "Sherlock Holmes a pekelný stroj",
+        "original_title": "Sherlock Holmes and the Leading Lady",
+        "year": 1991,
+        "runtime_min": 180,
+        "tmdb_id": 108432,
+        "imdb_id": "tt0100597",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:39:39.184759+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:39:37.750822+00:00"
+  "updated_at": "2026-08-28T07:39:45.476027+00:00"
 }
