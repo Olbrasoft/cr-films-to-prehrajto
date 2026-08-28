@@ -24274,7 +24274,87 @@
         },
         "at": "2026-08-28T07:01:15.378538+00:00"
       }
+    },
+    "25846": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58529fb13993b",
+              "url": "https://prehraj.to/zombie-town-soumrak-mrtvych-2007-czdub/58529fb13993b",
+              "title": "Zombie-Town---Soumrak-mrtvých-(2007)-czdub",
+              "year": null,
+              "duration_sec": 5262,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.226,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5262,
+                "runtime_delta": 0.086,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686fb4a47cf35",
+              "url": "https://prehraj.to/american-zombieland-2020-yify-download-movie-torrent-yts-sk-tit/686fb4a47cf35",
+              "title": "American Zombieland (2020) YIFY - Download Movie Torrent -…",
+              "year": null,
+              "duration_sec": 5259,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "American Zombie (2007)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:01:23.105184+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "american-zombie",
+        "title": "American Zombie",
+        "original_title": null,
+        "year": 2007,
+        "runtime_min": 96,
+        "tmdb_id": 18116,
+        "imdb_id": "tt0765430",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:01:21.335052+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:01:19.941566+00:00"
+  "updated_at": "2026-08-28T07:01:23.105206+00:00"
 }
