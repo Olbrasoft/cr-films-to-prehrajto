@@ -62573,6 +62573,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:12:16.994093+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a90284ba13c9",
+              "url": "https://prehraj.to/titanic-animovany-pribeh-2001-peko/5a90284ba13c9",
+              "title": "titanic-animovany-pribeh-2001-peko",
+              "year": null,
+              "duration_sec": 4210,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 13.033,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:49:38.983625+00:00"
         }
       ],
       "identity": {
@@ -62591,7 +62622,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:12:16.389717+00:00"
+        "at": "2026-08-28T03:49:31.938459+00:00"
       }
     },
     "24723": {
@@ -78233,5 +78264,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:49:30.428918+00:00"
+  "updated_at": "2026-08-28T03:49:38.983646+00:00"
 }
