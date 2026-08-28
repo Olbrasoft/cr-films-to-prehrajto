@@ -30604,6 +30604,348 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:42:54.875430+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583579e5cbc3b",
+              "url": "https://prehraj.to/naprosta-sebeduvera-cz-dabing-akcni-thriller-novinky-2013-s-seagal/583579e5cbc3b",
+              "title": "Naprostá-sebeduvěra-cz-dabing-akcni-thriller-novinky-2013-S.Seagal",
+              "year": null,
+              "duration_sec": 5862,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.369,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587cdbdb8fd19",
+              "url": "https://prehraj.to/naprosto-uzasny-2001-tvrip-b-u/587cdbdb8fd19",
+              "title": "Naprosto_uzasny_2001-tvrip-b.u.",
+              "year": null,
+              "duration_sec": 8462,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.863,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678fc1b9289b8",
+              "url": "https://prehraj.to/naprosto-uzasna-omeleta-tento-recept-urcite-musite-vyzkouset/678fc1b9289b8",
+              "title": "Naprosto úžasná omeleta, tento recept určitě musíte…",
+              "year": null,
+              "duration_sec": 286,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.836,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678fc30d6108d",
+              "url": "https://prehraj.to/nejlepsi-prava-kulajda-s-houbami-a-koprem-naprosto-uzasna-polevka/678fc30d6108d",
+              "title": "Nejlepší pravá kulajda s houbami a koprem, naprosto úžasná…",
+              "year": null,
+              "duration_sec": 60,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.966,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f1cbdf2cadcf25f9",
+              "url": "https://prehraj.to/varime-s-kubickem-45-dil-naprosto-uzasna-a-krehoucka-panenka-na-smetane/f1cbdf2cadcf25f9",
+              "title": "Vaříme s kubíčkem - 45. díl - Naprosto úžasná a křehoučká…",
+              "year": null,
+              "duration_sec": 513,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.705,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0714b9dab7b10760",
+              "url": "https://prehraj.to/varime-s-kubickem-122-dil-naprosto-uzasna-grilovana-veprova-panenka-s-brambory-na-grilu/0714b9dab7b10760",
+              "title": "Vaříme s kubíčkem - 122. díl - Naprosto úžasná grilovaná…",
+              "year": null,
+              "duration_sec": 390,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.776,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d5243d690541a001",
+              "url": "https://prehraj.to/varime-s-kubickem-chutovky-36-dil-naprosto-uzasna-omeleta-recept-ktery-urcite-musite-vyzkouset/d5243d690541a001",
+              "title": "Vaříme s kubíčkem - chuťovky - 36. díl - Naprosto úžasná…",
+              "year": null,
+              "duration_sec": 286,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.836,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65e7f373846fded4",
+              "url": "https://prehraj.to/varime-s-kubickem-polevky-13-dil-nejlepsi-prava-kulajda-s-houbami-a-koprem-naprosto-uzasna-polevka/65e7f373846fded4",
+              "title": "Vaříme s kubíčkem - polévky - 13. díl - Nejlepší pravá…",
+              "year": null,
+              "duration_sec": 616,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.646,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "789b94e100d16964",
+              "url": "https://prehraj.to/varime-s-kubickem-hlavni-jidla-31-dil-naprosto-uzasna-rajcatova-omacka-s-kurecim-masem-a-penne/789b94e100d16964",
+              "title": "Vaříme s kubíčkem - hlavní jídla - 31. díl - Naprosto…",
+              "year": null,
+              "duration_sec": 504,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.71,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f574114ad708c017",
+              "url": "https://prehraj.to/jednoduche-vareni-bez-breptu-hlavni-jidla-124-dil-kure-s-citronovou-omackou-ta-chut-je-naprosto-uzasna/f574114ad708c017",
+              "title": "Jednoduché vaření bez breptů - hlavní jídla - 124. díl -…",
+              "year": null,
+              "duration_sec": 356,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.795,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678fc210d68b3",
+              "url": "https://prehraj.to/naprosto-uzasne-sunkafleky-varime-s-kubickem-recept-52/678fc210d68b3",
+              "title": "Naprosto úžasné ŠUNKAFLEKY   Vaříme s Kubíčkem (RECEPT #52)",
+              "year": null,
+              "duration_sec": 493,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.717,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67abd503dbbfc",
+              "url": "https://prehraj.to/naruto-071-naprosto-uzasne-bitva-na-urovni-hokagu/67abd503dbbfc",
+              "title": "Naruto 071 - Naprosto úžasné! Bitva na úrovni Hokagů!",
+              "year": null,
+              "duration_sec": 1364,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.469,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 29,
+                "candidate_runtime_sec": 1364,
+                "runtime_delta": 0.216,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678fc1ecda172",
+              "url": "https://prehraj.to/naprosto-uzasne-holandske-rizky-varime-s-kubickem-recept-61/678fc1ecda172",
+              "title": "Naprosto úžasné HOLANDSKÉ ŘÍZKY    Vaříme s Kubíčkem …",
+              "year": null,
+              "duration_sec": 482,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.723,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3edd288b35cbbaed",
+              "url": "https://prehraj.to/varime-s-kubickem-44-dil-naprosto-uzasne-smetanove-francouzske-brambory/3edd288b35cbbaed",
+              "title": "Vaříme s kubíčkem - 44. díl - Naprosto úžasné smetanové…",
+              "year": null,
+              "duration_sec": 573,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.671,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7b8151d2cf2c9241",
+              "url": "https://prehraj.to/kubickovo-doupe-kutil-04-dil-jak-si-doma-vyrobit-naprosto-uzasne-dj-svetlo/7b8151d2cf2c9241",
+              "title": "Kubíčkovo doupě - kutil - 04. díl - Jak si doma vyrobit…",
+              "year": null,
+              "duration_sec": 371,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.787,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ea4cc21fe6d1a78f",
+              "url": "https://prehraj.to/kubickovo-doupe-kutil-02-dil-jak-si-doma-vyrobit-naprosto-uzasne-dj-svetlo/ea4cc21fe6d1a78f",
+              "title": "Kubíčkovo doupě - kutil - 02. díl - Jak si doma vyrobit…",
+              "year": null,
+              "duration_sec": 606,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.652,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57440679bc65cce2",
+              "url": "https://prehraj.to/kubickovo-doupe-kutil-03-dil-jak-si-doma-vyrobit-naprosto-uzasne-dj-svetlo-paprskovy-skener-s-16-miliony-barev/57440679bc65cce2",
+              "title": "Kubíčkovo doupě - kutil - 03. díl - Jak si doma vyrobit…",
+              "year": null,
+              "duration_sec": 497,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.714,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naprosto úžasná (2013)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:08:53.401126+00:00"
         }
       ],
       "identity": {
@@ -30622,7 +30964,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:42:54.179079+00:00"
+        "at": "2026-08-28T11:08:49.932554+00:00"
       }
     },
     "28520": {
@@ -63135,5 +63477,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:08:45.704953+00:00"
+  "updated_at": "2026-08-28T11:08:53.401144+00:00"
 }
