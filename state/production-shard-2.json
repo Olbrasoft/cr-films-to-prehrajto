@@ -37731,7 +37731,66 @@
         },
         "at": "2026-08-28T15:44:14.531200+00:00"
       }
+    },
+    "14786": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "e78eb5aa65e181f4",
+              "url": "https://prehraj.to/krakonos-a-sklinkar-matej/e78eb5aa65e181f4",
+              "title": "Krakonoš a sklínkař Matěj",
+              "year": null,
+              "duration_sec": 822,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1979,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 822,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Krakonos a sklínkar Matej (1979)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T15:44:24.958025+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "krakonos-a-sklinkar-matej-1979",
+        "title": "Krakonos a sklínkar Matej",
+        "original_title": "Krakonos a sklínkar Matej",
+        "year": 1979,
+        "runtime_min": null,
+        "tmdb_id": 372182,
+        "imdb_id": "tt1427248",
+        "created_at": "2026-04-14 15:57:32.997399+02:00",
+        "added_at": "2023-03-09 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T15:44:20.545272+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T15:44:18.922823+00:00"
+  "updated_at": "2026-08-28T15:44:24.958044+00:00"
 }
