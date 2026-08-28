@@ -51305,6 +51305,613 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:28:34.298436+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583d9b60d0c5a",
+              "url": "https://prehraj.to/meg-ryan-milenec-je-zlocinec-cz-2008-akcni-komedie-romanticky/583d9b60d0c5a",
+              "title": "Meg-Ryan---Milenec-je-zlocinec---CZ.2008.Akční.Komedie.Romantický..",
+              "year": null,
+              "duration_sec": 5573,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.715,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7fd1e68979e3f231",
+              "url": "https://prehraj.to/egumi-legacy-s1e6-ja/7fd1e68979e3f231",
+              "title": "Egumi Legacy - S1E6 JA",
+              "year": null,
+              "duration_sec": 635,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61baaa07e0c92733",
+              "url": "https://prehraj.to/egumi-legacy-s1e3-ja/61baaa07e0c92733",
+              "title": "Egumi Legacy - S1E3 JA",
+              "year": null,
+              "duration_sec": 660,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "eb0b643b721c5a97",
+              "url": "https://prehraj.to/egumi-legacy-s1e1-ja/eb0b643b721c5a97",
+              "title": "Egumi Legacy - S1E1 JA",
+              "year": null,
+              "duration_sec": 636,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a392b60c0c1d87ac",
+              "url": "https://prehraj.to/egumi-legacy-s1e4-ja/a392b60c0c1d87ac",
+              "title": "Egumi Legacy - S1E4 JA",
+              "year": null,
+              "duration_sec": 591,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "240a2bfe10e740f1",
+              "url": "https://prehraj.to/egumi-legacy-s1e5-ja/240a2bfe10e740f1",
+              "title": "Egumi Legacy - S1E5 JA",
+              "year": null,
+              "duration_sec": 720,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "905c14826e9dff02",
+              "url": "https://prehraj.to/egumi-legacy-s1e8-ja/905c14826e9dff02",
+              "title": "Egumi Legacy - S1E8 JA",
+              "year": null,
+              "duration_sec": 680,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8f4100ab3d3ae56d",
+              "url": "https://prehraj.to/egumi-legacy-s1e2-ja/8f4100ab3d3ae56d",
+              "title": "Egumi Legacy - S1E2 JA",
+              "year": null,
+              "duration_sec": 646,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dba9ddd9e4260dcc",
+              "url": "https://prehraj.to/egumi-legacy-s1e7-ja/dba9ddd9e4260dcc",
+              "title": "Egumi Legacy - S1E7 JA",
+              "year": null,
+              "duration_sec": 651,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "51defc178eaa74de",
+              "url": "https://prehraj.to/aa-megami-sama-s2e6-ja/51defc178eaa74de",
+              "title": "Aa! Megami-sama - S2E6 JA",
+              "year": null,
+              "duration_sec": 1464,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "82eea0334cd54225",
+              "url": "https://prehraj.to/aa-megami-sama-s2e2-hunters-hunters-ja/82eea0334cd54225",
+              "title": "Aa! Megami-sama - S2E2 Hunters & Hunters JA",
+              "year": null,
+              "duration_sec": 1401,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b54f7bdb1300d7f9",
+              "url": "https://prehraj.to/aa-megami-sama-s1e16-ja/b54f7bdb1300d7f9",
+              "title": "Aa! Megami-sama - S1E16 JA",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d9701209b589d8a6",
+              "url": "https://prehraj.to/aa-megami-sama-s1e18-ja/d9701209b589d8a6",
+              "title": "Aa! Megami-sama - S1E18 JA",
+              "year": null,
+              "duration_sec": 1458,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d9f795910388b900",
+              "url": "https://prehraj.to/aa-megami-sama-s1e1-itsumo-futari-de-ja/d9f795910388b900",
+              "title": "Aa! Megami-sama - S1E1 Itsumo Futari De JA",
+              "year": null,
+              "duration_sec": 1486,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "defe2d7c17ce83e9",
+              "url": "https://prehraj.to/aa-megami-sama-s1e3-dive-live-love-ja/defe2d7c17ce83e9",
+              "title": "Aa! Megami-sama - S1E3 Dive! Live! Love! JA",
+              "year": null,
+              "duration_sec": 1453,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "296369d8e03e5a75",
+              "url": "https://prehraj.to/aa-megami-sama-s1e6-ja/296369d8e03e5a75",
+              "title": "Aa! Megami-sama - S1E6 JA",
+              "year": null,
+              "duration_sec": 1486,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c85da6f5cfa31a8a",
+              "url": "https://prehraj.to/aa-megami-sama-s1e7-ja/c85da6f5cfa31a8a",
+              "title": "Aa! Megami-sama - S1E7 JA",
+              "year": null,
+              "duration_sec": 1452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "534d0b23d807e142",
+              "url": "https://prehraj.to/aa-megami-sama-s1e8-ja/534d0b23d807e142",
+              "title": "Aa! Megami-sama - S1E8 JA",
+              "year": null,
+              "duration_sec": 1452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "eb0fcc8e12fe7bf5",
+              "url": "https://prehraj.to/aa-megami-sama-s1e12-ja/eb0fcc8e12fe7bf5",
+              "title": "Aa! Megami-sama - S1E12 JA",
+              "year": null,
+              "duration_sec": 1452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ff75cb76947d1b64",
+              "url": "https://prehraj.to/aa-megami-sama-s1e4-ja/ff75cb76947d1b64",
+              "title": "Aa! Megami-sama - S1E4 JA",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bdd33c1dd8460f6b",
+              "url": "https://prehraj.to/aa-megami-sama-s2e4-ja/bdd33c1dd8460f6b",
+              "title": "Aa! Megami-sama - S2E4 JA",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9cc136b971d0a64e",
+              "url": "https://prehraj.to/aa-megami-sama-s2e7-ja/9cc136b971d0a64e",
+              "title": "Aa! Megami-sama - S2E7 JA",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dabd1bbca4a9cfb8",
+              "url": "https://prehraj.to/aa-megami-sama-s2e3-dive-live-love-ja/dabd1bbca4a9cfb8",
+              "title": "Aa! Megami-sama - S2E3 Dive! Live! Love! JA",
+              "year": null,
+              "duration_sec": 1464,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "621a7dd75aedef8b",
+              "url": "https://prehraj.to/aa-megami-sama-s1e5-oh-my-goddess-volume-43-ep-269-275-en/621a7dd75aedef8b",
+              "title": "Aa! Megami-sama! - S1E5 Oh My Goddess Volume 43 Ep 269-275…",
+              "year": null,
+              "duration_sec": 2233,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0fb02d9325f8480b",
+              "url": "https://prehraj.to/aa-megami-sama-s1e24-ja/0fb02d9325f8480b",
+              "title": "Aa! Megami-sama - S1E24 JA",
+              "year": null,
+              "duration_sec": 1437,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d050cf64e8cb0866",
+              "url": "https://prehraj.to/aa-megami-sama-s1e2-oh-my-goddess-volume-40-ep-250-254-en/d050cf64e8cb0866",
+              "title": "Aa! Megami-sama! - S1E2 Oh My Goddess Volume 40 Ep 250-254…",
+              "year": null,
+              "duration_sec": 1616,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a25622eb9cf9c1f6",
+              "url": "https://prehraj.to/aa-megami-sama-s1e3-oh-my-goddess-volume-41-ep-255-261-en/a25622eb9cf9c1f6",
+              "title": "Aa! Megami-sama! - S1E3 Oh My Goddess Volume 41 Ep 255-261…",
+              "year": null,
+              "duration_sec": 1636,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f8c20c9ac019e6bb",
+              "url": "https://prehraj.to/aa-megami-sama-s1e11-ja/f8c20c9ac019e6bb",
+              "title": "Aa! Megami-sama - S1E11 JA",
+              "year": null,
+              "duration_sec": 1486,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "33a1899e50a55f67",
+              "url": "https://prehraj.to/aa-megami-sama-s1e23-ja/33a1899e50a55f67",
+              "title": "Aa! Megami-sama - S1E23 JA",
+              "year": null,
+              "duration_sec": 1480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "932a69bca2dccda5",
+              "url": "https://prehraj.to/aa-megami-sama-s1e25-ja/932a69bca2dccda5",
+              "title": "Aa! Megami-sama - S1E25 JA",
+              "year": null,
+              "duration_sec": 1437,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8ab1764f98f92ba0",
+              "url": "https://prehraj.to/aa-megami-sama-s1e22-ja/8ab1764f98f92ba0",
+              "title": "Aa! Megami-sama - S1E22 JA",
+              "year": null,
+              "duration_sec": 1329,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "71cb04e0a7b15eee",
+              "url": "https://prehraj.to/aa-megami-sama-s1e14-ja/71cb04e0a7b15eee",
+              "title": "Aa! Megami-sama - S1E14 JA",
+              "year": null,
+              "duration_sec": 1455,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1f316517ca4c1a42",
+              "url": "https://prehraj.to/aa-megami-sama-s1e5-ja/1f316517ca4c1a42",
+              "title": "Aa! Megami-sama - S1E5 JA",
+              "year": null,
+              "duration_sec": 1458,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Megumi (2008)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:32.746522+00:00"
         }
       ],
       "identity": {
@@ -51323,7 +51930,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:28:33.726026+00:00"
+        "at": "2026-08-28T11:11:31.499202+00:00"
       }
     },
     "26684": {
@@ -67190,5 +67797,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:29.986088+00:00"
+  "updated_at": "2026-08-28T11:11:32.746539+00:00"
 }
