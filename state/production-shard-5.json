@@ -23417,7 +23417,121 @@
         },
         "at": "2026-08-28T07:20:10.950086+00:00"
       }
+    },
+    "26613": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "639b9b2664e6b",
+              "url": "https://prehraj.to/frost-2022-cztitulky/639b9b2664e6b",
+              "title": "Frost (2022) CZtitulky",
+              "year": null,
+              "duration_sec": 4816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.303,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 4816,
+                "runtime_delta": 0.27,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "639b9ac76b8de",
+              "url": "https://prehraj.to/frost-2022-cz-titulky/639b9ac76b8de",
+              "title": "Frost (2022) CZ titulky",
+              "year": null,
+              "duration_sec": 4816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.435,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 4816,
+                "runtime_delta": 0.27,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6438423769218",
+              "url": "https://prehraj.to/frost-2022-cztitulky/6438423769218",
+              "title": "Frost (2022) CZtitulky",
+              "year": null,
+              "duration_sec": 4816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.303,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 4816,
+                "runtime_delta": 0.27,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:20:37.603088+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "neptune-frost",
+        "title": "Neptune Frost",
+        "original_title": null,
+        "year": 2022,
+        "runtime_min": 110,
+        "tmdb_id": 671109,
+        "imdb_id": "tt11873472",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:20:34.863502+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:20:26.901842+00:00"
+  "updated_at": "2026-08-28T07:20:37.603107+00:00"
 }
