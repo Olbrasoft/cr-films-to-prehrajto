@@ -72608,7 +72608,188 @@
         },
         "at": "2026-08-28T11:19:31.989068+00:00"
       }
+    },
+    "22680": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "689ef3efda0c3",
+              "url": "https://prehraj.to/chudacek-bohac-renato-pozzetto-ornella-muti-massimo-mirani-1983-komedie-romanticky-dvdrip-cz-dabing/689ef3efda0c3",
+              "title": "Chudáček boháč (Renato Pozzetto,Ornella Muti,Massimo Mirani-1983 Komedie-Romantický-Dvdrip.) Cz dabing",
+              "year": null,
+              "duration_sec": 5291,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 5291,
+                "runtime_delta": 0.135,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a70e986a09e",
+              "url": "https://prehraj.to/ptaci-v-trni-ep-4-richard-chamberlain-rachel-ward-christopher-plummer-1983-drama-romanticky-bdrip-1080p-sk-dabing/67a70e986a09e",
+              "title": "Ptáci v trní-Ep.4 (Richard Chamberlain,Rachel Ward,Christopher Plummer-1983 Drama-Romantický-Bdrip.-1080p.) Sk dabing",
+              "year": null,
+              "duration_sec": 8162,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.17,
+                "title_contains_alias": false,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 8162,
+                "runtime_delta": 0.334,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a701d23f08c",
+              "url": "https://prehraj.to/ptaci-v-trni-ep-4-richard-chamberlain-rachel-ward-christopher-plummer-1983-drama-romanticky-bdrip-1080p-sk-dabing/67a701d23f08c",
+              "title": "Ptáci v trní-Ep.4 (Richard Chamberlain,Rachel Ward,Christopher Plummer-1983 Drama-Romantický-Bdrip.-1080p.) Sk dabing",
+              "year": null,
+              "duration_sec": 8162,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.17,
+                "title_contains_alias": false,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 8162,
+                "runtime_delta": 0.334,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60c9b2c18c4a5",
+              "url": "https://prehraj.to/svatebni-cesta-do-jilji-romanticka-komedie-1983-720p-2-0-x264-l-safrankova-84-sten-ok/60c9b2c18c4a5",
+              "title": "Svatební cesta do Jiljí romantická komedie 1983.720p.2.0…",
+              "year": null,
+              "duration_sec": 4928,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 4928,
+                "runtime_delta": 0.195,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Romantická komedie (1983)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0fb638ca11fdf67e",
+              "url": "https://prehraj.to/romanticka-komedie-une-comedie-romantique-2022-cz/0fb638ca11fdf67e",
+              "title": "Romantická komedie _ Une comédie romantique (2022)(CZ)",
+              "year": null,
+              "duration_sec": 5769,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1983,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Romantic Comedy (1983)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65a2aed874d6f",
+              "url": "https://prehraj.to/romanticka-komedie-une-comedie-romantique-2022-cz/65a2aed874d6f",
+              "title": "Romantická komedie _ Une comédie romantique (2022)(CZ)",
+              "year": null,
+              "duration_sec": 5769,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1983,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Romantic Comedy (1983)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:19:36.565362+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "romanticka-komedie-1983",
+        "title": "Romantická komedie",
+        "original_title": "Romantic Comedy",
+        "year": 1983,
+        "runtime_min": 102,
+        "tmdb_id": 77074,
+        "imdb_id": "tt0086205",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:19:34.367798+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:19:32.891968+00:00"
+  "updated_at": "2026-08-28T11:19:36.565378+00:00"
 }
