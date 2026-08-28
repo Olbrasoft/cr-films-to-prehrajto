@@ -72875,7 +72875,87 @@
         },
         "at": "2026-08-28T11:19:38.043674+00:00"
       }
+    },
+    "22216": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "577c24edc3f4a",
+              "url": "https://prehraj.to/eso-v-rukavu-2f-ace-up-my-sleeve-2f-crime-and-passion-2f-frankensteins-spukschloss-1975-ru-en/577c24edc3f4a",
+              "title": "Eso-v-rukávu-%2F-Ace-Up-My-Sleeve-%2F-Crime-and-Passion-%2F-Frankensteins-Spukschloss-1975,-RU---EN",
+              "year": null,
+              "duration_sec": 5677,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.15,
+                "title_contains_alias": false,
+                "film_year": 1975,
+                "candidate_year": 1975,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5677,
+                "runtime_delta": 0.113,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6880f0ee07bff",
+              "url": "https://prehraj.to/ran-d-d-sturb-ft-xception-dance-with-the-devil-2024-music/6880f0ee07bff",
+              "title": "Ran-D & D-Sturb Ft. Xception - Dance With The Devil ( 2024…",
+              "year": null,
+              "duration_sec": 158,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1975,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Devil’s Rain (1975)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:19:42.305110+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "satanova-sekta",
+        "title": "Satanova sekta",
+        "original_title": "The Devil’s Rain",
+        "year": 1975,
+        "runtime_min": 85,
+        "tmdb_id": 38701,
+        "imdb_id": "tt0072869",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:19:40.918820+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:19:39.359143+00:00"
+  "updated_at": "2026-08-28T11:19:42.305127+00:00"
 }
