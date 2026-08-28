@@ -876,7 +876,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:12:50.479620+00:00",
-        "verified_at": "2026-08-28T19:48:28.477537+00:00",
+        "verified_at": "2026-08-28T22:01:26.094647+00:00",
         "live_display_name": "1 Mile To You (2017) CZ titulky"
       }
     },
@@ -7856,7 +7856,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-27T10:35:54.999142+00:00",
-        "verified_at": "2026-08-28T19:48:38.823482+00:00",
+        "verified_at": "2026-08-28T22:01:36.727176+00:00",
         "live_display_name": "Carmilla (2020) CZ titulky"
       }
     },
@@ -35101,7 +35101,19 @@
       }
     },
     "4596": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "16646",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28914501",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:01:47.878942+00:00"
+        }
+      ],
       "identity": {
         "slug": "princezna-zakleta-v-case",
         "title": "Princezna zakletá v čase",
@@ -35119,23 +35131,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T19:53:07.333374+00:00"
-      },
-      "upload": {
-        "target_video_id": "28914501",
-        "display_name": "Princezna zakletá v čase (2020) CZ Dabing",
-        "size_bytes": 773303556,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "16646",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T19:59:22.853890+00:00"
       }
     },
     "13004": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "16410",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28914596",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:01:47.920689+00:00"
+        }
+      ],
       "identity": {
         "slug": "tmavomodry-svet-2001",
         "title": "Tmavomodrý svět",
@@ -35153,19 +35164,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T19:59:29.271385+00:00"
-      },
-      "upload": {
-        "target_video_id": "28914596",
-        "display_name": "Tmavomodrý svět (2001) CZ Dabing",
-        "size_bytes": 588353818,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "16410",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:03:58.159182+00:00"
       }
     },
     "3756": {
@@ -35282,8 +35280,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:11:03.986841+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T20:11:03.986841+00:00",
+        "verified_at": "2026-08-28T22:01:47.961456+00:00",
+        "live_display_name": "Casting na lásku (2020) CZ Dabing"
       }
     },
     "9228": {
@@ -36000,7 +36000,19 @@
       }
     },
     "5772": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "5697",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28915125",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:01:47.961470+00:00"
+        }
+      ],
       "identity": {
         "slug": "certi-brko",
         "title": "Čertí brko",
@@ -36018,19 +36030,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T20:24:58.963545+00:00"
-      },
-      "upload": {
-        "target_video_id": "28915125",
-        "display_name": "Čertí brko (2018) CZ Dabing",
-        "size_bytes": 1129705625,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "5697",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:34:05.160001+00:00"
       }
     },
     "10236": {
@@ -36066,7 +36065,19 @@
       }
     },
     "16604": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "5566",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28915287",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:01:48.001902+00:00"
+        }
+      ],
       "identity": {
         "slug": "gangster-ka-2015",
         "title": "Gangster Ka",
@@ -36084,19 +36095,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T20:34:37.732811+00:00"
-      },
-      "upload": {
-        "target_video_id": "28915287",
-        "display_name": "Gangster Ka (2015) CZ Dabing",
-        "size_bytes": 709544934,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "5566",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:41:28.015844+00:00"
       }
     },
     "3156": {
@@ -36160,8 +36158,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:50:10.231854+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T20:50:10.231854+00:00",
+        "verified_at": "2026-08-28T22:01:48.042898+00:00",
+        "live_display_name": "O.G. (2018) CZ Dabing"
       }
     },
     "11548": {
@@ -36197,7 +36197,19 @@
       }
     },
     "2980": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "2647",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28915697",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:01:48.042909+00:00"
+        }
+      ],
       "identity": {
         "slug": "aquaman",
         "title": "Aquaman",
@@ -36215,19 +36227,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T20:50:22.140900+00:00"
-      },
-      "upload": {
-        "target_video_id": "28915697",
-        "display_name": "Aquaman (2018) CZ Dabing",
-        "size_bytes": 2396855082,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "2647",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T21:10:56.035994+00:00"
       }
     },
     "3316": {
@@ -36444,8 +36443,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T21:20:49.279710+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T21:20:49.279710+00:00",
+        "verified_at": "2026-08-28T22:01:48.083365+00:00",
+        "live_display_name": "2001: Vesmírná Odysea (1968) CZ Dabing"
       }
     },
     "13140": {
@@ -36483,5 +36484,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T21:32:21.937649+00:00"
+  "updated_at": "2026-08-28T22:02:10.467446+00:00"
 }

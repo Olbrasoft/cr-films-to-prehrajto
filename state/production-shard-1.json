@@ -8242,7 +8242,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-25T17:29:40.739413+00:00",
-        "verified_at": "2026-08-28T19:47:44.579351+00:00",
+        "verified_at": "2026-08-28T22:00:41.553517+00:00",
         "live_display_name": "Až umřu, budou mě milovat (2018) CZ titulky"
       }
     },
@@ -76573,7 +76573,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T11:07:16.992458+00:00",
-        "verified_at": "2026-08-28T19:47:55.648233+00:00",
+        "verified_at": "2026-08-28T22:00:52.565899+00:00",
         "live_display_name": "Pozdě, ale přece (2024) CZ titulky"
       }
     },
@@ -86716,8 +86716,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T19:55:33.636048+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T19:55:33.636048+00:00",
+        "verified_at": "2026-08-28T22:01:03.617699+00:00",
+        "live_display_name": "5 x jinak (2020) CZ Dabing"
       }
     },
     "12825": {
@@ -86782,8 +86784,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T19:59:48.440744+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T19:59:48.440744+00:00",
+        "verified_at": "2026-08-28T22:01:03.617715+00:00",
+        "live_display_name": "Princezna rebelka (2021) CZ Dabing"
       }
     },
     "4617": {
@@ -86816,8 +86820,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:06:47.168034+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T20:06:47.168034+00:00",
+        "verified_at": "2026-08-28T22:01:03.617718+00:00",
+        "live_display_name": "Kouzelný svět Davida Copperfielda (2019) CZ Dabing"
       }
     },
     "3305": {
@@ -86850,8 +86856,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:11:07.476812+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T20:11:07.476812+00:00",
+        "verified_at": "2026-08-28T22:01:03.617721+00:00",
+        "live_display_name": "Láska pod kapotou (2021) CZ Dabing"
       }
     },
     "8201": {
@@ -86915,8 +86923,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:26:28.142577+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T20:26:28.142577+00:00",
+        "verified_at": "2026-08-28T22:01:03.617724+00:00",
+        "live_display_name": "West Side Story (2021) CZ Dabing"
       }
     },
     "14233": {
@@ -87283,12 +87293,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:33:36.135683+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T20:33:36.135683+00:00",
+        "verified_at": "2026-08-28T22:01:03.617726+00:00",
+        "live_display_name": "Mazel a tajemství lesa (2021) CZ Dabing"
       }
     },
     "13225": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "19417",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28915249",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:01:03.617734+00:00"
+        }
+      ],
       "identity": {
         "slug": "libanky-2003",
         "title": "Líbánky",
@@ -87306,23 +87330,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T20:33:41.702467+00:00"
-      },
-      "upload": {
-        "target_video_id": "28915249",
-        "display_name": "Líbánky (2003) CZ Dabing",
-        "size_bytes": 575284516,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "19417",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:39:10.576542+00:00"
       }
     },
     "9881": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "18166",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28915347",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:01:03.714984+00:00"
+        }
+      ],
       "identity": {
         "slug": "zenska-pomsta",
         "title": "Ženská pomsta",
@@ -87340,19 +87363,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T20:39:15.791178+00:00"
-      },
-      "upload": {
-        "target_video_id": "28915347",
-        "display_name": "Ženská pomsta (2020) CZ Dabing",
-        "size_bytes": 593617644,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "18166",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:43:47.732091+00:00"
       }
     },
     "9217": {
@@ -87419,10 +87429,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T20:53:37.808786+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T20:53:37.808786+00:00",
+        "verified_at": "2026-08-28T22:01:03.810633+00:00",
+        "live_display_name": "Jiu Jitsu (2020) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T20:53:37.808812+00:00"
+  "updated_at": "2026-08-28T22:02:10.683288+00:00"
 }
