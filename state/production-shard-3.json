@@ -16748,7 +16748,231 @@
         },
         "at": "2026-08-28T06:33:51.430366+00:00"
       }
+    },
+    "28971": {
+      "attempts": [],
+      "identity": {
+        "slug": "v-h-s-halloween",
+        "title": "V/H/S/Halloween",
+        "original_title": null,
+        "year": 2025,
+        "runtime_min": 115,
+        "tmdb_id": 1373445,
+        "imdb_id": "tt37676033",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25265764",
+          "account_name": "V/H/S/Beyond (2024) CZ Titulky",
+          "title_similarity": 0.5,
+          "title_contains_alias": false,
+          "film_year": 2025,
+          "candidate_year": 2024,
+          "year_match": true,
+          "film_runtime_min": 115,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T06:33:54.425467+00:00"
+      }
+    },
+    "28907": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55ca1ff96c195",
+              "url": "https://prehraj.to/honeymoon-medove-tydny-2014-cz-tit-horor-thrill-koko/55ca1ff96c195",
+              "title": "Honeymoon, Medové týdny - 2014 cz tit.horor thrill.koko",
+              "year": null,
+              "duration_sec": 5248,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.944,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c8ad0d1b75e",
+              "url": "https://prehraj.to/boys-of-abu-ghraib-the-2014-sk-tit-drama-thrill-koko/55c8ad0d1b75e",
+              "title": "Boys of Abu Ghraib The - 2014 sk tit.drama thrill.koko",
+              "year": null,
+              "duration_sec": 5883,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.179,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55d0e8819ed29",
+              "url": "https://prehraj.to/the-reckless-bloedlink-2014-cz-tit-thrill/55d0e8819ed29",
+              "title": "The Reckless, Bloedlink - 2014 cz tit.thrill",
+              "year": null,
+              "duration_sec": 5272,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55d16d84871ef",
+              "url": "https://prehraj.to/the-reckless-bloedlink-2014-cz-tit-thrill/55d16d84871ef",
+              "title": "The Reckless, Bloedlink - 2014 cz tit.thrill",
+              "year": null,
+              "duration_sec": 5272,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55d5dda173407",
+              "url": "https://prehraj.to/honeymoon-medove-tydny-2014-cz-tit-horor-thrill-koko/55d5dda173407",
+              "title": "Honeymoon, Medové týdny - 2014 cz tit.horor thrill.koko",
+              "year": null,
+              "duration_sec": 5248,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.944,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "56295860adab7",
+              "url": "https://prehraj.to/de-behandeling-lecba-2014-cz-tit-drama-thrill-koko/56295860adab7",
+              "title": "De Behandeling, Léčba - 2014 cz tit.drama thrill.koko",
+              "year": null,
+              "duration_sec": 7525,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.787,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "562980ed4aa20",
+              "url": "https://prehraj.to/honeymoon-medove-tydny-2014-cz-tit-horor-thrill-koko/562980ed4aa20",
+              "title": "Honeymoon, Medové týdny - 2014 cz tit.horor thrill.koko",
+              "year": null,
+              "duration_sec": 5248,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.944,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "567854c338919",
+              "url": "https://prehraj.to/boys-of-abu-ghraib-the-2014-sk-tit-drama-thrill-koko/567854c338919",
+              "title": "Boys of Abu Ghraib The - 2014 sk tit.drama thrill.koko",
+              "year": null,
+              "duration_sec": 5883,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.179,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:34:00.699452+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vital-heat-the-making-of-cheap-thrills",
+        "title": "Vital Heat: The Making of 'Cheap Thrills'",
+        "original_title": null,
+        "year": 2014,
+        "runtime_min": 45,
+        "tmdb_id": 624901,
+        "imdb_id": "tt3644012",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:33:54.425520+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:33:53.171283+00:00"
+  "updated_at": "2026-08-28T06:34:00.699471+00:00"
 }
