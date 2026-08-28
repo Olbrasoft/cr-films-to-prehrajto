@@ -25876,7 +25876,60 @@
         },
         "at": "2026-08-28T07:01:51.507615+00:00"
       }
+    },
+    "25070": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6150bfb1c4817",
+              "url": "https://prehraj.to/lod-snu-chile-2002-czdab/6150bfb1c4817",
+              "title": "Loď snů - Chile (2002) CZdab",
+              "year": null,
+              "duration_sec": 5594,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.7,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:02:20.431393+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "cofralandes-rapsodia-chilena",
+        "title": "Cofralandes, rapsodia Chilena",
+        "original_title": "Cofralandes, Chilean Rhapsody",
+        "year": 2002,
+        "runtime_min": 311,
+        "tmdb_id": 291772,
+        "imdb_id": "tt0355335",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:02:09.094136+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:02:02.062840+00:00"
+  "updated_at": "2026-08-28T07:02:20.431417+00:00"
 }
