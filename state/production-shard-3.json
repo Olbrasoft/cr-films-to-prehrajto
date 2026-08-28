@@ -27232,7 +27232,721 @@
         },
         "at": "2026-08-28T06:55:14.602549+00:00"
       }
+    },
+    "25091": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586a38a62a562",
+              "url": "https://prehraj.to/01-1959-annibale/586a38a62a562",
+              "title": "01.-1959---Annibale",
+              "year": null,
+              "duration_sec": 5454,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.132,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68844fd745ea9",
+              "url": "https://prehraj.to/worldwide-01-02-99/68844fd745ea9",
+              "title": "Worldwide.01.02.99",
+              "year": null,
+              "duration_sec": 2494,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.889,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6884500c56d94",
+              "url": "https://prehraj.to/worldwide-05-01-99/6884500c56d94",
+              "title": "Worldwide.05.01.99",
+              "year": null,
+              "duration_sec": 2444,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.852,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688919b263116",
+              "url": "https://prehraj.to/worldwide-01-23-99/688919b263116",
+              "title": "Worldwide.01.23.99",
+              "year": null,
+              "duration_sec": 2439,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.848,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68844fe5241c0",
+              "url": "https://prehraj.to/worldwide-01-30-99/68844fe5241c0",
+              "title": "Worldwide.01.30.99",
+              "year": null,
+              "duration_sec": 2469,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.87,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6605bc8b6ccf4",
+              "url": "https://prehraj.to/akuyaku-reijou-level-99-01-cztitulky/6605bc8b6ccf4",
+              "title": "Akuyaku Reijou Level 99 - 01 CZtitulky",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.146,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1420,
+                "runtime_delta": 0.076,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65ad76e231a98",
+              "url": "https://prehraj.to/akuyaku-reijou-level-99-01-cztitulky/65ad76e231a98",
+              "title": "Akuyaku Reijou Level 99 - 01 CZtitulky",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.146,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1420,
+                "runtime_delta": 0.076,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "666613d6cfa7e",
+              "url": "https://prehraj.to/akuyaku-reijou-level-99-01/666613d6cfa7e",
+              "title": "Akuyaku Reijou Level 99 - 01",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1420,
+                "runtime_delta": 0.076,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65a25d74ab52f",
+              "url": "https://prehraj.to/subsplease-akuyaku-reijou-level-99-01-1080p-54ed61d2/65a25d74ab52f",
+              "title": "[SubsPlease] Akuyaku Reijou Level 99 - 01 (1080p) [54ED61D2]",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.118,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1420,
+                "runtime_delta": 0.076,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9ba4886aca05ff58",
+              "url": "https://prehraj.to/hotel-herbich-01-horky-tyden-99-dvbt-cz/9ba4886aca05ff58",
+              "title": "(hotel+herbich)+01+horky+tyden+-99'+-DVBT_CZ",
+              "year": null,
+              "duration_sec": 3174,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.405,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688450188d23a",
+              "url": "https://prehraj.to/worldwide-05-29-99/688450188d23a",
+              "title": "Worldwide.05.29.99",
+              "year": null,
+              "duration_sec": 2436,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.845,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5999761768a2c",
+              "url": "https://prehraj.to/stavnaty-vrsok-01-navrat-domov-animovany-99-dvbt-sk-dab-romin/5999761768a2c",
+              "title": "(stavnaty-vrsok)-01-navrat-domov-(animovany)-99'-DVBT_(SK…",
+              "year": null,
+              "duration_sec": 1410,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.189,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1410,
+                "runtime_delta": 0.068,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e544f16a2bb0",
+              "url": "https://prehraj.to/hotel-herbich-01-horky-tyden-99-dvbt-cz-romin/5e544f16a2bb0",
+              "title": "(hotel herbich) 01 horky tyden -99' -DVBT_CZ-(romin)",
+              "year": null,
+              "duration_sec": 3174,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.405,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9c9d65d8e17",
+              "url": "https://prehraj.to/ordinacia-v-ruzovej-zahrade-iv-99-28-01-2016/5a9c9d65d8e17",
+              "title": "Ordinácia v ružovej záhrade IV. 99 - 28.01.2016",
+              "year": null,
+              "duration_sec": 2509,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1959,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58c16c6bb3998",
+              "url": "https://prehraj.to/o-rarasi-mlikovi-01-zrozeni-rarase-99-dvbt-cz-romin/58c16c6bb3998",
+              "title": "(o-rarasi-mlikovi)-01-zrozeni-rarase--99'-DVBT_CZ-(romin)",
+              "year": null,
+              "duration_sec": 468,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.645,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688925f1c1c6b",
+              "url": "https://prehraj.to/worldwide-11-06-99/688925f1c1c6b",
+              "title": "Worldwide.11.06.99",
+              "year": null,
+              "duration_sec": 2339,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.772,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688903b148dd1",
+              "url": "https://prehraj.to/worldwide-10-01-95/688903b148dd1",
+              "title": "Worldwide 10-01-95",
+              "year": null,
+              "duration_sec": 3525,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.67,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "093dd494df7a5b14",
+              "url": "https://prehraj.to/bleach-99koi/093dd494df7a5b14",
+              "title": "Bleach 99⭐Koi⭐",
+              "year": null,
+              "duration_sec": 1397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1397,
+                "runtime_delta": 0.058,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a2de9357843b",
+              "url": "https://prehraj.to/toronto-tom-kocour-z-ameriky-01-tome-prijed-berou-animovany-99-dvbt-cz-romin/5a2de9357843b",
+              "title": "(toronto tom,kocour z ameriky) 01 tome prijed,berou! …",
+              "year": null,
+              "duration_sec": 452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.658,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58990b6fcf2e5",
+              "url": "https://prehraj.to/toronto-tom-kocour-z-ameriky-01-tome-prijed-berou-animovany-99-dvbt-cz-romin/58990b6fcf2e5",
+              "title": "(toronto-tom,kocour-z-ameriky)-01-tome-prijed,berou!-…",
+              "year": null,
+              "duration_sec": 452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.658,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a34551879f95",
+              "url": "https://prehraj.to/my-tri-brasi-od-muziky-01-jak-si-alois-s-emilem-nechali-usit-nove-kalhoty-animovany-99-dvbt-cz-romin/5a34551879f95",
+              "title": "(my tri brasi od muziky) 01 jak si alois s emilem nechali…",
+              "year": null,
+              "duration_sec": 460,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.652,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a566e592ead7",
+              "url": "https://prehraj.to/my-tri-brasi-od-muziky-01-jak-si-alois-s-emilem-nechali-usit-nove-kalhoty-animovany-99-dvbt-cz-romin/5a566e592ead7",
+              "title": "My tři braši od muziky - 01 jak si alois s emilem nechali…",
+              "year": null,
+              "duration_sec": 460,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.652,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5838dc676f76d",
+              "url": "https://prehraj.to/pekne-pohadky-89-90-91-92-cz/5838dc676f76d",
+              "title": "Pekné-pohádky-89_90_91_92-cz",
+              "year": null,
+              "duration_sec": 5740,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.348,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "675c054f91465",
+              "url": "https://prehraj.to/largo-01-39-2001-akcni-dobrodruzny-krimi-skdab/675c054f91465",
+              "title": "Largo 01-39 (2001) akční dobrodružný krimi skdab",
+              "year": null,
+              "duration_sec": 2698,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1959,
+                "candidate_year": 2001,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5abbde1ebabcf",
+              "url": "https://prehraj.to/112-29-01-2013-sk-dabing/5abbde1ebabcf",
+              "title": "112 - 29.01.2013 SK dabing",
+              "year": null,
+              "duration_sec": 1518,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1959,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "594d2f3c4e04c",
+              "url": "https://prehraj.to/werewolf-season-01-episode-29/594d2f3c4e04c",
+              "title": "werewolf-_season_01_-_episode_29",
+              "year": null,
+              "duration_sec": 1343,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1343,
+                "runtime_delta": 0.017,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "561d20497f46f",
+              "url": "https://prehraj.to/sultan-99-cast-10-10-2015/561d20497f46f",
+              "title": "Sultan 99 čast 10.10.2015",
+              "year": null,
+              "duration_sec": 3072,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1959,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688450570583c",
+              "url": "https://prehraj.to/worldwide-12-11-99/688450570583c",
+              "title": "Worldwide.12.11.99",
+              "year": null,
+              "duration_sec": 2348,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.779,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68844ff0785eb",
+              "url": "https://prehraj.to/worldwide-02-13-99/68844ff0785eb",
+              "title": "Worldwide.02.13.99",
+              "year": null,
+              "duration_sec": 2482,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.88,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58d50dbc7c1fb",
+              "url": "https://prehraj.to/rebeli-ii-99-diel/58d50dbc7c1fb",
+              "title": "Rebeli-II---99.diel",
+              "year": null,
+              "duration_sec": 2426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.838,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688450543d082",
+              "url": "https://prehraj.to/worldwide-12-04-99/688450543d082",
+              "title": "Worldwide.12.04.99",
+              "year": null,
+              "duration_sec": 2361,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.789,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6884502a3013c",
+              "url": "https://prehraj.to/worldwide-07-31-99/6884502a3013c",
+              "title": "Worldwide.07.31.99",
+              "year": null,
+              "duration_sec": 2283,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.73,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688450537194d",
+              "url": "https://prehraj.to/worldwide-11-20-99/688450537194d",
+              "title": "Worldwide.11.20.99",
+              "year": null,
+              "duration_sec": 2341,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.773,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "01-99 (1959)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:55:17.998544+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "01-99",
+        "title": "01-99",
+        "original_title": null,
+        "year": 1959,
+        "runtime_min": 22,
+        "tmdb_id": 599610,
+        "imdb_id": "tt0360321",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:55:17.044755+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:55:15.788395+00:00"
+  "updated_at": "2026-08-28T06:55:17.998564+00:00"
 }
