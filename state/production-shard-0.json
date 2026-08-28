@@ -61542,6 +61542,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:34:51.562227+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5877b61c1b7e7",
+              "url": "https://prehraj.to/za-rannich-cervanku-tv-film-1970/5877b61c1b7e7",
+              "title": "Za-ranních-červánků---tv-film-(1970)",
+              "year": null,
+              "duration_sec": 4418,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.394,
+                "title_contains_alias": false,
+                "film_year": 1970,
+                "candidate_year": 1970,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 4418,
+                "runtime_delta": 0.233,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:16:35.698866+00:00"
         }
       ],
       "identity": {
@@ -61560,7 +61598,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:34:51.052356+00:00"
+        "at": "2026-08-28T11:16:21.070114+00:00"
       }
     },
     "24118": {
@@ -71664,5 +71702,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:16:19.485189+00:00"
+  "updated_at": "2026-08-28T11:16:35.698881+00:00"
 }
