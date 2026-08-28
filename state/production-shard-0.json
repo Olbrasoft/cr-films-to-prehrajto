@@ -52426,6 +52426,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:29:12.271935+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "604bad74c1000",
+              "url": "https://prehraj.to/stay-out-of-the-fucking-attic-2020-1080p-amzn-web-dl-ddp2-0-h264-worm/604bad74c1000",
+              "title": "Stay.Out.of.the.Fucking.Attic.2020.1080p.AMZN.WEB-DL.DDP2.0.H264-WORM",
+              "year": null,
+              "duration_sec": 4828,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.314,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4828,
+                "runtime_delta": 0.118,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:46.178883+00:00"
         }
       ],
       "identity": {
@@ -52444,7 +52482,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:29:11.788719+00:00"
+        "at": "2026-08-28T11:11:39.391446+00:00"
       }
     },
     "26530": {
@@ -67848,5 +67886,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:37.844145+00:00"
+  "updated_at": "2026-08-28T11:11:46.178901+00:00"
 }
