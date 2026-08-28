@@ -84734,7 +84734,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:52:42.766946+00:00"
+        "at": "2026-08-28T14:58:55.851787+00:00"
       }
     },
     "15729": {
@@ -84853,6 +84853,359 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T12:25:38.943181+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "88ac272955c46230",
+              "url": "https://prehraj.to/kristina-se-pta-14-dil-jiri-wimmer-genius-pod-parou/88ac272955c46230",
+              "title": "Kristina se ptá - 14. díl - Jiří Wimmer - génius pod parou",
+              "year": null,
+              "duration_sec": 1418,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1418,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ef1a5821a10bbec3",
+              "url": "https://prehraj.to/plnou-parou-vzad-cz-pord/ef1a5821a10bbec3",
+              "title": "plnou-parou-vzad-cz- pord",
+              "year": null,
+              "duration_sec": 5399,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.533,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5399,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "785f7f5c717e00ee",
+              "url": "https://prehraj.to/plnou-parou-vzad-cz-pord/785f7f5c717e00ee",
+              "title": "plnou parou vzad cz pord",
+              "year": null,
+              "duration_sec": 5399,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.533,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5399,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ead937875c9b4c04",
+              "url": "https://prehraj.to/hra-o-truny-pod-carou-s1e2-episode-2-en/ead937875c9b4c04",
+              "title": "Hra o trůny: Pod čarou - S1E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 2228,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1353f9b73f2298a1",
+              "url": "https://prehraj.to/hra-o-truny-pod-carou-s1e1-episode-1-en/1353f9b73f2298a1",
+              "title": "Hra o trůny: Pod čarou - S1E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 2038,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b562775dd14e5495",
+              "url": "https://prehraj.to/poznamka-pod-carou-hearat-shulayim-footnote-2011-heb-cz-tit-hard-mkv/b562775dd14e5495",
+              "title": "Poznámka pod čarou / Hearat Shulayim / Footnote 2011, HEB -…",
+              "year": null,
+              "duration_sec": 6364,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662526d6dba86",
+              "url": "https://prehraj.to/slovo-dalo-slovo-aneb-povidani-pod-carou-1989-m-hornicek-b-zelenka-j-traxler-a-j-holoubek/662526d6dba86",
+              "title": "Slovo dalo slovo aneb Povídání pod čarou (1989) - M.…",
+              "year": null,
+              "duration_sec": 2539,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1989,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63e14b91b9125",
+              "url": "https://prehraj.to/slovo-dalo-slovo-aneb-povidani-pod-carou/63e14b91b9125",
+              "title": "Slovo dalo slovo aneb Povídání pod čarou",
+              "year": null,
+              "duration_sec": 2539,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.327,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2539,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586c60e410714",
+              "url": "https://prehraj.to/poznamka-pod-carou-2f-he-arat-shulayim-2011-cz-tit/586c60e410714",
+              "title": "Poznámka-pod-čarou-%2F-He'arat-Shulayim-2011,-CZ-tit",
+              "year": null,
+              "duration_sec": 6363,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66024ae6186d4",
+              "url": "https://prehraj.to/slovo-dalo-slovo-aneb-povidani-pod-carou-1989-m-hornicek-b-zelenka-j-traxler-a-j/66024ae6186d4",
+              "title": "Slovo dalo slovo aneb Povídání pod čarou (1989) - M.…",
+              "year": null,
+              "duration_sec": 2539,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1989,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "135bf477a0e7a090",
+              "url": "https://prehraj.to/krvava-leta-81-dil-ctvrty-ze-tri-kralu-frantisek-peltan-gestapo-mu-v-parku-pod-petrinem-prostrelilo-hlavu/135bf477a0e7a090",
+              "title": "Krvavá léta - 81. díl - Čtvrtý ze „Tří králů“ František…",
+              "year": null,
+              "duration_sec": 400,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.07,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 400,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0d7f7ec1fbbd618a",
+              "url": "https://prehraj.to/jak-jsem-potkal-vasi-matku-027-par-vsech-paru-vod/0d7f7ec1fbbd618a",
+              "title": "Jak jsem potkal vaši matku 027 - Pár všech párů. ⭐Vod⭐",
+              "year": null,
+              "duration_sec": 1269,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1269,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cb4d9874ce0b1db5",
+              "url": "https://prehraj.to/cernobily-petr-05-dil-jak-petr-po-parku-jezdil-v-kocarku/cb4d9874ce0b1db5",
+              "title": "Černobílý petr - 05. díl - Jak Petr po parku jezdil v…",
+              "year": null,
+              "duration_sec": 386,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 386,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9301c80f5f5462c7",
+              "url": "https://prehraj.to/38-sokujici-rozhovor-s-barou-z-robinsona-od-vyrazeni-pribrala-10-kilo-ale-je-z-ni-mnohem-vetsi-kocka/9301c80f5f5462c7",
+              "title": "38 ŠOKUJÍCÍ ROZHOVOR S BÁROU Z ROBINSONA - Od vyřazení…",
+              "year": null,
+              "duration_sec": 209,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.164,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 209,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Pod parou (2025)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "52862",
+              "url": "https://online.sktorrent.eu/video/52862/",
+              "title": "Pod parou",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T14:58:59.826614+00:00"
         }
       ],
       "identity": {
@@ -84871,7 +85224,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T11:33:28.151913+00:00"
+        "at": "2026-08-28T14:58:55.851965+00:00"
       }
     },
     "849": {
@@ -85015,5 +85368,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T14:58:51.051422+00:00"
+  "updated_at": "2026-08-28T14:58:59.826632+00:00"
 }
