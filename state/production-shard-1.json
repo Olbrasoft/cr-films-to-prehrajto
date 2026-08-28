@@ -9141,7 +9141,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.131966+00:00"
+        "at": "2026-08-28T03:54:22.294399+00:00"
       }
     },
     "29523": {
@@ -14936,7 +14936,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.132274+00:00"
+        "at": "2026-08-28T03:54:22.294710+00:00"
       }
     },
     "29317": {
@@ -17619,7 +17619,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.087186+00:00"
+        "at": "2026-08-28T03:54:22.249499+00:00"
       }
     },
     "29121": {
@@ -17734,7 +17734,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.088113+00:00"
+        "at": "2026-08-28T03:54:22.250410+00:00"
       }
     },
     "29103": {
@@ -18129,7 +18129,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.092909+00:00"
+        "at": "2026-08-28T03:54:22.255212+00:00"
       }
     },
     "29045": {
@@ -23172,7 +23172,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.135637+00:00"
+        "at": "2026-08-28T03:54:22.298087+00:00"
       }
     },
     "28825": {
@@ -50744,7 +50744,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.090039+00:00"
+        "at": "2026-08-28T03:54:22.252334+00:00"
       }
     },
     "25169": {
@@ -51641,7 +51641,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.091303+00:00"
+        "at": "2026-08-28T03:54:22.253591+00:00"
       }
     },
     "23061": {
@@ -52547,7 +52547,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.131773+00:00"
+        "at": "2026-08-28T03:54:22.294209+00:00"
       }
     },
     "21381": {
@@ -58448,7 +58448,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.096979+00:00"
+        "at": "2026-08-28T03:54:22.259285+00:00"
       }
     },
     "25951": {
@@ -60036,7 +60036,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:16.027763+00:00"
+        "at": "2026-08-28T03:54:22.298793+00:00"
       }
     },
     "25357": {
@@ -60550,7 +60550,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:20.002421+00:00"
+        "at": "2026-08-28T03:54:22.301236+00:00"
       }
     },
     "25241": {
@@ -61083,7 +61083,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.097718+00:00"
+        "at": "2026-08-28T03:54:22.260029+00:00"
       }
     },
     "24963": {
@@ -71387,6 +71387,1183 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:16:24.994159+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b6bb58b0a7c",
+              "url": "https://prehraj.to/verny-pes-jock-dobrodruzny-rodinny-jihoafricka-republika-1992-cz/55b6bb58b0a7c",
+              "title": "VĚRNÝ-PES-JOCK---dobrodružný,rodinný--Jihoafrická-Republika--(1992)--cz",
+              "year": null,
+              "duration_sec": 6136,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.145,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 6136,
+                "runtime_delta": 0.309,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b55d717cd52",
+              "url": "https://prehraj.to/verny-pes-jock-dobrodruzny-rodinny-jihoafricka-republika-1992-cz/55b55d717cd52",
+              "title": "VĚRNÝ-PES-JOCK---dobrodružný,rodinný--Jihoafrická-Republika--(1992)--cz",
+              "year": null,
+              "duration_sec": 6136,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.145,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 6136,
+                "runtime_delta": 0.309,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "558bd39439019",
+              "url": "https://prehraj.to/verny-pes-jock-dobrodruzny-rodinny-jihoafricka-republika-1992-cz/558bd39439019",
+              "title": "VĚRNÝ-PES-JOCK---dobrodružný,rodinný--Jihoafrická-Republika--(1992)--cz",
+              "year": null,
+              "duration_sec": 6136,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.145,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 6136,
+                "runtime_delta": 0.309,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6055137861e99",
+              "url": "https://prehraj.to/cabras-da-peste-2021-cztitulky/6055137861e99",
+              "title": "Cabras da Peste (2021) CZtitulky",
+              "year": null,
+              "duration_sec": 5901,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6686398182224",
+              "url": "https://prehraj.to/les-rois-de-la-piste-2024-french-1080p-web-h264-fw/6686398182224",
+              "title": "Les.Rois.De.La.Piste.2024.FRENCH.1080p.WEB.H264-FW",
+              "year": null,
+              "duration_sec": 7127,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58f9c0a03f5d5",
+              "url": "https://prehraj.to/bella-a-sebastian-la-piste-du-grand-defile-s01e07/58f9c0a03f5d5",
+              "title": "Bella a Sebastián  La piste du grand défilé  S01E07",
+              "year": null,
+              "duration_sec": 1579,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ae02f8957b8f75ee",
+              "url": "https://prehraj.to/na-ceste-sur-la-route-na-estrada-on-the-road-2012-en-en-tit-de-tit-cz-tit-mkv/ae02f8957b8f75ee",
+              "title": "Na cestě / Sur la route / Na Estrada / On the Road 2012, EN…",
+              "year": null,
+              "duration_sec": 8437,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "581aad616f0c3",
+              "url": "https://prehraj.to/na-ceste-po-pays-de-la-loire-francie-dokument-ct-mh/581aad616f0c3",
+              "title": "Na-ceste-po-Pays-de-la-Loire---Francie---dokument-CT_MH_",
+              "year": null,
+              "duration_sec": 1568,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.823,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aeaf4d4cf3e",
+              "url": "https://prehraj.to/ja-jsem-stesti-tohoto-sveta-ya-scast-e-etogo-mira-yo-soy-la-felicidad-de-este-mundo-2014-esp-ru-ru-tit/68aeaf4d4cf3e",
+              "title": "Já jsem štěstí tohoto světa / Я, счастье этого мира / Yo…",
+              "year": null,
+              "duration_sec": 7339,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.316,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 7339,
+                "runtime_delta": 0.174,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "89860afe64d4e35a",
+              "url": "https://prehraj.to/dva-muzi-ve-meste-deux-hommes-dans-la-ville-two-men-in-town-1973-cz-mkv/89860afe64d4e35a",
+              "title": "Dva muži ve městě / Deux hommes dans la ville / Two Men in…",
+              "year": null,
+              "duration_sec": 5670,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 5670,
+                "runtime_delta": 0.361,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65b81913dbba9",
+              "url": "https://prehraj.to/kdyz-do-deste-se-da-1965-czdab/65b81913dbba9",
+              "title": "Když do deště se dá (1965) CZdab",
+              "year": null,
+              "duration_sec": 5963,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c899c54d7ff5686",
+              "url": "https://prehraj.to/kdyz-do-deste-se-da-1965-cs/1c899c54d7ff5686",
+              "title": "Když do deště se dá - 1965 CS",
+              "year": null,
+              "duration_sec": 5963,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "95127ad76daaf20d",
+              "url": "https://prehraj.to/ticho-ve-sneznem-meste-el-silencio-de-la-ciudad-blanca-twin-murders-the-silence-of-the-white-city-2019-esp-cz-tit-mkv/95127ad76daaf20d",
+              "title": "Ticho ve sněžném městě / El silencio de la ciudad blanca /…",
+              "year": null,
+              "duration_sec": 6614,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.219,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 6614,
+                "runtime_delta": 0.255,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f4d3bda56ede",
+              "url": "https://prehraj.to/kdyz-do-deste-se-da-1965-czdab/5f4d3bda56ede",
+              "title": "Když do deště se dá (1965) CZdab",
+              "year": null,
+              "duration_sec": 5717,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1390472092057223",
+              "url": "https://prehraj.to/kdyz-do-deste-se-da-drama-1965-cz-adriatic-avi/1390472092057223",
+              "title": "Kdyz do deste se da-Drama-1965-CZ-adriatic.avi",
+              "year": null,
+              "duration_sec": 5717,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67429c0233609",
+              "url": "https://prehraj.to/kdyz-do-deste-se-da-drama-1965-cz-adriatic/67429c0233609",
+              "title": "Kdyz do deste se da-Drama-1965-CZ-adriatic",
+              "year": null,
+              "duration_sec": 5717,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "270469a8445cb509",
+              "url": "https://prehraj.to/na-ceste-438-dil-na-ceste-po-emiratskem-ras-al-khaimah/270469a8445cb509",
+              "title": "Na cestě - 438. díl - Na cestě po emirátském Ras Al-Khaimah",
+              "year": null,
+              "duration_sec": 1542,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.826,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2e5212e4ee89c5d7",
+              "url": "https://prehraj.to/na-ceste-487-dil-na-ceste-po-omanskem-pohori-al-hadzar/2e5212e4ee89c5d7",
+              "title": "Na cestě - 487. díl - Na cestě po ománském pohoří Al-Hadžar",
+              "year": null,
+              "duration_sec": 1540,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.827,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9e75ca4fe0206288",
+              "url": "https://prehraj.to/hybanky-133-dil-jeste-ja-se-podivam/9e75ca4fe0206288",
+              "title": "Hýbánky - 133. díl - Ještě já se podívám",
+              "year": null,
+              "duration_sec": 606,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.932,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1887343d34b1ddba",
+              "url": "https://prehraj.to/csi-las-vegas-03-07-tvrda-pest-2002/1887343d34b1ddba",
+              "title": "CSI Las Vegas 03 (07) - Tvrda pest (2002)",
+              "year": null,
+              "duration_sec": 2528,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2f39b4720aaddb2e",
+              "url": "https://prehraj.to/nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken-07-cz-rany-pesti-od-ulovene-rybky/2f39b4720aaddb2e",
+              "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.84,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a1fccad70143f7de",
+              "url": "https://prehraj.to/mezi-nami-19-dil-zhubnout-do-plavek-se-jeste-da-tato-dieta-vam-k-tomu-pomuze/a1fccad70143f7de",
+              "title": "Mezi námi - 19. díl - Zhubnout do plavek se ještě dá. Tato…",
+              "year": null,
+              "duration_sec": 454,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3f30251ff749b43b",
+              "url": "https://prehraj.to/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka-08-cz-mohu-vam-misto-kapesniku-nabidnout-svou-pest/3f30251ff749b43b",
+              "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka -…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.84,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "931d7cef8a68fc9a",
+              "url": "https://prehraj.to/zpravy-z-olympiady-tynka-gudas-za-mikrofonem-03-dil-ja-davam-pesti-do-nosu-tynka-gudasova-vyhrozovala-snowboardistovi-houserovi/931d7cef8a68fc9a",
+              "title": "Zprávy z olympiády - týnka gudas za mikrofonem - 03. díl -…",
+              "year": null,
+              "duration_sec": 241,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.973,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2eebecdeacd30a1d",
+              "url": "https://prehraj.to/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita-03-cz-podezira-me-ze-jsem-jeho-levobocek-a-jeste-ji-doprovazim-na-prvni-dobrodruzstvi/2eebecdeacd30a1d",
+              "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga…",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.838,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "La peste (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4e0abefa6f2c2287",
+              "url": "https://prehraj.to/the-plague-2025-1080p-cz/4e0abefa6f2c2287",
+              "title": "The Plague (2025) 1080p CZ",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "820810c6447d1986",
+              "url": "https://prehraj.to/the-plague-2025-cz-titulky/820810c6447d1986",
+              "title": "The Plague (2025) CZ Titulky",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0d737e2400b2b4ae",
+              "url": "https://prehraj.to/the-plague-1080p/0d737e2400b2b4ae",
+              "title": "The Plague 1080p",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 5895,
+                "runtime_delta": 0.336,
+                "rejection_reason": "title_only"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e287165da653d51e",
+              "url": "https://prehraj.to/the-plague-2025-mp4/e287165da653d51e",
+              "title": "The Plague (2025).mp4",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3030c093b2cf9f86",
+              "url": "https://prehraj.to/the-plague-2025-1080p-webrip-x264-aac5-1-yts-bz/3030c093b2cf9f86",
+              "title": "The.Plague.2025.1080p.WEBRip.x264.AAC5.1-[YTS.BZ]",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4f34877d1a6ebea4",
+              "url": "https://prehraj.to/the-plague-2025-1080p-cz-tit-mp4/4f34877d1a6ebea4",
+              "title": "The.Plague.2025.1080p cz tit .mp4",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "31898347d56b3fcd",
+              "url": "https://prehraj.to/the-plague-2025-sk-titulky-1080p-mkv/31898347d56b3fcd",
+              "title": "The Plague (2025) SK Titulky 1080p.mkv",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "11bfc56230681647",
+              "url": "https://prehraj.to/the-plague-2025-en/11bfc56230681647",
+              "title": "The Plague - 2025 EN",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "705168464b2f5ad6",
+              "url": "https://prehraj.to/the-plague-2025-en/705168464b2f5ad6",
+              "title": "The Plague - 2025 EN",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b6fb829b0f247b1",
+              "url": "https://prehraj.to/the-plague-2025-cz-titulky/5b6fb829b0f247b1",
+              "title": "The Plague (2025) CZ Titulky",
+              "year": null,
+              "duration_sec": 5895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e413df21f01",
+              "url": "https://prehraj.to/the-plague-dogs-1982-cz-titulky/68e413df21f01",
+              "title": "The Plague Dogs (1982) CZ titulky",
+              "year": null,
+              "duration_sec": 6209,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1982,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7addc4f65767b483",
+              "url": "https://prehraj.to/the-plague-dogs-1982-cz/7addc4f65767b483",
+              "title": "The Plague Dogs (1982) CZ",
+              "year": null,
+              "duration_sec": 5952,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1982,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "993a47cfa9259f15",
+              "url": "https://prehraj.to/the-8th-plague-2006-webrip-cz-tit/993a47cfa9259f15",
+              "title": "The 8th Plague (2006) Webrip cz tit",
+              "year": null,
+              "duration_sec": 5287,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58703ecacb1d0",
+              "url": "https://prehraj.to/the-plague-of-the-zombies/58703ecacb1d0",
+              "title": "The-Plague-of-the-Zombies",
+              "year": null,
+              "duration_sec": 5179,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 148,
+                "candidate_runtime_sec": 5179,
+                "runtime_delta": 0.417,
+                "rejection_reason": "title_only"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "689b8d076f277",
+              "url": "https://prehraj.to/plague-of-the-dead-2021-yify-download-movie-torrent-yts/689b8d076f277",
+              "title": "Plague of the Dead 2021 YIFY - Download Movie Torrent - YTS",
+              "year": null,
+              "duration_sec": 6308,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6824d370e1887",
+              "url": "https://prehraj.to/048-plague-of-the-mantis-cz-titulky/6824d370e1887",
+              "title": "048 - Plague of the Mantis (CZ titulky)",
+              "year": null,
+              "duration_sec": 1221,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.863,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f215cfceb264",
+              "url": "https://prehraj.to/a-plague-tale-innocence-gameplay-walkthrough-part-2-the-plague-rats-full-game/5f215cfceb264",
+              "title": "A Plague Tale Innocence - Gameplay Walkthrough Part 2 - The…",
+              "year": null,
+              "duration_sec": 2324,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.738,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f3549a36dfd3",
+              "url": "https://prehraj.to/a-plague-tale-innocence-gameplay-walkthrough-part-2-the-plague-rats-full-game/5f3549a36dfd3",
+              "title": "A Plague Tale Innocence - Gameplay Walkthrough Part 2 - The…",
+              "year": null,
+              "duration_sec": 2324,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.738,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678535eff4165",
+              "url": "https://prehraj.to/dyprax-the-plague-official-preview-mohdigi139/678535eff4165",
+              "title": "Dyprax - The Plague (Official Preview) - [MOHDIGI139]",
+              "year": null,
+              "duration_sec": 209,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.976,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662ebc9aa52cb",
+              "url": "https://prehraj.to/dyprax-the-plague-official-preview-mohdigi139/662ebc9aa52cb",
+              "title": "Dyprax - The Plague (Official Preview) - [MOHDIGI139]",
+              "year": null,
+              "duration_sec": 209,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.976,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e42cf6d5200",
+              "url": "https://prehraj.to/dyprax-the-plague-official-preview-mohdigi139/68e42cf6d5200",
+              "title": "Dyprax - The Plague (Official Preview) - [MOHDIGI139]",
+              "year": null,
+              "duration_sec": 209,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.976,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24c94db913b",
+              "url": "https://prehraj.to/a-plague-tale-innocence-4-the-apprentice-4k-no-commentary/5f24c94db913b",
+              "title": "A Plague Tale - Innocence - #4 - The Apprentice - 4K No…",
+              "year": null,
+              "duration_sec": 2521,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.716,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65dd4c5024d64",
+              "url": "https://prehraj.to/the-plagues-of-breslau-2018-cztitulky/65dd4c5024d64",
+              "title": "The Plagues of Breslau (2018) CZtitulky",
+              "year": null,
+              "duration_sec": 5636,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2018,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2496015725f",
+              "url": "https://prehraj.to/a-plague-tale-innocence-2-the-strangers-4k-no-commentary/5f2496015725f",
+              "title": "A Plague Tale - Innocence - #2 - The Strangers - 4K No…",
+              "year": null,
+              "duration_sec": 1566,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.824,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e5f95af290bd",
+              "url": "https://prehraj.to/the-pirates-of-dark-water-18-the-pandawa-plague/5e5f95af290bd",
+              "title": "The Pirates of Dark Water - 18 - The Pandawa Plague",
+              "year": null,
+              "duration_sec": 1356,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.847,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f249867df22e",
+              "url": "https://prehraj.to/a-plague-tale-innocence-5-the-ravens-spoils-4k-no-commentary/5f249867df22e",
+              "title": "A Plague Tale - Innocence - #5 - The Ravens Spoils - 4K No…",
+              "year": null,
+              "duration_sec": 1951,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.78,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24c8e0eb5db",
+              "url": "https://prehraj.to/a-plague-tale-innocence-10-the-way-of-roses-4k-no-commentary/5f24c8e0eb5db",
+              "title": "A Plague Tale - Innocence - #10 - The Way Of Roses - 4K No…",
+              "year": null,
+              "duration_sec": 2166,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.756,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24b62a03681",
+              "url": "https://prehraj.to/a-plague-tale-innocence-7-the-path-before-us-4k-no-commentary/5f24b62a03681",
+              "title": "A Plague Tale - Innocence - #7 - The Path Before Us - 4K No…",
+              "year": null,
+              "duration_sec": 2657,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.701,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24d5770345e",
+              "url": "https://prehraj.to/a-plague-tale-innocence-1-the-de-rune-legacy-4k-no-commentary/5f24d5770345e",
+              "title": "A Plague Tale - Innocence - #1 - The De Rune Legacy - 4K No…",
+              "year": null,
+              "duration_sec": 2024,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.772,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6524611b5b82d",
+              "url": "https://prehraj.to/the-prague-orgy-2019-1080p-webrip-x264-aac5-1-yts-mx/6524611b5b82d",
+              "title": "The.Prague.Orgy.2019.1080p.WEBRip.x264.AAC5.1-[YTS.MX]",
+              "year": null,
+              "duration_sec": 6416,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2159f895215",
+              "url": "https://prehraj.to/a-plague-tale-innocence-gameplay-walkthrough-part-3-the-apprentice-full-game/5f2159f895215",
+              "title": "A Plague Tale Innocence - Gameplay Walkthrough Part 3 - The…",
+              "year": null,
+              "duration_sec": 2218,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.75,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Plague (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "edf1257631cd80d2",
+              "url": "https://prehraj.to/novinka-the-prague-orgy-2019-1080p/edf1257631cd80d2",
+              "title": "novinka_The.Prague.Orgy.2019+.1080p",
+              "year": null,
+              "duration_sec": 6416,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Plague (1992)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:54:27.610653+00:00"
         }
       ],
       "identity": {
@@ -71405,7 +72582,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:16:24.389195+00:00"
+        "at": "2026-08-28T03:54:22.301700+00:00"
       }
     },
     "23289": {
@@ -75736,7 +76913,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.098605+00:00"
+        "at": "2026-08-28T03:54:22.260913+00:00"
       }
     },
     "865": {
@@ -75767,7 +76944,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.100174+00:00"
+        "at": "2026-08-28T03:54:22.262490+00:00"
       }
     },
     "15145": {
@@ -75991,7 +77168,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.101020+00:00"
+        "at": "2026-08-28T03:54:22.263337+00:00"
       }
     },
     "7489": {
@@ -76094,7 +77271,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.106224+00:00"
+        "at": "2026-08-28T03:54:22.268668+00:00"
       }
     },
     "16865": {
@@ -76224,7 +77401,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.107746+00:00"
+        "at": "2026-08-28T03:54:22.270221+00:00"
       }
     },
     "3641": {
@@ -76304,7 +77481,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.108025+00:00"
+        "at": "2026-08-28T03:54:22.270492+00:00"
       }
     },
     "14745": {
@@ -76618,7 +77795,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.108127+00:00"
+        "at": "2026-08-28T03:54:22.270593+00:00"
       }
     },
     "15577": {
@@ -76878,7 +78055,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.109778+00:00"
+        "at": "2026-08-28T03:54:22.272270+00:00"
       }
     },
     "3665": {
@@ -76912,7 +78089,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.110197+00:00"
+        "at": "2026-08-28T03:54:22.272682+00:00"
       }
     },
     "14649": {
@@ -77051,7 +78228,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.110583+00:00"
+        "at": "2026-08-28T03:54:22.273086+00:00"
       }
     },
     "12041": {
@@ -77082,7 +78259,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.111025+00:00"
+        "at": "2026-08-28T03:54:22.273520+00:00"
       }
     },
     "9865": {
@@ -77128,7 +78305,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.113408+00:00"
+        "at": "2026-08-28T03:54:22.275928+00:00"
       }
     },
     "8177": {
@@ -77223,7 +78400,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.114169+00:00"
+        "at": "2026-08-28T03:54:22.276681+00:00"
       }
     },
     "15537": {
@@ -77989,7 +79166,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.114863+00:00"
+        "at": "2026-08-28T03:54:22.277379+00:00"
       }
     },
     "3601": {
@@ -78056,7 +79233,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.115858+00:00"
+        "at": "2026-08-28T03:54:22.278381+00:00"
       }
     },
     "5497": {
@@ -78231,7 +79408,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.118032+00:00"
+        "at": "2026-08-28T03:54:22.280531+00:00"
       }
     },
     "4425": {
@@ -79105,7 +80282,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.120936+00:00"
+        "at": "2026-08-28T03:54:22.283386+00:00"
       }
     },
     "17393": {
@@ -79435,7 +80612,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.123845+00:00"
+        "at": "2026-08-28T03:54:22.286306+00:00"
       }
     },
     "10625": {
@@ -79682,7 +80859,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.126218+00:00"
+        "at": "2026-08-28T03:54:22.288618+00:00"
       }
     },
     "9689": {
@@ -79728,7 +80905,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:49:09.126592+00:00"
+        "at": "2026-08-28T03:54:22.288998+00:00"
       }
     },
     "5489": {
@@ -79831,7 +81008,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.128650+00:00"
+        "at": "2026-08-28T03:54:22.291058+00:00"
       }
     },
     "1209": {
@@ -79998,7 +81175,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:49:09.129381+00:00"
+        "at": "2026-08-28T03:54:22.291776+00:00"
       }
     },
     "1185": {
@@ -80036,5 +81213,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:54:18.450348+00:00"
+  "updated_at": "2026-08-28T03:54:27.610675+00:00"
 }
