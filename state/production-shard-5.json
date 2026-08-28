@@ -21005,7 +21005,194 @@
         },
         "at": "2026-08-28T07:18:58.505355+00:00"
       }
+    },
+    "27525": {
+      "attempts": [],
+      "identity": {
+        "slug": "superman-batman-apokalypsa",
+        "title": "Superman/Batman: Apokalypsa",
+        "original_title": "Superman/Batman: Apocalypse",
+        "year": 2010,
+        "runtime_min": 79,
+        "tmdb_id": 45162,
+        "imdb_id": "tt1673430",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25165925",
+              "account_name": "Superman/Batman: Veřejní nepřátelé (2009) CZ Dabing",
+              "title_similarity": 0.594,
+              "title_contains_alias": false,
+              "film_year": 2010,
+              "candidate_year": 2009,
+              "year_match": true,
+              "film_runtime_min": 79,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25169386",
+              "account_name": "Zombie Apocalypse (2011) CZ Dabing",
+              "title_similarity": 0.542,
+              "title_contains_alias": false,
+              "film_year": 2010,
+              "candidate_year": 2011,
+              "year_match": true,
+              "film_runtime_min": 79,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-28T07:19:01.184813+00:00"
+      }
+    },
+    "27477": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583dd7889f9b4",
+              "url": "https://prehraj.to/walt-disney-nejkrasnejsi-klasicke-pribehy-3-pohadky-novinky-2010-cz-dabing/583dd7889f9b4",
+              "title": "Walt-Disney---Nejkrásnější-klasické-příběhy-3-(pohadky-novinky-2010-cz-dabing)",
+              "year": null,
+              "duration_sec": 3704,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.255,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2010,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 3704,
+                "runtime_delta": 0.395,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "567785aa42c3d",
+              "url": "https://prehraj.to/walt-disney-sipkova-ruzenka-pohadky-novinky-2010-cz-dabing/567785aa42c3d",
+              "title": "Walt-Disney---Sipkova-Ruzenka--(pohadky-novinky-2010-cz-dabing)",
+              "year": null,
+              "duration_sec": 4341,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.256,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2010,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 4341,
+                "runtime_delta": 0.291,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5678fe84f232f",
+              "url": "https://prehraj.to/walt-disney-sipkova-ruzenka-pohadky-novinky-2010-cz-dabing/5678fe84f232f",
+              "title": "Walt-Disney---Sipkova-Ruzenka--(pohadky-novinky-2010-cz-dabing)",
+              "year": null,
+              "duration_sec": 4341,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.256,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2010,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 4341,
+                "runtime_delta": 0.291,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583dd775273b7",
+              "url": "https://prehraj.to/walt-disney-neni-kral-jako-kral-pohadky-novinky-2010-cz-dabing/583dd775273b7",
+              "title": "Walt-Disney---Není-král-jako-král-(pohadky-novinky-2010-cz-dabing)",
+              "year": null,
+              "duration_sec": 4512,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.279,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2010,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 4512,
+                "runtime_delta": 0.263,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:19:02.387690+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "all-i-ever-wanted-the-airborne-toxic-event-live-from-walt-disney-concert-hall",
+        "title": "All I Ever Wanted: The Airborne Toxic Event Live from Walt Disney Concert Hall",
+        "original_title": null,
+        "year": 2010,
+        "runtime_min": 102,
+        "tmdb_id": 58474,
+        "imdb_id": "tt1641917",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:19:01.184876+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:18:59.657208+00:00"
+  "updated_at": "2026-08-28T07:19:02.387707+00:00"
 }
