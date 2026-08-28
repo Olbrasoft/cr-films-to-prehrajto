@@ -29238,7 +29238,124 @@
         },
         "at": "2026-08-28T06:56:46.552282+00:00"
       }
+    },
+    "24219": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588b3b3565a6b",
+              "url": "https://prehraj.to/az-do-zari-1984-cz-dub/588b3b3565a6b",
+              "title": "Až-do-září-1984.cz.dub",
+              "year": null,
+              "duration_sec": 5505,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.292,
+                "title_contains_alias": false,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 132,
+                "candidate_runtime_sec": 5505,
+                "runtime_delta": 0.305,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c398642cec44d882",
+              "url": "https://prehraj.to/kehlani-g-eazy-good-life-from-the-fate-of-the-furious-the-album-official-music-video-pres-covid-19-a-porad-mp4/c398642cec44d882",
+              "title": "Kehlani & G-Eazy - Good Life (from The Fate of the Furious_…",
+              "year": null,
+              "duration_sec": 231,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.971,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Music of Life (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67806ae1c28b8",
+              "url": "https://prehraj.to/relaxing-music-to-clear-your-mind-and-unwind-your-body-from-the-stress-of-every-day-life-shorts/67806ae1c28b8",
+              "title": "Relaxing Music to Clear Your Mind and Unwind Your Body From…",
+              "year": null,
+              "duration_sec": 15,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.998,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Music of Life (1984)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6616f434b0f13",
+              "url": "https://prehraj.to/the-best-thing-ever-life-is-fun-ft-boyinaband-official-music-video-reaction-charmx/6616f434b0f13",
+              "title": "THE BEST THING EVER! - Life is Fun - Ft. Boyinaband …",
+              "year": null,
+              "duration_sec": 507,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.936,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Music of Life (1984)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:57:00.685830+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "az-elet-muzsikaja-kalman-imre",
+        "title": "Az élet muzsikája - Kálmán Imre",
+        "original_title": "The Music of Life",
+        "year": 1984,
+        "runtime_min": 132,
+        "tmdb_id": 475707,
+        "imdb_id": "tt0174368",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:56:54.339866+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:56:53.043978+00:00"
+  "updated_at": "2026-08-28T06:57:00.685849+00:00"
 }
