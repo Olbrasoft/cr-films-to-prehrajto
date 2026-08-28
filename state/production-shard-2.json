@@ -30941,7 +30941,1295 @@
         },
         "at": "2026-08-28T07:32:41.121493+00:00"
       }
+    },
+    "22794": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c342457b5cc1",
+              "url": "https://prehraj.to/ruzovy-hubert-cz-film-1985-jad/5c342457b5cc1",
+              "title": "Růžový Hubert-cz film-1985-jad",
+              "year": null,
+              "duration_sec": 4062,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.45,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 4062,
+                "runtime_delta": 0.204,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "687939c5d9988",
+              "url": "https://prehraj.to/ein-blinder-held-die-liebe-des-otto-weidt-2014-tit/687939c5d9988",
+              "title": "Ein Blinder Held - Die Liebe des Otto Weidt 2014-tit",
+              "year": null,
+              "duration_sec": 5325,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154c02c647",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-25/5ae154c02c647",
+              "title": "Al Otro Lado Del Muro - Episode 25",
+              "year": null,
+              "duration_sec": 756,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.852,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bc35459",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-20/5ae154bc35459",
+              "title": "Al Otro Lado Del Muro - Episode 20",
+              "year": null,
+              "duration_sec": 871,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.829,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154b234c76",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-08/5ae154b234c76",
+              "title": "Al Otro Lado Del Muro - Episode 08",
+              "year": null,
+              "duration_sec": 576,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.887,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154ac133f9",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-03/5ae154ac133f9",
+              "title": "Al Otro Lado Del Muro - Episode 03",
+              "year": null,
+              "duration_sec": 1159,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.773,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154b32168c",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-09/5ae154b32168c",
+              "title": "Al Otro Lado Del Muro - Episode 09",
+              "year": null,
+              "duration_sec": 733,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.856,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bbb32b7",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-17/5ae154bbb32b7",
+              "title": "Al Otro Lado Del Muro - Episode 17",
+              "year": null,
+              "duration_sec": 683,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.866,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154b5b0174",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-13/5ae154b5b0174",
+              "title": "Al Otro Lado Del Muro - Episode 13",
+              "year": null,
+              "duration_sec": 684,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.866,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154b182f46",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-06/5ae154b182f46",
+              "title": "Al Otro Lado Del Muro - Episode 06",
+              "year": null,
+              "duration_sec": 767,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.85,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154b192abe",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-07/5ae154b192abe",
+              "title": "Al Otro Lado Del Muro - Episode 07",
+              "year": null,
+              "duration_sec": 865,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.83,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bbb2f4c",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-19/5ae154bbb2f4c",
+              "title": "Al Otro Lado Del Muro - Episode 19",
+              "year": null,
+              "duration_sec": 624,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.878,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bb5c285",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-15/5ae154bb5c285",
+              "title": "Al Otro Lado Del Muro - Episode 15",
+              "year": null,
+              "duration_sec": 657,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.871,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154dd36945",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-31/5ae154dd36945",
+              "title": "Al Otro Lado Del Muro - Episode 31",
+              "year": null,
+              "duration_sec": 654,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.872,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154be207f5",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-23/5ae154be207f5",
+              "title": "Al Otro Lado Del Muro - Episode 23",
+              "year": null,
+              "duration_sec": 665,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.87,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bcbf64a",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-21/5ae154bcbf64a",
+              "title": "Al Otro Lado Del Muro - Episode 21",
+              "year": null,
+              "duration_sec": 687,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.865,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bf3fe32",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-24/5ae154bf3fe32",
+              "title": "Al Otro Lado Del Muro - Episode 24",
+              "year": null,
+              "duration_sec": 831,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.837,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154d433907",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-28/5ae154d433907",
+              "title": "Al Otro Lado Del Muro - Episode 28",
+              "year": null,
+              "duration_sec": 723,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.858,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bbb2d15",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-18/5ae154bbb2d15",
+              "title": "Al Otro Lado Del Muro - Episode 18",
+              "year": null,
+              "duration_sec": 491,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.904,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154bbb6a14",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-16/5ae154bbb6a14",
+              "title": "Al Otro Lado Del Muro - Episode 16",
+              "year": null,
+              "duration_sec": 665,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.87,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154a29f8ce",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-01/5ae154a29f8ce",
+              "title": "Al Otro Lado Del Muro - Episode 01",
+              "year": null,
+              "duration_sec": 1303,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.745,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154a5ad896",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-02/5ae154a5ad896",
+              "title": "Al Otro Lado Del Muro - Episode 02",
+              "year": null,
+              "duration_sec": 1438,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.718,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154b3a2c85",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-10/5ae154b3a2c85",
+              "title": "Al Otro Lado Del Muro - Episode 10",
+              "year": null,
+              "duration_sec": 839,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.835,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154b402959",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-12/5ae154b402959",
+              "title": "Al Otro Lado Del Muro - Episode 12",
+              "year": null,
+              "duration_sec": 658,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.871,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154e064c1f",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-32/5ae154e064c1f",
+              "title": "Al Otro Lado Del Muro - Episode 32",
+              "year": null,
+              "duration_sec": 680,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.867,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154d836a7a",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-30/5ae154d836a7a",
+              "title": "Al Otro Lado Del Muro - Episode 30",
+              "year": null,
+              "duration_sec": 786,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.846,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154e125d42",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-33/5ae154e125d42",
+              "title": "Al Otro Lado Del Muro - Episode 33",
+              "year": null,
+              "duration_sec": 602,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.882,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154d432cd2",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-28-2/5ae154d432cd2",
+              "title": "Al Otro Lado Del Muro - Episode 28_2",
+              "year": null,
+              "duration_sec": 1302,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.745,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154be16a3f",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-22/5ae154be16a3f",
+              "title": "Al Otro Lado Del Muro - Episode 22",
+              "year": null,
+              "duration_sec": 618,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.879,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154c619931",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-26/5ae154c619931",
+              "title": "Al Otro Lado Del Muro - Episode 26",
+              "year": null,
+              "duration_sec": 738,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.855,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154c60f859",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-27/5ae154c60f859",
+              "title": "Al Otro Lado Del Muro - Episode 27",
+              "year": null,
+              "duration_sec": 789,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.845,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154af86396",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-05/5ae154af86396",
+              "title": "Al Otro Lado Del Muro - Episode 05",
+              "year": null,
+              "duration_sec": 574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.887,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae154ac65588",
+              "url": "https://prehraj.to/al-otro-lado-del-muro-episode-04/5ae154ac65588",
+              "title": "Al Otro Lado Del Muro - Episode 04",
+              "year": null,
+              "duration_sec": 617,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.879,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - Der Film (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9ac642bff3d0791d",
+              "url": "https://prehraj.to/osm-hor-le-otto-montagne-the-eight-mountains-2022-ita-cz-tit-mkv/9ac642bff3d0791d",
+              "title": "Osm hor / Le otto montagne / The Eight Mountains 2022, ITA …",
+              "year": null,
+              "duration_sec": 8821,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4e5d3ca97bc78502",
+              "url": "https://prehraj.to/osm-hor-le-otto-montagne-the-eight-mountains-2022-ita-cz-tit-mkv/4e5d3ca97bc78502",
+              "title": "Osm hor / Le otto montagne / The Eight Mountains 2022, ITA …",
+              "year": null,
+              "duration_sec": 8821,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "94e06557d7849b5f",
+              "url": "https://prehraj.to/osm-hor-le-otto-montagne-the-eight-mountains-2022-ita-cz-tit-mkv/94e06557d7849b5f",
+              "title": "Osm hor / Le otto montagne / The Eight Mountains 2022, ITA …",
+              "year": null,
+              "duration_sec": 8821,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64aa7611c0bee",
+              "url": "https://prehraj.to/the-motto/64aa7611c0bee",
+              "title": "The Motto",
+              "year": null,
+              "duration_sec": 211,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.959,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "07312333aebd6459",
+              "url": "https://prehraj.to/the-lotto-winner-2026/07312333aebd6459",
+              "title": "The Lotto Winner (2026)",
+              "year": null,
+              "duration_sec": 7208,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60121d71120d7",
+              "url": "https://prehraj.to/toto-40-tours-around-the-sun-2019-1080p-mbluray-x264-mblurayfans/60121d71120d7",
+              "title": "toto-40-tours-around-the-sun-2019-1080p-mbluray-x264…",
+              "year": null,
+              "duration_sec": 8478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "677a774303598",
+              "url": "https://prehraj.to/toto-hold-the-line-official-video/677a774303598",
+              "title": "Toto - Hold The Line (Official Video)",
+              "year": null,
+              "duration_sec": 238,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678a76cef2eb4",
+              "url": "https://prehraj.to/toto-hold-the-line-on-iphone-garageband/678a76cef2eb4",
+              "title": "Toto - Hold The Line on iPhone (GarageBand)",
+              "year": null,
+              "duration_sec": 382,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.925,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "87e76f038b52922a",
+              "url": "https://prehraj.to/druhy-komplic-el-otro-hermano-the-lost-brother-2017-esp-en-tit-cz-tit-mkv/87e76f038b52922a",
+              "title": "Druhý komplic / El otro hermano / The Lost Brother 2017,…",
+              "year": null,
+              "duration_sec": 6778,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "683451e025327",
+              "url": "https://prehraj.to/tiesto-ava-max-the-motto-official-music-video-1080p/683451e025327",
+              "title": "Tiësto & Ava Max - The Motto (Official Music Video) (1080p)",
+              "year": null,
+              "duration_sec": 211,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.959,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6507433c028ed",
+              "url": "https://prehraj.to/anime-time-one-piece-0679-dashing-onto-the-scene-the-chief-of-staff-of-the-revolutionary-army-sabo/6507433c028ed",
+              "title": "[Anime Time] One Piece - 0679 - Dashing onto the Scene! The…",
+              "year": null,
+              "duration_sec": 1432,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.719,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "275ee402659c918a",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e2-ja/275ee402659c918a",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e6a6d147b56a993e",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e5-ja/e6a6d147b56a993e",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a780f62a9471b826",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e7-ja/a780f62a9471b826",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "473d635f9a70ecb1",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e3-ja/473d635f9a70ecb1",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4e570460e918d739",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e10-ja/4e570460e918d739",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c2fb74dd41714d0",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e8-ja/1c2fb74dd41714d0",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1419,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f0c73991f11d9fb9",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e9-ja/f0c73991f11d9fb9",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1419,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4a10ce0ce5a60bc7",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e11-ja/4a10ce0ce5a60bc7",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0782c262a24f3412",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e1-ja/0782c262a24f3412",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f7ffb8c861724c3a",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e4-ja/f7ffb8c861724c3a",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dcf1b5e53d290f82",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e12-ja/dcf1b5e53d290f82",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "72b9ebb1ae35627f",
+              "url": "https://prehraj.to/sirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-no-de-hijoko-na-ototo-sodatemasu-s1e6-ja/72b9ebb1ae35627f",
+              "title": "Širobuta kizoku desu ga zense no kioku ga haeta no de…",
+              "year": null,
+              "duration_sec": 1419,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c6fa61b32ebdd7b",
+              "url": "https://prehraj.to/22omae-gotoki-ga-mao-ni-kateru-to-omou-na-22-to-jusa-party-o-cuiho-sareta-node-oto-de-kimama-ni-kurasitai-s1e4-ja/5c6fa61b32ebdd7b",
+              "title": "%22Omae gotoki ga maó ni kateru to omou na%22 to júša party…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d6090e278b5a49ea",
+              "url": "https://prehraj.to/22omae-gotoki-ga-mao-ni-kateru-to-omou-na-22-to-jusa-party-o-cuiho-sareta-node-oto-de-kimama-ni-kurasitai-s1e3-ja/d6090e278b5a49ea",
+              "title": "%22Omae gotoki ga maó ni kateru to omou na%22 to júša party…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e6c9912f0f1c1331",
+              "url": "https://prehraj.to/22omae-gotoki-ga-mao-ni-kateru-to-omou-na-22-to-jusa-party-o-cuiho-sareta-node-oto-de-kimama-ni-kurasitai-s1e1-ja/e6c9912f0f1c1331",
+              "title": "%22Omae gotoki ga maó ni kateru to omou na%22 to júša party…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0841458ff5ff7fe7",
+              "url": "https://prehraj.to/22omae-gotoki-ga-mao-ni-kateru-to-omou-na-22-to-jusa-party-o-cuiho-sareta-node-oto-de-kimama-ni-kurasitai-s1e2-ja/0841458ff5ff7fe7",
+              "title": "%22Omae gotoki ga maó ni kateru to omou na%22 to júša party…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e8480b5bcef4",
+              "url": "https://prehraj.to/zakazana-laska-the-ottoman-lieutenant-2017-1080p-sk-vykonavatel/5e8480b5bcef4",
+              "title": "Zakazana.laska-The.Ottoman.Lieutenant(2017).1080p.SK…",
+              "year": null,
+              "duration_sec": 6635,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aa302fcd63380e63",
+              "url": "https://prehraj.to/the-magnificent-sultan-of-ottoman-empire-1950-s-super-panavision-70/aa302fcd63380e63",
+              "title": "The Magnificent Sultan of Ottoman Empire - 1950's Super…",
+              "year": null,
+              "duration_sec": 60,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 1950,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59eba63baf40b",
+              "url": "https://prehraj.to/the-ottoman-lieutenant-2017-cz-titulky-vlozene/59eba63baf40b",
+              "title": "The Ottoman Lieutenant (2017) CZ Titulky Vložené",
+              "year": null,
+              "duration_sec": 6635,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c18b10cb0079",
+              "url": "https://prehraj.to/the-ottoman-lieutenant-2017-cz-titulky-vlozene/5c18b10cb0079",
+              "title": "The Ottoman Lieutenant (2017) CZ Titulky Vložené",
+              "year": null,
+              "duration_sec": 6636,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e792d4c6f44f",
+              "url": "https://prehraj.to/the-ottoman-lieutenant-valecny-romanticky-2017-480p-xvid-sk-52-sten-ok/5e792d4c6f44f",
+              "title": "The Ottoman Lieutenant válečný romantický 2017.480p.XviD.SK…",
+              "year": null,
+              "duration_sec": 6636,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Otto - The Movie (1985)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:32:55.620187+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "otto-der-film",
+        "title": "Otto - Der Film",
+        "original_title": "Otto - The Movie",
+        "year": 1985,
+        "runtime_min": 85,
+        "tmdb_id": 9657,
+        "imdb_id": "tt0089753",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:32:48.740338+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:32:47.328582+00:00"
+  "updated_at": "2026-08-28T07:32:55.620207+00:00"
 }
