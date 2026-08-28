@@ -32532,7 +32532,94 @@
         },
         "at": "2026-08-28T07:13:42.524666+00:00"
       }
+    },
+    "21822": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588b62191d0f7",
+              "url": "https://prehraj.to/jerry-cotton-07-1968-smrt-v-cervenem-jaguaru/588b62191d0f7",
+              "title": "Jerry-Cotton-07-1968---Smrt-v-cervenem-jaguaru",
+              "year": null,
+              "duration_sec": 5209,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.268,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 5209,
+                "runtime_delta": 0.123,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5855e8a7b9a73",
+              "url": "https://prehraj.to/jerry-cotton-06-1968-dynamit-v-zelenem/5855e8a7b9a73",
+              "title": "Jerry-Cotton-06-1968---Dynamit-v-zelenem",
+              "year": null,
+              "duration_sec": 5080,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.184,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 5080,
+                "runtime_delta": 0.145,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:13:50.843708+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "don-t-raise-the-bridge-lower-the-river",
+        "title": "Don't Raise the Bridge, Lower the River",
+        "original_title": null,
+        "year": 1968,
+        "runtime_min": 99,
+        "tmdb_id": 74596,
+        "imdb_id": "tt0061591",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:13:49.501431+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:13:47.851177+00:00"
+  "updated_at": "2026-08-28T07:13:50.843728+00:00"
 }
