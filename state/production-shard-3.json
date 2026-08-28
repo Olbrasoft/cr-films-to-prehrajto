@@ -31518,7 +31518,199 @@
         },
         "at": "2026-08-28T06:59:21.470131+00:00"
       }
+    },
+    "21955": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5855238cd7f54",
+              "url": "https://prehraj.to/1969-dotek-zenu-cz/5855238cd7f54",
+              "title": "1969---Dotek-Zenu-cz",
+              "year": null,
+              "duration_sec": 6018,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.462,
+                "title_contains_alias": false,
+                "film_year": 1969,
+                "candidate_year": 1969,
+                "year_match": true,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 6018,
+                "runtime_delta": 0.063,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "687d6934d2ef2",
+              "url": "https://prehraj.to/bartosova-ivana-dotek-lasky-1989/687d6934d2ef2",
+              "title": "Bartosova Ivana - Dotek lasky (1989)",
+              "year": null,
+              "duration_sec": 173,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 1989,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dotek lásky (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6244e9d0bac28",
+              "url": "https://prehraj.to/ten-zazracny-dotek-lasky-1988/6244e9d0bac28",
+              "title": "Ten zázračný dotek lásky 1988",
+              "year": null,
+              "duration_sec": 3457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dotek lásky (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6fdfc52866aecd7c",
+              "url": "https://prehraj.to/ten-zazracny-dotek-lasky-1988-czdab/6fdfc52866aecd7c",
+              "title": "Ten zázračný dotek lásky (1988) CZdab",
+              "year": null,
+              "duration_sec": 3453,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dotek lásky (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c8a62111778da992",
+              "url": "https://prehraj.to/laska-na-druhy-dotek-1997-usa-komedie-romanticky/c8a62111778da992",
+              "title": "Laska  na druhy dotek-1997,USA-komedie,romanticky",
+              "year": null,
+              "duration_sec": 5712,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 1997,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dotek lásky (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ba60f85f60c415cb",
+              "url": "https://prehraj.to/laska-na-druhy-dotek/ba60f85f60c415cb",
+              "title": "Laska na druhy dotek",
+              "year": null,
+              "duration_sec": 5626,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.343,
+                "title_contains_alias": false,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 5626,
+                "runtime_delta": 0.124,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Dotek lásky (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59a757c8b1d7a",
+              "url": "https://prehraj.to/a-touch-of-frost-403-the-things-we-do-for-love/59a757c8b1d7a",
+              "title": "A_Touch_of_Frost_403__The_things_we_do_for_love",
+              "year": null,
+              "duration_sec": 6100,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.492,
+                "title_contains_alias": false,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 6100,
+                "runtime_delta": 0.05,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A Touch of Love (1969)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:59:27.133344+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dotek-lasky",
+        "title": "Dotek lásky",
+        "original_title": "A Touch of Love",
+        "year": 1969,
+        "runtime_min": 107,
+        "tmdb_id": 118883,
+        "imdb_id": "tt0065085",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:59:25.694525+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:59:24.268235+00:00"
+  "updated_at": "2026-08-28T06:59:27.133365+00:00"
 }
