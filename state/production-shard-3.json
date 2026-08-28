@@ -28413,7 +28413,172 @@
         },
         "at": "2026-08-28T06:56:01.921360+00:00"
       }
+    },
+    "24755": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "66a277889fb00",
+              "url": "https://prehraj.to/x-men-2000-fullhd-czdabing/66a277889fb00",
+              "title": "X-Men 2000 (FullHD, CZdabing)",
+              "year": null,
+              "duration_sec": 6260,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.742,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad51d2162638",
+              "url": "https://prehraj.to/x-men-2000/5ad51d2162638",
+              "title": "X-Men (2000)",
+              "year": null,
+              "duration_sec": 6260,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.742,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "674e1354280bf",
+              "url": "https://prehraj.to/x-men-2000-cz-dab/674e1354280bf",
+              "title": "X-Men 2000 CZ dab",
+              "year": null,
+              "duration_sec": 6260,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.742,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68c4db21cecef",
+              "url": "https://prehraj.to/x-men-the-new-mutants-novi-mutanti-2020-novinka-horor-sci-fi-akcni-cz-titulky-v-obr-https-ulozto-cz-partner1174444/68c4db21cecef",
+              "title": "X-Men_ The New Mutants - (Noví mutanti)-(2020)-NOVINKA…",
+              "year": null,
+              "duration_sec": 5644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2000,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "X-Men: The Mutant Watch (2000)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d4f0018c824",
+              "url": "https://prehraj.to/spider-man-02-04-mutantni-zakladna-neogenic-nightmare-chapter-4-the-mutant-agenda/65d4f0018c824",
+              "title": "Spider-Man 02×04 - Mutantní základna (Neogenic Nightmare…",
+              "year": null,
+              "duration_sec": 1159,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1159,
+                "runtime_delta": 0.122,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "X-Men: The Mutant Watch (2000)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "667f5f112503f",
+              "url": "https://prehraj.to/spider-man-02-04-mutantni-zakladna-neogenic-nightmare-chapter-4-the-mutant-agenda-768x576/667f5f112503f",
+              "title": "Spider-Man 02×04 - Mutantní základna (Neogenic Nightmare…",
+              "year": null,
+              "duration_sec": 1159,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 22,
+                "candidate_runtime_sec": 1159,
+                "runtime_delta": 0.122,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "X-Men: The Mutant Watch (2000)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:56:06.469567+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "x-men-the-mutant-watch",
+        "title": "X-Men: The Mutant Watch",
+        "original_title": null,
+        "year": 2000,
+        "runtime_min": 22,
+        "tmdb_id": 447399,
+        "imdb_id": "tt0285761",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:56:05.740685+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:56:04.397774+00:00"
+  "updated_at": "2026-08-28T06:56:06.469587+00:00"
 }
