@@ -3,6 +3,7 @@ from __future__ import annotations
 import subprocess
 import time
 from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
@@ -92,6 +93,7 @@ def verify_pending_uploads(
     attempts: int = 1,
     delay_seconds: float = 0,
     subtitle_lookup: Callable[[str, str], bool] | None = None,
+    workers: int = 1,
 ) -> dict[str, int]:
     states = [StateStore(path) for path in state_paths if path.exists()]
     for attempt_number in range(attempts):
@@ -106,10 +108,23 @@ def verify_pending_uploads(
                     pending.append((state, film_id, row, upload))
         if not pending:
             break
-        for state, film_id, row, upload in pending:
-            status, video = lookup(
+
+        def lookup_pending(item):
+            upload = item[3]
+            return lookup(
                 upload.get("display_name", ""), str(upload["target_video_id"])
             )
+
+        if workers > 1:
+            with ThreadPoolExecutor(max_workers=workers) as executor:
+                results = list(executor.map(lookup_pending, pending))
+        else:
+            results = [lookup_pending(item) for item in pending]
+
+        dirty_states: set[StateStore] = set()
+        for (state, film_id, row, upload), (status, video) in zip(
+            pending, results, strict=True
+        ):
             if status == "active":
                 upload["processing_status"] = "active"
                 upload["verified_at"] = now_iso()
@@ -125,7 +140,7 @@ def verify_pending_uploads(
                     )
                 ):
                     upload["subtitle_verification"] = "verified"
-                state.save(notify=False)
+                dirty_states.add(state)
             elif status == "deleted":
                 failed = row.pop("upload")
                 state.record_attempt(
@@ -140,6 +155,8 @@ def verify_pending_uploads(
                         "discovery_exhausted": False,
                     },
                 )
+        for state in dirty_states:
+            state.save(notify=False)
         if attempt_number + 1 < attempts:
             remaining = any(
                 (row.get("upload") or {}).get("processing_status") == "pending"

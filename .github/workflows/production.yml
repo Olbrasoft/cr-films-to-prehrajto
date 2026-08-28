@@ -246,8 +246,9 @@ jobs:
           --state state/production-shard-5.json
           --state state/production-shard-6.json
           --state state/production-shard-7.json
-          --attempts 10
-          --delay-seconds 30
+          --attempts 1
+          --delay-seconds 0
+          --workers 8
 
       - name: Consolidate shard state and backlog
         id: backlog

@@ -1,5 +1,7 @@
 import json
 import subprocess
+import threading
+import time
 from dataclasses import replace
 from pathlib import Path
 
@@ -95,6 +97,43 @@ def test_deleted_production_upload_returns_to_retryable_state(tmp_path):
     assert "upload" not in film
     assert film["attempts"][-1]["permanent"] is True
     assert film["attempts"][-1]["source_id"] == "source-1"
+
+
+def test_pending_verification_can_run_lookups_concurrently(tmp_path):
+    path = tmp_path / "state.json"
+    payload = {
+        "schema_version": 1,
+        "snapshot": {"id": "snapshot-1"},
+        "films": {},
+    }
+    for film_id in range(8):
+        payload["films"][str(film_id)] = {
+            "attempts": [],
+            "upload": {
+                "target_video_id": str(100 + film_id),
+                "display_name": f"Film {film_id}",
+                "processing_status": "pending",
+            },
+        }
+    path.write_text(json.dumps(payload))
+    lock = threading.Lock()
+    active = 0
+    maximum_active = 0
+
+    def lookup(_name, video_id):
+        nonlocal active, maximum_active
+        with lock:
+            active += 1
+            maximum_active = max(maximum_active, active)
+        time.sleep(0.01)
+        with lock:
+            active -= 1
+        return "active", AccountVideo(video_id, "Film")
+
+    counts = verify_pending_uploads([path], lookup, workers=4)
+
+    assert maximum_active == 4
+    assert counts == {"active": 8, "pending": 0, "failed": 0}
 
 
 def test_git_state_pusher_commits_and_pushes_only_its_state(tmp_path):

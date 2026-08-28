@@ -278,6 +278,7 @@ def run_production_verification(args) -> int:
         ),
         attempts=args.attempts,
         delay_seconds=args.delay_seconds,
+        workers=max(args.workers, 1),
         subtitle_lookup=lambda name, video_id: verify_czech_subtitle(
             authenticated, video_id, name, attempts=1
         ),
@@ -335,6 +336,7 @@ def build_parser() -> argparse.ArgumentParser:
     verify.add_argument("--state", action="append", type=Path, required=True)
     verify.add_argument("--attempts", type=int, default=10)
     verify.add_argument("--delay-seconds", type=float, default=30)
+    verify.add_argument("--workers", type=int, default=1)
     return parser
 
 
