@@ -29912,7 +29912,643 @@
         },
         "at": "2026-08-28T02:50:16.612433+00:00"
       }
+    },
+    "21900": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588ff01ecd0e0",
+              "url": "https://prehraj.to/cest-a-slava-1968-lq/588ff01ecd0e0",
+              "title": "Čest-a-sláva-1968-LQ",
+              "year": null,
+              "duration_sec": 5059,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5059,
+                "runtime_delta": 0.073,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b1561c37af2f599b",
+              "url": "https://prehraj.to/the-split-s1e4-episode-4-en/b1561c37af2f599b",
+              "title": "The Split - S1E4 Episode 4 EN",
+              "year": null,
+              "duration_sec": 3436,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b0e0cfb6cecf1419",
+              "url": "https://prehraj.to/the-split-s4e1-epizoda-1-en/b0e0cfb6cecf1419",
+              "title": "The Split - S4E1 Epizoda 1 EN",
+              "year": null,
+              "duration_sec": 3496,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "578c3f009ff149c9",
+              "url": "https://prehraj.to/the-split-s3e4-episode-4-en/578c3f009ff149c9",
+              "title": "The Split - S3E4 Episode 4 EN",
+              "year": null,
+              "duration_sec": 3469,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "985260dba118bf5f",
+              "url": "https://prehraj.to/the-split-s3e2-episode-2-en/985260dba118bf5f",
+              "title": "The Split - S3E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 3475,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8d974f2d48a37fd8",
+              "url": "https://prehraj.to/the-split-s3e5-episode-5-en/8d974f2d48a37fd8",
+              "title": "The Split - S3E5 Episode 5 EN",
+              "year": null,
+              "duration_sec": 3497,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "70fd87468cfbf9e1",
+              "url": "https://prehraj.to/the-split-s2e5-episode-5-en/70fd87468cfbf9e1",
+              "title": "The Split - S2E5 Episode 5 EN",
+              "year": null,
+              "duration_sec": 3444,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d497a8b57f6609ad",
+              "url": "https://prehraj.to/the-split-s2e3-episode-3-en/d497a8b57f6609ad",
+              "title": "The Split - S2E3 Episode 3 EN",
+              "year": null,
+              "duration_sec": 3457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "80ad76d6798e3188",
+              "url": "https://prehraj.to/the-split-s2e1-episode-1-en/80ad76d6798e3188",
+              "title": "The Split - S2E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 3465,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "554892ab01d455f7",
+              "url": "https://prehraj.to/the-split-s4e2-en/554892ab01d455f7",
+              "title": "The Split - S4E2 EN",
+              "year": null,
+              "duration_sec": 3528,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e0dd7fa2cf18e7ce",
+              "url": "https://prehraj.to/the-split-s2e6-episode-6-en/e0dd7fa2cf18e7ce",
+              "title": "The Split - S2E6 Episode 6 EN",
+              "year": null,
+              "duration_sec": 3463,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "81008b5eb6a5e609",
+              "url": "https://prehraj.to/the-split-s2e6-episode-6-en/81008b5eb6a5e609",
+              "title": "The Split - S2E6 Episode 6 EN",
+              "year": null,
+              "duration_sec": 3463,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7ddf3b57baae95c4",
+              "url": "https://prehraj.to/the-split-s1e6-episode-6-en/7ddf3b57baae95c4",
+              "title": "The Split - S1E6 Episode 6 EN",
+              "year": null,
+              "duration_sec": 3517,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d748029645c72584",
+              "url": "https://prehraj.to/the-split-s2e1-episode-1-en/d748029645c72584",
+              "title": "The Split - S2E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 3465,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "850232be8a7ae6f7",
+              "url": "https://prehraj.to/the-split-s1e3-episode-3-en/850232be8a7ae6f7",
+              "title": "The Split - S1E3 Episode 3 EN",
+              "year": null,
+              "duration_sec": 3418,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "91cf39c9e70a6301",
+              "url": "https://prehraj.to/the-split-s2e2-episode-2-en/91cf39c9e70a6301",
+              "title": "The Split - S2E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 3446,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8f3e285391261b6c",
+              "url": "https://prehraj.to/the-split-s2e5-episode-5-en/8f3e285391261b6c",
+              "title": "The Split - S2E5 Episode 5 EN",
+              "year": null,
+              "duration_sec": 3443,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "078b31078405298e",
+              "url": "https://prehraj.to/the-split-s1e5-episode-5-en/078b31078405298e",
+              "title": "The Split - S1E5 Episode 5 EN",
+              "year": null,
+              "duration_sec": 3425,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1f8e2fac412cc362",
+              "url": "https://prehraj.to/the-split-s1e2-episode-2-en/1f8e2fac412cc362",
+              "title": "The Split - S1E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 3453,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2d458968d8cf4f23",
+              "url": "https://prehraj.to/the-split-s1e3-episode-3-en/2d458968d8cf4f23",
+              "title": "The Split - S1E3 Episode 3 EN",
+              "year": null,
+              "duration_sec": 3418,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "29ec753c1b940d21",
+              "url": "https://prehraj.to/the-split-s3e1-episode-1-en/29ec753c1b940d21",
+              "title": "The Split - S3E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 3537,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7f3e15f052a05fa6",
+              "url": "https://prehraj.to/the-split-s3e2-episode-2-en/7f3e15f052a05fa6",
+              "title": "The Split - S3E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 3475,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "05018f627940887e",
+              "url": "https://prehraj.to/the-split-s3e3-episode-3-en/05018f627940887e",
+              "title": "The Split - S3E3 Episode 3 EN",
+              "year": null,
+              "duration_sec": 3477,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e8e24eccf1c4c0b6",
+              "url": "https://prehraj.to/the-split-s3e5-episode-5-en/e8e24eccf1c4c0b6",
+              "title": "The Split - S3E5 Episode 5 EN",
+              "year": null,
+              "duration_sec": 3497,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65e7cdb713196",
+              "url": "https://prehraj.to/the-split-s02e06-cztitulky/65e7cdb713196",
+              "title": "The Split S02E06 CZtitulky",
+              "year": null,
+              "duration_sec": 3466,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e5beb89147c65571",
+              "url": "https://prehraj.to/the-split-s3e6-episode-6-en/e5beb89147c65571",
+              "title": "The Split - S3E6 Episode 6 EN",
+              "year": null,
+              "duration_sec": 3440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3ba9f963c957d499",
+              "url": "https://prehraj.to/the-split-s1e1-episode-1-en/3ba9f963c957d499",
+              "title": "The Split - S1E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 3493,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7d8a93dec1b2c4c8",
+              "url": "https://prehraj.to/the-split-s3e1-episode-1-en/7d8a93dec1b2c4c8",
+              "title": "The Split - S3E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 3537,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "44efc863723ec9c9",
+              "url": "https://prehraj.to/the-split-s3e3-episode-3-en/44efc863723ec9c9",
+              "title": "The Split - S3E3 Episode 3 EN",
+              "year": null,
+              "duration_sec": 3477,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d79cb579a7e7df5c",
+              "url": "https://prehraj.to/the-split-s1e5-episode-5-en/d79cb579a7e7df5c",
+              "title": "The Split - S1E5 Episode 5 EN",
+              "year": null,
+              "duration_sec": 3425,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0b277054fec278c1",
+              "url": "https://prehraj.to/the-split-s4e2-epizoda-2-en/0b277054fec278c1",
+              "title": "The Split - S4E2 Epizoda 2 EN",
+              "year": null,
+              "duration_sec": 3528,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c329b30bd8834271",
+              "url": "https://prehraj.to/the-split-s3e6-episode-6-en/c329b30bd8834271",
+              "title": "The Split - S3E6 Episode 6 EN",
+              "year": null,
+              "duration_sec": 3440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0a6698daf9c26c3a",
+              "url": "https://prehraj.to/the-split-s1e2-episode-2-en/0a6698daf9c26c3a",
+              "title": "The Split - S1E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 3453,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Split (1968)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:50:34.441216+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-split",
+        "title": "The Split",
+        "original_title": null,
+        "year": 1968,
+        "runtime_min": 91,
+        "tmdb_id": 31937,
+        "imdb_id": "tt0063636",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:50:33.188547+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:50:29.751711+00:00"
+  "updated_at": "2026-08-28T02:50:34.441237+00:00"
 }
