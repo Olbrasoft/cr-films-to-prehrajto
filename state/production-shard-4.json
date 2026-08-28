@@ -19415,7 +19415,120 @@
         },
         "at": "2026-08-28T02:42:12.577401+00:00"
       }
+    },
+    "27100": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60b01e24a0c66",
+              "url": "https://prehraj.to/byl-jednou-jeden-kral-pohadka-1954-cz/60b01e24a0c66",
+              "title": "Byl jednou jeden král-(pohadka)-(1954)--cz",
+              "year": null,
+              "duration_sec": 5841,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.245,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "28330f323497ca2d",
+              "url": "https://prehraj.to/pohadka-o-drakovi-1972-cs/28330f323497ca2d",
+              "title": "Pohádka o drakovi - 1972 CS",
+              "year": null,
+              "duration_sec": 3922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1954,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Pohádka o drakovi (1954)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61c3c9ed93de6",
+              "url": "https://prehraj.to/pohadka-o-drakovi-1972-czdab/61c3c9ed93de6",
+              "title": "Pohádka o drakovi (1972) CZdab",
+              "year": null,
+              "duration_sec": 3926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1954,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Pohádka o drakovi (1954)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f6bc027fac2ed878",
+              "url": "https://prehraj.to/pohadka-o-drakovi-1972-czdab/f6bc027fac2ed878",
+              "title": "Pohádka o drakovi (1972) CZdab",
+              "year": null,
+              "duration_sec": 3926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1954,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Pohádka o drakovi (1954)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:42:15.906891+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "pohadka-o-drakovi",
+        "title": "Pohádka o drakovi",
+        "original_title": null,
+        "year": 1954,
+        "runtime_min": 30,
+        "tmdb_id": 625374,
+        "imdb_id": "tt1410045",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:42:14.952754+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:42:13.718471+00:00"
+  "updated_at": "2026-08-28T02:42:15.906913+00:00"
 }
