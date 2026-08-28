@@ -18838,7 +18838,67 @@
         },
         "at": "2026-08-28T06:47:45.395717+00:00"
       }
+    },
+    "27726": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "22fad7c56b716708",
+              "url": "https://prehraj.to/paranormal-activity-4-2012-blu-ray/22fad7c56b716708",
+              "title": "Paranormal Activity 4 (2012) [Blu-Ray]",
+              "year": null,
+              "duration_sec": 5801,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.338,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5801,
+                "runtime_delta": 0.074,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:47:50.421284+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ray-harryhausen-special-effects-titan",
+        "title": "Ray Harryhausen: Special Effects Titan",
+        "original_title": null,
+        "year": 2012,
+        "runtime_min": 90,
+        "tmdb_id": 146490,
+        "imdb_id": "tt1839590",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:47:49.013059+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:47:47.646256+00:00"
+  "updated_at": "2026-08-28T06:47:50.421305+00:00"
 }
