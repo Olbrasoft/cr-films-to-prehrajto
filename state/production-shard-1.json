@@ -56261,6 +56261,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:04:20.130032+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "614f0c1984509",
+              "url": "https://prehraj.to/2019-2018-robin-hood-akcni-dobrodruzny-cz-dabing-kubi/614f0c1984509",
+              "title": "2019--2018--Robin Hood--akční,dobrodružný--CZ DABING--kubi",
+              "year": null,
+              "duration_sec": 6968,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.429,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6968,
+                "runtime_delta": 0.29,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:46:02.452228+00:00"
         }
       ],
       "identity": {
@@ -56279,7 +56317,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:04:19.616175+00:00"
+        "at": "2026-08-28T03:46:01.056210+00:00"
       }
     },
     "26305": {
@@ -77297,5 +77335,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:45:59.402701+00:00"
+  "updated_at": "2026-08-28T03:46:02.452249+00:00"
 }
