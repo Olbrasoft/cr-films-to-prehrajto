@@ -28877,7 +28877,767 @@
         },
         "at": "2026-08-28T07:40:04.911253+00:00"
       }
+    },
+    "22749": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6260f83426429",
+              "url": "https://prehraj.to/ran-1985-duadub-jap-cz-remastered-kurosawa/6260f83426429",
+              "title": "Ran (1985) DuaDub (JAP-CZ) REMASTERED [Kurosawa]",
+              "year": null,
+              "duration_sec": 9640,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.142,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1d59d8d1e1519388",
+              "url": "https://prehraj.to/mach-a-sebestova-k-tabuli-1985-avi/1d59d8d1e1519388",
+              "title": "Mach-a-Šebestová-k-tabuli!-(1985).avi",
+              "year": null,
+              "duration_sec": 4131,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.162,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4131,
+                "runtime_delta": 0.082,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "25ec799d5d1bcd18",
+              "url": "https://prehraj.to/mach-a-sebestova-k-tabuli-1985-cz-dabing/25ec799d5d1bcd18",
+              "title": "Mach a Šebestová k tabuli! (1985) CZ Dabing",
+              "year": null,
+              "duration_sec": 4131,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.182,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4131,
+                "runtime_delta": 0.082,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60a3b956b6785",
+              "url": "https://prehraj.to/vlak-detstvi-a-nadeje-1985-serial-6-ze-6-navrat-domu-cz-cesky-telefilm/60a3b956b6785",
+              "title": "Vlak dětství a naděje (1985) seriál 6 ze 6 - Návrat domů,…",
+              "year": null,
+              "duration_sec": 3579,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.073,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 3579,
+                "runtime_delta": 0.205,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1b44a81f9bebcb92",
+              "url": "https://prehraj.to/c-a-k/1b44a81f9bebcb92",
+              "title": "C. a k",
+              "year": null,
+              "duration_sec": 5273,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.75,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 5273,
+                "runtime_delta": 0.172,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd3d97b946021a24",
+              "url": "https://prehraj.to/c-a-k/dd3d97b946021a24",
+              "title": "C. a k",
+              "year": null,
+              "duration_sec": 5273,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.75,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 5273,
+                "runtime_delta": 0.172,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ceb4119ed99755f9",
+              "url": "https://prehraj.to/c-a-k/ceb4119ed99755f9",
+              "title": "C. a k",
+              "year": null,
+              "duration_sec": 5274,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.75,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 5274,
+                "runtime_delta": 0.172,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60a3aa2522d92",
+              "url": "https://prehraj.to/vlak-detstvi-a-nadeje-1985-serial-2-ze-6-maly-muz-a-velka-zena-cz-cesky-telefilm/60a3aa2522d92",
+              "title": "Vlak dětství a naděje (1985) seriál 2 ze 6 - Malý muž a…",
+              "year": null,
+              "duration_sec": 3582,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.074,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 3582,
+                "runtime_delta": 0.204,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60a3b521d1397",
+              "url": "https://prehraj.to/vlak-detstvi-a-nadeje-1985-serial-4-ze-6-valka-si-nevybira-cz-cesky-telefilm/60a3b521d1397",
+              "title": "Vlak dětství a naděje (1985) seriál 4 ze 6 - Válka si…",
+              "year": null,
+              "duration_sec": 3595,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.115,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 3595,
+                "runtime_delta": 0.201,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60a3a7a752250",
+              "url": "https://prehraj.to/vlak-detstvi-a-nadeje-1985-serial-1-ze-6-snehurcina-smrt-cz-cesky-telefilm/60a3a7a752250",
+              "title": "Vlak dětství a naděje (1985) seriál 1 ze 6 - Sněhurčina…",
+              "year": null,
+              "duration_sec": 3577,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.074,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 3577,
+                "runtime_delta": 0.205,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60a3ad429557f",
+              "url": "https://prehraj.to/vlak-detstvi-a-nadeje-1985-serial-3-ze-6-trapeni-kocoura-zolyho-cz-cesky-telefilm/60a3ad429557f",
+              "title": "Vlak dětství a naděje (1985) seriál 3 ze 6 - Trápení…",
+              "year": null,
+              "duration_sec": 3572,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.078,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 3572,
+                "runtime_delta": 0.206,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c1baf318bd4abbf4",
+              "url": "https://prehraj.to/sasek-a-kralovna-1985-cz-dabing-1080p-fhd/c1baf318bd4abbf4",
+              "title": "Šašek a královna 1985 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 6166,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.214,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 6166,
+                "runtime_delta": 0.37,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d77ba7a375858aee",
+              "url": "https://prehraj.to/sasek-a-kralovna-1985-cs/d77ba7a375858aee",
+              "title": "Šašek a královna - 1985 CS",
+              "year": null,
+              "duration_sec": 6166,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 6166,
+                "runtime_delta": 0.37,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b4d48cb4956",
+              "url": "https://prehraj.to/maso-a-krev-1985-cz-en-1080p/68b4d48cb4956",
+              "title": "Maso a krev (1985, CZ+EN, 1080p)",
+              "year": null,
+              "duration_sec": 7333,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.63,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "317b1d974b73b955",
+              "url": "https://prehraj.to/maso-a-krev-1985-cs/317b1d974b73b955",
+              "title": "Maso a krev - 1985 CS",
+              "year": null,
+              "duration_sec": 7354,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.634,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62d73b466e3f4",
+              "url": "https://prehraj.to/zavis-a-kunhuta-1985-czdab/62d73b466e3f4",
+              "title": "Záviš a Kunhuta (1985) CZdab",
+              "year": null,
+              "duration_sec": 3784,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.207,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 3784,
+                "runtime_delta": 0.159,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "633de7c5c8b37",
+              "url": "https://prehraj.to/maso-a-krev-1985-skdab/633de7c5c8b37",
+              "title": "Maso a krev (1985) SKdab",
+              "year": null,
+              "duration_sec": 7366,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.637,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9eb45926e4c",
+              "url": "https://prehraj.to/maso-a-krev-1985/5a9eb45926e4c",
+              "title": "Maso a krev (1985)",
+              "year": null,
+              "duration_sec": 7354,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.634,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b8062e28e72",
+              "url": "https://prehraj.to/karrier-a-pentagonban-1985-vhsrip-xvid-hunnarr/55b8062e28e72",
+              "title": "Karrier-a-Pentagonban-(1985).VHSRiP.XviD-HUNNARR",
+              "year": null,
+              "duration_sec": 4904,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.082,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4904,
+                "runtime_delta": 0.09,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bb1cbaf822b3",
+              "url": "https://prehraj.to/maso-a-krev-1985-cz-dabing/5bb1cbaf822b3",
+              "title": "Maso a Krev (1985) CZ Dabing",
+              "year": null,
+              "duration_sec": 7671,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.705,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cb26297628db92d2",
+              "url": "https://prehraj.to/sasek-a-kralovna-1985-cz-dabing/cb26297628db92d2",
+              "title": "Šašek a královna (1985) CZ Dabing",
+              "year": null,
+              "duration_sec": 6719,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 6719,
+                "runtime_delta": 0.493,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68c9340b71ec4",
+              "url": "https://prehraj.to/maso-a-krev-1985-cz-dabing/68c9340b71ec4",
+              "title": "Maso a Krev (1985) CZ Dabing",
+              "year": null,
+              "duration_sec": 7670,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.704,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6900fe1e5b75e",
+              "url": "https://prehraj.to/maso-a-krev-1985-cz/6900fe1e5b75e",
+              "title": "Maso a krev (1985) cz",
+              "year": null,
+              "duration_sec": 7354,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.634,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd05f84ccfd090a4",
+              "url": "https://prehraj.to/maso-a-krev-1985-cs/dd05f84ccfd090a4",
+              "title": "Maso a krev - 1985 CS",
+              "year": null,
+              "duration_sec": 7356,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.635,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac36dfd19683",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s01e11-knez/5ac36dfd19683",
+              "title": "Život a doba soudce A. K. - S01E11 - Kněz",
+              "year": null,
+              "duration_sec": 3311,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60061c0f90aaf",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s01e02-czdab/60061c0f90aaf",
+              "title": "Život a doba soudce A. K. - S01E02 CZdab",
+              "year": null,
+              "duration_sec": 3362,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6700a548638fd",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-02x13-konec-hry/6700a548638fd",
+              "title": "Život a doba soudce a.k. - 02x13 - Konec hry",
+              "year": null,
+              "duration_sec": 3329,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8defb8304cf",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s02e11-postaveni-mimo-hru/5a8defb8304cf",
+              "title": "Život a doba soudce A. K. - S02E11 - Postavení mimo hru",
+              "year": null,
+              "duration_sec": 3365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e094241c9e2",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s01e01-osamelost/68e094241c9e2",
+              "title": "Život a doba soudce A. K. S01E01 Osamělost",
+              "year": null,
+              "duration_sec": 3327,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a658b862851fe627",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s01e03-1080p-cz/a658b862851fe627",
+              "title": "Život a doba soudce A K S01E03 1080p CZ",
+              "year": null,
+              "duration_sec": 3366,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fcbff2737899233a",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s01e08-1080p-cz/fcbff2737899233a",
+              "title": "Život a doba soudce A K S01E08 1080p CZ",
+              "year": null,
+              "duration_sec": 3364,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab8dcc3d9bcf",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s01e07-valka-pokracuje/5ab8dcc3d9bcf",
+              "title": "Život a doba soudce A. K. - S01E07 - Válka pokračuje",
+              "year": null,
+              "duration_sec": 3345,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab4014146cdc",
+              "url": "https://prehraj.to/zivot-a-doba-soudce-a-k-s02e02-plan/5ab4014146cdc",
+              "title": "Život a doba soudce A. K. - S02E02 - Plán",
+              "year": null,
+              "duration_sec": 3332,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "A. K. (1985)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:40:11.031926+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "a-k",
+        "title": "A. K.",
+        "original_title": null,
+        "year": 1985,
+        "runtime_min": 75,
+        "tmdb_id": 396485,
+        "imdb_id": "tt0088658",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:40:08.047599+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:40:06.586983+00:00"
+  "updated_at": "2026-08-28T07:40:11.031946+00:00"
 }
