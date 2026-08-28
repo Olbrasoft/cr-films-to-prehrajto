@@ -32229,7 +32229,166 @@
         },
         "at": "2026-08-28T07:32:48.740338+00:00"
       }
+    },
+    "22466": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5859d9e67a929",
+              "url": "https://prehraj.to/sibiriada-01-02-1979-sk/5859d9e67a929",
+              "title": "Sibiriáda-_-Сибириада-01-02-1979,-SK",
+              "year": null,
+              "duration_sec": 11953,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.483,
+                "title_contains_alias": false,
+                "film_year": 1979,
+                "candidate_year": 1979,
+                "year_match": true,
+                "film_runtime_min": 275,
+                "candidate_runtime_sec": 11953,
+                "runtime_delta": 0.276,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3d091cfaa01aac89",
+              "url": "https://prehraj.to/polska-sibiriada-syberiada-polska-the-polish-siberiade-2013-pl-cz-tit-mkv/3d091cfaa01aac89",
+              "title": "Polská sibiriáda / Syberiada polska / The Polish Siberiade…",
+              "year": null,
+              "duration_sec": 7648,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.536,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Siberiade (1979)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d2c947968831337d",
+              "url": "https://prehraj.to/polska-sibiriada-syberiada-polska-2013-cz-tit/d2c947968831337d",
+              "title": "Polská sibiriáda (Syberiada polska) 2013-cz tit",
+              "year": null,
+              "duration_sec": 7648,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1979,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Siberiade (1979)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "677ab78e5f050",
+              "url": "https://prehraj.to/polska-sibiriada-syberiada-polska-2013-cz-tit/677ab78e5f050",
+              "title": "Polská sibiriáda (Syberiada polska) 2013-cz tit",
+              "year": null,
+              "duration_sec": 7648,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1979,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Siberiade (1979)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bdde84c6104",
+              "url": "https://prehraj.to/p-f-valecny-polska-sibiriada-syberiada-polska-2013-cz-tit/67bdde84c6104",
+              "title": "P.F. Valecny-Polská sibiriáda (Syberiada polska) 2013-cz tit",
+              "year": null,
+              "duration_sec": 7648,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1979,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Siberiade (1979)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd3481c92ae955a4",
+              "url": "https://prehraj.to/p-f-valecny-polska-sibiriada-syberiada-polska-2013-cz-tit/dd3481c92ae955a4",
+              "title": "P.F. Valecny-Polská sibiriáda (Syberiada polska) 2013-cz tit",
+              "year": null,
+              "duration_sec": 7648,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1979,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Siberiade (1979)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:32:59.497391+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "siberiade",
+        "title": "Siberiade",
+        "original_title": "Siberiade",
+        "year": 1979,
+        "runtime_min": 275,
+        "tmdb_id": 68553,
+        "imdb_id": "tt0079907",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:32:57.072224+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:32:55.620207+00:00"
+  "updated_at": "2026-08-28T07:32:59.497411+00:00"
 }
