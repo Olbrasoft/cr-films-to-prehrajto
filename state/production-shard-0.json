@@ -12143,6 +12143,739 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:21:45.744664+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "601521dff1607",
+              "url": "https://prehraj.to/zly-casy-v-el-royale-2018-1080p-10bit-bluray-6ch-cz-x265-hevc-bb/601521dff1607",
+              "title": "Zly.casy.v.El.Royale.2018.1080p.10bit.BluRay.6CH.CZ.x265.HEVC-BB",
+              "year": null,
+              "duration_sec": 8498,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.556,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e37ccd1b9",
+              "url": "https://prehraj.to/the-ultimate-cheese-burger-jamie-s-comfort-food-jamie-oliver-dj-bbq/5ae0e37ccd1b9",
+              "title": "The Ultimate Cheese Burger - Jamie’s Comfort Food - Jamie…",
+              "year": null,
+              "duration_sec": 190,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.965,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e37cda083",
+              "url": "https://prehraj.to/the-ultimate-cheese-burger-jamie-s-comfort-food-jamie-oliver-dj-bbq/5ae0e37cda083",
+              "title": "The Ultimate Cheese Burger - Jamie’s Comfort Food - Jamie…",
+              "year": null,
+              "duration_sec": 190,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.965,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6112991bcad1b",
+              "url": "https://prehraj.to/bbc-the-riots-2011-one-week-in-august-1080p-hdtv-x265-aac-mvgroup-org/6112991bcad1b",
+              "title": "BBC.The.Riots.2011.One.Week.in.August.1080p.HDTV.x265.AAC…",
+              "year": null,
+              "duration_sec": 5340,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6858436389fb0",
+              "url": "https://prehraj.to/masterclass-aaron-franklin-texas-style-bbq-16-how-brisket-became-king-the-history-of-central-texas-barbecue/6858436389fb0",
+              "title": "MasterClass - Aaron Franklin - Texas-Style BBQ 16. How…",
+              "year": null,
+              "duration_sec": 454,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.917,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61925922dc9b0",
+              "url": "https://prehraj.to/abba-at-the-bbc-2021-1080p-hdtv-h264-darkflix/61925922dc9b0",
+              "title": "ABBA.at.the.BBC.2021.1080p.HDTV.H264-DARKFLiX",
+              "year": null,
+              "duration_sec": 3536,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8fb3dc89edd",
+              "url": "https://prehraj.to/bbc-the-victorian-pharmacy-episode-1/5a8fb3dc89edd",
+              "title": "BBC The Victorian Pharmacy Episode 1",
+              "year": null,
+              "duration_sec": 3554,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3554,
+                "runtime_delta": 0.349,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8fb4a57767a",
+              "url": "https://prehraj.to/bbc-the-victorian-pharmacy-episode-4/5a8fb4a57767a",
+              "title": "BBC The Victorian Pharmacy Episode 4",
+              "year": null,
+              "duration_sec": 3535,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3535,
+                "runtime_delta": 0.353,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ff379ee2332a",
+              "url": "https://prehraj.to/bbc-extinction-the-facts-1080p-hdtv-x265-aac-mvgroup-org/5ff379ee2332a",
+              "title": "BBC.Extinction.The.Facts.1080p.HDTV.x265.AAC.MVGroup.org",
+              "year": null,
+              "duration_sec": 3481,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.154,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3481,
+                "runtime_delta": 0.362,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8fb45183b49",
+              "url": "https://prehraj.to/bbc-the-victorian-pharmacy-episode-2/5a8fb45183b49",
+              "title": "BBC The Victorian Pharmacy Episode 2",
+              "year": null,
+              "duration_sec": 3538,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3538,
+                "runtime_delta": 0.352,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8fb48fad2cf",
+              "url": "https://prehraj.to/bbc-the-victorian-pharmacy-episode-3/5a8fb48fad2cf",
+              "title": "BBC The Victorian Pharmacy Episode 3",
+              "year": null,
+              "duration_sec": 3545,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3545,
+                "runtime_delta": 0.351,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6159b32468438",
+              "url": "https://prehraj.to/the-spice-girls-at-the-bbc-2021-1080p-hdtv-h264-darkflix/6159b32468438",
+              "title": "The.Spice.Girls.at.the.BBC.2021.1080p.HDTV.H264-DARKFLiX",
+              "year": null,
+              "duration_sec": 3567,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "614867fa523d0",
+              "url": "https://prehraj.to/bbc-the-sky-at-night-2021-exploring-jupiter-1080p-hdtv-x264-aac-mvgroup-org/614867fa523d0",
+              "title": "BBC.The.Sky.at.Night.2021.Exploring.Jupiter.1080p.HDTV.x264…",
+              "year": null,
+              "duration_sec": 1731,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65ed5d3fe2ed5",
+              "url": "https://prehraj.to/celine-dion-at-the-bbc-2022/65ed5d3fe2ed5",
+              "title": "Celine Dion at the BBC (2022)",
+              "year": null,
+              "duration_sec": 3554,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "615c429606d18",
+              "url": "https://prehraj.to/bbc-we-want-the-light-720p-hdtv-x264-aac-mvgroup-org/615c429606d18",
+              "title": "BBC.We.Want.the.Light.720p.HDTV.x264.AAC.MVGroup.org",
+              "year": null,
+              "duration_sec": 5178,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.163,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5178,
+                "runtime_delta": 0.052,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6099814d03829",
+              "url": "https://prehraj.to/bbc-the-sky-at-night-2021-mapping-the-milky-way-1080p-hdtv-x264-aac-mvgroup-org/6099814d03829",
+              "title": "BBC.The.Sky.at.Night.2021.Mapping.the.Milky.Way.1080p.HDTV…",
+              "year": null,
+              "duration_sec": 1750,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59ea1ff92e9c0",
+              "url": "https://prehraj.to/bbc-state-of-the-planet-ep02-why-is-there-a-crisis-int-dvdrip-xvid-cz-saricon/59ea1ff92e9c0",
+              "title": "BBC.State.Of.the.Planet.EP02.Why.Is.There.a.Crisis.iNT…",
+              "year": null,
+              "duration_sec": 2741,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.131,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 2741,
+                "runtime_delta": 0.498,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e3665eb10",
+              "url": "https://prehraj.to/the-hunt-trailer-bbc-one/5ae0e3665eb10",
+              "title": "The Hunt- Trailer - BBC One",
+              "year": null,
+              "duration_sec": 60,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.989,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0d6733d764",
+              "url": "https://prehraj.to/bbc-bang-goes-the-theory-road-show-bbc-one/5ae0d6733d764",
+              "title": "BBC Bang Goes The Theory Road Show - BBC One",
+              "year": null,
+              "duration_sec": 77,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.986,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6860faee6d539",
+              "url": "https://prehraj.to/whitney-houston-at-the-bbc-hdtv-h264-1080i-dd2-0-ilya2129/6860faee6d539",
+              "title": "Whitney Houston at the BBC HDTV H264 1080i DD2.0-ilya2129",
+              "year": null,
+              "duration_sec": 1782,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.674,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60998160c16ba",
+              "url": "https://prehraj.to/bbc-the-sky-at-night-2021-mapping-the-milky-way-1440p-hdtv-x265-aac-mvgroup-org/60998160c16ba",
+              "title": "BBC.The.Sky.at.Night.2021.Mapping.the.Milky.Way.1440p.HDTV…",
+              "year": null,
+              "duration_sec": 1750,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6099818b62161",
+              "url": "https://prehraj.to/bbc-the-sky-at-night-2021-mars-and-meteorites-1440p-hdtv-x265-aac-mvgroup-org/6099818b62161",
+              "title": "BBC.The.Sky.at.Night.2021.Mars.and.Meteorites.1440p.HDTV…",
+              "year": null,
+              "duration_sec": 1740,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6099817a6c6fb",
+              "url": "https://prehraj.to/bbc-the-sky-at-night-2021-mars-and-meteorites-1080p-hdtv-x264-aac-mvgroup-org/6099817a6c6fb",
+              "title": "BBC.The.Sky.at.Night.2021.Mars.and.Meteorites.1080p.HDTV…",
+              "year": null,
+              "duration_sec": 1740,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6148682ba7fe7",
+              "url": "https://prehraj.to/bbc-the-sky-at-night-2021-question-time-720p-hdtv-x264-aac-mvgroup-org/6148682ba7fe7",
+              "title": "BBC.The.Sky.at.Night.2021.Question.Time.720p.HDTV.x264.AAC…",
+              "year": null,
+              "duration_sec": 3525,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59ea202d6c16d",
+              "url": "https://prehraj.to/bbc-state-of-the-planet-ep03-the-future-of-life-int-dvdrip-xvid-sk-saricon/59ea202d6c16d",
+              "title": "BBC.State.Of.the.Planet.EP03.The.Future.of.Life.iNT.DVDRip…",
+              "year": null,
+              "duration_sec": 2789,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.138,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 2789,
+                "runtime_delta": 0.489,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59ea1fe595052",
+              "url": "https://prehraj.to/bbc-state-of-the-planet-ep01-is-there-a-crisis-int-dvdrip-xvid-sk-saricon/59ea1fe595052",
+              "title": "BBC.State.Of.the.Planet.EP01.Is.There.a.Crisis.iNT.DVDRip…",
+              "year": null,
+              "duration_sec": 2807,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.14,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 2807,
+                "runtime_delta": 0.486,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61185443d7ec3",
+              "url": "https://prehraj.to/bbc-the-kennedy-who-changed-the-world-1080p-hdtv-x265-aac-mvgroup-org/61185443d7ec3",
+              "title": "BBC.The.Kennedy.Who.Changed.the.World.1080p.HDTV.x265.AAC…",
+              "year": null,
+              "duration_sec": 3551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.151,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3551,
+                "runtime_delta": 0.35,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ddf50cd15d9",
+              "url": "https://prehraj.to/bbc-the-secret-life-of-midges-1080p-hdtv-x265-aac-mvgroup-org/60ddf50cd15d9",
+              "title": "BBC.The.Secret.Life.of.Midges.1080p.HDTV.x265.AAC.MVGroup…",
+              "year": null,
+              "duration_sec": 3548,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.151,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3548,
+                "runtime_delta": 0.35,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e1c45bbf2",
+              "url": "https://prehraj.to/identifying-the-murderer-eyewitness-bbc-two/5ae0e1c45bbf2",
+              "title": "Identifying the Murderer - Eyewitness - BBC Two",
+              "year": null,
+              "duration_sec": 96,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.982,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6f73c7b8c64",
+              "url": "https://prehraj.to/battle-for-the-amazon-bbc-part-2-3/5a6f73c7b8c64",
+              "title": "BATTLE FOR THE ΑΜΑΖΟΝ-BBC-part 2_3",
+              "year": null,
+              "duration_sec": 601,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.89,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6f73c38a4e2",
+              "url": "https://prehraj.to/battle-for-the-amazon-bbc-part-1-3/5a6f73c38a4e2",
+              "title": "BATTLE FOR THE AMAZON-BBC-part 1_3",
+              "year": null,
+              "duration_sec": 587,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.892,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67ded25b74808",
+              "url": "https://prehraj.to/bbc-fungi-the-web-of-life-1080p-hdtv-x265-aac-mvgroup-org/67ded25b74808",
+              "title": "BBC.Fungi.The.Web.of.Life.1080p.HDTV.x265.AAC.MVGroup.org",
+              "year": null,
+              "duration_sec": 2220,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.593,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The BBQ (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5adfcf83efb71",
+              "url": "https://prehraj.to/the-truth-about-sugar-full-bbc-documentary/5adfcf83efb71",
+              "title": "The Truth About Sugar - Full BBC Documentary",
+              "year": null,
+              "duration_sec": 3446,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.245,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3446,
+                "runtime_delta": 0.369,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The BBQ (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:06:53.310664+00:00"
         }
       ],
       "identity": {
@@ -12161,7 +12894,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:21:45.235292+00:00"
+        "at": "2026-08-28T11:06:50.231390+00:00"
       }
     },
     "29540": {
@@ -33019,7 +33752,7 @@
             }
           ]
         },
-        "at": "2026-08-28T11:03:05.963492+00:00"
+        "at": "2026-08-28T11:06:50.201176+00:00"
       }
     },
     "27562": {
@@ -33092,7 +33825,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.963661+00:00"
+        "at": "2026-08-28T11:06:50.201366+00:00"
       }
     },
     "27546": {
@@ -33390,7 +34123,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.960723+00:00"
+        "at": "2026-08-28T11:06:50.198454+00:00"
       }
     },
     "27116": {
@@ -34046,7 +34779,7 @@
             }
           ]
         },
-        "at": "2026-08-28T11:03:05.962192+00:00"
+        "at": "2026-08-28T11:06:50.199898+00:00"
       }
     },
     "26538": {
@@ -40742,7 +41475,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.963752+00:00"
+        "at": "2026-08-28T11:06:50.201460+00:00"
       }
     },
     "27040": {
@@ -43097,7 +43830,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.964463+00:00"
+        "at": "2026-08-28T11:06:50.202146+00:00"
       }
     },
     "26252": {
@@ -49836,7 +50569,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.965073+00:00"
+        "at": "2026-08-28T11:06:50.202814+00:00"
       }
     },
     "14976": {
@@ -49954,7 +50687,7 @@
             }
           ]
         },
-        "at": "2026-08-28T11:03:05.973098+00:00"
+        "at": "2026-08-28T11:06:50.210918+00:00"
       }
     },
     "664": {
@@ -50214,7 +50947,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.974590+00:00"
+        "at": "2026-08-28T11:06:50.212423+00:00"
       }
     },
     "2160": {
@@ -51795,7 +52528,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.974975+00:00"
+        "at": "2026-08-28T11:06:50.212812+00:00"
       }
     },
     "14024": {
@@ -51934,7 +52667,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.975279+00:00"
+        "at": "2026-08-28T11:06:50.213101+00:00"
       }
     },
     "9464": {
@@ -52387,7 +53120,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.975821+00:00"
+        "at": "2026-08-28T11:06:50.213659+00:00"
       }
     },
     "5800": {
@@ -52595,7 +53328,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.981992+00:00"
+        "at": "2026-08-28T11:06:50.219815+00:00"
       }
     },
     "4480": {
@@ -52626,7 +53359,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.982872+00:00"
+        "at": "2026-08-28T11:06:50.220682+00:00"
       }
     },
     "8584": {
@@ -52744,7 +53477,7 @@
             }
           ]
         },
-        "at": "2026-08-28T11:03:05.984817+00:00"
+        "at": "2026-08-28T11:06:50.222597+00:00"
       }
     },
     "14008": {
@@ -53027,7 +53760,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.985675+00:00"
+        "at": "2026-08-28T11:06:50.223456+00:00"
       }
     },
     "17560": {
@@ -53092,7 +53825,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.985884+00:00"
+        "at": "2026-08-28T11:06:50.223666+00:00"
       }
     },
     "10304": {
@@ -53375,7 +54108,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.988005+00:00"
+        "at": "2026-08-28T11:06:50.225748+00:00"
       }
     },
     "15024": {
@@ -53635,7 +54368,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.988692+00:00"
+        "at": "2026-08-28T11:06:50.226424+00:00"
       }
     },
     "16720": {
@@ -53702,7 +54435,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.988880+00:00"
+        "at": "2026-08-28T11:06:50.226611+00:00"
       }
     },
     "2248": {
@@ -54000,7 +54733,7 @@
             }
           ]
         },
-        "at": "2026-08-28T11:03:05.989172+00:00"
+        "at": "2026-08-28T11:06:50.226904+00:00"
       }
     },
     "14096": {
@@ -54473,7 +55206,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.989427+00:00"
+        "at": "2026-08-28T11:06:50.227134+00:00"
       }
     },
     "4056": {
@@ -54540,7 +55273,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T11:03:05.990532+00:00"
+        "at": "2026-08-28T11:06:50.228233+00:00"
       }
     },
     "17152": {
@@ -55022,7 +55755,7 @@
             }
           ]
         },
-        "at": "2026-08-28T11:03:05.992368+00:00"
+        "at": "2026-08-28T11:06:50.229974+00:00"
       }
     },
     "2960": {
@@ -57412,7 +58145,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T07:17:23.616109+00:00"
+        "at": "2026-08-28T11:06:50.230570+00:00"
       }
     },
     "6440": {
@@ -57600,7 +58333,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T07:17:23.616846+00:00"
+        "at": "2026-08-28T11:06:50.231306+00:00"
       }
     },
     "1400": {
@@ -57748,5 +58481,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:06:46.429549+00:00"
+  "updated_at": "2026-08-28T11:06:53.310682+00:00"
 }
