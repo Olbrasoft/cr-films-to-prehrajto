@@ -20014,7 +20014,67 @@
         },
         "at": "2026-08-28T07:18:26.577545+00:00"
       }
+    },
+    "27949": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5668de27b2c62",
+              "url": "https://prehraj.to/tajna-projekt-2011-novinky-cz-dabing/5668de27b2c62",
+              "title": "TajnĂ˝-projekt-2011---Novinky-CZ-Dabing",
+              "year": null,
+              "duration_sec": 4865,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.28,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4865,
+                "runtime_delta": 0.111,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:18:39.443768+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lotte-ja-kuukivi-saladus",
+        "title": "Lotte ja kuukivi saladus",
+        "original_title": "Lotte and the Moonstone Secret",
+        "year": 2011,
+        "runtime_min": 73,
+        "tmdb_id": 103672,
+        "imdb_id": "tt2080337",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:18:37.805245+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:18:30.339888+00:00"
+  "updated_at": "2026-08-28T07:18:39.443786+00:00"
 }
