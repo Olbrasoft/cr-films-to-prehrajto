@@ -22388,6 +22388,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:24:27.348852+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "764167e5df5dc4e1",
+              "url": "https://prehraj.to/hamlet-2025-cz-dabing-1080p-mkv/764167e5df5dc4e1",
+              "title": "Hamlet (2025) CZ Dabing 1080p.mkv",
+              "year": null,
+              "duration_sec": 6775,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.462,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 6775,
+                "runtime_delta": 0.269,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:07:41.198706+00:00"
         }
       ],
       "identity": {
@@ -22406,7 +22444,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:24:10.310310+00:00"
+        "at": "2026-08-28T11:07:38.648598+00:00"
       }
     },
     "28976": {
@@ -60976,5 +61014,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:07:36.179300+00:00"
+  "updated_at": "2026-08-28T11:07:41.198724+00:00"
 }
