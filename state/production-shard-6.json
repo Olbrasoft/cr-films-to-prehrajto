@@ -14752,7 +14752,94 @@
         },
         "at": "2026-08-28T06:42:25.774770+00:00"
       }
+    },
+    "29374": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5800bb0073995",
+              "url": "https://prehraj.to/rebirth-cz-tit-v-obraze-thriller-2016/5800bb0073995",
+              "title": "Rebirth-cz-tit.v-obraze.thriller-2016",
+              "year": null,
+              "duration_sec": 6015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 6015,
+                "runtime_delta": 0.045,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5790ee7971bf3",
+              "url": "https://prehraj.to/rebirth-2016/5790ee7971bf3",
+              "title": "Rebirth 2016",
+              "year": null,
+              "duration_sec": 6033,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.28,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 6033,
+                "runtime_delta": 0.042,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:42:42.049336+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "persona3-the-movie-4-winter-of-rebirth",
+        "title": "PERSONA3 THE MOVIE —#4 Winter of Rebirth—",
+        "original_title": "Persona 3 the Movie: #4 Winter of Rebirth",
+        "year": 2016,
+        "runtime_min": 105,
+        "tmdb_id": 372761,
+        "imdb_id": "tt5463052",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:42:29.591378+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:42:27.987867+00:00"
+  "updated_at": "2026-08-28T06:42:42.049357+00:00"
 }
