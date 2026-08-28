@@ -32568,7 +32568,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:50:48.590392+00:00"
+        "at": "2026-08-28T11:09:05.401349+00:00"
       }
     },
     "28306": {
@@ -33194,6 +33194,37 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:50:53.500885+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67d8241460bbf",
+              "url": "https://prehraj.to/vesele-velikonoce-1984-1080p-10bit-bluray-2ch-cz-hevc-bb/67d8241460bbf",
+              "title": "Vesele.Velikonoce.1984.1080p.10bit.BluRay.2CH.CZ.HEVC-BB",
+              "year": null,
+              "duration_sec": 5897,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.787,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:09:06.271058+00:00"
         }
       ],
       "identity": {
@@ -33212,7 +33243,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:50:53.145598+00:00"
+        "at": "2026-08-28T11:09:05.401398+00:00"
       }
     },
     "28240": {
@@ -63763,5 +63794,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:09:03.895327+00:00"
+  "updated_at": "2026-08-28T11:09:06.271073+00:00"
 }
