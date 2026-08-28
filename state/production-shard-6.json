@@ -1193,7 +1193,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:17:38.434934+00:00",
-        "verified_at": "2026-08-28T14:54:35.482183+00:00",
+        "verified_at": "2026-08-28T19:49:01.549496+00:00",
         "live_display_name": "Buena Vista Social Club: Adios (2017) CZ titulky"
       }
     },
@@ -33411,8 +33411,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:07:36.783835+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:07:36.783835+00:00",
+        "verified_at": "2026-08-28T19:49:13.551263+00:00",
+        "live_display_name": "Krtkův svět (2025) CZ Dabing"
       }
     },
     "8630": {
@@ -33476,8 +33478,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:12:23.659871+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:12:23.659871+00:00",
+        "verified_at": "2026-08-28T19:49:13.551285+00:00",
+        "live_display_name": "Batman Ninja vs. Yakuza League (2025) CZ Dabing"
       }
     },
     "5478": {
@@ -33794,8 +33798,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:16:12.619187+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:16:12.619187+00:00",
+        "verified_at": "2026-08-28T19:49:13.551289+00:00",
+        "live_display_name": "Operace Napoleon (2023) CZ Dabing"
       }
     },
     "5758": {
@@ -33994,8 +34000,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:22:30.234324+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:22:30.234324+00:00",
+        "verified_at": "2026-08-28T19:49:13.551293+00:00",
+        "live_display_name": "Sesterstvo (2024) CZ Dabing"
       }
     },
     "16326": {
@@ -34096,8 +34104,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:41:06.802260+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:41:06.802260+00:00",
+        "verified_at": "2026-08-28T19:49:13.551297+00:00",
+        "live_display_name": "Borderlands (2024) CZ Dabing"
       }
     },
     "8126": {
@@ -34994,8 +35004,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:47:18.530782+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:47:18.530782+00:00",
+        "verified_at": "2026-08-28T19:49:13.551301+00:00",
+        "live_display_name": "Jak přežít svého muže (2023) CZ Dabing"
       }
     },
     "5726": {
@@ -35028,8 +35040,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:03:16.419369+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:03:16.419369+00:00",
+        "verified_at": "2026-08-28T19:49:13.551304+00:00",
+        "live_display_name": "300: Vzestup říše (2014) CZ Dabing"
       }
     },
     "15710": {
@@ -35130,12 +35144,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:14:04.152941+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:14:04.152941+00:00",
+        "verified_at": "2026-08-28T19:49:13.551307+00:00",
+        "live_display_name": "Por los pelos (2022) CZ Dabing"
       }
     },
     "6518": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "32590",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28909546",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:13.551317+00:00"
+        }
+      ],
       "identity": {
         "slug": "blue-beetle",
         "title": "Blue Beetle",
@@ -35153,19 +35181,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T17:14:13.678854+00:00"
-      },
-      "upload": {
-        "target_video_id": "28909546",
-        "display_name": "Blue Beetle (2023) CZ Dabing",
-        "size_bytes": 900171276,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "32590",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:23:11.662848+00:00"
       }
     },
     "4494": {
@@ -35215,7 +35230,19 @@
       }
     },
     "2846": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "32382",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28910162",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:13.591400+00:00"
+        }
+      ],
       "identity": {
         "slug": "barbie",
         "title": "Barbie",
@@ -35233,19 +35260,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T17:23:19.482867+00:00"
-      },
-      "upload": {
-        "target_video_id": "28910162",
-        "display_name": "Barbie (2023) CZ Dabing",
-        "size_bytes": 994585571,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "32382",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:32:07.657042+00:00"
       }
     },
     "8430": {
@@ -35285,14 +35299,16 @@
         "target_video_id": "28911727",
         "display_name": "Justice League: Warworld (2023) CZ titulky",
         "size_bytes": 3355557951,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "64cf614fdc983",
         "language_tier": "czech_subtitles",
         "actual_resolution": 1080,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:59:10.009892+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:59:10.009892+00:00",
+        "verified_at": "2026-08-28T19:49:13.632551+00:00",
+        "live_display_name": "Justice League: Warworld (2023) CZ titulky"
       }
     },
     "15078": {
@@ -35437,8 +35453,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T18:07:41.464086+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T18:07:41.464086+00:00",
+        "verified_at": "2026-08-28T19:49:25.251024+00:00",
+        "live_display_name": "Hádej, kdo je vrah (2022) CZ Dabing"
       }
     },
     "1630": {
@@ -35471,8 +35489,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T18:12:58.377573+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T18:12:58.377573+00:00",
+        "verified_at": "2026-08-28T19:49:25.251043+00:00",
+        "live_display_name": "Belfast (2021) CZ Dabing"
       }
     },
     "8182": {
@@ -35505,10 +35525,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T18:17:58.079101+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T18:17:58.079101+00:00",
+        "verified_at": "2026-08-28T19:49:25.251048+00:00",
+        "live_display_name": "Hříšná hudba (2019) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T18:17:58.079126+00:00"
+  "updated_at": "2026-08-28T19:49:37.383371+00:00"
 }

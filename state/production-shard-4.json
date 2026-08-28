@@ -876,7 +876,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:12:50.479620+00:00",
-        "verified_at": "2026-08-28T14:50:26.908004+00:00",
+        "verified_at": "2026-08-28T19:48:28.477537+00:00",
         "live_display_name": "1 Mile To You (2017) CZ titulky"
       }
     },
@@ -7856,7 +7856,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-27T10:35:54.999142+00:00",
-        "verified_at": "2026-08-28T14:51:08.568838+00:00",
+        "verified_at": "2026-08-28T19:48:38.823482+00:00",
         "live_display_name": "Carmilla (2020) CZ titulky"
       }
     },
@@ -33191,8 +33191,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:06:15.629763+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:06:15.629763+00:00",
+        "verified_at": "2026-08-28T19:48:49.687975+00:00",
+        "live_display_name": "Hadí plyn (2023) CZ Dabing"
       }
     },
     "13668": {
@@ -33380,8 +33382,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:17:42.333844+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:17:42.333844+00:00",
+        "verified_at": "2026-08-28T19:48:49.687998+00:00",
+        "live_display_name": "Villa Lucia (2023) CZ Dabing"
       }
     },
     "7796": {
@@ -33419,7 +33423,19 @@
       }
     },
     "12804": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "32533",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907378",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:49.688009+00:00"
+        }
+      ],
       "identity": {
         "slug": "cerna-puncocha-1987",
         "title": "Černá punčocha",
@@ -33437,19 +33453,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:24:15.905522+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907378",
-        "display_name": "Černá punčocha (1987) CZ Dabing",
-        "size_bytes": 437926079,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "32533",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:27:01.105403+00:00"
       }
     },
     "4964": {
@@ -33489,14 +33492,16 @@
         "target_video_id": "28907433",
         "display_name": "Láska podle plánu (2022) CZ titulky",
         "size_bytes": 1972533219,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "645f8a46193cc",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:39:23.591253+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:39:23.591253+00:00",
+        "verified_at": "2026-08-28T19:48:49.729319+00:00",
+        "live_display_name": "Láska podle plánu (2022) CZ titulky"
       }
     },
     "14852": {
@@ -33532,7 +33537,19 @@
       }
     },
     "9644": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "31488",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907558",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:01.230444+00:00"
+        }
+      ],
       "identity": {
         "slug": "na-lovu",
         "title": "Na lovu",
@@ -33550,19 +33567,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:39:34.344519+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907558",
-        "display_name": "Na lovu (2022) CZ Dabing",
-        "size_bytes": 493620518,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "31488",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:42:39.755646+00:00"
       }
     },
     "7476": {
@@ -33626,8 +33630,10 @@
         "language_tier": "slovak_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:48:29.923167+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:48:29.923167+00:00",
+        "verified_at": "2026-08-28T19:49:01.270841+00:00",
+        "live_display_name": "Redemption Day (2021) CZ Dabing"
       }
     },
     "9868": {
@@ -34283,7 +34289,19 @@
       }
     },
     "15012": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "26299",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907698",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:01.270863+00:00"
+        }
+      ],
       "identity": {
         "slug": "rekni-to-psem-2022",
         "title": "Řekni to psem",
@@ -34301,19 +34319,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:48:39.861387+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907698",
-        "display_name": "Řekni to psem (2022) CZ Dabing",
-        "size_bytes": 538682419,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "26299",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:51:58.263789+00:00"
       }
     },
     "17284": {
@@ -34380,8 +34385,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:02:04.576368+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:02:04.576368+00:00",
+        "verified_at": "2026-08-28T19:49:01.310654+00:00",
+        "live_display_name": "Ambulance (2022) CZ Dabing"
       }
     },
     "17292": {
@@ -34676,8 +34683,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:11:50.601457+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:11:50.601457+00:00",
+        "verified_at": "2026-08-28T19:49:01.310678+00:00",
+        "live_display_name": "The Craft: Mladé čarodějky (2020) CZ Dabing"
       }
     },
     "16988": {
@@ -34744,8 +34753,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:20:44.590956+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:20:44.590956+00:00",
+        "verified_at": "2026-08-28T19:49:01.310682+00:00",
+        "live_display_name": "Po francouzsku (2020) CZ Dabing"
       }
     },
     "5892": {
@@ -34783,7 +34794,19 @@
       }
     },
     "15508": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "18787",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28910627",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:01.310692+00:00"
+        }
+      ],
       "identity": {
         "slug": "tady-hlidam-ja-2012",
         "title": "Tady hlídám já",
@@ -34801,19 +34824,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T17:26:41.709852+00:00"
-      },
-      "upload": {
-        "target_video_id": "28910627",
-        "display_name": "Tady hlídám já (2012) CZ Dabing",
-        "size_bytes": 1010173808,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "18787",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:36:21.437963+00:00"
       }
     },
     "5748": {
@@ -34846,8 +34856,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:47:47.430652+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:47:47.430652+00:00",
+        "verified_at": "2026-08-28T19:49:01.350317+00:00",
+        "live_display_name": "Critters (1986) CZ Dabing"
       }
     },
     "6428": {
@@ -34880,10 +34892,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:58:42.753210+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:58:42.753210+00:00",
+        "verified_at": "2026-08-28T19:49:01.350339+00:00",
+        "live_display_name": "Transformers: Pomsta poražených (2009) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T17:58:42.753237+00:00"
+  "updated_at": "2026-08-28T19:49:36.845435+00:00"
 }

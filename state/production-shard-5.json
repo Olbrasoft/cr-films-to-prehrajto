@@ -36161,7 +36161,19 @@
       }
     },
     "10333": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "35994",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907097",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:01.350353+00:00"
+        }
+      ],
       "identity": {
         "slug": "perinbaba-a-dva-svety",
         "title": "Perinbaba a dva světy",
@@ -36179,19 +36191,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T14:59:15.485438+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907097",
-        "display_name": "Perinbaba a dva světy (2023) CZ Dabing",
-        "size_bytes": 1074481572,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "35994",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:06:35.598998+00:00"
       }
     },
     "9477": {
@@ -36378,8 +36377,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:13:56.541377+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:13:56.541377+00:00",
+        "verified_at": "2026-08-28T19:49:01.395087+00:00",
+        "live_display_name": "Mia a já ve filmu (2022) CZ Dabing"
       }
     },
     "16053": {
@@ -36417,7 +36418,19 @@
       }
     },
     "5389": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "30047",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907324",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:01.395118+00:00"
+        }
+      ],
       "identity": {
         "slug": "deti-nagana",
         "title": "Děti Nagana",
@@ -36435,19 +36448,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:17:57.686048+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907324",
-        "display_name": "Děti Nagana (2023) CZ Dabing",
-        "size_bytes": 753296252,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "30047",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:24:23.730742+00:00"
       }
     },
     "14933": {
@@ -36480,8 +36480,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:27:09.022770+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:27:09.022770+00:00",
+        "verified_at": "2026-08-28T19:49:01.439363+00:00",
+        "live_display_name": "Atlas ptáků (2021) CZ Dabing"
       }
     },
     "15645": {
@@ -36584,12 +36586,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:34:13.871679+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:34:13.871679+00:00",
+        "verified_at": "2026-08-28T19:49:01.439385+00:00",
+        "live_display_name": "Princ Mamánek (2022) CZ Dabing"
       }
     },
     "14981": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "25688",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907499",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:01.439396+00:00"
+        }
+      ],
       "identity": {
         "slug": "srdce-na-dlani-2022",
         "title": "Srdce na dlani",
@@ -36607,19 +36623,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:34:20.881907+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907499",
-        "display_name": "Srdce na dlani (2022) CZ Dabing",
-        "size_bytes": 647557817,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "25688",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:38:32.216462+00:00"
       }
     },
     "16517": {
@@ -36704,8 +36707,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:41:00.561871+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:41:00.561871+00:00",
+        "verified_at": "2026-08-28T19:49:01.505683+00:00",
+        "live_display_name": "Ve vztahu (2018) CZ Dabing"
       }
     },
     "14157": {
@@ -36738,8 +36743,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:43:20.133797+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:43:20.133797+00:00",
+        "verified_at": "2026-08-28T19:49:01.505707+00:00",
+        "live_display_name": "Doktore? (2019) CZ Dabing"
       }
     },
     "6565": {
@@ -36772,8 +36779,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:44:08.433555+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:44:08.433555+00:00",
+        "verified_at": "2026-08-28T19:49:01.505711+00:00",
+        "live_display_name": "Velký červený pes Clifford (2021) CZ Dabing"
       }
     },
     "14477": {
@@ -36837,8 +36846,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:49:40.509155+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:49:40.509155+00:00",
+        "verified_at": "2026-08-28T19:49:01.505714+00:00",
+        "live_display_name": "Deníček moderního fotra (2021) CZ Dabing"
       }
     },
     "14525": {
@@ -36948,8 +36959,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:56:21.636727+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:56:21.636727+00:00",
+        "verified_at": "2026-08-28T19:49:01.505716+00:00",
+        "live_display_name": "Bajky naruby: Zlatovláska a 3 medvědi (2010) CZ Dabing"
       }
     },
     "3333": {
@@ -36984,7 +36997,19 @@
       }
     },
     "16485": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "16163",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28908686",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:01.505728+00:00"
+        }
+      ],
       "identity": {
         "slug": "buraceni-2015",
         "title": "Burácení",
@@ -37002,19 +37027,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T16:56:28.564299+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908686",
-        "display_name": "Burácení (2015) CZ Dabing",
-        "size_bytes": 570217939,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "16163",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:01:49.362938+00:00"
       }
     },
     "2341": {
@@ -37047,8 +37059,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:08:02.103132+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:08:02.103132+00:00",
+        "verified_at": "2026-08-28T19:49:01.549463+00:00",
+        "live_display_name": "Loganovi parťáci (2017) CZ Dabing"
       }
     },
     "17349": {
@@ -37115,8 +37129,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:20:00.996998+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:20:00.996998+00:00",
+        "verified_at": "2026-08-28T19:49:01.549486+00:00",
+        "live_display_name": "Cujo (1983) CZ Dabing"
       }
     },
     "7957": {
@@ -37149,8 +37165,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:26:06.210337+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:26:06.210337+00:00",
+        "verified_at": "2026-08-28T19:49:01.549489+00:00",
+        "live_display_name": "Vánoční rande mého táty (2020) CZ Dabing"
       }
     },
     "6941": {
@@ -37183,8 +37201,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:35:36.385943+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:35:36.385943+00:00",
+        "verified_at": "2026-08-28T19:49:01.549492+00:00",
+        "live_display_name": "Hodinářův učeň (2019) CZ Dabing"
       }
     },
     "9237": {
@@ -38143,5 +38163,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T17:39:17.207327+00:00"
+  "updated_at": "2026-08-28T19:49:37.339044+00:00"
 }

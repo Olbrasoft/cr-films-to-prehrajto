@@ -5976,7 +5976,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T10:52:47.645343+00:00",
-        "verified_at": "2026-08-28T14:55:28.402166+00:00",
+        "verified_at": "2026-08-28T19:49:25.251053+00:00",
         "live_display_name": "Asterix a Olympijské hry (2008) CZ titulky"
       }
     },
@@ -37031,8 +37031,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:03:44.080187+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:03:44.080187+00:00",
+        "verified_at": "2026-08-28T19:49:36.307516+00:00",
+        "live_display_name": "Crown Vic (2019) CZ Dabing"
       }
     },
     "9583": {
@@ -37065,8 +37067,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:07:59.628619+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:07:59.628619+00:00",
+        "verified_at": "2026-08-28T19:49:36.307535+00:00",
+        "live_display_name": "Zoolander 2 (2016) CZ Dabing"
       }
     },
     "8575": {
@@ -38048,7 +38052,19 @@
       }
     },
     "1567": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "7720",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907431",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.307547+00:00"
+        }
+      ],
       "identity": {
         "slug": "vlastnici",
         "title": "Vlastníci",
@@ -38066,23 +38082,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:27:56.228473+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907431",
-        "display_name": "Vlastníci (2019) CZ Dabing",
-        "size_bytes": 683359108,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "7720",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:33:05.157820+00:00"
       }
     },
     "10495": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "6196",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907512",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.404340+00:00"
+        }
+      ],
       "identity": {
         "slug": "zoufale-zeny-delaji-zoufale-veci",
         "title": "Zoufalé ženy dělají zoufalé věci",
@@ -38100,23 +38115,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:33:12.746208+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907512",
-        "display_name": "Zoufalé ženy dělají zoufalé věci (2018) CZ Dabing",
-        "size_bytes": 685181433,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "6196",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:39:31.639743+00:00"
       }
     },
     "17583": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "6953",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907582",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.451345+00:00"
+        }
+      ],
       "identity": {
         "slug": "starici-2019",
         "title": "Staříci",
@@ -38134,19 +38148,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:40:14.753616+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907582",
-        "display_name": "Staříci (2019) CZ Dabing",
-        "size_bytes": 594221210,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "6953",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:44:23.006389+00:00"
       }
     },
     "17127": {
@@ -38589,7 +38590,19 @@
       }
     },
     "15503": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "6194",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28908338",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.497805+00:00"
+        }
+      ],
       "identity": {
         "slug": "zejtra-naporad-2014",
         "title": "Zejtra napořád",
@@ -38607,19 +38620,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T16:35:14.661156+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908338",
-        "display_name": "Zejtra napořád (2014) CZ Dabing",
-        "size_bytes": 789111939,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "6194",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:42:35.496539+00:00"
       }
     },
     "4655": {
@@ -38942,7 +38942,19 @@
       }
     },
     "8583": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "5937",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28908534",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.543294+00:00"
+        }
+      ],
       "identity": {
         "slug": "padesatka",
         "title": "Padesátka",
@@ -38960,23 +38972,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T16:43:13.533218+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908534",
-        "display_name": "Padesátka (2015) CZ Dabing",
-        "size_bytes": 869064205,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "5937",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:51:51.835627+00:00"
       }
     },
     "8807": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "5733",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28908662",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.587867+00:00"
+        }
+      ],
       "identity": {
         "slug": "dvojnici",
         "title": "Dvojníci",
@@ -38994,23 +39005,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T16:52:00.092754+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908662",
-        "display_name": "Dvojníci (2016) CZ Dabing",
-        "size_bytes": 826983662,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "5733",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:00:30.764610+00:00"
       }
     },
     "4631": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "4271",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28908860",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.632892+00:00"
+        }
+      ],
       "identity": {
         "slug": "zeny-v-behu",
         "title": "Ženy v běhu",
@@ -39028,19 +39038,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T17:01:02.510526+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908860",
-        "display_name": "Ženy v běhu (2019) CZ Dabing",
-        "size_bytes": 1062424458,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "4271",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:11:56.149437+00:00"
       }
     },
     "15159": {
@@ -39170,8 +39167,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:42:52.925416+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:42:52.925416+00:00",
+        "verified_at": "2026-08-28T19:49:36.677243+00:00",
+        "live_display_name": "Road Trip (2000) CZ Dabing"
       }
     },
     "6951": {
@@ -39239,7 +39238,19 @@
       }
     },
     "2367": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "2068",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28912253",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:49:36.677263+00:00"
+        }
+      ],
       "identity": {
         "slug": "andel-pane-2",
         "title": "Anděl Páně 2",
@@ -39257,19 +39268,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T17:43:13.282962+00:00"
-      },
-      "upload": {
-        "target_video_id": "28912253",
-        "display_name": "Anděl Páně 2 (2016) CZ Dabing",
-        "size_bytes": 785634753,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "2068",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:49:45.777801+00:00"
       }
     },
     "17175": {
@@ -39947,8 +39945,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:58:59.189934+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:58:59.189934+00:00",
+        "verified_at": "2026-08-28T19:49:36.845402+00:00",
+        "live_display_name": "2010: Druhá vesmírná odysea (1984) CZ Dabing"
       }
     },
     "7319": {
@@ -39984,5 +39984,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T17:59:21.187938+00:00"
+  "updated_at": "2026-08-28T19:49:37.270463+00:00"
 }

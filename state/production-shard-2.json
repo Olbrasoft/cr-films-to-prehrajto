@@ -10552,6 +10552,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T15:12:06.553710+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "96ab6fa789580fdf",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907093",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.217069+00:00"
         }
       ],
       "identity": {
@@ -10571,19 +10582,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T14:58:42.954097+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907093",
-        "display_name": "Hvězdná brána (1994) CZ titulky",
-        "size_bytes": 2586239474,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "96ab6fa789580fdf",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 1080,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:12:38.498686+00:00"
       }
     },
     "754": {
@@ -11385,6 +11383,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T12:27:13.121585+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "2f678c28a102f91f",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907248",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.260537+00:00"
         }
       ],
       "identity": {
@@ -11404,19 +11413,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:12:49.096921+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907248",
-        "display_name": "John Wick 2 (2017) CZ Dabing",
-        "size_bytes": 659932607,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "2f678c28a102f91f",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:17:02.070891+00:00"
       }
     },
     "5290": {
@@ -37473,8 +37469,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:27:21.857433+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:27:21.857433+00:00",
+        "verified_at": "2026-08-28T19:48:06.304007+00:00",
+        "live_display_name": "Una pasión inmortal (2022) CZ Dabing"
       }
     },
     "6890": {
@@ -37565,8 +37563,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:31:36.418650+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:31:36.418650+00:00",
+        "verified_at": "2026-08-28T19:48:06.304025+00:00",
+        "live_display_name": "Můžem i s mužem (2023) CZ Dabing"
       }
     },
     "690": {
@@ -37599,8 +37599,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:39:23.509292+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:39:23.509292+00:00",
+        "verified_at": "2026-08-28T19:48:06.304029+00:00",
+        "live_display_name": "Mission: Impossible Odplata – První část (2023) CZ Dabing"
       }
     },
     "4234": {
@@ -37636,7 +37638,19 @@
       }
     },
     "3426": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "30650",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907564",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.304037+00:00"
+        }
+      ],
       "identity": {
         "slug": "po-strnisti-bos",
         "title": "Po strništi bos",
@@ -37654,19 +37668,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:39:53.949199+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907564",
-        "display_name": "Po strništi bos (2017) CZ Dabing",
-        "size_bytes": 712255637,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "30650",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:43:57.741267+00:00"
       }
     },
     "16962": {
@@ -37855,8 +37856,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:50:44.979019+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:50:44.979019+00:00",
+        "verified_at": "2026-08-28T19:48:06.347946+00:00",
+        "live_display_name": "Vojín Benjaminová (1980) CZ Dabing"
       }
     },
     "15442": {
@@ -37920,12 +37923,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:52:59.875149+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:52:59.875149+00:00",
+        "verified_at": "2026-08-28T19:48:06.347962+00:00",
+        "live_display_name": "Arvéd (2022) CZ Dabing"
       }
     },
     "15122": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "25888",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907752",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.347972+00:00"
+        }
+      ],
       "identity": {
         "slug": "hadkovi-2022",
         "title": "Hádkovi",
@@ -37943,19 +37960,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:53:05.425219+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907752",
-        "display_name": "Hádkovi (2022) CZ Dabing",
-        "size_bytes": 397528663,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "25888",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:55:46.637013+00:00"
       }
     },
     "10338": {
@@ -37988,8 +37992,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:40:54.134734+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:40:54.134734+00:00",
+        "verified_at": "2026-08-28T19:48:06.391553+00:00",
+        "live_display_name": "Panama (2022) CZ Dabing"
       }
     },
     "11042": {
@@ -38726,12 +38732,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:49:13.750291+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:49:13.750291+00:00",
+        "verified_at": "2026-08-28T19:48:06.391572+00:00",
+        "live_display_name": "Starověká hysterie: Dobrodružství povrchních Římanů (2019) CZ Dabing"
       }
     },
     "6570": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "20602",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28908586",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.391582+00:00"
+        }
+      ],
       "identity": {
         "slug": "minuta-vecnosti",
         "title": "Minuta věčnosti",
@@ -38749,19 +38769,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T16:49:24.953967+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908586",
-        "display_name": "Minuta věčnosti (2021) CZ Dabing",
-        "size_bytes": 363206381,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "20602",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:53:19.192341+00:00"
       }
     },
     "7250": {
@@ -38794,8 +38801,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:57:50.986387+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:57:50.986387+00:00",
+        "verified_at": "2026-08-28T19:48:06.435250+00:00",
+        "live_display_name": "Podivuhodná dobrodružství Paula Harkera (2019) CZ Dabing"
       }
     },
     "14194": {
@@ -38828,8 +38837,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:06:47.588167+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:06:47.588167+00:00",
+        "verified_at": "2026-08-28T19:48:06.435269+00:00",
+        "live_display_name": "Hatched (2022) CZ Dabing"
       }
     },
     "9530": {
@@ -38862,8 +38873,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:11:30.551241+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:11:30.551241+00:00",
+        "verified_at": "2026-08-28T19:48:06.435274+00:00",
+        "live_display_name": "Vrátná (2020) CZ Dabing"
       }
     },
     "9786": {
@@ -38901,7 +38914,19 @@
       }
     },
     "8826": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "16045",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28909544",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.435285+00:00"
+        }
+      ],
       "identity": {
         "slug": "vsivaci",
         "title": "Všiváci",
@@ -38919,19 +38944,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T17:15:14.145339+00:00"
-      },
-      "upload": {
-        "target_video_id": "28909544",
-        "display_name": "Všiváci (2014) CZ Dabing",
-        "size_bytes": 640637092,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "16045",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:21:06.562236+00:00"
       }
     },
     "8738": {
@@ -38964,12 +38976,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:26:41.566946+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:26:41.566946+00:00",
+        "verified_at": "2026-08-28T19:48:06.479689+00:00",
+        "live_display_name": "Kosmopes a Turbokočka (2019) CZ Dabing"
       }
     },
     "3178": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "15820",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28910717",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.479716+00:00"
+        }
+      ],
       "identity": {
         "slug": "jedna-ruka-netleska",
         "title": "Jedna ruka netleská",
@@ -38987,21 +39013,8 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T17:26:46.423138+00:00"
-      },
-      "upload": {
-        "target_video_id": "28910717",
-        "display_name": "Jedna ruka netleská (2003) CZ Dabing",
-        "size_bytes": 679785210,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "15820",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:35:08.864920+00:00"
       }
     }
   },
-  "updated_at": "2026-08-28T17:35:08.864948+00:00"
+  "updated_at": "2026-08-28T19:49:37.225992+00:00"
 }

@@ -8242,7 +8242,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-25T17:29:40.739413+00:00",
-        "verified_at": "2026-08-28T14:45:40.825011+00:00",
+        "verified_at": "2026-08-28T19:47:44.579351+00:00",
         "live_display_name": "Až umřu, budou mě milovat (2018) CZ titulky"
       }
     },
@@ -76573,7 +76573,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T11:07:16.992458+00:00",
-        "verified_at": "2026-08-28T14:46:02.754832+00:00",
+        "verified_at": "2026-08-28T19:47:55.648233+00:00",
         "live_display_name": "Pozdě, ale přece (2024) CZ titulky"
       }
     },
@@ -85397,12 +85397,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:02:15.457909+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:02:15.457909+00:00",
+        "verified_at": "2026-08-28T19:48:06.007843+00:00",
+        "live_display_name": "Code Name Banshee (2022) CZ Dabing"
       }
     },
     "7753": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "42205",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28907119",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.007867+00:00"
+        }
+      ],
       "identity": {
         "slug": "tri-bratri",
         "title": "Tři bratři",
@@ -85420,19 +85434,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:02:20.648607+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907119",
-        "display_name": "Tři bratři (2014) CZ Dabing",
-        "size_bytes": 788609424,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "42205",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:07:21.554271+00:00"
       }
     },
     "15081": {
@@ -85599,8 +85600,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:13:56.294715+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:13:56.294715+00:00",
+        "verified_at": "2026-08-28T19:48:06.112348+00:00",
+        "live_display_name": "Ella a černý jaguár (2024) CZ Dabing"
       }
     },
     "1721": {
@@ -85633,8 +85636,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:17:34.652343+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:17:34.652343+00:00",
+        "verified_at": "2026-08-28T19:48:06.112371+00:00",
+        "live_display_name": "Menu (2016) CZ Dabing"
       }
     },
     "7833": {
@@ -85667,8 +85672,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:24:19.874085+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:24:19.874085+00:00",
+        "verified_at": "2026-08-28T19:48:06.112374+00:00",
+        "live_display_name": "Smršť (2024) CZ Dabing"
       }
     },
     "13321": {
@@ -85766,8 +85773,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:29:48.674968+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:29:48.674968+00:00",
+        "verified_at": "2026-08-28T19:48:06.112378+00:00",
+        "live_display_name": "Vlastní krev (2023) CZ Dabing"
       }
     },
     "8673": {
@@ -85800,8 +85809,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:35:54.649009+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:35:54.649009+00:00",
+        "verified_at": "2026-08-28T19:48:06.112380+00:00",
+        "live_display_name": "Citlivý člověk (2023) CZ Dabing"
       }
     },
     "16793": {
@@ -85834,8 +85845,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T15:37:46.995836+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T15:37:46.995836+00:00",
+        "verified_at": "2026-08-28T19:48:06.112383+00:00",
+        "live_display_name": "Ovečka Shaun - Farmářovy lamy (2015) CZ Dabing"
       }
     },
     "11233": {
@@ -85902,8 +85915,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:43:24.495212+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:43:24.495212+00:00",
+        "verified_at": "2026-08-28T19:48:06.112387+00:00",
+        "live_display_name": "Mavka: Strážkyně lesa (2022) CZ Dabing"
       }
     },
     "8153": {
@@ -86133,7 +86148,19 @@
       }
     },
     "1889": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "33047",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28908507",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:48:06.112397+00:00"
+        }
+      ],
       "identity": {
         "slug": "annaismissing",
         "title": "#annaismissing",
@@ -86151,19 +86178,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T16:43:29.443773+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908507",
-        "display_name": "#annaismissing (2023) CZ Dabing",
-        "size_bytes": 492838969,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "33047",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:49:13.265568+00:00"
       }
     },
     "16033": {
@@ -86196,8 +86210,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T16:54:45.187377+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T16:54:45.187377+00:00",
+        "verified_at": "2026-08-28T19:48:06.217019+00:00",
+        "live_display_name": "Scooby-Doo! and Krypto, Too! (2023) CZ Dabing"
       }
     },
     "17209": {
@@ -86230,8 +86246,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:00:28.941162+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:00:28.941162+00:00",
+        "verified_at": "2026-08-28T19:48:06.217043+00:00",
+        "live_display_name": "Killerman (2019) CZ Dabing"
       }
     },
     "10929": {
@@ -86428,8 +86446,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:05:49.085559+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:05:49.085559+00:00",
+        "verified_at": "2026-08-28T19:48:06.217048+00:00",
+        "live_display_name": "Wire Room (2022) CZ Dabing"
       }
     },
     "15241": {
@@ -86462,8 +86482,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:12:14.967258+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:12:14.967258+00:00",
+        "verified_at": "2026-08-28T19:48:06.217051+00:00",
+        "live_display_name": "On sourit pour la photo (2022) CZ Dabing"
       }
     },
     "16177": {
@@ -86496,8 +86518,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:17:44.742046+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:17:44.742046+00:00",
+        "verified_at": "2026-08-28T19:48:06.217054+00:00",
+        "live_display_name": "Superžena (2022) CZ Dabing"
       }
     },
     "17193": {
@@ -86598,10 +86622,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T17:36:36.068399+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T17:36:36.068399+00:00",
+        "verified_at": "2026-08-28T19:48:06.217058+00:00",
+        "live_display_name": "Srdeční záležitost (2022) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T17:36:36.068432+00:00"
+  "updated_at": "2026-08-28T19:49:37.119452+00:00"
 }
