@@ -52528,6 +52528,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:29:17.275608+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fd65ddc01b0b",
+              "url": "https://prehraj.to/princezna-a-pul-kralovstvi-pohadka-cr-2019/5fd65ddc01b0b",
+              "title": "PRINCEZNA A PŮL KRÁLOVSTVÍ  pohádka-ČR 2019",
+              "year": null,
+              "duration_sec": 5526,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.212,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 140,
+                "candidate_runtime_sec": 5526,
+                "runtime_delta": 0.342,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:54.250343+00:00"
         }
       ],
       "identity": {
@@ -52546,7 +52584,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:29:16.760343+00:00"
+        "at": "2026-08-28T11:11:47.699151+00:00"
       }
     },
     "26496": {
@@ -67886,5 +67924,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:46.178901+00:00"
+  "updated_at": "2026-08-28T11:11:54.250359+00:00"
 }
