@@ -60550,7 +60550,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:10:37.457244+00:00"
+        "at": "2026-08-28T03:49:20.002421+00:00"
       }
     },
     "25241": {
@@ -60693,6 +60693,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:10:44.197444+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586f930427388",
+              "url": "https://prehraj.to/tears-of-kali-cz-titulky-fantasy-horor-nemecko-2004/586f930427388",
+              "title": "Tears-Of-Kali-CZ-Titulky-Fantasy,Horor,Německo,2004",
+              "year": null,
+              "duration_sec": 6348,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.192,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6348,
+                "runtime_delta": 0.08,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:49:21.242926+00:00"
         }
       ],
       "identity": {
@@ -60711,7 +60749,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:10:43.608852+00:00"
+        "at": "2026-08-28T03:49:20.002613+00:00"
       }
     },
     "25207": {
@@ -77525,5 +77563,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:49:18.439199+00:00"
+  "updated_at": "2026-08-28T03:49:21.242949+00:00"
 }
