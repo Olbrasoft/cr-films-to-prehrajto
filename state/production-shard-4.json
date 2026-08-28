@@ -30548,7 +30548,643 @@
         },
         "at": "2026-08-28T02:50:33.188547+00:00"
       }
+    },
+    "21772": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "66ba30b7b012d",
+              "url": "https://prehraj.to/vinnetou-a-misenka-apanaci-1966-remastered-1080p-blu-ray-2xcz-en-de/66ba30b7b012d",
+              "title": "Vinnetou a míšenka Apanači (1966)(Remastered)(1080p)(Blu-Ray)(2xCZ-EN-DE)",
+              "year": null,
+              "duration_sec": 5422,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.141,
+                "title_contains_alias": false,
+                "film_year": 1966,
+                "candidate_year": 1966,
+                "year_match": true,
+                "film_runtime_min": 150,
+                "candidate_runtime_sec": 5422,
+                "runtime_delta": 0.398,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63eea049ebd03",
+              "url": "https://prehraj.to/druhy-dech-s01e08-cztitulky/63eea049ebd03",
+              "title": "Druhý dech S01E08 CZtitulky",
+              "year": null,
+              "duration_sec": 2744,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee9f2b15822",
+              "url": "https://prehraj.to/druhy-dech-s01e07-cztitulky/63ee9f2b15822",
+              "title": "Druhý dech S01E07 CZtitulky",
+              "year": null,
+              "duration_sec": 3444,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee9b2df0d9c",
+              "url": "https://prehraj.to/druhy-dech-s01e03-cztitulky/63ee9b2df0d9c",
+              "title": "Druhý dech S01E03 CZtitulky",
+              "year": null,
+              "duration_sec": 2940,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee9e25a58f1",
+              "url": "https://prehraj.to/druhy-dech-s01e06-cztitulky/63ee9e25a58f1",
+              "title": "Druhý dech S01E06 CZtitulky",
+              "year": null,
+              "duration_sec": 3162,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7df8269c9794da55",
+              "url": "https://prehraj.to/druhy-dech-s1e4-mrazene-teleci-cs/7df8269c9794da55",
+              "title": "Druhý dech - S1E4 Mražené telecí CS",
+              "year": null,
+              "duration_sec": 4216,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "acb1a77983fc0f6f",
+              "url": "https://prehraj.to/druhy-dech-s1e6-konec-koncu-v-koncich-cs/acb1a77983fc0f6f",
+              "title": "Druhý dech - S1E6 Konec konců v koncích CS",
+              "year": null,
+              "duration_sec": 3895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ffc1d5ef184",
+              "url": "https://prehraj.to/druhy-dech-s01e07-1988/63ffc1d5ef184",
+              "title": "Druhý dech - S01E07 (1988)",
+              "year": null,
+              "duration_sec": 3881,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ffb634aaf9d",
+              "url": "https://prehraj.to/druhy-dech-s01e11-1988/63ffb634aaf9d",
+              "title": "Druhý dech - S01E11 (1988)",
+              "year": null,
+              "duration_sec": 3917,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4a954236140fdfb0",
+              "url": "https://prehraj.to/druhy-dech-s1e10-digitalni-dojnice-cs/4a954236140fdfb0",
+              "title": "Druhý dech - S1E10 Digitální dojnice CS",
+              "year": null,
+              "duration_sec": 4050,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e1e74a9f9ae2871f",
+              "url": "https://prehraj.to/druhy-dech-s1e12-na-koho-to-slovo-padne-cs/e1e74a9f9ae2871f",
+              "title": "Druhý dech - S1E12 Na koho to slovo padne CS",
+              "year": null,
+              "duration_sec": 4070,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ffba05174aa",
+              "url": "https://prehraj.to/druhy-dech-s01e06-1988/63ffba05174aa",
+              "title": "Druhý dech - S01E06 (1988)",
+              "year": null,
+              "duration_sec": 3893,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ffb91b5f886",
+              "url": "https://prehraj.to/druhy-dech-s01e05-1988/63ffb91b5f886",
+              "title": "Druhý dech - S01E05 (1988)",
+              "year": null,
+              "duration_sec": 3900,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ffba12e63e6",
+              "url": "https://prehraj.to/druhy-dech-s01e06-1988/63ffba12e63e6",
+              "title": "Druhý dech - S01E06 (1988)",
+              "year": null,
+              "duration_sec": 3892,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3e48d3f365c3b791",
+              "url": "https://prehraj.to/druhy-dech-s1e1-teleci-leta-cs/3e48d3f365c3b791",
+              "title": "Druhý dech - S1E1 Telecí Léta CS",
+              "year": null,
+              "duration_sec": 3918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c547d35d5e31",
+              "url": "https://prehraj.to/druhy-dech-1x2/5c547d35d5e31",
+              "title": "Druhý dech 1x2",
+              "year": null,
+              "duration_sec": 4038,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ae047a6f44393d15",
+              "url": "https://prehraj.to/druhy-dech-s1e10-digitalni-dojnice-cs/ae047a6f44393d15",
+              "title": "Druhý dech - S1E10 Digitální Dojnice CS",
+              "year": null,
+              "duration_sec": 4048,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d3713475cd07ed6a",
+              "url": "https://prehraj.to/druhy-dech-s1e5-oci-na-kolotoci-cs/d3713475cd07ed6a",
+              "title": "Druhý dech - S1E5 Oči Na Kolotoči CS",
+              "year": null,
+              "duration_sec": 3901,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "055599e0be0361b7",
+              "url": "https://prehraj.to/druhy-dech-s1e8-osmista-prvni-krava-cs/055599e0be0361b7",
+              "title": "Druhý dech - S1E8 Osmistá První Kráva CS",
+              "year": null,
+              "duration_sec": 4077,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0a0aa870f1c20ae9",
+              "url": "https://prehraj.to/druhy-dech-s1e12-na-koho-to-slovo-padne-cs/0a0aa870f1c20ae9",
+              "title": "Druhý dech - S1E12 Na Koho To Slovo Padne CS",
+              "year": null,
+              "duration_sec": 4068,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c21023e38013",
+              "url": "https://prehraj.to/druhy-dech-1x11/5c21023e38013",
+              "title": "Druhý dech 1x11",
+              "year": null,
+              "duration_sec": 3917,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c325130a6c12",
+              "url": "https://prehraj.to/druhy-dech-1x4/5c325130a6c12",
+              "title": "Druhý dech 1x4",
+              "year": null,
+              "duration_sec": 4213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c41d3982b41b",
+              "url": "https://prehraj.to/druhy-dech-1x9/5c41d3982b41b",
+              "title": "Druhý dech 1x9",
+              "year": null,
+              "duration_sec": 3947,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee9d246421f",
+              "url": "https://prehraj.to/druhy-dech-s01e05-cztitulky/63ee9d246421f",
+              "title": "Druhý dech S01E05 CZtitulky",
+              "year": null,
+              "duration_sec": 3146,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "01889d45b65b19d9",
+              "url": "https://prehraj.to/druhy-dech-s1e2-seno-a-staj-cs/01889d45b65b19d9",
+              "title": "Druhý dech - S1E2 Seno a stáj CS",
+              "year": null,
+              "duration_sec": 4044,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee9a25881a3",
+              "url": "https://prehraj.to/druhy-dech-s01e02-cztitulky/63ee9a25881a3",
+              "title": "Druhý dech S01E02 CZtitulky",
+              "year": null,
+              "duration_sec": 3092,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee9910929b9",
+              "url": "https://prehraj.to/druhy-dech-s01e01-cztitulky/63ee9910929b9",
+              "title": "Druhý dech S01E01 CZtitulky",
+              "year": null,
+              "duration_sec": 2962,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee9c22cc194",
+              "url": "https://prehraj.to/druhy-dech-s01e04-cztitulky/63ee9c22cc194",
+              "title": "Druhý dech S01E04 CZtitulky",
+              "year": null,
+              "duration_sec": 3080,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ffbf82b731d",
+              "url": "https://prehraj.to/druhy-dech-s01e04-1988/63ffbf82b731d",
+              "title": "Druhý dech - S01E04 (1988)",
+              "year": null,
+              "duration_sec": 4213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4b199ec68e7fa03b",
+              "url": "https://prehraj.to/druhy-dech-s1e1-teleci-leta-cs/4b199ec68e7fa03b",
+              "title": "Druhý dech - S1E1 Telecí léta CS",
+              "year": null,
+              "duration_sec": 3923,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "18f40b640afb9b43",
+              "url": "https://prehraj.to/druhy-dech-s1e9-teskne-huci-niagara-cs/18f40b640afb9b43",
+              "title": "Druhý dech - S1E9 Teskně hučí Niagára CS",
+              "year": null,
+              "duration_sec": 3948,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "12445122fb3b2965",
+              "url": "https://prehraj.to/druhy-dech-s1e5-oci-na-kolotoci-cs/12445122fb3b2965",
+              "title": "Druhý dech - S1E5 Oči na kolotoči CS",
+              "year": null,
+              "duration_sec": 3903,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e06fbee51e18870a",
+              "url": "https://prehraj.to/druhy-dech-s1e7-a-byla-svatba-velika-cs/e06fbee51e18870a",
+              "title": "Druhý dech - S1E7 A byla svatba veliká CS",
+              "year": null,
+              "duration_sec": 3884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Druhý dech (1966)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:50:37.623719+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "druhy-dech",
+        "title": "Druhý dech",
+        "original_title": "Le Deuxième Souffle",
+        "year": 1966,
+        "runtime_min": 150,
+        "tmdb_id": 25047,
+        "imdb_id": "tt0060305",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:50:35.692733+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:50:34.441237+00:00"
+  "updated_at": "2026-08-28T02:50:37.623742+00:00"
 }
