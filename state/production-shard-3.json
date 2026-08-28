@@ -35153,7 +35153,92 @@
         },
         "at": "2026-08-28T16:34:18.811637+00:00"
       }
+    },
+    "1827": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "63507ea00e06c",
+              "url": "https://prehraj.to/spongebob-v-kratkych-nohaviciach-the-spongebob-squarepants-movie-2004-1080p-bluray-h264-aac-sk/63507ea00e06c",
+              "title": "SpongeBob v krátkych nohaviciach - The.SpongeBob…",
+              "year": null,
+              "duration_sec": 5229,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.528,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5229,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "The SpongeBob SquarePants Movie (2004)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f403e04cc1524ad6",
+              "url": "https://prehraj.to/spongebob-v-kratkych-nohaviciach-the-spongebob-squarepants-movie-2004-1080p-bluray-h264-aac-sk/f403e04cc1524ad6",
+              "title": "SpongeBob v krátkych nohaviciach - The.SpongeBob…",
+              "year": null,
+              "duration_sec": 5229,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.528,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5229,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "The SpongeBob SquarePants Movie (2004)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T16:34:33.669182+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "spongebob-v-kalhotach-film",
+        "title": "Spongebob v kalhotách: Film",
+        "original_title": "The SpongeBob SquarePants Movie",
+        "year": 2004,
+        "runtime_min": null,
+        "tmdb_id": 11836,
+        "imdb_id": "tt0345950",
+        "created_at": "2026-04-13 13:19:24.548653+02:00",
+        "added_at": "2023-03-15 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T16:34:29.702397+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T16:34:24.601515+00:00"
+  "updated_at": "2026-08-28T16:34:33.669205+00:00"
 }
