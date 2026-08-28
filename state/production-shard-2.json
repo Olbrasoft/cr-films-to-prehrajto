@@ -34365,7 +34365,741 @@
         },
         "at": "2026-08-28T07:42:20.402777+00:00"
       }
+    },
+    "21938": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "661272a8cf74c",
+              "url": "https://prehraj.to/kapitan-nemo-a-podmorske-mesto-1969-1-cz-dab/661272a8cf74c",
+              "title": "Kapitán Nemo a podmořské město-1969 . 1 cz dab.",
+              "year": null,
+              "duration_sec": 6341,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.17,
+                "title_contains_alias": false,
+                "film_year": 1969,
+                "candidate_year": 1969,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6341,
+                "runtime_delta": 0.057,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e3ff99d6e29d9a1f",
+              "url": "https://prehraj.to/number-one-2026-1080p/e3ff99d6e29d9a1f",
+              "title": "Number One (2026) 1080p",
+              "year": null,
+              "duration_sec": 6283,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "86dbd69317e02075",
+              "url": "https://prehraj.to/number-one-2026-720p/86dbd69317e02075",
+              "title": "Number One (2026) 720p",
+              "year": null,
+              "duration_sec": 6283,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6654acb12f572",
+              "url": "https://prehraj.to/number-one/6654acb12f572",
+              "title": "Number One",
+              "year": null,
+              "duration_sec": 192,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "de264d53ea079d68",
+              "url": "https://prehraj.to/number-one-fan-s1e1-en/de264d53ea079d68",
+              "title": "Number One Fan - S1E1 EN",
+              "year": null,
+              "duration_sec": 2476,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0bc06cdc244ff5a3",
+              "url": "https://prehraj.to/number-one-fan-s01e03/0bc06cdc244ff5a3",
+              "title": "Number One Fan S01E03",
+              "year": null,
+              "duration_sec": 2700,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a8e31f2e4cb07add",
+              "url": "https://prehraj.to/number-one-fan-s01e04/a8e31f2e4cb07add",
+              "title": "Number One Fan S01E04",
+              "year": null,
+              "duration_sec": 2580,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0dea55c3fed9d2e6",
+              "url": "https://prehraj.to/number-one-fan-s1e2-en/0dea55c3fed9d2e6",
+              "title": "Number One Fan - S1E2 EN",
+              "year": null,
+              "duration_sec": 2731,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0473098b9dd8625e",
+              "url": "https://prehraj.to/number-one-fan-s01e01/0473098b9dd8625e",
+              "title": "Number One Fan S01E01",
+              "year": null,
+              "duration_sec": 2476,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c4e74af6a9a57cf3",
+              "url": "https://prehraj.to/number-one-fan-2026-s01e02/c4e74af6a9a57cf3",
+              "title": "Number One Fan 2026 S01E02",
+              "year": null,
+              "duration_sec": 2731,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "09705094fd220380",
+              "url": "https://prehraj.to/number-one-fan-s1e4-en/09705094fd220380",
+              "title": "Number One Fan - S1E4 EN",
+              "year": null,
+              "duration_sec": 2580,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0ccdff641a929d63",
+              "url": "https://prehraj.to/number-one-fan-s1e3-en/0ccdff641a929d63",
+              "title": "Number One Fan - S1E3 EN",
+              "year": null,
+              "duration_sec": 2700,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ad0b883a454aa4eb",
+              "url": "https://prehraj.to/road-number-one-e15-720p-hdtv-x264-kishd-cs/ad0b883a454aa4eb",
+              "title": "Road.Number.One.E15.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 4032,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4032,
+                "runtime_delta": 0.328,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2a0699d42158e26a",
+              "url": "https://prehraj.to/road-number-one-e07-720p-hdtv-x264-kishd-cs/2a0699d42158e26a",
+              "title": "Road.Number.One.E07.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 3954,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3954,
+                "runtime_delta": 0.341,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60204bd79f20e",
+              "url": "https://prehraj.to/target-number-one-2020-cz-titl-krimi-thriller-zivotopisny/60204bd79f20e",
+              "title": "Target Number One (2020) cz.titl Krimi  Thriller …",
+              "year": null,
+              "duration_sec": 7498,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e7ce4d11e08f3451",
+              "url": "https://prehraj.to/road-number-one-e13-720p-hdtv-x264-kishd-cs/e7ce4d11e08f3451",
+              "title": "Road.Number.One.E13.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 3996,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3996,
+                "runtime_delta": 0.334,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f896acc7787c563d",
+              "url": "https://prehraj.to/road-number-one-e16-720p-hdtv-x264-kishd-cs/f896acc7787c563d",
+              "title": "Road.Number.One.E16.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 4048,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4048,
+                "runtime_delta": 0.325,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4680bbf4c6bb870d",
+              "url": "https://prehraj.to/road-number-one-e09-720p-hdtv-x264-kishd-cs/4680bbf4c6bb870d",
+              "title": "Road.Number.One.E09.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 3950,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3950,
+                "runtime_delta": 0.342,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dfe477125b64113c",
+              "url": "https://prehraj.to/road-number-one-e12-720p-hdtv-x264-kishd-cs/dfe477125b64113c",
+              "title": "Road.Number.One.E12.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 3942,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3942,
+                "runtime_delta": 0.343,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c3c467b6106649eb",
+              "url": "https://prehraj.to/road-number-one-e08-720p-hdtv-x264-kishd-cs/c3c467b6106649eb",
+              "title": "Road.Number.One.E08.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 4003,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4003,
+                "runtime_delta": 0.333,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7ec860cdc6e4cc22",
+              "url": "https://prehraj.to/road-number-one-e10-720p-hdtv-x264-kishd-cs/7ec860cdc6e4cc22",
+              "title": "Road.Number.One.E10.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 3908,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3908,
+                "runtime_delta": 0.349,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "72d855404e3328fa",
+              "url": "https://prehraj.to/road-number-one-e14-720p-hdtv-x264-kishd-cs/72d855404e3328fa",
+              "title": "Road.Number.One.E14.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 3999,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3999,
+                "runtime_delta": 0.333,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f7bbc58534a0a91c",
+              "url": "https://prehraj.to/road-number-one-e11-720p-hdtv-x264-kishd-cs/f7bbc58534a0a91c",
+              "title": "Road.Number.One.E11.720P.HDTV.X264-KiSHD.cs",
+              "year": null,
+              "duration_sec": 3975,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3975,
+                "runtime_delta": 0.338,
+                "rejection_reason": "title_only"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66a11fbc340fe",
+              "url": "https://prehraj.to/audiofreq-number-one-thriller-bydejv/66a11fbc340fe",
+              "title": "Audiofreq - Number One Thriller byDejv",
+              "year": null,
+              "duration_sec": 194,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "682d05d051196",
+              "url": "https://prehraj.to/audiofreq-number-one-thriller-bydejv/682d05d051196",
+              "title": "Audiofreq - Number One Thriller byDejv",
+              "year": null,
+              "duration_sec": 195,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61c1e284ad60e",
+              "url": "https://prehraj.to/a-christmas-number-one-2021-1080p-now-web-dl-ddp5-1-h-264-ntb/61c1e284ad60e",
+              "title": "A.Christmas.Number.One.2021.1080p.NOW.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 6690,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "682606a800a84",
+              "url": "https://prehraj.to/audiofreq-number-one-thriller/682606a800a84",
+              "title": "Audiofreq - Number One Thriller",
+              "year": null,
+              "duration_sec": 195,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61c39e53c7146",
+              "url": "https://prehraj.to/a-christmas-number-one-2021-1080p-webrip-x264-aac5-1-yts-mx/61c39e53c7146",
+              "title": "A.Christmas.Number.One.2021.1080p.WEBRip.x264.AAC5.1-[YTS…",
+              "year": null,
+              "duration_sec": 6690,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61c220b59ff21",
+              "url": "https://prehraj.to/a-christmas-number-one-2021-webrip-x264-ion10/61c220b59ff21",
+              "title": "A.Christmas.Number.One.2021.WEBRip.x264-ION10",
+              "year": null,
+              "duration_sec": 6690,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61c2203860cfe",
+              "url": "https://prehraj.to/a-christmas-number-one-2021-1080p-webrip-x264-rarbg/61c2203860cfe",
+              "title": "A.Christmas.Number.One.2021.1080p.WEBRip.x264-RARBG",
+              "year": null,
+              "duration_sec": 6690,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1969,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67f2156c90db3",
+              "url": "https://prehraj.to/number-one-on-the-call-sheet-2025-s01e02-2160p-atvp-web-dl-h265-sdr-ddp-atmos-5-1-english-hone/67f2156c90db3",
+              "title": "Number One on the Call Sheet (2025) S01E02 (2160p ATVP WEB…",
+              "year": null,
+              "duration_sec": 5545,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67f2159703423",
+              "url": "https://prehraj.to/number-one-on-the-call-sheet-2025-s01e01-2160p-atvp-web-dl-hybrid-h265-dv-hdr10-ddp-atmos-5-1-english-hone/67f2159703423",
+              "title": "Number One on the Call Sheet (2025) S01E01 (2160p ATVP WEB…",
+              "year": null,
+              "duration_sec": 5867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67f2149aa4c9a",
+              "url": "https://prehraj.to/number-one-on-the-call-sheet-2025-s01e02-1080p-atvp-web-dl-h264-sdr-ddp-atmos-5-1-english-hone/67f2149aa4c9a",
+              "title": "Number One on the Call Sheet (2025) S01E02 (1080p ATVP WEB…",
+              "year": null,
+              "duration_sec": 5545,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Number One (1969)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:42:27.270873+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "number-one",
+        "title": "Number One",
+        "original_title": null,
+        "year": 1969,
+        "runtime_min": 100,
+        "tmdb_id": 88504,
+        "imdb_id": "tt0064743",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:42:25.834065+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:42:24.256554+00:00"
+  "updated_at": "2026-08-28T07:42:27.270893+00:00"
 }
