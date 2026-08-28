@@ -32035,7 +32035,67 @@
         },
         "at": "2026-08-28T06:59:34.547657+00:00"
       }
+    },
+    "21579": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bc152736e45",
+              "url": "https://prehraj.to/major-zeman-dama-s-erbem-1959/55bc152736e45",
+              "title": "Major-Zeman-Dáma-s-erbem---1959",
+              "year": null,
+              "duration_sec": 4663,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.245,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": 1959,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 4663,
+                "runtime_delta": 0.207,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:59:47.718075+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "brevi-amori-a-palma-di-majorca",
+        "title": "Brevi amori a Palma di Majorca",
+        "original_title": "Vacations in Majorca",
+        "year": 1959,
+        "runtime_min": 98,
+        "tmdb_id": 59249,
+        "imdb_id": "tt0054433",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:59:38.186988+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:59:36.886124+00:00"
+  "updated_at": "2026-08-28T06:59:47.718095+00:00"
 }
