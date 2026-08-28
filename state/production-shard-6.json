@@ -20107,7 +20107,686 @@
         },
         "at": "2026-08-28T06:48:37.421258+00:00"
       }
+    },
+    "27222": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58744c77d28c8",
+              "url": "https://prehraj.to/mamut-titan-doby-ledove-cz-dokumentarni-jizni-korea-2010/58744c77d28c8",
+              "title": "Mamut-Titán-doby-ledové-CZ-Dokumentární,-Jižní-Korea,-2010",
+              "year": null,
+              "duration_sec": 4816,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2010,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 4816,
+                "runtime_delta": 0.128,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "abc51782037ba18f",
+              "url": "https://prehraj.to/lov-na-mamuta-1965-cz/abc51782037ba18f",
+              "title": "Lov na mamuta (1965) CZ",
+              "year": null,
+              "duration_sec": 5595,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na mamuta! (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4f75dbf0d5bb9e43",
+              "url": "https://prehraj.to/lov-na-mamuta-1965/4f75dbf0d5bb9e43",
+              "title": "Lov na mamuta (1965)",
+              "year": null,
+              "duration_sec": 5595,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 1965,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na mamuta! (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64042a93cb313",
+              "url": "https://prehraj.to/zdivocela-amerika-6-mamuti-na-manhattanu-bbc-2002/64042a93cb313",
+              "title": "Zdivočelá Amerika (6) Mamuti na Manhattanu (BBC 2002)",
+              "year": null,
+              "duration_sec": 2967,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Na mamuta! (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c07d1d3c9492b42",
+              "url": "https://prehraj.to/byznys-1876-dil-jak-lze-ozivit-mamuta-jake-to-ma-uskali-a-prinosy-popisuje-cesky-genetik-a-paleontolog/1c07d1d3c9492b42",
+              "title": "Byznys - 1876. díl - Jak lze „oživit“ mamuta, jaké to má…",
+              "year": null,
+              "duration_sec": 670,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.879,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na mamuta! (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "593e8011a2579",
+              "url": "https://prehraj.to/odvazne-palce-filmove-premiery-terminator-doba-ledova-mamuti-drcnuti-tohle-je-nas-svet/593e8011a2579",
+              "title": "Odvážné palce - Filmové premiéry – Terminátor, Doba ledová_…",
+              "year": null,
+              "duration_sec": 1437,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.74,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na mamuta! (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62f2b08e49239",
+              "url": "https://prehraj.to/matysek-a-jaja-matysku-nakresli-mi-mamuta/62f2b08e49239",
+              "title": "Matýsek a Jája - Matýsku, nakresli mi mamuta",
+              "year": null,
+              "duration_sec": 418,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.924,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na mamuta! (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a1934f977dbebea7",
+              "url": "https://prehraj.to/tech-232-dil-video-mysi-s-mamuti-srsti-startup-ukazal-proc-ma-hodnotu-ctvrt-bilionu/a1934f977dbebea7",
+              "title": "Tech - 232. díl - Video Myši s mamutí srstí. Startup ukázal…",
+              "year": null,
+              "duration_sec": 300,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.946,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Na mamuta! (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0508ab7ec3269702",
+              "url": "https://prehraj.to/mamut-mammut-mammoth-2009-swe-cz-tit-mkv/0508ab7ec3269702",
+              "title": "Mamut / Mammut / Mammoth 2009, SWE - CZ tit.mkv",
+              "year": null,
+              "duration_sec": 7520,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.318,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 7520,
+                "runtime_delta": 0.362,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "37fd084d4e81d67b",
+              "url": "https://prehraj.to/mamut-mammut-mammoth-2009-swe-cz-tit-mkv/37fd084d4e81d67b",
+              "title": "Mamut / Mammut / Mammoth 2009, SWE - CZ tit.mkv",
+              "year": null,
+              "duration_sec": 7520,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.318,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 7520,
+                "runtime_delta": 0.362,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b4626ebdbf8bd9f2",
+              "url": "https://prehraj.to/mammoth-s2e3-en/b4626ebdbf8bd9f2",
+              "title": "Mammoth - S2E3 EN",
+              "year": null,
+              "duration_sec": 1539,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "07fecfba764c8396",
+              "url": "https://prehraj.to/mammoth-s2e1-en/07fecfba764c8396",
+              "title": "Mammoth - S2E1 EN",
+              "year": null,
+              "duration_sec": 1537,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "31622b6e7c23a46a",
+              "url": "https://prehraj.to/mammoth-s2e2-en/31622b6e7c23a46a",
+              "title": "Mammoth - S2E2 EN",
+              "year": null,
+              "duration_sec": 1640,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6a95479df8b5d3e6",
+              "url": "https://prehraj.to/mammoth-s1e2-en/6a95479df8b5d3e6",
+              "title": "Mammoth - S1E2 EN",
+              "year": null,
+              "duration_sec": 1551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "df576e18fa002a5d",
+              "url": "https://prehraj.to/mammoth-s1e1-en/df576e18fa002a5d",
+              "title": "Mammoth - S1E1 EN",
+              "year": null,
+              "duration_sec": 1485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6c38669e61e8c95a",
+              "url": "https://prehraj.to/mammoth-s1e3-en/6c38669e61e8c95a",
+              "title": "Mammoth - S1E3 EN",
+              "year": null,
+              "duration_sec": 1622,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a93274f25ddd43bc",
+              "url": "https://prehraj.to/mammoth-2009-cz-titulky/a93274f25ddd43bc",
+              "title": "Mammoth (2009) CZ Titulky",
+              "year": null,
+              "duration_sec": 7214,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.632,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 7214,
+                "runtime_delta": 0.307,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62fb5de1529134e7",
+              "url": "https://prehraj.to/killshot-mammoth/62fb5de1529134e7",
+              "title": "Killshot - Mammoth",
+              "year": null,
+              "duration_sec": 247,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.955,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8accb7148a77a1aa",
+              "url": "https://prehraj.to/mammoth-hunters-2025/8accb7148a77a1aa",
+              "title": "Mammoth Hunters (2025)",
+              "year": null,
+              "duration_sec": 5033,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f6e156cf1fd99a06",
+              "url": "https://prehraj.to/gold-rush-mammoth-channel-s06e08-1080p-sk/f6e156cf1fd99a06",
+              "title": "Gold Rush Mammoth Channel S06E08 1080p SK",
+              "year": null,
+              "duration_sec": 2637,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2a5d81773bb334bf",
+              "url": "https://prehraj.to/gold-rush-mammoth-gold-s06e09-1080p-sk/2a5d81773bb334bf",
+              "title": "Gold Rush Mammoth Gold S06E09 1080p SK",
+              "year": null,
+              "duration_sec": 2630,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61daf97dae8dc",
+              "url": "https://prehraj.to/attenborough-and-the-mammoth-graveyard-2021-1080p-ip-web-dl-aac2-0-h-264-ntb/61daf97dae8dc",
+              "title": "Attenborough.and.the.Mammoth.Graveyard.2021.1080p.iP.WEB-DL…",
+              "year": null,
+              "duration_sec": 3508,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61dafa039c3be",
+              "url": "https://prehraj.to/attenborough-and-the-mammoth-graveyard-2021-1080p-ip-webrip-x264-rarbg/61dafa039c3be",
+              "title": "Attenborough.and.the.Mammoth.Graveyard.2021.1080p.iP.WEBRip…",
+              "year": null,
+              "duration_sec": 3508,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59443691c72a2",
+              "url": "https://prehraj.to/cestovani-a-priroda-gardaland-mammut/59443691c72a2",
+              "title": "Cestování a příroda - Gardaland - Mammut",
+              "year": null,
+              "duration_sec": 30,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.995,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61dafa4ca16ab",
+              "url": "https://prehraj.to/attenborough-and-the-mammoth-graveyard-2021-1080p-webrip-x264-aac-yts-mx/61dafa4ca16ab",
+              "title": "Attenborough.And.The.Mammoth.Graveyard.2021.1080p.WEBRip…",
+              "year": null,
+              "duration_sec": 3508,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61dafa7264a9d",
+              "url": "https://prehraj.to/attenborough-and-the-mammoth-graveyard-2021-ip-webrip-x264-ion10/61dafa7264a9d",
+              "title": "Attenborough.and.the.Mammoth.Graveyard.2021.iP.WEBRip.x264…",
+              "year": null,
+              "duration_sec": 3508,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61daf965e6481",
+              "url": "https://prehraj.to/attenborough-and-the-mammoth-graveyard-2021-720p-webrip-x264-aac-yts-mx/61daf965e6481",
+              "title": "Attenborough.And.The.Mammoth.Graveyard.2021.720p.WEBRip…",
+              "year": null,
+              "duration_sec": 3508,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2010,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "613f4b5d12687",
+              "url": "https://prehraj.to/dino-hunters-series-2-3of8-mammoth-mass-mortality-1080p-hdtv-x264-aac-mvgroup-org/613f4b5d12687",
+              "title": "Dino.Hunters.Series.2.3of8.Mammoth.Mass.Mortality.1080p…",
+              "year": null,
+              "duration_sec": 2494,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.548,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f39ef4fa034e",
+              "url": "https://prehraj.to/praey-for-the-gods-gameplay-walkthrough-part-2-mammoth-colossus-early-access/5f39ef4fa034e",
+              "title": "Praey For The Gods - Gameplay Walkthrough Part 2 - Mammoth…",
+              "year": null,
+              "duration_sec": 2507,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.546,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f21624588df3",
+              "url": "https://prehraj.to/praey-for-the-gods-gameplay-walkthrough-part-2-mammoth-colossus-early-access/5f21624588df3",
+              "title": "Praey For The Gods - Gameplay Walkthrough Part 2 - Mammoth…",
+              "year": null,
+              "duration_sec": 2507,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.546,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5adfc116a378c",
+              "url": "https://prehraj.to/nova-sciencenow-45-phoenix-mars-lander-brain-trauma-mammoth-mystery-profile-judah-folkman/5adfc116a378c",
+              "title": "NOVA scienceNOW - 45 - Phoenix Mars Lander, Brain Trauma,…",
+              "year": null,
+              "duration_sec": 3147,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 2010,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 3147,
+                "runtime_delta": 0.43,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Mammuth (2010)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6507246acb19d",
+              "url": "https://prehraj.to/anime-time-one-piece-0230-adventure-in-the-city-on-the-water-head-to-the-mammoth-shipbuilding-plant/6507246acb19d",
+              "title": "[Anime Time] One Piece - 0230 - Adventure in the City on…",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.739,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Mammuth (2010)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:48:52.032874+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "na-mamuta",
+        "title": "Na mamuta!",
+        "original_title": "Mammuth",
+        "year": 2010,
+        "runtime_min": 92,
+        "tmdb_id": 37832,
+        "imdb_id": "tt1473074",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:48:40.181933+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:48:38.915351+00:00"
+  "updated_at": "2026-08-28T06:48:52.032896+00:00"
 }
