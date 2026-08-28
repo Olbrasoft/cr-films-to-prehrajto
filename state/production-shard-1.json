@@ -64757,6 +64757,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:14:08.425035+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b5dd50a008f",
+              "url": "https://prehraj.to/hitman-3-likvidator-1991-chuck-noriss/55b5dd50a008f",
+              "title": "Hitman-3-Likvidator--(1991)-Chuck-Noriss",
+              "year": null,
+              "duration_sec": 5613,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.394,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5613,
+                "runtime_delta": 0.006,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:50:51.214439+00:00"
         }
       ],
       "identity": {
@@ -64775,7 +64813,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:14:06.923615+00:00"
+        "at": "2026-08-28T03:50:49.872619+00:00"
       }
     },
     "24025": {
@@ -78805,5 +78843,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:50:48.243699+00:00"
+  "updated_at": "2026-08-28T03:50:51.214460+00:00"
 }
