@@ -38509,7 +38509,94 @@
         },
         "at": "2026-08-28T21:36:50.882741+00:00"
       }
+    },
+    "16357": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "dc568532cc051637",
+              "url": "https://prehraj.to/vcielka-maja-maya-the-bee-movie-2014-sk/dc568532cc051637",
+              "title": "Včielka Maja - Maya the Bee Movie (2014)_sk",
+              "year": null,
+              "duration_sec": 5014,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5014,
+                "runtime_delta": 0.05,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Maya the Bee Movie (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "680c4203162ac",
+              "url": "https://prehraj.to/vcielka-maja-maya-the-bee-movie-2014-sk/680c4203162ac",
+              "title": "Včielka Maja - Maya the Bee Movie (2014)_sk",
+              "year": null,
+              "duration_sec": 5016,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5016,
+                "runtime_delta": 0.05,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Maya the Bee Movie (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T21:37:00.575909+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vcelka-maja-2014",
+        "title": "Včelka Mája",
+        "original_title": "Maya the Bee Movie",
+        "year": 2014,
+        "runtime_min": 88,
+        "tmdb_id": 261103,
+        "imdb_id": "tt3336368",
+        "created_at": "2026-04-14 16:09:59.379592+02:00",
+        "added_at": "2018-07-24 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T21:36:55.762831+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T21:36:54.309996+00:00"
+  "updated_at": "2026-08-28T21:37:00.575925+00:00"
 }
