@@ -9141,7 +9141,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:54:22.294399+00:00"
+        "at": "2026-08-28T06:32:13.231698+00:00"
       }
     },
     "29523": {
@@ -14936,7 +14936,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:54:22.294710+00:00"
+        "at": "2026-08-28T06:32:13.232064+00:00"
       }
     },
     "29317": {
@@ -23172,7 +23172,7 @@
             }
           ]
         },
-        "at": "2026-08-28T03:54:22.298087+00:00"
+        "at": "2026-08-28T06:32:13.236275+00:00"
       }
     },
     "28825": {
@@ -52587,7 +52587,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:54:22.294209+00:00"
+        "at": "2026-08-28T06:32:13.231460+00:00"
       }
     },
     "21381": {
@@ -60080,7 +60080,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:54:22.298793+00:00"
+        "at": "2026-08-28T06:32:13.237173+00:00"
       }
     },
     "25357": {
@@ -60594,7 +60594,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T03:54:22.301236+00:00"
+        "at": "2026-08-28T06:32:13.239973+00:00"
       }
     },
     "25241": {
@@ -81958,7 +81958,94 @@
         "verified_at": "2026-08-28T04:42:58.143542+00:00",
         "live_display_name": "Most přes Labe (1969) CZ Dabing"
       }
+    },
+    "21873": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "584d6cca49e00",
+              "url": "https://prehraj.to/divka-s-pistoli-dvdrip-cz-1968-pres-multiload-cz/584d6cca49e00",
+              "title": "divka-s-pistoli-dvdrip-cz-1968-přes-MultiLoad.cz",
+              "year": null,
+              "duration_sec": 5915,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.237,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5915,
+                "runtime_delta": 0.083,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584d557095c1d",
+              "url": "https://prehraj.to/divka-s-pistoli-dvdrip-cz-1968-pres-multiload-cz/584d557095c1d",
+              "title": "divka-s-pistoli-dvdrip-cz-1968-přes-MultiLoad.cz",
+              "year": null,
+              "duration_sec": 5915,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.237,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5915,
+                "runtime_delta": 0.083,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:32:16.328375+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-girl-on-a-motorcycle",
+        "title": "The Girl on a Motorcycle",
+        "original_title": null,
+        "year": 1968,
+        "runtime_min": 91,
+        "tmdb_id": 29722,
+        "imdb_id": "tt0063013",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:32:13.240172+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:32:08.995216+00:00"
+  "updated_at": "2026-08-28T06:32:16.328389+00:00"
 }
