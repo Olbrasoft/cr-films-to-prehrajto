@@ -19102,6 +19102,115 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:22:26.892971+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "452f85d39507b",
+              "url": "https://prehraj.to/colonia-2015-cz-titulky-720p-web-dl/452f85d39507b",
+              "title": "Colonia.2015.CZ titulky.720p.WEB-DL",
+              "year": null,
+              "duration_sec": 6592,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.324,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5adfccf784b25",
+              "url": "https://prehraj.to/cyberbully-2015-1080p-web-dl-x264-ac3-cz-bst/5adfccf784b25",
+              "title": "Cyberbully.2015.1080p.WEB-DL.x264.AC3.CZ-BST",
+              "year": null,
+              "duration_sec": 3708,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.12,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b02c46619535",
+              "url": "https://prehraj.to/cyberbully-2015-1080p-web-dl-x264-ac3-cz-bst/5b02c46619535",
+              "title": "Cyberbully.2015.1080p.WEB-DL.x264.AC3.CZ-BST",
+              "year": null,
+              "duration_sec": 3708,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.12,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60fd8c88d1ffc",
+              "url": "https://prehraj.to/the-patrick-star-show-s01e05e06-stair-wars-enemies-a-la-mode-1080p-amzn-web-dl-ddp2-0-h-264-tvsmash/60fd8c88d1ffc",
+              "title": "The.Patrick.Star.Show.S01E05E06.Stair.Wars-Enemies.à.la…",
+              "year": null,
+              "duration_sec": 1360,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.511,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Le gars d'la shop (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60fd8cdf08c9a",
+              "url": "https://prehraj.to/the-patrick-star-show-s01e05e06-stair-wars-enemies-a-la-mode-720p-amzn-web-dl-ddp2-0-h-264-tvsmash/60fd8cdf08c9a",
+              "title": "The.Patrick.Star.Show.S01E05E06.Stair.Wars-Enemies.à.la…",
+              "year": null,
+              "duration_sec": 1359,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.51,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Le gars d'la shop (2015)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:07:13.896296+00:00"
         }
       ],
       "identity": {
@@ -19120,7 +19229,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:22:26.403251+00:00"
+        "at": "2026-08-28T11:07:12.578625+00:00"
       }
     },
     "29240": {
@@ -59605,5 +59714,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:07:11.101110+00:00"
+  "updated_at": "2026-08-28T11:07:13.896312+00:00"
 }
