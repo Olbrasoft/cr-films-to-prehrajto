@@ -34428,7 +34428,121 @@
         },
         "at": "2026-08-28T07:41:37.536593+00:00"
       }
+    },
+    "21165": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586fd1a412207",
+              "url": "https://prehraj.to/otec-kondelik-a-zenich-vejvara-1937-lq/586fd1a412207",
+              "title": "Otec-Kondelík-a-ženich-Vejvara-1937-LQ",
+              "year": null,
+              "duration_sec": 5778,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.226,
+                "title_contains_alias": false,
+                "film_year": 1937,
+                "candidate_year": 1937,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5778,
+                "runtime_delta": 0.058,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583d96c58aee5",
+              "url": "https://prehraj.to/otec-kondelik-a-zenich-vejvara-1937-lq/583d96c58aee5",
+              "title": "Otec-Kondelík-a-ženich-Vejvara-1937-LQ",
+              "year": null,
+              "duration_sec": 5778,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.226,
+                "title_contains_alias": false,
+                "film_year": 1937,
+                "candidate_year": 1937,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5778,
+                "runtime_delta": 0.058,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584ca4037544d",
+              "url": "https://prehraj.to/otec-kondelik-a-zenich-vejvara-1937-lq/584ca4037544d",
+              "title": "Otec-Kondelík-a-ženich-Vejvara-1937-LQ",
+              "year": null,
+              "duration_sec": 5778,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.226,
+                "title_contains_alias": false,
+                "film_year": 1937,
+                "candidate_year": 1937,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5778,
+                "runtime_delta": 0.058,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:41:43.026289+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-awful-truth",
+        "title": "The Awful Truth",
+        "original_title": null,
+        "year": 1937,
+        "runtime_min": 91,
+        "tmdb_id": 14675,
+        "imdb_id": "tt0028597",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:41:41.392714+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:41:39.888078+00:00"
+  "updated_at": "2026-08-28T07:41:43.026308+00:00"
 }
