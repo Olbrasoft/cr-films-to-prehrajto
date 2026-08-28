@@ -28601,6 +28601,721 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:00:25.903666+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e2059a08b1d0",
+              "url": "https://prehraj.to/bludicky-1-dil-cz-serial-2013-jad/5e2059a08b1d0",
+              "title": "Bludičky-1.díl-cz serial-2013-jad",
+              "year": null,
+              "duration_sec": 5037,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 5037,
+                "runtime_delta": 0.105,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e2bd0e498eae",
+              "url": "https://prehraj.to/bludicky-1-dil-cz-serial-2013-jad/5e2bd0e498eae",
+              "title": "Bludičky-1.díl-cz serial-2013-jad",
+              "year": null,
+              "duration_sec": 5037,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 5037,
+                "runtime_delta": 0.105,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e2bd24db0473",
+              "url": "https://prehraj.to/bludicky-3-dil-cz-serial-2013-jad/5e2bd24db0473",
+              "title": "Bludičky-3.díl-cz serial-2013-jad",
+              "year": null,
+              "duration_sec": 5383,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.356,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 5383,
+                "runtime_delta": 0.18,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e205b7388b65",
+              "url": "https://prehraj.to/bludicky-3-dil-cz-serial-2013-jad/5e205b7388b65",
+              "title": "Bludičky-3.díl-cz serial-2013-jad",
+              "year": null,
+              "duration_sec": 5383,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.356,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 5383,
+                "runtime_delta": 0.18,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "15b2d83234603508",
+              "url": "https://prehraj.to/3g-a-killer-connection-2013-id/15b2d83234603508",
+              "title": "3G - A Killer Connection - 2013 ID",
+              "year": null,
+              "duration_sec": 7011,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.537,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac02f7b5e227",
+              "url": "https://prehraj.to/3g-a-killer-connection-2013/5ac02f7b5e227",
+              "title": "3G - A Killer Connection (2013)",
+              "year": null,
+              "duration_sec": 7011,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.537,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7a58afd6a57263f4",
+              "url": "https://prehraj.to/psycho-killer-dardy-1/7a58afd6a57263f4",
+              "title": "Psycho Killer dardy_1",
+              "year": null,
+              "duration_sec": 5470,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.444,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 5470,
+                "runtime_delta": 0.2,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2e20ba3d6d89dcee",
+              "url": "https://prehraj.to/psycho-killer-dardy-1/2e20ba3d6d89dcee",
+              "title": "Psycho Killer dardy_1",
+              "year": null,
+              "duration_sec": 5470,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.444,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 5470,
+                "runtime_delta": 0.2,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "681dd5016d8c3",
+              "url": "https://prehraj.to/mesrine-part-1-killer-instinct-2008-bluray-remux-bydejv/681dd5016d8c3",
+              "title": "Mesrine Part 1 Killer Instinct 2008 BluRay REMUX byDejv",
+              "year": null,
+              "duration_sec": 6806,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2013,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168a1838f49",
+              "url": "https://prehraj.to/i-am-a-killer-s01e07-family-affair-1080p-nf-web-dl-ddp5-1-h-264/67168a1838f49",
+              "title": "I.AM.A.KILLER.S01E07.Family.Affair.1080p.NF.WEB-DL.DDP5.1.H…",
+              "year": null,
+              "duration_sec": 3088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63a4c9547e1da",
+              "url": "https://prehraj.to/i-am-a-killer-s04e01-czdab/63a4c9547e1da",
+              "title": "I Am a Killer S04E01 CZdab",
+              "year": null,
+              "duration_sec": 2820,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f137a0d1f4d3",
+              "url": "https://prehraj.to/i-am-a-killer-s01e01-cztit-v-obraze/5f137a0d1f4d3",
+              "title": "I Am a Killer S01E01 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 3056,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f138f194708b",
+              "url": "https://prehraj.to/i-am-a-killer-s01e08-cztit-v-obraze/5f138f194708b",
+              "title": "I Am a Killer S01E08 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 3034,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "671689ae1f6ba",
+              "url": "https://prehraj.to/i-am-a-killer-s01e04-sympathy-for-the-devil-1080p-nf-web-dl-ddp5-1-h-264/671689ae1f6ba",
+              "title": "I.AM.A.KILLER.S01E04.Sympathy.for.the.Devil.1080p.NF.WEB-DL…",
+              "year": null,
+              "duration_sec": 3190,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63a4ca4f5245d",
+              "url": "https://prehraj.to/i-am-a-killer-s04e02-czdab/63a4ca4f5245d",
+              "title": "I Am a Killer S04E02 CZdab",
+              "year": null,
+              "duration_sec": 2928,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168c370c2cb",
+              "url": "https://prehraj.to/i-am-a-killer-s04e06-friendly-fire-1080p-nf-web-dl-ddp5-1-h-264/67168c370c2cb",
+              "title": "I.AM.A.KILLER.S04E06.Friendly.Fire.1080p.NF.WEB-DL.DDP5.1.H…",
+              "year": null,
+              "duration_sec": 2741,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6716893f36b59",
+              "url": "https://prehraj.to/i-am-a-killer-s01e01-means-to-an-end-1080p-nf-web-dl-ddp5-1-h-264/6716893f36b59",
+              "title": "I.AM.A.KILLER.S01E01.Means.to.an.End.1080p.NF.WEB-DL.DDP5.1…",
+              "year": null,
+              "duration_sec": 3067,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f138bd30dd21",
+              "url": "https://prehraj.to/i-am-a-killer-s01e07-cztit-v-obraze/5f138bd30dd21",
+              "title": "I Am a Killer S01E07 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 3079,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168b27ed4c1",
+              "url": "https://prehraj.to/i-am-a-killer-s02e09-a-silent-order-1080p-nf-web-dl-ddp5-1-h-264/67168b27ed4c1",
+              "title": "I.AM.A.KILLER.S02E09.A.Silent.Order.1080p.NF.WEB-DL.DDP5.1…",
+              "year": null,
+              "duration_sec": 2806,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168a75c715c",
+              "url": "https://prehraj.to/i-am-a-killer-s01e10-a-matter-of-life-and-death-1080p-nf-web-dl-ddp5-1-h-264/67168a75c715c",
+              "title": "I.AM.A.KILLER.S01E10.A.Matter.of.Life.and.Death.1080p.NF…",
+              "year": null,
+              "duration_sec": 3038,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168c43d7207",
+              "url": "https://prehraj.to/i-am-a-killer-s05e01-redemption-1080p-nf-web-dl-ddp5-1-h-264/67168c43d7207",
+              "title": "I.AM.A.KILLER.S05E01.Redemption.1080p.NF.WEB-DL.DDP5.1.H…",
+              "year": null,
+              "duration_sec": 3059,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168c8f5eb1e",
+              "url": "https://prehraj.to/i-am-a-killer-s05e05-loved-to-death-1080p-nf-web-dl-ddp5-1-h-264/67168c8f5eb1e",
+              "title": "I.AM.A.KILLER.S05E05.Loved.To.Death.1080p.NF.WEB-DL.DDP5.1…",
+              "year": null,
+              "duration_sec": 2774,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168bf0aa675",
+              "url": "https://prehraj.to/i-am-a-killer-s04e03-serving-time-1080p-nf-web-dl-ddp5-1-h-264/67168bf0aa675",
+              "title": "I.AM.A.KILLER.S04E03.Serving.Time.1080p.NF.WEB-DL.DDP5.1.H…",
+              "year": null,
+              "duration_sec": 2691,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168acd2adb7",
+              "url": "https://prehraj.to/i-am-a-killer-s02e04-trapped-1080p-nf-web-dl-ddp5-1-h-264/67168acd2adb7",
+              "title": "I.AM.A.KILLER.S02E04.Trapped.1080p.NF.WEB-DL.DDP5.1.H.264-",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168aed3fef0",
+              "url": "https://prehraj.to/i-am-a-killer-s02e06-pyro-joe-1080p-nf-web-dl-ddp5-1-h-264/67168aed3fef0",
+              "title": "I.AM.A.KILLER.S02E06.Pyro.Joe.1080p.NF.WEB-DL.DDP5.1.H.264-",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1382b2b00df",
+              "url": "https://prehraj.to/i-am-a-killer-s01e04-cztit-v-obraze/5f1382b2b00df",
+              "title": "I Am a Killer S01E04 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 3178,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63a4cb04038be",
+              "url": "https://prehraj.to/i-am-a-killer-s04e03-czdab/63a4cb04038be",
+              "title": "I Am a Killer S04E03 CZdab",
+              "year": null,
+              "duration_sec": 2692,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "671942260d097",
+              "url": "https://prehraj.to/i-am-a-killer-s05e05-czdab/671942260d097",
+              "title": "I Am a Killer S05E05 CZdab",
+              "year": null,
+              "duration_sec": 2775,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "671943662e9f4",
+              "url": "https://prehraj.to/i-am-a-killer-s05e06-czdab/671943662e9f4",
+              "title": "I Am a Killer S05E06 CZdab",
+              "year": null,
+              "duration_sec": 2594,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b0e93a30799848ae",
+              "url": "https://prehraj.to/i-am-a-killer-s06e02-cztitulky/b0e93a30799848ae",
+              "title": "I Am a Killer S06E02 CZtitulky",
+              "year": null,
+              "duration_sec": 2423,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63a4cddad56bd",
+              "url": "https://prehraj.to/i-am-a-killer-s04e06-czdab/63a4cddad56bd",
+              "title": "I Am a Killer S04E06 CZdab",
+              "year": null,
+              "duration_sec": 2742,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63a397e37cf58",
+              "url": "https://prehraj.to/i-am-a-killer-s04e04-cz-1080p-nf-web-dl-ddp5-1-h-264-smurf/63a397e37cf58",
+              "title": "I.Am.A.Killer.S04E04.CZ.1080p.NF.WEB-DL.DDP5.1.H.264-SMURF",
+              "year": null,
+              "duration_sec": 2664,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168abde27fa",
+              "url": "https://prehraj.to/i-am-a-killer-s02e03-an-ordinary-boy-1080p-nf-web-dl-ddp5-1-h-264/67168abde27fa",
+              "title": "I.AM.A.KILLER.S02E03.An.Ordinary.Boy.1080p.NF.WEB-DL.DDP5.1…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67168b208ecd9",
+              "url": "https://prehraj.to/i-am-a-killer-s02e08-crossing-the-line-1080p-nf-web-dl-ddp5-1-h-264/67168b208ecd9",
+              "title": "I.AM.A.KILLER.S02E08.Crossing.the.Line.1080p.NF.WEB-DL.DDP5…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f12301bd3a5b",
+              "url": "https://prehraj.to/i-am-a-killer-s02e01-cztit-v-obraze/5f12301bd3a5b",
+              "title": "I Am a Killer S02E01 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 2798,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1233d3a4fc7",
+              "url": "https://prehraj.to/i-am-a-killer-s02e06-cztit-v-obraze/5f1233d3a4fc7",
+              "title": "I Am a Killer S02E06 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 2799,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "#1 Serial Killer (2013)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:18:47.527381+00:00"
         }
       ],
       "identity": {
@@ -28619,7 +29334,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:00:25.435853+00:00"
+        "at": "2026-08-28T03:18:46.004987+00:00"
       }
     },
     "28203": {
@@ -72499,5 +73214,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:18:44.512352+00:00"
+  "updated_at": "2026-08-28T03:18:47.527402+00:00"
 }
