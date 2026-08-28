@@ -24714,7 +24714,67 @@
         },
         "at": "2026-08-28T06:39:05.845137+00:00"
       }
+    },
+    "26243": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "610c47759b35f",
+              "url": "https://prehraj.to/hotel-snu-06-indie-2006-czdab/610c47759b35f",
+              "title": "Hotel snů 06 - Indie (2006) CZdab",
+              "year": null,
+              "duration_sec": 5374,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.38,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 161,
+                "candidate_runtime_sec": 5374,
+                "runtime_delta": 0.444,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:39:20.816624+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ghost-in-the-shell-stand-alone-complex-individual-eleven",
+        "title": "Ghost in the Shell: Stand alone complex - Individual eleven",
+        "original_title": "Ghost in the Shell: S.A.C. 2nd GIG - Individual Eleven",
+        "year": 2006,
+        "runtime_min": 161,
+        "tmdb_id": 111224,
+        "imdb_id": "tt1024214",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:39:08.466954+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:39:07.212639+00:00"
+  "updated_at": "2026-08-28T06:39:20.816643+00:00"
 }
