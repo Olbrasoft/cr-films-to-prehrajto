@@ -60036,7 +60036,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:10:15.139471+00:00"
+        "at": "2026-08-28T03:49:16.027763+00:00"
       }
     },
     "25357": {
@@ -60438,6 +60438,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:10:32.742074+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6059033b0c6f7",
+              "url": "https://prehraj.to/oceans-twelve-2004-blu-ray-1080p-vc-1-rus-eng/6059033b0c6f7",
+              "title": "Oceans.Twelve.2004.Blu-ray.1080p.VC-1.Rus.Eng",
+              "year": null,
+              "duration_sec": 7518,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.773,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:49:18.439178+00:00"
         }
       ],
       "identity": {
@@ -60456,7 +60487,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:10:32.001553+00:00"
+        "at": "2026-08-28T03:49:16.027849+00:00"
       }
     },
     "25251": {
@@ -77494,5 +77525,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:49:14.384219+00:00"
+  "updated_at": "2026-08-28T03:49:18.439199+00:00"
 }
