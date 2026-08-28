@@ -30063,7 +30063,476 @@
         },
         "at": "2026-08-28T07:26:56.432122+00:00"
       }
+    },
+    "23194": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "e8d3fbf79735719c",
+              "url": "https://prehraj.to/adamsova-rodina-1-1991-dvdrip-hb2200-aac160-cz-tit-eng-2pass-encoding-spark-s-mkv/e8d3fbf79735719c",
+              "title": "Adamsova Rodina 1 (1991) DVDRip HB2200, aac160 CZ, tit.eng (2pass encoding - Spark) s.mkv",
+              "year": null,
+              "duration_sec": 5977,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 103,
+                "candidate_runtime_sec": 5977,
+                "runtime_delta": 0.033,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b566acadfea",
+              "url": "https://prehraj.to/in-the-park-1915/68b566acadfea",
+              "title": "In The Park (1915)",
+              "year": null,
+              "duration_sec": 755,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1915,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d8b73c1a2518dc28",
+              "url": "https://prehraj.to/strangers-in-the-park-2026-cztitulky/d8b73c1a2518dc28",
+              "title": "Strangers In The Park (2026) CZtitulky",
+              "year": null,
+              "duration_sec": 6936,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fcfbdf1acf4e",
+              "url": "https://prehraj.to/barefoot-in-the-park-1967-cztitulky/5fcfbdf1acf4e",
+              "title": "Barefoot in the Park (1967) CZtitulky",
+              "year": null,
+              "duration_sec": 6360,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1967,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ab027857275",
+              "url": "https://prehraj.to/in-the-park-charlie-chaplin-1915-cz/63ab027857275",
+              "title": "In The Park (Charlie Chaplin) [1915]  CZ",
+              "year": null,
+              "duration_sec": 847,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1915,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63aa1dfc454d3",
+              "url": "https://prehraj.to/in-the-park-charlie-chaplin-1915-cz/63aa1dfc454d3",
+              "title": "In The Park (Charlie Chaplin) [1915]  CZ",
+              "year": null,
+              "duration_sec": 847,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1915,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6821f327c713f",
+              "url": "https://prehraj.to/bibaa-and-nicole-murder-in-the-park-s01e02/6821f327c713f",
+              "title": "Bibaa and Nicole Murder In The Park S01E02",
+              "year": null,
+              "duration_sec": 2848,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6821f342f281e",
+              "url": "https://prehraj.to/bibaa-and-nicole-murder-in-the-park-s01e03/6821f342f281e",
+              "title": "Bibaa and Nicole Murder In The Park S01E03",
+              "year": null,
+              "duration_sec": 2952,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "24b9019929f1bef2",
+              "url": "https://prehraj.to/the-girl-in-the-park-divka-v-parku-2007-1080p-bluray-x264-mkv/24b9019929f1bef2",
+              "title": "The.Girl.In.The.Park.Dívka.v.parku.2007.1080p.BluRay.x264…",
+              "year": null,
+              "duration_sec": 6345,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2007,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bc9d1789d03ecfbd",
+              "url": "https://prehraj.to/bose-nohy-v-parku-barefoot-in-the-park-1967-cz-mkv/bc9d1789d03ecfbd",
+              "title": "Bosé nohy v parku / Barefoot in the Park 1967, CZ.mkv",
+              "year": null,
+              "duration_sec": 6363,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1967,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67061dcd9506e",
+              "url": "https://prehraj.to/linkin-park-in-the-end-d-fence-remix-bydejv/67061dcd9506e",
+              "title": "Linkin Park - In The End (D-Fence Remix) byDejv",
+              "year": null,
+              "duration_sec": 207,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.967,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685b345ce2c76",
+              "url": "https://prehraj.to/simon-garfunkel-the-boxer-from-the-concert-in-central-park/685b345ce2c76",
+              "title": "Simon & Garfunkel - The Boxer (from The Concert in Central…",
+              "year": null,
+              "duration_sec": 112,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.982,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a6f2ccc9381",
+              "url": "https://prehraj.to/grand-canyon-of-the-yellowstone-national-park-usa-in-4k-ultra-hd/67a6f2ccc9381",
+              "title": "Grand Canyon of the Yellowstone National Park, USA in 4K …",
+              "year": null,
+              "duration_sec": 269,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.956,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678a72dda626e",
+              "url": "https://prehraj.to/linkin-park-in-the-end-remix-on-iphone-garageband/678a72dda626e",
+              "title": "Linkin Park - In The End (remix) on iPhone (GarageBand)",
+              "year": null,
+              "duration_sec": 390,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b2ce8dfb5cf42b12",
+              "url": "https://prehraj.to/1900-s-a-walk-in-the-park-bois-de-boulogne-paris/b2ce8dfb5cf42b12",
+              "title": "1900´s A Walk in the Park - Bois de Boulogne Paris",
+              "year": null,
+              "duration_sec": 60,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1900,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68c5c8e61e27b",
+              "url": "https://prehraj.to/bryan-adams-live-at-bbc-radio-2-in-the-park-2025/68c5c8e61e27b",
+              "title": "Bryan Adams - Live at BBC Radio 2 in the Park - 2025",
+              "year": null,
+              "duration_sec": 4571,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68d5845062d6e",
+              "url": "https://prehraj.to/belinda-carlisle-live-at-bbc-radio-2-in-the-park-2025-web-1080p/68d5845062d6e",
+              "title": "Belinda Carlisle - Live at BBC Radio 2 in the Park 2025 …",
+              "year": null,
+              "duration_sec": 2555,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68c5c28775084",
+              "url": "https://prehraj.to/def-leppard-live-at-bbc-radio-2-in-the-park-2025/68c5c28775084",
+              "title": "Def Leppard - Live at BBC Radio 2 in the Park - 2025",
+              "year": null,
+              "duration_sec": 4581,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63e8ab8dd8af7ce8",
+              "url": "https://prehraj.to/v-parku-na-lavicce-on-a-bench-in-the-park-1957-cz-mp4/63e8ab8dd8af7ce8",
+              "title": "V parku na lavičce / On a bench in the park 1957, CZ.mp4",
+              "year": null,
+              "duration_sec": 653,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1957,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68931ccfe5c6a",
+              "url": "https://prehraj.to/bruce-springsteen-the-e-street-band-london-calling-live-in-hyde-park/68931ccfe5c6a",
+              "title": "Bruce Springsteen & The E Street Band - London Calling Live…",
+              "year": null,
+              "duration_sec": 10360,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.676,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555bf4f861a9",
+              "url": "https://prehraj.to/ain-t-good-enough-for-you-live-from-the-carousel-asbury-park/6555bf4f861a9",
+              "title": "Ain't Good Enough for You (Live from The Carousel, Asbury…",
+              "year": null,
+              "duration_sec": 285,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.954,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Spark in the Dark (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58cfea9b1b5eb",
+              "url": "https://prehraj.to/normalka-86-strasidelne-historky-z-parku-ii-tapetovac-terror-tales-of-the-park-ii-czdab-576p/58cfea9b1b5eb",
+              "title": "Normalka-86-strasidelne-historky-z-parku-II-tapetovac-…",
+              "year": null,
+              "duration_sec": 662,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.893,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Spark in the Dark (1991)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:27:23.813525+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "kislap-sa-dilim",
+        "title": "Kislap sa Dilim",
+        "original_title": "Spark in the Dark",
+        "year": 1991,
+        "runtime_min": 103,
+        "tmdb_id": 399401,
+        "imdb_id": "tt0102219",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:27:16.162827+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:27:12.117057+00:00"
+  "updated_at": "2026-08-28T07:27:23.813545+00:00"
 }
