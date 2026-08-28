@@ -38099,6 +38099,37 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:41:20.217885+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "578f9c0acc63c",
+              "url": "https://prehraj.to/x-men-first-class-2011/578f9c0acc63c",
+              "title": "X-Men.First.Class.2011",
+              "year": null,
+              "duration_sec": 7903,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.882,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:09:38.215320+00:00"
         }
       ],
       "identity": {
@@ -38117,7 +38148,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:41:03.454176+00:00"
+        "at": "2026-08-28T11:09:31.523928+00:00"
       }
     },
     "27900": {
@@ -65317,5 +65348,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:09:30.033987+00:00"
+  "updated_at": "2026-08-28T11:09:38.215336+00:00"
 }
