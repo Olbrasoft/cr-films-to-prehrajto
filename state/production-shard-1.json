@@ -9141,7 +9141,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:54:03.616619+00:00"
+        "at": "2026-08-28T03:17:07.543209+00:00"
       }
     },
     "29523": {
@@ -9245,6 +9245,1294 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:58:08.144738+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fc1b8ee3ae93",
+              "url": "https://prehraj.to/they-shall-not-grow-old-2018-1080p-bluray-hevc-dts-hd-ma-5-1-dtone/5fc1b8ee3ae93",
+              "title": "They.Shall.Not.Grow.Old.2018.1080p.BluRay.HEVC.DTS-HD.MA.5.1-DTOne",
+              "year": null,
+              "duration_sec": 5959,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.131,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5959,
+                "runtime_delta": 0.241,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0ca58383a6b8232d",
+              "url": "https://prehraj.to/ma-mere-est-folle-2018-fr/0ca58383a6b8232d",
+              "title": "Ma mère est folle - 2018 FR",
+              "year": null,
+              "duration_sec": 5415,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.424,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5415,
+                "runtime_delta": 0.128,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4ed8c3f2bcc",
+              "url": "https://prehraj.to/in-her-name-au-nom-de-ma-fille/5c4ed8c3f2bcc",
+              "title": "In Her Name - Au nom de ma fille",
+              "year": null,
+              "duration_sec": 5182,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5182,
+                "runtime_delta": 0.08,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d29c0ae09c66c3b6",
+              "url": "https://prehraj.to/la-fille-de-dracula-r-1972-1280x544-fr/d29c0ae09c66c3b6",
+              "title": "La fille de Dracula (r.1972 - 1280x544 - FR)",
+              "year": null,
+              "duration_sec": 4739,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3e25c7e2b5158378",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e3-cs/3e25c7e2b5158378",
+              "title": "La Jeune fille et la nuit - S1E3 CS",
+              "year": null,
+              "duration_sec": 2800,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "22489f370fd07822",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e1-cs/22489f370fd07822",
+              "title": "La Jeune fille et la nuit - S1E1 CS",
+              "year": null,
+              "duration_sec": 2600,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "baf9d591482ffd0c",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e5-en/baf9d591482ffd0c",
+              "title": "La Jeune fille et la nuit - S1E5 EN",
+              "year": null,
+              "duration_sec": 2760,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ffb82bcf8e7cc902",
+              "url": "https://prehraj.to/la-fille-de-l-assassin-720p-sk/ffb82bcf8e7cc902",
+              "title": "La fille de l'Assassin 720p SK",
+              "year": null,
+              "duration_sec": 5577,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.467,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5577,
+                "runtime_delta": 0.162,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c9ac080d2eff55a4",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e5-cs/c9ac080d2eff55a4",
+              "title": "La Jeune fille et la nuit - S1E5 CS",
+              "year": null,
+              "duration_sec": 2647,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f6cda3d03a809007",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e4-en/f6cda3d03a809007",
+              "title": "La Jeune fille et la nuit - S1E4 EN",
+              "year": null,
+              "duration_sec": 2786,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "70037fc6cb6def19",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e1-en/70037fc6cb6def19",
+              "title": "La Jeune fille et la nuit - S1E1 EN",
+              "year": null,
+              "duration_sec": 2711,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3c511a71760c3916",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e2-en/3c511a71760c3916",
+              "title": "La Jeune fille et la nuit - S1E2 EN",
+              "year": null,
+              "duration_sec": 2822,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cb0335ee99ae9d26",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e6-en/cb0335ee99ae9d26",
+              "title": "La Jeune fille et la nuit - S1E6 EN",
+              "year": null,
+              "duration_sec": 2833,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b0482d941e1c2f59",
+              "url": "https://prehraj.to/la-fille-de-l-assassin-2023-sk-mp4/b0482d941e1c2f59",
+              "title": "La fille de l'Assassin (2023)(SK).mp4",
+              "year": null,
+              "duration_sec": 5569,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "791da4ec7a3bd6b3",
+              "url": "https://prehraj.to/la-fille-de-son-pere-2023-1080p-bluray-x264-aac5-1-yts-bz-mkv/791da4ec7a3bd6b3",
+              "title": "La.Fille.De.Son.Pere.2023.1080p.BluRay.x264.AAC5.1-[YTS.BZ]…",
+              "year": null,
+              "duration_sec": 5461,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "438fdb1ba75abd5c",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e4-cs/438fdb1ba75abd5c",
+              "title": "La Jeune fille et la nuit - S1E4 CS",
+              "year": null,
+              "duration_sec": 2671,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f5b551fe034aa5e3",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e2-cs/f5b551fe034aa5e3",
+              "title": "La Jeune fille et la nuit - S1E2 CS",
+              "year": null,
+              "duration_sec": 2706,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5433b5d9af8a54b7",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e6-cs/5433b5d9af8a54b7",
+              "title": "La Jeune fille et la nuit - S1E6 CS",
+              "year": null,
+              "duration_sec": 2717,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "16e40c0eed994f7d",
+              "url": "https://prehraj.to/la-jeune-fille-et-la-nuit-s1e3-en/16e40c0eed994f7d",
+              "title": "La Jeune fille et la nuit - S1E3 EN",
+              "year": null,
+              "duration_sec": 2919,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0181c9d2d6c1127a",
+              "url": "https://prehraj.to/la-faille-1975-en/0181c9d2d6c1127a",
+              "title": "La faille - 1975 EN",
+              "year": null,
+              "duration_sec": 6635,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 1975,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678de44d7da32",
+              "url": "https://prehraj.to/vrahova-dcera-la-fille-de-l-assassin-2023-sk-tvrip-hevc-720p/678de44d7da32",
+              "title": "Vrahova dcéra - La fille de l'Assassin 2023 SK TvRip HEVC…",
+              "year": null,
+              "duration_sec": 5577,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688aa8d796b4e",
+              "url": "https://prehraj.to/d-artagnanova-dcera-la-fille-de-d-artagnan-1994-hd-tvrip-cz/688aa8d796b4e",
+              "title": "D'Artagnanova dcera (La Fille de d'Artagnan) - 1994 - HD…",
+              "year": null,
+              "duration_sec": 7462,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 1994,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6bcd4ff3c480ff9a",
+              "url": "https://prehraj.to/portret-divky-v-plamenech-portrait-de-la-jeune-fille-en-feu-portrait-of-a-lady-on-fire-2019-f-en-tit-cz-tit-mkv/6bcd4ff3c480ff9a",
+              "title": "Portrét dívky v plamenech / Portrait de la jeune fille en…",
+              "year": null,
+              "duration_sec": 7270,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.515,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9302bd14575b4500",
+              "url": "https://prehraj.to/portret-divky-v-plamenech-portrait-de-la-jeune-fille-en-feu-portrait-of-a-lady-on-fire-2019-f-en-tit-cz-tit-mkv/9302bd14575b4500",
+              "title": "Portrét dívky v plamenech / Portrait de la jeune fille en…",
+              "year": null,
+              "duration_sec": 7270,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.515,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7feb02830b9f4e80",
+              "url": "https://prehraj.to/d-artagnanova-dcera-la-fille-de-d-artagnan-1994-romanticky-czdab-mkv/7feb02830b9f4e80",
+              "title": "D'Artagnanova dcera,(La Fille de d'Artagnan,1994,Romantický…",
+              "year": null,
+              "duration_sec": 7462,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 1994,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e978325d15a2",
+              "url": "https://prehraj.to/divka-na-moste-la-fille-sur-le-pont-girl-on-the-bridge-1999-f-cz-tit/5e978325d15a2",
+              "title": "Dívka na mostě _ La fille sur le pont _ Girl on the Bridge…",
+              "year": null,
+              "duration_sec": 5263,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.258,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5263,
+                "runtime_delta": 0.096,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b389cb85460",
+              "url": "https://prehraj.to/divka-na-moste-la-fille-sur-le-pont-girl-on-the-bridge-1999-cz-tit/58b389cb85460",
+              "title": "Dívka-na-mostě-_-La-Fille-sur-le-pont-_-Girl-on-the-Bridge…",
+              "year": null,
+              "duration_sec": 5283,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.258,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5283,
+                "runtime_delta": 0.101,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "640ba0ef2cca7",
+              "url": "https://prehraj.to/43-beur-sur-la-ville/640ba0ef2cca7",
+              "title": "43. Beur sur la ville",
+              "year": null,
+              "duration_sec": 5777,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.429,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 5777,
+                "runtime_delta": 0.204,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6321404d359fd",
+              "url": "https://prehraj.to/deux-hommes-dans-la-ville-1973-1080p/6321404d359fd",
+              "title": "Deux.hommes.dans.la.ville.1973.1080p",
+              "year": null,
+              "duration_sec": 5621,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 1973,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68fc92edc7fb6",
+              "url": "https://prehraj.to/wille-a-ja-willie-and-me-2023-cz/68fc92edc7fb6",
+              "title": "Wille a Já _ Willie and Me (2023)(CZ)",
+              "year": null,
+              "duration_sec": 5239,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a7432ac3e3cb010b",
+              "url": "https://prehraj.to/wille-a-ja-willie-and-me-2023-cz-mp4/a7432ac3e3cb010b",
+              "title": "Wille a Já _ Willie and Me (2023)(CZ).mp4",
+              "year": null,
+              "duration_sec": 5239,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "677b72449d7d2",
+              "url": "https://prehraj.to/the-odessa-file-1974-720p-bluray-x264-yts-am-cz-tit/677b72449d7d2",
+              "title": "The.Odessa.File.1974.720p.BluRay.x264-[YTS.AM]-cz tit",
+              "year": null,
+              "duration_sec": 7719,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68af51c45d647",
+              "url": "https://prehraj.to/la-folle-histoire-de-max-et-leon-2016-french-720p-bluray-tit/68af51c45d647",
+              "title": "La.folle.histoire.de.max.et.leon.2016.french.720p.bluray.…",
+              "year": null,
+              "duration_sec": 5880,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ma fille (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cb9598e5f89ae7ac",
+              "url": "https://prehraj.to/leila-s1e5-episode-5-en/cb9598e5f89ae7ac",
+              "title": "Leila - S1E5 Episode 5 EN",
+              "year": null,
+              "duration_sec": 2550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "05a6f0aa91531e5f",
+              "url": "https://prehraj.to/leila-s1e1-episode-1-en/05a6f0aa91531e5f",
+              "title": "Leila - S1E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 3226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dd0b2b745a9e",
+              "url": "https://prehraj.to/leila-s01e06-cz-titulky/5dd0b2b745a9e",
+              "title": "Leila S01E06 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 2412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dd09d812f3a4",
+              "url": "https://prehraj.to/leila-s01e05-cz-titulky/5dd09d812f3a4",
+              "title": "Leila S01E05 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 2548,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dd09b0e7c952",
+              "url": "https://prehraj.to/leila-s01e03-cz-titulky/5dd09b0e7c952",
+              "title": "Leila S01E03 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 2897,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dd0b23518cd3",
+              "url": "https://prehraj.to/leila-s01e02-cz-titulky/5dd0b23518cd3",
+              "title": "Leila S01E02 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 2985,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ca6a8039f3e",
+              "url": "https://prehraj.to/leila-s01e04-cz-titulky/60ca6a8039f3e",
+              "title": "Leila S01E04 CZ titulky",
+              "year": null,
+              "duration_sec": 2470,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ca6a0581de6",
+              "url": "https://prehraj.to/leila-s01e02-cz-titulky/60ca6a0581de6",
+              "title": "Leila S01E02 CZ titulky",
+              "year": null,
+              "duration_sec": 2986,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "89d098d5187e35db",
+              "url": "https://prehraj.to/leila-s1e3-episode-3-en/89d098d5187e35db",
+              "title": "Leila - S1E3 Episode 3 EN",
+              "year": null,
+              "duration_sec": 2898,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c14f6ad3b7663d0",
+              "url": "https://prehraj.to/leila-s1e4-episode-4-en/5c14f6ad3b7663d0",
+              "title": "Leila - S1E4 Episode 4 EN",
+              "year": null,
+              "duration_sec": 2470,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dd0b23d03631",
+              "url": "https://prehraj.to/leila-s01e04-cz-titulky/5dd0b23d03631",
+              "title": "Leila S01E04 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 2469,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dd0b1a74762e",
+              "url": "https://prehraj.to/leila-s01e01-cz-titulky/5dd0b1a74762e",
+              "title": "Leila S01E01 - CZ TITULKY",
+              "year": null,
+              "duration_sec": 3225,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ca6a43a2b10",
+              "url": "https://prehraj.to/leila-s01e03-cz-titulky/60ca6a43a2b10",
+              "title": "Leila S01E03 CZ titulky",
+              "year": null,
+              "duration_sec": 2898,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ca6ab47dece",
+              "url": "https://prehraj.to/leila-s01e05-cz-titulky/60ca6ab47dece",
+              "title": "Leila S01E05 CZ titulky",
+              "year": null,
+              "duration_sec": 2550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2fda5a729c72c923",
+              "url": "https://prehraj.to/leila-s1e2-episode-2-en/2fda5a729c72c923",
+              "title": "Leila - S1E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 2986,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b90e305c6c0a55ad",
+              "url": "https://prehraj.to/leila-s1e6-episode-6-en/b90e305c6c0a55ad",
+              "title": "Leila - S1E6 Episode 6 EN",
+              "year": null,
+              "duration_sec": 2412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ca69c1bfbd1",
+              "url": "https://prehraj.to/leila-s01e01-cz-titulky/60ca69c1bfbd1",
+              "title": "Leila S01E01 CZ titulky",
+              "year": null,
+              "duration_sec": 3226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "600f0e2eaf947",
+              "url": "https://prehraj.to/laila-majnu-2018-hindi-1080p-web-dl-x264-sk-tit/600f0e2eaf947",
+              "title": "Laila.Majnu.2018.Hindi.1080p.WEB-DL.x264.sk.tit",
+              "year": null,
+              "duration_sec": 7926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.651,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "600c9b3dc4849",
+              "url": "https://prehraj.to/laila-majnu-2018-sktitulky/600c9b3dc4849",
+              "title": "Laila Majnu (2018) SKtitulky",
+              "year": null,
+              "duration_sec": 7926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.651,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b66a127fdcd9012",
+              "url": "https://prehraj.to/laila-majnu-2018-en/5b66a127fdcd9012",
+              "title": "Laila Majnu - 2018 EN",
+              "year": null,
+              "duration_sec": 7926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.651,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8d28df6841af99d7",
+              "url": "https://prehraj.to/leyla-38-sktitulky/8d28df6841af99d7",
+              "title": "Leyla - 38 SKtitulky",
+              "year": null,
+              "duration_sec": 8033,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.674,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b59d80bb47a23b80",
+              "url": "https://prehraj.to/nesmrtelna-leyla-2020-cz-titulky/b59d80bb47a23b80",
+              "title": "Nesmrtelná Leyla (2020) CZ Titulky",
+              "year": null,
+              "duration_sec": 6761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fcc28e4e866a",
+              "url": "https://prehraj.to/nesmrtelna-leyla-2020-cztitulky/5fcc28e4e866a",
+              "title": "Nesmrtelná Leyla (2020) CZtitulky",
+              "year": null,
+              "duration_sec": 6761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fce70e0e77af",
+              "url": "https://prehraj.to/nesmrtelna-leyla-2020-tur-cz-titulky-vlozene-do-obrazu-komedie/5fce70e0e77af",
+              "title": "Nesmrtelná Leyla.2020.TUR.CZ titulky vložené do obrazu…",
+              "year": null,
+              "duration_sec": 6762,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "19cb079ad35df7ef",
+              "url": "https://prehraj.to/nesmrtelna-leyla-2020-en/19cb079ad35df7ef",
+              "title": "Nesmrtelná Leyla - 2020 EN",
+              "year": null,
+              "duration_sec": 6761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64a944e013c13",
+              "url": "https://prehraj.to/leila-k-open-sesame/64a944e013c13",
+              "title": "LEILA K Open Sesame",
+              "year": null,
+              "duration_sec": 208,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.957,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fcc16b8dcf1f",
+              "url": "https://prehraj.to/9-kere-leyla-2020-cztitulky/5fcc16b8dcf1f",
+              "title": "9 Kere Leyla (2020) CZtitulky",
+              "year": null,
+              "duration_sec": 6761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "20dee01414f1a7a5",
+              "url": "https://prehraj.to/lila-lila-2009-cs/20dee01414f1a7a5",
+              "title": "Lila, Lila - 2009 CS",
+              "year": null,
+              "duration_sec": 5897,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2009,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64a944ce77a13",
+              "url": "https://prehraj.to/laila/64a944ce77a13",
+              "title": "Laila",
+              "year": null,
+              "duration_sec": 206,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.957,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fccda61d4da0",
+              "url": "https://prehraj.to/nesmrtelna-leyla-komedie-turecko-2020-1080p-5-1-h264-tur-s-cztitulky-sten-ok/5fccda61d4da0",
+              "title": "Nesmrtelná Leyla komedie Turecko 2020.1080p.5.1.H264.Tur.s…",
+              "year": null,
+              "duration_sec": 6761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3d20d7d6cf125961",
+              "url": "https://prehraj.to/abu-lejla-2019-en/3d20d7d6cf125961",
+              "title": "Abú Lejla - 2019 EN",
+              "year": null,
+              "duration_sec": 7665,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.597,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Leila (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d75ddf3a9fb1cc51",
+              "url": "https://prehraj.to/layla-fourie-2013-en/d75ddf3a9fb1cc51",
+              "title": "Layla Fourie - 2013 EN",
+              "year": null,
+              "duration_sec": 6417,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Leila (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:17:08.990203+00:00"
         }
       ],
       "identity": {
@@ -9263,7 +10551,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:58:07.684352+00:00"
+        "at": "2026-08-28T03:17:07.543368+00:00"
       }
     },
     "29511": {
@@ -67765,5 +69053,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:17:03.991058+00:00"
+  "updated_at": "2026-08-28T03:17:08.990219+00:00"
 }
