@@ -32095,7 +32095,67 @@
         },
         "at": "2026-08-28T06:59:38.186988+00:00"
       }
+    },
+    "21539": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c561811cdb",
+              "url": "https://prehraj.to/ohne-na-planinach-nobi-1959-cz-tit/586c561811cdb",
+              "title": "Ohně-na-planinách-_-Nobi-1959,-CZ-tit",
+              "year": null,
+              "duration_sec": 6277,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.185,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": 1959,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 6277,
+                "runtime_delta": 0.473,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:59:51.568404+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "riot-in-juvenile-prison",
+        "title": "Riot in Juvenile Prison",
+        "original_title": null,
+        "year": 1959,
+        "runtime_min": 71,
+        "tmdb_id": 93062,
+        "imdb_id": "tt0053222",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:59:50.953501+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:59:47.718095+00:00"
+  "updated_at": "2026-08-28T06:59:51.568423+00:00"
 }
