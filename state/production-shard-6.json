@@ -37212,7 +37212,732 @@
         },
         "at": "2026-08-28T23:05:15.495603+00:00"
       }
+    },
+    "6718": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "51e0410006b60c09",
+              "url": "https://prehraj.to/xxl/51e0410006b60c09",
+              "title": "XXL",
+              "year": null,
+              "duration_sec": 232,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.667,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 232,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67826f3a96629",
+              "url": "https://prehraj.to/xxl/67826f3a96629",
+              "title": "XXL",
+              "year": null,
+              "duration_sec": 233,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.667,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 233,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4f0faefdaf1f0f0b",
+              "url": "https://prehraj.to/xxy-mp4/4f0faefdaf1f0f0b",
+              "title": "XXY.mp4",
+              "year": null,
+              "duration_sec": 5060,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5060,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3e02efbe1f1e7d23",
+              "url": "https://prehraj.to/xxl-1997-cs/3e02efbe1f1e7d23",
+              "title": "XXL - 1997 CS",
+              "year": null,
+              "duration_sec": 5614,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 1997,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62233ee7590fe",
+              "url": "https://prehraj.to/simpsonovi-xxxi-20/62233ee7590fe",
+              "title": "Simpsonovi XXXI (20)",
+              "year": null,
+              "duration_sec": 33,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 33,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "588b8c88e9e9f",
+              "url": "https://prehraj.to/kralovna-xxl-cz-dabing-2008-lehi/588b8c88e9e9f",
+              "title": "Kralovna XXL [CZ dabing, 2008] (LEHI)",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4e889024aed50625",
+              "url": "https://prehraj.to/lady-xxl-2006-cz-dabing/4e889024aed50625",
+              "title": "Lady XXL (2006) CZ Dabing",
+              "year": null,
+              "duration_sec": 5660,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9612e163cb3e2ac2",
+              "url": "https://prehraj.to/lady-xxl-2006-cs/9612e163cb3e2ac2",
+              "title": "Lady XXL - 2006 CS",
+              "year": null,
+              "duration_sec": 5660,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c7f9fcdc7ca",
+              "url": "https://prehraj.to/lady-xxl-2006-czdab/55c7f9fcdc7ca",
+              "title": "Lady XXL (2006)CZdab",
+              "year": null,
+              "duration_sec": 5660,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d6a83e80c85e4ba1",
+              "url": "https://prehraj.to/ektor-xxl/d6a83e80c85e4ba1",
+              "title": "Ektor XXL",
+              "year": null,
+              "duration_sec": 232,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 232,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9be8e43fa2c49e1c",
+              "url": "https://prehraj.to/kralovna-xxl/9be8e43fa2c49e1c",
+              "title": "Královna-XXL",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5015,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584cd52f04e48",
+              "url": "https://prehraj.to/kralovna-xxl-cz-dabing-2008/584cd52f04e48",
+              "title": "Kralovna XXL [CZ dabing, 2008]",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583773d1b555c",
+              "url": "https://prehraj.to/kralovna-xxl-cz-dabing-2008-tuta/583773d1b555c",
+              "title": "Kralovna XXL, CZ dabing (2008)  (tuta)",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a63de0f262481286",
+              "url": "https://prehraj.to/kralovna-xxl-2008-cz-dabing/a63de0f262481286",
+              "title": "Královna XXL (2008) CZ Dabing",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "571f0ea2caf665da",
+              "url": "https://prehraj.to/kralovna-xxl-2008-cs/571f0ea2caf665da",
+              "title": "Královna XXL - 2008 CS",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f032fdc54951",
+              "url": "https://prehraj.to/lady-xxl-2006-cz/5f032fdc54951",
+              "title": "Lady XXL ~ (2006) cz",
+              "year": null,
+              "duration_sec": 5660,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55cf79a309665",
+              "url": "https://prehraj.to/kralovna-xxl-cz-dabing/55cf79a309665",
+              "title": "Kralovna XXL CZ dabing",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5015,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b4b42fa34512",
+              "url": "https://prehraj.to/kralovna-xxl-2008-cz-dabing/5b4b42fa34512",
+              "title": "Královna XXL (2008) CZ Dabing",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad3b56d8cd6d",
+              "url": "https://prehraj.to/kralovna-xxl-2008/5ad3b56d8cd6d",
+              "title": "Královna XXL (2008)",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c05f88741b07",
+              "url": "https://prehraj.to/kralovna-xxl/5c05f88741b07",
+              "title": "Královna XXL",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5015,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "397901292b58aa42",
+              "url": "https://prehraj.to/kralovna-xxl-2008-cs/397901292b58aa42",
+              "title": "Královna XXL - 2008 CS",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58315b11df279",
+              "url": "https://prehraj.to/kralovna-xxl-cz-dabing-2008-by-kamer/58315b11df279",
+              "title": "Kralovna XXL, CZ dabing (2008) by KAMer",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5706b2bfcddf3",
+              "url": "https://prehraj.to/kralovna-xxl-cz-dabing-2008/5706b2bfcddf3",
+              "title": "Kralovna XXL, CZ dabing (2008)",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5866c0e98d18f",
+              "url": "https://prehraj.to/kralovna-xxl-cz-dabing-2008-lehi/5866c0e98d18f",
+              "title": "Kralovna XXL, CZ dabing (2008) (lehi)",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "babedbc05d3b423a",
+              "url": "https://prehraj.to/magic-mike-xxl-magic-mike-xxl-2015-cz/babedbc05d3b423a",
+              "title": "Magic Mike XXL (Magic Mike XXL) (2015) CZ",
+              "year": null,
+              "duration_sec": 6917,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ffdc80047ab2ed45",
+              "url": "https://prehraj.to/xx-s1e3-ko/ffdc80047ab2ed45",
+              "title": "XX - S1E3 KO",
+              "year": null,
+              "duration_sec": 2954,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64f5ea57312bc635",
+              "url": "https://prehraj.to/xx-s1e4-ko/64f5ea57312bc635",
+              "title": "XX - S1E4 KO",
+              "year": null,
+              "duration_sec": 2837,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57fa56dabb60ebd0",
+              "url": "https://prehraj.to/xx-s1e5-ko/57fa56dabb60ebd0",
+              "title": "XX - S1E5 KO",
+              "year": null,
+              "duration_sec": 3213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6833459f75eb9",
+              "url": "https://prehraj.to/dil-37-xxs/6833459f75eb9",
+              "title": "díl 37 XXS",
+              "year": null,
+              "duration_sec": 1291,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.308,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1291,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5463f92ad22921bb",
+              "url": "https://prehraj.to/xx-s1e2-ko/5463f92ad22921bb",
+              "title": "XX - S1E2 KO",
+              "year": null,
+              "duration_sec": 2629,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b20c46910c0b5ceb",
+              "url": "https://prehraj.to/xx/b20c46910c0b5ceb",
+              "title": "XX",
+              "year": null,
+              "duration_sec": 18169,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.8,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 18169,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "xXx (2002)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "689f8d76a4f4f",
+              "url": "https://prehraj.to/xx-2017-cz-tit/689f8d76a4f4f",
+              "title": "XX (2017)-cz tit",
+              "year": null,
+              "duration_sec": 4846,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2002,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "xXx (2002)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T23:05:23.832958+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "xxx",
+        "title": "xXx",
+        "original_title": "xXx",
+        "year": 2002,
+        "runtime_min": null,
+        "tmdb_id": 7451,
+        "imdb_id": "tt0295701",
+        "created_at": "2026-04-13 13:19:26.476505+02:00",
+        "added_at": "2018-12-12 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T23:05:20.980438+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T23:05:19.140314+00:00"
+  "updated_at": "2026-08-28T23:05:23.832976+00:00"
 }
