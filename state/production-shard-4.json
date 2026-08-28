@@ -26924,7 +26924,94 @@
         },
         "at": "2026-08-28T02:48:50.733853+00:00"
       }
+    },
+    "23516": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b6b451bffef",
+              "url": "https://prehraj.to/komisar-moulin-l-jako-lennon-1992-cz/55b6b451bffef",
+              "title": "Komisař-Moulin-L-jako-Lennon-(1992)-CZ",
+              "year": null,
+              "duration_sec": 4612,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.423,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 4612,
+                "runtime_delta": 0.208,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b55ff144258",
+              "url": "https://prehraj.to/komisar-moulin-l-jako-lennon-1992-cz/55b55ff144258",
+              "title": "Komisař-Moulin-L-jako-Lennon-(1992)-CZ",
+              "year": null,
+              "duration_sec": 4612,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.423,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 4612,
+                "runtime_delta": 0.208,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:48:56.756933+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "le-moulin-de-daudet",
+        "title": "Le Moulin de Daudet",
+        "original_title": null,
+        "year": 1992,
+        "runtime_min": 97,
+        "tmdb_id": 512825,
+        "imdb_id": "tt0110579",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:48:53.108724+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:48:51.752621+00:00"
+  "updated_at": "2026-08-28T02:48:56.756955+00:00"
 }
