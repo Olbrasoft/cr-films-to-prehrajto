@@ -50803,6 +50803,82 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:28:12.889884+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6086e2d982b62",
+              "url": "https://prehraj.to/7-days-2008-cztitulky/6086e2d982b62",
+              "title": "7 Days (2008) CZtitulky",
+              "year": null,
+              "duration_sec": 6205,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 103,
+                "candidate_runtime_sec": 6205,
+                "runtime_delta": 0.004,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e33c9067c",
+              "url": "https://prehraj.to/seven-days-days-of-the-week-song-word-power-pinkfong-songs-for-children/5ae0e33c9067c",
+              "title": "Seven Days - Days of the Week Song - Word Power - PINKFONG…",
+              "year": null,
+              "duration_sec": 84,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.986,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Seven Days (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e33ca4807",
+              "url": "https://prehraj.to/seven-days-days-of-the-week-song-word-power-pinkfong-songs-for-children/5ae0e33ca4807",
+              "title": "Seven Days - Days of the Week Song - Word Power - PINKFONG…",
+              "year": null,
+              "duration_sec": 83,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.987,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Seven Days (2008)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:24.661981+00:00"
         }
       ],
       "identity": {
@@ -50821,7 +50897,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:28:12.509291+00:00"
+        "at": "2026-08-28T11:11:23.702135+00:00"
       }
     },
     "26766": {
@@ -67038,5 +67114,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:22.099096+00:00"
+  "updated_at": "2026-08-28T11:11:24.661996+00:00"
 }
