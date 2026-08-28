@@ -29475,7 +29475,67 @@
         },
         "at": "2026-08-28T06:57:04.060469+00:00"
       }
+    },
+    "23659": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588fe810d8dd5",
+              "url": "https://prehraj.to/ciste-nebezpeci-1996/588fe810d8dd5",
+              "title": "Ciste--nebezpeci--1996",
+              "year": null,
+              "duration_sec": 5699,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.533,
+                "title_contains_alias": false,
+                "film_year": 1996,
+                "candidate_year": 1996,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5699,
+                "runtime_delta": 0.021,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:57:31.580591+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "andel-strazny-v-nebezpeci",
+        "title": "Anděl strážný v nebezpečí",
+        "original_title": "Angel Flight Down",
+        "year": 1996,
+        "runtime_min": 93,
+        "tmdb_id": 160054,
+        "imdb_id": "tt0115542",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:57:24.487393+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:57:17.898835+00:00"
+  "updated_at": "2026-08-28T06:57:31.580610+00:00"
 }
