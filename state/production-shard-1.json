@@ -63537,6 +63537,117 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:13:14.274043+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587c89c363a87",
+              "url": "https://prehraj.to/studio-ypsilon-vse-pro-firmu-2000/587c89c363a87",
+              "title": "Studio-Ypsilon---Vše-pro-firmu-(2000)",
+              "year": null,
+              "duration_sec": 7396,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.327,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fc4d456c5c7",
+              "url": "https://prehraj.to/demon-pomsty-lance-henriksen-jeff-east-john-d-aquino-1988-horor-bdrip-1080p-cz-dabing/67fc4d456c5c7",
+              "title": "Démon pomsty (Lance Henriksen,Jeff East,John D'Aquino-1988…",
+              "year": null,
+              "duration_sec": 5192,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2000,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "John Henry (2000)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fd3765d8a78",
+              "url": "https://prehraj.to/demon-pomsty-lance-henriksen-jeff-east-john-d-aquino-1988-horor-bdrip-1080p-cz-dabing/67fd3765d8a78",
+              "title": "Démon pomsty (Lance Henriksen,Jeff East,John D'Aquino-1988…",
+              "year": null,
+              "duration_sec": 5192,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2000,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "John Henry (2000)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fbac2cd593b",
+              "url": "https://prehraj.to/demon-pomsty-lance-henriksen-jeff-east-john-d-aquino-1988-horor-bdrip-1080p-cz-dabing/67fbac2cd593b",
+              "title": "Démon pomsty (Lance Henriksen,Jeff East,John D_Aquino-1988…",
+              "year": null,
+              "duration_sec": 5192,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2000,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "John Henry (2000)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fba7ed65599",
+              "url": "https://prehraj.to/demon-pomsty-lance-henriksen-jeff-east-john-d-aquino-1988-horor-bdrip-1080p-cz-dabing/67fba7ed65599",
+              "title": "Démon pomsty (Lance Henriksen,Jeff East,John D_Aquino-1988…",
+              "year": null,
+              "duration_sec": 5192,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2000,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "John Henry (2000)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:50:08.212144+00:00"
         }
       ],
       "identity": {
@@ -63555,7 +63666,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:13:13.710396+00:00"
+        "at": "2026-08-28T03:50:04.798603+00:00"
       }
     },
     "24425": {
@@ -78360,5 +78471,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:49:57.427664+00:00"
+  "updated_at": "2026-08-28T03:50:08.212165+00:00"
 }
