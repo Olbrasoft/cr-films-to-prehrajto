@@ -19320,6 +19320,645 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:58:56.040655+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "56829bbad9ddc",
+              "url": "https://prehraj.to/i-am-soldier-jsem-vojak-2014-cz-tit-p-p/56829bbad9ddc",
+              "title": "I Am Soldier, jsem voják - 2014 cz tit. p.p",
+              "year": null,
+              "duration_sec": 5277,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.795,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1c45629598",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-mrtvy-snih-2-rudy-vs-mrtvy-horor-cz-titulky-2014-jad/67c1c45629598",
+              "title": "P.F. Horor cz dab-Mrtvý sníh 2 Rudý vs. Mrtvý-horor-cz…",
+              "year": null,
+              "duration_sec": 5798,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.663,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bcb71a07ff9",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-blood-widow-2014-cz-tit-horor-koko/67bcb71a07ff9",
+              "title": "P.F. Horor cz dab-Blood Widow - 2014 cz tit.horor koko -",
+              "year": null,
+              "duration_sec": 4967,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.278,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c0845436eb0",
+              "url": "https://prehraj.to/p-f-vojnovy-cz-dab-prezili-jsme-uzemi-nikoho-saints-and-soldiers-the-void-2014-cz/67c0845436eb0",
+              "title": "P.F. Vojnovy cz dab-Prezili jsme uzemi nikoho - Saints and…",
+              "year": null,
+              "duration_sec": 5725,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.542,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1a731cbb1b",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-expressway-to-your-skull-2014/67c1a731cbb1b",
+              "title": "P.F. Horor cz dab-Expressway To Your Skull  2014",
+              "year": null,
+              "duration_sec": 5016,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.36,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c08910768cb",
+              "url": "https://prehraj.to/p-f-vojnovy-cz-dab-seal-team-8-za-nepratelskou-linii-cz-dabing-akcni-valecny-2014/67c08910768cb",
+              "title": "P.F. Vojnovy cz dab-Seal-team-8-za-nepratelskou-linii-cz…",
+              "year": null,
+              "duration_sec": 5836,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.727,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c036d56fca6",
+              "url": "https://prehraj.to/p-f-vojnovy-cz-dab-mesto-44-2014-sk/67c036d56fca6",
+              "title": "P.F. Vojnovy cz dab-Mesto 44 (2014) SK",
+              "year": null,
+              "duration_sec": 6805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.342,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1e28f97503",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-socialisticky-zombi-mord-2014-sk-dabing/67c1e28f97503",
+              "title": "P.F. Horor cz dab-Socialistický Zombi Mord (2014) SK Dabing…",
+              "year": null,
+              "duration_sec": 5640,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.4,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bf3a034fb49",
+              "url": "https://prehraj.to/p-f-vojnovy-cz-dab-1864-2014-czdab-5-dil/67bf3a034fb49",
+              "title": "P.F. Vojnovy cz dab-1864 (2014) CZdab 5. díl -",
+              "year": null,
+              "duration_sec": 3393,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.655,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bc20cfad018",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-animal-2014-cz/67bc20cfad018",
+              "title": "P.F. Horor cz dab-Animal (2014)(CZ) -",
+              "year": null,
+              "duration_sec": 4918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.197,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bf3a9aa0ad8",
+              "url": "https://prehraj.to/p-f-vojnovy-cz-dab-1864-dansky-valecny-serial-6-dil-cz-dab-2014-jad/67bf3a9aa0ad8",
+              "title": "P.F. Vojnovy cz dab-1864-dánský válečný serial-6.díl.-cz…",
+              "year": null,
+              "duration_sec": 3452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.753,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1afe1b095a",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-infected-paradise-2014-zombie/67c1afe1b095a",
+              "title": "P.F. Horor cz dab-Infected Paradise.2014  zombie",
+              "year": null,
+              "duration_sec": 6319,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.532,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e221cbce51f",
+              "url": "https://prehraj.to/p-f-azylum-cz-tit-sharktopus-vs-pteracuda-2014-720p-bluray-yts-mx-cz-tit/67e221cbce51f",
+              "title": "P.F. Azylum cz tit-Sharktopus Vs. Pteracuda (2014) [720p] …",
+              "year": null,
+              "duration_sec": 5287,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.812,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e1aae54c76f",
+              "url": "https://prehraj.to/p-f-valecne-cz-tit-ladoga-2014-hdtvrip-04/67e1aae54c76f",
+              "title": "P.F. Valecne cz tit-Ladoga 2014 HDTVrip-04",
+              "year": null,
+              "duration_sec": 3103,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.172,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1ecf1a1113",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-the-remaining-2014-cztit/67c1ecf1a1113",
+              "title": "P.F. Horor cz dab-The Remaining (2014)CZtit -",
+              "year": null,
+              "duration_sec": 5270,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.783,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c19c3930bf2",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-cooties-2014-cztit-v-obraze-bluray-720p-online-ke-zhlednuti-a-stazeni-prehraj-to/67c19c3930bf2",
+              "title": "P.F. Horor cz dab-Cooties (2014)CZtit V OBRAZE.BluRay.720p …",
+              "year": null,
+              "duration_sec": 5304,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.84,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1eeda131c2",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-the-town-that-dreaded-sundown-2014-cztit/67c1eeda131c2",
+              "title": "P.F. Horor cz dab-The+Town+That+Dreaded+Sundown+(2014)CZtit",
+              "year": null,
+              "duration_sec": 5163,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.605,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1e522e6e11",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-suburban-gothic-cz-tit-v-obraze-csfd-54-hororova-komedie-2014/67c1e522e6e11",
+              "title": "P.F. Horor cz dab-Suburban-Gothic-cz-tit.v-obraze.csfd-54…",
+              "year": null,
+              "duration_sec": 5411,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.018,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c1ee81a7d26",
+              "url": "https://prehraj.to/p-f-horor-cz-dab-the-oatmeal-man-2014-dvdrip/67c1ee81a7d26",
+              "title": "P.F. Horor cz dab-The.Oatmeal.Man.2014.DVDRip",
+              "year": null,
+              "duration_sec": 4881,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.135,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c9a7da58e1b",
+              "url": "https://prehraj.to/pro-dobrotu-na-zebrotu-taraji-p-henson-idris-elba-leslie-bibb-2014-thriller-bdrip-1080p-cz-dabing/67c9a7da58e1b",
+              "title": "Pro dobrotu na žebrotu (Taraji P. Henson,Idris Elba,Leslie…",
+              "year": null,
+              "duration_sec": 5033,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.388,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c9accb14101",
+              "url": "https://prehraj.to/pro-dobrotu-na-zebrotu-taraji-p-henson-idris-elba-leslie-bibb-2014-thriller-bdrip-1080p-cz-dabing/67c9accb14101",
+              "title": "Pro dobrotu na žebrotu (Taraji P. Henson,Idris Elba,Leslie…",
+              "year": null,
+              "duration_sec": 5033,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.388,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6c5f63daa5e",
+              "url": "https://prehraj.to/p-c3-a1r-nenorm-c3-a1ln-c3-adch-aktivit-2-2014-cz-dabing/5a6c5f63daa5e",
+              "title": "P%C3%A1r+nenorm%C3%A1ln%C3%ADch+aktivit+2-2014-cz.dabing",
+              "year": null,
+              "duration_sec": 5213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.688,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bda24e58934",
+              "url": "https://prehraj.to/p-f-mafia-okrast-mafii-rob-the-mob-2014-cz/67bda24e58934",
+              "title": "P.F. Mafia-Okrást mafii - Rob the Mob (2014)(CZ) -",
+              "year": null,
+              "duration_sec": 6254,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.423,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ef4ae0971815",
+              "url": "https://prehraj.to/hobit-bitva-p-ti-armad-2014-bdrip-hd-cz-dabing-lpf/5ef4ae0971815",
+              "title": "Hobit+Bitva+p_ti+armád+.2014+BDRip+HD+CZ+Dabing lpf",
+              "year": null,
+              "duration_sec": 8669,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 13.448,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bf3bbbec323",
+              "url": "https://prehraj.to/p-f-vojnovy-cz-dab-71-2014-cz/67bf3bbbec323",
+              "title": "P.F. Vojnovy cz dab-'71 (2014)(CZ) -",
+              "year": null,
+              "duration_sec": 5977,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.962,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bdacf42fdc5",
+              "url": "https://prehraj.to/p-f-mafia-rob-the-mob-2014-hd-cz-dabing-mp4/67bdacf42fdc5",
+              "title": "P.F. Mafia-Rob the Mob 2014 HD CZ Dabing.mp4",
+              "year": null,
+              "duration_sec": 6255,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.425,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67df57a206306",
+              "url": "https://prehraj.to/p-f-holocaust-dok-cz-german-concentration-camps-factual-survey-hd-2014/67df57a206306",
+              "title": "P.F. Holocaust Dok cz-German Concentration Camps Factual…",
+              "year": null,
+              "duration_sec": 4283,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.138,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67df5e19da4ba",
+              "url": "https://prehraj.to/p-f-holocaust-dok-cz-nacisticky-tabor-smrti-velky-unik-2014-cz-dab/67df5e19da4ba",
+              "title": "P.F. Holocaust Dok cz-Nacistický tábor smrti velký únik…",
+              "year": null,
+              "duration_sec": 2638,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.397,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67db73ab8d995",
+              "url": "https://prehraj.to/p-f-holocaust-dok-nacisticky-tabor-smrti-velky-unik-2014-cz-dab/67db73ab8d995",
+              "title": "P.F. Holocaust Dok-Nacistický tábor smrti velký únik 2014…",
+              "year": null,
+              "duration_sec": 2638,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.397,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bda2ea4a57d",
+              "url": "https://prehraj.to/p-f-mafia-paserak-2014-cz/67bda2ea4a57d",
+              "title": "P.F. Mafia-Pašerák (2014) -cz",
+              "year": null,
+              "duration_sec": 6157,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.262,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67bd918975742",
+              "url": "https://prehraj.to/p-f-podvody-banky-riskantni-plan-2014-cz/67bd918975742",
+              "title": "P.F. Podvody,Banky-Riskantní plán (2014) cz",
+              "year": null,
+              "duration_sec": 5335,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.892,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c125010ef9a",
+              "url": "https://prehraj.to/p-f-katastroficke-doba-ledova-2014-cz/67c125010ef9a",
+              "title": "P.F. Katastroficke-Doba ledová (2014) cz",
+              "year": null,
+              "duration_sec": 4854,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.09,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c11cb389d03",
+              "url": "https://prehraj.to/p-f-katastroficke-apokalypsa-v-los-angeles-doomed-planet-2014/67c11cb389d03",
+              "title": "P.F. Katastroficke-Apokalypsa v Los Angeles (Doomed Planet)…",
+              "year": null,
+              "duration_sec": 4790,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.983,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "P (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:17:44.801555+00:00"
         }
       ],
       "identity": {
@@ -19338,7 +19977,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:58:55.586189+00:00"
+        "at": "2026-08-28T03:17:40.749140+00:00"
       }
     },
     "28971": {
@@ -69996,5 +70635,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:17:39.273472+00:00"
+  "updated_at": "2026-08-28T03:17:44.801575+00:00"
 }
