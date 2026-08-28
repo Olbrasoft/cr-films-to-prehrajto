@@ -59698,6 +59698,76 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:10:06.716282+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5677818bc7032",
+              "url": "https://prehraj.to/walt-disney-mala-morska-vila-2-navrat-do-more-2000-cz-dabing/5677818bc7032",
+              "title": "Walt Disney - Mala morska vila 2 - Navrat do more (2000) CZ dabing",
+              "year": null,
+              "duration_sec": 4329,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5678fb3181874",
+              "url": "https://prehraj.to/walt-disney-mala-morska-vila-2-navrat-do-more-2000-cz-dabing/5678fb3181874",
+              "title": "Walt Disney - Mala morska vila 2 - Navrat do more (2000) CZ dabing",
+              "year": null,
+              "duration_sec": 4329,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd2df8337c77be82",
+              "url": "https://prehraj.to/walt-disney-world-summer-jam-concert-2000-2000-cz-dabing/dd2df8337c77be82",
+              "title": "Walt Disney World Summer Jam Concert 2000 (2000) CZ Dabing",
+              "year": null,
+              "duration_sec": 4329,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Walt Disney World Summer Jam Concert 2000 (2000)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:49:14.384197+00:00"
         }
       ],
       "identity": {
@@ -59716,7 +59786,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:10:06.132368+00:00"
+        "at": "2026-08-28T03:49:12.788684+00:00"
       }
     },
     "25417": {
@@ -77424,5 +77494,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:49:11.277029+00:00"
+  "updated_at": "2026-08-28T03:49:14.384219+00:00"
 }
