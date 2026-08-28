@@ -73150,6 +73150,84 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:17:03.383202+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c3a110206c",
+              "url": "https://prehraj.to/halifaxova-soudni-psychiatr-19-polibek-skorpiona-2001/586c3a110206c",
+              "title": "halifaxova-soudni-psychiatr-19-polibek-skorpiona-2001",
+              "year": null,
+              "duration_sec": 5500,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.239,
+                "title_contains_alias": false,
+                "film_year": 2001,
+                "candidate_year": 2001,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5500,
+                "runtime_delta": 0.083,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "687f8591bf605",
+              "url": "https://prehraj.to/bruce-springsteen-the-complete-video-anthology-1978-2000-part-1/687f8591bf605",
+              "title": "Bruce Springsteen  The Complete Video Anthology  1978 -…",
+              "year": null,
+              "duration_sec": 5883,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2001,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bruce Springsteen: The Complete Video Anthology 1978-2000 (2001)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68904afc256cd",
+              "url": "https://prehraj.to/bruce-springsteen-the-complete-video-anthology-1978-2000-part-2/68904afc256cd",
+              "title": "Bruce Springsteen The Complete Video Anthology 1978 - 2000…",
+              "year": null,
+              "duration_sec": 3997,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2001,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bruce Springsteen: The Complete Video Anthology 1978-2000 (2001)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:54:47.411766+00:00"
         }
       ],
       "identity": {
@@ -73168,7 +73246,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:17:02.768850+00:00"
+        "at": "2026-08-28T03:54:45.923435+00:00"
       }
     },
     "23007": {
@@ -81370,5 +81448,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:54:38.252782+00:00"
+  "updated_at": "2026-08-28T03:54:47.411787+00:00"
 }
