@@ -49637,6 +49637,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:27:17.172418+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe715a31fd41",
+              "url": "https://prehraj.to/2020-2020-v-pred-cz-dabing-animovany/5fe715a31fd41",
+              "title": "2020 - 2020 - V pred CZ dabing - ANIMOVANÝ",
+              "year": null,
+              "duration_sec": 6143,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.238,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:04.811300+00:00"
         }
       ],
       "identity": {
@@ -49655,7 +49686,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:27:16.509108+00:00"
+        "at": "2026-08-28T11:10:51.351588+00:00"
       }
     },
     "27074": {
@@ -66816,5 +66847,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:10:49.299555+00:00"
+  "updated_at": "2026-08-28T11:11:04.811317+00:00"
 }
