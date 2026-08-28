@@ -19589,7 +19589,107 @@
         },
         "at": "2026-08-28T07:17:51.841601+00:00"
       }
+    },
+    "28533": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5acb8dcb1c044",
+              "url": "https://prehraj.to/klan-2015/5acb8dcb1c044",
+              "title": "Klan (2015)",
+              "year": null,
+              "duration_sec": 6511,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.476,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 109,
+                "candidate_runtime_sec": 6511,
+                "runtime_delta": 0.004,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "067f9bce1a635d1a",
+              "url": "https://prehraj.to/klan-wagneru-2013-cs/067f9bce1a635d1a",
+              "title": "Klan Wagnerů - 2013 CS",
+              "year": null,
+              "duration_sec": 6519,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2015,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Klan Wagnerů (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9bbcea9f9cc",
+              "url": "https://prehraj.to/klan-wagneru-2013/5a9bbcea9f9cc",
+              "title": "Klan Wagnerů (2013)",
+              "year": null,
+              "duration_sec": 6519,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2015,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Klan Wagnerů (2015)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:17:57.415771+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "klan-wagneru",
+        "title": "Klan Wagnerů",
+        "original_title": "The Wagner-Clan",
+        "year": 2015,
+        "runtime_min": 109,
+        "tmdb_id": 257677,
+        "imdb_id": "tt2980612",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:17:54.031552+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:17:52.577596+00:00"
+  "updated_at": "2026-08-28T07:17:57.415787+00:00"
 }
