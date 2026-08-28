@@ -50469,6 +50469,56 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:28:00.004078+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67d8056e965d5",
+              "url": "https://prehraj.to/hotel-transylvania-3-summer-vacation-2018-imdb-tt5220122-webdl-2160p-truehd-atmos-7-1-hdr-x265-xh/67d8056e965d5",
+              "title": "Hotel Transylvania 3 Summer Vacation (2018) [imdb-tt5220122][WEBDL-2160p][TrueHD Atmos 7.1][HDR][x265]-xh",
+              "year": null,
+              "duration_sec": 5843,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.125,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555c1eaae512",
+              "url": "https://prehraj.to/alanis-morissette-hand-in-my-pocket-official-4k-music-video/6555c1eaae512",
+              "title": "Alanis Morissette - Hand In My Pocket (Official 4K Music…",
+              "year": null,
+              "duration_sec": 221,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.806,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Hands in Pocket (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:19.329703+00:00"
         }
       ],
       "identity": {
@@ -50487,7 +50537,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:27:59.520393+00:00"
+        "at": "2026-08-28T11:11:18.002487+00:00"
       }
     },
     "26838": {
@@ -66950,5 +67000,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:16.523516+00:00"
+  "updated_at": "2026-08-28T11:11:19.329719+00:00"
 }
