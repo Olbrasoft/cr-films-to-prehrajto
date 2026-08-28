@@ -36266,7 +36266,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T23:05:10.037648+00:00"
+        "at": "2026-08-28T23:20:07.272561+00:00"
       }
     },
     "14382": {
@@ -37122,7 +37122,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T23:05:10.037933+00:00"
+        "at": "2026-08-28T23:20:07.273005+00:00"
       }
     },
     "10470": {
@@ -38024,7 +38024,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T23:05:25.238912+00:00"
+        "at": "2026-08-28T23:20:07.273448+00:00"
       }
     },
     "286": {
@@ -38060,7 +38060,39 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T23:11:10.760387+00:00"
       }
+    },
+    "13118": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T23:20:09.936005+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "poolhall-junkies-2002",
+        "title": "Poolhall Junkies",
+        "original_title": "Poolhall Junkies",
+        "year": 2002,
+        "runtime_min": 99,
+        "tmdb_id": 14293,
+        "imdb_id": "tt0273982",
+        "created_at": "2026-04-14 15:45:20.084818+02:00",
+        "added_at": "2018-08-26 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T23:20:07.273484+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T23:20:05.952153+00:00"
+  "updated_at": "2026-08-28T23:20:09.936017+00:00"
 }
