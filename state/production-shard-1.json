@@ -82045,7 +82045,188 @@
         },
         "at": "2026-08-28T06:32:13.240172+00:00"
       }
+    },
+    "21849": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5874ddf17bf36",
+              "url": "https://prehraj.to/tajna-fronta-saturn-1-2-cesta-do-saturnu-1967-cz/5874ddf17bf36",
+              "title": "Tajná-fronta-Saturn-1.,2.-_-Cesta-do-_Saturnu_-_-Путь-в-_Сатурн_-1967,-CZ",
+              "year": null,
+              "duration_sec": 4698,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.186,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "581f7a1c537de",
+              "url": "https://prehraj.to/prisne-tajne-premiery-1967-640x400/581f7a1c537de",
+              "title": "Přisně-tajné-premiéry-(1967)[640x400]",
+              "year": null,
+              "duration_sec": 5066,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.062,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "595ced46438c1",
+              "url": "https://prehraj.to/tom-jerry-159-shutter-bugged-cat-1967/595ced46438c1",
+              "title": "TOM & JERRY - 159 - Shutter Bugged Cat (1967)",
+              "year": null,
+              "duration_sec": 397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 397,
+                "runtime_delta": 0.055,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Shutter Bugged Cat (1967)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8f1a1874183841b2",
+              "url": "https://prehraj.to/chq-tom-and-jerry-159-shutter-bugged-cat-dvdrip-mp3-xvid-1967-62a21ad6-avi/8f1a1874183841b2",
+              "title": "[CHQ] Tom and Jerry - 159 - Shutter Bugged Cat [DVDrip][MP3…",
+              "year": null,
+              "duration_sec": 397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1967,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 397,
+                "runtime_delta": 0.055,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Shutter Bugged Cat (1967)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "606a646cb15be",
+              "url": "https://prehraj.to/chq-tom-and-jerry-159-shutter-bugged-cat-dvdrip-mp3-xvid-1967-62a21ad6/606a646cb15be",
+              "title": "[CHQ] Tom and Jerry - 159 - Shutter Bugged Cat [DVDrip][MP3…",
+              "year": null,
+              "duration_sec": 397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1967,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 397,
+                "runtime_delta": 0.055,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Shutter Bugged Cat (1967)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e39969a77b4f",
+              "url": "https://prehraj.to/tom-and-jerry-159-shutter-bugged-cat-1967/5e39969a77b4f",
+              "title": "Tom and Jerry - 159   Shutter Bugged Cat [1967]",
+              "year": null,
+              "duration_sec": 397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1967,
+                "candidate_year": 1967,
+                "year_match": true,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 397,
+                "runtime_delta": 0.055,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Shutter Bugged Cat (1967)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:36:24.410525+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tom-a-tajna-kamera",
+        "title": "Tom a tajná kamera",
+        "original_title": "Shutter Bugged Cat",
+        "year": 1967,
+        "runtime_min": 7,
+        "tmdb_id": 224059,
+        "imdb_id": "tt0062265",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:36:19.584097+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:32:16.328389+00:00"
+  "updated_at": "2026-08-28T06:36:24.410536+00:00"
 }
