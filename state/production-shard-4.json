@@ -15704,7 +15704,67 @@
         },
         "at": "2026-08-28T02:26:55.108638+00:00"
       }
+    },
+    "28692": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab3cfcb85f60",
+              "url": "https://prehraj.to/diablo-2015/5ab3cfcb85f60",
+              "title": "Diablo (2015)",
+              "year": null,
+              "duration_sec": 4991,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.414,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 4991,
+                "runtime_delta": 0.16,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:27:01.620000+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bastards-y-diablos",
+        "title": "Bastards y Diablos",
+        "original_title": null,
+        "year": 2015,
+        "runtime_min": 99,
+        "tmdb_id": 342212,
+        "imdb_id": "tt3243474",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:26:57.856985+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:26:56.670018+00:00"
+  "updated_at": "2026-08-28T02:27:01.620022+00:00"
 }
