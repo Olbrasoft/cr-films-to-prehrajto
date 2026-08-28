@@ -24508,7 +24508,60 @@
         },
         "at": "2026-08-28T07:34:29.022439+00:00"
       }
+    },
+    "26141": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60b0f756709a7",
+              "url": "https://prehraj.to/ceske-stoleti-08-posledni-hura-rok-1989-cz-dabing-cesky-ceska-televize-telefilm/60b0f756709a7",
+              "title": "České století - 08 - Poslední hurá (rok 1989), CZ dabing, česky, česká televize, telefilm",
+              "year": null,
+              "duration_sec": 4967,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.759,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:34:34.877776+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-good-samaritan",
+        "title": "The Good Samaritan",
+        "original_title": null,
+        "year": 1989,
+        "runtime_min": 30,
+        "tmdb_id": 63731,
+        "imdb_id": "tt0956144",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:34:33.548236+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:34:31.997808+00:00"
+  "updated_at": "2026-08-28T07:34:34.877794+00:00"
 }
