@@ -15814,7 +15814,100 @@
         },
         "at": "2026-08-28T06:43:09.413201+00:00"
       }
+    },
+    "28878": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "614d5feeba659",
+              "url": "https://prehraj.to/wrestler-cz-dabing-novinky-2010/614d5feeba659",
+              "title": "wrestler-cz-dabing-novinky.2010",
+              "year": null,
+              "duration_sec": 6539,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.383,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "601bc0902bdb6",
+              "url": "https://prehraj.to/wrestler-cz-dabing-novinky-2010/601bc0902bdb6",
+              "title": "wrestler-cz-dabing-novinky-2010",
+              "year": null,
+              "duration_sec": 6539,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.383,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6021235d27ac8",
+              "url": "https://prehraj.to/wrestler-cz-dabing-novinky-2010/6021235d27ac8",
+              "title": "wrestler-cz-dabing-novinky-2010",
+              "year": null,
+              "duration_sec": 6539,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.383,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:43:26.204336+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "a-sumo-wrestler-s-tail",
+        "title": "A Sumo Wrestler's Tail",
+        "original_title": "A Sumo Wrestler's Tail",
+        "year": 2010,
+        "runtime_min": 13,
+        "tmdb_id": 222668,
+        "imdb_id": "tt3588462",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:43:18.803695+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:43:15.249672+00:00"
+  "updated_at": "2026-08-28T06:43:26.204356+00:00"
 }
