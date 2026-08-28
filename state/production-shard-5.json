@@ -32924,7 +32924,67 @@
         },
         "at": "2026-08-28T07:41:02.359538+00:00"
       }
+    },
+    "21589": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5891a650e4376",
+              "url": "https://prehraj.to/das-geheimnis-der-schwarzen-koffer-tajemstvi-cerneho-kufru-1961-cz-tit/5891a650e4376",
+              "title": "Das-Geheimnis-der-schwarzen-Koffer-_-Tajemství-černého-kufru-1961,-CZ-tit",
+              "year": null,
+              "duration_sec": 4885,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.283,
+                "title_contains_alias": false,
+                "film_year": 1961,
+                "candidate_year": 1961,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 4885,
+                "runtime_delta": 0.134,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:41:25.066522+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tajemstvi-zlutych-narcisu",
+        "title": "Tajemství žlutých narcisů",
+        "original_title": "The Devil's Daffodil",
+        "year": 1961,
+        "runtime_min": 94,
+        "tmdb_id": 70028,
+        "imdb_id": "tt0054912",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:41:10.535626+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:41:08.998097+00:00"
+  "updated_at": "2026-08-28T07:41:25.066541+00:00"
 }
