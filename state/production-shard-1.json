@@ -81773,7 +81773,87 @@
         },
         "at": "2026-08-28T03:55:22.034902+00:00"
       }
+    },
+    "22153": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6057307c8f4e7",
+              "url": "https://prehraj.to/krkonosske-pohadky-1-20-dil-komplet-1974-1984/6057307c8f4e7",
+              "title": "Krkonošské pohádky - 1. - 20. díl, komplet, (1974) - (1984)",
+              "year": null,
+              "duration_sec": 11556,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.87,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "609e0211d46e3",
+              "url": "https://prehraj.to/krkonosske-pohadky-1-pohadky-1974-1984-cz/609e0211d46e3",
+              "title": "Krkonošské pohádky-1-(pohadky)-(1974-1984)--cz",
+              "year": null,
+              "duration_sec": 5769,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.189,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 103,
+                "candidate_runtime_sec": 5769,
+                "runtime_delta": 0.067,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:55:45.895797+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "1-berlin-harlem",
+        "title": "1 Berlin-Harlem",
+        "original_title": null,
+        "year": 1974,
+        "runtime_min": 103,
+        "tmdb_id": 285705,
+        "imdb_id": "tt0071079",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:55:41.989339+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:55:40.389378+00:00"
+  "updated_at": "2026-08-28T03:55:45.895819+00:00"
 }
