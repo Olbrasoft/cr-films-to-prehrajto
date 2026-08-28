@@ -25938,7 +25938,67 @@
         },
         "at": "2026-08-28T07:38:19.251239+00:00"
       }
+    },
+    "24773": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5858ad2cde7b5",
+              "url": "https://prehraj.to/romanticka-komedie-101-rodinny-2001-cz-dubbing-avi-pawlyn-avi/5858ad2cde7b5",
+              "title": "Romantická-Komedie-101-(Rodinný)-(2001)-cz-dubbing-AVI---Pawlyn.avi",
+              "year": null,
+              "duration_sec": 5085,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.219,
+                "title_contains_alias": false,
+                "film_year": 2001,
+                "candidate_year": 2001,
+                "year_match": true,
+                "film_runtime_min": 103,
+                "candidate_runtime_sec": 5085,
+                "runtime_delta": 0.177,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:38:23.196370+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "101st-kilometer",
+        "title": "101st Kilometer",
+        "original_title": "101st Kilometer",
+        "year": 2001,
+        "runtime_min": 103,
+        "tmdb_id": 568219,
+        "imdb_id": "tt0289041",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:38:21.968951+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:38:20.556925+00:00"
+  "updated_at": "2026-08-28T07:38:23.196388+00:00"
 }
