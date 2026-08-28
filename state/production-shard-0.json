@@ -51046,6 +51046,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:28:22.491748+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586d3678bbc46",
+              "url": "https://prehraj.to/chemical-wedding-2008-dvdrip-xvid/586d3678bbc46",
+              "title": "Chemical-Wedding-.2008.DVDRip.XviD",
+              "year": null,
+              "duration_sec": 6210,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.371,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 135,
+                "candidate_runtime_sec": 6210,
+                "runtime_delta": 0.233,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:27.170137+00:00"
         }
       ],
       "identity": {
@@ -51064,7 +51102,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:28:22.085286+00:00"
+        "at": "2026-08-28T11:11:26.179633+00:00"
       }
     },
     "26724": {
@@ -67114,5 +67152,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:24.661996+00:00"
+  "updated_at": "2026-08-28T11:11:27.170153+00:00"
 }
