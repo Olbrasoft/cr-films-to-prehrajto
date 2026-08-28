@@ -34168,7 +34168,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T17:17:06.527654+00:00"
+        "at": "2026-08-28T19:51:50.266877+00:00"
       }
     },
     "15675": {
@@ -35132,6 +35132,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T19:48:28.167331+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "30916",
+              "url": "https://online.sktorrent.eu/video/30916/",
+              "title": "Přání k narozeninám",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:52:02.340702+00:00"
         }
       ],
       "identity": {
@@ -35150,7 +35179,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:42:29.682717+00:00"
+        "at": "2026-08-28T19:51:50.267124+00:00"
       }
     },
     "14739": {
@@ -36987,5 +37016,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T19:50:45.559404+00:00"
+  "updated_at": "2026-08-28T19:52:02.340722+00:00"
 }
