@@ -73808,7 +73808,94 @@
         },
         "at": "2026-08-28T11:19:54.965656+00:00"
       }
+    },
+    "21720": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587cdbf6ab771",
+              "url": "https://prehraj.to/kym-sa-skonci-tato-noc-1965-sk/587cdbf6ab771",
+              "title": "Kym-sa-skonci-tato-noc-1965-SK",
+              "year": null,
+              "duration_sec": 5128,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.263,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5128,
+                "runtime_delta": 0.071,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587cdc1a25ab8",
+              "url": "https://prehraj.to/kym-sa-skonci-tato-noc-1965-sk/587cdc1a25ab8",
+              "title": "Kym-sa-skonci-tato-noc-1965-SK",
+              "year": null,
+              "duration_sec": 5128,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.263,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5128,
+                "runtime_delta": 0.071,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:20:11.552078+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "desata-obet",
+        "title": "Desátá oběť",
+        "original_title": "The 10th Victim",
+        "year": 1965,
+        "runtime_min": 92,
+        "tmdb_id": 65632,
+        "imdb_id": "tt0059095",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:19:57.531008+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:19:56.040676+00:00"
+  "updated_at": "2026-08-28T11:20:11.552095+00:00"
 }
