@@ -15907,7 +15907,67 @@
         },
         "at": "2026-08-28T06:43:18.803695+00:00"
       }
+    },
+    "28870": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "9b86765883807de2",
+              "url": "https://prehraj.to/posledna-sanca-na-pomstu-2014-usa-drama-thiller/9b86765883807de2",
+              "title": "Posledna sanca na pomstu-2014,USA-drama,thiller",
+              "year": null,
+              "duration_sec": 5591,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.374,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5591,
+                "runtime_delta": 0.077,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:43:34.599636+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "elvira-te-daria-mi-vida-pero-la-estoy-usando",
+        "title": "Elvira, te daría mi vida pero la estoy usando",
+        "original_title": "Elvira I Will Give You My Life But I'm Using It",
+        "year": 2014,
+        "runtime_min": 101,
+        "tmdb_id": 267797,
+        "imdb_id": "tt3576842",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:43:30.016267+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:43:26.204356+00:00"
+  "updated_at": "2026-08-28T06:43:34.599657+00:00"
 }
