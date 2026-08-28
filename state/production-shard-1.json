@@ -88071,7 +88071,7 @@
             }
           ]
         },
-        "at": "2026-08-28T22:47:45.290403+00:00"
+        "at": "2026-08-28T23:18:53.055389+00:00"
       }
     },
     "17137": {
@@ -88107,7 +88107,59 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T22:51:00.044979+00:00"
       }
+    },
+    "17425": {
+      "attempts": [],
+      "identity": {
+        "slug": "nebezpecny-svudce-2018",
+        "title": "Nebezpečný svůdce",
+        "original_title": "The Sweetheart",
+        "year": 2018,
+        "runtime_min": 86,
+        "tmdb_id": 546116,
+        "imdb_id": "tt8537692",
+        "created_at": "2026-04-14 16:17:46.898874+02:00",
+        "added_at": "2020-04-24 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25306111",
+          "account_name": "Sweetheart (2019) CZ Titulky",
+          "title_similarity": 0.69,
+          "title_contains_alias": false,
+          "film_year": 2018,
+          "candidate_year": 2019,
+          "year_match": true,
+          "film_runtime_min": 86,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T23:18:53.055774+00:00"
+      }
+    },
+    "13905": {
+      "attempts": [],
+      "identity": {
+        "slug": "vrah-pred-kamerou-2019",
+        "title": "Vrah před kamerou",
+        "original_title": "Staged Killer",
+        "year": 2019,
+        "runtime_min": 88,
+        "tmdb_id": 603702,
+        "imdb_id": "tt10048556",
+        "created_at": "2026-04-14 15:51:24.155277+02:00",
+        "added_at": "2020-03-13 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T23:18:53.055811+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T23:18:51.455104+00:00"
+  "updated_at": "2026-08-28T23:18:55.500087+00:00"
 }
