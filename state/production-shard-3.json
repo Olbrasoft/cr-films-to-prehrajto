@@ -16688,7 +16688,67 @@
         },
         "at": "2026-08-28T06:33:48.648580+00:00"
       }
+    },
+    "29099": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "57469e7505ac8807",
+              "url": "https://prehraj.to/diabolic-2026-1080p-horor-cz-titulky/57469e7505ac8807",
+              "title": "Diabolic 2026 1080P HOROR CZ TITULKY",
+              "year": null,
+              "duration_sec": 5750,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.426,
+                "title_contains_alias": false,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 5750,
+                "runtime_delta": 0.278,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:33:53.171264+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "diabolical-the-epstein-files",
+        "title": "Diabolical - The Epstein Files",
+        "original_title": null,
+        "year": 2026,
+        "runtime_min": 75,
+        "tmdb_id": 1640697,
+        "imdb_id": "tt40837826",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:33:51.430366+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:33:50.207950+00:00"
+  "updated_at": "2026-08-28T06:33:53.171283+00:00"
 }
