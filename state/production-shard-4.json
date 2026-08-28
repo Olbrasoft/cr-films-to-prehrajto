@@ -22680,7 +22680,67 @@
         },
         "at": "2026-08-28T02:46:54.608600+00:00"
       }
+    },
+    "24884": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "585a6e00a9f1c",
+              "url": "https://prehraj.to/zakerny-lek-michael-dudikoff-dan-hedaya-richard-kind-2002-cz-dab/585a6e00a9f1c",
+              "title": "Zákeřný-lék---Michael-Dudikoff,-Dan-Hedaya,-Richard-Kind-2002-cz-dab",
+              "year": null,
+              "duration_sec": 5546,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.282,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": 2002,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 5546,
+                "runtime_delta": 0.111,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:47:17.612045+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tajne-zivoty-zubnich-lekaru",
+        "title": "Tajné životy zubních lékařů",
+        "original_title": "The Secret Lives of Dentists",
+        "year": 2002,
+        "runtime_min": 104,
+        "tmdb_id": 26195,
+        "imdb_id": "tt0314630",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:47:04.808835+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:47:01.375407+00:00"
+  "updated_at": "2026-08-28T02:47:17.612063+00:00"
 }
