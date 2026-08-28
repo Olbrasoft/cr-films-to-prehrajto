@@ -29645,7 +29645,120 @@
         },
         "at": "2026-08-28T07:03:33.488180+00:00"
       }
+    },
+    "24030": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588f75558591c",
+              "url": "https://prehraj.to/pole-neorane-1953-sk/588f75558591c",
+              "title": "Pole-neorané-1953,-SK",
+              "year": null,
+              "duration_sec": 5851,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 12.931,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac2a2321f841",
+              "url": "https://prehraj.to/pan-north-1988/5ac2a2321f841",
+              "title": "Pan North (1988)",
+              "year": null,
+              "duration_sec": 5213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1953,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "North Pal (1953)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c074f9a325bde80",
+              "url": "https://prehraj.to/pan-north-1988-cs/1c074f9a325bde80",
+              "title": "Pan North - 1988 CS",
+              "year": null,
+              "duration_sec": 5213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1953,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "North Pal (1953)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58445741c12e1",
+              "url": "https://prehraj.to/pan-north-usa-drama-1988-csdub-tvrip/58445741c12e1",
+              "title": "Pan-North-USA-drama-1988-CSdub-TVrip",
+              "year": null,
+              "duration_sec": 5349,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1953,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "North Pal (1953)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:03:46.605207+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "north-pal",
+        "title": "North Pal",
+        "original_title": null,
+        "year": 1953,
+        "runtime_min": 7,
+        "tmdb_id": 222809,
+        "imdb_id": "tt0148536",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:03:42.469723+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:03:40.985985+00:00"
+  "updated_at": "2026-08-28T07:03:46.605229+00:00"
 }
