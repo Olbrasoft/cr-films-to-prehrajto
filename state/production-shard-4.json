@@ -27071,7 +27071,67 @@
         },
         "at": "2026-08-28T02:48:58.229100+00:00"
       }
+    },
+    "23324": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587552b6d06f6",
+              "url": "https://prehraj.to/ja-american-american-me-1992-cz-tit/587552b6d06f6",
+              "title": "Já,-Američan-_-American-Me-1992,-CZ-tit",
+              "year": null,
+              "duration_sec": 7559,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.281,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 7559,
+                "runtime_delta": 0.211,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:01.986787+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vaapeli-kormy-ja-etelan-hetelmat",
+        "title": "Vääpeli Körmy ja etelän hetelmät",
+        "original_title": null,
+        "year": 1992,
+        "runtime_min": 104,
+        "tmdb_id": 55761,
+        "imdb_id": "tt0105777",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:00.544550+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:48:59.234226+00:00"
+  "updated_at": "2026-08-28T02:49:01.986807+00:00"
 }
