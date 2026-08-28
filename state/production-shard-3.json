@@ -29125,7 +29125,60 @@
         },
         "at": "2026-08-28T06:56:29.377720+00:00"
       }
+    },
+    "24371": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588166e8486a7",
+              "url": "https://prehraj.to/kaidan-kwaidan-1964-poviedkovy-horor-upload-wrw-vlozene-titulky-cz/588166e8486a7",
+              "title": "Kaidan-Kwaidan-1964-poviedkový-horor-upload-wrw-vložené-titulky-CZ",
+              "year": null,
+              "duration_sec": 10529,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.907,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:56:45.210770+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "hot-spring-ghost",
+        "title": "Hot Spring Ghost",
+        "original_title": "Hot Spring Ghost",
+        "year": 1964,
+        "runtime_min": 92,
+        "tmdb_id": 1493578,
+        "imdb_id": "tt0202972",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:56:37.336433+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:56:35.987903+00:00"
+  "updated_at": "2026-08-28T06:56:45.210789+00:00"
 }
