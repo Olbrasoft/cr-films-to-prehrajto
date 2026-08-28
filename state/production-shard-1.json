@@ -64897,6 +64897,56 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:14:14.354741+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5cab6500e5b5e",
+              "url": "https://prehraj.to/kouzelna-zeme-skritku-cz-dabing-komedie-fantasy-velka-britanie-usa-1999-nejlepsi-filmy-mypage-cz-pres-multiload-cz/5cab6500e5b5e",
+              "title": "kouzelna-zeme-skritku-cz-dabing-komedie-fantasy-velka-britanie-usa-1999-nejlepsi-filmy-mypage-cz pres MultiLoad.cz",
+              "year": null,
+              "duration_sec": 10226,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.873,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "682024e9764e4",
+              "url": "https://prehraj.to/kouzelna-beruska-a-cerny-kocour-16-cz-kuch-fu/682024e9764e4",
+              "title": "Kouzelna Beruska a Cerny kocour 16 cz - Kuch Fu",
+              "year": null,
+              "duration_sec": 1296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.763,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Kouzelný duch (1999)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:51:15.295726+00:00"
         }
       ],
       "identity": {
@@ -64915,7 +64965,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:14:13.781916+00:00"
+        "at": "2026-08-28T03:51:08.650323+00:00"
       }
     },
     "24011": {
@@ -78881,5 +78931,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:51:07.092693+00:00"
+  "updated_at": "2026-08-28T03:51:15.295747+00:00"
 }
