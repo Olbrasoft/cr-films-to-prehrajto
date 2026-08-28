@@ -55464,6 +55464,701 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:07:58.266365+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e14512c7182f",
+              "url": "https://prehraj.to/04-marie-terezie-4-dil-historicky-cesko-2019-1080p-tvrip-cz-68-sten-ok/5e14512c7182f",
+              "title": "04 - Marie Terezie 4.díl historický Česko 2019.1080p.TvRip.Cz.68%.STEN.ok",
+              "year": null,
+              "duration_sec": 5978,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 10.07,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4a44694af54ee2f4",
+              "url": "https://prehraj.to/08-panic-room/4a44694af54ee2f4",
+              "title": "08. Panic Room",
+              "year": null,
+              "duration_sec": 399,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.381,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 399,
+                "runtime_delta": 0.261,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "576eca48d597a",
+              "url": "https://prehraj.to/pokoj-c10-the-lost-room-04-cz-dabing/576eca48d597a",
+              "title": "Pokoj č10 (THE LOST ROOM) 04, CZ dabing",
+              "year": null,
+              "duration_sec": 2432,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.504,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6f8644c886f",
+              "url": "https://prehraj.to/the-nightmare-room-107-full-moon-04-1-avi/5a6f8644c886f",
+              "title": "The Nightmare Room 107 Full Moon-04(1).avi",
+              "year": null,
+              "duration_sec": 574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 574,
+                "runtime_delta": 0.063,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bfb15ed02ad77cc5",
+              "url": "https://prehraj.to/lv1-maou-to-one-room-yuusha-08-720p/bfb15ed02ad77cc5",
+              "title": "Lv1 Maou to One Room Yuusha - 08 (720p)",
+              "year": null,
+              "duration_sec": 1422,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.633,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6623d48d4e365",
+              "url": "https://prehraj.to/subsplease-one-room-hiatari-futsuu-tenshi-tsuki-04-1080p-c078a94a/6623d48d4e365",
+              "title": "[SubsPlease] One Room, Hiatari Futsuu, Tenshi-tsuki - 04 …",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.63,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64be9bc3a28d8",
+              "url": "https://prehraj.to/subsplease-lv1-maou-to-one-room-yuusha-04-1080p-4b4f616b/64be9bc3a28d8",
+              "title": "[SubsPlease] Lv1 Maou to One Room Yuusha - 04 (1080p) …",
+              "year": null,
+              "duration_sec": 1422,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.633,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64e370a90b1ef",
+              "url": "https://prehraj.to/subsplease-lv1-maou-to-one-room-yuusha-08-1080p-07127a8e/64e370a90b1ef",
+              "title": "[SubsPlease] Lv1 Maou to One Room Yuusha - 08 (1080p) …",
+              "year": null,
+              "duration_sec": 1423,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.635,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64a5872b9a520",
+              "url": "https://prehraj.to/028-boom-lift-catapult/64a5872b9a520",
+              "title": "028-Boom-Lift Catapult",
+              "year": null,
+              "duration_sec": 2794,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.174,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b881ef362d7c84eb",
+              "url": "https://prehraj.to/028-boom-lift-catapult-avi/b881ef362d7c84eb",
+              "title": "028-Boom-Lift Catapult.avi",
+              "year": null,
+              "duration_sec": 2794,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.174,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "593a43b5a796e",
+              "url": "https://prehraj.to/baby-boom-cast-08/593a43b5a796e",
+              "title": "Baby Boom - časť 08",
+              "year": null,
+              "duration_sec": 2721,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.039,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "680118bf21635",
+              "url": "https://prehraj.to/008-mr-bean-mr-bean-in-room-426-pan-bean-v-izbe-cislo-426/680118bf21635",
+              "title": "008 - MR. BEAN - MR. BEAN IN ROOM 426 (PAN BEAN V IZBE…",
+              "year": null,
+              "duration_sec": 1498,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.774,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "068d35b0e3b54012",
+              "url": "https://prehraj.to/borici-mytu-028-boom-lift-catapult-avi/068d35b0e3b54012",
+              "title": "Bořiči mýtu 028-Boom-Lift Catapult.avi",
+              "year": null,
+              "duration_sec": 2794,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.174,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58f743330b8a1",
+              "url": "https://prehraj.to/baby-boom-cast-08-katikaa/58f743330b8a1",
+              "title": "Baby Boom - časť 08 (KATIKAA)",
+              "year": null,
+              "duration_sec": 2721,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.039,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58f7472c07b5e",
+              "url": "https://prehraj.to/baby-boom-cast-08-tuta/58f7472c07b5e",
+              "title": "Baby Boom - časť 08 (TUTA)",
+              "year": null,
+              "duration_sec": 2721,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.039,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cc4c907a06e",
+              "url": "https://prehraj.to/078-oggy-and-the-magic-broom-bydejv/68cc4c907a06e",
+              "title": "078 - Oggy and the magic broom byDejv",
+              "year": null,
+              "duration_sec": 402,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.233,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 402,
+                "runtime_delta": 0.256,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fdd1a9ae0b113493",
+              "url": "https://prehraj.to/borici-mytu-mythbusters-cz-028-boom-lift-catapult/fdd1a9ae0b113493",
+              "title": "Bořiči mýtu Mythbusters CZ 028-Boom-Lift Catapult",
+              "year": null,
+              "duration_sec": 2794,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.174,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7f83cb79a026a4aa",
+              "url": "https://prehraj.to/bilance-48-dil-prichazi-boom-dopravnich-staveb/7f83cb79a026a4aa",
+              "title": "Bilance - 48. díl - Přichází boom dopravních staveb",
+              "year": null,
+              "duration_sec": 2222,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.115,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cc51f298d7a",
+              "url": "https://prehraj.to/oggy-a-svaby-078-oggy-and-the-magic-broom-bydejv/68cc51f298d7a",
+              "title": "Oggy a Svaby 078 - Oggy and the magic broom byDejv",
+              "year": null,
+              "duration_sec": 402,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.179,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 402,
+                "runtime_delta": 0.256,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64f772fc34093",
+              "url": "https://prehraj.to/oggy-a-svaby-078-oggy-and-the-magic-broom/64f772fc34093",
+              "title": "Oggy a Šváby - 078 - Oggy and the magic broom",
+              "year": null,
+              "duration_sec": 402,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.163,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 402,
+                "runtime_delta": 0.256,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68347b3bcf5d6",
+              "url": "https://prehraj.to/nazotoki-wa-dinner-no-ato-de-08-sk-there-is-no-such-thing-as-a-completely-locked-room-file-2-please-don-t-drown-in-this-river-file-1/68347b3bcf5d6",
+              "title": "Nazotoki wa Dinner no Ato de - 08 SK - There Is No Such…",
+              "year": null,
+              "duration_sec": 1399,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.591,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68471f5d44acb",
+              "url": "https://prehraj.to/nazotoki-wa-dinner-no-ato-de-08-sk-there-is-no-such-thing-as-a-completely-locked-room-file-2-please-don-t-drown-in-this-river-file-1/68471f5d44acb",
+              "title": "Nazotoki wa Dinner no Ato de - 08 SK - There Is No Such…",
+              "year": null,
+              "duration_sec": 1399,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.591,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65f5b09ca4550",
+              "url": "https://prehraj.to/08-the-carpenter-jump-off-the-fucking-roof/65f5b09ca4550",
+              "title": "08 The Carpenter - Jump Off The Fucking Roof",
+              "year": null,
+              "duration_sec": 218,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.596,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "589d68edd2e4b2d1",
+              "url": "https://prehraj.to/08-the-carpenter-jump-off-the-fucking-roof/589d68edd2e4b2d1",
+              "title": "08 The Carpenter - Jump Off The Fucking Roof",
+              "year": null,
+              "duration_sec": 218,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.596,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65da4d4583cb8",
+              "url": "https://prehraj.to/oggy-a-svaby-078-oggy-and-the-magic-broom-by-ugare/65da4d4583cb8",
+              "title": "Oggy a Šváby - 078 - Oggy and the magic broom (by_UgarE)",
+              "year": null,
+              "duration_sec": 402,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.172,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 402,
+                "runtime_delta": 0.256,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2fc5736ac83",
+              "url": "https://prehraj.to/doom-walkthrough-04-all-collectibles-secrets-drones-trials-no-commentary/5f2fc5736ac83",
+              "title": "DOOM walkthrough 04 (All collectibles, Secrets, Drones,…",
+              "year": null,
+              "duration_sec": 401,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.203,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 401,
+                "runtime_delta": 0.257,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2fc4ffa7fa8",
+              "url": "https://prehraj.to/doom-walkthrough-08-all-collectibles-secrets-drones-trials-no-commentary/5f2fc4ffa7fa8",
+              "title": "DOOM walkthrough 08 (All collectibles, Secrets, Drones,…",
+              "year": null,
+              "duration_sec": 525,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.203,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 9,
+                "candidate_runtime_sec": 525,
+                "runtime_delta": 0.028,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2844e180575",
+              "url": "https://prehraj.to/doom-ii-hell-on-earth-uv-speed-in-18-48-30uv1848-speedrun/5f2844e180575",
+              "title": "Doom II - Hell on Earth UV-Speed in 18_48 - 30uv1848…",
+              "year": null,
+              "duration_sec": 1196,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.215,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f34eb4541758",
+              "url": "https://prehraj.to/doom-3-bfg-lost-mission-walkthrough-04-lost-collector-veteran-60fps-no-commentary/5f34eb4541758",
+              "title": "DOOM 3 BFG - Lost Mission Walkthrough 04 (Lost Collector,…",
+              "year": null,
+              "duration_sec": 1024,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.896,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2fc3ea411df",
+              "url": "https://prehraj.to/doom-eternal-walkthrough-08-100-all-sp-achievements-collectibles-no-commentary-pc-60fps/5f2fc3ea411df",
+              "title": "DOOM Eternal walkthrough 08 (100%, all SP achievements,…",
+              "year": null,
+              "duration_sec": 1493,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.765,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2fc9bf8c13e",
+              "url": "https://prehraj.to/doom-eternal-walkthrough-04-100-all-sp-achievements-collectibles-no-commentary-pc-60fps/5f2fc9bf8c13e",
+              "title": "DOOM Eternal walkthrough 04 (100%, all SP achievements,…",
+              "year": null,
+              "duration_sec": 1172,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.17,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f3500fcde68f",
+              "url": "https://prehraj.to/doom-3-bfg-resurrection-of-evil-walkthrough-04-evil-collector-veteran-60fps-no-commentary/5f3500fcde68f",
+              "title": "DOOM 3 BFG - Resurrection of Evil Walkthrough 04 ( Evil…",
+              "year": null,
+              "duration_sec": 1115,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.065,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f34f64b13f20",
+              "url": "https://prehraj.to/doom-3-bfg-lost-mission-walkthrough-08-end-lost-collector-veteran-60fps-no-commentary/5f34f64b13f20",
+              "title": "DOOM 3 BFG - Lost Mission Walkthrough 08 END (Lost…",
+              "year": null,
+              "duration_sec": 1064,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.97,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Room 048 (2019)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:45:59.402680+00:00"
         }
       ],
       "identity": {
@@ -55482,7 +56177,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:07:57.703143+00:00"
+        "at": "2026-08-28T03:45:55.759818+00:00"
       }
     },
     "26317": {
@@ -76602,5 +77297,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:45:54.217281+00:00"
+  "updated_at": "2026-08-28T03:45:59.402701+00:00"
 }
