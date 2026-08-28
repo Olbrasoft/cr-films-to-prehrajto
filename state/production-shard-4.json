@@ -29400,7 +29400,98 @@
         },
         "at": "2026-08-28T02:49:46.958174+00:00"
       }
+    },
+    "22756": {
+      "attempts": [],
+      "identity": {
+        "slug": "modry-muz",
+        "title": "Modrý muž",
+        "original_title": "Eternal Evil",
+        "year": 1985,
+        "runtime_min": 85,
+        "tmdb_id": 87110,
+        "imdb_id": "tt0088830",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25515159",
+          "account_name": "Modrý samet (1986)",
+          "title_similarity": 0.56,
+          "title_contains_alias": false,
+          "film_year": 1985,
+          "candidate_year": 1986,
+          "year_match": true,
+          "film_runtime_min": 85,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T02:49:49.274857+00:00"
+      }
+    },
+    "22660": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "63a3205690cb5",
+              "url": "https://prehraj.to/dobrodruh-1983-by-nexsus/63a3205690cb5",
+              "title": "Dobrodruh (1983)(Akční - Komedie) CZ DABING ŠPIČKOVA KVALITA 1080p by Nexsus (Hraje - Jean-Paul Belmondo)",
+              "year": null,
+              "duration_sec": 5852,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.212,
+                "title_contains_alias": false,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 5852,
+                "runtime_delta": 0.204,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:56.012644+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "un-jeans-e-una-maglietta",
+        "title": "Un jeans e una maglietta",
+        "original_title": "Jeans and T-Shirt",
+        "year": 1983,
+        "runtime_min": 81,
+        "tmdb_id": 194257,
+        "imdb_id": "tt0085751",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:49.274900+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:49:47.959395+00:00"
+  "updated_at": "2026-08-28T02:49:56.012664+00:00"
 }
