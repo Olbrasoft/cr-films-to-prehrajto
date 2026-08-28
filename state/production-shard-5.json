@@ -26572,7 +26572,60 @@
         },
         "at": "2026-08-28T07:39:20.491785+00:00"
       }
+    },
+    "23797": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64aa28be0aa0d",
+              "url": "https://prehraj.to/srdce-k-pronajmuti-romanticky-kan-usa-1997-cz/64aa28be0aa0d",
+              "title": "Srdce-k-pronajmutí---Romantický---Kan,USA---1997---cz",
+              "year": null,
+              "duration_sec": 5179,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.518,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:39:25.821730+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "srdce-je-silene",
+        "title": "Srdce je šílené",
+        "original_title": "Dil To Pagal Hai",
+        "year": 1997,
+        "runtime_min": 179,
+        "tmdb_id": 13986,
+        "imdb_id": "tt0118983",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:39:22.691477+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:39:21.260868+00:00"
+  "updated_at": "2026-08-28T07:39:25.821748+00:00"
 }
