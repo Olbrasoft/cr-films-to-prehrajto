@@ -19484,7 +19484,160 @@
         },
         "at": "2026-08-28T06:48:06.981275+00:00"
       }
+    },
+    "27590": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b4bca42d5d27cd4",
+              "url": "https://prehraj.to/harry-potter-a-vezen-z-azkabanu-daniel-radcliffe-emma-watson-rupert-grint-2004-dobrodruzny-drama-rodinny-mysteriozni-bdrip-1080p-sk-dabing/5b4bca42d5d27cd4",
+              "title": "Harry Potter a vězeň z Azkabanu (Daniel Radcliffe, Emma Watson, Rupert Grint-2004 Dobrodružný-Drama-Rodinný-Mysteriózní-Bdrip.-1080p.) Sk dabing",
+              "year": null,
+              "duration_sec": 8502,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.61,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aee963144c0577f5",
+              "url": "https://prehraj.to/harry-potter-a-vezen-z-azkabanu-daniel-radcliffe-emma-watson-rupert-grint-2004-dobrodruzny-drama-rodinny-mysteriozni-bdrip-1080p-sk-dabing/aee963144c0577f5",
+              "title": "Harry Potter a vězeň z Azkabanu (Daniel Radcliffe, Emma Watson, Rupert Grint-2004 Dobrodružný-Drama-Rodinný-Mysteriózní-Bdrip.-1080p.) Sk dabing",
+              "year": null,
+              "duration_sec": 8502,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.61,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65a6853415a00",
+              "url": "https://prehraj.to/letop-narnie-3-plavba-jitrniho-poutnika-dobrodruzny-2010-cz-adriatic/65a6853415a00",
+              "title": "Letop. Narnie 3-Plavba Jitrního poutníka-Dobrodruzny-2010…",
+              "year": null,
+              "duration_sec": 6484,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2004,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dobrodružná plavba 2 (2004)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9b0d9886f95",
+              "url": "https://prehraj.to/dobrodruzna-plavba-1999/5a9b0d9886f95",
+              "title": "Dobrodružná plavba (1999)",
+              "year": null,
+              "duration_sec": 4916,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2004,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dobrodružná plavba 2 (2004)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8c8cdc3bafe277b6",
+              "url": "https://prehraj.to/dobrodruzna-plavba-1999-cz/8c8cdc3bafe277b6",
+              "title": "Dobrodružná Plavba (1999) CZ",
+              "year": null,
+              "duration_sec": 4916,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2004,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dobrodružná plavba 2 (2004)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "00895086b29791d4",
+              "url": "https://prehraj.to/dobrodruzna-plavba-1999-cs/00895086b29791d4",
+              "title": "Dobrodružná plavba - 1999 CS",
+              "year": null,
+              "duration_sec": 4916,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2004,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dobrodružná plavba 2 (2004)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:48:20.193109+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dobrodruzna-plavba-2",
+        "title": "Dobrodružná plavba 2",
+        "original_title": "In Search of the Titanic",
+        "year": 2004,
+        "runtime_min": 88,
+        "tmdb_id": 71241,
+        "imdb_id": "tt1719665",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:48:15.631509+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:48:14.365753+00:00"
+  "updated_at": "2026-08-28T06:48:20.193130+00:00"
 }
