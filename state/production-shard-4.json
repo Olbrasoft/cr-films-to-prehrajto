@@ -27525,7 +27525,94 @@
         },
         "at": "2026-08-28T02:49:03.347220+00:00"
       }
+    },
+    "23196": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "667e4ac8aa84c",
+              "url": "https://prehraj.to/fantaghiro-e01-1991-sk-it/667e4ac8aa84c",
+              "title": "Fantaghiró E01 (1991) SK-IT",
+              "year": null,
+              "duration_sec": 5465,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.432,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 115,
+                "candidate_runtime_sec": 5465,
+                "runtime_delta": 0.208,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a909a44dd12212b4",
+              "url": "https://prehraj.to/princezna-fantaghiro-1-1991-it-fantasy-romanticky/a909a44dd12212b4",
+              "title": "Princezna Fantaghiro 1-1991,IT-fantasy,romanticky",
+              "year": null,
+              "duration_sec": 5478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 115,
+                "candidate_runtime_sec": 5478,
+                "runtime_delta": 0.206,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:18.533651+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "let-him-have-it",
+        "title": "Let Him Have It",
+        "original_title": null,
+        "year": 1991,
+        "runtime_min": 115,
+        "tmdb_id": 64167,
+        "imdb_id": "tt0102288",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:11.766063+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:49:10.405340+00:00"
+  "updated_at": "2026-08-28T02:49:18.533672+00:00"
 }
