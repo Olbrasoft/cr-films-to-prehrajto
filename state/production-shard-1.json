@@ -42541,6 +42541,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:05:47.948846+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "623b2d156b380",
+              "url": "https://prehraj.to/house-of-gucci-2021-1080p-bluray-ddp-7-1-x264-tayto-cz-dedo/623b2d156b380",
+              "title": "House.of.Gucci.2021.1080p.BluRay.DDP.7.1.x264-TayTO.CZ-DeDo",
+              "year": null,
+              "duration_sec": 9538,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.673,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:42:08.962252+00:00"
         }
       ],
       "identity": {
@@ -42559,7 +42590,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:05:47.329672+00:00"
+        "at": "2026-08-28T03:42:08.060261+00:00"
       }
     },
     "27149": {
@@ -74838,5 +74869,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:42:06.523115+00:00"
+  "updated_at": "2026-08-28T03:42:08.962272+00:00"
 }
