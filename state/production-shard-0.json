@@ -22624,6 +22624,620 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:22:52.874422+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55ccc9fa8a990",
+              "url": "https://prehraj.to/descent-pad-do-tmy-2015-cs-dab-horor/55ccc9fa8a990",
+              "title": "Descent-Pád do tmy-2015-cs.dab-Horor",
+              "year": null,
+              "duration_sec": 5722,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.143,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5722,
+                "runtime_delta": 0.122,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5aae23ff762d3",
+              "url": "https://prehraj.to/eyewitness-s01e02-bless-the-beast-and-the-children/5aae23ff762d3",
+              "title": "Eyewitness - S01E02 - Bless the Beast and the Children",
+              "year": null,
+              "duration_sec": 2403,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa5e073c6b8c",
+              "url": "https://prehraj.to/eyewitness-s01e04-creme-brulee/5aa5e073c6b8c",
+              "title": "Eyewitness - S01E04 - Creme Brulee",
+              "year": null,
+              "duration_sec": 2487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5aab614539a7e",
+              "url": "https://prehraj.to/eyewitness-s01e03-bella-bella-bella/5aab614539a7e",
+              "title": "Eyewitness - S01E03 - Bella, Bella, Bella",
+              "year": null,
+              "duration_sec": 2486,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "87c006d05e3dff31",
+              "url": "https://prehraj.to/eyewitness-s01e01-1-epizoda-cz-titulky/87c006d05e3dff31",
+              "title": "Eyewitness S01E01 - 1. epizoda CZ Titulky",
+              "year": null,
+              "duration_sec": 2527,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583835218f7a6",
+              "url": "https://prehraj.to/eyewitness-s01e04-cztit-v-obraze-720p/583835218f7a6",
+              "title": "Eyewitness S01E04 CZtit V OBRAZE 720p",
+              "year": null,
+              "duration_sec": 2487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583ab5533deca",
+              "url": "https://prehraj.to/eyewitness-s01e06-cztit-v-obraze-720p/583ab5533deca",
+              "title": "Eyewitness S01E06 CZtit V OBRAZE 720p",
+              "year": null,
+              "duration_sec": 2480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64fc94f743a32",
+              "url": "https://prehraj.to/eyewitness-s01e01-cztit-v-obraze-1080p/64fc94f743a32",
+              "title": "Eyewitness.S01E01 CZtit V OBRAZE 1080p",
+              "year": null,
+              "duration_sec": 2527,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584063e3e9c93",
+              "url": "https://prehraj.to/eyewitness-s01e07-cztit-v-obraze-720p/584063e3e9c93",
+              "title": "Eyewitness S01E07 CZtit V OBRAZE 720p",
+              "year": null,
+              "duration_sec": 2412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad545ff9a8f2",
+              "url": "https://prehraj.to/eyewitness-s01e06-the-yellow-couch/5ad545ff9a8f2",
+              "title": "Eyewitness - S01E06 - The Yellow Couch",
+              "year": null,
+              "duration_sec": 2480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c3365fa20c50",
+              "url": "https://prehraj.to/eyewitness-s1e5-the-lilies/5c3365fa20c50",
+              "title": "Eyewitness S1E5 The Lilies",
+              "year": null,
+              "duration_sec": 2465,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "53111f2a0de88a9a",
+              "url": "https://prehraj.to/eyewitness-s1e5-the-lilies-en/53111f2a0de88a9a",
+              "title": "Eyewitness - S1E5 The Lilies EN",
+              "year": null,
+              "duration_sec": 2465,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fd2065ee1d700056",
+              "url": "https://prehraj.to/eyewitness-s1e6-the-yellow-couch-cs/fd2065ee1d700056",
+              "title": "Eyewitness - S1E6 The Yellow Couch CS",
+              "year": null,
+              "duration_sec": 3619,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1ce21a3c62636dfa",
+              "url": "https://prehraj.to/eyewitness-s1e2-bless-the-beast-and-the-children-cs/1ce21a3c62636dfa",
+              "title": "Eyewitness - S1E2 Bless the Beast and the Children CS",
+              "year": null,
+              "duration_sec": 3548,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "78134e0d33d29593",
+              "url": "https://prehraj.to/eyewitness-s01e09-9-epizoda-cz-titulky/78134e0d33d29593",
+              "title": "Eyewitness S01E09 - 9. epizoda CZ Titulky",
+              "year": null,
+              "duration_sec": 2461,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "15f7eaf910af8e0c",
+              "url": "https://prehraj.to/eyewitness-s01e06-6-epizoda-cz-titulky/15f7eaf910af8e0c",
+              "title": "Eyewitness S01E06 - 6. epizoda CZ Titulky",
+              "year": null,
+              "duration_sec": 2480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584b329e715fe",
+              "url": "https://prehraj.to/eyewitness-s01e08-cztit-v-obraze/584b329e715fe",
+              "title": "Eyewitness S01E08 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 2485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5814af83b7c91",
+              "url": "https://prehraj.to/eyewitness-s01e02-cztit-v-obraze-720p/5814af83b7c91",
+              "title": "Eyewitness S01E02 CZtit V OBRAZE 720p",
+              "year": null,
+              "duration_sec": 2404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5814b08ad2893",
+              "url": "https://prehraj.to/eyewitness-s01e02-cztit-v-obraze/5814b08ad2893",
+              "title": "Eyewitness S01E02 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 2404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "576680d46f918",
+              "url": "https://prehraj.to/eyewitness-s01e01-sktit-v-obraze/576680d46f918",
+              "title": "Eyewitness S01E01 SKtit V OBRAZE",
+              "year": null,
+              "duration_sec": 3543,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57668cf1e5b36",
+              "url": "https://prehraj.to/eyewitness-s01e06-sktit-v-obraze/57668cf1e5b36",
+              "title": "Eyewitness S01E06 SKtit V OBRAZE",
+              "year": null,
+              "duration_sec": 3562,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bc5cb00d868b",
+              "url": "https://prehraj.to/eyewitness-s01e01/5bc5cb00d868b",
+              "title": "Eyewitness - s01e01",
+              "year": null,
+              "duration_sec": 2517,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c2b0d6cb3c52",
+              "url": "https://prehraj.to/eyewitness-1x5/5c2b0d6cb3c52",
+              "title": "Eyewitness 1x5",
+              "year": null,
+              "duration_sec": 2465,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bc5cb2a61a73",
+              "url": "https://prehraj.to/eyewitness-s01e08/5bc5cb2a61a73",
+              "title": "Eyewitness - s01e08",
+              "year": null,
+              "duration_sec": 2486,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bc5ca8ad2fe4",
+              "url": "https://prehraj.to/eyewitness-s01e04/5bc5ca8ad2fe4",
+              "title": "Eyewitness - s01e04",
+              "year": null,
+              "duration_sec": 2487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c474f79b9b9c",
+              "url": "https://prehraj.to/eyewitness-1x7/5c474f79b9b9c",
+              "title": "Eyewitness 1x7",
+              "year": null,
+              "duration_sec": 2413,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bc5caea42e32",
+              "url": "https://prehraj.to/eyewitness-s01e07/5bc5caea42e32",
+              "title": "Eyewitness - s01e07",
+              "year": null,
+              "duration_sec": 2412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bc5cbb8da824",
+              "url": "https://prehraj.to/eyewitness-s01e09/5bc5cbb8da824",
+              "title": "Eyewitness - s01e09",
+              "year": null,
+              "duration_sec": 2461,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5acebbb005dec",
+              "url": "https://prehraj.to/eyewitness-s01e05-the-lilies/5acebbb005dec",
+              "title": "Eyewitness - S01E05 - The Lilies",
+              "year": null,
+              "duration_sec": 2465,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "581ccb63ccaa1",
+              "url": "https://prehraj.to/eyewitness-s01e03-cztit-v-obraze-720p/581ccb63ccaa1",
+              "title": "Eyewitness S01E03 CZtit V OBRAZE 720p",
+              "year": null,
+              "duration_sec": 2487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ff79b7a4ea4",
+              "url": "https://prehraj.to/eyewitness-s01e01-cztitulky/64ff79b7a4ea4",
+              "title": "Eyewitness S01E01 CZtitulky",
+              "year": null,
+              "duration_sec": 2527,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e5557374a1b22da",
+              "url": "https://prehraj.to/eyewitness-s1e2-bless-the-beast-and-the-children-en/5e5557374a1b22da",
+              "title": "Eyewitness - S1E2 Bless the Beast and the Children EN",
+              "year": null,
+              "duration_sec": 2403,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "775dd908cfe48fd7",
+              "url": "https://prehraj.to/eyewitness-s1e3-bella-bella-bella-en/775dd908cfe48fd7",
+              "title": "Eyewitness - S1E3 Bella, Bella, Bella EN",
+              "year": null,
+              "duration_sec": 2486,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Eyewitness (2015)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:07:52.002731+00:00"
         }
       ],
       "identity": {
@@ -22642,7 +23256,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:22:52.369669+00:00"
+        "at": "2026-08-28T11:07:50.987109+00:00"
       }
     },
     "28960": {
@@ -61045,5 +61659,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:07:49.489567+00:00"
+  "updated_at": "2026-08-28T11:07:52.002747+00:00"
 }
