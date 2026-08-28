@@ -35262,7 +35262,7 @@
             }
           ]
         },
-        "at": "2026-08-28T18:12:59.967405+00:00"
+        "at": "2026-08-28T19:53:55.728359+00:00"
       }
     },
     "2846": {
@@ -35277,6 +35277,42 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T19:49:13.591400+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "32382",
+              "url": "https://online.sktorrent.eu/video/32382/",
+              "title": "Barbie",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:54:12.314623+00:00"
         }
       ],
       "identity": {
@@ -35295,7 +35331,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T17:23:19.482867+00:00"
+        "at": "2026-08-28T19:53:55.729870+00:00"
       }
     },
     "8430": {
@@ -35568,5 +35604,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T19:50:44.101395+00:00"
+  "updated_at": "2026-08-28T19:54:12.314643+00:00"
 }
