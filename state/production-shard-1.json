@@ -26334,6 +26334,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:59:52.122996+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5840a911a56ad",
+              "url": "https://prehraj.to/zet-a-dve-nuly-1985-cz-hardsub/5840a911a56ad",
+              "title": "Zet-a-dvě-nuly-(1985)-cz-hardsub",
+              "year": null,
+              "duration_sec": 6717,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.622,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:18:28.247862+00:00"
         }
       ],
       "identity": {
@@ -26352,7 +26383,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:59:51.666693+00:00"
+        "at": "2026-08-28T03:18:24.088186+00:00"
       }
     },
     "28535": {
@@ -72232,5 +72263,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:18:22.540803+00:00"
+  "updated_at": "2026-08-28T03:18:28.247883+00:00"
 }
