@@ -190,10 +190,11 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "chore(production shard ${SHARD}): persist final state"
           fi
-          for attempt in 1 2 3 4 5; do
+          for attempt in $(seq 1 30); do
             git push origin HEAD:main && exit 0
             git pull --rebase origin main
-            sleep "$attempt"
+            delay=$((attempt < 5 ? attempt : 5))
+            sleep "$((delay + SHARD))"
           done
           exit 1
 
@@ -282,7 +283,7 @@ jobs:
       - name: Continue while uploads make progress
         if: >-
           ${{
-            needs.upload.result == 'success' &&
+            needs.upload.result != 'cancelled' &&
             inputs.auto_continue &&
             fromJSON(steps.backlog.outputs.after) > 0 &&
             (

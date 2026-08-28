@@ -18,6 +18,10 @@ class GitStatePusher:
         self.shard_id = shard_id
         self.retries = retries
 
+    def _retry_delay(self, attempt: int) -> float:
+        """Stagger concurrent shard pushes so they do not retry in lockstep."""
+        return min(attempt + 1, 5) + (self.shard_id * 0.5)
+
     @staticmethod
     def _run(*args: str) -> subprocess.CompletedProcess[str]:
         return subprocess.run(
@@ -48,12 +52,12 @@ class GitStatePusher:
                 # Another shard can update main while the rebase is running.
                 # Retry the complete fetch/rebase/push cycle instead of
                 # aborting the production job on a transient race.
-                time.sleep(min(attempt + 1, 10))
+                time.sleep(self._retry_delay(attempt))
                 continue
-            # Give the other shard a short window to finish its push.  The
-            # bounded backoff prevents two fast shards from starving each
-            # other while keeping state persistence crash-safe.
-            time.sleep(min(attempt + 1, 10))
+            # Each shard receives a different delay. Without this offset all
+            # eight jobs rebase and retry together, repeatedly invalidating
+            # one another's expected remote HEAD.
+            time.sleep(self._retry_delay(attempt))
         raise RuntimeError("Could not push production state after retries")
 
 

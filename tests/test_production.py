@@ -1,6 +1,7 @@
 import json
 import subprocess
 from dataclasses import replace
+from pathlib import Path
 
 from cr_films_to_prehrajto.cli import build_parser, execute_production_incrementally
 from cr_films_to_prehrajto.models import AccountVideo
@@ -110,6 +111,43 @@ def test_git_state_pusher_commits_and_pushes_only_its_state(tmp_path):
     assert calls[0] == ("add", "--", str(state_path))
     assert calls[2][:2] == ("commit", "-m")
     assert calls[3] == ("push", "origin", "HEAD:main")
+
+
+def test_git_state_pusher_staggers_retry_by_shard(tmp_path, monkeypatch):
+    state_path = tmp_path / "production-shard-3.json"
+    push_results = iter((1, 1, 0))
+    calls = []
+    delays = []
+
+    def fake_run(*args):
+        calls.append(args)
+        if args[:2] == ("push", "origin"):
+            return subprocess.CompletedProcess(args, next(push_results))
+        if args[:3] == ("diff", "--cached", "--quiet"):
+            return subprocess.CompletedProcess(args, 1)
+        return subprocess.CompletedProcess(args, 0)
+
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.production.time.sleep", delays.append
+    )
+    pusher = GitStatePusher(state_path, 3, retries=3)
+    pusher._run = fake_run
+
+    pusher(state_path)
+
+    assert calls.count(("push", "origin", "HEAD:main")) == 3
+    assert calls.count(("pull", "--rebase", "origin", "main")) == 2
+    assert delays == [2.5, 3.5]
+
+
+def test_production_workflow_continues_after_partial_shard_failure():
+    workflow = (
+        Path(__file__).parents[1] / ".github/workflows/production.yml"
+    ).read_text()
+
+    assert "needs.upload.result != 'cancelled'" in workflow
+    assert "needs.upload.result == 'success'" not in workflow
+    assert "for attempt in $(seq 1 30)" in workflow
 
 
 def test_production_discovers_and_executes_each_film_incrementally(tmp_path, film):
