@@ -55289,6 +55289,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:07:53.667229+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ce61e4a00539",
+              "url": "https://prehraj.to/klec-cz-film-2019-1080p-h-264-ac3-5-1-webrip/5ce61e4a00539",
+              "title": "Klec (CZ film) (2019) 1080p H-264 AC3-5.1 WEBRip",
+              "year": null,
+              "duration_sec": 5196,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.732,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:45:54.217256+00:00"
         }
       ],
       "identity": {
@@ -55307,7 +55338,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:07:50.719183+00:00"
+        "at": "2026-08-28T03:45:47.745097+00:00"
       }
     },
     "26333": {
@@ -76571,5 +76602,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:45:46.181662+00:00"
+  "updated_at": "2026-08-28T03:45:54.217281+00:00"
 }
