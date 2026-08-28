@@ -14205,7 +14205,98 @@
         },
         "at": "2026-08-28T02:26:13.292939+00:00"
       }
+    },
+    "29228": {
+      "attempts": [],
+      "identity": {
+        "slug": "las-elegidas",
+        "title": "Las elegidas",
+        "original_title": "The Chosen Ones",
+        "year": 2015,
+        "runtime_min": 105,
+        "tmdb_id": 336201,
+        "imdb_id": "tt4636042",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25456980",
+          "account_name": "The Chosen (2015)",
+          "title_similarity": 0.733,
+          "title_contains_alias": false,
+          "film_year": 2015,
+          "candidate_year": 2015,
+          "year_match": true,
+          "film_runtime_min": 105,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T02:26:15.431407+00:00"
+      }
+    },
+    "29212": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60cf4f4063cb1",
+              "url": "https://prehraj.to/siberia-2019-1080p-bluray-x264-dts-mt/60cf4f4063cb1",
+              "title": "Siberia.2019.1080p.BluRay.x264.DTS-MT",
+              "year": null,
+              "duration_sec": 5473,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5473,
+                "runtime_delta": 0.061,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:26:16.421272+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "i-want-my-mtv",
+        "title": "I Want My MTV",
+        "original_title": null,
+        "year": 2019,
+        "runtime_min": 86,
+        "tmdb_id": 598507,
+        "imdb_id": "tt4571976",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:26:15.431440+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:26:14.288722+00:00"
+  "updated_at": "2026-08-28T02:26:16.421293+00:00"
 }
