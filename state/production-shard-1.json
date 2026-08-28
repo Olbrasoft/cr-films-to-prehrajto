@@ -20122,6 +20122,64 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:59:01.430082+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ffbd2a02d9c7",
+              "url": "https://prehraj.to/dead-snow-rudy-vs-mrtvy-dead-snow-2-2014-cz-titulky-novinky-novinka/5ffbd2a02d9c7",
+              "title": "Dead-Snow-Rudý-vs.-Mrtvý---Dead-Snow-2-2014-cz-titulky-novinky-novinka",
+              "year": null,
+              "duration_sec": 6041,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.279,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6041,
+                "runtime_delta": 0.228,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "660ab59e24dd5",
+              "url": "https://prehraj.to/rape-zombie-lust-of-the-dead-2012-1080p-bluray-x264-oft/660ab59e24dd5",
+              "title": "Rape.Zombie.Lust.of.the.Dead.2012.1080p.BluRay.x264-OFT",
+              "year": null,
+              "duration_sec": 4478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rape Zombie: Lust of the Dead 5 (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:17:50.890150+00:00"
         }
       ],
       "identity": {
@@ -20140,7 +20198,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:59:01.070744+00:00"
+        "at": "2026-08-28T03:17:46.281549+00:00"
       }
     },
     "28929": {
@@ -70635,5 +70693,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:17:44.801575+00:00"
+  "updated_at": "2026-08-28T03:17:50.890174+00:00"
 }
