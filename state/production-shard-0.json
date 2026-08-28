@@ -71936,7 +71936,363 @@
         },
         "at": "2026-08-28T11:19:22.465918+00:00"
       }
+    },
+    "23080": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588c0d59d24b6",
+              "url": "https://prehraj.to/zly-jim-1990-nef-tv-cz/588c0d59d24b6",
+              "title": "Zlý-Jim-1990-nef-tv-cz",
+              "year": null,
+              "duration_sec": 5047,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.188,
+                "title_contains_alias": false,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 5047,
+                "runtime_delta": 0.15,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685633f6c94b9",
+              "url": "https://prehraj.to/bad-influence-2025-cz-dabing-1080p/685633f6c94b9",
+              "title": "Bad Influence 2025 CZ Dabing 1080p",
+              "year": null,
+              "duration_sec": 6488,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662ea73670d31",
+              "url": "https://prehraj.to/bad-influence/662ea73670d31",
+              "title": "Bad Influence",
+              "year": null,
+              "duration_sec": 202,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.966,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67826fb72446d",
+              "url": "https://prehraj.to/bad-influence/67826fb72446d",
+              "title": "Bad Influence",
+              "year": null,
+              "duration_sec": 202,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.966,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6904dbc0f0e5d",
+              "url": "https://prehraj.to/bad-influencer-s01e05-cz-dabing/6904dbc0f0e5d",
+              "title": "Bad Influencer S01E05 CZ Dabing",
+              "year": null,
+              "duration_sec": 2820,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6904db2c6de1e",
+              "url": "https://prehraj.to/bad-influencer-s01e02-cz-dabing/6904db2c6de1e",
+              "title": "Bad Influencer S01E02 CZ Dabing",
+              "year": null,
+              "duration_sec": 2793,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6904db9a20fdf",
+              "url": "https://prehraj.to/bad-influencer-s01e04-cz-dabing/6904db9a20fdf",
+              "title": "Bad Influencer S01E04 CZ Dabing",
+              "year": null,
+              "duration_sec": 2953,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6904db682239b",
+              "url": "https://prehraj.to/bad-influencer-s01e03-cz-dabing/6904db682239b",
+              "title": "Bad Influencer S01E03 CZ Dabing",
+              "year": null,
+              "duration_sec": 2928,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6904dc0d1eb69",
+              "url": "https://prehraj.to/bad-influencer-s01e07-cz-dabing/6904dc0d1eb69",
+              "title": "Bad Influencer S01E07 CZ Dabing",
+              "year": null,
+              "duration_sec": 2954,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6904dbdb18278",
+              "url": "https://prehraj.to/bad-influencer-s01e06-cz-dabing/6904dbdb18278",
+              "title": "Bad Influencer S01E06 CZ Dabing",
+              "year": null,
+              "duration_sec": 2639,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6904daf9b945e",
+              "url": "https://prehraj.to/bad-influencer-s01e01-cz-dabing/6904daf9b945e",
+              "title": "Bad Influencer S01E01 CZ Dabing",
+              "year": null,
+              "duration_sec": 3112,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "db51f5e300739b71",
+              "url": "https://prehraj.to/spatny-vliv-bad-influence-2025-romanticky-thriller-czdab-mp4/db51f5e300739b71",
+              "title": "Špatný+vliv - Bad Influence 2025) romantický thriller czdab…",
+              "year": null,
+              "duration_sec": 6487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "681dcffa43cc9",
+              "url": "https://prehraj.to/spatny-vliv-bad-influence-2025-thriller-romanticky-cz-aac-5-1-hevc-1080p/681dcffa43cc9",
+              "title": "Špatný vliv, Bad Influence (2025) Thriller, Romantický, CZ…",
+              "year": null,
+              "duration_sec": 6487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fcd0dedd2c0",
+              "url": "https://prehraj.to/bad-influence-the-dark-side-of-kidfluencing-s01e03/67fcd0dedd2c0",
+              "title": "Bad Influence The Dark Side of Kidfluencing S01E03",
+              "year": null,
+              "duration_sec": 3179,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fd02af95c3f",
+              "url": "https://prehraj.to/bad-influence-the-dark-side-of-kidfluencing-s01e01/67fd02af95c3f",
+              "title": "Bad Influence The Dark Side of Kidfluencing S01E01",
+              "year": null,
+              "duration_sec": 2758,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fcd0dee9a88",
+              "url": "https://prehraj.to/bad-influence-the-dark-side-of-kidfluencing-s01e01/67fcd0dee9a88",
+              "title": "Bad Influence The Dark Side of Kidfluencing S01E01",
+              "year": null,
+              "duration_sec": 2759,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fcd0dee2ef4",
+              "url": "https://prehraj.to/bad-influence-the-dark-side-of-kidfluencing-s01e02/67fcd0dee2ef4",
+              "title": "Bad Influence The Dark Side of Kidfluencing S01E02",
+              "year": null,
+              "duration_sec": 3175,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Bad Influence (1990)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:19:27.443272+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bad-influence",
+        "title": "Bad Influence",
+        "original_title": null,
+        "year": 1990,
+        "runtime_min": 99,
+        "tmdb_id": 24249,
+        "imdb_id": "tt0099091",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:19:25.890952+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:19:24.478153+00:00"
+  "updated_at": "2026-08-28T11:19:27.443288+00:00"
 }
