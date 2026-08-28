@@ -72789,7 +72789,93 @@
         },
         "at": "2026-08-28T11:19:34.367798+00:00"
       }
+    },
+    "22288": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586e988663e45",
+              "url": "https://prehraj.to/afrika-expres-1976-dual-cz-eng-dvdrip-x264-jrk/586e988663e45",
+              "title": "Afrika-expres-(1976)-Dual-CZ-eng-DVDRip.x264-JrK",
+              "year": null,
+              "duration_sec": 5569,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.296,
+                "title_contains_alias": false,
+                "film_year": 1976,
+                "candidate_year": 1976,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5569,
+                "runtime_delta": 0.009,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ed991c76c58",
+              "url": "https://prehraj.to/vera-bila-cernobila-v-barve-black-and-white-in-colour-film-start-at-0-25-360p/60ed991c76c58",
+              "title": "Věra Bílá - Černobílá V Barvē (Black And White In Colour)…",
+              "year": null,
+              "duration_sec": 3586,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.623,
+                "title_contains_alias": false,
+                "film_year": 1976,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 3586,
+                "runtime_delta": 0.35,
+                "rejection_reason": "title_only"
+              },
+              "query": "Black and White in Color (1976)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:19:39.359127+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "la-victoire-en-chantant",
+        "title": "La Victoire en chantant",
+        "original_title": "Black and White in Color",
+        "year": 1976,
+        "runtime_min": 92,
+        "tmdb_id": 42238,
+        "imdb_id": "tt0074972",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:19:38.043674+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:19:36.565378+00:00"
+  "updated_at": "2026-08-28T11:19:39.359143+00:00"
 }
