@@ -27946,7 +27946,67 @@
         },
         "at": "2026-08-28T06:55:17.044755+00:00"
       }
+    },
+    "25019": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67929624d9216",
+              "url": "https://prehraj.to/adolf-hitler-vzestup-a-pad-vudce-zla-adolf-hitler-hermann-goring-joseph-goebbels-1977-cz-dab-x264/67929624d9216",
+              "title": "Adolf Hitler - Vzestup a pád vůdce zla - Adolf Hitler, Hermann Göring, Joseph Goebbels 1977 Cz Dab.-_x264",
+              "year": null,
+              "duration_sec": 10575,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.165,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 10575,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:55:20.804174+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "nazis-dans-le-retro",
+        "title": "Nazis dans le rétro",
+        "original_title": null,
+        "year": 1977,
+        "runtime_min": null,
+        "tmdb_id": 1102132,
+        "imdb_id": "tt0341499",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:55:19.352554+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:55:17.998564+00:00"
+  "updated_at": "2026-08-28T06:55:20.804193+00:00"
 }
