@@ -31710,7 +31710,67 @@
         },
         "at": "2026-08-28T06:59:25.694525+00:00"
       }
+    },
+    "21939": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5872352748c32",
+              "url": "https://prehraj.to/jaka-to-rozkosna-valka-valecny-muzikal-1969-cz-tit-irisa/5872352748c32",
+              "title": "Jaká-to-rozkošná-válka!-(válečný,muzikál-1969)CZ-TIT---IRISA",
+              "year": null,
+              "duration_sec": 8304,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.274,
+                "title_contains_alias": false,
+                "film_year": 1969,
+                "candidate_year": 1969,
+                "year_match": true,
+                "film_runtime_min": 144,
+                "candidate_runtime_sec": 8304,
+                "runtime_delta": 0.039,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:59:31.035623+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "oh-what-a-lovely-war",
+        "title": "Oh! What a Lovely War",
+        "original_title": null,
+        "year": 1969,
+        "runtime_min": 144,
+        "tmdb_id": 21335,
+        "imdb_id": "tt0064754",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:59:28.476175+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:59:27.133365+00:00"
+  "updated_at": "2026-08-28T06:59:31.035642+00:00"
 }
