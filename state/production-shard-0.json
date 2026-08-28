@@ -73008,7 +73008,94 @@
         },
         "at": "2026-08-28T11:19:43.784594+00:00"
       }
+    },
+    "21792": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "649aaf57617fb",
+              "url": "https://prehraj.to/naha-pastyrka-1966-1080p-web-dl-x264-r-i-h/649aaf57617fb",
+              "title": "Nahá.Pastýřka.1966.1080p.WEB-DL.x264-R.i.H",
+              "year": null,
+              "duration_sec": 5435,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.093,
+                "title_contains_alias": false,
+                "film_year": 1966,
+                "candidate_year": 1966,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5435,
+                "runtime_delta": 0.018,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d2a14aee536",
+              "url": "https://prehraj.to/kdo-chce-zabit-jessii-1966-1080p-web-dl-h264-r-i-h/65d2a14aee536",
+              "title": "Kdo.Chce.Zabít.Jessii.1966.1080p.WEB-DL.H264-R.i.H",
+              "year": null,
+              "duration_sec": 4738,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.275,
+                "title_contains_alias": false,
+                "film_year": 1966,
+                "candidate_year": 1966,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 4738,
+                "runtime_delta": 0.113,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:19:53.386380+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "miejsce-dla-jednego",
+        "title": "Miejsce dla jednego",
+        "original_title": null,
+        "year": 1966,
+        "runtime_min": 89,
+        "tmdb_id": 919688,
+        "imdb_id": "tt0060695",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:19:46.691831+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:19:45.094446+00:00"
+  "updated_at": "2026-08-28T11:19:53.386397+00:00"
 }
