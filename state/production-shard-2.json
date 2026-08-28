@@ -28793,7 +28793,94 @@
         },
         "at": "2026-08-28T07:25:38.953717+00:00"
       }
+    },
+    "24282": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "589361b702346",
+              "url": "https://prehraj.to/adam-a-otka-1973/589361b702346",
+              "title": "Adam-a-Otka-1973",
+              "year": null,
+              "duration_sec": 4060,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.308,
+                "title_contains_alias": false,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4060,
+                "runtime_delta": 0.165,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5867aff30dec2",
+              "url": "https://prehraj.to/adam-a-otka-1973/5867aff30dec2",
+              "title": "Adam-a-Otka-1973",
+              "year": null,
+              "duration_sec": 4060,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.308,
+                "title_contains_alias": false,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4060,
+                "runtime_delta": 0.165,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:25:59.634420+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "3-dev-adam",
+        "title": "3 Dev Adam",
+        "original_title": "Three Giant Men",
+        "year": 1973,
+        "runtime_min": 81,
+        "tmdb_id": 58447,
+        "imdb_id": "tt0181947",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:25:46.973325+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:25:45.387728+00:00"
+  "updated_at": "2026-08-28T07:25:59.634441+00:00"
 }
