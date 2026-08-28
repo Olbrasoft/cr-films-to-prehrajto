@@ -19040,7 +19040,60 @@
         },
         "at": "2026-08-28T03:30:05.587694+00:00"
       }
+    },
+    "28562": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64f67df4c3106",
+              "url": "https://prehraj.to/the-challenge-2023-cztitulky/64f67df4c3106",
+              "title": "The Challenge (2023) CZtitulky",
+              "year": null,
+              "duration_sec": 9816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.453,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:30:19.446850+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "jak-vznikala-hra-na-olihen-vyzva",
+        "title": "Jak vznikala Hra na oliheň: Výzva",
+        "original_title": "Making Squid Game: The Challenge",
+        "year": 2023,
+        "runtime_min": 30,
+        "tmdb_id": 1214667,
+        "imdb_id": "tt30327680",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:30:08.224055+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:30:06.931893+00:00"
+  "updated_at": "2026-08-28T03:30:19.446870+00:00"
 }
