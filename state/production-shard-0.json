@@ -61225,6 +61225,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:34:36.688245+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e85ca6e102a3",
+              "url": "https://prehraj.to/ctyri-z-tanku-a-pes-18-1968-70-cz/5e85ca6e102a3",
+              "title": "Čtyři z tanku a pes 18 (1968-70) cz",
+              "year": null,
+              "duration_sec": 3609,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.136,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 3609,
+                "runtime_delta": 0.399,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:16:19.485174+00:00"
         }
       ],
       "identity": {
@@ -61243,7 +61281,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:34:36.295059+00:00"
+        "at": "2026-08-28T11:16:15.131870+00:00"
       }
     },
     "24214": {
@@ -71626,5 +71664,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:16:13.637621+00:00"
+  "updated_at": "2026-08-28T11:16:19.485189+00:00"
 }
