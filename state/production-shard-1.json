@@ -33801,6 +33801,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:00:52.981824+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "62135a98f1d37",
+              "url": "https://prehraj.to/help-2022-1080p-webrip-en-cz-sk-dub/62135a98f1d37",
+              "title": "HELP .2022.1080p.WEBRip.EN.CZ-SK.dub",
+              "year": null,
+              "duration_sec": 5680,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.424,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5680,
+                "runtime_delta": 0.053,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:19:06.026286+00:00"
         }
       ],
       "identity": {
@@ -33819,7 +33857,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:00:52.537528+00:00"
+        "at": "2026-08-28T03:19:04.464266+00:00"
       }
     },
     "27805": {
@@ -73317,5 +73355,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:19:03.028434+00:00"
+  "updated_at": "2026-08-28T03:19:06.026305+00:00"
 }
