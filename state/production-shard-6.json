@@ -31580,7 +31580,100 @@
         },
         "at": "2026-08-28T07:04:40.250087+00:00"
       }
+    },
+    "22294": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55fadc71996ca",
+              "url": "https://prehraj.to/rocky-i-1976-cz-dabing-top-hit/55fadc71996ca",
+              "title": "Rocky I., (1976) CZ DABING TOP HIT",
+              "year": null,
+              "duration_sec": 6881,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.662,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "656e4f10f3c31",
+              "url": "https://prehraj.to/rocky-i-1976-cz-dabing/656e4f10f3c31",
+              "title": "Rocky I 1976 - CZ dabing",
+              "year": null,
+              "duration_sec": 7182,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.735,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6741200b85d92",
+              "url": "https://prehraj.to/rocky-i-1976-cz/6741200b85d92",
+              "title": "Rocky I (1976) CZ",
+              "year": null,
+              "duration_sec": 7175,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.733,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:04:49.642597+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "rocky-marciano-is-dead",
+        "title": "Rocky Marciano Is Dead",
+        "original_title": null,
+        "year": 1976,
+        "runtime_min": 69,
+        "tmdb_id": 748397,
+        "imdb_id": "tt0075149",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:04:45.788474+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:04:44.246309+00:00"
+  "updated_at": "2026-08-28T07:04:49.642618+00:00"
 }
