@@ -36730,6 +36730,62 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T12:43:24.952917+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "9df678679f877900",
+              "url": "https://prehraj.to/the-war-with-grandpa-2026-cz/9df678679f877900",
+              "title": "The War with Grandpa (2026)CZ",
+              "year": null,
+              "duration_sec": 5890,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The War with Grandpa (2020)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "16222",
+              "url": "https://online.sktorrent.eu/video/16222/",
+              "title": "Děda, postrach rodiny",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T15:00:10.172996+00:00"
         }
       ],
       "identity": {
@@ -36748,7 +36804,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T12:07:54.945091+00:00"
+        "at": "2026-08-28T15:00:06.429637+00:00"
       }
     },
     "4151": {
@@ -36788,5 +36844,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T14:58:44.466164+00:00"
+  "updated_at": "2026-08-28T15:00:10.173008+00:00"
 }
