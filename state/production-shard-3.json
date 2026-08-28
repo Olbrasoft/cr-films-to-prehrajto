@@ -28299,7 +28299,121 @@
         },
         "at": "2026-08-28T06:55:46.723575+00:00"
       }
+    },
+    "24803": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5cd1d27daf68c",
+              "url": "https://prehraj.to/ali-g-indahouse-film-2002-novinky-cz-avi-super-dabling-sivak-novinka/5cd1d27daf68c",
+              "title": "Ali-G-Indahouse---Film-(2002)-Novinky--Cz-Avi-Super-DablinG-SivaK-Novinka",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": 2002,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 5015,
+                "runtime_delta": 0.26,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cf00df725976",
+              "url": "https://prehraj.to/ali-g-indahouse-film-2002-novinky-cz-avi-super-dabling-sivak-novinka/5cf00df725976",
+              "title": "Ali-G-Indahouse---Film-(2002)-Novinky--Cz-Avi-Super-DablinG-SivaK-Novinka",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": 2002,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 5015,
+                "runtime_delta": 0.26,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f29f4737f3b4",
+              "url": "https://prehraj.to/ali-g-indahouse-film-2002-novinky-cz-avi-super-dabling-sivak-novinka/5f29f4737f3b4",
+              "title": "Ali-G-Indahouse---Film-(2002)-Novinky--Cz-Avi-Super-DablinG-SivaK-Novinka",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "film_year": 2002,
+                "candidate_year": 2002,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 5015,
+                "runtime_delta": 0.26,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:56:04.397755+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "alici-ma-kazdy-rad",
+        "title": "Alici má každý rád",
+        "original_title": "Everyone Loves Alice",
+        "year": 2002,
+        "runtime_min": 113,
+        "tmdb_id": 87204,
+        "imdb_id": "tt0297722",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:56:01.921360+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:55:54.680118+00:00"
+  "updated_at": "2026-08-28T06:56:04.397774+00:00"
 }
