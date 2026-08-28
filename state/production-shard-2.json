@@ -35908,7 +35908,67 @@
         },
         "at": "2026-08-28T07:42:28.782013+00:00"
       }
+    },
+    "21290": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58738e1652b88",
+              "url": "https://prehraj.to/lazy-sa-pohly-1951-sk/58738e1652b88",
+              "title": "Lazy-sa-pohly-1951,-SK",
+              "year": null,
+              "duration_sec": 5911,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1951,
+                "candidate_year": 1951,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5911,
+                "runtime_delta": 0.095,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:42:42.575369+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sans-laisser-d-adresse",
+        "title": "Sans laisser d'adresse",
+        "original_title": "Without Leaving an Address",
+        "year": 1951,
+        "runtime_min": 90,
+        "tmdb_id": 162344,
+        "imdb_id": "tt0042923",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:42:38.053768+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:42:36.634801+00:00"
+  "updated_at": "2026-08-28T07:42:42.575390+00:00"
 }
