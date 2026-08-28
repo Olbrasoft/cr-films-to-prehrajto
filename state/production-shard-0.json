@@ -53543,6 +53543,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:29:55.934649+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5846d76d0cb34",
+              "url": "https://prehraj.to/simon-rika-2006-dvd-rip-cz-dabing/5846d76d0cb34",
+              "title": "Simon-Rika-2006-DVD-rip-CZ-dabing",
+              "year": null,
+              "duration_sec": 5013,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.427,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:12:21.036221+00:00"
         }
       ],
       "identity": {
@@ -53561,7 +53592,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:29:55.069765+00:00"
+        "at": "2026-08-28T11:12:20.097976+00:00"
       }
     },
     "26264": {
@@ -68243,5 +68274,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:12:18.619176+00:00"
+  "updated_at": "2026-08-28T11:12:21.036237+00:00"
 }
