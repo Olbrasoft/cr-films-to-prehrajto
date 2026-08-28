@@ -18898,7 +18898,141 @@
         },
         "at": "2026-08-28T06:47:49.013059+00:00"
       }
+    },
+    "27686": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "65a69b9442e0d",
+              "url": "https://prehraj.to/muzi-v-nadeji-2011-fhd-1080p-hb9400-5-1ac3-640-2pass-encoding-spark-s/65a69b9442e0d",
+              "title": "Muži v naději (2011) FHD 1080p HB9400, 5.1ac3-640 (2pass encoding - Spark) s",
+              "year": null,
+              "duration_sec": 6613,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.167,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6613,
+                "runtime_delta": 0.125,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d407f5b804dc8ac9",
+              "url": "https://prehraj.to/as-luck-would-have-it-s1e1-episode-1-en/d407f5b804dc8ac9",
+              "title": "As Luck Would Have It - S1E1 Episode 1 EN",
+              "year": null,
+              "duration_sec": 5147,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "As Luck Would Have It (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d28b6f6d1c79ebb2",
+              "url": "https://prehraj.to/as-luck-would-have-it-s1e2-episode-2-en/d28b6f6d1c79ebb2",
+              "title": "As Luck Would Have It - S1E2 Episode 2 EN",
+              "year": null,
+              "duration_sec": 5124,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "As Luck Would Have It (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e7b31db7e20fca64",
+              "url": "https://prehraj.to/as-luck-would-have-it-s1e3-episode-3-en/e7b31db7e20fca64",
+              "title": "As Luck Would Have It - S1E3 Episode 3 EN",
+              "year": null,
+              "duration_sec": 5132,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "As Luck Would Have It (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68592dc43cfc0",
+              "url": "https://prehraj.to/laska-po-irsky-as-luck-would-have-it-2021-sk/68592dc43cfc0",
+              "title": "Láska po írsky, As Luck Would Have It, 2021, SK",
+              "year": null,
+              "duration_sec": 4932,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2011,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "As Luck Would Have It (2011)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:47:58.552525+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "la-chispa-de-la-vida",
+        "title": "La chispa de la vida",
+        "original_title": "As Luck Would Have It",
+        "year": 2011,
+        "runtime_min": 98,
+        "tmdb_id": 84797,
+        "imdb_id": "tt1808240",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:47:51.854028+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:47:50.421305+00:00"
+  "updated_at": "2026-08-28T06:47:58.552546+00:00"
 }
