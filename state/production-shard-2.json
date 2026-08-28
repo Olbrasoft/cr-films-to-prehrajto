@@ -30532,7 +30532,243 @@
         },
         "at": "2026-08-28T07:27:16.162827+00:00"
       }
+    },
+    "23090": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586f7f904071e",
+              "url": "https://prehraj.to/akademicky-zlocin-1991-thriller-dvd-cz/586f7f904071e",
+              "title": "Akademický-zločin=1991-Thriller-DVD-CZ",
+              "year": null,
+              "duration_sec": 5533,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5533,
+                "runtime_delta": 0.013,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "27a29603e51d7fa4",
+              "url": "https://prehraj.to/zlocin-lorda-savila/27a29603e51d7fa4",
+              "title": "Zločin lorda Savila",
+              "year": null,
+              "duration_sec": 3797,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.471,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3797,
+                "runtime_delta": 0.305,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Lordi zločinu (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e4f19664b6505a78",
+              "url": "https://prehraj.to/zlocin-lorda-savila-1968/e4f19664b6505a78",
+              "title": "Zločin lorda Savila (1968)",
+              "year": null,
+              "duration_sec": 3796,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1968,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Lordi zločinu (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "612eaac5916bb",
+              "url": "https://prehraj.to/zlocin-lorda-savila-cz-dabing/612eaac5916bb",
+              "title": "Zločin lorda Savila - CZ DABING",
+              "year": null,
+              "duration_sec": 3789,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.471,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3789,
+                "runtime_delta": 0.306,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Lordi zločinu (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4ed32a7b283ff5",
+              "url": "https://prehraj.to/zlocin-lorda-savila-68-dvbt-cz/5c4ed32a7b283ff5",
+              "title": "zlocin-lorda-savila--68'-DVBT_CZ",
+              "year": null,
+              "duration_sec": 3796,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.356,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3796,
+                "runtime_delta": 0.305,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Lordi zločinu (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "585897c5284e2",
+              "url": "https://prehraj.to/zlocin-lorda-savila-68-dvbt-cz-romin/585897c5284e2",
+              "title": "zlocin-lorda-savila--68'-DVBT_CZ-(romin)",
+              "year": null,
+              "duration_sec": 3796,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.314,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 3796,
+                "runtime_delta": 0.305,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Lordi zločinu (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ea8a11d55e8c2c3f",
+              "url": "https://prehraj.to/fantasticka-zvirata-grindelwa-dovy-zlociny-lord/ea8a11d55e8c2c3f",
+              "title": "Fantastická Zvířata Grindelwa Dovy Zločiny lord",
+              "year": null,
+              "duration_sec": 8030,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.323,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 8030,
+                "runtime_delta": 0.471,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Lordi zločinu (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "09b032522276222e",
+              "url": "https://prehraj.to/fantasticka-zvirata-grindelwa-dovy-zlociny-lord/09b032522276222e",
+              "title": "Fantastická Zvířata Grindelwa Dovy Zločiny lord",
+              "year": null,
+              "duration_sec": 8030,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.323,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 8030,
+                "runtime_delta": 0.471,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Lordi zločinu (1991)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:27:37.649192+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lordi-zlocinu",
+        "title": "Lordi zločinu",
+        "original_title": "The Crime Lords",
+        "year": 1991,
+        "runtime_min": 91,
+        "tmdb_id": 378142,
+        "imdb_id": "tt0099319",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:27:30.867776+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:27:23.813545+00:00"
+  "updated_at": "2026-08-28T07:27:37.649214+00:00"
 }
