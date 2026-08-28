@@ -53902,6 +53902,57 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:30:14.388236+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c50575acc674",
+              "url": "https://prehraj.to/astronaut-thornton-2006-cz-dabing/5c50575acc674",
+              "title": "Astronaut-(Thornton)-(2006)--cz-dabing",
+              "year": null,
+              "duration_sec": 5993,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.22,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8ee1975ec3b",
+              "url": "https://prehraj.to/astronaut-2006/5a8ee1975ec3b",
+              "title": "Astronaut (2006)",
+              "year": null,
+              "duration_sec": 5990,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.219,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:12:25.817776+00:00"
         }
       ],
       "identity": {
@@ -53920,7 +53971,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:30:12.551185+00:00"
+        "at": "2026-08-28T11:12:24.868556+00:00"
       }
     },
     "26134": {
@@ -68332,5 +68383,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:12:23.453333+00:00"
+  "updated_at": "2026-08-28T11:12:25.817792+00:00"
 }
