@@ -53441,6 +53441,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:29:51.378199+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5bdc06931a33e",
+              "url": "https://prehraj.to/down-a-dark-hall-horor-cz-titulky-2017-zz/5bdc06931a33e",
+              "title": "Down a Dark Hall-horor-cz titulky-2017-zz",
+              "year": null,
+              "duration_sec": 5783,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.184,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 70,
+                "candidate_runtime_sec": 5783,
+                "runtime_delta": 0.377,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:12:18.619160+00:00"
         }
       ],
       "identity": {
@@ -53459,7 +53497,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:29:50.887312+00:00"
+        "at": "2026-08-28T11:12:13.770015+00:00"
       }
     },
     "26302": {
@@ -68205,5 +68243,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:12:10.492242+00:00"
+  "updated_at": "2026-08-28T11:12:18.619176+00:00"
 }
