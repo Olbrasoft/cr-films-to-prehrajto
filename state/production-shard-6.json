@@ -17751,7 +17751,113 @@
         },
         "at": "2026-08-28T06:43:52.149025+00:00"
       }
+    },
+    "28446": {
+      "attempts": [],
+      "identity": {
+        "slug": "strangers-the-brief-encounters-between-alka-and-micah",
+        "title": "Strangers: The Brief Encounters between Alka and Micah",
+        "original_title": "Strangers",
+        "year": 2023,
+        "runtime_min": 20,
+        "tmdb_id": 1128736,
+        "imdb_id": "tt27799790",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "25279144",
+              "account_name": "Perfect Strangers (2022) CZ Titulky",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2023,
+              "candidate_year": 2022,
+              "year_match": true,
+              "film_runtime_min": 20,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25436722",
+              "account_name": "Friends and Strangers (2022)",
+              "title_similarity": 1.0,
+              "title_contains_alias": true,
+              "film_year": 2023,
+              "candidate_year": 2022,
+              "year_match": true,
+              "film_runtime_min": 20,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-28T06:43:54.709166+00:00"
+      }
+    },
+    "28302": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe51f018a055",
+              "url": "https://prehraj.to/bella-germania-1-cast-laska-2020-sk-dab/5fe51f018a055",
+              "title": "Bella Germania - 1 časť - Láska (2020)Sk dab",
+              "year": null,
+              "duration_sec": 5429,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.156,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5429,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:43:56.174648+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "kamen-rider-zero-one-final-stage",
+        "title": "Kamen Rider Zero-One: Final Stage",
+        "original_title": "Kamen Rider Zero-One: Final Stage",
+        "year": 2020,
+        "runtime_min": null,
+        "tmdb_id": 892763,
+        "imdb_id": "tt24505474",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:43:54.709342+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:43:53.424240+00:00"
+  "updated_at": "2026-08-28T06:43:56.174668+00:00"
 }
