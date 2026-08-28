@@ -24827,7 +24827,87 @@
         },
         "at": "2026-08-28T07:37:12.337834+00:00"
       }
+    },
+    "25573": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "558bd2375cffa",
+              "url": "https://prehraj.to/donaldova-tovarna-na-smich-cz-dabing-animovany-rodinny-usa-2005/558bd2375cffa",
+              "title": "Donaldova-továrna-na-smích-CZ-Dabing-Animovaný,Rodinný,USA,2005",
+              "year": null,
+              "duration_sec": 3852,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.27,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 3852,
+                "runtime_delta": 0.236,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67cd7df468ba7",
+              "url": "https://prehraj.to/pribeh-donalda-trumpa-2024-cz-dab/67cd7df468ba7",
+              "title": "pribeh donalda Trumpa 2024 cz dab",
+              "year": null,
+              "duration_sec": 7340,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2005,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Příběh Donalda Trumpa (2005)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:37:16.445449+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "pribeh-donalda-trumpa",
+        "title": "Příběh Donalda Trumpa",
+        "original_title": "Trump Unauthorized",
+        "year": 2005,
+        "runtime_min": 84,
+        "tmdb_id": 388569,
+        "imdb_id": "tt0452583",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:37:14.464448+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:37:13.043406+00:00"
+  "updated_at": "2026-08-28T07:37:16.445466+00:00"
 }
