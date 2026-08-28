@@ -20726,7 +20726,67 @@
         },
         "at": "2026-08-28T06:48:52.287806+00:00"
       }
+    },
+    "27074": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5869bbf078eef",
+              "url": "https://prehraj.to/setkani-s-nebezpecim-2009-cz-dabing/5869bbf078eef",
+              "title": "Setkani-s-nebezpecim--2009-CZ-Dabing",
+              "year": null,
+              "duration_sec": 4915,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.245,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 70,
+                "candidate_runtime_sec": 4915,
+                "runtime_delta": 0.17,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:49:09.744641+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "film-precure-all-stars-dx-vsechny-jsme-kamaradky-zazracne-setkani",
+        "title": "Film Precure All Stars DX: Všechny jsme kamarádky! Zázračné setkání!",
+        "original_title": "Pretty Cure All Stars DX: Everyone Is a Friend - A Miracle All Pretty Cures Together",
+        "year": 2009,
+        "runtime_min": 70,
+        "tmdb_id": 84160,
+        "imdb_id": "tt1401235",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:49:02.779732+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:48:54.974329+00:00"
+  "updated_at": "2026-08-28T06:49:09.744663+00:00"
 }
