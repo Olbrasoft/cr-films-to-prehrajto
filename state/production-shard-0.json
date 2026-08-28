@@ -57276,6 +57276,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:32:20.682158+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586e4e8a538d6",
+              "url": "https://prehraj.to/komisar-moulin-vrabcaci-2002-cz/586e4e8a538d6",
+              "title": "Komisař-Moulin-Vrabčáci-(2002)-CZ",
+              "year": null,
+              "duration_sec": 5196,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.549,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:15:40.549596+00:00"
         }
       ],
       "identity": {
@@ -57294,7 +57325,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:32:20.166237+00:00"
+        "at": "2026-08-28T11:15:39.645496+00:00"
       }
     },
     "24974": {
@@ -69710,5 +69741,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:15:38.199806+00:00"
+  "updated_at": "2026-08-28T11:15:40.549610+00:00"
 }
