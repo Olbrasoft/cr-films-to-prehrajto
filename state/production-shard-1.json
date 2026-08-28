@@ -8992,6 +8992,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:58:05.481921+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f6cb5575a554",
+              "url": "https://prehraj.to/dama-damsel-western-2018-480p-2-0-x264-s-cztitulky-57-sten-ok/5f6cb5575a554",
+              "title": "Dáma - Damsel western 2018.480p.2.0..x264.s.Cztitulky.57%.STEN.ok",
+              "year": null,
+              "duration_sec": 6805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.324,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 6805,
+                "runtime_delta": 0.334,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f6cd180dc34b",
+              "url": "https://prehraj.to/dama-2018-cztitulky/5f6cd180dc34b",
+              "title": "Dáma (2018) CZtitulky",
+              "year": null,
+              "duration_sec": 6820,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.444,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 6820,
+                "runtime_delta": 0.337,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:17:03.991036+00:00"
         }
       ],
       "identity": {
@@ -9010,7 +9075,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:58:05.037554+00:00"
+        "at": "2026-08-28T03:16:44.978367+00:00"
       }
     },
     "29535": {
@@ -67700,5 +67765,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:16:43.460540+00:00"
+  "updated_at": "2026-08-28T03:17:03.991058+00:00"
 }
