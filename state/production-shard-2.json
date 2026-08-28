@@ -13379,7 +13379,67 @@
         },
         "at": "2026-08-28T03:22:34.460267+00:00"
       }
+    },
+    "26634": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c470579194",
+              "url": "https://prehraj.to/koizora-sky-of-love-2007/586c470579194",
+              "title": "Koizora-Sky-of-Love-2007",
+              "year": null,
+              "duration_sec": 7734,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 129,
+                "candidate_runtime_sec": 7734,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Sky of Love (2007)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:22:38.889460+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sky-of-love",
+        "title": "Sky of Love",
+        "original_title": "Sky of Love",
+        "year": 2007,
+        "runtime_min": 129,
+        "tmdb_id": 40713,
+        "imdb_id": "tt1194664",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:22:37.185969+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:22:36.014892+00:00"
+  "updated_at": "2026-08-28T03:22:38.889480+00:00"
 }
