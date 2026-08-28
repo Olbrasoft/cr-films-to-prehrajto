@@ -18644,6 +18644,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:22:24.767436+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58673a3ad9b2a",
+              "url": "https://prehraj.to/ten-ktery-prezil-thriller-2015-cz-tit-irisa/58673a3ad9b2a",
+              "title": "Ten,-který-přežil-(thriller-2015)CZ-TIT---IRISA",
+              "year": null,
+              "duration_sec": 5953,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5953,
+                "runtime_delta": 0.008,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:07:11.101094+00:00"
         }
       ],
       "identity": {
@@ -18662,7 +18700,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:22:24.286557+00:00"
+        "at": "2026-08-28T11:07:10.249753+00:00"
       }
     },
     "29286": {
@@ -59567,5 +59605,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:07:08.720498+00:00"
+  "updated_at": "2026-08-28T11:07:11.101110+00:00"
 }
