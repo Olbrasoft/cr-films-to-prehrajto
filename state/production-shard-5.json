@@ -25998,7 +25998,67 @@
         },
         "at": "2026-08-28T07:38:21.968951+00:00"
       }
+    },
+    "24733": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58415ac36d071",
+              "url": "https://prehraj.to/jackie-chan-naveky-drakem-1988-cz/58415ac36d071",
+              "title": "Jackie-Chan--Naveky-drakem-1988-cz",
+              "year": null,
+              "duration_sec": 5202,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.414,
+                "title_contains_alias": false,
+                "film_year": 1988,
+                "candidate_year": 1988,
+                "year_match": true,
+                "film_runtime_min": 118,
+                "candidate_runtime_sec": 5202,
+                "runtime_delta": 0.265,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:38:25.620472+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "jackie-gleason-the-great-one",
+        "title": "Jackie Gleason: The Great One",
+        "original_title": null,
+        "year": 1988,
+        "runtime_min": 118,
+        "tmdb_id": 1078243,
+        "imdb_id": "tt0283418",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:38:24.589336+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:38:23.196388+00:00"
+  "updated_at": "2026-08-28T07:38:25.620489+00:00"
 }
