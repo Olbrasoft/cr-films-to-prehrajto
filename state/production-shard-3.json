@@ -16090,7 +16090,98 @@
         },
         "at": "2026-08-28T06:33:15.669842+00:00"
       }
+    },
+    "29435": {
+      "attempts": [],
+      "identity": {
+        "slug": "the-tiger-s-apprentice",
+        "title": "The Tiger's Apprentice",
+        "original_title": null,
+        "year": 2024,
+        "runtime_min": 84,
+        "tmdb_id": 598387,
+        "imdb_id": "tt5834410",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24780221",
+          "account_name": "The Apprentice: Příběh Trumpa (2024) CZ Dabing",
+          "title_similarity": 0.509,
+          "title_contains_alias": false,
+          "film_year": 2024,
+          "candidate_year": 2024,
+          "year_match": true,
+          "film_runtime_min": 84,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T06:33:18.841755+00:00"
+      }
+    },
+    "29427": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "609a3951da7a6",
+              "url": "https://prehraj.to/hardcore-henry-2016-cz-dabing-od-soucka-tomase/609a3951da7a6",
+              "title": "Hardcore-Henry-(2016)-CZ-dabing-OD-SOUČKA-TOMÁŠE",
+              "year": null,
+              "duration_sec": 5880,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.3,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5880,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:33:21.537985+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-history-of-the-wwe-hardcore-championship",
+        "title": "The History of The WWE Hardcore Championship",
+        "original_title": null,
+        "year": 2016,
+        "runtime_min": null,
+        "tmdb_id": 401078,
+        "imdb_id": "tt5797388",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:33:18.841809+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:33:17.339008+00:00"
+  "updated_at": "2026-08-28T06:33:21.538005+00:00"
 }
