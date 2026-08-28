@@ -24108,7 +24108,60 @@
         },
         "at": "2026-08-28T06:55:54.728059+00:00"
       }
+    },
+    "26158": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a90152defe64",
+              "url": "https://prehraj.to/everest-2007/5a90152defe64",
+              "title": "Everest (2007)",
+              "year": null,
+              "duration_sec": 10223,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.215,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:56:02.239853+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dying-for-everest",
+        "title": "Dying for Everest",
+        "original_title": null,
+        "year": 2007,
+        "runtime_min": 53,
+        "tmdb_id": 459056,
+        "imdb_id": "tt0971189",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:55:58.045698+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:55:56.679336+00:00"
+  "updated_at": "2026-08-28T06:56:02.239873+00:00"
 }
