@@ -18583,7 +18583,229 @@
         },
         "at": "2026-08-28T02:27:47.010637+00:00"
       }
+    },
+    "27620": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61b3361fc208e",
+              "url": "https://prehraj.to/film-auta-2-2011-animovane-cz-dabing/61b3361fc208e",
+              "title": "Film - Auta 2 (2011) animované CZ dabing",
+              "year": null,
+              "duration_sec": 6421,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.349,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 6421,
+                "runtime_delta": 0.103,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a7076d0200be",
+              "url": "https://prehraj.to/filmy-by-boos-kazatel-kalasnikov-cz-dabing-2011-novinka/5a7076d0200be",
+              "title": "FILMY-BY-BOOS--Kazatel-kalasnikov-cz-dabing-2011-novinka",
+              "year": null,
+              "duration_sec": 7723,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.293,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 7723,
+                "runtime_delta": 0.327,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a70795cc739a",
+              "url": "https://prehraj.to/filmy-zdrojovy-kod-cz-dabing-novinky-2011-akcni-thriler/5a70795cc739a",
+              "title": "FILMY--Zdrojovy-kod-cz-dabing-novinky-2011-akcni-thriler",
+              "year": null,
+              "duration_sec": 5592,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.317,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5592,
+                "runtime_delta": 0.039,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583a20c1b74c8",
+              "url": "https://prehraj.to/filmy-by-palislav-kocur-v-cizmach-2011-cz-dabing-antonio-banderas-salma-hayek/583a20c1b74c8",
+              "title": "Filmy-by-Palislav---Kocur-v-čižmách(2011)-Cz-dabing---Antonio-Banderas,-Salma-Hayek",
+              "year": null,
+              "duration_sec": 5414,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.308,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5414,
+                "runtime_delta": 0.07,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5839f5a292feb",
+              "url": "https://prehraj.to/filmy-by-palislav-true-justice-dark-vengeance-2011-cz-titulky-steven-seagal-meghan-ory-warren-christie/5839f5a292feb",
+              "title": "Filmy-by-Palislav---True-Justice-Dark-Vengeance-(2011)-Cz-titulky---Steven-Seagal,-Meghan-Ory,-Warren-Christie",
+              "year": null,
+              "duration_sec": 5204,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5204,
+                "runtime_delta": 0.106,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5839f5a63034b",
+              "url": "https://prehraj.to/filmy-by-pelukaspe-cas-hrdinu-cz-dabing-valecny-velka-britanie-2011/5839f5a63034b",
+              "title": "Filmy-by-pelukaspe-Čas-hrdinů-CZ-dabing---Válečný,-Velká-Británie,-2011",
+              "year": null,
+              "duration_sec": 5615,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.298,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5615,
+                "runtime_delta": 0.035,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6197e34c49b48",
+              "url": "https://prehraj.to/film-komedie-nadejny-rok-cz-2011-dvdrip-komedie-dobrodruzny/6197e34c49b48",
+              "title": "Film - Komedie - Nadejny-rok-cz-2011-DVDRip-Komedie--Dobrodružný",
+              "year": null,
+              "duration_sec": 5756,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5756,
+                "runtime_delta": 0.011,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:28:09.422165+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "pokemon-film-white-victini-and-zekrom",
+        "title": "Pokémon film White: Victini and Zekrom",
+        "original_title": "Pokémon the Movie: White - Victini and Zekrom",
+        "year": 2011,
+        "runtime_min": 97,
+        "tmdb_id": 88557,
+        "imdb_id": "tt1739212",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:27:54.445954+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:27:53.256955+00:00"
+  "updated_at": "2026-08-28T02:28:09.422186+00:00"
 }
