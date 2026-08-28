@@ -25780,7 +25780,119 @@
         },
         "at": "2026-08-28T02:47:48.973927+00:00"
       }
+    },
+    "24212": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588e9cd578709",
+              "url": "https://prehraj.to/druha-svetova-valka-5-bitva-o-rusko-world-war-ii-5-the-battle-of-russia-dokument-1943-cz/588e9cd578709",
+              "title": "Druhá-světová-válka-5_-Bitva-o-Rusko-_-World-War-II---5_-The-Battle-of-Russia---dokument-1943,-CZ",
+              "year": null,
+              "duration_sec": 4957,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.12,
+                "title_contains_alias": false,
+                "film_year": 1943,
+                "candidate_year": 1943,
+                "year_match": true,
+                "film_runtime_min": 59,
+                "candidate_runtime_sec": 4957,
+                "runtime_delta": 0.4,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5681b22458ac5",
+              "url": "https://prehraj.to/sg1-04-x-05-rozdel-a-panuj/5681b22458ac5",
+              "title": "sg1---04-x-05---rozdel-a-panuj",
+              "year": null,
+              "duration_sec": 2547,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.683,
+                "title_contains_alias": false,
+                "film_year": 1943,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 59,
+                "candidate_runtime_sec": 2547,
+                "runtime_delta": 0.281,
+                "rejection_reason": "title_only"
+              },
+              "query": "Rozděl a opanuj! (1943)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65750d0e6d07f",
+              "url": "https://prehraj.to/gomora-2-8-rozdel-a-panuj-marco-d-amore-fortunato-cerlino-2016-cz-dab/65750d0e6d07f",
+              "title": "Gomora 2 - 8 Rozděl a panuj - Marco D-Amore, Fortunato…",
+              "year": null,
+              "duration_sec": 2767,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.438,
+                "title_contains_alias": false,
+                "film_year": 1943,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 59,
+                "candidate_runtime_sec": 2767,
+                "runtime_delta": 0.218,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Rozděl a opanuj! (1943)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:47:59.148867+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "rozdel-a-opanuj",
+        "title": "Rozděl a opanuj!",
+        "original_title": "Why We Fight: Divide and Conquer",
+        "year": 1943,
+        "runtime_min": 59,
+        "tmdb_id": 159849,
+        "imdb_id": "tt0173769",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:47:51.947006+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:47:50.710030+00:00"
+  "updated_at": "2026-08-28T02:47:59.148887+00:00"
 }
