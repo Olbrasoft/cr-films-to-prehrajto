@@ -21234,7 +21234,326 @@
         },
         "at": "2026-08-28T06:35:17.883420+00:00"
       }
+    },
+    "27003": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "603244b528eff",
+              "url": "https://prehraj.to/koruna-04-04-oblibenci-drama-2020-cz-dabing/603244b528eff",
+              "title": "Koruna-04-04-Oblíbenci-(drama)-(2020)--cz-dabing",
+              "year": null,
+              "duration_sec": 3625,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.028,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61f2a44ab3c83",
+              "url": "https://prehraj.to/klenoty-s-vuni-benzinu-04-praga-2022/61f2a44ab3c83",
+              "title": "Klenoty s vůní benzínu - 04.Praga (2022)",
+              "year": null,
+              "duration_sec": 1533,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Plaga 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62d5b549aaac9",
+              "url": "https://prehraj.to/klenoty-s-vuni-benzinu-04-praga/62d5b549aaac9",
+              "title": "Klenoty s vůní benzínu 04 - Praga",
+              "year": null,
+              "duration_sec": 1533,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.703,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Plaga 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5376f6fb9cf037aa",
+              "url": "https://prehraj.to/igor-fair-playa-mzfk-out-05-09-13/5376f6fb9cf037aa",
+              "title": "Igor - Fair Playa (MZFK OUT 05 09 13)",
+              "year": null,
+              "duration_sec": 253,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.719,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Plaga 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6824d370e1887",
+              "url": "https://prehraj.to/048-plague-of-the-mantis-cz-titulky/6824d370e1887",
+              "title": "048 - Plague of the Mantis (CZ titulky)",
+              "year": null,
+              "duration_sec": 1221,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.412,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 15,
+                "candidate_runtime_sec": 1221,
+                "runtime_delta": 0.357,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7de7fc52a661e4e8",
+              "url": "https://prehraj.to/a-s-dragon-ball-079-terror-and-plague-rs2-cace5d7c/7de7fc52a661e4e8",
+              "title": "[a-s]_dragon_ball_-_079_-_terror_and_plague__rs2_[CACE5D7C]",
+              "year": null,
+              "duration_sec": 1242,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.233,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 15,
+                "candidate_runtime_sec": 1242,
+                "runtime_delta": 0.38,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f34e7c6cb23d",
+              "url": "https://prehraj.to/penumbra-black-plague-04-all-strange-artifacts-no-commentary/5f34e7c6cb23d",
+              "title": "Penumbra - Black Plague 04 ( All strange artifacts, No…",
+              "year": null,
+              "duration_sec": 1292,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.305,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 15,
+                "candidate_runtime_sec": 1292,
+                "runtime_delta": 0.436,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "593d964a060fc",
+              "url": "https://prehraj.to/blaho-blaho-149-prague-fashion-weekend/593d964a060fc",
+              "title": "BlaHo - BlaHo (149) – Prague Fashion Weekend",
+              "year": null,
+              "duration_sec": 123,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.863,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7e889753369f887f",
+              "url": "https://prehraj.to/cheerleading-04-dil-prague-cheer-open/7e889753369f887f",
+              "title": "Cheerleading - 04. díl - Prague Cheer Open",
+              "year": null,
+              "duration_sec": 1799,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.999,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662ec0459f309",
+              "url": "https://prehraj.to/michael-jackson-hwt-prague-september-09-07-1996-best-quality-promo-snippets/662ec0459f309",
+              "title": "Michael Jackson-HWT Prague September 09 07 1996-Best…",
+              "year": null,
+              "duration_sec": 101,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1996,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662ebfec210ff",
+              "url": "https://prehraj.to/michael-jackson-history-tour-prague-rehearsals-6-09-1996-history-medley-new-amateur-footages/662ebfec210ff",
+              "title": "Michael Jackson   History Tour Prague Rehearsals 6 09 1996 …",
+              "year": null,
+              "duration_sec": 111,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1996,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c54c4d0a90edfe9b",
+              "url": "https://prehraj.to/fuckup-nights-prague-09-dil-jake-to-je-starat-se-o-nemocne-nebo-stare-psy-24-hodin-denne/c54c4d0a90edfe9b",
+              "title": "Fuckup nights prague - 09. díl - Jaké to je starat se o…",
+              "year": null,
+              "duration_sec": 919,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 15,
+                "candidate_runtime_sec": 919,
+                "runtime_delta": 0.021,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Plague 049 (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7687ea131077fb44",
+              "url": "https://prehraj.to/fuckup-nights-prague-04-dil-konicky-it-sefa-vladimira-kubicka-metalove-festivaly-v-kroksech-a-strkani-si-zapalovace-do-nosu/7687ea131077fb44",
+              "title": "Fuckup nights prague - 04. díl - Koníčky IT šéfa Vladimíra…",
+              "year": null,
+              "duration_sec": 1136,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.254,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 15,
+                "candidate_runtime_sec": 1136,
+                "runtime_delta": 0.262,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Plague 049 (2020)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:35:25.344266+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "plaga-049",
+        "title": "Plaga 049",
+        "original_title": "Plague 049",
+        "year": 2020,
+        "runtime_min": 15,
+        "tmdb_id": 774171,
+        "imdb_id": "tt13611822",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:35:20.708247+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:35:19.476970+00:00"
+  "updated_at": "2026-08-28T06:35:25.344285+00:00"
 }
