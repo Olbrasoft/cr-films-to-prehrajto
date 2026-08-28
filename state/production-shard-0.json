@@ -40537,6 +40537,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:48:42.373254+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ccb75bd43de9",
+              "url": "https://prehraj.to/another-me-2013-titulky-cz-v-obraze/5ccb75bd43de9",
+              "title": "Another-Me-2013--titulky-CZ-v-obraze",
+              "year": null,
+              "duration_sec": 5066,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 5066,
+                "runtime_delta": 0.172,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:10:09.776086+00:00"
         }
       ],
       "identity": {
@@ -40555,7 +40593,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:48:20.937799+00:00"
+        "at": "2026-08-28T11:10:07.586189+00:00"
       }
     },
     "27686": {
@@ -65698,5 +65736,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:10:02.243374+00:00"
+  "updated_at": "2026-08-28T11:10:09.776101+00:00"
 }
