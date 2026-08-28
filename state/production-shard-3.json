@@ -37232,7 +37232,92 @@
         },
         "at": "2026-08-28T20:13:45.067296+00:00"
       }
+    },
+    "235": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "100b89a3b0b8c260",
+              "url": "https://prehraj.to/12-let-v-retezech-chiwetel-ejiofor-michael-fassbender-2013-cz-dab-avi/100b89a3b0b8c260",
+              "title": "12 Let v řetězech - Chiwetel Ejiofor, Michael Fassbender…",
+              "year": null,
+              "duration_sec": 8050,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8050,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "12 let v řetězech (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "03f65404491294cd",
+              "url": "https://prehraj.to/12-let-v-retezech-12-years-a-slave-twelve-years-a-slave-2016-cz-mkv/03f65404491294cd",
+              "title": "12 let v řetězech / 12 Years a Slave / Twelve Years a Slave…",
+              "year": null,
+              "duration_sec": 8050,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8050,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "12 Years a Slave (2013)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T20:14:03.281322+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "12-let-v-retezech",
+        "title": "12 let v řetězech",
+        "original_title": "12 Years a Slave",
+        "year": 2013,
+        "runtime_min": null,
+        "tmdb_id": 76203,
+        "imdb_id": "tt2024544",
+        "created_at": "2026-04-13 13:19:23.907755+02:00",
+        "added_at": "2022-01-16 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T20:13:50.145404+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T20:13:48.605245+00:00"
+  "updated_at": "2026-08-28T20:14:03.281340+00:00"
 }
