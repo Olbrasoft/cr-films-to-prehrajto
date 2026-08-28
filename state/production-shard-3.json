@@ -30939,7 +30939,187 @@
         },
         "at": "2026-08-28T06:58:33.961557+00:00"
       }
+    },
+    "22835": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58416305c0ae2",
+              "url": "https://prehraj.to/navrat-do-skoly-sport-rom-komedie-usa-1986-cz-dab-720p/58416305c0ae2",
+              "title": "Navrat-do-skoly---Sport.Rom.Komedie---USA---1986---cz-dab---720p.",
+              "year": null,
+              "duration_sec": 5559,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.211,
+                "title_contains_alias": false,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5559,
+                "runtime_delta": 0.029,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7d1b15e028ca916e",
+              "url": "https://prehraj.to/sokujici-navrat-1984-cz-dabing-1080p-fhd/7d1b15e028ca916e",
+              "title": "Šokující návrat 1984 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 5808,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1986,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Šokující návrat (1986)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e7ad9a6f9b7",
+              "url": "https://prehraj.to/sokujici-navrat-1984-cz-dab-1080p/68e7ad9a6f9b7",
+              "title": "Šokující návrat 1984 CZ dab 1080p",
+              "year": null,
+              "duration_sec": 5808,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1986,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Šokující návrat (1986)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e55b7ae28a58f41c",
+              "url": "https://prehraj.to/combat-shock-sokujici-navrat-1984-eng-cze-1080p-brrip-x264-aac/e55b7ae28a58f41c",
+              "title": "Combat.Shock_Šokující.návrat.1984.eng.cze.1080p.brrip.x264…",
+              "year": null,
+              "duration_sec": 5808,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1986,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Šokující návrat (1986)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aaacb780ec6",
+              "url": "https://prehraj.to/horror-war-combat-shock-sokujici-navrat-1984-eng-cze-1080p-brrip-x264-aac/68aaacb780ec6",
+              "title": "Horror War-Combat.Shock_Šokující.návrat.1984.eng.cze.1080p…",
+              "year": null,
+              "duration_sec": 5808,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1986,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Šokující návrat (1986)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6897126d66c9b",
+              "url": "https://prehraj.to/combat-shock-1984-yify-download-movie-torrent-yts/6897126d66c9b",
+              "title": "Combat Shock 1984 YIFY - Download Movie Torrent - YTS",
+              "year": null,
+              "duration_sec": 5809,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1986,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Combat Shock (1986)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6897c943ea1a1",
+              "url": "https://prehraj.to/combat-shock-1984-720p-bluray-x264-aac-yts-mx/6897c943ea1a1",
+              "title": "Combat.Shock.1984.720p.BluRay.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 5808,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1986,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Combat Shock (1986)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:58:43.106577+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "sokujici-navrat",
+        "title": "Šokující návrat",
+        "original_title": "Combat Shock",
+        "year": 1986,
+        "runtime_min": 90,
+        "tmdb_id": 26558,
+        "imdb_id": "tt0090866",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:58:41.801052+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:58:40.490925+00:00"
+  "updated_at": "2026-08-28T06:58:43.106596+00:00"
 }
