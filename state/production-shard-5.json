@@ -32811,7 +32811,60 @@
         },
         "at": "2026-08-28T07:40:42.737100+00:00"
       }
+    },
+    "21989": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5881f3a86fe58",
+              "url": "https://prehraj.to/touha-zvana-anada-1969-cesky-film-do-mobilu-misa/5881f3a86fe58",
+              "title": "Touha-zvaná-Anada-1969-Český-film-do-mobilu-míša",
+              "year": null,
+              "duration_sec": 6020,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.544,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:41:00.821382+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "man-wife-an-educational-film-for-married-adults",
+        "title": "Man & Wife: An Educational Film for Married Adults",
+        "original_title": null,
+        "year": 1969,
+        "runtime_min": 65,
+        "tmdb_id": 287787,
+        "imdb_id": "tt0066055",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:40:57.325736+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:40:53.548617+00:00"
+  "updated_at": "2026-08-28T07:41:00.821401+00:00"
 }
