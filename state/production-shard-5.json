@@ -26145,7 +26145,148 @@
         },
         "at": "2026-08-28T07:38:27.059646+00:00"
       }
+    },
+    "24605": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f3cf68c5ac37",
+              "url": "https://prehraj.to/vsichni-musi-byt-v-pyzamu-cz-film-1984-jad/5f3cf68c5ac37",
+              "title": "Všichni musí být v pyžamu-cz film-1984-jad",
+              "year": null,
+              "duration_sec": 4630,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.323,
+                "title_contains_alias": false,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 57,
+                "candidate_runtime_sec": 4630,
+                "runtime_delta": 0.354,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4acb96bf0a9",
+              "url": "https://prehraj.to/laska-z-pasaze-cz-film-1984-jad/5c4acb96bf0a9",
+              "title": "Láska z pasáže-cz film-1984-jad",
+              "year": null,
+              "duration_sec": 4377,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.314,
+                "title_contains_alias": false,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 57,
+                "candidate_runtime_sec": 4377,
+                "runtime_delta": 0.28,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c41c4bf64c95",
+              "url": "https://prehraj.to/laska-z-pasaze-cz-film-1984-jad/5c41c4bf64c95",
+              "title": "Láska z pasáže-cz film-1984-jad",
+              "year": null,
+              "duration_sec": 4377,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.314,
+                "title_contains_alias": false,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 57,
+                "candidate_runtime_sec": 4377,
+                "runtime_delta": 0.28,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f7db94fea549",
+              "url": "https://prehraj.to/prodlouzeny-cas-cz-film-1984-jad/5f7db94fea549",
+              "title": "Prodloužený čas-cz film-1984-jad",
+              "year": null,
+              "duration_sec": 5122,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.462,
+                "title_contains_alias": false,
+                "film_year": 1984,
+                "candidate_year": 1984,
+                "year_match": true,
+                "film_runtime_min": 57,
+                "candidate_runtime_sec": 5122,
+                "runtime_delta": 0.498,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:38:43.395576+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "merton-a-film-biography",
+        "title": "Merton: A Film Biography",
+        "original_title": null,
+        "year": 1984,
+        "runtime_min": 57,
+        "tmdb_id": 271360,
+        "imdb_id": "tt0254568",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:38:36.455350+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:38:35.047739+00:00"
+  "updated_at": "2026-08-28T07:38:43.395593+00:00"
 }
