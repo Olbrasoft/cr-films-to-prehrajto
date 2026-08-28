@@ -31357,7 +31357,105 @@
         },
         "at": "2026-08-28T02:50:58.014259+00:00"
       }
+    },
+    "21532": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55ae770175f7a",
+              "url": "https://prehraj.to/night-of-the-ghouls-eng-dabing-horor-usa-1959/55ae770175f7a",
+              "title": "Night-Of-The-Ghouls-Eng-Dabing-Horor,-USA,-1959",
+              "year": null,
+              "duration_sec": 4135,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.386,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": 1959,
+                "year_match": true,
+                "film_runtime_min": 118,
+                "candidate_runtime_sec": 4135,
+                "runtime_delta": 0.416,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64a9451e1c220",
+              "url": "https://prehraj.to/magic-affair-in-the-middle-of-the-night/64a9451e1c220",
+              "title": "MAGIC AFFAIR In The Middle Of The Night",
+              "year": null,
+              "duration_sec": 244,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.966,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Middle of the Night (1959)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9e485c68991b05b7",
+              "url": "https://prehraj.to/magic-affair-in-the-middle-of-the-night-mp4/9e485c68991b05b7",
+              "title": "Magic Affair-In The Middle Of The Night.mp4",
+              "year": null,
+              "duration_sec": 243,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.966,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Middle of the Night (1959)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:51:01.375449+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "middle-of-the-night",
+        "title": "Middle of the Night",
+        "original_title": null,
+        "year": 1959,
+        "runtime_min": 118,
+        "tmdb_id": 120522,
+        "imdb_id": "tt0053065",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:51:00.395727+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:50:59.060614+00:00"
+  "updated_at": "2026-08-28T02:51:01.375475+00:00"
 }
