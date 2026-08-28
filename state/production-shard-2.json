@@ -15652,7 +15652,60 @@
         },
         "at": "2026-08-28T03:23:00.425800+00:00"
       }
+    },
+    "29594": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5db6b48960df6",
+              "url": "https://prehraj.to/attraction-cz-titulky-2017/5db6b48960df6",
+              "title": "Attraction CZ Titulky 2017",
+              "year": null,
+              "duration_sec": 7961,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 12.268,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:23:10.822003+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "roadside-attraction",
+        "title": "Roadside Attraction",
+        "original_title": null,
+        "year": 2017,
+        "runtime_min": 10,
+        "tmdb_id": 477192,
+        "imdb_id": "tt6950724",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:23:09.422281+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:23:08.198187+00:00"
+  "updated_at": "2026-08-28T03:23:10.822022+00:00"
 }
