@@ -11955,6 +11955,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T22:01:03.810647+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "5193a1cf21cc6d21",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28916792",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T23:16:23.372207+00:00"
         }
       ],
       "identity": {
@@ -11974,19 +11985,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:03:57.833368+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916792",
-        "display_name": "John Wick 2 (2017) CZ Dabing",
-        "size_bytes": 740374637,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "5193a1cf21cc6d21",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:09:07.308778+00:00"
       }
     },
     "5290": {
@@ -40696,8 +40694,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T21:39:50.565783+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T21:39:50.565783+00:00",
+        "verified_at": "2026-08-28T23:16:23.419047+00:00",
+        "live_display_name": "Star Wars: Epizoda III - Pomsta Sithů (2005) CZ Dabing"
       }
     },
     "3922": {
@@ -40730,8 +40730,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T21:54:54.397660+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T21:54:54.397660+00:00",
+        "verified_at": "2026-08-28T23:16:23.419064+00:00",
+        "live_display_name": "Nouzový let (2016) CZ Dabing"
       }
     },
     "16634": {
@@ -40769,7 +40771,19 @@
       }
     },
     "5546": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "1082",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28916968",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T23:16:23.419073+00:00"
+        }
+      ],
       "identity": {
         "slug": "tatova-volha",
         "title": "Tátova volha",
@@ -40787,21 +40801,8 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:16:57.096665+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916968",
-        "display_name": "Tátova volha (2018) CZ Dabing",
-        "size_bytes": 802244810,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "1082",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:21:56.918691+00:00"
       }
     }
   },
-  "updated_at": "2026-08-28T22:22:17.664008+00:00"
+  "updated_at": "2026-08-28T23:17:27.429428+00:00"
 }

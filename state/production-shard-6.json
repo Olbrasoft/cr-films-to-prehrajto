@@ -1193,7 +1193,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:17:38.434934+00:00",
-        "verified_at": "2026-08-28T22:01:48.169534+00:00",
+        "verified_at": "2026-08-28T23:17:06.078876+00:00",
         "live_display_name": "Buena Vista Social Club: Adios (2017) CZ titulky"
       }
     },
@@ -36019,8 +36019,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:13:42.414260+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T22:13:42.414260+00:00",
+        "verified_at": "2026-08-28T23:17:16.616953+00:00",
+        "live_display_name": "JFK (1991) CZ Dabing"
       }
     },
     "16734": {
@@ -36082,7 +36084,19 @@
       }
     },
     "5062": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "13696",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28916920",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T23:17:16.616977+00:00"
+        }
+      ],
       "identity": {
         "slug": "havel",
         "title": "Havel",
@@ -36100,19 +36114,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:13:53.322333+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916920",
-        "display_name": "Havel (2020) CZ Dabing",
-        "size_bytes": 515227258,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "13696",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:17:41.862927+00:00"
       }
     },
     "4614": {
@@ -36147,7 +36148,19 @@
       }
     },
     "9790": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "12495",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28916983",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T23:17:16.660446+00:00"
+        }
+      ],
       "identity": {
         "slug": "chlap-na-stridacku",
         "title": "Chlap na střídačku",
@@ -36165,19 +36178,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:17:48.888522+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916983",
-        "display_name": "Chlap na střídačku (2020) CZ Dabing",
-        "size_bytes": 746626658,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "12495",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:22:52.618702+00:00"
       }
     },
     "16982": {
@@ -38004,5 +38004,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T23:11:10.760420+00:00"
+  "updated_at": "2026-08-28T23:17:27.621756+00:00"
 }
