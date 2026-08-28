@@ -73016,6 +73016,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:16:54.259354+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5d39ae60af6b0",
+              "url": "https://prehraj.to/pejme-pisen-dohola-cz-film-1990-jad/5d39ae60af6b0",
+              "title": "Pějme píseň dohola-cz film-1990-jad",
+              "year": null,
+              "duration_sec": 6231,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.273,
+                "title_contains_alias": false,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6231,
+                "runtime_delta": 0.141,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:54:38.252760+00:00"
         }
       ],
       "identity": {
@@ -73034,7 +73072,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:16:53.631153+00:00"
+        "at": "2026-08-28T03:54:33.833232+00:00"
       }
     },
     "23045": {
@@ -81332,5 +81370,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:54:32.298650+00:00"
+  "updated_at": "2026-08-28T03:54:38.252782+00:00"
 }
