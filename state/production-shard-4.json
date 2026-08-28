@@ -31542,7 +31542,94 @@
         },
         "at": "2026-08-28T02:51:02.651820+00:00"
       }
+    },
+    "21372": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60b01c5375cd2",
+              "url": "https://prehraj.to/ali-baba-a-40-loupezniku-pohadka-1954-cz-dabing/60b01c5375cd2",
+              "title": "Ali-Baba a 40 loupežníků-(pohadka)-(1954)--cz-dabing",
+              "year": null,
+              "duration_sec": 5369,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.208,
+                "title_contains_alias": false,
+                "film_year": 1954,
+                "candidate_year": 1954,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5369,
+                "runtime_delta": 0.041,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "585efb7abee5f",
+              "url": "https://prehraj.to/ali-baba-a-40-loupezniku-poh-rom-komedie-francie-1954-cz-dab-720p/585efb7abee5f",
+              "title": "Ali-Baba-a-40-loupezniku---poh.rom.komedie---francie---1954-cz-dab---720p",
+              "year": null,
+              "duration_sec": 5369,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.156,
+                "title_contains_alias": false,
+                "film_year": 1954,
+                "candidate_year": 1954,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5369,
+                "runtime_delta": 0.041,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:51:06.667335+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "naked-alibi",
+        "title": "Naked Alibi",
+        "original_title": null,
+        "year": 1954,
+        "runtime_min": 86,
+        "tmdb_id": 28560,
+        "imdb_id": "tt0047263",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:51:05.637031+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:51:04.300139+00:00"
+  "updated_at": "2026-08-28T02:51:06.667354+00:00"
 }
