@@ -32024,7 +32024,141 @@
         },
         "at": "2026-08-28T02:51:27.854750+00:00"
       }
+    },
+    "21172": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bd6464eabe7",
+              "url": "https://prehraj.to/bette-davis-jezebel-1938/55bd6464eabe7",
+              "title": "Bette-Davis---Jezebel-(1938)",
+              "year": null,
+              "duration_sec": 6254,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 12.029,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5878a408479d4",
+              "url": "https://prehraj.to/donald-duck-donald-s-better-self/5878a408479d4",
+              "title": "Donald-Duck---Donald's-Better-Self",
+              "year": null,
+              "duration_sec": 485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1938,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 485,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Donald's Better Self (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "684ef9985ad8e",
+              "url": "https://prehraj.to/disney-animated-shorts-1938x03-donald-s-better-self/684ef9985ad8e",
+              "title": "Disney Animated Shorts - 1938x03 - Donald's Better Self",
+              "year": null,
+              "duration_sec": 485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1938,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 485,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Donald's Better Self (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59493d9c0c6a2",
+              "url": "https://prehraj.to/donald-duck-07-donalds-better-self-1938-dvdrip-xvid-mrc/59493d9c0c6a2",
+              "title": "Donald.Duck.07.Donalds.Better.Self.1938.DVDRip.XViD-MRC",
+              "year": null,
+              "duration_sec": 485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.588,
+                "title_contains_alias": false,
+                "film_year": 1938,
+                "candidate_year": 1938,
+                "year_match": true,
+                "film_runtime_min": 8,
+                "candidate_runtime_sec": 485,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Donald's Better Self (1938)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:51:37.854717+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "donald-s-better-self",
+        "title": "Donald's Better Self",
+        "original_title": null,
+        "year": 1938,
+        "runtime_min": 8,
+        "tmdb_id": 69111,
+        "imdb_id": "tt0030068",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:51:35.481015+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:51:34.127185+00:00"
+  "updated_at": "2026-08-28T02:51:37.854738+00:00"
 }
