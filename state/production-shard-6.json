@@ -24021,7 +24021,94 @@
         },
         "at": "2026-08-28T06:55:51.216772+00:00"
       }
+    },
+    "26302": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fda8a634b3e7",
+              "url": "https://prehraj.to/1080p-gangster-policajt-a-dabel-2019-cely-film-v-cestine-akcni-film-cesky-dabing-youtube/5fda8a634b3e7",
+              "title": "1080p - GANGSTER, POLICAJT A ĎÁBEL [2019] [Celý Film v Češtině] [Akční Film] [Český Dabing] - YouTube",
+              "year": null,
+              "duration_sec": 5734,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.306,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 117,
+                "candidate_runtime_sec": 5734,
+                "runtime_delta": 0.183,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fde60fc3bad6",
+              "url": "https://prehraj.to/1080p-gangster-policajt-a-dabel-2019-cely-film-v-cestine-akcni-film-cesky-dabing-youtube/5fde60fc3bad6",
+              "title": "1080p - GANGSTER, POLICAJT A ĎÁBEL [2019] [Celý Film v Češtině] [Akční Film] [Český Dabing] - YouTube",
+              "year": null,
+              "duration_sec": 5734,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.306,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 117,
+                "candidate_runtime_sec": 5734,
+                "runtime_delta": 0.183,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:55:56.679315+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tri-ukoly-pro-youtubery",
+        "title": "Tři úkoly pro youtubery",
+        "original_title": "Nenjamundu Nermaiyundu Odu Raja",
+        "year": 2019,
+        "runtime_min": 117,
+        "tmdb_id": 608576,
+        "imdb_id": "tt10438658",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:55:54.728059+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:55:53.321998+00:00"
+  "updated_at": "2026-08-28T06:55:56.679336+00:00"
 }
