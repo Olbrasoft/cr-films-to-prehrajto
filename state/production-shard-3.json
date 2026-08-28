@@ -21606,7 +21606,67 @@
         },
         "at": "2026-08-28T06:35:26.595066+00:00"
       }
+    },
+    "26955": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588f8425d3c76",
+              "url": "https://prehraj.to/zoceleni-steel-town-1950-cz/588f8425d3c76",
+              "title": "Zocelení-_-Steel-Town-1950,-CZ",
+              "year": null,
+              "duration_sec": 4686,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.378,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": 1950,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 4686,
+                "runtime_delta": 0.195,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:35:30.152343+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "steel-soldier",
+        "title": "Steel Soldier",
+        "original_title": "Steel Soldier",
+        "year": 1950,
+        "runtime_min": 97,
+        "tmdb_id": 712668,
+        "imdb_id": "tt13364394",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:35:29.388229+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:35:28.081708+00:00"
+  "updated_at": "2026-08-28T06:35:30.152362+00:00"
 }
