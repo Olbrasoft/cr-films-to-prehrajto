@@ -11200,7 +11200,142 @@
         },
         "at": "2026-08-28T02:25:09.230741+00:00"
       }
+    },
+    "29628": {
+      "attempts": [],
+      "identity": {
+        "slug": "vanocni-princezna",
+        "title": "Vánoční princezna",
+        "original_title": "Christmas Princess",
+        "year": 2017,
+        "runtime_min": 84,
+        "tmdb_id": 492335,
+        "imdb_id": "tt7207076",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "ambiguous",
+        "evidence": {
+          "matches": [
+            {
+              "target_video_id": "24851859",
+              "account_name": "Hledá se princezna (2018) CZ",
+              "title_similarity": 0.55,
+              "title_contains_alias": false,
+              "film_year": 2017,
+              "candidate_year": 2018,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25052840",
+              "account_name": "Zakletá princezna (2018) CZ Dabing",
+              "title_similarity": 0.564,
+              "title_contains_alias": false,
+              "film_year": 2017,
+              "candidate_year": 2018,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25312704",
+              "account_name": "Princezna Cyd (2017) CZ Titulky",
+              "title_similarity": 0.514,
+              "title_contains_alias": false,
+              "film_year": 2017,
+              "candidate_year": 2017,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25178376",
+              "account_name": "Slíbená princezna (2016) CZ",
+              "title_similarity": 0.564,
+              "title_contains_alias": false,
+              "film_year": 2017,
+              "candidate_year": 2016,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "25315730",
+              "account_name": "The Last Princess (2016) CZ Titulky",
+              "title_similarity": 0.6,
+              "title_contains_alias": false,
+              "film_year": 2017,
+              "candidate_year": 2016,
+              "year_match": true,
+              "film_runtime_min": 84,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
+        },
+        "at": "2026-08-28T02:25:13.009481+00:00"
+      }
+    },
+    "29612": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe690b8c94a9",
+              "url": "https://prehraj.to/zabava-zabava-2018-cztitulky/5fe690b8c94a9",
+              "title": "Zábava, zábava (2018) CZtitulky",
+              "year": null,
+              "duration_sec": 5310,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.011,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:25:15.686631+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "barbie-dreamtopia-slavnosti-zabavy",
+        "title": "Barbie Dreamtopia: Slavnosti zábavy",
+        "original_title": "Barbie: Dreamtopia Festival of Fun",
+        "year": 2018,
+        "runtime_min": 44,
+        "tmdb_id": 481583,
+        "imdb_id": "tt7069740",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:25:13.009538+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:25:11.757605+00:00"
+  "updated_at": "2026-08-28T02:25:15.686653+00:00"
 }
