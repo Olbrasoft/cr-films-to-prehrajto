@@ -22993,7 +22993,67 @@
         },
         "at": "2026-08-28T02:47:29.155093+00:00"
       }
+    },
+    "24596": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "624a9ccd90de6",
+              "url": "https://prehraj.to/steven-segal-prepadeni-2-temne-uzemi-1995-tom/624a9ccd90de6",
+              "title": "Steven-Segal-Přepadení-2-Temné-Území-(1995)-Tom",
+              "year": null,
+              "duration_sec": 5729,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 1995,
+                "candidate_year": 1995,
+                "year_match": true,
+                "film_runtime_min": 125,
+                "candidate_runtime_sec": 5729,
+                "runtime_delta": 0.236,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:47:32.453546+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-making-of-jaws",
+        "title": "The Making of 'Jaws'",
+        "original_title": null,
+        "year": 1995,
+        "runtime_min": 125,
+        "tmdb_id": 167065,
+        "imdb_id": "tt0251821",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:47:31.427156+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:47:30.143679+00:00"
+  "updated_at": "2026-08-28T02:47:32.453566+00:00"
 }
