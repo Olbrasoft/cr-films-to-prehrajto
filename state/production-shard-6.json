@@ -33066,7 +33066,67 @@
         },
         "at": "2026-08-28T07:27:11.170107+00:00"
       }
+    },
+    "21182": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bd8f4e8e834",
+              "url": "https://prehraj.to/zakleta-nevesta-vasilisa-prekrasna-1939-ru/55bd8f4e8e834",
+              "title": "Zakletá-nevěsta-_-Vasilisa-překrásná-_-Василиса-Прекрасная--1939,-RU",
+              "year": null,
+              "duration_sec": 4208,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.136,
+                "title_contains_alias": false,
+                "film_year": 1939,
+                "candidate_year": 1939,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 4208,
+                "runtime_delta": 0.269,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:27:24.218271+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "rulers-of-the-sea",
+        "title": "Rulers of the Sea",
+        "original_title": null,
+        "year": 1939,
+        "runtime_min": 96,
+        "tmdb_id": 180799,
+        "imdb_id": "tt0031883",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:27:19.263992+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:27:14.769789+00:00"
+  "updated_at": "2026-08-28T07:27:24.218292+00:00"
 }
