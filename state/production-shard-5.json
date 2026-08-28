@@ -26339,7 +26339,67 @@
         },
         "at": "2026-08-28T07:38:44.953338+00:00"
       }
+    },
+    "24493": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "564b6073a0c9b",
+              "url": "https://prehraj.to/mafiani-1-rast-1990-cz-dab-krimi-drama-p-p/564b6073a0c9b",
+              "title": "Mafiáni 1 řást - 1990 cz dab. krimi drama p.p",
+              "year": null,
+              "duration_sec": 4271,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.14,
+                "title_contains_alias": false,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 4271,
+                "runtime_delta": 0.288,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:39:07.474278+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-saint-the-big-bang",
+        "title": "The Saint: The Big Bang",
+        "original_title": null,
+        "year": 1990,
+        "runtime_min": 100,
+        "tmdb_id": 542260,
+        "imdb_id": "tt0235732",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:39:01.187978+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:38:59.763666+00:00"
+  "updated_at": "2026-08-28T07:39:07.474297+00:00"
 }
