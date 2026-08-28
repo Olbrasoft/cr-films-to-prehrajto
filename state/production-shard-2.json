@@ -23917,7 +23917,112 @@
         },
         "at": "2026-08-28T07:23:43.502467+00:00"
       }
+    },
+    "25434": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586b7fa7d7406",
+              "url": "https://prehraj.to/evelyn-glennie-dotek-zvuku-2004-cz-tit/586b7fa7d7406",
+              "title": "Evelyn-Glennie---Dotek-zvuku-2004.cz.tit",
+              "year": null,
+              "duration_sec": 5957,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.16,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 5957,
+                "runtime_delta": 0.003,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6881503ae8dc2",
+              "url": "https://prehraj.to/the-lethal-sound-at-the-harder-kan-toch-niet-livestream-xii/6881503ae8dc2",
+              "title": "The Lethal Sound at the HARDER KAN TOCH NIET LIVESTREAM XII",
+              "year": null,
+              "duration_sec": 2596,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.563,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Touch the Sound (2004)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68814e4498585",
+              "url": "https://prehraj.to/the-lethal-sound-vs-tukkertempo-at-the-harder-kan-toch-niet-kingsday-livestream/68814e4498585",
+              "title": "The Lethal Sound vs TukkerTempo at the HARDER KAN TOCH NIET…",
+              "year": null,
+              "duration_sec": 3678,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.243,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 3678,
+                "runtime_delta": 0.381,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Touch the Sound (2004)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:23:48.817330+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "touch-the-sound",
+        "title": "Touch the Sound",
+        "original_title": null,
+        "year": 2004,
+        "runtime_min": 99,
+        "tmdb_id": 56475,
+        "imdb_id": "tt0424509",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:23:47.399248+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:23:45.825780+00:00"
+  "updated_at": "2026-08-28T07:23:48.817350+00:00"
 }
