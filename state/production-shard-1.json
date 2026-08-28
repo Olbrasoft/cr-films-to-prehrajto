@@ -14936,7 +14936,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-25T15:54:03.617343+00:00"
+        "at": "2026-08-28T03:17:26.097260+00:00"
       }
     },
     "29317": {
@@ -15159,6 +15159,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:12:40.679715+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6672415c51c8c",
+              "url": "https://prehraj.to/jak-dostat-tatinka-do-polepsovny-1978-1080p-web-dl-x264-r-i-h/6672415c51c8c",
+              "title": "Jak.Dostat.Tatínka.Do.Polepšovny.1978.1080p.WEB-DL.x264-R.i.H",
+              "year": null,
+              "duration_sec": 5471,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.24,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5471,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:17:28.300653+00:00"
         }
       ],
       "identity": {
@@ -15177,7 +15215,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:12:34.617575+00:00"
+        "at": "2026-08-28T03:17:26.097322+00:00"
       }
     },
     "29279": {
@@ -69356,5 +69394,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:17:24.344601+00:00"
+  "updated_at": "2026-08-28T03:17:28.300673+00:00"
 }
