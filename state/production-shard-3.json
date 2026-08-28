@@ -16401,7 +16401,67 @@
         },
         "at": "2026-08-28T06:33:29.748808+00:00"
       }
+    },
+    "29211": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5edeab6405341",
+              "url": "https://prehraj.to/home-2015-480p-bdrip-xvid-ac3-cz-hide/5edeab6405341",
+              "title": "Home.2015.480p.BDRip.XviD.AC3.CZ-HiDE",
+              "year": null,
+              "duration_sec": 5628,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.133,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 125,
+                "candidate_runtime_sec": 5628,
+                "runtime_delta": 0.25,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:33:42.749862+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "hide-50th-anniversary-film-junk-story",
+        "title": "hide 50th anniversary FILM 「JUNK STORY」",
+        "original_title": "Junk Story",
+        "year": 2015,
+        "runtime_min": 125,
+        "tmdb_id": 460124,
+        "imdb_id": "tt4569908",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:33:31.776801+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:33:30.474115+00:00"
+  "updated_at": "2026-08-28T06:33:42.749880+00:00"
 }
