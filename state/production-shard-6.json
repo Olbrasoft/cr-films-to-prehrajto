@@ -29932,7 +29932,107 @@
         },
         "at": "2026-08-28T07:03:51.546532+00:00"
       }
+    },
+    "23270": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586ae4fbf0865",
+              "url": "https://prehraj.to/gojira-tai-mosura-1992-voicevier-pl-dvbripdivx-pres-multiload-cz/586ae4fbf0865",
+              "title": "gojira-tai-mosura-1992-voicevier-pl-dvbripdivx-přes-MultiLoad.cz",
+              "year": null,
+              "duration_sec": 6020,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.253,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 6020,
+                "runtime_delta": 0.016,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c99f6d6ac117dac8",
+              "url": "https://prehraj.to/mothra-vs-godzilla-1964-ja-cz-dabing/c99f6d6ac117dac8",
+              "title": "Mothra vs. Godzilla (1964) JA CZ Dabing",
+              "year": null,
+              "duration_sec": 6788,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1964,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Godzilla vs. Mothra (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "726fd84e498eda31",
+              "url": "https://prehraj.to/mothra-vs-godzilla-1964-cz-dabing/726fd84e498eda31",
+              "title": "Mothra vs. Godzilla (1964) CZ Dabing",
+              "year": null,
+              "duration_sec": 6788,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1964,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Godzilla vs. Mothra (1992)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:03:57.982863+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "godzilla-vs-mothra",
+        "title": "Godzilla vs. Mothra",
+        "original_title": "Godzilla vs. Mothra",
+        "year": 1992,
+        "runtime_min": 102,
+        "tmdb_id": 39465,
+        "imdb_id": "tt0104352",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:03:56.759327+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:03:55.350606+00:00"
+  "updated_at": "2026-08-28T07:03:57.982884+00:00"
 }
