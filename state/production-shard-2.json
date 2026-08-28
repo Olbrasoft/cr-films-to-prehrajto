@@ -15705,7 +15705,376 @@
         },
         "at": "2026-08-28T03:23:09.422281+00:00"
       }
+    },
+    "29554": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5880728dd45c2",
+              "url": "https://prehraj.to/sherlock-4x03-posledni-pripad-cz-dab-2017/5880728dd45c2",
+              "title": "Sherlock-4x03-Poslední případ-cz.dab-2017",
+              "year": null,
+              "duration_sec": 5334,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "catalog_source": true,
+                "rejection_reason": "tv_episode"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586cae11c0847",
+              "url": "https://prehraj.to/sherlock-4x01-sest-zeleznych-dam-2017/586cae11c0847",
+              "title": "Sherlock-4x01-Šest Železných dam-2017",
+              "year": null,
+              "duration_sec": 5301,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "catalog_source": true,
+                "rejection_reason": "tv_episode"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586cae119a82e",
+              "url": "https://prehraj.to/sherlock-4x01-sest-zeleznych-dam-2017/586cae119a82e",
+              "title": "Sherlock-4x01-Šest Železných dam-2017",
+              "year": null,
+              "duration_sec": 5301,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "catalog_source": true,
+                "rejection_reason": "tv_episode"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5876653e20567",
+              "url": "https://prehraj.to/sherlock-4x02-skomirajici-detektiv-2017/5876653e20567",
+              "title": "Sherlock-4x02-Skomírající detektiv-2017",
+              "year": null,
+              "duration_sec": 5344,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "catalog_source": true,
+                "rejection_reason": "tv_episode"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5877b83ca6f94",
+              "url": "https://prehraj.to/sherlock-4x02-skomirajici-detektiv-2017/5877b83ca6f94",
+              "title": "Sherlock-4x02-Skomírající detektiv-2017",
+              "year": null,
+              "duration_sec": 5344,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "catalog_source": true,
+                "rejection_reason": "tv_episode"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b1c72b1a96bbeb93",
+              "url": "https://prehraj.to/seleakk-teans-2017-cz-dabing/b1c72b1a96bbeb93",
+              "title": "ഷെർലോക്ക് ടോംസ് (2017) CZ Dabing",
+              "year": null,
+              "duration_sec": 5334,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.0,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 147,
+                "candidate_runtime_sec": 5334,
+                "runtime_delta": 0.395,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "ഷെർലോക്ക് ടോംസ് (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "01852d6616d3805e",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-2010-cz-dabing/01852d6616d3805e",
+              "title": "Tom a Jerry: Sherlock Holmes (2010) CZ Dabing",
+              "year": null,
+              "duration_sec": 2260,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d5a13ceaf19",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-tom-and-jerry-meet-sherlock-holmes-2010-sk-tvrip-hevc-720p-bydejv/67d5a13ceaf19",
+              "title": "Tom a Jerry Sherlock Holmes -Tom and Jerry Meet Sherlock…",
+              "year": null,
+              "duration_sec": 2736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.69,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d86fadb55e4",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-tom-and-jerry-meet-sherlock-holmes-2010-sk-tvrip-hevc-720p/67d86fadb55e4",
+              "title": "Tom a Jerry Sherlock Holmes -Tom and Jerry Meet Sherlock…",
+              "year": null,
+              "duration_sec": 2736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.69,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68936fde01ac5",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-2010-czdab/68936fde01ac5",
+              "title": "Tom a Jerry Sherlock Holmes 2010 CZdab",
+              "year": null,
+              "duration_sec": 2260,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6bfdcfa089dfa9e9",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-720p-sk/6bfdcfa089dfa9e9",
+              "title": "Tom a Jerry Sherlock Holmes 720p SK",
+              "year": null,
+              "duration_sec": 2736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.69,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d1891a5b8515",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes/5d1891a5b8515",
+              "title": "Tom a Jerry - Sherlock Holmes",
+              "year": null,
+              "duration_sec": 2867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.675,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a132bde96580",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-2010-cz-dabing-animovany/5a132bde96580",
+              "title": "Tom a Jerry - Sherlock Holmes (2010) CZ Dabing - Animovaný",
+              "year": null,
+              "duration_sec": 2867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a398555bf911aa7c",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-2010-cs/a398555bf911aa7c",
+              "title": "Tom a Jerry: Sherlock Holmes - 2010 CS",
+              "year": null,
+              "duration_sec": 2867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "be484faa9890dd1e",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-2010-cs/be484faa9890dd1e",
+              "title": "Tom a Jerry: Sherlock Holmes - 2010 CS",
+              "year": null,
+              "duration_sec": 2867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2010,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9032828a2dc",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-animovany/5a9032828a2dc",
+              "title": "Tom a Jerry-Sherlock Holmes (animovaný)",
+              "year": null,
+              "duration_sec": 2867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.675,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sherlock Toms (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61098c608661a",
+              "url": "https://prehraj.to/tom-a-jerry-sherlock-holmes-animovana-pohadka-2009-cz-dabing/61098c608661a",
+              "title": "Tom a Jerry -Sherlock Holmes-animovaná pohádka (2009) cz…",
+              "year": null,
+              "duration_sec": 2867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 2009,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sherlock Toms (2017)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:23:15.265140+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "film-126",
+        "title": "ഷെർലോക്ക് ടോംസ്",
+        "original_title": "Sherlock Toms",
+        "year": 2017,
+        "runtime_min": 147,
+        "tmdb_id": 459728,
+        "imdb_id": "tt6667268",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:23:12.164335+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:23:10.822022+00:00"
+  "updated_at": "2026-08-28T03:23:15.265160+00:00"
 }
