@@ -59918,6 +59918,257 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:33:37.975855+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67752fdb5bcac",
+              "url": "https://prehraj.to/james-bond-jeden-svet-nestaci-1999-akcni-dobrodruzny-krimi-thriller-czdab/67752fdb5bcac",
+              "title": "James Bond - Jeden svět nestačí (1999) akční dobrodružný krimi thriller czdab",
+              "year": null,
+              "duration_sec": 7700,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.468,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "613db252a6881",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-1080p-web-dl-aac2-0-h-264-cz-tit/613db252a6881",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021.1080p.WEB-DL…",
+              "year": null,
+              "duration_sec": 2805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "613a4430b067d",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-cztitulky/613a4430b067d",
+              "title": "Being James Bond - The Daniel Craig Story (2021) CZtitulky",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61e6d4c590ec0",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-1080p-webrip-x264-aac-yts-mx/61e6d4c590ec0",
+              "title": "Being James Bond The Daniel Craig Story 2021 1080p WEBRip…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "613a1461da1d1",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-1080p-web-dl-aac2-0-h-264-tepes/613a1461da1d1",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021.1080p.WEB-DL…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6139fd016e7f0",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-webrip-x264-ion10/6139fd016e7f0",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021.WEBRip.x264…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6139dd01845a9",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-480p-webrip-x264/6139dd01845a9",
+              "title": "being.james.bond.the.daniel.craig.story.2021.480p.webrip…",
+              "year": null,
+              "duration_sec": 2805,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6139fce5d257b",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-720p-webrip-x264-aac-yts-mx/6139fce5d257b",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021.720p.WEBRip…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61926fe06552d",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021/61926fe06552d",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6139fcd15948b",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-1080p-webrip-x264-rarbg/6139fcd15948b",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021.1080p.WEBRip…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6139fc974ce5d",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-1080p-webrip-x264-aac-yts-mx/6139fc974ce5d",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021.1080p.WEBRip…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6139fd0382627",
+              "url": "https://prehraj.to/being-james-bond-the-daniel-craig-story-2021-webrip-xvid-mp3-xvid/6139fd0382627",
+              "title": "Being.James.Bond.The.Daniel.Craig.Story.2021.WEBRip.XviD…",
+              "year": null,
+              "duration_sec": 2804,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1999,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The James Bond Story (1999)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:16:06.983306+00:00"
         }
       ],
       "identity": {
@@ -59936,7 +60187,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:33:37.548106+00:00"
+        "at": "2026-08-28T11:16:05.811852+00:00"
       }
     },
     "24496": {
@@ -71185,5 +71436,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:16:04.278320+00:00"
+  "updated_at": "2026-08-28T11:16:06.983323+00:00"
 }
