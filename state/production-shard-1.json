@@ -4089,6 +4089,37 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T06:23:11.723329+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fdf8a0507e29",
+              "url": "https://prehraj.to/rapl-ii-08-trefa-do-cerneho-2019/5fdf8a0507e29",
+              "title": "Rapl II - 08 - Trefa do černého 2019",
+              "year": null,
+              "duration_sec": 3660,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.625,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:16:03.256577+00:00"
         }
       ],
       "identity": {
@@ -4107,7 +4138,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T06:22:54.913412+00:00"
+        "at": "2026-08-28T03:16:00.847935+00:00"
       }
     },
     "29805": {
@@ -67138,5 +67169,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:15:59.284261+00:00"
+  "updated_at": "2026-08-28T03:16:03.256597+00:00"
 }
