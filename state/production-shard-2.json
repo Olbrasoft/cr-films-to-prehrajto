@@ -27708,7 +27708,120 @@
         },
         "at": "2026-08-28T07:25:09.332624+00:00"
       }
+    },
+    "24330": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5bdea2e7dbe49",
+              "url": "https://prehraj.to/blues-brothers-2000-1998-cz-dabing/5bdea2e7dbe49",
+              "title": "Blues Brothers 2000 (1998) CZ Dabing",
+              "year": null,
+              "duration_sec": 7113,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.52,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c3255ae9e002",
+              "url": "https://prehraj.to/blues-brothers-2000-1998-cz-dabing/5c3255ae9e002",
+              "title": "Blues Brothers 2000 (1998) CZ Dabing",
+              "year": null,
+              "duration_sec": 7113,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.52,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c391bc9f0d1d",
+              "url": "https://prehraj.to/blues-brothers-2000-1998-cz-dabing/5c391bc9f0d1d",
+              "title": "Blues Brothers 2000 (1998) CZ Dabing",
+              "year": null,
+              "duration_sec": 7113,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.52,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b72dab2cd4e",
+              "url": "https://prehraj.to/blues-brothers-2000-cz/58b72dab2cd4e",
+              "title": "Blues-brothers-2000-cz",
+              "year": null,
+              "duration_sec": 7113,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.52,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:25:22.373503+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "blue-s-big-musical-movie",
+        "title": "Blue's Big Musical Movie",
+        "original_title": null,
+        "year": 2000,
+        "runtime_min": 78,
+        "tmdb_id": 25242,
+        "imdb_id": "tt0193019",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:25:12.389616+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:25:10.936529+00:00"
+  "updated_at": "2026-08-28T07:25:22.373525+00:00"
 }
