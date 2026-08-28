@@ -17686,7 +17686,67 @@
         },
         "at": "2026-08-28T03:23:51.565300+00:00"
       }
+    },
+    "29274": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e3f41a0afec4",
+              "url": "https://prehraj.to/now-you-see-me-2-2016-bdrip-nnm-club/5e3f41a0afec4",
+              "title": "Now You See Me 2.2016.BDRip.NNM-CLUB",
+              "year": null,
+              "duration_sec": 7770,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.304,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 7770,
+                "runtime_delta": 0.472,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:23:57.618430+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ladies-book-club",
+        "title": "Ladies Book Club",
+        "original_title": null,
+        "year": 2016,
+        "runtime_min": 88,
+        "tmdb_id": 405851,
+        "imdb_id": "tt4899528",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:23:55.793455+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:23:54.568179+00:00"
+  "updated_at": "2026-08-28T03:23:57.618451+00:00"
 }
