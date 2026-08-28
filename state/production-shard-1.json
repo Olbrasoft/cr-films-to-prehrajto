@@ -68941,6 +68941,679 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:14:45.767114+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b1e7490a16f8",
+              "url": "https://prehraj.to/nebezpecne-hry-1-krimi-cz-dab-1998-jad/5b1e7490a16f8",
+              "title": "Nebezpečné hry 1-krimi-cz dab.-1998-jad",
+              "year": null,
+              "duration_sec": 6233,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.167,
+                "title_contains_alias": false,
+                "film_year": 1998,
+                "candidate_year": 1998,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6233,
+                "runtime_delta": 0.094,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ad22252caf7b7a09",
+              "url": "https://prehraj.to/jaded-heart-excuse-hq-mp4/ad22252caf7b7a09",
+              "title": "Jaded Heart - Excuse (HQ).mp4",
+              "year": null,
+              "duration_sec": 248,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.956,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555bc26783ca",
+              "url": "https://prehraj.to/aerosmith-jaded-official-hd-video-9459051671172563/6555bc26783ca",
+              "title": "Aerosmith - Jaded (Official HD Video) - 9459051671172563",
+              "year": null,
+              "duration_sec": 228,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.96,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555bc311ec6a",
+              "url": "https://prehraj.to/aerosmith-jaded-official-hd-video/6555bc311ec6a",
+              "title": "Aerosmith - Jaded (Official HD Video)",
+              "year": null,
+              "duration_sec": 228,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.96,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64aa74ad5ca8b",
+              "url": "https://prehraj.to/faded/64aa74ad5ca8b",
+              "title": "Faded",
+              "year": null,
+              "duration_sec": 339,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.941,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "98221f02d08aafcc",
+              "url": "https://prehraj.to/jade-cz-2025-1080p/98221f02d08aafcc",
+              "title": "Jade.CZ.2025.1080p",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6c5b2d5babb98613",
+              "url": "https://prehraj.to/jade-cz-2025-1080p-mkv/6c5b2d5babb98613",
+              "title": "Jade.CZ.2025.1080p.mkv",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0ccf9dff0be20bf7",
+              "url": "https://prehraj.to/jade-2025-cz-dabing-1080p-fhd/0ccf9dff0be20bf7",
+              "title": "Jade 2025 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e714b5e8f6c8cb25",
+              "url": "https://prehraj.to/jade-2025-cz-dabing-1080p/e714b5e8f6c8cb25",
+              "title": "Jade 2025 cz dabing 1080p",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63c136c59afdd3e9",
+              "url": "https://prehraj.to/jade-novinka-2025-cz-dabing-2160p/63c136c59afdd3e9",
+              "title": "Jade novinka 2025 Cz dabing 2160p",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678fc827b105e",
+              "url": "https://prehraj.to/jade-2024-720p-amzn-web-dl-ddp5-1-h-264-thr/678fc827b105e",
+              "title": "Jade.2024.720p.AMZN.WEB-DL.DDP5.1.H.264-THR",
+              "year": null,
+              "duration_sec": 5323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6f77fbb8972f85b8",
+              "url": "https://prehraj.to/jade-1995-en/6f77fbb8972f85b8",
+              "title": "Jade - 1995 EN",
+              "year": null,
+              "duration_sec": 5685,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 1995,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "81d838af8a8dba6e",
+              "url": "https://prehraj.to/jade-2025-cs/81d838af8a8dba6e",
+              "title": "Jade - 2025 CS",
+              "year": null,
+              "duration_sec": 5099,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "95285c1833772d81",
+              "url": "https://prehraj.to/jade-1995-en/95285c1833772d81",
+              "title": "Jade - 1995 EN",
+              "year": null,
+              "duration_sec": 6461,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 1995,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d86331e6b5e55bdb",
+              "url": "https://prehraj.to/jade-web-dl-cz-2025-1080p/d86331e6b5e55bdb",
+              "title": "Jade.WEB-DL.CZ.2025.1080p",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d14c5f58fd072e3b",
+              "url": "https://prehraj.to/jade-2025-cz/d14c5f58fd072e3b",
+              "title": "Jade (2025) CZ",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "577ff3fc3101defd",
+              "url": "https://prehraj.to/jade-cz-2025-1080p-mkv/577ff3fc3101defd",
+              "title": "Jade..CZ.2025.1080p.mkv",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9a68eccfd3ef5cba",
+              "url": "https://prehraj.to/jade-web-dl-cz-2025/9a68eccfd3ef5cba",
+              "title": "Jade.WEB-DL.CZ.2025",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1f5f4721fa515056",
+              "url": "https://prehraj.to/jade-novinka-2025-cz-dabing-1080p-mkv/1f5f4721fa515056",
+              "title": "Jade    novinka   2025   Cz dabing   1080p   .mkv",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "655645e040ae2",
+              "url": "https://prehraj.to/dokken-jaded-heart-5432081671108356/655645e040ae2",
+              "title": "Dokken - Jaded Heart - 5432081671108356",
+              "year": null,
+              "duration_sec": 259,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.955,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0c663dc1565e3647",
+              "url": "https://prehraj.to/jade-novinka-2025-cz-dabing-720p-mp4/0c663dc1565e3647",
+              "title": "Jade    novinka   2025   Cz dabing   720p   .mp4",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ae302f8f248ef6da",
+              "url": "https://prehraj.to/jade-2025-cz-dabing-1080p-mkv/ae302f8f248ef6da",
+              "title": "Jade (2025) CZ-Dabing 1080p.mkv",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e215e760c90dee89",
+              "url": "https://prehraj.to/jade-2025-cz-dabing-1080p-mkv/e215e760c90dee89",
+              "title": "Jade (2025) CZ Dabing 1080p.mkv",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "39ecf63f2bb92e7f",
+              "url": "https://prehraj.to/jade-novinka-2025-cz-dabing-2160p-mkv/39ecf63f2bb92e7f",
+              "title": "Jade    novinka   2025   Cz dabing   2160p   .mkv",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678fc7dd2ad3d",
+              "url": "https://prehraj.to/jade-2024-1080p-amzn-web-dl-ddp5-1-h-264-thr/678fc7dd2ad3d",
+              "title": "Jade.2024.1080p.AMZN.WEB-DL.DDP5.1.H.264-THR",
+              "year": null,
+              "duration_sec": 5324,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6556b8bf5f87f",
+              "url": "https://prehraj.to/jaded-heart-wasteland-official-video-6402431671108232/6556b8bf5f87f",
+              "title": "JADED HEART - Wasteland (Official Video) - 6402431671108232",
+              "year": null,
+              "duration_sec": 272,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.952,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "87efcac5d2314435",
+              "url": "https://prehraj.to/jade-cz-2025-1080p/87efcac5d2314435",
+              "title": "Jade.CZ.2025.1080p",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d4fe9e26e2a09593",
+              "url": "https://prehraj.to/jade-2025/d4fe9e26e2a09593",
+              "title": "Jade (2025)",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "186a4e5641a2c5bd",
+              "url": "https://prehraj.to/jade-2025-cz-mp4/186a4e5641a2c5bd",
+              "title": "Jade (2025)(CZ.mp4",
+              "year": null,
+              "duration_sec": 5097,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6556b8c0e9410",
+              "url": "https://prehraj.to/jaded-heart-with-you-official-video-clip/6556b8c0e9410",
+              "title": "Jaded Heart - With You (Official Video Clip)",
+              "year": null,
+              "duration_sec": 274,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.952,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "683a22a438cf1",
+              "url": "https://prehraj.to/temna-legenda-alicia-witt-jared-leto-rebecca-gayheart-1998-horor-thriller-mysteriozni-bdrip-1080p-cz-dabing/683a22a438cf1",
+              "title": "Temná legenda (Alicia Witt, Jared Leto, Rebecca Gayheart…",
+              "year": null,
+              "duration_sec": 5978,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.138,
+                "title_contains_alias": false,
+                "film_year": 1998,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5978,
+                "runtime_delta": 0.049,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5de53e83ddece",
+              "url": "https://prehraj.to/charlie-jade-s01e08-eng/5de53e83ddece",
+              "title": "Charlie Jade S01E08 - ENG",
+              "year": null,
+              "duration_sec": 2729,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Jaded (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5de53e8b83ac7",
+              "url": "https://prehraj.to/charlie-jade-s01e09-eng/5de53e8b83ac7",
+              "title": "Charlie Jade S01E09 - ENG",
+              "year": null,
+              "duration_sec": 2729,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Jaded (1998)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:51:26.023044+00:00"
         }
       ],
       "identity": {
@@ -68959,7 +69632,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:14:45.189456+00:00"
+        "at": "2026-08-28T03:51:23.498415+00:00"
       }
     },
     "23701": {
@@ -78969,5 +79642,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:51:21.880518+00:00"
+  "updated_at": "2026-08-28T03:51:26.023064+00:00"
 }
