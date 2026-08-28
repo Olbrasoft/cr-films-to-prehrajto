@@ -31184,7 +31184,67 @@
         },
         "at": "2026-08-28T02:50:35.692733+00:00"
       }
+    },
+    "21684": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5875770a9b27d",
+              "url": "https://prehraj.to/kto-si-bez-viny-1963-film-cely/5875770a9b27d",
+              "title": "Kto-si-bez-viny-1963-film-celý",
+              "year": null,
+              "duration_sec": 5616,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.34,
+                "title_contains_alias": false,
+                "film_year": 1963,
+                "candidate_year": 1963,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5616,
+                "runtime_delta": 0.04,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:50:46.051357+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "who-s-minding-the-store",
+        "title": "Who's Minding the Store?",
+        "original_title": null,
+        "year": 1963,
+        "runtime_min": 90,
+        "tmdb_id": 42305,
+        "imdb_id": "tt0057683",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:50:38.908741+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:50:37.623742+00:00"
+  "updated_at": "2026-08-28T02:50:46.051376+00:00"
 }
