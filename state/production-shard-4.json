@@ -29825,7 +29825,94 @@
         },
         "at": "2026-08-28T02:50:06.174509+00:00"
       }
+    },
+    "22124": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588a32cb5e7d6",
+              "url": "https://prehraj.to/boss-smrt-na-zakazku-cz-dabing-krimi-thriller-italie-1973-nejlepsi-filmy-mypage-cz/588a32cb5e7d6",
+              "title": "Boss---Smrt-na-zakázku-CZ-dabing---Krimi--Thriller,-Itálie,-1973-(nejlepsi-filmy.mypage.cz)",
+              "year": null,
+              "duration_sec": 5177,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.305,
+                "title_contains_alias": false,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 5177,
+                "runtime_delta": 0.128,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583ffa355b8a3",
+              "url": "https://prehraj.to/zatykac-na-kralovnu-tv-1973-edited/583ffa355b8a3",
+              "title": "Zatykac-na-kralovnu-TV-1973--edited",
+              "year": null,
+              "duration_sec": 5344,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.343,
+                "title_contains_alias": false,
+                "film_year": 1973,
+                "candidate_year": 1973,
+                "year_match": true,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 5344,
+                "runtime_delta": 0.1,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:50:29.751691+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dzingi-naki-tatakai-hirosima-sitohen",
+        "title": "Džingi naki tatakai: Hirošima šitóhen",
+        "original_title": "Battles Without Honor and Humanity: Deadly Fight in Hiroshima",
+        "year": 1973,
+        "runtime_min": 99,
+        "tmdb_id": 52980,
+        "imdb_id": "tt0070245",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:50:16.612433+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:50:13.302860+00:00"
+  "updated_at": "2026-08-28T02:50:29.751711+00:00"
 }
