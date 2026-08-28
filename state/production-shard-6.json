@@ -31733,7 +31733,712 @@
         },
         "at": "2026-08-28T07:04:51.033097+00:00"
       }
+    },
+    "22238": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58617c15a2e83",
+              "url": "https://prehraj.to/okamzik-vyzrazeni-michael-caine-1974-cz-dab/58617c15a2e83",
+              "title": "Okamžik-vyzrazení---Michael-Caine-1974-cz-dab",
+              "year": null,
+              "duration_sec": 6106,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.435,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6106,
+                "runtime_delta": 0.071,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb695ee185",
+              "url": "https://prehraj.to/michael-jackson-you-rock-my-world-full-version-restored-by-peachrestores/662eb695ee185",
+              "title": "Michael Jackson - You Rock My World (Full Version) -…",
+              "year": null,
+              "duration_sec": 810,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.858,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb5d8ed0ac",
+              "url": "https://prehraj.to/michael-jackson-she-s-out-of-my-life/662eb5d8ed0ac",
+              "title": "Michael Jackson - She's out of my Life",
+              "year": null,
+              "duration_sec": 212,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.963,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58515a3c76d7e",
+              "url": "https://prehraj.to/michael-jackson-you-rock-my-world-alternative-version/58515a3c76d7e",
+              "title": "Michael-Jackson---You-Rock-My-World-(Alternative-Version)",
+              "year": null,
+              "duration_sec": 809,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.858,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "581ae543d11d3087",
+              "url": "https://prehraj.to/ai-michael-jackson/581ae543d11d3087",
+              "title": "AI Michael Jackson",
+              "year": null,
+              "duration_sec": 131,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.977,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685ac3aa23887",
+              "url": "https://prehraj.to/08-paul-mccartney-george-michael-drive-my-car-live-8-2005-2/685ac3aa23887",
+              "title": "08. Paul McCartney   George Michael - Drive My Car (Live 8…",
+              "year": null,
+              "duration_sec": 168,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.971,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685ac3b790b3a",
+              "url": "https://prehraj.to/08-paul-mccartney-george-michael-drive-my-car-live-8-2005/685ac3b790b3a",
+              "title": "08. Paul McCartney   George Michael - Drive My Car (Live 8…",
+              "year": null,
+              "duration_sec": 168,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.971,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4168e7fe1d034736",
+              "url": "https://prehraj.to/me-michael-and-i-2024/4168e7fe1d034736",
+              "title": "Me Michael And I (2024)",
+              "year": null,
+              "duration_sec": 4639,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb4a7d53c7",
+              "url": "https://prehraj.to/michael-jackson-hold-my-hand-duet-with-akon-official-video-ft-akon/662eb4a7d53c7",
+              "title": "Michael Jackson - Hold My Hand (Duet with Akon) (Official…",
+              "year": null,
+              "duration_sec": 223,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.961,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e1c23455e",
+              "url": "https://prehraj.to/i-cut-off-my-arm-to-save-my-life-pleasure-and-pain-with-michael-mosley-bbc-one/5ae0e1c23455e",
+              "title": "'I Cut Off My Arm To Save My Life' - Pleasure and Pain with…",
+              "year": null,
+              "duration_sec": 268,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b97d91f135a6d59b",
+              "url": "https://prehraj.to/michael-jackson-complete-album-covers-animated-with-ai-mid-2025-edition/b97d91f135a6d59b",
+              "title": "Michael Jackson Complete Album Covers Animated with AI (Mid…",
+              "year": null,
+              "duration_sec": 196,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.966,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ffb6c935f7820bc1",
+              "url": "https://prehraj.to/jana-eyrova-mia-wasikowska-michael-fassbender-2011-drama-romanticky-bdrip-1080p-cz-dabing/ffb6c935f7820bc1",
+              "title": "Jana Eyrová (Mia Wasikowska, Michael Fassbender-2011 Drama…",
+              "year": null,
+              "duration_sec": 7198,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb4ab0fb91",
+              "url": "https://prehraj.to/michael-jackson-childhood-restored-by-peachrestores/662eb4ab0fb91",
+              "title": "Michael Jackson - Childhood - restored by @peachrestores",
+              "year": null,
+              "duration_sec": 267,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f93aafa4541b3353",
+              "url": "https://prehraj.to/jana-eyrova-mia-wasikowska-michael-fassbender-2011-drama-romanticky-bdrip-1080p-cz-dabing/f93aafa4541b3353",
+              "title": "Jana Eyrová (Mia Wasikowska, Michael Fassbender-2011 Drama…",
+              "year": null,
+              "duration_sec": 7198,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ffc16fbcbfc900e7",
+              "url": "https://prehraj.to/jana-eyrova-mia-wasikowska-michael-fassbender-2011-drama-romanticky-bdrip-1080p-cz-dabing/ffc16fbcbfc900e7",
+              "title": "Jana Eyrová (Mia Wasikowska, Michael Fassbender-2011 Drama…",
+              "year": null,
+              "duration_sec": 7198,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678789af72a10",
+              "url": "https://prehraj.to/11-11-timothy-gibbs-michael-landes-wendy-glenn-2011-horor-thriller-mysteriozni-bdrip-1080p-cz-dabing/678789af72a10",
+              "title": "11-11 (Timothy Gibbs,Michael Landes,Wendy Glenn-2011 Horor…",
+              "year": null,
+              "duration_sec": 5578,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6787785ca4b9f",
+              "url": "https://prehraj.to/11-11-timothy-gibbs-michael-landes-wendy-glenn-2011-horor-thriller-mysteriozni-bdrip-1080p-cz-dabing/6787785ca4b9f",
+              "title": "11-11 (Timothy Gibbs,Michael Landes,Wendy Glenn-2011 Horor…",
+              "year": null,
+              "duration_sec": 5577,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678780f17f3f9",
+              "url": "https://prehraj.to/11-11-timothy-gibbs-michael-landes-wendy-glenn-2011-horor-thriller-mysteriozni-bdrip-1080p-cz-dabing/678780f17f3f9",
+              "title": "11-11 (Timothy Gibbs,Michael Landes,Wendy Glenn-2011 Horor…",
+              "year": null,
+              "duration_sec": 5578,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d7046ad2721",
+              "url": "https://prehraj.to/michal-david-my-mame-prima-rodice/67d7046ad2721",
+              "title": "Michal David - My máme príma rodiče",
+              "year": null,
+              "duration_sec": 147,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.974,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb46931c59",
+              "url": "https://prehraj.to/michael-jackson-ghosts-short-restored-by-peachrestores/662eb46931c59",
+              "title": "Michael Jackson - Ghosts (Short) - restored by …",
+              "year": null,
+              "duration_sec": 239,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.958,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662ebd15e118b",
+              "url": "https://prehraj.to/2023michael-jackson-history-on-film-volume-ii-full-4k-movie/662ebd15e118b",
+              "title": "『2023』Michael Jackson - HIStory On Film (Volume II)   FULL…",
+              "year": null,
+              "duration_sec": 6410,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "42c5603fa4ae65f7",
+              "url": "https://prehraj.to/michael-jackson-album-covers-animated-cover2video-ai/42c5603fa4ae65f7",
+              "title": "Michael Jackson Album Covers Animated   Cover2Video AI",
+              "year": null,
+              "duration_sec": 92,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.984,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662ec3d85246e",
+              "url": "https://prehraj.to/michael-jackson-live-in-rome-23rd-may-1988-bad-tour-full-concert/662ec3d85246e",
+              "title": "Michael Jackson - Live In Rome   23rd May 1988 - Bad Tour …",
+              "year": null,
+              "duration_sec": 3605,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1974,
+                "candidate_year": 1988,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "800590916e273460",
+              "url": "https://prehraj.to/cestmir-strakaty-podcast-08-dil-vrtulnik-michael-v-kokain-je-pro-deti-preferoval-jsem-pervitin-vadi-mi-tlak-na-prijeti-lgbt-lidi/800590916e273460",
+              "title": "Čestmír strakatý podcast - 08. díl - Vrtulník Michael V.…",
+              "year": null,
+              "duration_sec": 5445,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5445,
+                "runtime_delta": 0.045,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb60e7e223",
+              "url": "https://prehraj.to/michael-jackson-the-evolution-of-michael-jackson-s-dance-by-ricardo-walker-s-crew/662eb60e7e223",
+              "title": "Michael Jackson - The Evolution of Michael Jackson's Dance …",
+              "year": null,
+              "duration_sec": 300,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.947,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb3b3b612d",
+              "url": "https://prehraj.to/michael-jackson-black-or-white-restored-by-peachrestores/662eb3b3b612d",
+              "title": "Michael Jackson - Black or White - restored by …",
+              "year": null,
+              "duration_sec": 664,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.884,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb589b0694",
+              "url": "https://prehraj.to/michael-jackson-remember-the-time-restored-by-peachrestores/662eb589b0694",
+              "title": "Michael Jackson - Remember The Time - restored by …",
+              "year": null,
+              "duration_sec": 549,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.904,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "662eb4df70071",
+              "url": "https://prehraj.to/michael-jackson-leave-me-alone-official-music-video/662eb4df70071",
+              "title": "Michael Jackson - Leave Me Alone   Official Music Video",
+              "year": null,
+              "duration_sec": 276,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.952,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "79d9f36d778ccb5e",
+              "url": "https://prehraj.to/nocni-zvirata-amy-adams-jake-gyllenhaal-michael-shannon-2016-psychologicky-thriller-drama-bdrip-1080p-cz-dabing/79d9f36d778ccb5e",
+              "title": "Noční zvířata (Amy Adams, Jake Gyllenhaal, Michael Shannon…",
+              "year": null,
+              "duration_sec": 6969,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.308,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6969,
+                "runtime_delta": 0.223,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "20fc4d4dccf9a2b6",
+              "url": "https://prehraj.to/urban-expedition-11-dil-vehlasny-designer-michael-verheyden/20fc4d4dccf9a2b6",
+              "title": "Urban expedition - 11. díl - Věhlasný designér Michael…",
+              "year": null,
+              "duration_sec": 216,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.962,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68418ce77f693",
+              "url": "https://prehraj.to/temna-polovina-timothy-hutton-amy-madigan-michael-rooker-1993-horor-mysteriozni-bdrip-1080p-cz-dabing/68418ce77f693",
+              "title": "Temná polovina (Timothy Hutton,Amy Madigan,Michael Rooker…",
+              "year": null,
+              "duration_sec": 6968,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.303,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6968,
+                "runtime_delta": 0.222,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67709eb5cf8b14a9",
+              "url": "https://prehraj.to/michael-jackson-nechajte-si-ju-vidiek-ai-cover-mkv/67709eb5cf8b14a9",
+              "title": "Michael Jackson - Nechajte si ju (Vidiek AI Cover).mkv",
+              "year": null,
+              "duration_sec": 173,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.97,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "My Michael (1974)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "684189f3d3468",
+              "url": "https://prehraj.to/temna-polovina-timothy-hutton-amy-madigan-michael-rooker-1993-horor-mysteriozni-bdrip-1080p-cz-dabing/684189f3d3468",
+              "title": "Temná polovina (Timothy Hutton,Amy Madigan,Michael Rooker…",
+              "year": null,
+              "duration_sec": 6967,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.303,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6967,
+                "runtime_delta": 0.222,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "My Michael (1974)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:05:06.845283+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "michael-sheli",
+        "title": "Michael Sheli",
+        "original_title": "My Michael",
+        "year": 1974,
+        "runtime_min": 95,
+        "tmdb_id": 332841,
+        "imdb_id": "tt0073383",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:04:59.433822+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:04:58.014976+00:00"
+  "updated_at": "2026-08-28T07:05:06.845304+00:00"
 }
