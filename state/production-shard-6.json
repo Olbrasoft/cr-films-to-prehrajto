@@ -22000,7 +22000,94 @@
         },
         "at": "2026-08-28T06:49:16.989087+00:00"
       }
+    },
+    "26662": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58458284007a0",
+              "url": "https://prehraj.to/dve-divky-v-jednom-pyzamu-1974-dvdrip-hb2200-aac160cz-160fr-sub-cz-2pa/58458284007a0",
+              "title": "Dve-divky-v-jednom-pyzamu-1974-DVDrip-HB2200-aac160cz-160fr--sub-cz-2pa",
+              "year": null,
+              "duration_sec": 5450,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.104,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 162,
+                "candidate_runtime_sec": 5450,
+                "runtime_delta": 0.439,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "676514c079711",
+              "url": "https://prehraj.to/1974-silvestr-je-za-dvermi/676514c079711",
+              "title": "1974-Silvestr je za dveřmi",
+              "year": null,
+              "duration_sec": 9729,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 162,
+                "candidate_runtime_sec": 9729,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Silvestr je za dveřmi (1974)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:49:22.229208+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "silvestr-je-za-dvermi",
+        "title": "Silvestr je za dveřmi",
+        "original_title": null,
+        "year": 1974,
+        "runtime_min": 162,
+        "tmdb_id": 1224273,
+        "imdb_id": "tt12056748",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:49:19.956516+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:49:18.560936+00:00"
+  "updated_at": "2026-08-28T06:49:22.229229+00:00"
 }
