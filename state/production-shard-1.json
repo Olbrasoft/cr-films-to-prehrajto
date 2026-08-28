@@ -62380,6 +62380,71 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:12:00.216482+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f6e2b15eab97",
+              "url": "https://prehraj.to/panoptikum-mesta-prazskeho-1-dil-cz-serial-1987-jad/5f6e2b15eab97",
+              "title": "Panoptikum Města pražského 1.díl-cz serial-1987-jad",
+              "year": null,
+              "duration_sec": 3628,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.244,
+                "title_contains_alias": false,
+                "film_year": 1987,
+                "candidate_year": 1987,
+                "year_match": true,
+                "film_runtime_min": 60,
+                "candidate_runtime_sec": 3628,
+                "runtime_delta": 0.008,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f6e3ea1a474b",
+              "url": "https://prehraj.to/panoptikum-mesta-prazskeho-1-dil-cz-serial-1987-jad/5f6e3ea1a474b",
+              "title": "Panoptikum Města pražského 1.díl-cz serial-1987-jad",
+              "year": null,
+              "duration_sec": 3628,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.244,
+                "title_contains_alias": false,
+                "film_year": 1987,
+                "candidate_year": 1987,
+                "year_match": true,
+                "film_runtime_min": 60,
+                "candidate_runtime_sec": 3628,
+                "runtime_delta": 0.008,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:49:30.428898+00:00"
         }
       ],
       "identity": {
@@ -62398,7 +62463,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:11:57.945184+00:00"
+        "at": "2026-08-28T03:49:26.962043+00:00"
       }
     },
     "24755": {
@@ -78168,5 +78233,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:49:25.420120+00:00"
+  "updated_at": "2026-08-28T03:49:30.428918+00:00"
 }
