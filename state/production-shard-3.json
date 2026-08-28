@@ -11812,7 +11812,120 @@
         },
         "at": "2026-08-28T03:53:18.738957+00:00"
       }
+    },
+    "27899": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa19bad6446a",
+              "url": "https://prehraj.to/camille-claudel-1915-2013/5aa19bad6446a",
+              "title": "Camille Claudel 1915 (2013)",
+              "year": null,
+              "duration_sec": 5457,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2013,
+                "candidate_year": 1915,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Camille Claudel 1915 (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5747645d5fa1d15c",
+              "url": "https://prehraj.to/camille-claudel-1915-2013-fr/5747645d5fa1d15c",
+              "title": "Camille Claudel, 1915 - 2013 FR",
+              "year": null,
+              "duration_sec": 5456,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2013,
+                "candidate_year": 1915,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Camille Claudel 1915 (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c078ed1afb33",
+              "url": "https://prehraj.to/camille-claudel-1915/5c078ed1afb33",
+              "title": "Camille Claudel 1915",
+              "year": null,
+              "duration_sec": 5456,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2013,
+                "candidate_year": 1915,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Camille Claudel 1915 (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ef5a4b26356312a6",
+              "url": "https://prehraj.to/camille-claudel-1915-2013/ef5a4b26356312a6",
+              "title": "Camille Claudel 1915 (2013)",
+              "year": null,
+              "duration_sec": 5456,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2013,
+                "candidate_year": 1915,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Camille Claudel 1915 (2013)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:53:23.899232+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "camille-claudel-1915",
+        "title": "Camille Claudel 1915",
+        "original_title": null,
+        "year": 2013,
+        "runtime_min": 95,
+        "tmdb_id": 110428,
+        "imdb_id": "tt2018086",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:53:22.064235+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:53:20.770506+00:00"
+  "updated_at": "2026-08-28T03:53:23.899249+00:00"
 }
