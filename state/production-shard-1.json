@@ -81446,7 +81446,67 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T03:10:31.098185+00:00"
       }
+    },
+    "22881": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8afb6bbe564",
+              "url": "https://prehraj.to/let-1986/5a8afb6bbe564",
+              "title": "Let (1986)",
+              "year": null,
+              "duration_sec": 5580,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 5580,
+                "runtime_delta": 0.17,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:54:54.339869+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "muz-a-zena-po-20-letech",
+        "title": "Muž a žena po 20 letech",
+        "original_title": "A Man and a Woman: 20 Years Later",
+        "year": 1986,
+        "runtime_min": 112,
+        "tmdb_id": 76350,
+        "imdb_id": "tt0092130",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:54:48.896925+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:54:47.411787+00:00"
+  "updated_at": "2026-08-28T03:54:54.339890+00:00"
 }
