@@ -47688,6 +47688,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:26:19.084520+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588ed36862c51",
+              "url": "https://prehraj.to/william-a-kate-kralovsky-pribeh-lasky-sk-dabing-2014-romanticka-komedie-od-soucka-tomase/588ed36862c51",
+              "title": "William-a-Kate---Kráľovský-príbeh-lásky---SK-dabing-(2014)-romantická-komedie-OD-SOUČKA-TOMÁŠE",
+              "year": null,
+              "duration_sec": 5135,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.151,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5135,
+                "runtime_delta": 0.06,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:10:16.050886+00:00"
         }
       ],
       "identity": {
@@ -47706,7 +47744,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:26:17.737817+00:00"
+        "at": "2026-08-28T11:10:15.140540+00:00"
       }
     },
     "27450": {
@@ -65774,5 +65812,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:10:13.701832+00:00"
+  "updated_at": "2026-08-28T11:10:16.050903+00:00"
 }
