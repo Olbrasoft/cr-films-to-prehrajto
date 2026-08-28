@@ -33737,7 +33737,698 @@
         },
         "at": "2026-08-28T07:41:34.714286+00:00"
       }
+    },
+    "21173": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64a9aec5a1ddd",
+              "url": "https://prehraj.to/cech-panen-kutnohorskych-1938-576p-web-dl-x264-r-i-h/64a9aec5a1ddd",
+              "title": "Cech.Panen.Kutnohorských.1938.576p.WEB-DL.x264-R.i.H",
+              "year": null,
+              "duration_sec": 5374,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.174,
+                "title_contains_alias": false,
+                "film_year": 1938,
+                "candidate_year": 1938,
+                "year_match": true,
+                "film_runtime_min": 106,
+                "candidate_runtime_sec": 5374,
+                "runtime_delta": 0.155,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "659e9d32543d3",
+              "url": "https://prehraj.to/andula-vyhrala-1938-1080p-web-dl-h264-cz/659e9d32543d3",
+              "title": "Andula.Vyhrála.1938.1080p.WEB-DL.H264-cz",
+              "year": null,
+              "duration_sec": 5005,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.231,
+                "title_contains_alias": false,
+                "film_year": 1938,
+                "candidate_year": 1938,
+                "year_match": true,
+                "film_runtime_min": 106,
+                "candidate_runtime_sec": 5005,
+                "runtime_delta": 0.213,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b8062e28e72",
+              "url": "https://prehraj.to/karrier-a-pentagonban-1985-vhsrip-xvid-hunnarr/55b8062e28e72",
+              "title": "Karrier-a-Pentagonban-(1985).VHSRiP.XviD-HUNNARR",
+              "year": null,
+              "duration_sec": 4904,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1938,
+                "candidate_year": 1985,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Karriär (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63308e48046d3",
+              "url": "https://prehraj.to/career-opportunities-1991-bdrip-1080p-hevc-en-cz/63308e48046d3",
+              "title": "Career Opportunities 1991 BDrip 1080p HEVC EN CZ",
+              "year": null,
+              "duration_sec": 4976,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1938,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "535a3108ced9dc20",
+              "url": "https://prehraj.to/my-brilliant-career-s01e01-cz-dabing-mkv/535a3108ced9dc20",
+              "title": "My Brilliant Career S01E01 CZ Dabing.mkv",
+              "year": null,
+              "duration_sec": 2920,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b8604cb9d47dd105",
+              "url": "https://prehraj.to/my-brilliant-career-s01e01-vzpoura-1080p-cz-mkv/b8604cb9d47dd105",
+              "title": "My Brilliant Career.S01E01.Vzpoura.1080p CZ.mkv",
+              "year": null,
+              "duration_sec": 2920,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "245a84e9c9d9625a",
+              "url": "https://prehraj.to/my-brilliant-career-s01e04-at-zijem-1080p-cz-mkv/245a84e9c9d9625a",
+              "title": "My Brilliant Career.S01E04.Ať žijem.1080p CZ.mkv",
+              "year": null,
+              "duration_sec": 2722,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "907f2635a7406365",
+              "url": "https://prehraj.to/my-brilliant-career-s01e02-on-1080p-cz-mkv/907f2635a7406365",
+              "title": "My Brilliant Career.S01E02.On.1080p CZ.mkv",
+              "year": null,
+              "duration_sec": 2873,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3f35f848240d8016",
+              "url": "https://prehraj.to/my-brilliant-career-s01e02-cz-dabing-mkv/3f35f848240d8016",
+              "title": "My Brilliant Career S01E02 CZ Dabing.mkv",
+              "year": null,
+              "duration_sec": 2873,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2f7af4ab59278969",
+              "url": "https://prehraj.to/my-brilliant-career-s01e04-cz-dabing-mkv/2f7af4ab59278969",
+              "title": "My Brilliant Career S01E04 CZ Dabing.mkv",
+              "year": null,
+              "duration_sec": 2722,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1de564ec132cf6ed",
+              "url": "https://prehraj.to/my-brilliant-career-s01e03-cz-dab-yah/1de564ec132cf6ed",
+              "title": "My Brilliant Career s01e03 CZ dab- Yah..",
+              "year": null,
+              "duration_sec": 2845,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "53c4e9ae129d72db",
+              "url": "https://prehraj.to/my-brilliant-career-s01e06-cz-dab-ta-ta/53c4e9ae129d72db",
+              "title": "My Brilliant Career s01e06 CZ dab- Ta Ta..",
+              "year": null,
+              "duration_sec": 2389,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "41f4794f49267dc4",
+              "url": "https://prehraj.to/my-brilliant-career-s01e04-cz-dab-to-life/41f4794f49267dc4",
+              "title": "My Brilliant Career s01e04 CZ dab- To Life..",
+              "year": null,
+              "duration_sec": 2722,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a74c41bbc04ad6a4",
+              "url": "https://prehraj.to/my-brilliant-career-s01e01-cz-titulky/a74c41bbc04ad6a4",
+              "title": "My Brilliant Career S01E01 CZ titulky",
+              "year": null,
+              "duration_sec": 2921,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8eb492064f8bb88f",
+              "url": "https://prehraj.to/my-brilliant-career-s01e06-cz-dabing-mkv/8eb492064f8bb88f",
+              "title": "My Brilliant Career S01E06 CZ Dabing.mkv",
+              "year": null,
+              "duration_sec": 2388,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b064066256b0428d",
+              "url": "https://prehraj.to/my-brilliant-career-s01e05-jedna-velka-vasen-1080p-cz-mkv/b064066256b0428d",
+              "title": "My Brilliant Career.S01E05.Jedna Velká Vášeň.1080p CZ.mkv",
+              "year": null,
+              "duration_sec": 2935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62d619f8b531e33e",
+              "url": "https://prehraj.to/my-brilliant-career-s01e06-pa-pa-1080p-cz-mkv/62d619f8b531e33e",
+              "title": "My Brilliant Career.S01E06.Pá Pá.1080p CZ.mkv",
+              "year": null,
+              "duration_sec": 2388,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e46dcaeae3b4bd2b",
+              "url": "https://prehraj.to/my-brilliant-career-s01e01-cz-titulky/e46dcaeae3b4bd2b",
+              "title": "My Brilliant Career S01E01 CZ_titulky",
+              "year": null,
+              "duration_sec": 2921,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4d41d1d04fe69028",
+              "url": "https://prehraj.to/my-brilliant-career-s01e05-cz-dab-one-grand-passion/4d41d1d04fe69028",
+              "title": "My Brilliant Career s01e05 CZ dab- One Grand Passion..",
+              "year": null,
+              "duration_sec": 2935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "524f2fd35c139914",
+              "url": "https://prehraj.to/my-brilliant-career-s01e02-cz-dab-he/524f2fd35c139914",
+              "title": "My Brilliant Career s01e02 CZ dab- He..",
+              "year": null,
+              "duration_sec": 2874,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e5b8cf419a23b620",
+              "url": "https://prehraj.to/my-brilliant-career-s01e03-hyje-1080p-cz-mkv/e5b8cf419a23b620",
+              "title": "My Brilliant Career.S01E03.Hyjé.1080p CZ.mkv",
+              "year": null,
+              "duration_sec": 2844,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "634cc9a69948f953",
+              "url": "https://prehraj.to/my-brilliant-career-s01e06-cztitulky/634cc9a69948f953",
+              "title": "My Brilliant Career S01E06 CZtitulky",
+              "year": null,
+              "duration_sec": 2389,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "73bd533266dc4c07",
+              "url": "https://prehraj.to/my-brilliant-career-s01e05-cz-dabing-mkv/73bd533266dc4c07",
+              "title": "My Brilliant Career S01E05 CZ Dabing.mkv",
+              "year": null,
+              "duration_sec": 2935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2d94f9ba61868777",
+              "url": "https://prehraj.to/my-brilliant-career-s01e04-cztitulky/2d94f9ba61868777",
+              "title": "My Brilliant Career S01E04 CZtitulky",
+              "year": null,
+              "duration_sec": 2722,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0795a5b0c7fd448a",
+              "url": "https://prehraj.to/my-brilliant-career-s01e01-cztitulky/0795a5b0c7fd448a",
+              "title": "My Brilliant Career S01E01 CZtitulky",
+              "year": null,
+              "duration_sec": 2921,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "44c9605c41a74e6f",
+              "url": "https://prehraj.to/my-brilliant-career-s01e01-cz-dab-revolt/44c9605c41a74e6f",
+              "title": "My Brilliant Career s01e01 CZ dab- Revolt..",
+              "year": null,
+              "duration_sec": 2921,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "28486549eb7ad032",
+              "url": "https://prehraj.to/my-brilliant-career-s01e03-cz-dabing-mkv/28486549eb7ad032",
+              "title": "My Brilliant Career S01E03 CZ Dabing.mkv",
+              "year": null,
+              "duration_sec": 2844,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b563805db3e",
+              "url": "https://prehraj.to/his-musical-career-1914/68b563805db3e",
+              "title": "His Musical Career (1914)",
+              "year": null,
+              "duration_sec": 696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1938,
+                "candidate_year": 1914,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62ee14671b9ec",
+              "url": "https://prehraj.to/carter-2022-1080p-nf-web-dl-dual-ddp5-1-atmos-h-264-smurf/62ee14671b9ec",
+              "title": "Carter.2022.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-SMURF",
+              "year": null,
+              "duration_sec": 8052,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1938,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e8f923fd1294d366",
+              "url": "https://prehraj.to/my-brilliant-career-s01e05-cztitulky/e8f923fd1294d366",
+              "title": "My Brilliant Career S01E05 CZtitulky",
+              "year": null,
+              "duration_sec": 2935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9ce5addf36ad5d06",
+              "url": "https://prehraj.to/my-brilliant-career-s01e03-cztitulky/9ce5addf36ad5d06",
+              "title": "My Brilliant Career S01E03 CZtitulky",
+              "year": null,
+              "duration_sec": 2844,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3d63b5bd30415966",
+              "url": "https://prehraj.to/my-brilliant-career-s01e02-cztitulky/3d63b5bd30415966",
+              "title": "My Brilliant Career S01E02 CZtitulky",
+              "year": null,
+              "duration_sec": 2873,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62ed57f45c499",
+              "url": "https://prehraj.to/carter-2022-cz-sub-1080p/62ed57f45c499",
+              "title": "Carter.2022 cz sub 1080p",
+              "year": null,
+              "duration_sec": 8052,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1938,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8e77845d8a9abb2b",
+              "url": "https://prehraj.to/carter-s2e10-harley-takes-a-bow-cs/8e77845d8a9abb2b",
+              "title": "Carter - S2E10 Harley Takes a Bow CS",
+              "year": null,
+              "duration_sec": 2379,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b22e5eda3e433928",
+              "url": "https://prehraj.to/carter-s2e7-harley-wanted-to-say-bonspiel-cs/b22e5eda3e433928",
+              "title": "Carter - S2E7 Harley Wanted to Say Bonspiel CS",
+              "year": null,
+              "duration_sec": 2277,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Career (1938)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:41:39.888058+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "karriar",
+        "title": "Karriär",
+        "original_title": "Career",
+        "year": 1938,
+        "runtime_min": 106,
+        "tmdb_id": 104420,
+        "imdb_id": "tt0030311",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:41:37.536593+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:41:36.001206+00:00"
+  "updated_at": "2026-08-28T07:41:39.888078+00:00"
 }
