@@ -64170,6 +64170,76 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:13:33.725212+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588eb12f77105",
+              "url": "https://prehraj.to/mlhy-na-blatech-1943-cz/588eb12f77105",
+              "title": "Mlhy-na-blatech-1943,-CZ",
+              "year": null,
+              "duration_sec": 5269,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.042,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5820858acd236",
+              "url": "https://prehraj.to/1943-mlhy-na-blatech/5820858acd236",
+              "title": "1943---Mlhy-na-blatech",
+              "year": null,
+              "duration_sec": 5269,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.042,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69aacffb36305fa0",
+              "url": "https://prehraj.to/krvava-leta-96-dil-nacisticka-bojova-skupina-der-fuehrer-v-kvetnu-1945-zavrazdila-desitky-civilistu-a-povstalcu/69aacffb36305fa0",
+              "title": "Krvavá léta - 96. díl - Nacistická bojová skupina Der…",
+              "year": null,
+              "duration_sec": 353,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.863,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Nacistický úder (1943)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:50:36.850860+00:00"
         }
       ],
       "identity": {
@@ -64188,7 +64258,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:13:32.967203+00:00"
+        "at": "2026-08-28T03:50:29.255212+00:00"
       }
     },
     "24271": {
@@ -78666,5 +78736,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:50:25.633033+00:00"
+  "updated_at": "2026-08-28T03:50:36.850880+00:00"
 }
