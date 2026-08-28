@@ -18949,7 +18949,111 @@
         },
         "at": "2026-08-28T06:34:32.592617+00:00"
       }
+    },
+    "28155": {
+      "attempts": [],
+      "identity": {
+        "slug": "vrazda-prezidenta-lincolna",
+        "title": "Vražda prezidenta Lincolna",
+        "original_title": "Killing Lincoln",
+        "year": 2013,
+        "runtime_min": 89,
+        "tmdb_id": 170039,
+        "imdb_id": "tt2299248",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25378164",
+          "account_name": "Lincoln (2012) CZ",
+          "title_similarity": 0.519,
+          "title_contains_alias": false,
+          "film_year": 2013,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 89,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T06:34:35.021382+00:00"
+      }
+    },
+    "28107": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583f3a73573c7",
+              "url": "https://prehraj.to/george-harrison-living-in-the-material-world-2011-cast-1/583f3a73573c7",
+              "title": "George-Harrison--Living-in-the-Material-World-2011-Cast-1",
+              "year": null,
+              "duration_sec": 5664,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.573,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583f373e4d69c",
+              "url": "https://prehraj.to/george-harrison-living-in-the-material-world-2011-cast-2/583f373e4d69c",
+              "title": "George-Harrison--Living-in-the-Material-World-2011-Cast-2",
+              "year": null,
+              "duration_sec": 6857,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.905,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:34:36.015137+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "king-george-vi-the-man-behind-the-king-s-speech",
+        "title": "King George VI: The Man Behind the King's Speech",
+        "original_title": null,
+        "year": 2011,
+        "runtime_min": 60,
+        "tmdb_id": 134683,
+        "imdb_id": "tt2234554",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:34:35.021437+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:34:33.782724+00:00"
+  "updated_at": "2026-08-28T06:34:36.015156+00:00"
 }
