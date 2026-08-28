@@ -30819,7 +30819,67 @@
         },
         "at": "2026-08-28T06:58:14.473465+00:00"
       }
+    },
+    "22915": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587f5fca6ca46",
+              "url": "https://prehraj.to/usmev-diabla-1987-sk/587f5fca6ca46",
+              "title": "Usmev-diabla-1987-SK",
+              "year": null,
+              "duration_sec": 5586,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.372,
+                "title_contains_alias": false,
+                "film_year": 1987,
+                "candidate_year": 1987,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5586,
+                "runtime_delta": 0.058,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:58:32.635099+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "przyjaciel-wesoego-diaba",
+        "title": "Przyjaciel wesołego diabła",
+        "original_title": "Friend of the Jolly Devil",
+        "year": 1987,
+        "runtime_min": 88,
+        "tmdb_id": 68802,
+        "imdb_id": "tt0093798",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:58:27.043933+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:58:23.748074+00:00"
+  "updated_at": "2026-08-28T06:58:32.635119+00:00"
 }
