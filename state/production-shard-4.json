@@ -23053,7 +23053,121 @@
         },
         "at": "2026-08-28T02:47:31.427156+00:00"
       }
+    },
+    "24588": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5cd2dd485fabe",
+              "url": "https://prehraj.to/varianova-valka-valecny-cz-dab-2000-jad/5cd2dd485fabe",
+              "title": "Varianova válka-válečny-cz dab.-2000-jad",
+              "year": null,
+              "duration_sec": 6942,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.189,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6942,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5af5a626a9899",
+              "url": "https://prehraj.to/cela-1-horor-cz-dab-2000-jad/5af5a626a9899",
+              "title": "Cela  1-horor-cz dab.2000-jad",
+              "year": null,
+              "duration_sec": 6281,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6281,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2575441209b",
+              "url": "https://prehraj.to/v-prave-poledne-western-nova-verze-cz-dab-2000-jad/5f2575441209b",
+              "title": "V pravé poledne- western nová verze-cz dab.-2000-jad",
+              "year": null,
+              "duration_sec": 5325,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5325,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:47:34.686556+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "tera-jadoo-chal-gayaa",
+        "title": "Tera Jadoo Chal Gayaa",
+        "original_title": null,
+        "year": 2000,
+        "runtime_min": null,
+        "tmdb_id": 277700,
+        "imdb_id": "tt0250774",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:47:33.726708+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:47:32.453566+00:00"
+  "updated_at": "2026-08-28T02:47:34.686578+00:00"
 }
