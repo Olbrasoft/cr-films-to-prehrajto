@@ -18791,7 +18791,692 @@
         },
         "at": "2026-08-28T07:17:16.731317+00:00"
       }
+    },
+    "28861": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ffcc5b126d2c",
+              "url": "https://prehraj.to/nase-deti-2014-skdab/5ffcc5b126d2c",
+              "title": "Naše děti (2014) SKdab",
+              "year": null,
+              "duration_sec": 5149,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5149,
+                "runtime_delta": 0.046,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5af47b4c1069e",
+              "url": "https://prehraj.to/the-dinner-2017-brrip-dd2-0-x264-cz-kendy69/5af47b4c1069e",
+              "title": "The.Dinner.2017.BRRip.DD2.0.x264.CZ-Kendy69",
+              "year": null,
+              "duration_sec": 7226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c54050a35636",
+              "url": "https://prehraj.to/the-dinner/5c54050a35636",
+              "title": "The Dinner -",
+              "year": null,
+              "duration_sec": 6926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6926,
+                "runtime_delta": 0.283,
+                "rejection_reason": "title_only"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5be4b3ecbf39e",
+              "url": "https://prehraj.to/the-dinner-2-cz-dabing-h2o/5be4b3ecbf39e",
+              "title": "The Dinner 2 CZ DABING,H2O",
+              "year": null,
+              "duration_sec": 7226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 7226,
+                "runtime_delta": 0.338,
+                "rejection_reason": "title_only"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b7e81790ff0bb637",
+              "url": "https://prehraj.to/the-dinner-party-2020-cz-titulky/b7e81790ff0bb637",
+              "title": "The Dinner Party (2020) CZ Titulky",
+              "year": null,
+              "duration_sec": 6909,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64539cee6f316",
+              "url": "https://prehraj.to/the-dinner-party-2020-sk-titulky-1080p/64539cee6f316",
+              "title": "The Dinner Party 2020 SK titulky 1080p",
+              "year": null,
+              "duration_sec": 6909,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6455b450e229f",
+              "url": "https://prehraj.to/the-dinner-party-2020-sktitulky/6455b450e229f",
+              "title": "The Dinner Party (2020) SKtitulky",
+              "year": null,
+              "duration_sec": 6909,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6905db37100d2",
+              "url": "https://prehraj.to/the-dinner-party-2020-720p-bluray-yts-mx-cz-tit/6905db37100d2",
+              "title": "The Dinner Party (2020) [720p] [BluRay] [YTS.MX]-cz tit",
+              "year": null,
+              "duration_sec": 6909,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6889c20805377",
+              "url": "https://prehraj.to/the-dinner-party-2020-tit/6889c20805377",
+              "title": "The.Dinner.Party.2020.-tit",
+              "year": null,
+              "duration_sec": 6909,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a79ca779f09b",
+              "url": "https://prehraj.to/osudova-vecere-the-dinner-2017-cz-dab/5a79ca779f09b",
+              "title": "Osudová večeře-The Dinner-2017-cz.dab",
+              "year": null,
+              "duration_sec": 7225,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "684ffabaec454",
+              "url": "https://prehraj.to/osudova-vecere-the-dinner-2017-1080p-cz/684ffabaec454",
+              "title": "Osudova.vecere-The.Dinner(2017).1080p.CZ.",
+              "year": null,
+              "duration_sec": 7226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6856590403495",
+              "url": "https://prehraj.to/horror-mkv-the-dinner-party-2020-720p-bluray-yts-mx-cz-tit/6856590403495",
+              "title": "Horror MKV-The Dinner Party (2020) [720p] [BluRay] [YTS.MX]…",
+              "year": null,
+              "duration_sec": 6909,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1b272ee28525211e",
+              "url": "https://prehraj.to/mafs-after-the-dinner-party-s01e01/1b272ee28525211e",
+              "title": "MAFS After The Dinner Party S01E01",
+              "year": null,
+              "duration_sec": 2582,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5369150c546ae9f1",
+              "url": "https://prehraj.to/death-at-the-dinner-party-2026-nordic-720p-webrip-x264-aac-yts-gg-yts-bz/5369150c546ae9f1",
+              "title": "Death.At.The.Dinner.Party.2026.NORDIC.720p.WEBRip.x264.AAC-…",
+              "year": null,
+              "duration_sec": 5018,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c1661b46cf20206f",
+              "url": "https://prehraj.to/death-at-the-dinner-party-2026-1080p/c1661b46cf20206f",
+              "title": "Death At The Dinner Party (2026) 1080p",
+              "year": null,
+              "duration_sec": 5018,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "47c6d12baf73d040",
+              "url": "https://prehraj.to/mafs-after-the-dinner-party-s01e07/47c6d12baf73d040",
+              "title": "MAFS After The Dinner Party S01E07",
+              "year": null,
+              "duration_sec": 3279,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "02ab1a4adf78386d",
+              "url": "https://prehraj.to/death-at-the-dinner-party-2026-720p/02ab1a4adf78386d",
+              "title": "Death At The Dinner Party (2026) 720p",
+              "year": null,
+              "duration_sec": 5018,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2026,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea2fd6162bd",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e07-cztitulky/64ea2fd6162bd",
+              "title": "The Director Who Buys Me Dinner S01E07 CZtitulky",
+              "year": null,
+              "duration_sec": 1051,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea2f3d03309",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e05-cztitulky/64ea2f3d03309",
+              "title": "The Director Who Buys Me Dinner S01E05 CZtitulky",
+              "year": null,
+              "duration_sec": 867,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea2e56605ec",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e02-cztitulky/64ea2e56605ec",
+              "title": "The Director Who Buys Me Dinner S01E02 CZtitulky",
+              "year": null,
+              "duration_sec": 1016,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea2e1bc4c45",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e01-cztitulky/64ea2e1bc4c45",
+              "title": "The Director Who Buys Me Dinner S01E01 CZtitulky",
+              "year": null,
+              "duration_sec": 842,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "480c3286c0634d1e",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s1e5-ko/480c3286c0634d1e",
+              "title": "The Director Who Buys Me Dinner - S1E5 KO",
+              "year": null,
+              "duration_sec": 866,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "534bc08e55a069b5",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s1e10-ko/534bc08e55a069b5",
+              "title": "The Director Who Buys Me Dinner - S1E10 KO",
+              "year": null,
+              "duration_sec": 984,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c49858b76521",
+              "url": "https://prehraj.to/blbec-k-veceri-the-dinner-game/5c49858b76521",
+              "title": "Blbec k večeři - The Dinner Game",
+              "year": null,
+              "duration_sec": 4600,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 4600,
+                "runtime_delta": 0.148,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea2eeb07c8b",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e04-cztitulky/64ea2eeb07c8b",
+              "title": "The Director Who Buys Me Dinner S01E04 CZtitulky",
+              "year": null,
+              "duration_sec": 1042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea2e9db637a",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e03-cztitulky/64ea2e9db637a",
+              "title": "The Director Who Buys Me Dinner S01E03 CZtitulky",
+              "year": null,
+              "duration_sec": 1007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea30b7ada28",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e10-cztitulky/64ea30b7ada28",
+              "title": "The Director Who Buys Me Dinner S01E10 CZtitulky",
+              "year": null,
+              "duration_sec": 985,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3c4e44ab674f3c36",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s1e4-ko/3c4e44ab674f3c36",
+              "title": "The Director Who Buys Me Dinner - S1E4 KO",
+              "year": null,
+              "duration_sec": 1042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea302a78d9c",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e08-cztitulky/64ea302a78d9c",
+              "title": "The Director Who Buys Me Dinner S01E08 CZtitulky",
+              "year": null,
+              "duration_sec": 989,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea2f7ce7a61",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e06-cztitulky/64ea2f7ce7a61",
+              "title": "The Director Who Buys Me Dinner S01E06 CZtitulky",
+              "year": null,
+              "duration_sec": 1187,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ea307537c85",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s01e09-cztitulky/64ea307537c85",
+              "title": "The Director Who Buys Me Dinner S01E09 CZtitulky",
+              "year": null,
+              "duration_sec": 965,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "caf5941f2ec7ddf1",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s1e7-ko/caf5941f2ec7ddf1",
+              "title": "The Director Who Buys Me Dinner - S1E7 KO",
+              "year": null,
+              "duration_sec": 1051,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e43d58983023e3ea",
+              "url": "https://prehraj.to/the-director-who-buys-me-dinner-s1e3-ko/e43d58983023e3ea",
+              "title": "The Director Who Buys Me Dinner - S1E3 KO",
+              "year": null,
+              "duration_sec": 1007,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Dinner (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:17:31.249191+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "i-nostri-ragazzi",
+        "title": "I nostri ragazzi",
+        "original_title": "The Dinner",
+        "year": 2014,
+        "runtime_min": 90,
+        "tmdb_id": 286301,
+        "imdb_id": "tt3561348",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:17:28.297236+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:17:24.113770+00:00"
+  "updated_at": "2026-08-28T07:17:31.249208+00:00"
 }
