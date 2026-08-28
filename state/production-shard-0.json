@@ -58392,6 +58392,152 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:32:55.649248+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bee30236256",
+              "url": "https://prehraj.to/crash-2004-czdab/55bee30236256",
+              "title": "Crash (2004)CZdab",
+              "year": null,
+              "duration_sec": 6467,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.318,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 6467,
+                "runtime_delta": 0.123,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c7c063912429",
+              "url": "https://prehraj.to/crash-2004-1080p-cz/5c7c063912429",
+              "title": "Crash(2004).1080p.CZ",
+              "year": null,
+              "duration_sec": 6742,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.368,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 6742,
+                "runtime_delta": 0.17,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57c4605196898",
+              "url": "https://prehraj.to/crash-2004-czdab/57c4605196898",
+              "title": "Crash (2004)CZdab",
+              "year": null,
+              "duration_sec": 6467,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.318,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 6467,
+                "runtime_delta": 0.123,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58e13a82b5c5e",
+              "url": "https://prehraj.to/crash-2004-cz/58e13a82b5c5e",
+              "title": "Crash 2004 cz",
+              "year": null,
+              "duration_sec": 6452,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.368,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 6452,
+                "runtime_delta": 0.12,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65ca83ea637ba",
+              "url": "https://prehraj.to/crash-2004-cz/65ca83ea637ba",
+              "title": "Crash (2004) CZ",
+              "year": null,
+              "duration_sec": 6742,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.368,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 6742,
+                "runtime_delta": 0.17,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:15:47.786485+00:00"
         }
       ],
       "identity": {
@@ -58410,7 +58556,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:32:55.139114+00:00"
+        "at": "2026-08-28T11:15:46.872997+00:00"
       }
     },
     "24666": {
@@ -70215,5 +70361,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:15:45.358660+00:00"
+  "updated_at": "2026-08-28T11:15:47.786500+00:00"
 }
