@@ -35057,6 +35057,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T22:35:37.735066+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "627dade2bce82",
+              "url": "https://prehraj.to/the-northman-2022-720p-web-h264-slot/627dade2bce82",
+              "title": "the.northman.2022.720p.web.h264-slot",
+              "year": null,
+              "duration_sec": 8226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.226,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 116,
+                "candidate_runtime_sec": 8226,
+                "runtime_delta": 0.182,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62a4ff1aa6c5b",
+              "url": "https://prehraj.to/downton-abbey-a-new-era-2022-1080p-web-h264-slot/62a4ff1aa6c5b",
+              "title": "downton.abbey.a.new.era.2022.1080p.web.h264-slot",
+              "year": null,
+              "duration_sec": 7496,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 116,
+                "candidate_runtime_sec": 7496,
+                "runtime_delta": 0.077,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "627edf91f1d10",
+              "url": "https://prehraj.to/the-northman-2022-tit-cz-720p-web-h264-slot/627edf91f1d10",
+              "title": "The.Northman.2022.Tit CZ 720p.WEB.H264-SLOT",
+              "year": null,
+              "duration_sec": 8226,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.211,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 116,
+                "candidate_runtime_sec": 8226,
+                "runtime_delta": 0.182,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6280b5fede599",
+              "url": "https://prehraj.to/the-northman-2022-tit-cz-720p-web-h264-slot/6280b5fede599",
+              "title": "The Northman 2022 Tit CZ 720p WEB H264-SLOT",
+              "year": null,
+              "duration_sec": 8218,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.211,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 116,
+                "candidate_runtime_sec": 8218,
+                "runtime_delta": 0.181,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:09:11.100163+00:00"
         }
       ],
       "identity": {
@@ -35075,7 +35194,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T22:35:36.762838+00:00"
+        "at": "2026-08-28T11:09:10.125876+00:00"
       }
     },
     "28126": {
@@ -64165,5 +64284,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:09:08.665808+00:00"
+  "updated_at": "2026-08-28T11:09:11.100188+00:00"
 }
