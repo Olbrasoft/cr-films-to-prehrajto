@@ -29224,7 +29224,726 @@
         },
         "at": "2026-08-28T07:26:24.252574+00:00"
       }
+    },
+    "23682": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5eef49c0917b7",
+              "url": "https://prehraj.to/konec-velkych-prazdnin-03-dil-cz-serial-1996-jad/5eef49c0917b7",
+              "title": "Konec velkých prázdnin 03.díl-cz seriál-1996-jad",
+              "year": null,
+              "duration_sec": 3601,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1996,
+                "candidate_year": 1996,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 3601,
+                "runtime_delta": 0.333,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5eef4a6d5d298",
+              "url": "https://prehraj.to/konec-velkych-prazdnin-04-dil-cz-serial-1996-jad/5eef4a6d5d298",
+              "title": "Konec velkých prázdnin 04.díl-cz seriál-1996-jad",
+              "year": null,
+              "duration_sec": 3600,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1996,
+                "candidate_year": 1996,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 3600,
+                "runtime_delta": 0.333,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5eef4c1eadb09",
+              "url": "https://prehraj.to/konec-velkych-prazdnin-06-dil-cz-serial-1996-jad/5eef4c1eadb09",
+              "title": "Konec velkých prázdnin 06.díl-cz seriál-1996-jad",
+              "year": null,
+              "duration_sec": 5185,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1996,
+                "candidate_year": 1996,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5185,
+                "runtime_delta": 0.04,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ef84e1384f3a",
+              "url": "https://prehraj.to/konec-velkych-prazdnin-06-dil-cz-serial-1996-jad/5ef84e1384f3a",
+              "title": "Konec velkých prázdnin 06.díl-cz seriál-1996-jad",
+              "year": null,
+              "duration_sec": 5185,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1996,
+                "candidate_year": 1996,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5185,
+                "runtime_delta": 0.04,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685bee90aa89f",
+              "url": "https://prehraj.to/countdown-s01e01-cz-dabing-1080p/685bee90aa89f",
+              "title": "Countdown S01E01 CZ Dabing 1080p",
+              "year": null,
+              "duration_sec": 3201,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685beee06c4b5",
+              "url": "https://prehraj.to/countdown-s01e03-cz-dabing-1080p/685beee06c4b5",
+              "title": "Countdown S01E03 CZ Dabing 1080p",
+              "year": null,
+              "duration_sec": 2702,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6865071ca7a9b",
+              "url": "https://prehraj.to/countdown-s01e04-cz-dabing-1080p/6865071ca7a9b",
+              "title": "Countdown S01E04 CZ Dabing 1080p",
+              "year": null,
+              "duration_sec": 2711,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686e68c4ca7d0",
+              "url": "https://prehraj.to/countdown-s01e05-cz-dabing-1080p/686e68c4ca7d0",
+              "title": "Countdown S01E05 CZ Dabing 1080p",
+              "year": null,
+              "duration_sec": 3218,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685ec84a5a3b6",
+              "url": "https://prehraj.to/countdown-2025-s01e01-1080p-web-h264/685ec84a5a3b6",
+              "title": "countdown.2025.s01e01.1080p.web.h264",
+              "year": null,
+              "duration_sec": 3202,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685eca2a32048",
+              "url": "https://prehraj.to/countdown-2025-s01e02-1080p-web-h264/685eca2a32048",
+              "title": "countdown.2025.s01e02.1080p.web.h264",
+              "year": null,
+              "duration_sec": 3005,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "689c9a3d86b70",
+              "url": "https://prehraj.to/countdown-s01e10-cz-dabing/689c9a3d86b70",
+              "title": "Countdown S01E10 CZ Dabing",
+              "year": null,
+              "duration_sec": 2913,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68afd9bab4f80",
+              "url": "https://prehraj.to/countdown-2025-s01e12-cz/68afd9bab4f80",
+              "title": "Countdown.2025.S01E12 CZ",
+              "year": null,
+              "duration_sec": 2810,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68790b6648c39",
+              "url": "https://prehraj.to/countdown-s01e06-dual-cz-gb-jehla-nebo-kulka/68790b6648c39",
+              "title": "Countdown S01E06 Dual(CZ-GB) Jehla nebo kulka",
+              "year": null,
+              "duration_sec": 2706,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68662e458a4e7",
+              "url": "https://prehraj.to/countdown-2025-s01e04-bite-em-down-1080p-web-dl-ddp5-1-h-264-cz-tit/68662e458a4e7",
+              "title": "Countdown.2025.S01E04.Bite.Em.Down.1080p.WEB-DL.DDP5.1.H…",
+              "year": null,
+              "duration_sec": 2711,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688a34ef32031",
+              "url": "https://prehraj.to/countdown-s01e08-dual-cz-gb-hrebik-v-zidli/688a34ef32031",
+              "title": "Countdown S01E08 Dual(CZ-GB)- Hřebík v židli",
+              "year": null,
+              "duration_sec": 2724,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688b06a69c079",
+              "url": "https://prehraj.to/countdown-2025-s01e02-1080p-cz/688b06a69c079",
+              "title": "Countdown.2025.S01E02.1080p CZ",
+              "year": null,
+              "duration_sec": 3005,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688b0713c98a4",
+              "url": "https://prehraj.to/countdown-2025-s01e06-1080p-cz/688b0713c98a4",
+              "title": "Countdown.2025.S01E06.1080p CZ",
+              "year": null,
+              "duration_sec": 2706,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688b072a5b83d",
+              "url": "https://prehraj.to/countdown-2025-s01e07-1080p-cz/688b072a5b83d",
+              "title": "Countdown.2025.S01E07.1080p CZ",
+              "year": null,
+              "duration_sec": 2708,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688b07417d874",
+              "url": "https://prehraj.to/countdown-2025-s01e08-1080p-cz/688b07417d874",
+              "title": "Countdown.2025.S01E08.1080p CZ",
+              "year": null,
+              "duration_sec": 2724,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685bb84c2cec9",
+              "url": "https://prehraj.to/countdown-2025-s01e01-teeth-in-the-bone-1080p-web-dl-ddp5-1-h-264-cz-tit/685bb84c2cec9",
+              "title": "Countdown.2025.S01E01.Teeth.in.the.Bone.1080p.WEB-DL.DDP5.1…",
+              "year": null,
+              "duration_sec": 3202,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685bb87dc5088",
+              "url": "https://prehraj.to/countdown-2025-s01e03-happy-birthday-final-1080p-web-dl-ddp5-1-h-264-cz-tit/685bb87dc5088",
+              "title": "Countdown.2025.S01E03.Happy.Birthday.Final.1080p.WEB-DL…",
+              "year": null,
+              "duration_sec": 2702,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6897cd17f1de5",
+              "url": "https://prehraj.to/countdown-2025-s01e09-cz/6897cd17f1de5",
+              "title": "Countdown 2025 S01E09 CZ",
+              "year": null,
+              "duration_sec": 2703,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685ed6284136d",
+              "url": "https://prehraj.to/countdown-s01e01-dual-cz-gb-zuby-nehty/685ed6284136d",
+              "title": "Countdown S01E01 Dual(CZ-GB) Zuby Nehty",
+              "year": null,
+              "duration_sec": 3201,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685eddecd116f",
+              "url": "https://prehraj.to/countdown-s01e03-dual-cz-gb-vsechno-nejlepsi/685eddecd116f",
+              "title": "Countdown S01E03 Dual(CZ-GB) Všechno Nejlepší",
+              "year": null,
+              "duration_sec": 2702,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68653e8c2ec36",
+              "url": "https://prehraj.to/countdown-s01e04-dual-cz-gb-zakousni-se-a-nepoustej/68653e8c2ec36",
+              "title": "Countdown S01E04 Dual(CZ-GB) Zakousni se a nepouštěj",
+              "year": null,
+              "duration_sec": 2712,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688a126142e46",
+              "url": "https://prehraj.to/countdown-s01e08-cz-dabing/688a126142e46",
+              "title": "Countdown S01E08 CZ Dabing",
+              "year": null,
+              "duration_sec": 2725,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68931c8e1edac",
+              "url": "https://prehraj.to/countdown-s01e09-cz-dabing/68931c8e1edac",
+              "title": "Countdown S01E09 CZ Dabing",
+              "year": null,
+              "duration_sec": 2703,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68777dea5d56c",
+              "url": "https://prehraj.to/countdown-s01e06-cz-dabing/68777dea5d56c",
+              "title": "Countdown S01E06 CZ Dabing",
+              "year": null,
+              "duration_sec": 2706,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b82a9e2d3d2",
+              "url": "https://prehraj.to/countdown-s01e13-cz-dabing/68b82a9e2d3d2",
+              "title": "Countdown S01E13 CZ Dabing",
+              "year": null,
+              "duration_sec": 2708,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6897b011bc335",
+              "url": "https://prehraj.to/countdown-s01e09-volani-o-pomoc/6897b011bc335",
+              "title": "Countdown S01E09 Volání o pomoc",
+              "year": null,
+              "duration_sec": 2703,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6890edbf17def",
+              "url": "https://prehraj.to/countdown-s01e07-czdabing/6890edbf17def",
+              "title": "Countdown S01E07 CZdabing",
+              "year": null,
+              "duration_sec": 2708,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6897aff5dae05",
+              "url": "https://prehraj.to/countdown-s01e09-czdabing/6897aff5dae05",
+              "title": "Countdown S01E09 CZdabing",
+              "year": null,
+              "duration_sec": 2703,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a61e43064f5",
+              "url": "https://prehraj.to/countdown-2025-s01e11/68a61e43064f5",
+              "title": "Countdown 2025 S01E11",
+              "year": null,
+              "duration_sec": 2825,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686960601e7d0",
+              "url": "https://prehraj.to/countdown-2025-s01e04-720p-hevc-x265-megusta/686960601e7d0",
+              "title": "Countdown 2025.S01E04.720p.HEVC.x265-MeGusta",
+              "year": null,
+              "duration_sec": 2712,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686fff799bd05",
+              "url": "https://prehraj.to/countdown-2025-s01e05/686fff799bd05",
+              "title": "Countdown 2025 S01E05",
+              "year": null,
+              "duration_sec": 3219,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Countdown (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "03c20fb4b0de78b1",
+              "url": "https://prehraj.to/countdown-2004-cs/03c20fb4b0de78b1",
+              "title": "Countdown - 2004 CS",
+              "year": null,
+              "duration_sec": 6347,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1996,
+                "candidate_year": 2004,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Countdown (1996)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:26:39.631052+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "okamzik-vybuchu",
+        "title": "Okamžik výbuchu",
+        "original_title": "Countdown",
+        "year": 1996,
+        "runtime_min": 90,
+        "tmdb_id": 136996,
+        "imdb_id": "tt0115953",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:26:35.042073+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:26:31.191186+00:00"
+  "updated_at": "2026-08-28T07:26:39.631074+00:00"
 }
