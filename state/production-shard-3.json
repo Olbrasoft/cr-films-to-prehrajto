@@ -15630,7 +15630,467 @@
         },
         "at": "2026-08-28T06:33:05.322155+00:00"
       }
+    },
+    "29467": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac01a6774c84",
+              "url": "https://prehraj.to/one-day-2016/5ac01a6774c84",
+              "title": "One Day (2016)",
+              "year": null,
+              "duration_sec": 7794,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 8.992,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65072195adc4e",
+              "url": "https://prehraj.to/anime-time-one-piece-0129-it-all-started-on-that-day-vivi-tells-the-story-of-her-adventure/65072195adc4e",
+              "title": "[Anime Time] One Piece - 0129 - It All Started On That Day!…",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.846,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6507299106583",
+              "url": "https://prehraj.to/anime-time-one-piece-0405-eliminated-friends-the-final-day-of-the-straw-hat-crew/6507299106583",
+              "title": "[Anime Time] One Piece - 0405 - Eliminated Friends – The…",
+              "year": null,
+              "duration_sec": 1435,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.84,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24939be6b24",
+              "url": "https://prehraj.to/days-gone-80-that-s-his-mistake-4k-no-commentary/5f24939be6b24",
+              "title": "Days Gone - #80 - That's His Mistake - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 449,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.3,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 449,
+                "runtime_delta": 0.424,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f248730c40bf",
+              "url": "https://prehraj.to/days-gone-108-that-never-gets-old-4k-no-commentary/5f248730c40bf",
+              "title": "Days Gone - #108 - That Never Gets Old - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 437,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.355,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 437,
+                "runtime_delta": 0.44,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24b78ecbc7e",
+              "url": "https://prehraj.to/days-gone-147-i-tried-to-hit-that-once-4k-no-commentary/5f24b78ecbc7e",
+              "title": "Days Gone - #147 - I Tried To Hit That Once - 4K - No…",
+              "year": null,
+              "duration_sec": 784,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.321,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 784,
+                "runtime_delta": 0.005,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f249bd6d31fc",
+              "url": "https://prehraj.to/days-gone-107-now-that-s-an-idea-4k-no-commentary/5f249bd6d31fc",
+              "title": "Days Gone - #107 - Now That's An Idea - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 583,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.262,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 583,
+                "runtime_delta": 0.253,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f249b2183c32",
+              "url": "https://prehraj.to/days-gone-66-that-s-when-i-knew-4k-no-commentary/5f249b2183c32",
+              "title": "Days Gone - #66 - That's When I Knew - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 350,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.551,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f249a1da79e1",
+              "url": "https://prehraj.to/days-gone-110-i-m-good-with-that-4k-no-commentary/5f249a1da79e1",
+              "title": "Days Gone - #110 - I'm Good With That - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 496,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.262,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 496,
+                "runtime_delta": 0.364,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2495f66968b",
+              "url": "https://prehraj.to/days-gone-64-it-couldn-t-be-that-easy-4k-no-commentary/5f2495f66968b",
+              "title": "Days Gone - #64 - It Couldn't Be That Easy - 4K - No…",
+              "year": null,
+              "duration_sec": 488,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.291,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 488,
+                "runtime_delta": 0.374,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f249d8a5e8ee",
+              "url": "https://prehraj.to/days-gone-135-leave-all-that-by-the-door-4k-no-commentary/5f249d8a5e8ee",
+              "title": "Days Gone - #135 - Leave All That By The Door - 4K - No…",
+              "year": null,
+              "duration_sec": 975,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 975,
+                "runtime_delta": 0.25,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24ac21d0a0c",
+              "url": "https://prehraj.to/days-gone-37-what-have-they-done-4k-no-commentary/5f24ac21d0a0c",
+              "title": "Days Gone - #37 - What Have They Done - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 1523,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.953,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24ba8b68d55",
+              "url": "https://prehraj.to/days-gone-160-what-kept-me-going-4k-no-commentary/5f24ba8b68d55",
+              "title": "Days Gone - #160 - What Kept Me Going - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.262,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 574,
+                "runtime_delta": 0.264,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24d667050b8",
+              "url": "https://prehraj.to/days-gone-18-what-did-you-do-4k-no-commentary/5f24d667050b8",
+              "title": "Days Gone - #18 - What Did You Do - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 1328,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.703,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24cebaa2e5c",
+              "url": "https://prehraj.to/days-gone-20-what-s-a-nice-girl-4k-no-commentary/5f24cebaa2e5c",
+              "title": "Days Gone - #20 - What's A Nice Girl - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 811,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 811,
+                "runtime_delta": 0.04,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24b6f2a52b6",
+              "url": "https://prehraj.to/days-gone-154-take-back-what-s-mine-4k-no-commentary/5f24b6f2a52b6",
+              "title": "Days Gone - #154 - Take Back What's Mine - 4K - No…",
+              "year": null,
+              "duration_sec": 1040,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.264,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 1040,
+                "runtime_delta": 0.333,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2495f2c8ddf",
+              "url": "https://prehraj.to/days-gone-57-you-see-what-they-did-4k-no-commentary/5f2495f2c8ddf",
+              "title": "Days Gone - #57 - You See What They Did - 4K - No Commentary",
+              "year": null,
+              "duration_sec": 1009,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 1009,
+                "runtime_delta": 0.294,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f248f68988b3",
+              "url": "https://prehraj.to/days-gone-181-what-it-takes-to-survive-4k-no-commentary/5f248f68988b3",
+              "title": "Days Gone - #181 - What It Takes To Survive - 4K - No…",
+              "year": null,
+              "duration_sec": 1131,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 13,
+                "candidate_runtime_sec": 1131,
+                "runtime_delta": 0.45,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "That One Day (2016)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:33:17.338988+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "that-one-day",
+        "title": "That One Day",
+        "original_title": null,
+        "year": 2016,
+        "runtime_min": 13,
+        "tmdb_id": 413685,
+        "imdb_id": "tt6018088",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:33:15.669842+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:33:11.498878+00:00"
+  "updated_at": "2026-08-28T06:33:17.339008+00:00"
 }
