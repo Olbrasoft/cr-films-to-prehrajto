@@ -29752,7 +29752,80 @@
         },
         "at": "2026-08-28T02:50:03.143287+00:00"
       }
+    },
+    "22132": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58588fd6ae90b",
+              "url": "https://prehraj.to/panda-a-mala-panda-japonska-pohadka-1973/58588fd6ae90b",
+              "title": "Panda-a-malá-panda---japonská-pohádka-(1973)",
+              "year": null,
+              "duration_sec": 4289,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.881,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586af2f325ca4",
+              "url": "https://prehraj.to/panda-a-mala-panda-1973-monty-698/586af2f325ca4",
+              "title": "Panda-a-malá-panda-(1973)-Monty-698",
+              "year": null,
+              "duration_sec": 4289,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.881,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:50:13.302839+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "panda-go-panda-rainy-day-circus",
+        "title": "Panda! Go Panda!: Rainy Day Circus",
+        "original_title": "Panda! Go Panda!: Rainy Day Circus",
+        "year": 1973,
+        "runtime_min": 38,
+        "tmdb_id": 123867,
+        "imdb_id": "tt0070505",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:50:06.174509+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:50:04.908689+00:00"
+  "updated_at": "2026-08-28T02:50:13.302860+00:00"
 }
