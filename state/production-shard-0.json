@@ -37783,6 +37783,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:25:18.677427+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6206c89c65e0e",
+              "url": "https://prehraj.to/ibiza-2022-czdab/6206c89c65e0e",
+              "title": "Ibiza (2022) CZdab",
+              "year": null,
+              "duration_sec": 4958,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 4958,
+                "runtime_delta": 0.235,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:09:30.033971+00:00"
         }
       ],
       "identity": {
@@ -37801,7 +37839,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:25:18.033553+00:00"
+        "at": "2026-08-28T11:09:20.423470+00:00"
       }
     },
     "27970": {
@@ -65279,5 +65317,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:09:18.878689+00:00"
+  "updated_at": "2026-08-28T11:09:30.033987+00:00"
 }
