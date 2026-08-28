@@ -27131,7 +27131,401 @@
         },
         "at": "2026-08-28T02:49:00.544550+00:00"
       }
+    },
+    "23268": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58512bdcf2e09",
+              "url": "https://prehraj.to/guns-n-roses-use-your-illusion-world-tour-live-in-tokio-ii-1992/58512bdcf2e09",
+              "title": "Guns-n'-Roses---Use-Your-Illusion-World-Tour-Live-in-Tokio-II-1992",
+              "year": null,
+              "duration_sec": 5159,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.094,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5159,
+                "runtime_delta": 0.065,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63335af75c1c1",
+              "url": "https://prehraj.to/ctyri-noci-jednoho-snilka-1971-cztitulky/63335af75c1c1",
+              "title": "Čtyři noci jednoho snílka (1971) CZtitulky",
+              "year": null,
+              "duration_sec": 4730,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1971,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f115f4381a8f87b2",
+              "url": "https://prehraj.to/jsem-cislo-ctyri-sci-fi-2011-cz-dabing/f115f4381a8f87b2",
+              "title": "Jsem-cislo-ctyri-(sci-fi)-(2011)--cz-dabing",
+              "year": null,
+              "duration_sec": 6574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "664754666f858",
+              "url": "https://prehraj.to/ctyri-zivoty-01-dil/664754666f858",
+              "title": "Čtyři životy - 01. díl",
+              "year": null,
+              "duration_sec": 3541,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.5,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 3541,
+                "runtime_delta": 0.359,
+                "rejection_reason": "title_only"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6647c09fce6b8",
+              "url": "https://prehraj.to/ctyri-zivoty-01-dil-cz-1080p/6647c09fce6b8",
+              "title": "Čtyři životy - 01. díl cz 1080p",
+              "year": null,
+              "duration_sec": 3541,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.5,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 3541,
+                "runtime_delta": 0.359,
+                "rejection_reason": "title_only"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ddeb5cb91cc1",
+              "url": "https://prehraj.to/jsem-cislo-ctyri-sci-fi-2011-cz-dabing/5ddeb5cb91cc1",
+              "title": "Jsem-cislo-ctyri-(sci-fi)-(2011)--cz-dabing",
+              "year": null,
+              "duration_sec": 6575,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "322f660adec05d08",
+              "url": "https://prehraj.to/ctyri-z-tanku-a-pes-01/322f660adec05d08",
+              "title": "Čtyři z tanku a pes 01",
+              "year": null,
+              "duration_sec": 3208,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.387,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 3208,
+                "runtime_delta": 0.419,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58595b297bbee",
+              "url": "https://prehraj.to/ctyri-noci-jednoho-snilka-quatre-nuits-d-un-reveur-1971-cz-tit/58595b297bbee",
+              "title": "Čtyři-noci-jednoho-snílka-_-Quatre-nuits-d'un-rêveur-1971,…",
+              "year": null,
+              "duration_sec": 4723,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1971,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6397a8071dfc4",
+              "url": "https://prehraj.to/r-pilcher-ctyri-rocni-obdobi-01-leto/6397a8071dfc4",
+              "title": "R. Pilcher - Čtyři roční období 01 - Léto",
+              "year": null,
+              "duration_sec": 5269,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5269,
+                "runtime_delta": 0.045,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ee5b4581e3f",
+              "url": "https://prehraj.to/ctyri-z-tanku-a-pes-01-posadka-1966-cz-5704894/68ee5b4581e3f",
+              "title": "Čtyři z tanku a pes 01 Posádka (1966 CZ) 5704894",
+              "year": null,
+              "duration_sec": 3207,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 1966,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583c5dcce2420",
+              "url": "https://prehraj.to/jsem-cislo-ctyri-usa-2011-109min-cz-akcni-sci-fi-thriller/583c5dcce2420",
+              "title": "jsem-cislo-ctyri(USA,2011-109min)cz-akcni,sci-fi,thriller",
+              "year": null,
+              "duration_sec": 6574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58fe1b856734f",
+              "url": "https://prehraj.to/ctyri-a-pul-kamarada-01-pripad-puntikovaneho-destniku-cz-dabing-154291/58fe1b856734f",
+              "title": "Čtyři-a-půl-kamaráda-01-Případ-puntikovaného-deštníku-CZ…",
+              "year": null,
+              "duration_sec": 1445,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.738,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67904eb18ceb7417",
+              "url": "https://prehraj.to/jsem-cislo-ctyri-usa-2011-109min-cz-akcni-sci-fi-thriller/67904eb18ceb7417",
+              "title": "jsem-cislo-ctyri(USA,2011-109min)cz-akcni,sci-fi,thriller",
+              "year": null,
+              "duration_sec": 6574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1992,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c90ef249bd1",
+              "url": "https://prehraj.to/czterej-pancerni-i-pies-ctyri-z-tanku-a-pes-01-janusz-gajos-1966-color-hd-tvp-westmen214-cz/67c90ef249bd1",
+              "title": "Czterej Pancerni i Pies_Čtyri z Tanku a Pes 01=Janusz Gajos…",
+              "year": null,
+              "duration_sec": 3208,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.272,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 3208,
+                "runtime_delta": 0.419,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5866fe659d32a",
+              "url": "https://prehraj.to/ctyri-noci-s-annou-cztery-noce-z-anna-quatre-nuits-avec-anna-four-nights-with-anna-2008-cz-tit/5866fe659d32a",
+              "title": "Čtyři-noci-s-Annou-_-Cztery-noce-z-Anna-_-Quatre-nuits-avec…",
+              "year": null,
+              "duration_sec": 5428,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.281,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5428,
+                "runtime_delta": 0.017,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Čtyři oči (1992)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9191a9d586c719e1",
+              "url": "https://prehraj.to/4-nin-wa-sorezore-uso-wo-tsuku-01-tajemstvi-ctyr-divek/9191a9d586c719e1",
+              "title": "4-nin wa Sorezore Uso wo Tsuku - 01 Tajemství čtyř dívek",
+              "year": null,
+              "duration_sec": 1404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.746,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Čtyři oči (1992)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:10.405319+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ctyri-oci",
+        "title": "Čtyři oči",
+        "original_title": "Four Eyes and Six-Guns",
+        "year": 1992,
+        "runtime_min": 92,
+        "tmdb_id": 273160,
+        "imdb_id": "tt0104293",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:03.347220+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:49:01.986807+00:00"
+  "updated_at": "2026-08-28T02:49:10.405340+00:00"
 }
