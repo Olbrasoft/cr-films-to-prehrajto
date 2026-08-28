@@ -27575,7 +27575,80 @@
         },
         "at": "2026-08-28T07:24:57.508798+00:00"
       }
+    },
+    "24402": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c5bf6771e75c",
+              "url": "https://prehraj.to/cerny-vlk-1971-cz-film/5c5bf6771e75c",
+              "title": "Černý vlk-1971-cz.film",
+              "year": null,
+              "duration_sec": 5399,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.8,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c5adc2f986d4",
+              "url": "https://prehraj.to/cerny-vlk-1971-cz-film/5c5adc2f986d4",
+              "title": "Černý vlk-1971-cz.film",
+              "year": null,
+              "duration_sec": 5399,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.8,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:25:07.916426+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "norman-jewison-film-maker",
+        "title": "Norman Jewison, Film Maker",
+        "original_title": null,
+        "year": 1971,
+        "runtime_min": 50,
+        "tmdb_id": 673136,
+        "imdb_id": "tt0208325",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:25:03.830997+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:25:02.135203+00:00"
+  "updated_at": "2026-08-28T07:25:07.916447+00:00"
 }
