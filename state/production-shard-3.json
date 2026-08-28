@@ -26698,7 +26698,60 @@
         },
         "at": "2026-08-28T06:39:52.346935+00:00"
       }
+    },
+    "25827": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5dbeb3f71fe4c",
+              "url": "https://prehraj.to/smrt-v-kruhu-krimi-cz-film-1989-jad/5dbeb3f71fe4c",
+              "title": "Smrt v kruhu-krimi-cz film-1989-jad",
+              "year": null,
+              "duration_sec": 5197,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.331,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:39:55.306330+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "incredibly-strange-film-show-tsui-hark",
+        "title": "Incredibly Strange Film Show - Tsui Hark",
+        "original_title": null,
+        "year": 1989,
+        "runtime_min": 20,
+        "tmdb_id": 1101120,
+        "imdb_id": "tt0610972",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:39:54.264429+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:39:53.008645+00:00"
+  "updated_at": "2026-08-28T06:39:55.306349+00:00"
 }
