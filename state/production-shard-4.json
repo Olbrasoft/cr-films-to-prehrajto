@@ -23947,7 +23947,67 @@
         },
         "at": "2026-08-28T02:47:38.757856+00:00"
       }
+    },
+    "24460": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5860e0e7ea56e",
+              "url": "https://prehraj.to/rolling-stones-let-s-spend-the-night-together-1981-dolby-2-0-d/5860e0e7ea56e",
+              "title": "Rolling-Stones---Let's-Spend-The-Night-Together.1981---dolby-2.0---D--",
+              "year": null,
+              "duration_sec": 5439,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.42,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 83,
+                "candidate_runtime_sec": 5439,
+                "runtime_delta": 0.092,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:47:42.088766+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "rolling-on-the-road",
+        "title": "Rolling on the Road",
+        "original_title": "Rolling on the Road",
+        "year": 1981,
+        "runtime_min": 83,
+        "tmdb_id": 412591,
+        "imdb_id": "tt0225011",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:47:41.088002+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:47:39.799227+00:00"
+  "updated_at": "2026-08-28T02:47:42.088788+00:00"
 }
