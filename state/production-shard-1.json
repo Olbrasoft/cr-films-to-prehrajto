@@ -82546,7 +82546,67 @@
         },
         "at": "2026-08-28T06:36:30.984411+00:00"
       }
+    },
+    "21713": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60b03ad576bca",
+              "url": "https://prehraj.to/beatles-a-hard-day-s-night-perny-den-1964-dvdrip-english-czsub/60b03ad576bca",
+              "title": "Beatles - A Hard Day's Night - Perný den (1964) DVDRIP-English-czSUB",
+              "year": null,
+              "duration_sec": 5268,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.277,
+                "title_contains_alias": false,
+                "film_year": 1964,
+                "candidate_year": 1964,
+                "year_match": true,
+                "film_runtime_min": 70,
+                "candidate_runtime_sec": 5268,
+                "runtime_delta": 0.254,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:36:41.244198+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "what-s-happening-the-beatles-in-the-usa",
+        "title": "What's Happening! The Beatles in the USA",
+        "original_title": null,
+        "year": 1964,
+        "runtime_min": 70,
+        "tmdb_id": 305535,
+        "imdb_id": "tt0058744",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:36:38.386437+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:36:33.761564+00:00"
+  "updated_at": "2026-08-28T06:36:41.244209+00:00"
 }
