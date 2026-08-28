@@ -32302,7 +32302,225 @@
         },
         "at": "2026-08-28T06:59:54.983652+00:00"
       }
+    },
+    "21195": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6507adca000fb",
+              "url": "https://prehraj.to/teticka-1941-1080p-web-dl-x264-r-i-h/6507adca000fb",
+              "title": "Tetička.1941.1080p.WEB-DL.x264-R.i.H",
+              "year": null,
+              "duration_sec": 5098,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.205,
+                "title_contains_alias": false,
+                "film_year": 1941,
+                "candidate_year": 1941,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 5098,
+                "runtime_delta": 0.248,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "406251390d1d634b",
+              "url": "https://prehraj.to/dr-jekyll-and-mr-hyde-2003-cz-dabing/406251390d1d634b",
+              "title": "Dr. Jekyll and Mr. Hyde (2003) CZ Dabing",
+              "year": null,
+              "duration_sec": 5796,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1941,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d1a0403c9d0826d0",
+              "url": "https://prehraj.to/dr-jekyll-and-mr-hyde-1913/d1a0403c9d0826d0",
+              "title": "Dr. Jekyll and Mr. Hyde (1913)",
+              "year": null,
+              "duration_sec": 827,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1941,
+                "candidate_year": 1913,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65bbf6f7e65aa",
+              "url": "https://prehraj.to/dr-jekyll-and-mr-hyde/65bbf6f7e65aa",
+              "title": "Dr. Jekyll and mr. Hyde",
+              "year": null,
+              "duration_sec": 2926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.568,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "603e67d918214",
+              "url": "https://prehraj.to/dr-jekyll-and-mr-hyde-2003/603e67d918214",
+              "title": "Dr. Jekyll and Mr. Hyde (2003)",
+              "year": null,
+              "duration_sec": 5811,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1941,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68d649ccad81d",
+              "url": "https://prehraj.to/dr-jekyll-and-mr-hyde-1912-sci-fi-horor-fhd-1080p-en-dabing-bez-titulkou-by-nexsus/68d649ccad81d",
+              "title": "Dr..Jekyll And Mr..Hyde (1912)(Sci-fi - Horor) FHD 1080p EN…",
+              "year": null,
+              "duration_sec": 828,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1941,
+                "candidate_year": 1912,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4c5b0b77d1fd1822",
+              "url": "https://prehraj.to/dr-jekyll-and-mr-hyde-2008-nahrano-pres-multiload-cz-avi/4c5b0b77d1fd1822",
+              "title": "dr-jekyll-and-mr-hyde-2008-nahrano-pres-MULTILOAD-CZ.avi",
+              "year": null,
+              "duration_sec": 5122,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1941,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ca2dd0aca8b2ad2e",
+              "url": "https://prehraj.to/abbott-and-costello-meet-dr-jekyll-and-mr-hyde-1953/ca2dd0aca8b2ad2e",
+              "title": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde (1953)",
+              "year": null,
+              "duration_sec": 4596,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1941,
+                "candidate_year": 1953,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a537269666687026",
+              "url": "https://prehraj.to/capn-og-readmore-meets-dr-jekyll-and-mr-hyde-complete/a537269666687026",
+              "title": "Capn OG Readmore Meets Dr Jekyll and Mr Hyde (complete)",
+              "year": null,
+              "duration_sec": 1360,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.799,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Jekyll and Mr. Hyde (1941)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:59:59.066222+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dr-jekyll-and-mr-hyde",
+        "title": "Dr. Jekyll and Mr. Hyde",
+        "original_title": null,
+        "year": 1941,
+        "runtime_min": 113,
+        "tmdb_id": 3022,
+        "imdb_id": "tt0033553",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:59:57.609063+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:59:55.955578+00:00"
+  "updated_at": "2026-08-28T06:59:59.066242+00:00"
 }
