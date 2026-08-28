@@ -28941,7 +28941,319 @@
         },
         "at": "2026-08-28T02:49:38.221533+00:00"
       }
+    },
+    "22924": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "585335e135395",
+              "url": "https://prehraj.to/skola-zlodeju-2-cz-dabing-komedie-italie-1987-paolo-villaggio-id-154291/585335e135395",
+              "title": "Škola-zlodějů-2-CZ-Dabing-Komedie,-Itálie,-1987-Paolo-Villaggio...ID_-154291",
+              "year": null,
+              "duration_sec": 5495,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.081,
+                "title_contains_alias": false,
+                "film_year": 1987,
+                "candidate_year": 1987,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5495,
+                "runtime_delta": 0.056,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "45427e69b43e7b5d",
+              "url": "https://prehraj.to/summer-school-2001-web-dl-cz-5-1-2025-1080p-mkv/45427e69b43e7b5d",
+              "title": "Summer.School.2001.WEB-DL.CZ.5.1.2025.1080p.mkv",
+              "year": null,
+              "duration_sec": 6229,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1987,
+                "candidate_year": 2001,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6bac24909992a587",
+              "url": "https://prehraj.to/summer-school-2001-web-dl-cz-5-1-2025-1080p/6bac24909992a587",
+              "title": "Summer.School.2001.WEB-DL.CZ.5.1.2025.1080p",
+              "year": null,
+              "duration_sec": 6229,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1987,
+                "candidate_year": 2001,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d1449572e9d83f79",
+              "url": "https://prehraj.to/summer-school-2001-web-dl-cz-5-1-2025/d1449572e9d83f79",
+              "title": "Summer.School.2001.WEB-DL.CZ.5.1.2025",
+              "year": null,
+              "duration_sec": 6229,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1987,
+                "candidate_year": 2001,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "79e0f735f8fa9bfb",
+              "url": "https://prehraj.to/summer-school-2001-cz-dabing-1080p-mkv/79e0f735f8fa9bfb",
+              "title": "Summer School, 2001  CZ-Dabing 1080p.mkv",
+              "year": null,
+              "duration_sec": 6229,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1987,
+                "candidate_year": 2001,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "34c384258f0eb191",
+              "url": "https://prehraj.to/summer-school-2001-2025-cz-dabing-forced-1080p-mkv/34c384258f0eb191",
+              "title": "Summer School, 2001 (2025) CZ-Dabing + forced 1080p.mkv",
+              "year": null,
+              "duration_sec": 6229,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1987,
+                "candidate_year": 2001,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65f9d85a848dc",
+              "url": "https://prehraj.to/jeffy-failed-school-sml-movie-jeffy-s-summer-school-reaction-charmx/65f9d85a848dc",
+              "title": "JEFFY FAILED SCHOOL! - SML Movie  Jeffy's Summer School…",
+              "year": null,
+              "duration_sec": 1227,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.789,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "660840ac518d9",
+              "url": "https://prehraj.to/sml-movie-bowser-junior-s-summer-school-reaction-charmx/660840ac518d9",
+              "title": "SML Movie Bowser Junior's Summer School Reaction! (Charmx)",
+              "year": null,
+              "duration_sec": 1234,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.788,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6609bc44dd0ae",
+              "url": "https://prehraj.to/sml-movie-bowser-junior-s-summer-school-5-reaction-charmx/6609bc44dd0ae",
+              "title": "SML Movie Bowser Junior's Summer School 5 Reaction! (Charmx)",
+              "year": null,
+              "duration_sec": 1043,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.821,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6608406d18bb6",
+              "url": "https://prehraj.to/sml-movie-bowser-junior-s-summer-school-3-reaction-charmx/6608406d18bb6",
+              "title": "SML Movie Bowser Junior's Summer School 3 Reaction! (Charmx)",
+              "year": null,
+              "duration_sec": 1216,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.791,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "660840224c760",
+              "url": "https://prehraj.to/sml-movie-bowser-junior-s-summer-school-2-reaction-charmx/660840224c760",
+              "title": "SML Movie Bowser Junior's Summer School 2 Reaction! (Charmx)",
+              "year": null,
+              "duration_sec": 1337,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.77,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65fca66dd62e2",
+              "url": "https://prehraj.to/sml-movie-bowser-junior-s-summer-school-7-reaction-charmx/65fca66dd62e2",
+              "title": "SML Movie Bowser Junior's Summer School 7 Reaction! (Charmx)",
+              "year": null,
+              "duration_sec": 1707,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.707,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6612bfb41a079",
+              "url": "https://prehraj.to/sml-movie-bowser-junior-s-summer-school-6-reaction-charmx/6612bfb41a079",
+              "title": "SML Movie Bowser Junior's Summer School 6 Reaction! (Charmx)",
+              "year": null,
+              "duration_sec": 830,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.857,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6609bc0cb246c",
+              "url": "https://prehraj.to/sml-movie-bowser-junior-s-summer-school-4-reaction-charmx/6609bc0cb246c",
+              "title": "SML Movie Bowser Junior's Summer School 4 Reaction! (Charmx)",
+              "year": null,
+              "duration_sec": 1091,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.813,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Summer School (1987)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:42.532984+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "summer-school",
+        "title": "Summer School",
+        "original_title": null,
+        "year": 1987,
+        "runtime_min": 97,
+        "tmdb_id": 14671,
+        "imdb_id": "tt0094072",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:41.449118+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:49:39.839711+00:00"
+  "updated_at": "2026-08-28T02:49:42.533005+00:00"
 }
