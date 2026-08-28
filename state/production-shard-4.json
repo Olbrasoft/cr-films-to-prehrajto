@@ -31304,7 +31304,60 @@
         },
         "at": "2026-08-28T02:50:47.283984+00:00"
       }
+    },
+    "21540": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5894f6a23c802",
+              "url": "https://prehraj.to/zpivajici-pudrenka-1959-cesky-film-do-mobilu-misa/5894f6a23c802",
+              "title": "Zpívající-pudřenka-1959-Český-film-do-mobilu-míša",
+              "year": null,
+              "duration_sec": 4473,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.777,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:50:59.060592+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-running-jumping-standing-still-film",
+        "title": "The Running Jumping & Standing Still Film",
+        "original_title": null,
+        "year": 1959,
+        "runtime_min": 11,
+        "tmdb_id": 105721,
+        "imdb_id": "tt0053231",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:50:58.014259+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:50:54.397006+00:00"
+  "updated_at": "2026-08-28T02:50:59.060614+00:00"
 }
