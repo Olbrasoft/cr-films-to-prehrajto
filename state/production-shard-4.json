@@ -21996,7 +21996,67 @@
         },
         "at": "2026-08-28T02:43:08.757881+00:00"
       }
+    },
+    "26436": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "620ccdcee0161",
+              "url": "https://prehraj.to/chernobyl-1986-2021-bdrip-1080p-h264-sk-tvrip/620ccdcee0161",
+              "title": "Chernobyl 1986 (2021) BDRip 1080p H264 SK tvrip",
+              "year": null,
+              "duration_sec": 8180,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.383,
+                "title_contains_alias": false,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8180,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:43:14.898490+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "film-1986",
+        "title": "Ο Άνθρωπος από το Τσέρνομπιλ",
+        "original_title": "The Man from Chernobyl",
+        "year": 1986,
+        "runtime_min": null,
+        "tmdb_id": 607103,
+        "imdb_id": "tt1105327",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:43:11.161555+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:43:09.868758+00:00"
+  "updated_at": "2026-08-28T02:43:14.898511+00:00"
 }
