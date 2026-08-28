@@ -16472,7 +16472,332 @@
         },
         "at": "2026-08-28T02:27:25.727042+00:00"
       }
+    },
+    "28284": {
+      "attempts": [],
+      "identity": {
+        "slug": "judy-s-dead",
+        "title": "Judy's Dead",
+        "original_title": null,
+        "year": 2014,
+        "runtime_min": 82,
+        "tmdb_id": 846450,
+        "imdb_id": "tt2419610",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25465788",
+          "account_name": "Judy (2014)",
+          "title_similarity": 0.5,
+          "title_contains_alias": false,
+          "film_year": 2014,
+          "candidate_year": 2014,
+          "year_match": true,
+          "film_runtime_min": 82,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T02:27:27.929858+00:00"
+      }
+    },
+    "28268": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b0100a9f133",
+              "url": "https://prehraj.to/horror-hannibal-takhle-brutalne-to-zacalo-a-pokracuje-hannibal-rising-2012-dabcz/55b0100a9f133",
+              "title": "✦...-'Horror-Hannibal..takhle-brutálně-to-začalo-a-pokračuje..'-Hannibal-Rising-(2012)-DabCz",
+              "year": null,
+              "duration_sec": 6499,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.178,
+                "title_contains_alias": false,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 6499,
+                "runtime_delta": 0.274,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6ca2d8b6c8399100",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e03-dum-kde-se-vrazdilo-2011-horor-sci-fi-thriller-czdab-mkv/6ca2d8b6c8399100",
+              "title": "American Horror Story - Murder House S01E03 - Dům, kde se…",
+              "year": null,
+              "duration_sec": 2560,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65a0a290a6bf5216",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e04-halloween-1-2011-horor-sci-fi-thriller-czdab-mkv/65a0a290a6bf5216",
+              "title": "American Horror Story - Murder House S01E04 - Halloween 1 …",
+              "year": null,
+              "duration_sec": 2356,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c23e4f3bc8bb5d15",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e01-pilot-2011-horor-sci-fi-thriller-czdab/c23e4f3bc8bb5d15",
+              "title": "American Horror Story - Murder House S01E01 - Pilot (2011)…",
+              "year": null,
+              "duration_sec": 3099,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7d82bd5d71f19fd0",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e01-pilot-2011-horor-sci-fi-thriller-czdab-mkv/7d82bd5d71f19fd0",
+              "title": "American Horror Story - Murder House S01E01 - Pilot (2011)…",
+              "year": null,
+              "duration_sec": 3099,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "577683ca7b1cdcd0",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e11-zrozeni-2011-horor-sci-fi-thriller-czdab-mkv/577683ca7b1cdcd0",
+              "title": "American Horror Story - Murder House S01E11 - Zrození (2011…",
+              "year": null,
+              "duration_sec": 2519,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b37e6dd1a915bdab",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e06-prasohlav-2011-horor-sci-fi-thriller-czdab-mkv/b37e6dd1a915bdab",
+              "title": "American Horror Story - Murder House S01E06 - Prasohlav …",
+              "year": null,
+              "duration_sec": 2661,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7d5fac567c3ee531",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e02-vetrelci-v-dome-2011-horor-sci-fi-thriller-czdab-mkv/7d5fac567c3ee531",
+              "title": "American Horror Story - Murder House S01E02 - Vetřelci v…",
+              "year": null,
+              "duration_sec": 2564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f7c7d29e867df42a",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e12-po-zrozeni-2011-horor-sci-fi-thriller-czdab-mkv/f7c7d29e867df42a",
+              "title": "American Horror Story - Murder House S01E12 - Po zrození …",
+              "year": null,
+              "duration_sec": 3131,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "522821a4c6fb896b",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e08-gumovy-muz-2011-horor-sci-fi-thriller-czdab-mkv/522821a4c6fb896b",
+              "title": "American Horror Story - Murder House S01E08 - Gumový muž …",
+              "year": null,
+              "duration_sec": 2620,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c2aa1a5463ba782a",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e07-den-otevrenych-dveri-2011-horor-sci-fi-thriller-czdab-mkv/c2aa1a5463ba782a",
+              "title": "American Horror Story - Murder House S01E07 - Den…",
+              "year": null,
+              "duration_sec": 2449,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b23fa0516460865f",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e10-hrichy-minulosti-2011-horor-sci-fi-thriller-czdab-mkv/b23fa0516460865f",
+              "title": "American Horror Story - Murder House S01E10 - Hříchy…",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "19770865a176a4c4",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e05-halloween-2-2011-horor-sci-fi-thriller-czdab-mkv/19770865a176a4c4",
+              "title": "American Horror Story - Murder House S01E05 - Halloween 2 …",
+              "year": null,
+              "duration_sec": 2466,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ddfd598f5117f627",
+              "url": "https://prehraj.to/american-horror-story-murder-house-s01e09-strasidelna-divenka-2011-horor-sci-fi-thriller-czdab-mkv/ddfd598f5117f627",
+              "title": "American Horror Story - Murder House S01E09 - Strašidelná…",
+              "year": null,
+              "duration_sec": 2441,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "American Horror House (2012)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:27:29.099079+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "american-horror-house",
+        "title": "American Horror House",
+        "original_title": null,
+        "year": 2012,
+        "runtime_min": 85,
+        "tmdb_id": 138544,
+        "imdb_id": "tt2402539",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:27:27.930643+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:27:26.729586+00:00"
+  "updated_at": "2026-08-28T02:27:29.099099+00:00"
 }
