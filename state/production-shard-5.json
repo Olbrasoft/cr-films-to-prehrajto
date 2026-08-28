@@ -21278,7 +21278,60 @@
         },
         "at": "2026-08-28T07:19:03.854971+00:00"
       }
+    },
+    "27269": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "606aacbd213dd",
+              "url": "https://prehraj.to/hotel-coppelia-2021-1080p-webrip-x264-aac5-1-spanish-eng-tit/606aacbd213dd",
+              "title": "Hotel Coppelia 2021 1080p.WEBRip.x264.AAC5.1-spanish,eng-tit",
+              "year": null,
+              "duration_sec": 6554,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 17.206,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:19:16.963511+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "rosa-rosae-la-guerra-civil",
+        "title": "Rosa Rosae. La guerra civil",
+        "original_title": "Rosa Rosae. A Spanish Civil War Elegy",
+        "year": 2021,
+        "runtime_min": 6,
+        "tmdb_id": 865388,
+        "imdb_id": "tt15110998",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:19:06.686571+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:19:05.183330+00:00"
+  "updated_at": "2026-08-28T07:19:16.963528+00:00"
 }
