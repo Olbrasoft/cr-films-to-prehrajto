@@ -53019,6 +53019,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:29:26.250745+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e96c678ecf32",
+              "url": "https://prehraj.to/jojo-rabbit-2019-1080p-bluray-dd-5-1-x264-don-cz-ftu/5e96c678ecf32",
+              "title": "Jojo.Rabbit.2019.1080p.BluRay.DD+5.1.x264-DON.CZ-FTU",
+              "year": null,
+              "duration_sec": 6505,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.361,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 133,
+                "candidate_runtime_sec": 6505,
+                "runtime_delta": 0.185,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:12:10.492225+00:00"
         }
       ],
       "identity": {
@@ -53037,7 +53075,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:29:25.572741+00:00"
+        "at": "2026-08-28T11:11:58.175767+00:00"
       }
     },
     "26458": {
@@ -68167,5 +68205,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:56.700508+00:00"
+  "updated_at": "2026-08-28T11:12:10.492242+00:00"
 }
