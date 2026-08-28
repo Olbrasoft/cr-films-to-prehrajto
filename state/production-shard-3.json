@@ -27179,7 +27179,60 @@
         },
         "at": "2026-08-28T06:55:11.891613+00:00"
       }
+    },
+    "25099": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60b01e95f1396",
+              "url": "https://prehraj.to/cesta-na-jihozapad-western-1954-cz-dabing/60b01e95f1396",
+              "title": "Cesta na jihozápad-(western)-(1954)--cz-dabing",
+              "year": null,
+              "duration_sec": 4313,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.987,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:55:15.788375+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "glimpses-of-western-germany",
+        "title": "Glimpses of Western Germany",
+        "original_title": null,
+        "year": 1954,
+        "runtime_min": 9,
+        "tmdb_id": 386998,
+        "imdb_id": "tt0361623",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:55:14.602549+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:55:13.299563+00:00"
+  "updated_at": "2026-08-28T06:55:15.788395+00:00"
 }
