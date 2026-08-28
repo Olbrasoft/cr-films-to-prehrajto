@@ -25774,7 +25774,643 @@
         },
         "at": "2026-08-28T07:24:15.415700+00:00"
       }
+    },
+    "24890": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586e147e2c45e",
+              "url": "https://prehraj.to/slayer-war-at-the-warfield-2003-720i-dd-5-1-prekodovane-dvd-mr/586e147e2c45e",
+              "title": "SLAYER-War-At-The-Warfield-(2003)-720i-DD-5.1-překodované-DVD-[MR]",
+              "year": null,
+              "duration_sec": 5431,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.162,
+                "title_contains_alias": false,
+                "film_year": 2003,
+                "candidate_year": 2003,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5431,
+                "runtime_delta": 0.078,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6512c47d232ec",
+              "url": "https://prehraj.to/demon-slayer-s01e01-cz-tit-1080p/6512c47d232ec",
+              "title": "Demon Slayer S01E01 CZ TIT 1080p",
+              "year": null,
+              "duration_sec": 1419,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "616b0eee77dbc",
+              "url": "https://prehraj.to/demon-slayer-s02e01-cztitulky/616b0eee77dbc",
+              "title": "Demon Slayer S02E01 CZtitulky",
+              "year": null,
+              "duration_sec": 1576,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd88aa50ea414ce1",
+              "url": "https://prehraj.to/demon-slayer-s01e24-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/dd88aa50ea414ce1",
+              "title": "Demon Slayer S01E24 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9bed9daa2510bc77",
+              "url": "https://prehraj.to/demon-slayer-s01e26-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/9bed9daa2510bc77",
+              "title": "Demon Slayer S01E26 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b3dd15ea456da7e4",
+              "url": "https://prehraj.to/demon-slayer-s01e21-cz-titulky-1080p-anime-cz-sk-be-20-8/b3dd15ea456da7e4",
+              "title": "Demon Slayer S01E21 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d56d67777b32c078",
+              "url": "https://prehraj.to/demon-slayer-s01e26-cz-titulky-1080p-anime-cz-sk-be-20-8/d56d67777b32c078",
+              "title": "Demon Slayer S01E26 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "125dfb9cb8d75192",
+              "url": "https://prehraj.to/demon-slayer-s04e07-cz-titulky-1080p-anime-cz-sk-be-20-8/125dfb9cb8d75192",
+              "title": "Demon Slayer S04E07 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1915,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65a27497d768bebc",
+              "url": "https://prehraj.to/demon-slayer-s04e03-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/65a27497d768bebc",
+              "title": "Demon Slayer S04E03 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c1d965921edc34f2",
+              "url": "https://prehraj.to/demon-slayer-s01e22-cz-titulky-1080p-anime-cz-sk-love/c1d965921edc34f2",
+              "title": "Demon Slayer S01E22 CZ Titulky 1080p (Anime CZ SK). ❤️Love❤️",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7e1f2b6231761724",
+              "url": "https://prehraj.to/demon-slayer-s01e23-cz-titulky-1080p-anime-cz-sk-love/7e1f2b6231761724",
+              "title": "Demon Slayer S01E23 CZ Titulky 1080p (Anime CZ SK). ❤️Love❤️",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "858597836000a4dc",
+              "url": "https://prehraj.to/demon-slayer-s01e24-cz-titulky-1080p-anime-cz-sk-love/858597836000a4dc",
+              "title": "Demon Slayer S01E24 CZ Titulky 1080p (Anime CZ SK). ❤️Love❤️",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "90a69eda2a5a3a62",
+              "url": "https://prehraj.to/demon-slayer-s01e25-cz-titulky-1080p-anime-cz-sk-love/90a69eda2a5a3a62",
+              "title": "Demon Slayer S01E25 CZ Titulky 1080p (Anime CZ SK). ❤️Love❤️",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6a9cb6c63fc289f3",
+              "url": "https://prehraj.to/demon-slayer-s04e01-cz-titulky-1080p-anime-cz-sk-love/6a9cb6c63fc289f3",
+              "title": "Demon Slayer S04E01 CZ Titulky 1080p (Anime CZ SK). ❤️Love❤️",
+              "year": null,
+              "duration_sec": 2934,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "27b6a09403efbcd2",
+              "url": "https://prehraj.to/demon-slayer-s04e04-cz-titulky-1080p-anime-cz-sk-love/27b6a09403efbcd2",
+              "title": "Demon Slayer S04E04 CZ Titulky 1080p (Anime CZ SK). ❤️Love❤️",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "baf68e41a1bb6f8b",
+              "url": "https://prehraj.to/demon-slayer-s01e20-cz-titulky-1080p-anime-cz-sk/baf68e41a1bb6f8b",
+              "title": "Demon Slayer S01E20 CZ Titulky 1080p (Anime CZ SK).",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2fdc375aa8f1ec9b",
+              "url": "https://prehraj.to/demon-slayer-s01e21-cz-titulky-1080p-anime-cz-sk/2fdc375aa8f1ec9b",
+              "title": "Demon Slayer S01E21 CZ Titulky 1080p (Anime CZ SK).",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "812f82ea113d8522",
+              "url": "https://prehraj.to/demon-slayer-s01e26-cz-titulky-1080p-anime-cz-sk/812f82ea113d8522",
+              "title": "Demon Slayer S01E26 CZ Titulky 1080p (Anime CZ SK).",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "39a3ae9b174fce75",
+              "url": "https://prehraj.to/demon-slayer-s04e06-cz-titulky-1080p-anime-cz-sk/39a3ae9b174fce75",
+              "title": "Demon Slayer S04E06 CZ Titulky 1080p (Anime CZ SK).",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1b0fca0536eaddbe",
+              "url": "https://prehraj.to/demon-slayer-s04e07-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/1b0fca0536eaddbe",
+              "title": "Demon Slayer S04E07 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1915,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "347bbe168fa2cad3",
+              "url": "https://prehraj.to/demon-slayer-s01e20-cz-titulky-1080p-anime-cz-sk-be-20-8/347bbe168fa2cad3",
+              "title": "Demon Slayer S01E20 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d0caf9118c662eaf",
+              "url": "https://prehraj.to/demon-slayer-s01e23-cz-titulky-1080p-anime-cz-sk-be-20-8/d0caf9118c662eaf",
+              "title": "Demon Slayer S01E23 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bb571b6a6b5d7a52",
+              "url": "https://prehraj.to/demon-slayer-s01e24-cz-titulky-1080p-anime-cz-sk-be-20-8/bb571b6a6b5d7a52",
+              "title": "Demon Slayer S01E24 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ebcf3f1d1281cabc",
+              "url": "https://prehraj.to/demon-slayer-s04e02-cz-titulky-1080p-anime-cz-sk-be-20-8/ebcf3f1d1281cabc",
+              "title": "Demon Slayer S04E02 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4b56300428a785d9",
+              "url": "https://prehraj.to/demon-slayer-s04e03-cz-titulky-1080p-anime-cz-sk-be-20-8/4b56300428a785d9",
+              "title": "Demon Slayer S04E03 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b6c4df9ec01d0df",
+              "url": "https://prehraj.to/demon-slayer-s04e04-cz-titulky-1080p-anime-cz-sk-be-20-8/5b6c4df9ec01d0df",
+              "title": "Demon Slayer S04E04 CZ Titulky 1080p (Anime CZ SK). Be.20.8.",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aa47554ff009bd35",
+              "url": "https://prehraj.to/demon-slayer-s04e01-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/aa47554ff009bd35",
+              "title": "Demon Slayer S04E01 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 2934,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a3e9efaa1e31cf49",
+              "url": "https://prehraj.to/demon-slayer-s04e04-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/a3e9efaa1e31cf49",
+              "title": "Demon Slayer S04E04 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7e9e8998336f72b4",
+              "url": "https://prehraj.to/demon-slayer-s01e25-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/7e9e8998336f72b4",
+              "title": "Demon Slayer S01E25 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "38c44bbc7cecb951",
+              "url": "https://prehraj.to/demon-slayer-s01e21-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/38c44bbc7cecb951",
+              "title": "Demon Slayer S01E21 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c02affb93c87e7d",
+              "url": "https://prehraj.to/demon-slayer-s01e20-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/5c02affb93c87e7d",
+              "title": "Demon Slayer S01E20 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b6e605f9c12a4f4b",
+              "url": "https://prehraj.to/demon-slayer-s01e23-cz-titulky-1080p-anime-cz-sk-aktalni-top-16-8/b6e605f9c12a4f4b",
+              "title": "Demon Slayer S01E23 CZ Titulky 1080p (Anime CZ SK). Aktální…",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d4bb938e7291141e",
+              "url": "https://prehraj.to/demon-slayer-s04e02-cz-titulky-1080p-anime-cz-sk-love/d4bb938e7291141e",
+              "title": "Demon Slayer S04E02 CZ Titulky 1080p (Anime CZ SK). ❤️Love❤️",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Demon Slayer (2003)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:24:25.435539+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "demon-slayer",
+        "title": "Demon Slayer",
+        "original_title": null,
+        "year": 2003,
+        "runtime_min": 84,
+        "tmdb_id": 95993,
+        "imdb_id": "tt0315465",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:24:18.401205+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:24:16.970403+00:00"
+  "updated_at": "2026-08-28T07:24:25.435560+00:00"
 }
