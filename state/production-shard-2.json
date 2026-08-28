@@ -35099,7 +35099,816 @@
         },
         "at": "2026-08-28T07:42:25.834065+00:00"
       }
+    },
+    "21626": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58760471229c6",
+              "url": "https://prehraj.to/zazracna-zachrana-bilych-hrebcu-1962/58760471229c6",
+              "title": "Zázračná-záchrana-bílých-hřebců-1962",
+              "year": null,
+              "duration_sec": 6782,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 15.148,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "26820ad0acf7eb44",
+              "url": "https://prehraj.to/bila-velryba-1956-cs/26820ad0acf7eb44",
+              "title": "Bílá velryba - 1956 CS",
+              "year": null,
+              "duration_sec": 6620,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "558bd395b907b",
+              "url": "https://prehraj.to/bila-velryba/558bd395b907b",
+              "title": "Bila velryba",
+              "year": null,
+              "duration_sec": 6626,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 14.776,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ada4bce27563",
+              "url": "https://prehraj.to/bila-velryba-1956/5ada4bce27563",
+              "title": "Bílá velryba (1956)",
+              "year": null,
+              "duration_sec": 6620,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0c5de0987b872aaf",
+              "url": "https://prehraj.to/bila-velryba-1956-cz/0c5de0987b872aaf",
+              "title": "Bílá Velryba (1956) CZ",
+              "year": null,
+              "duration_sec": 6627,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9d6416bc72d4191d",
+              "url": "https://prehraj.to/bila-velryba-1956/9d6416bc72d4191d",
+              "title": "Bílá velryba (1956)",
+              "year": null,
+              "duration_sec": 6620,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "33140e9bff8abd84",
+              "url": "https://prehraj.to/bila-velryba-1956-cs/33140e9bff8abd84",
+              "title": "Bílá velryba - 1956 CS",
+              "year": null,
+              "duration_sec": 6627,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55bbf5c479823",
+              "url": "https://prehraj.to/bila-velryba-cz-dub-1956-xvid/55bbf5c479823",
+              "title": "Bílá-velryba-cz.dub-1956_xvid",
+              "year": null,
+              "duration_sec": 6627,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 14.779,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "673078534943c",
+              "url": "https://prehraj.to/bila-velryba-mobydick-1956/673078534943c",
+              "title": "Bila-velryba--mobydick-1956",
+              "year": null,
+              "duration_sec": 6628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60afc5c110e53",
+              "url": "https://prehraj.to/bila-velryba-drama-1956-cz-dabing/60afc5c110e53",
+              "title": "Bílá velryba-(drama)-(1956)--cz-dabing",
+              "year": null,
+              "duration_sec": 6620,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6746e16a27d49",
+              "url": "https://prehraj.to/s01e002-bila-velryba/6746e16a27d49",
+              "title": "S01E002_Bílá velryba",
+              "year": null,
+              "duration_sec": 2753,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.555,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68f4457196ce5",
+              "url": "https://prehraj.to/10-bila-velryba/68f4457196ce5",
+              "title": "10.Bílá velryba",
+              "year": null,
+              "duration_sec": 406,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 406,
+                "runtime_delta": 0.033,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "588fc14794d13",
+              "url": "https://prehraj.to/bila-velryba-moby-dick-1956-cz/588fc14794d13",
+              "title": "Bílá-velryba-_-Moby-Dick-1956,-CZ",
+              "year": null,
+              "duration_sec": 6628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1eaf22af2889524b",
+              "url": "https://prehraj.to/bila-velryba-mobydick-1956-czdab-m-avi/1eaf22af2889524b",
+              "title": "Bila.velryba,Mobydick,1956,CZdab-M.avi",
+              "year": null,
+              "duration_sec": 6628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "db62246f9e759f09",
+              "url": "https://prehraj.to/bila-velryba-moby-dick-1956-cz-mkv/db62246f9e759f09",
+              "title": "Bílá velryba / Moby Dick 1956, CZ.mkv",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e8d3981ab44",
+              "url": "https://prehraj.to/bila-velryba-mobydick-1956-czdab/68e8d3981ab44",
+              "title": "Bila.velryba,Mobydick,1956,CZdab",
+              "year": null,
+              "duration_sec": 6628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678a22484d4d3",
+              "url": "https://prehraj.to/michal-hruza-bila-velryba/678a22484d4d3",
+              "title": "MICHAL HRUZA - Bílá velryba",
+              "year": null,
+              "duration_sec": 226,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 226,
+                "runtime_delta": 0.462,
+                "rejection_reason": "title_only"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0fb4a5a985ea6239",
+              "url": "https://prehraj.to/moby-dick-bila-velryba-1956-1080p-h264-ac3-6ch-cztit-cz-mkv/0fb4a5a985ea6239",
+              "title": "Moby Dick (Bílá velryba) 1956-(1080p.h264.AC3.6ch)-CZtit.CZ…",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65c148621c4ba",
+              "url": "https://prehraj.to/bila-velryba-moby-dick-dibrodr-film-uysa-1956-full-hd-cz-org-verzia-dig-repas/65c148621c4ba",
+              "title": "Bílá velryba (Moby Dick) - dibrodr film UýSA 1956 FULL HD…",
+              "year": null,
+              "duration_sec": 6627,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab55d32a1cf6",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-1978/5ab55d32a1cf6",
+              "title": "Mladý muž a bílá velryba (1978)",
+              "year": null,
+              "duration_sec": 5280,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a532b506ad202bb3",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-1978-cz-dabing-1080p-fhd/a532b506ad202bb3",
+              "title": "Mladý muž a bílá velryba 1978 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 5294,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0de4f4287d75c346",
+              "url": "https://prehraj.to/moby-dick-bila-velryba-1956-1080p-h264-ac3-6ch-czsub-cz-mkv/0de4f4287d75c346",
+              "title": "Moby Dick (Bílá velryba)-1956-(1080p.h264.AC3.6ch)-CZsub.CZ…",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "730d71e6e7a0ef48",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-1979-cz/730d71e6e7a0ef48",
+              "title": "Mladý muž a bílá velryba (1979) CZ",
+              "year": null,
+              "duration_sec": 5280,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1979,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69007b2d0e8dd",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-1080p-cz/69007b2d0e8dd",
+              "title": "Mladý muž a bílá velryba 1080p CZ",
+              "year": null,
+              "duration_sec": 5281,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.574,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "07296d622e879c82",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-1978-czdab/07296d622e879c82",
+              "title": "Mladý muž a bílá velryba (1978) CZdab",
+              "year": null,
+              "duration_sec": 5288,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c051c4d42b578c00",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-1978-cs/c051c4d42b578c00",
+              "title": "Mladý muž a bílá velryba - 1978 CS",
+              "year": null,
+              "duration_sec": 5280,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2ffadf5a4a135239",
+              "url": "https://prehraj.to/moby-dick-bila-velryba-1956-1080p-h264-ac3-6ch-cztit-cz-mkv/2ffadf5a4a135239",
+              "title": "Moby Dick (Bílá velryba)-1956-(1080p.h264.AC3.6ch)-CZtit.CZ…",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d5c2ed4e6bea12f0",
+              "url": "https://prehraj.to/moby-dick-bila-velryba-1956-1080p-h264-ac3-6ch-cztit-cz-mkv/d5c2ed4e6bea12f0",
+              "title": "Moby Dick (Bílá velryba)-1956-(1080p.h264.AC3.6ch)-CZtit.CZ…",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "558bd396250eb",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba/558bd396250eb",
+              "title": "Mlady muž a bila velryba",
+              "year": null,
+              "duration_sec": 5288,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.59,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fb42ee9df7e2bd4e",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-cssr-1978-mp4/fb42ee9df7e2bd4e",
+              "title": "Mladý muž a bílá velryba (ČSSR, 1978).mp4",
+              "year": null,
+              "duration_sec": 5283,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67929c7092b93",
+              "url": "https://prehraj.to/moby-dick-bila-velryba-dobrodr-film-usa-1956-en-cz/67929c7092b93",
+              "title": "Moby Dick (Bílá velryba) dobrodr film USA  1956 EN+CZ",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "138093826ee3cbef",
+              "url": "https://prehraj.to/moby-dick-bila-velryba-dobrodr-film-usa-1956-en-cz-mkv/138093826ee3cbef",
+              "title": "Moby Dick (Bílá velryba) dobrodr film USA  1956 EN+CZ.mkv",
+              "year": null,
+              "duration_sec": 6918,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69016e14a362c",
+              "url": "https://prehraj.to/mlady-muz-a-bila-velryba-cssr-1978-1080p-jackripper/69016e14a362c",
+              "title": "Mladý muž a bílá velryba (ČSSR 1978, 1080p) JackRIPper",
+              "year": null,
+              "duration_sec": 5281,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1962,
+                "candidate_year": 1978,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Bílá velryba (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "606a5cb0d0955",
+              "url": "https://prehraj.to/chq-tom-and-jerry-122-dicky-moe-dvdrip-mp3-xvid-1962-cb974b74/606a5cb0d0955",
+              "title": "[CHQ] Tom and Jerry - 122 - Dicky Moe [DVDrip][MP3][XVID]…",
+              "year": null,
+              "duration_sec": 407,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 407,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Dicky Moe (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f4fd655df1d9275a",
+              "url": "https://prehraj.to/chq-tom-and-jerry-122-dicky-moe-dvdrip-mp3-xvid-1962-cb974b74-avi/f4fd655df1d9275a",
+              "title": "[CHQ] Tom and Jerry - 122 - Dicky Moe [DVDrip][MP3][XVID]…",
+              "year": null,
+              "duration_sec": 407,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 407,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Dicky Moe (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e399625012af",
+              "url": "https://prehraj.to/tom-and-jerry-122-dicky-moe-1962/5e399625012af",
+              "title": "Tom and Jerry - 122   Dicky Moe [1962]",
+              "year": null,
+              "duration_sec": 407,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": 1962,
+                "year_match": true,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 407,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Dicky Moe (1962)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "595cebc8c0570",
+              "url": "https://prehraj.to/tom-jerry-122-dicky-moe-1962-07-01/595cebc8c0570",
+              "title": "TOM & JERRY - 122 - Dicky Moe (1962-07-01)",
+              "year": null,
+              "duration_sec": 407,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1962,
+                "candidate_year": 1962,
+                "year_match": true,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 407,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Dicky Moe (1962)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:42:36.634776+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bila-velryba-1962",
+        "title": "Bílá velryba",
+        "original_title": "Dicky Moe",
+        "year": 1962,
+        "runtime_min": 7,
+        "tmdb_id": 223023,
+        "imdb_id": "tt0055909",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:42:28.782013+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:42:27.270893+00:00"
+  "updated_at": "2026-08-28T07:42:36.634801+00:00"
 }
