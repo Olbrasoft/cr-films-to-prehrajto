@@ -17881,6 +17881,70 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:07:35.161175+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586a5b1152349",
+              "url": "https://prehraj.to/svuj-mezi-cizimi-1975-cz-tit/586a5b1152349",
+              "title": "Svůj-mezi-cizími-_-Свой-среди-чужих,-чужой-среди-своих-1975,-CZ-tit",
+              "year": null,
+              "duration_sec": 5510,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.162,
+                "title_contains_alias": false,
+                "film_year": 1975,
+                "candidate_year": 1975,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5510,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aa17e3a3249c8293",
+              "url": "https://prehraj.to/andre-rieu-a-midsummer-night-s-dream-live-in-maastricht-2010-cz-titulky/aa17e3a3249c8293",
+              "title": "André Rieu - A Midsummer Night's Dream - Live in Maastricht…",
+              "year": null,
+              "duration_sec": 6436,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.328,
+                "title_contains_alias": false,
+                "film_year": 1975,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6436,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "In Midsummer (1975)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:07:08.720483+00:00"
         }
       ],
       "identity": {
@@ -17899,7 +17963,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:07:13.790922+00:00"
+        "at": "2026-08-28T11:07:07.664098+00:00"
       }
     },
     "29364": {
@@ -59503,5 +59567,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:07:06.209580+00:00"
+  "updated_at": "2026-08-28T11:07:08.720498+00:00"
 }
