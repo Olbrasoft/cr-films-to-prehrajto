@@ -29340,7 +29340,67 @@
         },
         "at": "2026-08-28T02:49:43.848729+00:00"
       }
+    },
+    "22780": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c52ab700850b",
+              "url": "https://prehraj.to/james-bond-14-vyhlidka-na-vrazdu-moore-1985-cz-dabing/5c52ab700850b",
+              "title": "James-Bond-14-Vyhlidka-na-vrazdu-(Moore)-(1985)--cz-dabing",
+              "year": null,
+              "duration_sec": 7550,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.323,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 7550,
+                "runtime_delta": 0.43,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:47.959374+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "james-joyce-s-women",
+        "title": "James Joyce's Women",
+        "original_title": null,
+        "year": 1985,
+        "runtime_min": 88,
+        "tmdb_id": 244203,
+        "imdb_id": "tt0089364",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:46.958174+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:49:45.346791+00:00"
+  "updated_at": "2026-08-28T02:49:47.959395+00:00"
 }
