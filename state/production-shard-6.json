@@ -14665,7 +14665,94 @@
         },
         "at": "2026-08-28T06:42:12.915796+00:00"
       }
+    },
+    "29398": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "603768ce3cb26",
+              "url": "https://prehraj.to/bright-2017-cz-titl/603768ce3cb26",
+              "title": "Bright 2017 CZ.titl",
+              "year": null,
+              "duration_sec": 7066,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.306,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 7066,
+                "runtime_delta": 0.24,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6038bf1eeb4ac",
+              "url": "https://prehraj.to/bright-2017-cz-titl/6038bf1eeb4ac",
+              "title": "Bright 2017 CZ.titl",
+              "year": null,
+              "duration_sec": 7066,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.306,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 7066,
+                "runtime_delta": 0.24,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:42:27.987847+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bright-lights-starring-carrie-fisher-and-debbie-reynolds",
+        "title": "Bright Lights: Starring Carrie Fisher and Debbie Reynolds",
+        "original_title": null,
+        "year": 2017,
+        "runtime_min": 95,
+        "tmdb_id": 398738,
+        "imdb_id": "tt5651050",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:42:25.774770+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:42:21.941711+00:00"
+  "updated_at": "2026-08-28T06:42:27.987867+00:00"
 }
