@@ -15822,7 +15822,140 @@
         },
         "at": "2026-08-28T07:15:28.049016+00:00"
       }
+    },
+    "29741": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fd5672d07e59",
+              "url": "https://prehraj.to/freaks-2018-1080p-cz-sub-bluray-x264/5fd5672d07e59",
+              "title": "Freaks.2018.1080p.cz.sub.BluRay.x264",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5de56fea9ce0c",
+              "url": "https://prehraj.to/freaks-drama-2018-cz-titulky/5de56fea9ce0c",
+              "title": "Freaks-(drama)-(2018)--cz-titulky",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e036a38c172b",
+              "url": "https://prehraj.to/freaks-2018-720p-hd-sk-titulky/5e036a38c172b",
+              "title": "Freaks.(2018).720p.HD.SK.TITULKY",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61dc06695ac81",
+              "url": "https://prehraj.to/hotel-transylvania-3-summer-vacation-2018-1080p-bluray-dts-x264-geek-cz-sk-ftu/61dc06695ac81",
+              "title": "Hotel.Transylvania.3.Summer.Vacation.2018.1080p.BluRay.DTS.x264-Geek.CZ.SK-FTU",
+              "year": null,
+              "duration_sec": 5843,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.522,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "612dd7b714149",
+              "url": "https://prehraj.to/freaks-2018-1080p-bluray-h264-aac-rarbg/612dd7b714149",
+              "title": "Freaks.2018.1080p.BluRay.H264.AAC-RARBG",
+              "year": null,
+              "duration_sec": 6296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.64,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:15:39.156315+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "freaks-and-geeks-the-documentary",
+        "title": "Freaks and Geeks: The Documentary",
+        "original_title": null,
+        "year": 2018,
+        "runtime_min": 64,
+        "tmdb_id": 519228,
+        "imdb_id": "tt8178670",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:15:33.760933+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:15:32.262230+00:00"
+  "updated_at": "2026-08-28T07:15:39.156334+00:00"
 }
