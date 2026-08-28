@@ -30032,7 +30032,94 @@
         },
         "at": "2026-08-28T07:03:56.759327+00:00"
       }
+    },
+    "23262": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583ebcf544cd8",
+              "url": "https://prehraj.to/komisar-rex-mlada-leta-avi-1992/583ebcf544cd8",
+              "title": "Komisar-Rex---Mlada-leta.avi-1992",
+              "year": null,
+              "duration_sec": 5355,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 74,
+                "candidate_runtime_sec": 5355,
+                "runtime_delta": 0.206,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d55162a0112",
+              "url": "https://prehraj.to/doktor-mordrid-jeffrey-combs/67d55162a0112",
+              "title": "Doktor Mordrid Jeffrey Combs",
+              "year": null,
+              "duration_sec": 4476,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.619,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 74,
+                "candidate_runtime_sec": 4476,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Doctor Mordrid (1992)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:04:04.537572+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "doctor-mordrid",
+        "title": "Doctor Mordrid",
+        "original_title": null,
+        "year": 1992,
+        "runtime_min": 74,
+        "tmdb_id": 1877,
+        "imdb_id": "tt0104115",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:03:59.367851+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:03:57.982884+00:00"
+  "updated_at": "2026-08-28T07:04:04.537594+00:00"
 }
