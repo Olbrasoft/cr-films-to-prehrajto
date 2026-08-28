@@ -12223,7 +12223,91 @@
         },
         "at": "2026-08-28T06:32:07.737687+00:00"
       }
+    },
+    "16539": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "17cba9a20b95d833",
+              "url": "https://prehraj.to/bechara-dil-none-cz-titulky/17cba9a20b95d833",
+              "title": "Bechara Dil (None) CZ titulky",
+              "year": null,
+              "duration_sec": 6086,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": null,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6086,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Bechara Dil"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "12639",
+              "url": "https://online.sktorrent.eu/video/12639/",
+              "title": "Bechara Dil",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:32:19.035726+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bechara-dil",
+        "title": "Bechara Dil",
+        "original_title": "Bechara Dil",
+        "year": null,
+        "runtime_min": null,
+        "tmdb_id": 1527363,
+        "imdb_id": "tt37333925",
+        "created_at": "2026-04-14 16:11:32.466219+02:00",
+        "added_at": "2020-09-18 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:32:17.176600+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:32:10.762450+00:00"
+  "updated_at": "2026-08-28T06:32:19.035745+00:00"
 }
