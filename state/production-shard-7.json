@@ -39079,7 +39079,39 @@
         },
         "at": "2026-08-28T17:43:01.060679+00:00"
       }
+    },
+    "6703": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T17:43:10.457754+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lida-baarova",
+        "title": "Lída Baarová",
+        "original_title": "Lída Baarová",
+        "year": 2016,
+        "runtime_min": null,
+        "tmdb_id": 376972,
+        "imdb_id": "tt4240406",
+        "created_at": "2026-04-13 13:19:26.476505+02:00",
+        "added_at": "2019-01-05 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T17:43:06.917045+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T17:43:05.414956+00:00"
+  "updated_at": "2026-08-28T17:43:10.457772+00:00"
 }
