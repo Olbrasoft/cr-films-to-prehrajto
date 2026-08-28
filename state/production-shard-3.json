@@ -23573,7 +23573,182 @@
         },
         "at": "2026-08-28T06:38:54.791819+00:00"
       }
+    },
+    "26347": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5807fe353da8c",
+              "url": "https://prehraj.to/v-jako-viteztvi-2-scifi-serial-1983-czdab-vhs/5807fe353da8c",
+              "title": "V_-_jako_viteztvi_2-scifi,serial(1983).czdab-vhs",
+              "year": null,
+              "duration_sec": 5261,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.175,
+                "title_contains_alias": false,
+                "film_year": 1983,
+                "candidate_year": 1983,
+                "year_match": true,
+                "film_runtime_min": 106,
+                "candidate_runtime_sec": 5261,
+                "runtime_delta": 0.173,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0c13628a9c33d972",
+              "url": "https://prehraj.to/marat-ples-v-opere-jointel-rmx/0c13628a9c33d972",
+              "title": "Marat - Ples v Opeře (JOINTEL RMX)",
+              "year": null,
+              "duration_sec": 206,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ples v opeře (1983)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9e816f6b8f33c43a",
+              "url": "https://prehraj.to/09-jointel-x-marat-ples-v-opere-rmx/9e816f6b8f33c43a",
+              "title": "09  JOINTEL x MARAT - Ples v opeře RMX",
+              "year": null,
+              "duration_sec": 205,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ples v opeře (1983)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4fb98d443d24c17e",
+              "url": "https://prehraj.to/09-jointel-x-marat-ples-v-opere-rmx/4fb98d443d24c17e",
+              "title": "09  JOINTEL x MARAT - Ples v opeře RMX",
+              "year": null,
+              "duration_sec": 205,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ples v opeře (1983)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1eeb6b66d2f00d69",
+              "url": "https://prehraj.to/marat-ples-v-opere-produced-by-freezer-peacock-kral-ladvi-ep/1eeb6b66d2f00d69",
+              "title": "Marat - Ples v Opeře (produced by Freezer, Peacock) [KRÁL…",
+              "year": null,
+              "duration_sec": 253,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.96,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ples v opeře (1983)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5abc066cec614",
+              "url": "https://prehraj.to/smotanka-to-najlepsie-z-plesu-v-opere-17-01-2015/5abc066cec614",
+              "title": "Smotánka - To najlepšie z Plesu v opere - 17.01.2015",
+              "year": null,
+              "duration_sec": 1619,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1983,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Ples v opeře (1983)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "07dff524ef6025b9",
+              "url": "https://prehraj.to/lucie-bila-desatero-bile-vanoce-v-opere-live-pres-covid-19-mp4/07dff524ef6025b9",
+              "title": "Lucie Bílá - Desatero (Bílé Vánoce v Opeře LIVE),přes Covid…",
+              "year": null,
+              "duration_sec": 349,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.945,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ples v opeře (1983)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:38:59.124503+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ples-v-opere",
+        "title": "Ples v opeře",
+        "original_title": null,
+        "year": 1983,
+        "runtime_min": 106,
+        "tmdb_id": 730594,
+        "imdb_id": "tt10636294",
+        "created_at": "2026-04-20 22:32:39.775883+02:00",
+        "added_at": "2026-04-20 22:32:39.775883+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:38:57.706071+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:38:56.361062+00:00"
+  "updated_at": "2026-08-28T06:38:59.124521+00:00"
 }
