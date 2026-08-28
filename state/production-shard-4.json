@@ -33008,7 +33008,59 @@
         "verified_at": "2026-08-28T08:21:28.795529+00:00",
         "live_display_name": "Thorn of War (2021) CZ Dabing"
       }
+    },
+    "14284": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f24a9fcd7c6e",
+              "url": "https://prehraj.to/mgs-4-7-epilogue-naked-sin-naked-son-no-alerts-walkthrough-no-commentary/5f24a9fcd7c6e",
+              "title": "MGS 4 - #7 - Epilogue - Naked Sin_Naked Son - No Alerts…",
+              "year": null,
+              "duration_sec": 2503,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.503,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naked Sins (2006)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:04:11.154365+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "naked-sins-2006",
+        "title": "Naked Sins",
+        "original_title": "Naked Sins",
+        "year": 2006,
+        "runtime_min": 84,
+        "tmdb_id": 248195,
+        "imdb_id": "tt1165312",
+        "created_at": "2026-04-14 15:54:27.230711+02:00",
+        "added_at": "2024-09-07 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:04:07.290410+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:03:17.751056+00:00"
+  "updated_at": "2026-08-28T11:04:11.154378+00:00"
 }
