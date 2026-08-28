@@ -20325,7 +20325,67 @@
         },
         "at": "2026-08-28T03:31:04.344845+00:00"
       }
+    },
+    "27394": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55ffeb1d19644",
+              "url": "https://prehraj.to/irska-odplata-2009-cz-dab-drama-komedie-p-p/55ffeb1d19644",
+              "title": "Irska odplata -  2009 cz dab.drama,komedie p.p",
+              "year": null,
+              "duration_sec": 5043,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.167,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 116,
+                "candidate_runtime_sec": 5043,
+                "runtime_delta": 0.275,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:31:08.596083+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "p-nk-funhouse-tour-live-in-australia",
+        "title": "P!NK: Funhouse Tour - Live in Australia",
+        "original_title": null,
+        "year": 2009,
+        "runtime_min": 116,
+        "tmdb_id": 27308,
+        "imdb_id": "tt1596280",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:31:07.058560+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:31:05.808109+00:00"
+  "updated_at": "2026-08-28T03:31:08.596104+00:00"
 }
