@@ -27515,7 +27515,67 @@
         },
         "at": "2026-08-28T07:24:55.022894+00:00"
       }
+    },
+    "24418": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58572d62c7420",
+              "url": "https://prehraj.to/nasi-sousede-jamadovi-1999-sdtv-x264-ac3-pip/58572d62c7420",
+              "title": "Naši.sousedé.Jamadovi.1999.SDTV.x264.AC3-PiP",
+              "year": null,
+              "duration_sec": 5961,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.316,
+                "title_contains_alias": false,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": 77,
+                "candidate_runtime_sec": 5961,
+                "runtime_delta": 0.29,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:25:02.135179+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "pippi-i-soderhavet",
+        "title": "Pippi i Söderhavet",
+        "original_title": "Pippi's Adventures on the South Seas",
+        "year": 1999,
+        "runtime_min": 77,
+        "tmdb_id": 76796,
+        "imdb_id": "tt0213159",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:24:57.508798+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:24:56.082200+00:00"
+  "updated_at": "2026-08-28T07:25:02.135203+00:00"
 }
