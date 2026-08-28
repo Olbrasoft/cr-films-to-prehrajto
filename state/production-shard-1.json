@@ -37351,6 +37351,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:01:08.733933+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583d0b1b1b6b1",
+              "url": "https://prehraj.to/daniel-landa-vltava-tour-2003-gelu27/583d0b1b1b6b1",
+              "title": "Daniel-Landa-Vltava-Tour-2003(gelu27)",
+              "year": null,
+              "duration_sec": 5718,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.906,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:19:25.311695+00:00"
         }
       ],
       "identity": {
@@ -37369,7 +37400,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:01:08.053311+00:00"
+        "at": "2026-08-28T03:19:21.324757+00:00"
       }
     },
     "27545": {
@@ -73406,5 +73437,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:19:19.768435+00:00"
+  "updated_at": "2026-08-28T03:19:25.311717+00:00"
 }
