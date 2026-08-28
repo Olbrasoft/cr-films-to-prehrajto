@@ -8242,7 +8242,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-25T17:29:40.739413+00:00",
-        "verified_at": "2026-08-28T09:48:13.843461+00:00",
+        "verified_at": "2026-08-28T14:45:40.825011+00:00",
         "live_display_name": "Až umřu, budou mě milovat (2018) CZ titulky"
       }
     },
@@ -76573,7 +76573,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T11:07:16.992458+00:00",
-        "verified_at": "2026-08-28T09:48:34.280263+00:00",
+        "verified_at": "2026-08-28T14:46:02.754832+00:00",
         "live_display_name": "Pozdě, ale přece (2024) CZ titulky"
       }
     },
@@ -84602,7 +84602,19 @@
       }
     },
     "49": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "56413",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28904385",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T12:24:36.696587+00:00"
+        }
+      ],
       "identity": {
         "slug": "lvi-kral",
         "title": "Lví král",
@@ -84620,19 +84632,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:03:11.918459+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904385",
-        "display_name": "Lví král (1994) CZ Dabing",
-        "size_bytes": 556867246,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "56413",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:09:50.905785+00:00"
       }
     },
     "16433": {
@@ -84665,8 +84664,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:22:15.985352+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:22:15.985352+00:00",
+        "verified_at": "2026-08-28T13:33:22.802381+00:00",
+        "live_display_name": "Dívka jménem Willow (2025) CZ Dabing"
       }
     },
     "15601": {
@@ -84798,12 +84799,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:33:23.108841+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:33:23.108841+00:00",
+        "verified_at": "2026-08-28T12:25:18.581193+00:00",
+        "live_display_name": "Topside (2022) CZ Dabing"
       }
     },
     "7449": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "52862",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28904651",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T12:25:38.943181+00:00"
+        }
+      ],
       "identity": {
         "slug": "pod-parou",
         "title": "Pod parou",
@@ -84821,19 +84836,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:33:28.151913+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904651",
-        "display_name": "Pod parou (2025) CZ Dabing",
-        "size_bytes": 558423547,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "52862",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:37:33.274755+00:00"
       }
     },
     "849": {
@@ -84866,8 +84868,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:43:55.523978+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:43:55.523978+00:00",
+        "verified_at": "2026-08-28T12:25:49.432406+00:00",
+        "live_display_name": "Better Man (2024) CZ Dabing"
       }
     },
     "13969": {
@@ -84968,10 +84972,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:58:42.403624+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:58:42.403624+00:00",
+        "verified_at": "2026-08-28T13:03:44.571775+00:00",
+        "live_display_name": "Maneater (2022) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T11:58:42.403648+00:00"
+  "updated_at": "2026-08-28T14:46:14.750326+00:00"
 }

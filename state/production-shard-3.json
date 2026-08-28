@@ -6778,7 +6778,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T08:02:17.574699+00:00",
-        "verified_at": "2026-08-28T09:49:15.236359+00:00",
+        "verified_at": "2026-08-28T14:48:10.135145+00:00",
         "live_display_name": "Tajemství loňského léta 3 (2006) CZ titulky"
       }
     },
@@ -9055,7 +9055,7 @@
         "subtitle_handling": "not required",
         "processing_status": "active",
         "uploaded_at": "2026-08-27T03:53:07.912431+00:00",
-        "verified_at": "2026-08-28T09:49:46.395706+00:00",
+        "verified_at": "2026-08-28T14:48:41.829198+00:00",
         "live_display_name": "Christmas Bloody Christmas (2022) CZ titulky"
       }
     },
@@ -32795,8 +32795,10 @@
         "language_tier": "slovak_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:15:13.528675+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:15:13.528675+00:00",
+        "verified_at": "2026-08-28T12:30:32.810826+00:00",
+        "live_display_name": "Traumatika (2025) CZ Dabing"
       }
     },
     "17259": {
@@ -32829,8 +32831,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:21:06.745917+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:21:06.745917+00:00",
+        "verified_at": "2026-08-28T12:30:43.204369+00:00",
+        "live_display_name": "Stíny smrti: Vražda v Les Alpilles (2017) CZ Dabing"
       }
     },
     "15851": {
@@ -32936,7 +32940,19 @@
       }
     },
     "13859": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "44338",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28904653",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T12:31:37.520129+00:00"
+        }
+      ],
       "identity": {
         "slug": "pravo-na-lasku-2007",
         "title": "Právo na lásku",
@@ -32954,19 +32970,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:31:45.420537+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904653",
-        "display_name": "Právo na lásku (2007) CZ Dabing",
-        "size_bytes": 602774220,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "44338",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:37:45.119176+00:00"
       }
     },
     "6171": {
@@ -33836,8 +33839,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:41:33.305692+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:41:33.305692+00:00",
+        "verified_at": "2026-08-28T12:31:48.136533+00:00",
+        "live_display_name": "Královnin gambit (2023) CZ Dabing"
       }
     },
     "11419": {
@@ -33870,8 +33875,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:47:08.288671+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:47:08.288671+00:00",
+        "verified_at": "2026-08-28T12:31:58.387962+00:00",
+        "live_display_name": "Texasští gladiátoři 2020 (1983) CZ Dabing"
       }
     },
     "5539": {
@@ -33904,10 +33911,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:52:18.472197+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:52:18.472197+00:00",
+        "verified_at": "2026-08-28T12:51:24.924746+00:00",
+        "live_display_name": "Londýnský gangster (2010) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T11:52:18.472233+00:00"
+  "updated_at": "2026-08-28T14:48:52.470651+00:00"
 }

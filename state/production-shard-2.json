@@ -10529,6 +10529,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T07:55:45.988701+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "d56d95dc00f0c09d",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28904353",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T12:26:52.374674+00:00"
         }
       ],
       "identity": {
@@ -10548,19 +10559,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:03:10.909321+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904353",
-        "display_name": "Hvězdná brána (1994) CZ Dabing",
-        "size_bytes": 2282060467,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "d56d95dc00f0c09d",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:15:07.743338+00:00"
       }
     },
     "754": {
@@ -11351,6 +11349,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T07:56:06.379660+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "2f2a8f40848bae0d",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28904493",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T12:27:13.121585+00:00"
         }
       ],
       "identity": {
@@ -11370,19 +11379,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:15:15.130641+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904493",
-        "display_name": "John Wick 2 (2017) CZ Dabing",
-        "size_bytes": 618877741,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "2f2a8f40848bae0d",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:19:50.590162+00:00"
       }
     },
     "5290": {
@@ -36329,8 +36325,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:28:39.620669+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:28:39.620669+00:00",
+        "verified_at": "2026-08-28T14:18:17.475843+00:00",
+        "live_display_name": "Vánoční pásmo Život není krásný (2024) CZ Dabing"
       }
     },
     "14402": {
@@ -37264,8 +37262,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:53:01.471431+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:53:01.471431+00:00",
+        "verified_at": "2026-08-28T12:48:37.840046+00:00",
+        "live_display_name": "Mord (2024) CZ Dabing"
       }
     },
     "5770": {
@@ -37298,8 +37298,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:56:13.126672+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:56:13.126672+00:00",
+        "verified_at": "2026-08-28T12:28:16.552350+00:00",
+        "live_display_name": "Němý svědek (2024) CZ Dabing"
       }
     },
     "17586": {
@@ -37366,10 +37368,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T12:05:31.433465+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T12:05:31.433465+00:00",
+        "verified_at": "2026-08-28T12:48:58.505463+00:00",
+        "live_display_name": "The Peacemaker (1997) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T12:05:31.433498+00:00"
+  "updated_at": "2026-08-28T14:18:17.475861+00:00"
 }

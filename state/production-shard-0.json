@@ -55729,7 +55729,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T02:33:20.021184+00:00",
-        "verified_at": "2026-08-28T09:47:11.741731+00:00",
+        "verified_at": "2026-08-28T14:44:06.475512+00:00",
         "live_display_name": "Půjč mi svou ruku (2006) CZ titulky"
       }
     },
@@ -56581,8 +56581,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:15:26.305946+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:15:26.305946+00:00",
+        "verified_at": "2026-08-28T12:20:47.496226+00:00",
+        "live_display_name": "The Mystery of Natalie Wood (2004) CZ Dabing"
       }
     },
     "25254": {
@@ -62697,8 +62699,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:19:18.915649+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:19:18.915649+00:00",
+        "verified_at": "2026-08-28T12:20:58.075122+00:00",
+        "live_display_name": "Kdo jsem? (1996) CZ Dabing"
       }
     },
     "23496": {
@@ -66418,7 +66422,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-27T01:11:03.325690+00:00",
-        "verified_at": "2026-08-28T09:47:42.676451+00:00",
+        "verified_at": "2026-08-28T14:44:38.398882+00:00",
         "live_display_name": "Moje tlustá řecká svatba 3 (2023) CZ titulky"
       }
     },
@@ -70535,6 +70539,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T07:53:00.656697+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "6055c9fc646b8",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28904337",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T12:22:00.875413+00:00"
         }
       ],
       "identity": {
@@ -70554,19 +70569,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:03:05.993108+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904337",
-        "display_name": "Příliš osobní známost (2020) CZ Dabing",
-        "size_bytes": 618435326,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "6055c9fc646b8",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:06:46.429523+00:00"
       }
     },
     "5944": {
@@ -74616,8 +74618,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:23:53.824392+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:23:53.824392+00:00",
+        "verified_at": "2026-08-28T12:22:11.542952+00:00",
+        "live_display_name": "Bombers B-52 (1957) CZ Dabing"
       }
     },
     "21144": {
@@ -74916,8 +74920,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:38:04.083217+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:38:04.083217+00:00",
+        "verified_at": "2026-08-28T12:22:52.191816+00:00",
+        "live_display_name": "Sobík Niko 2 (2012) CZ Dabing"
       }
     },
     "16304": {
@@ -74950,12 +74956,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:41:20.212432+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T11:41:20.212432+00:00",
+        "verified_at": "2026-08-28T12:23:02.497281+00:00",
+        "live_display_name": "Sestra ve městě (2025) CZ Dabing"
       }
     },
     "5704": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "52835",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28904741",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T12:23:22.832947+00:00"
+        }
+      ],
       "identity": {
         "slug": "bezstarostny-sex",
         "title": "Bezstarostný sex",
@@ -74973,21 +74993,8 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:41:24.306742+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904741",
-        "display_name": "Bezstarostný sex (2007) CZ Dabing",
-        "size_bytes": 421200969,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "52835",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T11:44:59.836199+00:00"
       }
     }
   },
-  "updated_at": "2026-08-28T11:44:59.836222+00:00"
+  "updated_at": "2026-08-28T14:44:48.992028+00:00"
 }
