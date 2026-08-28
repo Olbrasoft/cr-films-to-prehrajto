@@ -27225,7 +27225,120 @@
         },
         "at": "2026-08-28T07:39:39.184759+00:00"
       }
+    },
+    "23029": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5894fd87e56bc",
+              "url": "https://prehraj.to/china-o-brien-2-1989-vhs-rip-cz-dabing/5894fd87e56bc",
+              "title": "China-O-Brien-2---1989-VHS-rip-cz-dabing",
+              "year": null,
+              "duration_sec": 4920,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.05,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58414ba8be20f",
+              "url": "https://prehraj.to/china-o-brien-2-1989-cz-dabing/58414ba8be20f",
+              "title": "China-O-Brien-2-1989-CZ-dabing",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.062,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5857ee54ebfda",
+              "url": "https://prehraj.to/china-o-brien-2-1989-cz-dabing/5857ee54ebfda",
+              "title": "China-O-Brien-2-1989-CZ-dabing",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.062,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5865b7c974503",
+              "url": "https://prehraj.to/china-o-brien-2-1989-cz-dabing/5865b7c974503",
+              "title": "China-O-Brien-2-1989-CZ-dabing",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.062,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:39:53.898021+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-first-emperor-of-china",
+        "title": "The First Emperor of China",
+        "original_title": null,
+        "year": 1989,
+        "runtime_min": 40,
+        "tmdb_id": 274579,
+        "imdb_id": "tt0097362",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:39:46.927317+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:39:45.476027+00:00"
+  "updated_at": "2026-08-28T07:39:53.898040+00:00"
 }
