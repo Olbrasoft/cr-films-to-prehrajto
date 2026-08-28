@@ -17799,7 +17799,60 @@
         },
         "at": "2026-08-28T03:23:58.925539+00:00"
       }
+    },
+    "29026": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64f777f27474a",
+              "url": "https://prehraj.to/godzilla-1-2014-1920x800-kino-5-1-cz/64f777f27474a",
+              "title": "Godzilla 1 (2014) ( 1920x800 - Kino 5.1 ) CZ",
+              "year": null,
+              "duration_sec": 7387,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.368,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:24:10.846152+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "caligari-wie-der-horror-ins-kino-kam",
+        "title": "Caligari — Wie der Horror ins Kino kam",
+        "original_title": "Caligari: When Horror Came to Cinema",
+        "year": 2014,
+        "runtime_min": 52,
+        "tmdb_id": 255666,
+        "imdb_id": "tt3898470",
+        "created_at": "2026-04-20 22:32:42.350697+02:00",
+        "added_at": "2026-04-20 22:32:42.350697+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:24:01.398420+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:24:00.278311+00:00"
+  "updated_at": "2026-08-28T03:24:10.846171+00:00"
 }
