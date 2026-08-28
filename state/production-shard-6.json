@@ -13975,7 +13975,60 @@
         },
         "at": "2026-08-28T06:41:30.870095+00:00"
       }
+    },
+    "29806": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "606ca56e76d0d",
+              "url": "https://prehraj.to/x-2019-1080p-amzn-web-dl-ddp5-1-h264-worm/606ca56e76d0d",
+              "title": "X.2019.1080p.AMZN.WEB-DL.DDP5.1.H264-WORM",
+              "year": null,
+              "duration_sec": 7650,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.75,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:41:37.459998+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bag-of-worms",
+        "title": "Bag of Worms",
+        "original_title": null,
+        "year": 2019,
+        "runtime_min": 10,
+        "tmdb_id": 786924,
+        "imdb_id": "tt8987534",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:41:34.670461+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:41:33.346926+00:00"
+  "updated_at": "2026-08-28T06:41:37.460018+00:00"
 }
