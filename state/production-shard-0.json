@@ -55932,6 +55932,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:31:29.669582+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583b0fc24acb4",
+              "url": "https://prehraj.to/kralovna-reky-2005-drama-dobrod-akcni-cz-dab-avlys-110/583b0fc24acb4",
+              "title": "Kralovna_reky(2005)_drama_dobrod._akcni-cz_dab.avlys-110",
+              "year": null,
+              "duration_sec": 6560,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.289,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6560,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:12:34.072306+00:00"
         }
       ],
       "identity": {
@@ -55950,7 +55988,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:31:29.195210+00:00"
+        "at": "2026-08-28T11:12:32.336238+00:00"
       }
     },
     "25506": {
@@ -69325,5 +69363,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:12:30.714809+00:00"
+  "updated_at": "2026-08-28T11:12:34.072322+00:00"
 }
