@@ -26618,7 +26618,94 @@
         },
         "at": "2026-08-28T07:02:41.360170+00:00"
       }
+    },
+    "24486": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe1d294ca2c6",
+              "url": "https://prehraj.to/kanka-do-pohadky-ceska-pohadka-1981/5fe1d294ca2c6",
+              "title": "Kaňka do pohádky - česká pohádka 1981",
+              "year": null,
+              "duration_sec": 4285,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 4285,
+                "runtime_delta": 0.368,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586ba62a8b213",
+              "url": "https://prehraj.to/kanka-do-pohadky-ceska-pohadka-1981-cz/586ba62a8b213",
+              "title": "Kanka-do-pohadky-ceska-pohadka-1981-cz",
+              "year": null,
+              "duration_sec": 4285,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 113,
+                "candidate_runtime_sec": 4285,
+                "runtime_delta": 0.368,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:03:01.031578+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "film-21",
+        "title": "কলঙ্কিনী কঙ্কাবতী",
+        "original_title": "Kalankini Kankabati",
+        "year": 1981,
+        "runtime_min": 113,
+        "tmdb_id": 1129264,
+        "imdb_id": "tt0234002",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:02:44.717037+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:02:43.248229+00:00"
+  "updated_at": "2026-08-28T07:03:01.031599+00:00"
 }
