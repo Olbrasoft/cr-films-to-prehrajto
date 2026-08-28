@@ -33588,7 +33588,39 @@
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T22:43:56.158166+00:00"
       }
+    },
+    "9575": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:31:51.579151+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "vsechno-nebo-nic",
+        "title": "Všechno nebo nic",
+        "original_title": "Všechno nebo nic",
+        "year": 2017,
+        "runtime_min": null,
+        "tmdb_id": 427152,
+        "imdb_id": "tt3868240",
+        "created_at": "2026-04-13 13:19:27.586412+02:00",
+        "added_at": "2024-11-12 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:31:48.482912+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:31:46.974700+00:00"
+  "updated_at": "2026-08-28T02:31:51.579163+00:00"
 }
