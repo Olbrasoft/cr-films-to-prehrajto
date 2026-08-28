@@ -83773,7 +83773,546 @@
         },
         "at": "2026-08-28T06:37:10.507033+00:00"
       }
+    },
+    "21289": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588e9f226892a",
+              "url": "https://prehraj.to/frantisek-prostacek-bozi-2f-francesco-giullare-di-dio-1950-cz-tit/588e9f226892a",
+              "title": "František,-prosťáček-boží-%2F-Francesco,-giullare-di-Dio-1950,-CZ-tit",
+              "year": null,
+              "duration_sec": 4988,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.247,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": 1950,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4988,
+                "runtime_delta": 0.258,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "559a272c2725b",
+              "url": "https://prehraj.to/frantisek-prostacek-bozi-francesco-giullare-di-dio-1950-cz-tit/559a272c2725b",
+              "title": "František,-prosťáček-boží-_-Francesco,-giullare-di-Dio-1950,-CZ-tit",
+              "year": null,
+              "duration_sec": 4988,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.179,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": 1950,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4988,
+                "runtime_delta": 0.258,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5597ea63ad20d",
+              "url": "https://prehraj.to/frantisek-prostacek-bozi-francesco-giullare-di-dio-1950-cz-tit/5597ea63ad20d",
+              "title": "František,-prosťáček-boží-_-Francesco,-giullare-di-Dio-1950,-CZ-tit",
+              "year": null,
+              "duration_sec": 4988,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.179,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": 1950,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4988,
+                "runtime_delta": 0.258,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58eaa00442a65",
+              "url": "https://prehraj.to/bohove-a-hrdinove-antickych-mytu-trojska-valka/58eaa00442a65",
+              "title": "Bohove-a-hrdinove-antickych-mytu--Trojska-valka",
+              "year": null,
+              "duration_sec": 994,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.852,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a9a58330f6c",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-1/67a9a58330f6c",
+              "title": "Slavne bojove akce 2  svetove valky  1",
+              "year": null,
+              "duration_sec": 3670,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.458,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 3670,
+                "runtime_delta": 0.454,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "faaeb8dad5fcb525",
+              "url": "https://prehraj.to/bohove-a-hrdinove-antickych-mytu-08-dil-trojska-valka/faaeb8dad5fcb525",
+              "title": "Bohové a hrdinové antických mýtů - 08. díl - Trojská válka",
+              "year": null,
+              "duration_sec": 1001,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.851,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58dcfde97a879",
+              "url": "https://prehraj.to/bohove-a-hrdinove-antickych-mytu-trojska-valka-dokument-tvrip/58dcfde97a879",
+              "title": "Bohove-a-hrdinove-antickych-mytu-Trojska-valka-dokument…",
+              "year": null,
+              "duration_sec": 997,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.852,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f916d61868bd7a62",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-2-horsky-masakr-avi/f916d61868bd7a62",
+              "title": "Slavné bojové akce 2. světové války 2. Horský masakr .avi",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a9d773728fa",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-2-horsky-masakr-2014-hdtv-h264-r/67a9d773728fa",
+              "title": "Slavné bojové akce 2.světové války-2-Horský masakr_2014…",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c6dd7ed92cb59f61",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-2-horsky-masakr-mp4/c6dd7ed92cb59f61",
+              "title": "Slavné bojové akce 2.světové války 2 Horský masakr  .mp4",
+              "year": null,
+              "duration_sec": 2883,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654ad36f40827",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-2-horsky-masakr/654ad36f40827",
+              "title": "Slavné bojové akce 2 světové války 2 Horský masakr",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cb7de0c00024689d",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-hitleruv-posledni-most-avi/cb7de0c00024689d",
+              "title": "Slavné bojové akce 2. Světové války - Hitlerův poslední…",
+              "year": null,
+              "duration_sec": 2883,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65173e26b2fcf759",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-3-hitleruv-posledni-most-mp4/65173e26b2fcf759",
+              "title": "Slavné bojové akce 2.světové války 3 Hitlerův poslední most…",
+              "year": null,
+              "duration_sec": 2883,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a9d74324e15",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-3-hitleruv-posledni-most-2014-hdtv-h264-r/67a9d74324e15",
+              "title": "Slavné bojové akce 2.světové války-3-Hitlerův poslední most…",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aa68c96b9662fec6",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-4-uder-z-oblohy-avi/aa68c96b9662fec6",
+              "title": "Slavné bojové akce 2. světové války 4. Úder z oblohy .avi",
+              "year": null,
+              "duration_sec": 2882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "07703f19256dd4fa",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-5-sas-versus-rommel-avi/07703f19256dd4fa",
+              "title": "Slavné bojové akce 2. světové války 5. SAS versus Rommel …",
+              "year": null,
+              "duration_sec": 2882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fa0f9e3f63ebe89b",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-4-uder-z-oblohy-mp4/fa0f9e3f63ebe89b",
+              "title": "Slavné bojové akce 2.světové války 4 Úder z oblohy .mp4",
+              "year": null,
+              "duration_sec": 2882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654b18a9ccb5b295",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-3-hitleruv-posledni-most-avi/654b18a9ccb5b295",
+              "title": "Slavné bojové akce 2. světové války 3. Hitlerův poslední…",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654ad47ed72ec",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-5-sas-versus-rommel/654ad47ed72ec",
+              "title": "Slavné bojové akce 2 světové války 5 SAS versus Rommel",
+              "year": null,
+              "duration_sec": 2882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654ad3f0bb6ef",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-3-hitleruv-posledni-most/654ad3f0bb6ef",
+              "title": "Slavné bojové akce 2 světové války 3 Hitlerův poslední most",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a9d71b24ba5",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-4-uder-z-oblohy-2014-hdtv-h264-r/67a9d71b24ba5",
+              "title": "Slavné bojové akce 2.světové války-4-Úder z oblohy_2014…",
+              "year": null,
+              "duration_sec": 2882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dbc1eb3504c8652b",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-5-sas-versus-rommel-mp4/dbc1eb3504c8652b",
+              "title": "Slavné bojové akce 2.světové války 5 SAS versus Rommel .mp4",
+              "year": null,
+              "duration_sec": 2882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654ad4fd1e31e",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-6-utok-na-saint-nazaire/654ad4fd1e31e",
+              "title": "Slavné bojové akce 2 světové války 6 Útok na Saint-Nazaire",
+              "year": null,
+              "duration_sec": 2882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654ad2f33bdbe",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-1-utok-na-pointe-du-hoc/654ad2f33bdbe",
+              "title": "Slavné bojové akce 2 světové války 1 Útok na Pointe du Hoc",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a9d7a44a9cd",
+              "url": "https://prehraj.to/slavne-bojove-akce-2-svetove-valky-1-utok-na-pointe-du-hoc-2014-hdtv-h264-r/67a9d7a44a9cd",
+              "title": "Slavné bojové akce 2. světové války-1-Útok na Pointe du Hoc…",
+              "year": null,
+              "duration_sec": 2884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.571,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Bohové války (1950)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:37:28.375998+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bohove-valky",
+        "title": "Bohové války",
+        "original_title": "Council of the Gods",
+        "year": 1950,
+        "runtime_min": 112,
+        "tmdb_id": 72788,
+        "imdb_id": "tt0042877",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:37:25.732941+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:37:21.516205+00:00"
+  "updated_at": "2026-08-28T06:37:28.376009+00:00"
 }
