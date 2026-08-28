@@ -21719,7 +21719,60 @@
         },
         "at": "2026-08-28T06:35:31.467566+00:00"
       }
+    },
+    "26899": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fd93ff3ebcc2",
+              "url": "https://prehraj.to/formule-1-turkey-2020/5fd93ff3ebcc2",
+              "title": "Formule 1 - Turkey 2020",
+              "year": null,
+              "duration_sec": 8341,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.738,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:35:38.767069+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "turkey-day",
+        "title": "Turkey Day",
+        "original_title": null,
+        "year": 2020,
+        "runtime_min": 80,
+        "tmdb_id": 1003730,
+        "imdb_id": "tt13161624",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:35:38.108700+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:35:36.736503+00:00"
+  "updated_at": "2026-08-28T06:35:38.767088+00:00"
 }
