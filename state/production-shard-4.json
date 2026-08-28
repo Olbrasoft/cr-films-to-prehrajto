@@ -14815,7 +14815,60 @@
         },
         "at": "2026-08-28T02:26:17.631678+00:00"
       }
+    },
+    "29172": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5819c879b42f0",
+              "url": "https://prehraj.to/prerusena-hra-1979/5819c879b42f0",
+              "title": "Prerusena-Hra---1979",
+              "year": null,
+              "duration_sec": 3888,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 3.32,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:26:29.394625+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "o-marysce-a-vlcim-hradku",
+        "title": "O Maryšce a vlčím hrádku",
+        "original_title": "Maryshka and the Wolf's Castle",
+        "year": 1979,
+        "runtime_min": 15,
+        "tmdb_id": 964013,
+        "imdb_id": "tt4411790",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:26:19.779728+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:26:18.630877+00:00"
+  "updated_at": "2026-08-28T02:26:29.394643+00:00"
 }
