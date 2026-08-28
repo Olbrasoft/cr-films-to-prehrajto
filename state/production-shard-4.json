@@ -27699,7 +27699,1249 @@
         },
         "at": "2026-08-28T02:49:19.926274+00:00"
       }
+    },
+    "23140": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "577c12acd9b3f",
+              "url": "https://prehraj.to/cas-sluhu-1989-monty-698/577c12acd9b3f",
+              "title": "Čas-sluhů-(1989)-MONTY-698",
+              "year": null,
+              "duration_sec": 6655,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.216,
+                "title_contains_alias": false,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 6655,
+                "runtime_delta": 0.29,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6819d5eead112",
+              "url": "https://prehraj.to/zavod-s-casem-2000-race-against-time-92-min-eric-roberts-cary-elwes/6819d5eead112",
+              "title": "ZÁVOD S ČASEM  2000  (Race Against Time  92 min.  Eric…",
+              "year": null,
+              "duration_sec": 5485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2000,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "21dd9a2266c32704",
+              "url": "https://prehraj.to/zavod-s-casem-2013-cz-mp4/21dd9a2266c32704",
+              "title": "Závod s časem (2013)(CZ).mp4",
+              "year": null,
+              "duration_sec": 4722,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dac30166605314f6",
+              "url": "https://prehraj.to/zavod-s-casem-2013-avi/dac30166605314f6",
+              "title": "Závod s časem 2013.avi",
+              "year": null,
+              "duration_sec": 5404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6809aa97bd2ae",
+              "url": "https://prehraj.to/zavod-s-casem-2000-race-against-time-92-min-eric-roberts-cary-elwes/6809aa97bd2ae",
+              "title": "ZÁVOD S ČASEM  2000  (Race Against Time  92 min.  Eric…",
+              "year": null,
+              "duration_sec": 5485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2000,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "40a4a5ec54b62789",
+              "url": "https://prehraj.to/zavod-s-casem-2013-getaway-usa-bulharsko-akcni-krimi-sktonline/40a4a5ec54b62789",
+              "title": "Závod s časem (2013) (Getaway) USA - Bulharsko, Akční -…",
+              "year": null,
+              "duration_sec": 5404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3e0de7e6c0f1f773",
+              "url": "https://prehraj.to/zavod-s-casem-2000-cs/3e0de7e6c0f1f773",
+              "title": "Závod s časem - 2000 CS",
+              "year": null,
+              "duration_sec": 5485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2000,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "611213a715d2d",
+              "url": "https://prehraj.to/zavod-s-casem-getaway-2013-akcni-cz-dab-1080p-hd/611213a715d2d",
+              "title": "Závod s časem - Getaway (2013) Akčni Cz dab 1080p HD",
+              "year": null,
+              "duration_sec": 5819,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f97fdf56c4b8",
+              "url": "https://prehraj.to/zavod-s-casem-getaway-2013/5f97fdf56c4b8",
+              "title": "Závod s časem  Getaway (2013)",
+              "year": null,
+              "duration_sec": 5404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7797427da5626136",
+              "url": "https://prehraj.to/zavod-s-casem-getaway-2013-akcni-cz-dab-1080p-hd/7797427da5626136",
+              "title": "Závod s časem - Getaway (2013) Akčni Cz dab 1080p HD",
+              "year": null,
+              "duration_sec": 5819,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65305cff29523",
+              "url": "https://prehraj.to/zavod-s-casem-getaway-2013/65305cff29523",
+              "title": "Závod s časem  Getaway (2013)",
+              "year": null,
+              "duration_sec": 5404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1989,
+                "candidate_year": 2013,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "29a63d744d57cf43",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-01x01-vlna/29a63d744d57cf43",
+              "title": "Tsunami - Závod s časem 01x01 - Vlna",
+              "year": null,
+              "duration_sec": 2526,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "675bdd84693ad",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-01x04-zachrana/675bdd84693ad",
+              "title": "Tsunami - Závod s časem 01x04 - Záchrana",
+              "year": null,
+              "duration_sec": 2525,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "645d844883571",
+              "url": "https://prehraj.to/nezvestni-zavod-s-casem-s01e04-cztitulky/645d844883571",
+              "title": "Nezvěstní - Závod s časem S01E04 CZtitulky",
+              "year": null,
+              "duration_sec": 2813,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "645d82a266b5b",
+              "url": "https://prehraj.to/nezvestni-zavod-s-casem-s01e01-cztitulky/645d82a266b5b",
+              "title": "Nezvěstní - Závod s časem S01E01 CZtitulky",
+              "year": null,
+              "duration_sec": 4057,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c508a38b3ea9eac4",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s1e1-cs/c508a38b3ea9eac4",
+              "title": "Tsunami: Závod s časem - S1E1 CS",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cafe09c402cbd74b",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s1e3-cs/cafe09c402cbd74b",
+              "title": "Tsunami: Závod s časem - S1E3 CS",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9dedcce2e56c9337",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s1e4-zachrana-cs/9dedcce2e56c9337",
+              "title": "Tsunami: Závod s časem - S1E4 Záchrana CS",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6651c6296701f3a5",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s01e00-720p-cz/6651c6296701f3a5",
+              "title": "Tsunami Závod s časem S01E00 720p CZ",
+              "year": null,
+              "duration_sec": 2646,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "37f507a7b221f04b",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s01e00-720p-cz/37f507a7b221f04b",
+              "title": "Tsunami Závod s časem S01E00 720p CZ",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a2947ecd7b56b1a6",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s1e4-cs/a2947ecd7b56b1a6",
+              "title": "Tsunami: Závod s časem - S1E4 CS",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ef0d8cc4e13",
+              "url": "https://prehraj.to/4-zavod-s-casem/68ef0d8cc4e13",
+              "title": "4 - Závod s časem",
+              "year": null,
+              "duration_sec": 2709,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 2709,
+                "runtime_delta": 0.475,
+                "rejection_reason": "title_only"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "497cd278082f7d42",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s01e00-720p-cz/497cd278082f7d42",
+              "title": "Tsunami Závod s časem S01E00 720p CZ",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd79da13adf2dd6e",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s01e00-720p-cz/dd79da13adf2dd6e",
+              "title": "Tsunami Závod s časem S01E00 720p CZ",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e33c08040620ace7",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-01x03-prvni-zpravy/e33c08040620ace7",
+              "title": "Tsunami - Závod s časem 01x03 - První - zprávy",
+              "year": null,
+              "duration_sec": 2526,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58bd90f19e62d",
+              "url": "https://prehraj.to/50-zavod-s-casem/58bd90f19e62d",
+              "title": "50-Závod s časem",
+              "year": null,
+              "duration_sec": 1207,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.766,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "afc31856b5b9514e",
+              "url": "https://prehraj.to/nezvestni-zavod-s-casem-s1e3-en/afc31856b5b9514e",
+              "title": "Nezvěstní: Závod s časem - S1E3 EN",
+              "year": null,
+              "duration_sec": 1878,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67f2ce7114abc",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s01e02-thajsko/67f2ce7114abc",
+              "title": "Tsunami Závod s časem - S01E02 -Thajsko",
+              "year": null,
+              "duration_sec": 2646,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67f2ceef1b966",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s01e04-zachrana/67f2ceef1b966",
+              "title": "Tsunami Závod s časem - S01E04 - Záchrana",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67f2ceae398e8",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-s01e03-mimoradne-zpravy/67f2ceae398e8",
+              "title": "Tsunami Závod s časem - S01E03 - Mimořádné zprávy",
+              "year": null,
+              "duration_sec": 2644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "675bda9e5f8b5",
+              "url": "https://prehraj.to/tsunami-zavod-s-casem-01x02-thajsko/675bda9e5f8b5",
+              "title": "Tsunami - Závod s časem 01x02 - Thajsko",
+              "year": null,
+              "duration_sec": 2529,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "645d8362837c4",
+              "url": "https://prehraj.to/nezvestni-zavod-s-casem-s01e02-cztitulky/645d8362837c4",
+              "title": "Nezvěstní - Závod s časem S01E02 CZtitulky",
+              "year": null,
+              "duration_sec": 2793,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "645d83e7a0cf3",
+              "url": "https://prehraj.to/nezvestni-zavod-s-casem-s01e03-cztitulky/645d83e7a0cf3",
+              "title": "Nezvěstní - Závod s časem S01E03 CZtitulky",
+              "year": null,
+              "duration_sec": 1878,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Závod s časem (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "646b42a37b350",
+              "url": "https://prehraj.to/think-big/646b42a37b350",
+              "title": "Think Big",
+              "year": null,
+              "duration_sec": 8647,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.676,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f108873b03d1",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e06-cztitulky/5f108873b03d1",
+              "title": "Archibalds Next Big Thing S01E06 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1088eb29545",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e09-cztitulky/5f1088eb29545",
+              "title": "Archibalds Next Big Thing S01E09 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f10889bb1d58",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e07-cztitulky/5f10889bb1d58",
+              "title": "Archibalds Next Big Thing S01E07 CZtitulky",
+              "year": null,
+              "duration_sec": 1449,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c8e8ce63f9",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e01-cztitulky/5f0c8e8ce63f9",
+              "title": "Archibalds Next Big Thing S02E01 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c8f4eddde0",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e04-cztitulky/5f0c8f4eddde0",
+              "title": "Archibalds Next Big Thing S02E04 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c8fd808866",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e06-cztitulky/5f0c8fd808866",
+              "title": "Archibalds Next Big Thing S02E06 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c91cc8323b",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e13-cztitulky/5f0c91cc8323b",
+              "title": "Archibalds Next Big Thing S02E13 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f10898a83221",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e13-cztitulky/5f10898a83221",
+              "title": "Archibalds Next Big Thing S01E13 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f10884c38efe",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e05-cztitulky/5f10884c38efe",
+              "title": "Archibalds Next Big Thing S01E05 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1089633da4b",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e12-cztitulky/5f1089633da4b",
+              "title": "Archibalds Next Big Thing S01E12 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c8ecf5a1fd",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e02-cztitulky/5f0c8ecf5a1fd",
+              "title": "Archibalds Next Big Thing S02E02 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1087fc68a7b",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e03-cztitulky/5f1087fc68a7b",
+              "title": "Archibalds Next Big Thing S01E03 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c8f8d9b0e7",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e05-cztitulky/5f0c8f8d9b0e7",
+              "title": "Archibalds Next Big Thing S02E05 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c90286083a",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e07-cztitulky/5f0c90286083a",
+              "title": "Archibalds Next Big Thing S02E07 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c9107944d6",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e10-cztitulky/5f0c9107944d6",
+              "title": "Archibalds Next Big Thing S02E10 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1087ac904da",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e01-cztitulky/5f1087ac904da",
+              "title": "Archibalds Next Big Thing S01E01 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f10891351af0",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e10-cztitulky/5f10891351af0",
+              "title": "Archibalds Next Big Thing S01E10 CZtitulky",
+              "year": null,
+              "duration_sec": 1449,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c917a7995f",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e12-cztitulky/5f0c917a7995f",
+              "title": "Archibalds Next Big Thing S02E12 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c907c2de94",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e08-cztitulky/5f0c907c2de94",
+              "title": "Archibalds Next Big Thing S02E08 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c8f05dcdc8",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e03-cztitulky/5f0c8f05dcdc8",
+              "title": "Archibalds Next Big Thing S02E03 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c90cf98cdc",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e09-cztitulky/5f0c90cf98cdc",
+              "title": "Archibalds Next Big Thing S02E09 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f10882448e32",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e04-cztitulky/5f10882448e32",
+              "title": "Archibalds Next Big Thing S01E04 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1088c3a4f29",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e08-cztitulky/5f1088c3a4f29",
+              "title": "Archibalds Next Big Thing S01E08 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f10893b1be89",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e11-cztitulky/5f10893b1be89",
+              "title": "Archibalds Next Big Thing S01E11 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f0c914612fd6",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s02e11-cztitulky/5f0c914612fd6",
+              "title": "Archibalds Next Big Thing S02E11 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f1087d4bc87c",
+              "url": "https://prehraj.to/archibalds-next-big-thing-s01e02-cztitulky/5f1087d4bc87c",
+              "title": "Archibalds Next Big Thing S01E02 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64d76a287823b",
+              "url": "https://prehraj.to/archibald-s-next-big-thing-s01e06-cztitulky/64d76a287823b",
+              "title": "Archibald's Next Big Thing  S01E06 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64d76c96a9ec1",
+              "url": "https://prehraj.to/archibald-s-next-big-thing-s01e11-cztitulky/64d76c96a9ec1",
+              "title": "Archibald's Next Big Thing  S01E11 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64d76d73b3d67",
+              "url": "https://prehraj.to/archibald-s-next-big-thing-s01e13-cztitulky/64d76d73b3d67",
+              "title": "Archibald's Next Big Thing  S01E13 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64d768cc552f4",
+              "url": "https://prehraj.to/archibald-s-next-big-thing-s01e04-cztitulky/64d768cc552f4",
+              "title": "Archibald's Next Big Thing  S01E04 CZtitulky",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64d76d0a6da92",
+              "url": "https://prehraj.to/archibald-s-next-big-thing-s01e12-cztitulky/64d76d0a6da92",
+              "title": "Archibald's Next Big Thing  S01E12 CZtitulky",
+              "year": null,
+              "duration_sec": 1450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Think Big (1989)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:39.839691+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "zavod-s-casem-1989",
+        "title": "Závod s časem",
+        "original_title": "Think Big",
+        "year": 1989,
+        "runtime_min": 86,
+        "tmdb_id": 61640,
+        "imdb_id": "tt0100772",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:38.221533+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:49:34.750118+00:00"
+  "updated_at": "2026-08-28T02:49:39.839711+00:00"
 }
