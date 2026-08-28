@@ -4543,6 +4543,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T06:24:00.422781+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "622097eac91ae",
+              "url": "https://prehraj.to/lady-driver-2020-proper-1080p-bluray-x264-flame-czdabing/622097eac91ae",
+              "title": "Lady.Driver.2020.PROPER.1080p.BluRay.x264-FLAME.CZdabing",
+              "year": null,
+              "duration_sec": 6268,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.305,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 77,
+                "candidate_runtime_sec": 6268,
+                "runtime_delta": 0.357,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:16:07.150338+00:00"
         }
       ],
       "identity": {
@@ -4561,7 +4599,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T06:23:43.899063+00:00"
+        "at": "2026-08-28T03:16:04.765150+00:00"
       }
     },
     "29777": {
@@ -67169,5 +67207,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:16:03.256597+00:00"
+  "updated_at": "2026-08-28T03:16:07.150358+00:00"
 }
