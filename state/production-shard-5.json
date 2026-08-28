@@ -32984,7 +32984,67 @@
         },
         "at": "2026-08-28T07:41:10.535626+00:00"
       }
+    },
+    "21517": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bc723e8edef",
+              "url": "https://prehraj.to/plan-9-usa-scifi-1959-cs-dabing-tvrip/55bc723e8edef",
+              "title": "Plan-9-USA-scifi-1959-CS-dabing-TVrip",
+              "year": null,
+              "duration_sec": 4493,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1959,
+                "candidate_year": 1959,
+                "year_match": true,
+                "film_runtime_min": 83,
+                "candidate_runtime_sec": 4493,
+                "runtime_delta": 0.098,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:41:30.650560+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-angry-red-planet",
+        "title": "The Angry Red Planet",
+        "original_title": null,
+        "year": 1959,
+        "runtime_min": 83,
+        "tmdb_id": 6974,
+        "imdb_id": "tt0052564",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:41:29.106219+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:41:25.066541+00:00"
+  "updated_at": "2026-08-28T07:41:30.650578+00:00"
 }
