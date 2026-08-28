@@ -19923,7 +19923,60 @@
         },
         "at": "2026-08-28T03:30:35.742317+00:00"
       }
+    },
+    "27938": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac8392a59f9d",
+              "url": "https://prehraj.to/the-details-2011/5ac8392a59f9d",
+              "title": "The Details (2011)",
+              "year": null,
+              "duration_sec": 6089,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.624,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:30:41.997608+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "insignificant-details-of-the-accidental-episode",
+        "title": "Insignificant Details of the Accidental Episode",
+        "original_title": "Insignificant Details of the Accidental Episode",
+        "year": 2011,
+        "runtime_min": 28,
+        "tmdb_id": 609386,
+        "imdb_id": "tt2075220",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:30:38.231336+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:30:37.075373+00:00"
+  "updated_at": "2026-08-28T03:30:41.997627+00:00"
 }
