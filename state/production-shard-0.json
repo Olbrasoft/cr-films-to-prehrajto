@@ -55259,6 +55259,98 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:30:43.301543+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e2d65f097711",
+              "url": "https://prehraj.to/grand-torino-drama-cz-da-2008-jad/5e2d65f097711",
+              "title": "Grand Torino-drama-cz da.-2008-jad",
+              "year": null,
+              "duration_sec": 6995,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.383,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6995,
+                "runtime_delta": 0.19,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e38f97291e0a",
+              "url": "https://prehraj.to/grand-torino-drama-cz-da-2008-jad/5e38f97291e0a",
+              "title": "Grand Torino-drama-cz da.-2008-jad",
+              "year": null,
+              "duration_sec": 6995,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.383,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6995,
+                "runtime_delta": 0.19,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e56ab051c26e",
+              "url": "https://prehraj.to/grand-torino-drama-cz-da-2008-jad/5e56ab051c26e",
+              "title": "Grand Torino-drama-cz da.-2008-jad",
+              "year": null,
+              "duration_sec": 6995,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.383,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 6995,
+                "runtime_delta": 0.19,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:12:30.714792+00:00"
         }
       ],
       "identity": {
@@ -55277,7 +55369,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:30:42.805056+00:00"
+        "at": "2026-08-28T11:12:29.781451+00:00"
       }
     },
     "25846": {
@@ -69233,5 +69325,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:12:28.386958+00:00"
+  "updated_at": "2026-08-28T11:12:30.714809+00:00"
 }
