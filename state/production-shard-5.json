@@ -33044,7 +33044,67 @@
         },
         "at": "2026-08-28T07:41:29.106219+00:00"
       }
+    },
+    "21485": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588ec439951fe",
+              "url": "https://prehraj.to/stastie-pride-v-nedelu-1958-sk/588ec439951fe",
+              "title": "Šťastie-príde-v-nedeľu-1958,-SK",
+              "year": null,
+              "duration_sec": 5058,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 1958,
+                "candidate_year": 1958,
+                "year_match": true,
+                "film_runtime_min": 119,
+                "candidate_runtime_sec": 5058,
+                "runtime_delta": 0.292,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:41:33.250325+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "carve-her-name-with-pride",
+        "title": "Carve Her Name with Pride",
+        "original_title": null,
+        "year": 1958,
+        "runtime_min": 119,
+        "tmdb_id": 44559,
+        "imdb_id": "tt0051454",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:41:32.154882+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:41:30.650578+00:00"
+  "updated_at": "2026-08-28T07:41:33.250344+00:00"
 }
