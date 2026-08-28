@@ -27921,6 +27921,57 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:00:16.474644+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa065e918b2a",
+              "url": "https://prehraj.to/jsem-ali-2014/5aa065e918b2a",
+              "title": "Jsem Ali (2014)",
+              "year": null,
+              "duration_sec": 6693,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.507,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "689f8881df419",
+              "url": "https://prehraj.to/they-live-inside-us-2020-cz-tit/689f8881df419",
+              "title": "They.Live.Inside.Us.2020.-cz tit",
+              "year": null,
+              "duration_sec": 6230,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Alive Inside (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:18:33.804964+00:00"
         }
       ],
       "identity": {
@@ -27939,7 +27990,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:00:16.046667+00:00"
+        "at": "2026-08-28T03:18:29.715999+00:00"
       }
     },
     "28343": {
@@ -72263,5 +72314,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:18:28.247883+00:00"
+  "updated_at": "2026-08-28T03:18:33.804985+00:00"
 }
