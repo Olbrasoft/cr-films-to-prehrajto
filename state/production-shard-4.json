@@ -21837,7 +21837,60 @@
         },
         "at": "2026-08-28T02:42:43.993710+00:00"
       }
+    },
+    "26676": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586991ab86684",
+              "url": "https://prehraj.to/david-a-golias-aneb-pepicka-to-zaridi-divad-2008/586991ab86684",
+              "title": "David-a-Golias-aneb-Pepicka-to-zaridi--divad-2008",
+              "year": null,
+              "duration_sec": 8307,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.742,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:42:58.909303+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "david-mccullough-vypravi",
+        "title": "David McCullough vypráví",
+        "original_title": "David McCullough: Painting with Words",
+        "year": 2008,
+        "runtime_min": 37,
+        "tmdb_id": 250011,
+        "imdb_id": "tt1210345",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:42:46.336719+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:42:45.062942+00:00"
+  "updated_at": "2026-08-28T02:42:58.909324+00:00"
 }
