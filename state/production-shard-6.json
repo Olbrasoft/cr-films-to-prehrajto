@@ -31673,7 +31673,67 @@
         },
         "at": "2026-08-28T07:04:45.788474+00:00"
       }
+    },
+    "22278": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60fd36c086476",
+              "url": "https://prehraj.to/nekonecna-nevystupovat-1978-1080p-cz-sk-film/60fd36c086476",
+              "title": "Nekonečná - nevystupovat (1978) 1080p CZ-SK film",
+              "year": null,
+              "duration_sec": 5015,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.27,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 5015,
+                "runtime_delta": 0.005,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:04:58.014956+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "der-kleine-godard-an-das-kuratorium-junger-deutscher-film",
+        "title": "Der kleine Godard an das Kuratorium junger deutscher Film",
+        "original_title": "Little Godard",
+        "year": 1978,
+        "runtime_min": 84,
+        "tmdb_id": 315988,
+        "imdb_id": "tt0074756",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:04:51.033097+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:04:49.642618+00:00"
+  "updated_at": "2026-08-28T07:04:58.014976+00:00"
 }
