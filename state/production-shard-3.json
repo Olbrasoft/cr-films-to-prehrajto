@@ -31119,7 +31119,67 @@
         },
         "at": "2026-08-28T06:58:41.801052+00:00"
       }
+    },
+    "22539": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bf6914393f0",
+              "url": "https://prehraj.to/zabolatlan-vagyak-1982-vhsrip-divx-hun/55bf6914393f0",
+              "title": "Zabolátlan-Vágyak-(1982).VHSRiP.DivX-HUN",
+              "year": null,
+              "duration_sec": 4705,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.103,
+                "title_contains_alias": false,
+                "film_year": 1982,
+                "candidate_year": 1982,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4705,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:58:45.201706+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "desenfrenos-carnales",
+        "title": "Desenfrenos carnales",
+        "original_title": null,
+        "year": 1982,
+        "runtime_min": null,
+        "tmdb_id": 420603,
+        "imdb_id": "tt0082260",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:58:44.342131+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:58:43.106596+00:00"
+  "updated_at": "2026-08-28T06:58:45.201725+00:00"
 }
