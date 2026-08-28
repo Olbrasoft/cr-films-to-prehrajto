@@ -33577,6 +33577,121 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T19:49:01.230444+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "4c295528635f01a7",
+              "url": "https://prehraj.to/34-lupin-iii-caccia-al-tesoro/4c295528635f01a7",
+              "title": "34 Lupin III Caccia Al Tesoro",
+              "year": null,
+              "duration_sec": 1397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.421,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1397,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "La caccia (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "437d6e766c82cd77",
+              "url": "https://prehraj.to/rita-da-cascia-2004-sk/437d6e766c82cd77",
+              "title": "Rita da Cascia - 2004 SK",
+              "year": null,
+              "duration_sec": 6791,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2004,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La caccia (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587144f384ea5",
+              "url": "https://prehraj.to/rita-da-cascia-svaeta-rita-2004-sk/587144f384ea5",
+              "title": "Rita-da-Cascia-_-Svätá-Rita-2004,-SK",
+              "year": null,
+              "duration_sec": 6791,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2004,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La caccia (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "682ec9928b332",
+              "url": "https://prehraj.to/rita-da-cascia-svaeta-rita-2004-sk/682ec9928b332",
+              "title": "Rita-da-Cascia-_-Svätá-Rita-2004,-SK",
+              "year": null,
+              "duration_sec": 6791,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2004,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "La caccia (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "31488",
+              "url": "https://online.sktorrent.eu/video/31488/",
+              "title": "Na lovu",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:52:29.950418+00:00"
         }
       ],
       "identity": {
@@ -33595,7 +33710,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:39:34.344519+00:00"
+        "at": "2026-08-28T19:52:19.364306+00:00"
       }
     },
     "7476": {
@@ -34928,5 +35043,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T19:50:38.469011+00:00"
+  "updated_at": "2026-08-28T19:52:29.950440+00:00"
 }
