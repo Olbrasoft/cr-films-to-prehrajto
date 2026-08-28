@@ -25706,7 +25706,186 @@
         },
         "at": "2026-08-28T07:38:14.120741+00:00"
       }
+    },
+    "24805": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "b8cea8dccf1f9d66",
+              "url": "https://prehraj.to/1923-1-5-harrison-ford-helen-mirren-2023-cz-dab-mkv/b8cea8dccf1f9d66",
+              "title": "1923 1 - 5 Harrison Ford, Helen Mirren 2023 Cz Dab.-.mkv",
+              "year": null,
+              "duration_sec": 4196,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.497,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "658845ba573f3",
+              "url": "https://prehraj.to/the-taking-of-pelham-one-two-three-1974-2160p-bluray-x265-hevc-10bit-hdr-cz-en/658845ba573f3",
+              "title": "The.Taking.of.Pelham.One.Two.Three.(1974).2160p.BluRay.x265…",
+              "year": null,
+              "duration_sec": 6262,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1923,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "One of Three (1923)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65072c042c894",
+              "url": "https://prehraj.to/anime-time-one-piece-0496-to-the-sea-someday-the-pledge-of-the-three-brats/65072c042c894",
+              "title": "[Anime Time] One Piece - 0496 - To The Sea Someday! The…",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 1923,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 20,
+                "candidate_runtime_sec": 1440,
+                "runtime_delta": 0.2,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "One of Three (1923)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9e90b3c512929af4",
+              "url": "https://prehraj.to/cas-pomsty-army-of-one-joshua-tree-1993-en-3xcz-sk-1080p-hevc-mkv/9e90b3c512929af4",
+              "title": "Čas pomsty - Army of One - Joshua Tree (1993)(EN.3xCZ.SK)…",
+              "year": null,
+              "duration_sec": 6132,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1923,
+                "candidate_year": 1993,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "One of Three (1923)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63edf36b22369",
+              "url": "https://prehraj.to/cas-pomsty-army-of-one-joshua-tree-1993-en-3xcz-sk-1080p-hevc/63edf36b22369",
+              "title": "Čas pomsty - Army of One - Joshua Tree (1993)(EN.3xCZ.SK)…",
+              "year": null,
+              "duration_sec": 6132,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1923,
+                "candidate_year": 1993,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "One of Three (1923)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9257c75f9aa8dc3d",
+              "url": "https://prehraj.to/cas-pomsty-army-of-one-joshua-tree-1993-en-3xcz/9257c75f9aa8dc3d",
+              "title": "Čas pomsty - Army of One - Joshua Tree (1993)(EN.3xCZ",
+              "year": null,
+              "duration_sec": 6132,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1923,
+                "candidate_year": 1993,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "One of Three (1923)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "673fc6bc034bd",
+              "url": "https://prehraj.to/5-7-tri-kralove-na-dne-three-kings-05-07-tv-serial-1998-cz/673fc6bc034bd",
+              "title": "5_7_Tři králové - Na dně _ Three Kings 05_07 TV seriál 1998…",
+              "year": null,
+              "duration_sec": 2939,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1923,
+                "candidate_year": 1998,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "One of Three (1923)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:38:17.854478+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "one-of-three",
+        "title": "One of Three",
+        "original_title": null,
+        "year": 1923,
+        "runtime_min": 20,
+        "tmdb_id": 1391813,
+        "imdb_id": "tt0298097",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:38:16.907864+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:38:15.402004+00:00"
+  "updated_at": "2026-08-28T07:38:17.854496+00:00"
 }
