@@ -19976,7 +19976,67 @@
         },
         "at": "2026-08-28T03:30:38.231336+00:00"
       }
+    },
+    "27922": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586be7eb24caa",
+              "url": "https://prehraj.to/nils-holgersson-a-jeho-zazracna-cesta-2011/586be7eb24caa",
+              "title": "Nils-Holgersson-a-jeho-zazracna-cesta-2011",
+              "year": null,
+              "duration_sec": 5454,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.191,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5454,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:30:50.990267+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "unter-wasser-atmen-das-zweite-leben-des-dr-nils-jent",
+        "title": "Unter Wasser atmen - Das zweite Leben des Dr. Nils Jent",
+        "original_title": null,
+        "year": 2011,
+        "runtime_min": null,
+        "tmdb_id": 386218,
+        "imdb_id": "tt2059323",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:30:43.271555+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:30:41.997627+00:00"
+  "updated_at": "2026-08-28T03:30:50.990286+00:00"
 }
