@@ -32472,7 +32472,67 @@
         },
         "at": "2026-08-28T07:40:23.756297+00:00"
       }
+    },
+    "22317": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "1b9c2540fcff1996",
+              "url": "https://prehraj.to/carodejuv-ucen-krabat-karel-zeman-1977-ceskoslovensko/1b9c2540fcff1996",
+              "title": "Čarodějův učeň - Krabat -Karel Zeman (1977) československo",
+              "year": null,
+              "duration_sec": 4563,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 120,
+                "candidate_runtime_sec": 4563,
+                "runtime_delta": 0.366,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:40:32.976756+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "krab-bubenik",
+        "title": "Krab bubeník",
+        "original_title": "Drummer-Crab",
+        "year": 1977,
+        "runtime_min": 120,
+        "tmdb_id": 86727,
+        "imdb_id": "tt0075885",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:40:27.933566+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:40:26.435543+00:00"
+  "updated_at": "2026-08-28T07:40:32.976773+00:00"
 }
