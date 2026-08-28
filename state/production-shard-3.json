@@ -28744,7 +28744,67 @@
         },
         "at": "2026-08-28T06:56:09.929793+00:00"
       }
+    },
+    "24579": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5853127d419dd",
+              "url": "https://prehraj.to/jack-frost-2-revenge-of-the-mutant-killer-snowman-2000-dvdrip-xvid-horrorfreakk/5853127d419dd",
+              "title": "Jack-Frost-2--Revenge-of-The-Mutant-Killer-Snowman-2000-DVDRiP.XViD-HoRRoRFReaKK",
+              "year": null,
+              "duration_sec": 5581,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.275,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 180,
+                "candidate_runtime_sec": 5581,
+                "runtime_delta": 0.483,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:56:13.924978+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "jackie-bouvier-kennedy-onassis",
+        "title": "Jackie Bouvier Kennedy Onassis",
+        "original_title": null,
+        "year": 2000,
+        "runtime_min": 180,
+        "tmdb_id": 357682,
+        "imdb_id": "tt0250161",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:56:12.310786+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:56:11.000487+00:00"
+  "updated_at": "2026-08-28T06:56:13.924996+00:00"
 }
