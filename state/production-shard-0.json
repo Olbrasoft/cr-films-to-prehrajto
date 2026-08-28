@@ -4723,6 +4723,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:44:59.395764+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c5d04f03825f",
+              "url": "https://prehraj.to/trauma-horor-cz-titulky-2018-jad/5c5d04f03825f",
+              "title": "Trauma-horor-cz titulky-2018-jad",
+              "year": null,
+              "duration_sec": 6424,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6424,
+                "runtime_delta": 0.19,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c546971abb72",
+              "url": "https://prehraj.to/trauma-horor-cz-titulky-2018-jad/5c546971abb72",
+              "title": "Trauma-horor-cz titulky-2018-jad",
+              "year": null,
+              "duration_sec": 6424,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6424,
+                "runtime_delta": 0.19,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:17:34.436342+00:00"
         }
       ],
       "identity": {
@@ -4741,7 +4806,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:44:55.484781+00:00"
+        "at": "2026-08-28T07:17:32.095160+00:00"
       }
     },
     "29830": {
@@ -57149,5 +57214,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T07:17:28.143690+00:00"
+  "updated_at": "2026-08-28T07:17:34.436359+00:00"
 }
