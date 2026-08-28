@@ -32751,7 +32751,67 @@
         },
         "at": "2026-08-28T07:40:40.391891+00:00"
       }
+    },
+    "21997": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58712b838ef77",
+              "url": "https://prehraj.to/madame-sans-gene-tv-film-1971/58712b838ef77",
+              "title": "Madame-Sans-Géne---tv-film-(1971)",
+              "year": null,
+              "duration_sec": 5121,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "film_year": 1971,
+                "candidate_year": 1971,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5121,
+                "runtime_delta": 0.072,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:40:53.548600+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "lo-strano-vizio-della-signora-wardh",
+        "title": "Lo strano vizio della Signora Wardh",
+        "original_title": "The Strange Vice of Mrs Wardh",
+        "year": 1971,
+        "runtime_min": 92,
+        "tmdb_id": 30903,
+        "imdb_id": "tt0066412",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:40:42.737100+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:40:41.196879+00:00"
+  "updated_at": "2026-08-28T07:40:53.548617+00:00"
 }
