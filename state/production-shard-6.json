@@ -17930,7 +17930,67 @@
         },
         "at": "2026-08-28T06:43:57.473208+00:00"
       }
+    },
+    "28230": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b3b9b4347d21",
+              "url": "https://prehraj.to/vladce-prokletych-prani-1-horor-cz-dab-1997-jad/5b3b9b4347d21",
+              "title": "Vládce prokletých přání 1-horor-cz dab.-1997-jad",
+              "year": null,
+              "duration_sec": 5182,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.305,
+                "title_contains_alias": false,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 134,
+                "candidate_runtime_sec": 5182,
+                "runtime_delta": 0.355,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:44:11.699954+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "film-85",
+        "title": "ரெட்டை ஜடை வயசு",
+        "original_title": "Rettai Jadai Vayasu",
+        "year": 1997,
+        "runtime_min": 134,
+        "tmdb_id": 279885,
+        "imdb_id": "tt2373668",
+        "created_at": "2026-04-20 22:32:41.789747+02:00",
+        "added_at": "2026-04-20 22:32:41.789747+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:44:00.199581+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:43:58.796993+00:00"
+  "updated_at": "2026-08-28T06:44:11.699975+00:00"
 }
