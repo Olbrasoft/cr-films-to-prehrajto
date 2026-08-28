@@ -19651,6 +19651,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:22:35.153071+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ff50b2800c92",
+              "url": "https://prehraj.to/the-wait-2015-cztitulky/5ff50b2800c92",
+              "title": "The Wait (2015) CZtitulky",
+              "year": null,
+              "duration_sec": 5747,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.462,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5747,
+                "runtime_delta": 0.041,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:07:16.883755+00:00"
         }
       ],
       "identity": {
@@ -19669,7 +19707,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:22:34.627498+00:00"
+        "at": "2026-08-28T11:07:15.421067+00:00"
       }
     },
     "29190": {
@@ -59714,5 +59752,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:07:13.896312+00:00"
+  "updated_at": "2026-08-28T11:07:16.883772+00:00"
 }
