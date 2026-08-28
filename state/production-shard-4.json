@@ -11475,7 +11475,80 @@
         },
         "at": "2026-08-28T02:25:20.059759+00:00"
       }
+    },
+    "29540": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e10a289281dd",
+              "url": "https://prehraj.to/edith-piaf-drama-cz-dab-2006-jad/5e10a289281dd",
+              "title": "Edith Piaf-drama-cz dab.-2006-jad",
+              "year": null,
+              "duration_sec": 8060,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.634,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e1c65a88293e",
+              "url": "https://prehraj.to/edith-piaf-drama-cz-dab-2006-jad/5e1c65a88293e",
+              "title": "Edith Piaf-drama-cz dab.-2006-jad",
+              "year": null,
+              "duration_sec": 8060,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.634,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:25:40.345496+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "les-derniers-jours-d-edith-piaf",
+        "title": "Les derniers jours d'Edith Piaf",
+        "original_title": "The Last Days of an Icon: Edith Piaf",
+        "year": 2006,
+        "runtime_min": 51,
+        "tmdb_id": 1503230,
+        "imdb_id": "tt6510418",
+        "created_at": "2026-04-20 22:32:42.857660+02:00",
+        "added_at": "2026-04-20 22:32:42.857660+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:25:25.415375+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:25:24.145415+00:00"
+  "updated_at": "2026-08-28T02:25:40.345517+00:00"
 }
