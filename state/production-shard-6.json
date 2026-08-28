@@ -21913,7 +21913,94 @@
         },
         "at": "2026-08-28T06:49:08.399880+00:00"
       }
+    },
+    "26702": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586d8362ee1de",
+              "url": "https://prehraj.to/horror-australani-se-straseji-jako-protinozci-damned-by-dawn-2009-titcz/586d8362ee1de",
+              "title": "'Horror...-Australani-se-strašejí-jako-protinožci'-Damned-by-Dawn-(2009)-TitCz",
+              "year": null,
+              "duration_sec": 5038,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.135,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5038,
+                "runtime_delta": 0.077,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58112fe585522",
+              "url": "https://prehraj.to/horror-navrat-mrtvych-2009-cz/58112fe585522",
+              "title": "Horror-Navrat-mrtvych-2009--cz",
+              "year": null,
+              "duration_sec": 5322,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.273,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5322,
+                "runtime_delta": 0.025,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:49:18.560915+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-dunwich-horror",
+        "title": "The Dunwich Horror",
+        "original_title": null,
+        "year": 2009,
+        "runtime_min": 91,
+        "tmdb_id": 45663,
+        "imdb_id": "tt1226752",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:49:16.989087+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:49:12.956076+00:00"
+  "updated_at": "2026-08-28T06:49:18.560936+00:00"
 }
