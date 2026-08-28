@@ -30273,7 +30273,1330 @@
         },
         "at": "2026-08-28T07:40:12.539681+00:00"
       }
+    },
+    "22541": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58554889b9b02",
+              "url": "https://prehraj.to/proc-se-vrazdi-starsi-damy-cssr-1981/58554889b9b02",
+              "title": "Proč-se-vraždí-starší-dámy-ČSSR-1981",
+              "year": null,
+              "duration_sec": 4713,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 151,
+                "candidate_runtime_sec": 4713,
+                "runtime_delta": 0.48,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6535b75ce982ec68",
+              "url": "https://prehraj.to/tvminiuni-09-dil-proc-nejaka-zvirata-maji-kopyta-a-nejaka-ne-proc-vlaky-houkaji/6535b75ce982ec68",
+              "title": "Tvminiuni - 09. díl - Proč nějaká zvířata mají kopyta, a…",
+              "year": null,
+              "duration_sec": 1382,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.847,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "593fe0dc40e93",
+              "url": "https://prehraj.to/vsi-ve-skole-o-skole-se-nehlasuje-a-proc-ne/593fe0dc40e93",
+              "title": "Vši ve škole - O škole se nehlasuje! A proč ne_",
+              "year": null,
+              "duration_sec": 298,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.967,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9c1e6162f94a5cfb",
+              "url": "https://prehraj.to/ten-smlsal-proc-09-dil-proc-nam-pri-volani-nekdy-internet-jde-a-jindy-ne/9c1e6162f94a5cfb",
+              "title": "Ten smlsal - proč - 09. díl - Proč nám při volání někdy…",
+              "year": null,
+              "duration_sec": 160,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.982,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "379e4aaaabf85e45",
+              "url": "https://prehraj.to/marodi-02-dil-marodi-kdy-si-vzit-prasek-na-bolest-hlavy-a-proc-pomuze-kava-a-ne-voda/379e4aaaabf85e45",
+              "title": "Marodi - 02. díl - Marodi Kdy si vzít prášek na bolest…",
+              "year": null,
+              "duration_sec": 1800,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.801,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c971524c20e534f1",
+              "url": "https://prehraj.to/ten-smlsal-proc-03-dil-proc-ma-lidl-v-regalech-cenovky-nad-zbozim-a-ne-pod-jako-vsichni/c971524c20e534f1",
+              "title": "Ten smlsal - proč - 03. díl - Proč má Lidl v regálech…",
+              "year": null,
+              "duration_sec": 137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.985,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f308d37aa56a26e7",
+              "url": "https://prehraj.to/detail-cely-porad-23-dil-duchodci-ve-fronte-a-hrozba-mestskou-policii-proc-se-stat-neni-schopen-o-ne-lepe-postarat/f308d37aa56a26e7",
+              "title": "Detail - celý pořad - 23. díl - Důchodci ve frontě a hrozba…",
+              "year": null,
+              "duration_sec": 1392,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.846,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59392d2c5d975",
+              "url": "https://prehraj.to/a-dost-posta-pro-ne/59392d2c5d975",
+              "title": "A DOST! - Pošta pro ně_",
+              "year": null,
+              "duration_sec": 807,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.911,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "83574e4e32aade47",
+              "url": "https://prehraj.to/pro-karla-janecka-a-ne-jen-pro-nej-prozitkovy-film/83574e4e32aade47",
+              "title": "pro Karla Janečka a né jen pro něj... PrOžiTkOvÝ FilM",
+              "year": null,
+              "duration_sec": 4099,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.548,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd18a3ec4c4eeff2",
+              "url": "https://prehraj.to/ten-smlsal-proc-27-dil-proc-zrovna-patek-13-nosi-nestesti-a-nasel-jsem-nej-smolare/dd18a3ec4c4eeff2",
+              "title": "Ten smlsal - proč - 27. díl - Proč zrovna pátek 13. nosí…",
+              "year": null,
+              "duration_sec": 460,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3577ad0f55ed57f9",
+              "url": "https://prehraj.to/a-dost-317-dil-boj-o-ftalaty-a-nase-zdravi-kdo-a-proc-na-nem-ma-zajem/3577ad0f55ed57f9",
+              "title": "A dost! - 317. díl - Boj o ftaláty a naše zdraví. Kdo a…",
+              "year": null,
+              "duration_sec": 555,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.939,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "45893e219d0b86b4",
+              "url": "https://prehraj.to/a-dost-208-dil-posta-pro-ne/45893e219d0b86b4",
+              "title": "A dost! - 208. díl - Pošta pro ně",
+              "year": null,
+              "duration_sec": 807,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.911,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "064ebeb598d133be",
+              "url": "https://prehraj.to/to-nejlepsi-ze-sveta-180-dil-proc-je-pro-lidi-tak-obtizne-vratit-se-na-mesic-a-to-i-pro-spacex/064ebeb598d133be",
+              "title": "To nejlepší ze světa - 180. díl - Proč je pro lidi tak…",
+              "year": null,
+              "duration_sec": 690,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.924,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "747b87bab5c3e9ce",
+              "url": "https://prehraj.to/ten-smlsal-proc-05-dil-proc-v-bille-a-kauflandu-neumi-vazit-zeleninu-na-pokladne/747b87bab5c3e9ce",
+              "title": "Ten smlsal - proč - 05. díl - Proč v Bille a Kauflandu…",
+              "year": null,
+              "duration_sec": 152,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.983,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "190fccfb5e49ac01",
+              "url": "https://prehraj.to/ten-smlsal-proc-25-dil-proc-listi-opada-tak-rychle-a-barevny-podzim-je-hned-pryc/190fccfb5e49ac01",
+              "title": "Ten smlsal - proč - 25. díl - Proč listí opadá tak rychle a…",
+              "year": null,
+              "duration_sec": 299,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.967,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "667ca2c59bf3a",
+              "url": "https://prehraj.to/uzliky-na-jazyku-skola-a-proc-do-ni-bulhari-nechodi-2018-01-31/667ca2c59bf3a",
+              "title": "Uzlíky na jazyku - Škola – a proč do ní Bulhaři nechodí …",
+              "year": null,
+              "duration_sec": 121,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.987,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9f0ea0bb6bf40ac1",
+              "url": "https://prehraj.to/kriminalka-mirka-vanury-na-dvojce-nereknu-proc-a-nereknu-jak/9f0ea0bb6bf40ac1",
+              "title": "Kriminálka Mirka Vaňury na Dvojce Neřeknu proč a neřeknu jak",
+              "year": null,
+              "duration_sec": 1601,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.823,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "073671ed39669670",
+              "url": "https://prehraj.to/prakticky-kanal-04-dil-proc-je-inflace-dobra-pro-dluzniky-a-deflace-pro-veritele/073671ed39669670",
+              "title": "Praktický kanál - 04. díl - Proč je inflace dobrá pro…",
+              "year": null,
+              "duration_sec": 328,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.964,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1e3d7a3309a927a3",
+              "url": "https://prehraj.to/ten-smlsal-proc-22-dil-proc-na-prejezdu-cekame-i-10-minut-a-vlak-porad-nejede/1e3d7a3309a927a3",
+              "title": "Ten smlsal - proč - 22. díl - Proč na přejezdu čekáme i 10…",
+              "year": null,
+              "duration_sec": 464,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2f9f6b971d6588f9",
+              "url": "https://prehraj.to/zpatky-na-vrchol-4-rada-11-dil-proc-je-chuze-dobra-na-hubnuti-a-v-cem-je-lepsi-nez-beh/2f9f6b971d6588f9",
+              "title": "Zpátky na vrchol - 4. řada - 11. díl - Proč je chůze dobrá…",
+              "year": null,
+              "duration_sec": 723,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.92,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "667ca2aec1675",
+              "url": "https://prehraj.to/uzliky-na-jazyku-stvura-a-nestvura-proc-to-cestina-takhle-komplikuje-2019-10-16/667ca2aec1675",
+              "title": "Uzlíky na jazyku - Stvůra a nestvůra. Proč to čeština…",
+              "year": null,
+              "duration_sec": 127,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.986,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f563c28a237c045c",
+              "url": "https://prehraj.to/potkan-a-pod-proc-je-lenochod-tak-linej/f563c28a237c045c",
+              "title": "Potkan a pod. Proč je lenochod tak linej __",
+              "year": null,
+              "duration_sec": 179,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.98,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66202da5986a8",
+              "url": "https://prehraj.to/internet-se-zacina-rozpadat-a-zde-je-proc-cztit/66202da5986a8",
+              "title": "Internet se začíná rozpadat - A zde je proč_ CZtit",
+              "year": null,
+              "duration_sec": 1478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.837,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "454d9c70cf403411",
+              "url": "https://prehraj.to/na-slovicko-s-tomasem-83-dil-proc-nektere-deti-a-mladi-konci-na-ulici-jak-tomu-predejit-a-jak-jim-pomoct/454d9c70cf403411",
+              "title": "Na slovíčko s tomášem - 83. díl - Proč některé děti a mladí…",
+              "year": null,
+              "duration_sec": 1840,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.797,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b4ebb4294cdd61fe",
+              "url": "https://prehraj.to/detail-cely-porad-12-dil-detail-cesko-neni-raj-pro-azylanty-trumpovy-nesmysly-a-proc-se-cesi-vali-a-lejou-na-machaci/b4ebb4294cdd61fe",
+              "title": "Detail - celý pořad - 12. díl - Detail Česko není ráj pro…",
+              "year": null,
+              "duration_sec": 1739,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.808,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cbaa60f19a9",
+              "url": "https://prehraj.to/co-presne-planuje-3i-atlas-na-marsu-a-proc-vysvetleno-srozumitelne-veda-pro-spanek/68cbaa60f19a9",
+              "title": "Co přesně plánuje 3I ATLAS na Marsu a proč Vysvětleno…",
+              "year": null,
+              "duration_sec": 11219,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.258,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 151,
+                "candidate_runtime_sec": 11219,
+                "runtime_delta": 0.238,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f424810ad81795e",
+              "url": "https://prehraj.to/ten-smlsal-proc-28-dil-proc-je-vam-pri-jizde-zle-a-jak-to-zastavit/5f424810ad81795e",
+              "title": "Ten smlsal - proč - 28. díl - Proč je vám při jízdě zle A…",
+              "year": null,
+              "duration_sec": 495,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.945,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4ab70412fac8a833",
+              "url": "https://prehraj.to/ten-smlsal-proc-23-dil-proc-opravi-ulici-a-za-par-mesicu-ji-zase-rozkopou/4ab70412fac8a833",
+              "title": "Ten smlsal - proč - 23. díl - Proč opraví ulici a za pár…",
+              "year": null,
+              "duration_sec": 451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.95,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "492076b013cc67aa",
+              "url": "https://prehraj.to/vzdelani-historie-a-vesmir-01-dil-nejextremnejsi-planeta-slunecni-soustavy-proc-se-na-merkuru-strida-extremni-zar-a-mraz/492076b013cc67aa",
+              "title": "Vzdělání, historie a vesmír - 01. díl - Nejextrémnější…",
+              "year": null,
+              "duration_sec": 706,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.922,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "667c9feff2969",
+              "url": "https://prehraj.to/uzliky-na-jazyku-panic-v-panice-proc-nekde-vyslovujeme-mekke-i-a-jindy-tvrde-y-2017-02-15/667c9feff2969",
+              "title": "Uzlíky na jazyku - Panic v panice. Proč někde vyslovujeme…",
+              "year": null,
+              "duration_sec": 128,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.986,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c3f9cdc518f4",
+              "url": "https://prehraj.to/rakosnicek-a-hvezdy-09-jak-rakosnicek-udelal-na-nebi-kluziste-a-porad-se-divi-proc-mu-lide-rikaji-mlecna-draha/5c3f9cdc518f4",
+              "title": "Rakosnicek a hvezdy 09 Jak Rakosnicek udelal na nebi…",
+              "year": null,
+              "duration_sec": 452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.95,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "589ce9a984b59",
+              "url": "https://prehraj.to/rakosnicek-a-hvezdy-09-jak-rakosnicek-udelal-na-nebi-kluziste-a-porad-se-divi-proc-mu-lide-rikaji-mlecna-draha/589ce9a984b59",
+              "title": "Rakosnicek-a-hvezdy-09-Jak-Rakosnicek-udelal-na-nebi…",
+              "year": null,
+              "duration_sec": 452,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.95,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3c0f50790f3354d6",
+              "url": "https://prehraj.to/detail-reportaze-a-rozhovory-39-dil-moria-peklo-na-zemi-proc-cesko-nechce-ani-mlade-uprchliky/3c0f50790f3354d6",
+              "title": "Detail - reportáže a rozhovory - 39. díl - Moria, peklo na…",
+              "year": null,
+              "duration_sec": 387,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.957,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "A proč ne! (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67ed29dc6a944",
+              "url": "https://prehraj.to/why-not-x-andy-the-core-penetration/67ed29dc6a944",
+              "title": "Why Not x Andy the Core - PENETRATION",
+              "year": null,
+              "duration_sec": 180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.98,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66e4b4b877880",
+              "url": "https://prehraj.to/loud-carnage-vs-alterated-why-not-to-be-in-trouble-bydejv/66e4b4b877880",
+              "title": "Loud Carnage Vs Alterated - Why Not To Be In Trouble byDejv",
+              "year": null,
+              "duration_sec": 288,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c2dafadf2b21",
+              "url": "https://prehraj.to/preco-som-nezjedol-svojho-ocka-why-i-did-not-eat-my-father/5c2dafadf2b21",
+              "title": "Prečo som nezjedol svojho ocka - Why I Did (Not) Eat My…",
+              "year": null,
+              "duration_sec": 6038,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 151,
+                "candidate_runtime_sec": 6038,
+                "runtime_delta": 0.334,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe7fab95a0d5",
+              "url": "https://prehraj.to/why-stop-now-2012-cztitulky/5fe7fab95a0d5",
+              "title": "Why Stop Now (2012) CZtitulky",
+              "year": null,
+              "duration_sec": 5278,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e4162f42f",
+              "url": "https://prehraj.to/why-is-pluto-not-a-planet-sky-at-night-pluto-revealed-preview-bbc-four/5ae0e4162f42f",
+              "title": "Why is Pluto not a planet- - Sky at Night- Pluto Revealed…",
+              "year": null,
+              "duration_sec": 221,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.976,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6086c63150fb9",
+              "url": "https://prehraj.to/labyrinthus-the-way-of-not-being-2021-1080p-webrip-x264-aac5-1-italian/6086c63150fb9",
+              "title": "Labyrinthus The Way Of Not Being 2021 1080p.WEBRip.x264…",
+              "year": null,
+              "duration_sec": 6262,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "665a25e2658f9",
+              "url": "https://prehraj.to/deep-bass-909-for-those-who-not-know/665a25e2658f9",
+              "title": "Deep Bass 909 - For Those Who Not Know",
+              "year": null,
+              "duration_sec": 290,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.968,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2488a220574",
+              "url": "https://prehraj.to/red-dead-redemption-2-15-who-is-not-without-sin-no-commentary/5f2488a220574",
+              "title": "Red Dead Redemption 2 - #15 - Who Is Not Without Sin - No…",
+              "year": null,
+              "duration_sec": 789,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.913,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65567e0049ebe",
+              "url": "https://prehraj.to/generation-radio-why-are-you-calling-me-now-official-music-video/65567e0049ebe",
+              "title": "Generation Radio - Why Are You Calling Me Now - Official…",
+              "year": null,
+              "duration_sec": 222,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.975,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f39b2d02ab29",
+              "url": "https://prehraj.to/red-dead-redemption-2-pc-who-is-not-without-sin/5f39b2d02ab29",
+              "title": "Red Dead Redemption 2 [PC] Who is Not Without Sin",
+              "year": null,
+              "duration_sec": 686,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.924,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "642832f750850",
+              "url": "https://prehraj.to/the-blind-man-who-did-not-want-to-see-titanic/642832f750850",
+              "title": "The Blind Man Who Did Not Want to See Titanic",
+              "year": null,
+              "duration_sec": 4935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.231,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 151,
+                "candidate_runtime_sec": 4935,
+                "runtime_delta": 0.455,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65e16cd1dddf2",
+              "url": "https://prehraj.to/no-way/65e16cd1dddf2",
+              "title": "No.Way",
+              "year": null,
+              "duration_sec": 5414,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.308,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 151,
+                "candidate_runtime_sec": 5414,
+                "runtime_delta": 0.402,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aeb245a405c",
+              "url": "https://prehraj.to/kdo-kdyz-ne-my-kto-esli-ne-my-who-if-not-us-1999-ru/68aeb245a405c",
+              "title": "Kdo, když ne my / Кто, если не мы / Who, If Not Us 1999, RU",
+              "year": null,
+              "duration_sec": 5240,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6612c2c678ced",
+              "url": "https://prehraj.to/superman-is-not-who-you-think-film-theory-the-corruption-of-superman-reaction-charmx/6612c2c678ced",
+              "title": "SUPERMAN IS NOT WHO YOU THINK! - Film Theory  The…",
+              "year": null,
+              "duration_sec": 1066,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.882,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f2c70158ddaa",
+              "url": "https://prehraj.to/red-dead-redemption-2-who-is-not-without-sin-story-mission-walkthrough-10-2k/5f2c70158ddaa",
+              "title": "Red Dead Redemption 2 - Who is Not Without Sin - Story…",
+              "year": null,
+              "duration_sec": 709,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.922,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6617007cf06ab",
+              "url": "https://prehraj.to/why-am-i-so-dumb-reacting-to-try-not-to-laugh-challenge-4-charmx/6617007cf06ab",
+              "title": "WHY AM I SO DUMB_ - Reacting to Try not to laugh CHALLENGE…",
+              "year": null,
+              "duration_sec": 433,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.952,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d9ee082b632",
+              "url": "https://prehraj.to/no-way-up-2024-cztit-v-obraze-1080p/65d9ee082b632",
+              "title": "No.Way.Up (2024)CZtit V OBRAZE 1080p",
+              "year": null,
+              "duration_sec": 5414,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68bb3c8a6f39c",
+              "url": "https://prehraj.to/no-way-up-cz-dabing-2024/68bb3c8a6f39c",
+              "title": "No way up - CZ DABING (2024)",
+              "year": null,
+              "duration_sec": 4932,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dd96444d610c3a6c",
+              "url": "https://prehraj.to/no-way-up-2024-czdab-mkv/dd96444d610c3a6c",
+              "title": "No Way Up,(2024),CZdab.mkv",
+              "year": null,
+              "duration_sec": 4932,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6580e04cebf50",
+              "url": "https://prehraj.to/no-way-out-2022/6580e04cebf50",
+              "title": "No Way Out (2022)",
+              "year": null,
+              "duration_sec": 5718,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60784c1887d1e",
+              "url": "https://prehraj.to/no-way-out-2020-1080p-amzn-web-dl-ddp5-1-h-264-nogrp/60784c1887d1e",
+              "title": "No.Way.Out.2020.1080p.AMZN.WEB-DL.DDP5.1.H.264-NOGRP",
+              "year": null,
+              "duration_sec": 4842,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62f69ba1c4691",
+              "url": "https://prehraj.to/no-way-out-2022-cz-dabing-1080p/62f69ba1c4691",
+              "title": "No Way Out 2022 cz dabing 1080p",
+              "year": null,
+              "duration_sec": 5718,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fc30591fe68",
+              "url": "https://prehraj.to/no-way-up-2024-czdab/67fc30591fe68",
+              "title": "No Way Up,(2024),CZdab",
+              "year": null,
+              "duration_sec": 4932,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6818827b857bc",
+              "url": "https://prehraj.to/no-way-up-2024-cz-dabing-1080p/6818827b857bc",
+              "title": "No Way Up (2024) CZ Dabing 1080p",
+              "year": null,
+              "duration_sec": 4932,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60787c0f08885",
+              "url": "https://prehraj.to/no-way-out-2020-1080p-webrip-x264-rarbg/60787c0f08885",
+              "title": "No.Way.Out.2020.1080p.WEBRip.x264-RARBG",
+              "year": null,
+              "duration_sec": 4842,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d3e49de94ed",
+              "url": "https://prehraj.to/no-way-up-2024-cz-titulky/65d3e49de94ed",
+              "title": "No Way Up (2024) CZ titulky",
+              "year": null,
+              "duration_sec": 5415,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c056d95fd75ee7a2",
+              "url": "https://prehraj.to/no-way-out-2022-cz-dabing/c056d95fd75ee7a2",
+              "title": "No Way Out (2022) CZ Dabing",
+              "year": null,
+              "duration_sec": 5718,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d3e5a27a0cd",
+              "url": "https://prehraj.to/no-way-up-2024-cztit/65d3e5a27a0cd",
+              "title": "No Way Up (2024) CZtit",
+              "year": null,
+              "duration_sec": 5414,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d3e6c5c954d",
+              "url": "https://prehraj.to/no-way-up-2024-cztitulky/65d3e6c5c954d",
+              "title": "No Way Up (2024) CZtitulky",
+              "year": null,
+              "duration_sec": 5415,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cc5d3c9b995dc52c",
+              "url": "https://prehraj.to/no-way-up-2024-en/cc5d3c9b995dc52c",
+              "title": "No Way Up - 2024 EN",
+              "year": null,
+              "duration_sec": 5414,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66d47b19ca25d",
+              "url": "https://prehraj.to/no-way-up-cz-tit-2024/66d47b19ca25d",
+              "title": "No Way Up cz tit 2024",
+              "year": null,
+              "duration_sec": 5415,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d615be99980",
+              "url": "https://prehraj.to/no-way-up-2024-cz-titulky-hd-1080p/65d615be99980",
+              "title": "No Way Up 2024 CZ titulky HD 1080p",
+              "year": null,
+              "duration_sec": 5415,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1981,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Why Not? (1981)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:40:17.350005+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "a-proc-ne",
+        "title": "A proč ne!",
+        "original_title": "Why Not?",
+        "year": 1981,
+        "runtime_min": 151,
+        "tmdb_id": 42143,
+        "imdb_id": "tt0082313",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:40:15.803299+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:40:14.264549+00:00"
+  "updated_at": "2026-08-28T07:40:17.350023+00:00"
 }
