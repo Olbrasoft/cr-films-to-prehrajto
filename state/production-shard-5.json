@@ -20074,7 +20074,183 @@
         },
         "at": "2026-08-28T07:18:37.805245+00:00"
       }
+    },
+    "27925": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60ef759a6bce9",
+              "url": "https://prehraj.to/bastardi-2-2011-dvdrip-xvid-ac3-cz-tatracker-iwi/60ef759a6bce9",
+              "title": "Bastardi.2.2011.DVDRip.XviD.AC3.CZ.TATRACKER-iWi",
+              "year": null,
+              "duration_sec": 5733,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.675,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9a2025ca8943ac8e",
+              "url": "https://prehraj.to/david-guetta-x-mistajam-x-john-newman-if-you-really-love-me-how-will-i-know-official-video-pres-covid-19-a-porad-mp4/9a2025ca8943ac8e",
+              "title": "David Guetta x MistaJam x John Newman - If You Really Love…",
+              "year": null,
+              "duration_sec": 195,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.875,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "i.will.know.you. (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e97f31795362975",
+              "url": "https://prehraj.to/assassin-s-creed-odyssey-part-13-the-doctor-will-see-you-now-1-mp4/5e97f31795362975",
+              "title": "Assassin's Creed Odyssey - Part #13 - the DOCTOR WILL SEE…",
+              "year": null,
+              "duration_sec": 1032,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.209,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 26,
+                "candidate_runtime_sec": 1032,
+                "runtime_delta": 0.338,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "i.will.know.you. (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d0c5f2a7c512805d",
+              "url": "https://prehraj.to/assassin-s-creed-odyssey-part-13-the-doctor-will-see-you-now-mp4/d0c5f2a7c512805d",
+              "title": "Assassin's Creed Odyssey - Part #13 - the DOCTOR WILL SEE…",
+              "year": null,
+              "duration_sec": 1047,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.209,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 26,
+                "candidate_runtime_sec": 1047,
+                "runtime_delta": 0.329,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "i.will.know.you. (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f39af6d21406",
+              "url": "https://prehraj.to/assassin-s-creed-odyssey-part-13-the-doctor-will-see-you-now/5f39af6d21406",
+              "title": "Assassin's Creed Odyssey - Part #13 - THE DOCTOR WILL SEE…",
+              "year": null,
+              "duration_sec": 928,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.209,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 26,
+                "candidate_runtime_sec": 928,
+                "runtime_delta": 0.405,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "i.will.know.you. (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9495c35472db82cb",
+              "url": "https://prehraj.to/assassin-s-creed-odyssey-part-13-the-doctor-will-see-you-now-2-mp4/9495c35472db82cb",
+              "title": "Assassin's Creed Odyssey - Part #13 - the DOCTOR WILL SEE…",
+              "year": null,
+              "duration_sec": 957,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.209,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 26,
+                "candidate_runtime_sec": 957,
+                "runtime_delta": 0.387,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "i.will.know.you. (2011)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:18:43.745950+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "i-will-know-you",
+        "title": "i.will.know.you.",
+        "original_title": null,
+        "year": 2011,
+        "runtime_min": 26,
+        "tmdb_id": 817112,
+        "imdb_id": "tt2061875",
+        "created_at": "2026-04-20 22:32:41.300427+02:00",
+        "added_at": "2026-04-20 22:32:41.300427+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:18:40.855332+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:18:39.443786+00:00"
+  "updated_at": "2026-08-28T07:18:43.745967+00:00"
 }
