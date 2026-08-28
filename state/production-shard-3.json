@@ -32155,7 +32155,94 @@
         },
         "at": "2026-08-28T06:59:50.953501+00:00"
       }
+    },
+    "21499": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58901bca67a3d",
+              "url": "https://prehraj.to/tichy-don-iii-1958-cz-hardsub/58901bca67a3d",
+              "title": "Tichý-Don-III.-(1958)-cz-hardsub",
+              "year": null,
+              "duration_sec": 6988,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.304,
+                "title_contains_alias": false,
+                "film_year": 1958,
+                "candidate_year": 1958,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 6988,
+                "runtime_delta": 0.37,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586afc6d7863c",
+              "url": "https://prehraj.to/tichy-don-iii-1958-cz-hardsub/586afc6d7863c",
+              "title": "Tichý-Don-III.-(1958)-cz-hardsub",
+              "year": null,
+              "duration_sec": 6988,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.304,
+                "title_contains_alias": false,
+                "film_year": 1958,
+                "candidate_year": 1958,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 6988,
+                "runtime_delta": 0.37,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:59:53.605762+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "marinai-donne-e-guai",
+        "title": "Marinai, donne e guai",
+        "original_title": null,
+        "year": 1958,
+        "runtime_min": 85,
+        "tmdb_id": 203837,
+        "imdb_id": "tt0051909",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:59:52.910267+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:59:51.568423+00:00"
+  "updated_at": "2026-08-28T06:59:53.605784+00:00"
 }
