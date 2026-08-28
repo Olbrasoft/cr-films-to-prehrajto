@@ -36162,7 +36162,70 @@
         },
         "at": "2026-08-28T07:00:05.528448+00:00"
       }
+    },
+    "17007": {
+      "attempts": [],
+      "identity": {
+        "slug": "the-island-of-shadows",
+        "title": "The Island of Shadows",
+        "original_title": "그림자들의 섬",
+        "year": 2016,
+        "runtime_min": 98,
+        "tmdb_id": 412240,
+        "imdb_id": "tt6315868",
+        "created_at": "2026-04-14 16:14:39.175424+02:00",
+        "added_at": "2022-05-24 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25316163",
+          "account_name": "Nowhere Boys: The Book of Shadows (2016) CZ Titulky",
+          "title_similarity": 0.517,
+          "title_contains_alias": false,
+          "film_year": 2016,
+          "candidate_year": 2016,
+          "year_match": true,
+          "film_runtime_min": 98,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T07:00:13.626900+00:00"
+      }
+    },
+    "12039": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:00:17.633959+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "ritorno-dalla-morte-1991",
+        "title": "Ritorno dalla morte",
+        "original_title": "Ritorno dalla morte",
+        "year": 1991,
+        "runtime_min": 93,
+        "tmdb_id": 3412,
+        "imdb_id": "tt0105245",
+        "created_at": "2026-04-14 15:36:01.703663+02:00",
+        "added_at": "2022-05-08 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:00:13.626947+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:00:10.093728+00:00"
+  "updated_at": "2026-08-28T07:00:17.633978+00:00"
 }
