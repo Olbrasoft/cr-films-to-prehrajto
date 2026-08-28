@@ -31689,7 +31689,67 @@
         },
         "at": "2026-08-28T02:51:08.210174+00:00"
       }
+    },
+    "21252": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55bca14f77ed7",
+              "url": "https://prehraj.to/1947-under-the-tonto-rim-by-ivanho-l-barker-r-klarke-t-holt-western-eng/55bca14f77ed7",
+              "title": "1947-Under-the-Tonto-Rim[By-Ivanho]-L.Barker,R.Klarke,T.Holt-Western.Eng.",
+              "year": null,
+              "duration_sec": 3664,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.273,
+                "title_contains_alias": false,
+                "film_year": 1947,
+                "candidate_year": 1947,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 3664,
+                "runtime_delta": 0.321,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:51:17.852359+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "undercover-maisie",
+        "title": "Undercover Maisie",
+        "original_title": null,
+        "year": 1947,
+        "runtime_min": 90,
+        "tmdb_id": 177547,
+        "imdb_id": "tt0039935",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:51:10.834130+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:51:09.402853+00:00"
+  "updated_at": "2026-08-28T02:51:17.852378+00:00"
 }
