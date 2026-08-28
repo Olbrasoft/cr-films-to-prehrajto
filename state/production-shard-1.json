@@ -16204,6 +16204,577 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T16:13:44.729252+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5d84a0cccac6f",
+              "url": "https://prehraj.to/collete-pribeh-vasne-cz-dab-2018/5d84a0cccac6f",
+              "title": "COLLETE - PŘÍBĚH VÁŠNĚ CZ dab 2018",
+              "year": null,
+              "duration_sec": 6723,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.364,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 6723,
+                "runtime_delta": 0.334,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dbfcd2de70d7",
+              "url": "https://prehraj.to/collete-pribeh-vasne-cz-dab-2018/5dbfcd2de70d7",
+              "title": "COLLETE - PŘÍBĚH VÁŠNĚ CZ dab 2018",
+              "year": null,
+              "duration_sec": 6723,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.364,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 6723,
+                "runtime_delta": 0.334,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f61872fe8cf02412",
+              "url": "https://prehraj.to/le-collier-rouge-2018-cz-titulky/f61872fe8cf02412",
+              "title": "Le Collier rouge (2018) CZ titulky",
+              "year": null,
+              "duration_sec": 4741,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.483,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 4741,
+                "runtime_delta": 0.059,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d4e5086a3a456821",
+              "url": "https://prehraj.to/le-collier-rouge-2018-cz-titulky/d4e5086a3a456821",
+              "title": "Le Collier rouge (2018) CZ Titulky",
+              "year": null,
+              "duration_sec": 4741,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.483,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 4741,
+                "runtime_delta": 0.059,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62fc1d7a4cb66",
+              "url": "https://prehraj.to/collide-2022-cz-sub-1080p/62fc1d7a4cb66",
+              "title": "Collide.2022 cz sub 1080p",
+              "year": null,
+              "duration_sec": 5407,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "638a226032ecb",
+              "url": "https://prehraj.to/collide-2016-cz-titulky-v-obraze/638a226032ecb",
+              "title": "Collide (2016) CZ Titulky v Obraze",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62fbd7428bb58",
+              "url": "https://prehraj.to/collide-2022-cz-sub-720/62fbd7428bb58",
+              "title": "Collide.2022.cz sub 720",
+              "year": null,
+              "duration_sec": 5407,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586e35c432cb9",
+              "url": "https://prehraj.to/collide-2016-cztit-v-obraze-bluray/586e35c432cb9",
+              "title": "Collide (2016)CZtit V OBRAZE BluRay",
+              "year": null,
+              "duration_sec": 5923,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587116516bf13",
+              "url": "https://prehraj.to/collide-2016-cz-tit-vloz/587116516bf13",
+              "title": "Collide-2016-cz.tit.vlož",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586f96c6c3047",
+              "url": "https://prehraj.to/collide-cz-tit-v-obraze-csfd-56-akcni-thriller-2016/586f96c6c3047",
+              "title": "Collide-cz-tit.v-obraze.csfd-56--akcni-thriller-2016",
+              "year": null,
+              "duration_sec": 5868,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586e35c4302c6",
+              "url": "https://prehraj.to/collide-2016-cztit-v-obraze-bluray/586e35c4302c6",
+              "title": "Collide (2016)CZtit V OBRAZE BluRay",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59c3430161d57",
+              "url": "https://prehraj.to/collide-2016-cz-titulky-vlozene/59c3430161d57",
+              "title": "Collide (2016) CZ Titulky Vložené",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5916bc8382942",
+              "url": "https://prehraj.to/collide-2016-cz-titulky-v-obraze/5916bc8382942",
+              "title": "Collide (2016) CZ Titulky v Obraze",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6d4d2dbd5750c13a",
+              "url": "https://prehraj.to/collide-2016-cz-titulky-vlozene/6d4d2dbd5750c13a",
+              "title": "Collide (2016) CZ Titulky Vložené",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a31008d76d79",
+              "url": "https://prehraj.to/srazka-collide-2016-cz-dabing/5a31008d76d79",
+              "title": "Srážka - Collide (2016) CZ Dabing",
+              "year": null,
+              "duration_sec": 5923,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59cff96622ae8",
+              "url": "https://prehraj.to/srazka-collide-2016-brrip-cz-dabing/59cff96622ae8",
+              "title": "Srážka Collide (2016) BRRip CZ dabing",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b8b6d8dd982e4069",
+              "url": "https://prehraj.to/srazka-collide-2016-bdrip-xvid-mp3-cz/b8b6d8dd982e4069",
+              "title": "Srazka-Collide.2016.BDRip.XviD.MP3.CZ",
+              "year": null,
+              "duration_sec": 5527,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f8eb993164f01533",
+              "url": "https://prehraj.to/srazka-collide-2016-cz-csfd-55-sktonline/f8eb993164f01533",
+              "title": "Srážka - Collide (2016)(CZ) = CSFD 55% - SkTonline",
+              "year": null,
+              "duration_sec": 5922,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e97402a6e80c",
+              "url": "https://prehraj.to/srazka-collide-2016-cz-dabing/5e97402a6e80c",
+              "title": "Srážka - Collide (2016) CZ Dabing",
+              "year": null,
+              "duration_sec": 5923,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60f15492c4133",
+              "url": "https://prehraj.to/kenny-scharf-when-worlds-collide-2020-1080p-webrip-x264-aac-yts-mx/60f15492c4133",
+              "title": "Kenny.Scharf.When.Worlds.Collide.2020.1080p.WEBRip.x264.AAC…",
+              "year": null,
+              "duration_sec": 4816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60f154db9a3ad",
+              "url": "https://prehraj.to/kenny-scharf-when-worlds-collide-2020-720p-webrip-x264-aac-yts-mx/60f154db9a3ad",
+              "title": "Kenny.Scharf.When.Worlds.Collide.2020.720p.WEBRip.x264.AAC-…",
+              "year": null,
+              "duration_sec": 4815,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "655638d10ea02",
+              "url": "https://prehraj.to/def-leppard-when-love-and-hate-collide/655638d10ea02",
+              "title": "Def Leppard - When Love And Hate Collide",
+              "year": null,
+              "duration_sec": 254,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.95,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0d68f6aa12",
+              "url": "https://prehraj.to/brian-cox-s-sex-toy-mini-hadron-collider-friday-night-with-jonathan-ross-s18-ep10-bbc-one/5ae0d68f6aa12",
+              "title": "Brian Cox's Sex Toy Mini Hadron Collider - Friday Night…",
+              "year": null,
+              "duration_sec": 110,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.978,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7a2acdd5fef72035",
+              "url": "https://prehraj.to/def-leppard-when-love-hate-collide-official-music-video-mp4/7a2acdd5fef72035",
+              "title": "DEF LEPPARD - _When Love & Hate Collide_ (Official Music…",
+              "year": null,
+              "duration_sec": 258,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65074078df1fe",
+              "url": "https://prehraj.to/anime-time-one-piece-0610-fists-collide-a-battle-of-the-two-vice-admirals/65074078df1fe",
+              "title": "[Anime Time] One Piece - 0610 - Fists Collide! A Battle of…",
+              "year": null,
+              "duration_sec": 1431,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.716,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "20cabe04e5797e58",
+              "url": "https://prehraj.to/alex-collier-odhaluje-petiletou-budoucnost-lidstva-tajemstvi-vnitrni-zeme-a-konecny-pad-tyranie/20cabe04e5797e58",
+              "title": "Alex Collier odhaluje pětiletou budoucnost lidstva_…",
+              "year": null,
+              "duration_sec": 1695,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.664,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Collider (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65072b8f86970",
+              "url": "https://prehraj.to/anime-time-one-piece-0478-to-live-up-to-a-promise-luffy-and-coby-collide/65072b8f86970",
+              "title": "[Anime Time] One Piece - 0478 - To Live Up to a Promise!…",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.714,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Collider (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:17:33.313810+00:00"
         }
       ],
       "identity": {
@@ -16222,7 +16793,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T16:13:23.820115+00:00"
+        "at": "2026-08-28T03:17:29.814062+00:00"
       }
     },
     "29199": {
@@ -69394,5 +69965,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:17:28.300673+00:00"
+  "updated_at": "2026-08-28T03:17:33.313842+00:00"
 }
