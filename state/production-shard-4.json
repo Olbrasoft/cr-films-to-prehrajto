@@ -18805,7 +18805,124 @@
         },
         "at": "2026-08-28T02:27:54.445954+00:00"
       }
+    },
+    "27596": {
+      "attempts": [],
+      "identity": {
+        "slug": "noir-ocean",
+        "title": "Noir océan",
+        "original_title": "Black Ocean",
+        "year": 2011,
+        "runtime_min": 87,
+        "tmdb_id": 65868,
+        "imdb_id": "tt1722516",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25172744",
+          "account_name": "Planeta oceán (2012) CZ",
+          "title_similarity": 0.552,
+          "title_contains_alias": false,
+          "film_year": 2011,
+          "candidate_year": 2012,
+          "year_match": true,
+          "film_runtime_min": 87,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T02:28:12.911616+00:00"
+      }
+    },
+    "27436": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "558bd39c4f928",
+              "url": "https://prehraj.to/anaganaga-o-dheerudu-2011/558bd39c4f928",
+              "title": "Anaganaga-O-Dheerudu-(2011)",
+              "year": null,
+              "duration_sec": 7997,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.273,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 133,
+                "candidate_runtime_sec": 7997,
+                "runtime_delta": 0.002,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d83c1136c7e57a7f",
+              "url": "https://prehraj.to/anaganaga-o-dhirudu-2011/d83c1136c7e57a7f",
+              "title": "ఆనగనగా ఓ ధీరుడు (2011)",
+              "year": null,
+              "duration_sec": 7996,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.0,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 133,
+                "candidate_runtime_sec": 7996,
+                "runtime_delta": 0.002,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "ఆనగనగా ఓ ధీరుడు (2011)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:28:14.427077+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "film-2011",
+        "title": "ఆనగనగా ఓ ధీరుడు",
+        "original_title": "Once Upon a Warrior",
+        "year": 2011,
+        "runtime_min": 133,
+        "tmdb_id": 72440,
+        "imdb_id": "tt1621994",
+        "created_at": "2026-04-20 22:32:40.810471+02:00",
+        "added_at": "2026-04-20 22:32:40.810471+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:28:12.911837+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:28:09.422186+00:00"
+  "updated_at": "2026-08-28T02:28:14.427099+00:00"
 }
