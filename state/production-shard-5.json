@@ -26286,7 +26286,60 @@
         },
         "at": "2026-08-28T07:38:36.455350+00:00"
       }
+    },
+    "24581": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "584016a8353a9",
+              "url": "https://prehraj.to/hymna-aneb-urfidlovacka-2000/584016a8353a9",
+              "title": "Hymna-aneb-Urfidlovacka-2000",
+              "year": null,
+              "duration_sec": 4702,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.691,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:38:59.763648+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bohemia-docta-aneb-labyrint-sveta-a-lusthauz-srdce-bozska-komedie",
+        "title": "Bohemia docta aneb Labyrint světa a lusthauz srdce (Božská komedie)",
+        "original_title": "Bohemia Docta or the Labyrinth of the World and the Lust-House of the Heart (A Divine Comedy)",
+        "year": 2000,
+        "runtime_min": 254,
+        "tmdb_id": 437151,
+        "imdb_id": "tt0250262",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:38:44.953338+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:38:43.395593+00:00"
+  "updated_at": "2026-08-28T07:38:59.763666+00:00"
 }
