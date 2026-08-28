@@ -22939,7 +22939,94 @@
         },
         "at": "2026-08-28T07:19:55.964731+00:00"
       }
+    },
+    "26949": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "57faf3f150b76",
+              "url": "https://prehraj.to/pilot-it-valecny-2008-tvrip/57faf3f150b76",
+              "title": "Pilot-It-valecny-2008-TVrip",
+              "year": null,
+              "duration_sec": 6711,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.226,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6711,
+                "runtime_delta": 0.177,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa60cfa3a542",
+              "url": "https://prehraj.to/pilot-2008/5aa60cfa3a542",
+              "title": "Pilot (2008)",
+              "year": null,
+              "duration_sec": 6712,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6712,
+                "runtime_delta": 0.178,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:19:59.142592+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "christoph-schlingensief-die-piloten",
+        "title": "Christoph Schlingensief - Die Piloten",
+        "original_title": null,
+        "year": 2008,
+        "runtime_min": 95,
+        "tmdb_id": 599827,
+        "imdb_id": "tt1333987",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:19:58.368740+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:19:56.931051+00:00"
+  "updated_at": "2026-08-28T07:19:59.142609+00:00"
 }
