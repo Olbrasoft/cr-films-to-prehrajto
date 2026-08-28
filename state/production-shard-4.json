@@ -25478,7 +25478,309 @@
         },
         "at": "2026-08-28T02:47:46.559156+00:00"
       }
+    },
+    "24284": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b61b44b65a8",
+              "url": "https://prehraj.to/petka-s-hvezdickou-1985/58b61b44b65a8",
+              "title": "Pětka-s-hvězdičkou-(1985)",
+              "year": null,
+              "duration_sec": 4434,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.45,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 4434,
+                "runtime_delta": 0.188,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59bef363b4640",
+              "url": "https://prehraj.to/ze-zavislosti-do-nezavislosti-fetka/59bef363b4640",
+              "title": "Ze závislosti do nezávislosti - Fetka",
+              "year": null,
+              "duration_sec": 1335,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.755,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "37524abce96f26f2",
+              "url": "https://prehraj.to/pojd-do-toho-34-dil-betka-a-chytre-hlavicky/37524abce96f26f2",
+              "title": "Pojď do toho! - 34. díl - Bětka a chytré hlavičky",
+              "year": null,
+              "duration_sec": 884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.838,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ae0b9a7e1058b7a2",
+              "url": "https://prehraj.to/cigani-idu-do-volieb-tak-toto-je-pecka-celi-film-gypsy-totik/ae0b9a7e1058b7a2",
+              "title": "cigani idu do volieb  tak toto je pecka celi film gypsy…",
+              "year": null,
+              "duration_sec": 4339,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.296,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 4339,
+                "runtime_delta": 0.205,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6772812cbc70e",
+              "url": "https://prehraj.to/cigani-idu-do-volieb-tak-toto-je-pecka-celi-film-gypsy-totik/6772812cbc70e",
+              "title": "cigani idu do volieb  tak toto je pecka celi film gypsy…",
+              "year": null,
+              "duration_sec": 4339,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.296,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 4339,
+                "runtime_delta": 0.205,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a13465e7ef97ff71",
+              "url": "https://prehraj.to/tech-63-dil-primo-do-zetka-ukrajinsky-dron-zasahl-znamy-rusky-raketomet/a13465e7ef97ff71",
+              "title": "Tech - 63. díl - Přímo do „zetka“. Ukrajinský dron zasáhl…",
+              "year": null,
+              "duration_sec": 29,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.995,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d496f53e460b9ab5",
+              "url": "https://prehraj.to/petra-show-04-dil-ostra-kritika-na-hlavu-romana-berbra-vladimir-smicer-jde-do-utoku/d496f53e460b9ab5",
+              "title": "Petra show - 04. díl - Ostrá kritika na hlavu Romana Berbra…",
+              "year": null,
+              "duration_sec": 1366,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.75,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66253c39bf9e4",
+              "url": "https://prehraj.to/sest-ran-do-klobouku-6-kveta-fialova-luba-skorepova-zdenek-rehor-petra-cernocka-a-dalsi-1982/66253c39bf9e4",
+              "title": "Šest ran do klobouku 6 ❖  Květa Fialová, Luba Skořepová,…",
+              "year": null,
+              "duration_sec": 2533,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.536,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6090de3e2245aab6",
+              "url": "https://prehraj.to/petra-show-30-dil-mel-jsem-jeden-dolar-kdyz-jsem-se-vratil-do-cech-rika-zpevak-raego/6090de3e2245aab6",
+              "title": "Petra show - 30. díl - Měl jsem jeden dolar, když jsem se…",
+              "year": null,
+              "duration_sec": 1520,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.722,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "80846e073bbb30de",
+              "url": "https://prehraj.to/petra-show-41-dil-nejdu-do-politiky-znicili-by-mi-jmeno-arenberger-mi-zjistil-rakovinu-rika-zuzana-bubilkova/80846e073bbb30de",
+              "title": "Petra show - 41. díl - „Nejdu do politiky, zničili by mi…",
+              "year": null,
+              "duration_sec": 1529,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.72,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c6270c53e163ef83",
+              "url": "https://prehraj.to/kdo-to-mluvi-28-dil-nadherna-zenska-s-dokonalym-hlasem-daberka-petra-tisnovska-je-fenomen-od-90-let/c6270c53e163ef83",
+              "title": "Kdo to mluví - 28. díl - Nádherná ženská s dokonalým hlasem…",
+              "year": null,
+              "duration_sec": 370,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.932,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60ee157a1b842cdc",
+              "url": "https://prehraj.to/petra-show-18-dil-na-skole-jsem-se-pohadal-pak-jsem-udelal-gulas-a-vzali-me-do-tv-rika-jiri-babica/60ee157a1b842cdc",
+              "title": "Petra show - 18. díl - Na škole jsem se pohádal. Pak jsem…",
+              "year": null,
+              "duration_sec": 1633,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.701,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "74a825e187c32aa2",
+              "url": "https://prehraj.to/petra-show-02-dil-co-bude-s-hamackem-prozradil-tomas-petricek/74a825e187c32aa2",
+              "title": "Petra show - 02. díl - Co bude s Hamáčkem Prozradil Tomáš…",
+              "year": null,
+              "duration_sec": 1311,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.76,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Od petka do petka (1985)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:47:50.710010+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "od-petka-do-petka",
+        "title": "Od petka do petka",
+        "original_title": "From One Friday to the Next",
+        "year": 1985,
+        "runtime_min": 91,
+        "tmdb_id": 444115,
+        "imdb_id": "tt0182347",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:47:48.973927+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:47:47.618833+00:00"
+  "updated_at": "2026-08-28T02:47:50.710030+00:00"
 }
