@@ -5850,7 +5850,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T10:52:47.645343+00:00",
-        "verified_at": "2026-08-28T02:22:47.333409+00:00",
+        "verified_at": "2026-08-28T06:29:40.080266+00:00",
         "live_display_name": "Asterix a Olympijské hry (2008) CZ titulky"
       }
     },
@@ -33153,6 +33153,17 @@
           "reason": "All currently acceptable candidates were exhausted",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T22:00:54.746462+00:00"
+        },
+        {
+          "provider": "sktorrent",
+          "source_id": "51069",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28897627",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T04:56:26.925151+00:00"
         }
       ],
       "identity": {
@@ -33172,19 +33183,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T02:25:00.837077+00:00"
-      },
-      "upload": {
-        "target_video_id": "28897627",
-        "display_name": "Polda (1988) CZ Dabing",
-        "size_bytes": 515701617,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "51069",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:31:28.662019+00:00"
       }
     },
     "15719": {
@@ -33682,8 +33680,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:45:26.844626+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T02:45:26.844626+00:00",
+        "verified_at": "2026-08-28T04:57:05.518531+00:00",
+        "live_display_name": "Kung Fu Panda 4 (2024) CZ Dabing"
       }
     },
     "14975": {
@@ -34423,12 +34423,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:51:53.662439+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T02:51:53.662439+00:00",
+        "verified_at": "2026-08-28T04:57:24.902364+00:00",
+        "live_display_name": "Tancuj Matyldo (2023) CZ Dabing"
       }
     },
     "10775": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "35097",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28897829",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T04:57:43.344963+00:00"
+        }
+      ],
       "identity": {
         "slug": "dazdnik-svateho-petra-1958",
         "title": "Dáždnik svätého Petra",
@@ -34446,19 +34460,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T02:52:01.520688+00:00"
-      },
-      "upload": {
-        "target_video_id": "28897829",
-        "display_name": "Dáždnik svätého Petra (1958) CZ Dabing",
-        "size_bytes": 523136910,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "35097",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:55:21.810860+00:00"
       }
     },
     "2959": {
@@ -34491,8 +34492,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:59:10.358046+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T02:59:10.358046+00:00",
+        "verified_at": "2026-08-28T04:57:53.072454+00:00",
+        "live_display_name": "Ovečka Shaun ve filmu: Farmageddon (2019) CZ Dabing"
       }
     },
     "15511": {
@@ -34525,8 +34528,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:03:01.605166+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:03:01.605166+00:00",
+        "verified_at": "2026-08-28T04:58:02.452124+00:00",
+        "live_display_name": "Letadla, vlaky a vánoční stromky (2022) CZ Dabing"
       }
     },
     "15655": {
@@ -34559,8 +34564,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:05:57.030336+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:05:57.030336+00:00",
+        "verified_at": "2026-08-28T04:58:12.018131+00:00",
+        "live_display_name": "Sběratel andělů (2023) CZ Dabing"
       }
     },
     "9959": {
@@ -34622,7 +34629,19 @@
       }
     },
     "2207": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "32377",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28897972",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T04:58:31.233978+00:00"
+        }
+      ],
       "identity": {
         "slug": "muz-ktery-stal-v-ceste",
         "title": "Muž, který stál v cestě",
@@ -34640,19 +34659,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T03:06:07.197397+00:00"
-      },
-      "upload": {
-        "target_video_id": "28897972",
-        "display_name": "Muž, který stál v cestě (2023) CZ Dabing",
-        "size_bytes": 597171125,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "32377",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:10:19.260072+00:00"
       }
     },
     "55": {
@@ -34685,10 +34691,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:31:20.599292+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:31:20.599292+00:00",
+        "verified_at": "2026-08-28T06:21:51.138120+00:00",
+        "live_display_name": "Spider-Man: Napříč paralelními světy (2023) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T03:31:20.599328+00:00"
+  "updated_at": "2026-08-28T06:29:50.266341+00:00"
 }

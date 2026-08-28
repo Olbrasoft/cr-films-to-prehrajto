@@ -10471,6 +10471,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T00:56:06.878484+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "67315c802d8d5",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28897601",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T04:43:26.887319+00:00"
         }
       ],
       "identity": {
@@ -10490,19 +10501,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T02:24:55.400428+00:00"
-      },
-      "upload": {
-        "target_video_id": "28897601",
-        "display_name": "Hvězdná brána (1994) CZ Dabing",
-        "size_bytes": 2163056699,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "67315c802d8d5",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:37:49.230119+00:00"
       }
     },
     "754": {
@@ -11067,8 +11065,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:43:14.388127+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T02:43:14.388127+00:00",
+        "verified_at": "2026-08-28T04:43:36.700258+00:00",
+        "live_display_name": "Asterix: Sídliště bohů (2014) CZ Dabing"
       }
     },
     "4730": {
@@ -11284,6 +11284,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T00:56:43.116569+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "1fd53ecaeeb99427",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28897744",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T04:43:56.540855+00:00"
         }
       ],
       "identity": {
@@ -11303,19 +11314,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T02:43:29.675123+00:00"
-      },
-      "upload": {
-        "target_video_id": "28897744",
-        "display_name": "John Wick 2 (2017) CZ Dabing",
-        "size_bytes": 659932448,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "1fd53ecaeeb99427",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T02:47:19.739428+00:00"
       }
     },
     "5290": {
@@ -11718,8 +11716,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:02:00.292982+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:02:00.292982+00:00",
+        "verified_at": "2026-08-28T05:25:51.227049+00:00",
+        "live_display_name": "Rychle a zběsile 7 (2015) CZ Dabing"
       }
     },
     "7994": {
@@ -11839,8 +11839,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:10:39.933010+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:10:39.933010+00:00",
+        "verified_at": "2026-08-28T05:36:27.628967+00:00",
+        "live_display_name": "Annabelle (2014) CZ Dabing"
       }
     },
     "14610": {
@@ -11933,8 +11935,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:13:11.042034+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:13:11.042034+00:00",
+        "verified_at": "2026-08-28T04:44:25.136390+00:00",
+        "live_display_name": "Zůstaň se mnou (2014) CZ Dabing"
       }
     },
     "250": {
@@ -11967,8 +11971,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:22:27.265237+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:22:27.265237+00:00",
+        "verified_at": "2026-08-28T04:44:35.063519+00:00",
+        "live_display_name": "Gran Torino (2008) CZ Dabing"
       }
     },
     "29658": {
@@ -18658,14 +18664,16 @@
         "target_video_id": "28898133",
         "display_name": "Die'ced: Reloaded (2025) CZ titulky",
         "size_bytes": 1085105103,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "68c06430cc001",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:29:52.138291+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:29:52.138291+00:00",
+        "verified_at": "2026-08-28T04:44:44.832117+00:00",
+        "live_display_name": "Die'ced: Reloaded (2025) CZ titulky"
       }
     },
     "28866": {
@@ -20423,14 +20431,16 @@
         "target_video_id": "28898207",
         "display_name": "Mickey's Tale of Two Witches (2021) CZ titulky",
         "size_bytes": 1423463627,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "61621592ebecd",
         "language_tier": "czech_subtitles",
         "actual_resolution": 1080,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:38:21.507869+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:38:21.507869+00:00",
+        "verified_at": "2026-08-28T04:45:04.632690+00:00",
+        "live_display_name": "Mickey's Tale of Two Witches (2021) CZ titulky"
       }
     },
     "27258": {
@@ -20583,16 +20593,18 @@
         "target_video_id": "28898283",
         "display_name": "Monstra vs. Vetřelci: Útok dýňových mutantů (2009) CZ titulky",
         "size_bytes": 342972238,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "4a272a9ce5a1f42e",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:40:31.220830+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T03:40:31.220830+00:00",
+        "verified_at": "2026-08-28T04:45:24.733374+00:00",
+        "live_display_name": "Monstra vs. Vetřelci: Útok dýňových mutantů (2009) CZ titulky"
       }
     }
   },
-  "updated_at": "2026-08-28T03:40:31.220858+00:00"
+  "updated_at": "2026-08-28T05:36:27.628983+00:00"
 }
