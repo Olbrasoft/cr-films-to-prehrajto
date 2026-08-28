@@ -31493,7 +31493,94 @@
         },
         "at": "2026-08-28T07:04:36.964063+00:00"
       }
+    },
+    "22334": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "648c726832d05",
+              "url": "https://prehraj.to/ja-to-tedy-beru-sefe-1977-1080p-web-dl-x264-r-i-h/648c726832d05",
+              "title": "Já.To.Tedy.Beru.Šéfe.1977.1080p.WEB-DL.x264-R.i.H",
+              "year": null,
+              "duration_sec": 5544,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5544,
+                "runtime_delta": 0.057,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6504feca9ffce",
+              "url": "https://prehraj.to/ja-to-tedy-beru-sefe-1977-1080p-web-dl-x264-r-i-h/6504feca9ffce",
+              "title": "Já.To.Tedy.Beru.Šéfe.1977.1080p.WEB-DL.x264-R.i.H",
+              "year": null,
+              "duration_sec": 5544,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5544,
+                "runtime_delta": 0.057,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:04:44.246287+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "an-unfinished-piece-for-player-piano",
+        "title": "An Unfinished Piece for Player Piano",
+        "original_title": "An Unfinished Piece for Player Piano",
+        "year": 1977,
+        "runtime_min": 98,
+        "tmdb_id": 38837,
+        "imdb_id": "tt0076446",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:04:40.250087+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:04:38.832658+00:00"
+  "updated_at": "2026-08-28T07:04:44.246309+00:00"
 }
