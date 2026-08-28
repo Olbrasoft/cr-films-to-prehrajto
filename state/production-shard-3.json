@@ -12360,7 +12360,60 @@
         },
         "at": "2026-08-28T06:32:20.306515+00:00"
       }
+    },
+    "29867": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5accabad7695d",
+              "url": "https://prehraj.to/kickboxer-2-odplata-kickboxer-retaliation-2018-cz-tit-v-obraze-super-kr-webrip-akcni-novinka/5accabad7695d",
+              "title": "Kickboxer 2 Odplata.Kickboxer Retaliation.2018.CZ tit,v obraze-Super.KR.WEBRip-Akční-Novinka",
+              "year": null,
+              "duration_sec": 6600,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.692,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:32:24.759645+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bamse-och-dunderklockan",
+        "title": "Bamse och dunderklockan",
+        "original_title": "Bamse and the Thunderbell",
+        "year": 2018,
+        "runtime_min": 65,
+        "tmdb_id": 527766,
+        "imdb_id": "tt9472442",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:32:23.028666+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:32:21.810973+00:00"
+  "updated_at": "2026-08-28T06:32:24.759664+00:00"
 }
