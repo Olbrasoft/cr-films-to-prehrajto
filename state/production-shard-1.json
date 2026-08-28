@@ -44802,6 +44802,77 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:06:18.609102+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f5e21f571c83",
+              "url": "https://prehraj.to/project-power-2020-2160p-nf-webrip-ddp5-1-x265-tommy/5f5e21f571c83",
+              "title": "Project.Power.2020.2160p.NF.WEBRip.DDP5.1.x265-TOMMY",
+              "year": null,
+              "duration_sec": 6797,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.776,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f3d16631f83d",
+              "url": "https://prehraj.to/project-power-2020-1080p-nf-webrip-ddp5-1-x264-tommy/5f3d16631f83d",
+              "title": "Project.Power.2020.1080p.NF.WEBRip.DDP5.1.x264-TOMMY",
+              "year": null,
+              "duration_sec": 6797,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.776,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d1e8970e624",
+              "url": "https://prehraj.to/american-pie-presents-girls-rules-2020-1080p-amzn-web-dl-ddp5-1-h-264-tommy/60d1e8970e624",
+              "title": "American.Pie.Presents.Girls.Rules.2020.1080p.AMZN.WEB-DL.DDP5.1.H.264-TOMMY",
+              "year": null,
+              "duration_sec": 5731,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.184,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:42:19.594355+00:00"
         }
       ],
       "identity": {
@@ -44820,7 +44891,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:06:18.038111+00:00"
+        "at": "2026-08-28T03:42:18.097736+00:00"
       }
     },
     "26971": {
@@ -75576,5 +75647,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:42:16.618346+00:00"
+  "updated_at": "2026-08-28T03:42:19.594376+00:00"
 }
