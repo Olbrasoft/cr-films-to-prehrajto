@@ -36900,7 +36900,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T17:35:43.785313+00:00"
+        "at": "2026-08-28T19:53:30.886102+00:00"
       }
     },
     "14445": {
@@ -36982,7 +36982,7 @@
             }
           ]
         },
-        "at": "2026-08-28T17:35:43.786061+00:00"
+        "at": "2026-08-28T19:53:30.886948+00:00"
       }
     },
     "213": {
@@ -37013,7 +37013,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T17:35:43.786901+00:00"
+        "at": "2026-08-28T19:53:30.887812+00:00"
       }
     },
     "14109": {
@@ -37080,7 +37080,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T17:35:43.791847+00:00"
+        "at": "2026-08-28T19:53:30.892884+00:00"
       }
     },
     "16485": {
@@ -37095,6 +37095,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T19:49:01.505728+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "16163",
+              "url": "https://online.sktorrent.eu/video/16163/",
+              "title": "Burácení",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T19:53:40.051826+00:00"
         }
       ],
       "identity": {
@@ -37113,7 +37142,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T16:56:28.564299+00:00"
+        "at": "2026-08-28T19:53:30.893017+00:00"
       }
     },
     "2341": {
@@ -38250,5 +38279,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T19:53:11.405613+00:00"
+  "updated_at": "2026-08-28T19:53:40.051844+00:00"
 }
