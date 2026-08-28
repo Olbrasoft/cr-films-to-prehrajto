@@ -52215,6 +52215,57 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:28:58.854181+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587e15a9c1390",
+              "url": "https://prehraj.to/komisar-montalbano-paprsek-svetla-2013/587e15a9c1390",
+              "title": "Komisar-Montalbano---Paprsek-svetla-2013",
+              "year": null,
+              "duration_sec": 6376,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.832,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587c01cb86cc0",
+              "url": "https://prehraj.to/komisar-montalbano-paprsek-svetla-2013/587c01cb86cc0",
+              "title": "Komisar-Montalbano---Paprsek-svetla-2013",
+              "year": null,
+              "duration_sec": 6376,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.832,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:11:37.844128+00:00"
         }
       ],
       "identity": {
@@ -52233,7 +52284,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:28:58.351768+00:00"
+        "at": "2026-08-28T11:11:34.282357+00:00"
       }
     },
     "26582": {
@@ -67797,5 +67848,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:11:32.746539+00:00"
+  "updated_at": "2026-08-28T11:11:37.844145+00:00"
 }
