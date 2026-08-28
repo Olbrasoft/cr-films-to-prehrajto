@@ -68807,6 +68807,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:14:35.094181+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "63ff7aa885c10",
+              "url": "https://prehraj.to/men-in-black-1997-2160p-remux-hevc-10bit-hdr-dovi-cz-eng-truehd-7-1-atmos-angels/63ff7aa885c10",
+              "title": "Men in Black 1997 2160p REMUX HEVC 10bit HDR DoVi Cz Eng TrueHD 7.1 Atmos-Angels",
+              "year": null,
+              "duration_sec": 5878,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 1997,
+                "candidate_year": 1997,
+                "year_match": true,
+                "film_runtime_min": 118,
+                "candidate_runtime_sec": 5878,
+                "runtime_delta": 0.17,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:51:21.880497+00:00"
         }
       ],
       "identity": {
@@ -68825,7 +68863,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:14:34.415392+00:00"
+        "at": "2026-08-28T03:51:16.858486+00:00"
       }
     },
     "23797": {
@@ -78931,5 +78969,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:51:15.295747+00:00"
+  "updated_at": "2026-08-28T03:51:21.880518+00:00"
 }
