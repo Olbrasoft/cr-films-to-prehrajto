@@ -25898,7 +25898,693 @@
         },
         "at": "2026-08-28T06:39:48.096668+00:00"
       }
+    },
+    "25963": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "585bea9a8f744",
+              "url": "https://prehraj.to/apateu-horor-jizni-korea-2006/585bea9a8f744",
+              "title": "Apateu-Horor,-Jižní-Korea,-2006",
+              "year": null,
+              "duration_sec": 5434,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.188,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5434,
+                "runtime_delta": 0.006,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ccba48161fbd3c1f",
+              "url": "https://prehraj.to/night-at-the-museum-2006-2160p-web-rip-sdr-dts-hd-ma-5-1/ccba48161fbd3c1f",
+              "title": "Night.At.The.Museum.2006.2160p.WEB-Rip.SDR.DTS-HD.MA.5.1",
+              "year": null,
+              "duration_sec": 6515,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.038,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6515,
+                "runtime_delta": 0.206,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e93fb9998b29",
+              "url": "https://prehraj.to/otec-prasatek-2-ast-2006-cz-dabing/5e93fb9998b29",
+              "title": "Otec+Prasátek+2+_ást+(2006)+CZ+Dabing",
+              "year": null,
+              "duration_sec": 5516,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.074,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5516,
+                "runtime_delta": 0.021,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6190b6f286ae64dc",
+              "url": "https://prehraj.to/umeni-plakat-kunsten-at-graede-i-kor-the-art-of-crying-2006-dk-cz-tit-mkv/6190b6f286ae64dc",
+              "title": "Umění plakat / Kunsten at græde i kor / The Art of Crying…",
+              "year": null,
+              "duration_sec": 6127,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.071,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6127,
+                "runtime_delta": 0.135,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dc7c34f7a25c1087",
+              "url": "https://prehraj.to/ant-man-2015-ultra-antman-cz-dabing-b/dc7c34f7a25c1087",
+              "title": "Ant Man 2015 Ultra Antman [CZ Dabing] (ㄅ)",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "623d8c5c7dbda1ab",
+              "url": "https://prehraj.to/ant-man-2015-cz-dabing-ultra-antman/623d8c5c7dbda1ab",
+              "title": "Ant Man (2015) CZ Dabing Ultra Antman ★",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aa8ae9bc0d6465c7",
+              "url": "https://prehraj.to/ant-man-2015-cz-dabing-2160p-ultra-hd-4k/aa8ae9bc0d6465c7",
+              "title": "● Ant Man 2015 CZ Dabing 2160p Ultra HD 4k ●",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8892cc88a11f525d",
+              "url": "https://prehraj.to/ant-man-2015-cz-dabing-ultra-antman-a/8892cc88a11f525d",
+              "title": "Ant Man 2015 CZ Dabing Ultra Antman (ア)",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fa570480f0b159f9",
+              "url": "https://prehraj.to/ant-man-2015-ultra-antman-cz-dabing/fa570480f0b159f9",
+              "title": "▲ Ant Man 2015 Ultra Antman [CZ Dabing]",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2c25a14010684c0c",
+              "url": "https://prehraj.to/ant-man-2015-cz-dabing-dardy-2-ck/2c25a14010684c0c",
+              "title": "[&] Ant Man 2015 CZ Dabing dardy_2 (ck) [&]",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4c04cb0839149869",
+              "url": "https://prehraj.to/ant-man-2015-cz-dab-2160p-ultra-hd-4k-antman/4c04cb0839149869",
+              "title": "◆ Ant Man 2015 CZ Dab 2160p Ultra HD 4k Antman ◆◆◆",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8b30b2a3a9a93afa",
+              "url": "https://prehraj.to/ant-man-2015-cz-dabing-2160p-ultra-hd-4k-antman/8b30b2a3a9a93afa",
+              "title": "◆ Ant Man 2015 CZ Dabing 2160p Ultra HD 4k Antman ◆◆◆",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ed36fc81a6aea1ef",
+              "url": "https://prehraj.to/ant-man-2015-cz-dab-2160p-ultra-hd-4k-antman/ed36fc81a6aea1ef",
+              "title": "◆ Ant Man 2015 CZ Dab 2160p Ultra HD 4k Antman",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4c88ff497fce7013",
+              "url": "https://prehraj.to/ant-man-2015-cz-dabing-2160p-ultra-hd-4k/4c88ff497fce7013",
+              "title": "Ant Man 2015 CZ Dabing 2160p Ultra HD 4k  (⚡)",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d840d7deb7737bc3",
+              "url": "https://prehraj.to/ant-man-2015-cz-dab-2160p-ultra-hd-4k-antman/d840d7deb7737bc3",
+              "title": "◀ Ant Man 2015 CZ Dab 2160p Ultra HD 4k Antman  ▶ ◆◆",
+              "year": null,
+              "duration_sec": 7026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2006,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2fa59fa5371974f1",
+              "url": "https://prehraj.to/pokemon-0115-at-zije-lapras-apu/2fa59fa5371974f1",
+              "title": "Pokemon-0115-Ať-žije-Lapras-apu-",
+              "year": null,
+              "duration_sec": 1375,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.745,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58d40fb2e1b9f",
+              "url": "https://prehraj.to/apb-s01e07-cztit-v-obraze-720p/58d40fb2e1b9f",
+              "title": "APB S01E07 CZtit V OBRAZE 720p",
+              "year": null,
+              "duration_sec": 2570,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "22fda7b9b52d2d51",
+              "url": "https://prehraj.to/apb-s01e02-cztit/22fda7b9b52d2d51",
+              "title": "APB S01E02 CzTit",
+              "year": null,
+              "duration_sec": 2601,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0cb5a3450e3912c7",
+              "url": "https://prehraj.to/apb-s01e03-cztit/0cb5a3450e3912c7",
+              "title": "APB S01E03 CzTit",
+              "year": null,
+              "duration_sec": 2691,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0391b8a6058f20a9",
+              "url": "https://prehraj.to/apb-s01e05-cztit-mp4/0391b8a6058f20a9",
+              "title": "APB S01E05 CzTit.mp4",
+              "year": null,
+              "duration_sec": 2574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d354687ec79e229a",
+              "url": "https://prehraj.to/akt-s01e05-720p/d354687ec79e229a",
+              "title": "Akt S01E05 720p",
+              "year": null,
+              "duration_sec": 5258,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9ecbfb2532aa6675",
+              "url": "https://prehraj.to/akt-s01e06-720p/9ecbfb2532aa6675",
+              "title": "Akt S01E06 720p",
+              "year": null,
+              "duration_sec": 5495,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fe54cda9c0288773",
+              "url": "https://prehraj.to/apb-s01e01-cztit-mp4/fe54cda9c0288773",
+              "title": "APB S01E01 CzTit.mp4",
+              "year": null,
+              "duration_sec": 2786,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a3506c5a1e918274",
+              "url": "https://prehraj.to/akt-s01e15-720p/a3506c5a1e918274",
+              "title": "Akt S01E15 720p",
+              "year": null,
+              "duration_sec": 5074,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "28d5dc8d046d8a9a",
+              "url": "https://prehraj.to/akt-s01e08-720p/28d5dc8d046d8a9a",
+              "title": "Akt S01E08 720p",
+              "year": null,
+              "duration_sec": 6106,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d19e34508f2fe6a8",
+              "url": "https://prehraj.to/akt-s01e03-720p/d19e34508f2fe6a8",
+              "title": "Akt S01E03 720p",
+              "year": null,
+              "duration_sec": 5910,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "86ccdf7497c22d72",
+              "url": "https://prehraj.to/akt-s01e12-720p/86ccdf7497c22d72",
+              "title": "Akt S01E12 720p",
+              "year": null,
+              "duration_sec": 5412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e4b38b29ad3cb953",
+              "url": "https://prehraj.to/akt-s01e07-720p/e4b38b29ad3cb953",
+              "title": "Akt S01E07 720p",
+              "year": null,
+              "duration_sec": 5029,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d16ca41cfff1",
+              "url": "https://prehraj.to/apb-s01e06/5d16ca41cfff1",
+              "title": "APB - s01e06",
+              "year": null,
+              "duration_sec": 2650,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b7443acb6eb",
+              "url": "https://prehraj.to/apu-s01-e06/58b7443acb6eb",
+              "title": "Apu-S01-E06",
+              "year": null,
+              "duration_sec": 1854,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.657,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b731ea05f62",
+              "url": "https://prehraj.to/apu-s01-e13/58b731ea05f62",
+              "title": "Apu-S01-E13",
+              "year": null,
+              "duration_sec": 1966,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.636,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b74520bcf15",
+              "url": "https://prehraj.to/apu-s01-e11/58b74520bcf15",
+              "title": "Apu-S01-E11",
+              "year": null,
+              "duration_sec": 1821,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.663,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Apt (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0f57264c9a79cf4d",
+              "url": "https://prehraj.to/akt-s01e10-1080p-cz/0f57264c9a79cf4d",
+              "title": "Akt S01E10 1080p CZ",
+              "year": null,
+              "duration_sec": 6470,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Apt (2006)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:39:51.107345+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "apt",
+        "title": "Apt",
+        "original_title": "Apt",
+        "year": 2006,
+        "runtime_min": 90,
+        "tmdb_id": 32152,
+        "imdb_id": "tt0826024",
+        "created_at": "2026-04-20 22:32:39.267246+02:00",
+        "added_at": "2026-04-20 22:32:39.267246+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:39:50.060211+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:39:48.784921+00:00"
+  "updated_at": "2026-08-28T06:39:51.107364+00:00"
 }
