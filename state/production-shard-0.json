@@ -24199,6 +24199,90 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:23:16.221388+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5b48bb437a715",
+              "url": "https://prehraj.to/wallander-s04-03-krimi-serial-cz-dab-2016-jad/5b48bb437a715",
+              "title": "Wallander s04-03-krimi serial-cz dab.-2016-jad",
+              "year": null,
+              "duration_sec": 5340,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.17,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5340,
+                "runtime_delta": 0.043,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58ad95ae27642",
+              "url": "https://prehraj.to/03-milujem-slovensko-16-9-2016/58ad95ae27642",
+              "title": "03---Milujem-Slovensko-16.9.-2016",
+              "year": null,
+              "duration_sec": 5104,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.256,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5104,
+                "runtime_delta": 0.085,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "603d17fc503dd",
+              "url": "https://prehraj.to/dallas-serie-02-dallas-dil-9-4-bypass/603d17fc503dd",
+              "title": "Dallas  Serie 02 Dallas dil 9 4 Bypass",
+              "year": null,
+              "duration_sec": 2774,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.503,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "03.ByPass (2016)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:08:03.225385+00:00"
         }
       ],
       "identity": {
@@ -24217,7 +24301,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:23:15.842517+00:00"
+        "at": "2026-08-28T11:07:59.450879+00:00"
       }
     },
     "28894": {
@@ -61710,5 +61794,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:07:57.997376+00:00"
+  "updated_at": "2026-08-28T11:08:03.225402+00:00"
 }
