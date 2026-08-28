@@ -25586,7 +25586,67 @@
         },
         "at": "2026-08-28T07:38:00.337355+00:00"
       }
+    },
+    "24917": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586d424973b67",
+              "url": "https://prehraj.to/svejk-v-civilu-schwejk-in-zivil-1927-en-tit-cz-tit/586d424973b67",
+              "title": "Švejk-v-civilu-_-Schwejk-in-Zivil-1927,-EN-tit---CZ-tit",
+              "year": null,
+              "duration_sec": 4897,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.471,
+                "title_contains_alias": false,
+                "film_year": 1927,
+                "candidate_year": 1927,
+                "year_match": true,
+                "film_runtime_min": 120,
+                "candidate_runtime_sec": 4897,
+                "runtime_delta": 0.32,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:38:12.685295+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "svejk-v-ruskem-zajeti",
+        "title": "Švejk v ruském zajetí",
+        "original_title": "Schweik in Russian Captivity",
+        "year": 1927,
+        "runtime_min": 120,
+        "tmdb_id": 289811,
+        "imdb_id": "tt0320551",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:38:05.138552+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:38:03.719022+00:00"
+  "updated_at": "2026-08-28T07:38:12.685313+00:00"
 }
