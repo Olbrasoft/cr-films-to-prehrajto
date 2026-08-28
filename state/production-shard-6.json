@@ -1193,7 +1193,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:17:38.434934+00:00",
-        "verified_at": "2026-08-28T06:29:10.198808+00:00",
+        "verified_at": "2026-08-28T09:54:22.288273+00:00",
         "live_display_name": "Buena Vista Social Club: Adios (2017) CZ titulky"
       }
     },
@@ -11989,7 +11989,19 @@
       }
     },
     "28166": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "d8fd4cdc69a39b9a",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28900313",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T08:07:29.536487+00:00"
+        }
+      ],
       "identity": {
         "slug": "klaun-v-kukuricnem-poli",
         "title": "Klaun v kukuřičném poli",
@@ -12007,19 +12019,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T06:32:07.530884+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900313",
-        "display_name": "Klaun v kukuřičném poli (2025) CZ Dabing",
-        "size_bytes": 773411778,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "d8fd4cdc69a39b9a",
-        "language_tier": "slovak_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:36:19.687352+00:00"
       }
     },
     "27766": {
@@ -12441,8 +12440,10 @@
         "language_tier": "czech_subtitles",
         "actual_resolution": 480,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:41:21.977953+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:41:21.977953+00:00",
+        "verified_at": "2026-08-28T08:07:39.606106+00:00",
+        "live_display_name": "Hrdina (2002) CZ titulky"
       }
     },
     "29878": {
@@ -18709,14 +18710,16 @@
         "target_video_id": "28900508",
         "display_name": "9-Ball (2012) CZ titulky",
         "size_bytes": 441383149,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "e91d4aac60cedd4f",
         "language_tier": "czech_subtitles",
         "actual_resolution": 480,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:47:39.272343+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:47:39.272343+00:00",
+        "verified_at": "2026-08-28T08:07:49.744379+00:00",
+        "live_display_name": "9-Ball (2012) CZ titulky"
       }
     },
     "27806": {
@@ -22245,14 +22248,16 @@
         "target_video_id": "28900605",
         "display_name": "Morphine (2008) CZ titulky",
         "size_bytes": 535191366,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "264278822c90162f",
         "language_tier": "czech_subtitles",
         "actual_resolution": 480,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:52:38.407821+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:52:38.407821+00:00",
+        "verified_at": "2026-08-28T08:08:10.115958+00:00",
+        "live_display_name": "Morphine (2008) CZ titulky"
       }
     },
     "26582": {
@@ -22285,8 +22290,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:55:30.272727+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:55:30.272727+00:00",
+        "verified_at": "2026-08-28T08:08:31.080176+00:00",
+        "live_display_name": "Utta Danella - Wenn Träume fliegen (2008) CZ Dabing"
       }
     },
     "26494": {
@@ -32469,8 +32476,10 @@
         "language_tier": "slovak_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:13:38.231597+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:13:38.231597+00:00",
+        "verified_at": "2026-08-28T08:08:41.364921+00:00",
+        "live_display_name": "Vidiny (1972) CZ Dabing"
       }
     },
     "21910": {
@@ -32884,14 +32893,16 @@
         "target_video_id": "28901023",
         "display_name": "Tichý muž (1952) CZ titulky",
         "size_bytes": 2666972019,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "ccaabd9625a2f64d",
         "language_tier": "czech_subtitles",
         "actual_resolution": 1080,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:26:53.528248+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:26:53.528248+00:00",
+        "verified_at": "2026-08-28T08:35:44.074265+00:00",
+        "live_display_name": "Tichý muž (1952) CZ titulky"
       }
     },
     "21310": {
@@ -33249,8 +33260,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:33:43.904562+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:33:43.904562+00:00",
+        "verified_at": "2026-08-28T08:23:42.198834+00:00",
+        "live_display_name": "Vánoce u jezera (2022) CZ Dabing"
       }
     },
     "8366": {
@@ -33288,5 +33301,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T07:35:44.162713+00:00"
+  "updated_at": "2026-08-28T09:54:32.541848+00:00"
 }

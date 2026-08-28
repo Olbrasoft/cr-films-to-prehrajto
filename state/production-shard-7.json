@@ -5850,7 +5850,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T10:52:47.645343+00:00",
-        "verified_at": "2026-08-28T06:29:40.080266+00:00",
+        "verified_at": "2026-08-28T09:55:13.555395+00:00",
         "live_display_name": "Asterix a Olympijské hry (2008) CZ titulky"
       }
     },
@@ -35595,8 +35595,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:36:42.398099+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:36:42.398099+00:00",
+        "verified_at": "2026-08-28T08:11:32.353999+00:00",
+        "live_display_name": "PAPPA MIA! (2023) CZ Dabing"
       }
     },
     "13055": {
@@ -35661,8 +35663,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:39:14.679283+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:39:14.679283+00:00",
+        "verified_at": "2026-08-28T08:11:42.387592+00:00",
+        "live_display_name": "Rozpolcená (2022) CZ Dabing"
       }
     },
     "12255": {
@@ -35900,8 +35904,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:41:56.947325+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:41:56.947325+00:00",
+        "verified_at": "2026-08-28T08:11:52.596756+00:00",
+        "live_display_name": "Nepoučitelní (2013) CZ Dabing"
       }
     },
     "7543": {
@@ -35965,12 +35971,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:42:59.357784+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:42:59.357784+00:00",
+        "verified_at": "2026-08-28T08:12:02.539015+00:00",
+        "live_display_name": "Lovec draků (2019) CZ Dabing"
       }
     },
     "8119": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "27949",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28900530",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T08:12:22.924675+00:00"
+        }
+      ],
       "identity": {
         "slug": "indian",
         "title": "Indián",
@@ -35988,23 +36008,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T06:45:29.089547+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900530",
-        "display_name": "Indián (2022) CZ Dabing",
-        "size_bytes": 517724612,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "27949",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:48:23.596717+00:00"
       }
     },
     "17559": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "27119",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28900593",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T08:12:42.932752+00:00"
+        }
+      ],
       "identity": {
         "slug": "hodinovy-manzel-2021",
         "title": "Hodinový manžel",
@@ -36022,19 +36041,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T06:48:28.026590+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900593",
-        "display_name": "Hodinový manžel (2021) CZ Dabing",
-        "size_bytes": 373015998,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "27119",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:50:54.695278+00:00"
       }
     },
     "9767": {
@@ -36341,5 +36347,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T07:09:17.429343+00:00"
+  "updated_at": "2026-08-28T09:55:24.546989+00:00"
 }

@@ -10506,6 +10506,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T04:43:26.887319+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "83109b4526aadcad",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28900388",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:55:45.988701+00:00"
         }
       ],
       "identity": {
@@ -10525,19 +10536,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T06:32:08.143187+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900388",
-        "display_name": "Hvězdná brána (1994) CZ Dabing",
-        "size_bytes": 2163056699,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "83109b4526aadcad",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:43:41.430252+00:00"
       }
     },
     "754": {
@@ -11317,6 +11315,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T04:43:56.540855+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "2181bb395dda9f98",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28900525",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:56:06.379660+00:00"
         }
       ],
       "identity": {
@@ -11336,19 +11345,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T06:45:16.172075+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900525",
-        "display_name": "John Wick 2 (2017) CZ Dabing",
-        "size_bytes": 659932448,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "2181bb395dda9f98",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:48:34.145224+00:00"
       }
     },
     "5290": {
@@ -21781,8 +21777,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:53:40.252559+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:53:40.252559+00:00",
+        "verified_at": "2026-08-28T07:56:16.691601+00:00",
+        "live_display_name": "Katie Fforde - Zkouška věrnosti (2008) CZ Dabing"
       }
     },
     "26530": {
@@ -23365,14 +23363,16 @@
         "target_video_id": "28900666",
         "display_name": "Jada (2008) CZ titulky",
         "size_bytes": 1218811622,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "4805753934a49900",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:00:10.004211+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:00:10.004211+00:00",
+        "verified_at": "2026-08-28T07:56:27.648140+00:00",
+        "live_display_name": "Jada (2008) CZ titulky"
       }
     },
     "26306": {
@@ -23472,14 +23472,16 @@
         "target_video_id": "28900802",
         "display_name": "One Missed Call 3: Final (2006) CZ titulky",
         "size_bytes": 3474472959,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "632867b593b7f",
         "language_tier": "czech_subtitles",
         "actual_resolution": 1080,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:16:27.014750+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:16:27.014750+00:00",
+        "verified_at": "2026-08-28T08:29:26.340126+00:00",
+        "live_display_name": "One Missed Call 3: Final (2006) CZ titulky"
       }
     },
     "26130": {
@@ -23719,8 +23721,10 @@
         "language_tier": "slovak_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:23:39.172773+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:23:39.172773+00:00",
+        "verified_at": "2026-08-28T08:16:39.204920+00:00",
+        "live_display_name": "Paragraph 78: Film One (2007) CZ Dabing"
       }
     },
     "25506": {
@@ -30878,8 +30882,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:32:37.092490+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:32:37.092490+00:00",
+        "verified_at": "2026-08-28T07:57:10.126609+00:00",
+        "live_display_name": "A Cruel Romance (1984) CZ Dabing"
       }
     },
     "22802": {
@@ -34123,8 +34129,10 @@
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:41:16.280225+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:41:16.280225+00:00",
+        "verified_at": "2026-08-28T07:57:20.528203+00:00",
+        "live_display_name": "The Front (1976) CZ titulky"
       }
     },
     "22066": {
@@ -36179,8 +36187,10 @@
         "language_tier": "slovak_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:47:00.286811+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:47:00.286811+00:00",
+        "verified_at": "2026-08-28T07:57:30.862983+00:00",
+        "live_display_name": "Crimson Romance (1934) CZ Dabing"
       }
     },
     "3882": {
@@ -36213,10 +36223,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:50:27.142042+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:50:27.142042+00:00",
+        "verified_at": "2026-08-28T07:57:41.231270+00:00",
+        "live_display_name": "Gangy z Birminghamu: Nesmrtelný muž (2017) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T07:50:27.142076+00:00"
+  "updated_at": "2026-08-28T08:29:37.091108+00:00"
 }

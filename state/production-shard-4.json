@@ -876,7 +876,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:12:50.479620+00:00",
-        "verified_at": "2026-08-28T06:26:18.118300+00:00",
+        "verified_at": "2026-08-28T09:50:48.174657+00:00",
         "live_display_name": "1 Mile To You (2017) CZ titulky"
       }
     },
@@ -7856,7 +7856,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-27T10:35:54.999142+00:00",
-        "verified_at": "2026-08-28T06:26:57.922489+00:00",
+        "verified_at": "2026-08-28T09:51:28.484809+00:00",
         "live_display_name": "Carmilla (2020) CZ titulky"
       }
     },
@@ -32632,8 +32632,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:43:10.810539+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:43:10.810539+00:00",
+        "verified_at": "2026-08-28T08:02:42.192084+00:00",
+        "live_display_name": "Avignon (2025) CZ Dabing"
       }
     },
     "16124": {
@@ -32732,8 +32734,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T06:57:17.496505+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T06:57:17.496505+00:00",
+        "verified_at": "2026-08-28T08:03:02.760816+00:00",
+        "live_display_name": "Kempink 3 (2016) CZ Dabing"
       }
     },
     "1564": {
@@ -32802,7 +32806,19 @@
       }
     },
     "15452": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "42866",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28900767",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T08:03:33.381196+00:00"
+        }
+      ],
       "identity": {
         "slug": "kam-motyli-neletaji-2023",
         "title": "Kam motýli nelétají",
@@ -32820,19 +32836,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T07:00:50.133436+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900767",
-        "display_name": "Kam motýli nelétají (2023) CZ Dabing",
-        "size_bytes": 575546142,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "42866",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:04:03.577774+00:00"
       }
     },
     "15668": {
@@ -32899,8 +32902,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:11:29.443252+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:11:29.443252+00:00",
+        "verified_at": "2026-08-28T08:34:03.129176+00:00",
+        "live_display_name": "Láska na talíři (2022) CZ Dabing"
       }
     },
     "2188": {
@@ -32933,8 +32938,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:14:20.851275+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:14:20.851275+00:00",
+        "verified_at": "2026-08-28T08:04:03.483574+00:00",
+        "live_display_name": "Nemravné dopisy (2023) CZ Dabing"
       }
     },
     "14484": {
@@ -32967,10 +32974,12 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T07:17:53.325385+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T07:17:53.325385+00:00",
+        "verified_at": "2026-08-28T08:21:28.795529+00:00",
+        "live_display_name": "Thorn of War (2021) CZ Dabing"
       }
     }
   },
-  "updated_at": "2026-08-28T07:17:53.325414+00:00"
+  "updated_at": "2026-08-28T09:51:39.336642+00:00"
 }
