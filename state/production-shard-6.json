@@ -30481,7 +30481,148 @@
         },
         "at": "2026-08-28T07:04:13.422931+00:00"
       }
+    },
+    "22934": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5869b0301ec09",
+              "url": "https://prehraj.to/novinky-misto-cinu-schimanski-1989-cz-a-kata-mlci-23-dil/5869b0301ec09",
+              "title": "Novinky-Místo-činu-Schimanski-(1989)-CZ-(A)Káťa-mlčí-23-Dil",
+              "year": null,
+              "duration_sec": 5310,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.171,
+                "title_contains_alias": false,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5310,
+                "runtime_delta": 0.027,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5bffc78fe4042",
+              "url": "https://prehraj.to/the-jugger-pocta-pro-juggery/5bffc78fe4042",
+              "title": "The Jugger: Pocta pro juggery",
+              "year": null,
+              "duration_sec": 5240,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5240,
+                "runtime_delta": 0.04,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Pocta pro Juggery (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "efb77d989cadc3f0",
+              "url": "https://prehraj.to/salute-of-the-jugger-the-blood-of-heroes-1989-rutger-hauer-012729/efb77d989cadc3f0",
+              "title": "Salute of the Jugger (The Blood Of Heroes) (1989) Rutger…",
+              "year": null,
+              "duration_sec": 5249,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5249,
+                "runtime_delta": 0.039,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Blood of Heroes (1989)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b8dee613c16b2716",
+              "url": "https://prehraj.to/podsta-pro-jugger-the-blood-of-heroes-1989-rutger-hauer-012729/b8dee613c16b2716",
+              "title": "PODSTA PRO Jugger (The Blood Of Heroes) (1989) Rutger Hauer…",
+              "year": null,
+              "duration_sec": 5249,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": 1989,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5249,
+                "runtime_delta": 0.039,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Blood of Heroes (1989)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:04:18.941871+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "pocta-pro-juggery",
+        "title": "Pocta pro Juggery",
+        "original_title": "The Blood of Heroes",
+        "year": 1989,
+        "runtime_min": 91,
+        "tmdb_id": 21512,
+        "imdb_id": "tt0094764",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:04:15.407228+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:04:13.990310+00:00"
+  "updated_at": "2026-08-28T07:04:18.941896+00:00"
 }
