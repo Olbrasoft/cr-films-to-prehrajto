@@ -19528,7 +19528,79 @@
         },
         "at": "2026-08-28T02:42:14.952754+00:00"
       }
+    },
+    "27060": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "57f2661864033",
+              "url": "https://prehraj.to/the-wailing-2016-cztitulky/57f2661864033",
+              "title": "The Wailing  2016 CZtitulky",
+              "year": null,
+              "duration_sec": 9368,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.435,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61581ebf763b1",
+              "url": "https://prehraj.to/cizinec-ve-mne-the-stranger-inside-2016-1080p-hdtv-cz-dabing/61581ebf763b1",
+              "title": "Cizinec ve mne - The.Stranger.Inside.2016.1080p.HDTV.CZ…",
+              "year": null,
+              "duration_sec": 4839,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.84,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Stranger (2016)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:42:18.580717+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "goksung-the-wailing",
+        "title": "Goksung (The Wailing)",
+        "original_title": "The Stranger",
+        "year": 2016,
+        "runtime_min": 21,
+        "tmdb_id": 1413713,
+        "imdb_id": "tt13950614",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:42:17.147528+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:42:15.906913+00:00"
+  "updated_at": "2026-08-28T02:42:18.580737+00:00"
 }
