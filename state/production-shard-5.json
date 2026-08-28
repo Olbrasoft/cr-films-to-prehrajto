@@ -16303,7 +16303,100 @@
         },
         "at": "2026-08-28T07:15:50.830374+00:00"
       }
+    },
+    "29653": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5847de8e3204e",
+              "url": "https://prehraj.to/testament-mladi-cz-dabing-csfd-77-valecny-historicky-2014/5847de8e3204e",
+              "title": "Testament-mladi-cz-dabing.csfd-77-valecny..historicky-2014",
+              "year": null,
+              "duration_sec": 7718,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.569,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "562c6ede94c13",
+              "url": "https://prehraj.to/testament-mladi-2014-480p-bdrip-xvid-cz-by-deejay-snoopy77/562c6ede94c13",
+              "title": "Testament-mladi-2014-480p.BDRip.XViD.CZ.-by-DeeJay-Snoopy77",
+              "year": null,
+              "duration_sec": 7784,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.582,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "562c705738f9b",
+              "url": "https://prehraj.to/testament-mladi-2014-480p-bdrip-xvid-cz-by-deejay-snoopy77/562c705738f9b",
+              "title": "Testament-mladi-2014-480p.BDRip.XViD.CZ.-by-DeeJay-Snoopy77",
+              "year": null,
+              "duration_sec": 7784,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.582,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:15:55.076221+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "old-testament-i-sodom-gomorrah",
+        "title": "Old Testament I: Sodom & Gomorrah",
+        "original_title": null,
+        "year": 2014,
+        "runtime_min": 82,
+        "tmdb_id": 301706,
+        "imdb_id": "tt7370236",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:15:53.622271+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:15:52.250562+00:00"
+  "updated_at": "2026-08-28T07:15:55.076242+00:00"
 }
