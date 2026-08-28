@@ -34186,7 +34186,113 @@
         },
         "at": "2026-08-28T07:41:20.364130+00:00"
       }
+    },
+    "21994": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5771829510d6d",
+              "url": "https://prehraj.to/pippi-v-zemi-taka-tuka-cz-dabing-dobrodruzny-rodinny-svedsko-zapadni-nemecko-1970-nejlepsi-filmy-mypage-cz/5771829510d6d",
+              "title": "Pippi-v-zemi-Taka-Tuka-CZ-dabing---Dobrodružný--Rodinný,-Švédsko--Západní-Německo,-1970-(nejlepsi-filmy.mypage.cz)",
+              "year": null,
+              "duration_sec": 5726,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.22,
+                "title_contains_alias": false,
+                "film_year": 1970,
+                "candidate_year": 1970,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5726,
+                "runtime_delta": 0.015,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c73bf1c5b86852bb",
+              "url": "https://prehraj.to/pippi-na-uteku-1970-en/c73bf1c5b86852bb",
+              "title": "Pippi na útěku - 1970 EN",
+              "year": null,
+              "duration_sec": 5428,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.743,
+                "title_contains_alias": false,
+                "film_year": 1970,
+                "candidate_year": 1970,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5428,
+                "runtime_delta": 0.038,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Pipi na útěku (1970)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4f0209c8746da69b",
+              "url": "https://prehraj.to/prostepryc-04-dil-utek-do-rakouska-jenom-ctyri-hodiny-cesty-a-jste-v-jinem-svete-tipy-na-super-vylet/4f0209c8746da69b",
+              "title": "Prostěpryč - 04. díl - Útěk do Rakouska Jenom čtyři hodiny…",
+              "year": null,
+              "duration_sec": 510,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.91,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Pipi na útěku (1970)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:42:16.323928+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "pipi-na-uteku",
+        "title": "Pipi na útěku",
+        "original_title": "Pippi on the Run",
+        "year": 1970,
+        "runtime_min": 94,
+        "tmdb_id": 11626,
+        "imdb_id": "tt0066265",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:42:09.171563+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:41:27.846612+00:00"
+  "updated_at": "2026-08-28T07:42:16.323959+00:00"
 }
