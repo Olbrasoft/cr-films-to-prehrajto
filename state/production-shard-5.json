@@ -29637,7 +29637,643 @@
         },
         "at": "2026-08-28T07:40:08.047599+00:00"
       }
+    },
+    "22613": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587433f37e8a9",
+              "url": "https://prehraj.to/la-traviata-opera-1982-i/587433f37e8a9",
+              "title": "la-traviata-opera-1982-i",
+              "year": null,
+              "duration_sec": 6290,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.364,
+                "title_contains_alias": false,
+                "film_year": 1982,
+                "candidate_year": 1982,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 6290,
+                "runtime_delta": 0.115,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "22bbf6af057d9a8b",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e70-cs/22bbf6af057d9a8b",
+              "title": "Labyrinty vášně - S1E70 CS",
+              "year": null,
+              "duration_sec": 2493,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3f085e51b35bc4f8",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e16-cs/3f085e51b35bc4f8",
+              "title": "Labyrinty vášně - S1E16 CS",
+              "year": null,
+              "duration_sec": 2480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "47c1f30cde8aed2f",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e6-cs/47c1f30cde8aed2f",
+              "title": "Labyrinty vášně - S1E6 CS",
+              "year": null,
+              "duration_sec": 2654,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "be2de1617e0672b5",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e12-cs/be2de1617e0672b5",
+              "title": "Labyrinty vášně - S1E12 CS",
+              "year": null,
+              "duration_sec": 2513,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f102738a9bc1a37",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e22-cs/5f102738a9bc1a37",
+              "title": "Labyrinty vášně - S1E22 CS",
+              "year": null,
+              "duration_sec": 2497,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c88576664e051d80",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e11-cs/c88576664e051d80",
+              "title": "Labyrinty vášně - S1E11 CS",
+              "year": null,
+              "duration_sec": 2500,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d123834f66547a20",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e29-cs/d123834f66547a20",
+              "title": "Labyrinty vášně - S1E29 CS",
+              "year": null,
+              "duration_sec": 2508,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bc59337472ea1358",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e18-cs/bc59337472ea1358",
+              "title": "Labyrinty vášně - S1E18 CS",
+              "year": null,
+              "duration_sec": 2478,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8915c90e0183b1f6",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e36-cs/8915c90e0183b1f6",
+              "title": "Labyrinty vášně - S1E36 CS",
+              "year": null,
+              "duration_sec": 2499,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d7951aedbc67a99e",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e35-cs/d7951aedbc67a99e",
+              "title": "Labyrinty vášně - S1E35 CS",
+              "year": null,
+              "duration_sec": 2469,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "392074e63815fae0",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e46-cs/392074e63815fae0",
+              "title": "Labyrinty vášně - S1E46 CS",
+              "year": null,
+              "duration_sec": 2495,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f6f8847fd6fa4377",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e40-cs/f6f8847fd6fa4377",
+              "title": "Labyrinty vášně - S1E40 CS",
+              "year": null,
+              "duration_sec": 2489,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6fd4525da9a49c9e",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e51-cs/6fd4525da9a49c9e",
+              "title": "Labyrinty vášně - S1E51 CS",
+              "year": null,
+              "duration_sec": 2477,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ee0271f5a72d0734",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e66-cs/ee0271f5a72d0734",
+              "title": "Labyrinty vášně - S1E66 CS",
+              "year": null,
+              "duration_sec": 2500,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "17accc82e5a5fb6c",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e60-cs/17accc82e5a5fb6c",
+              "title": "Labyrinty vášně - S1E60 CS",
+              "year": null,
+              "duration_sec": 2475,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6fe167218e0be779",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e78-cs/6fe167218e0be779",
+              "title": "Labyrinty vášně - S1E78 CS",
+              "year": null,
+              "duration_sec": 2487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f24fc8c5ab769388",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e76-cs/f24fc8c5ab769388",
+              "title": "Labyrinty vášně - S1E76 CS",
+              "year": null,
+              "duration_sec": 2503,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a904654450d423c4",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e79-cs/a904654450d423c4",
+              "title": "Labyrinty vášně - S1E79 CS",
+              "year": null,
+              "duration_sec": 2462,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3bd65aa9e8b51653",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e17-cs/3bd65aa9e8b51653",
+              "title": "Labyrinty vášně - S1E17 CS",
+              "year": null,
+              "duration_sec": 2490,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c00bf1ca9650e063",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e65-cs/c00bf1ca9650e063",
+              "title": "Labyrinty vášně - S1E65 CS",
+              "year": null,
+              "duration_sec": 2497,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "94dff244c5db216b",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e75-en/94dff244c5db216b",
+              "title": "Labyrinty vášně - S1E75 EN",
+              "year": null,
+              "duration_sec": 2487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3e4b2efecb30ef14",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e80-cs/3e4b2efecb30ef14",
+              "title": "Labyrinty vášně - S1E80 CS",
+              "year": null,
+              "duration_sec": 2553,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1b0beb407a10cf61",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e39-cs/1b0beb407a10cf61",
+              "title": "Labyrinty vášně - S1E39 CS",
+              "year": null,
+              "duration_sec": 2479,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6d63f16e7cd06f07",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e41-cs/6d63f16e7cd06f07",
+              "title": "Labyrinty vášně - S1E41 CS",
+              "year": null,
+              "duration_sec": 2485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3adbfe974cd8ab4f",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e37-cs/3adbfe974cd8ab4f",
+              "title": "Labyrinty vášně - S1E37 CS",
+              "year": null,
+              "duration_sec": 2462,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "56ec91aa4f1cd5c5",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e26-cs/56ec91aa4f1cd5c5",
+              "title": "Labyrinty vášně - S1E26 CS",
+              "year": null,
+              "duration_sec": 2494,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "857159e12e494b20",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e7-cs/857159e12e494b20",
+              "title": "Labyrinty vášně - S1E7 CS",
+              "year": null,
+              "duration_sec": 2639,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a433d635ea4fbc2b",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e15-cs/a433d635ea4fbc2b",
+              "title": "Labyrinty vášně - S1E15 CS",
+              "year": null,
+              "duration_sec": 2504,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dbe47c26e478d110",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e9-cs/dbe47c26e478d110",
+              "title": "Labyrinty vášně - S1E9 CS",
+              "year": null,
+              "duration_sec": 2513,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d369c2f5ab98ef99",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e27-cs/d369c2f5ab98ef99",
+              "title": "Labyrinty vášně - S1E27 CS",
+              "year": null,
+              "duration_sec": 2504,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "75b991d5cac83608",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e31-cs/75b991d5cac83608",
+              "title": "Labyrinty vášně - S1E31 CS",
+              "year": null,
+              "duration_sec": 2489,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "44263cca072c75dd",
+              "url": "https://prehraj.to/labyrinty-vasne-s1e67-cs/44263cca072c75dd",
+              "title": "Labyrinty vášně - S1E67 CS",
+              "year": null,
+              "duration_sec": 2492,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Labyrint vášní (1982)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:40:14.264531+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "labyrint-vasni",
+        "title": "Labyrint vášní",
+        "original_title": "Labyrinth of Passion",
+        "year": 1982,
+        "runtime_min": 94,
+        "tmdb_id": 8219,
+        "imdb_id": "tt0084228",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:40:12.539681+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:40:11.031946+00:00"
+  "updated_at": "2026-08-28T07:40:14.264549+00:00"
 }
