@@ -26459,7 +26459,60 @@
         },
         "at": "2026-08-28T07:39:08.901553+00:00"
       }
+    },
+    "24269": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b803bfc469a",
+              "url": "https://prehraj.to/modern-talking-all-videos-1985-2003/55b803bfc469a",
+              "title": "Modern-Talking---All-Videos-(1985-2003)",
+              "year": null,
+              "duration_sec": 4185,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.55,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:39:19.070245+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "cindy-eller-a-modern-fairy-tale",
+        "title": "Cindy Eller: A Modern Fairy Tale",
+        "original_title": null,
+        "year": 1985,
+        "runtime_min": 45,
+        "tmdb_id": 932719,
+        "imdb_id": "tt0179722",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:39:17.766506+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:39:16.341397+00:00"
+  "updated_at": "2026-08-28T07:39:19.070264+00:00"
 }
