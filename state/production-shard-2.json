@@ -14172,7 +14172,129 @@
         },
         "at": "2026-08-28T03:22:40.235324+00:00"
       }
+    },
+    "16834": {
+      "attempts": [],
+      "identity": {
+        "slug": "zemrit-stastny-2018",
+        "title": "Zemřít šťastný",
+        "original_title": "The Etruscan Smile",
+        "year": 2018,
+        "runtime_min": 103,
+        "tmdb_id": 513243,
+        "imdb_id": "tt5459382",
+        "created_at": "2026-04-14 16:13:05.679882+02:00",
+        "added_at": "2020-03-02 17:13:10.066732+01:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24888525",
+          "account_name": "Zemřít mladí (2019) CZ Dabing",
+          "title_similarity": 0.516,
+          "title_contains_alias": false,
+          "film_year": 2018,
+          "candidate_year": 2019,
+          "year_match": true,
+          "film_runtime_min": 103,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T03:22:42.845766+00:00"
+      }
+    },
+    "29898": {
+      "attempts": [],
+      "identity": {
+        "slug": "tygri",
+        "title": "Tygři",
+        "original_title": "Tigers",
+        "year": 2021,
+        "runtime_min": 116,
+        "tmdb_id": 743232,
+        "imdb_id": "tt9850488",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "28876480",
+          "account_name": "Tři Tygři ve filmu: JACKPOT (2022) CZ Dabing",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 2021,
+          "candidate_year": 2022,
+          "year_match": true,
+          "film_runtime_min": 116,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T03:22:42.847179+00:00"
+      }
+    },
+    "29882": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5d64a4d0ecc01",
+              "url": "https://prehraj.to/co-jsme-komu-zase-udelali-qu-est-ce-qu-on-a-encore-fait-au-bon-dieu-2019-french-1080p-bluray-x264-utt/5d64a4d0ecc01",
+              "title": "Co jsme komu zase udělali.Qu.est.ce.qu.on.a.Encore.fait.au.Bon.Dieu.2019.FRENCH.1080p.BluRay.x264-UTT",
+              "year": null,
+              "duration_sec": 5896,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.193,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 130,
+                "candidate_runtime_sec": 5896,
+                "runtime_delta": 0.244,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:22:44.262260+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "bhai-vyakti-ki-valli-uttarardha",
+        "title": "Bhai - Vyakti Ki Valli - Uttarardha",
+        "original_title": "Bhai - Vyakti Ki Valli - Uttarardha",
+        "year": 2019,
+        "runtime_min": 130,
+        "tmdb_id": 581449,
+        "imdb_id": "tt9680076",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T03:22:42.847225+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T03:22:41.724900+00:00"
+  "updated_at": "2026-08-28T03:22:44.262280+00:00"
 }
