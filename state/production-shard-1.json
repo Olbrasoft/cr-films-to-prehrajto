@@ -23461,6 +23461,57 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T14:59:23.129015+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8dcfaf574f5",
+              "url": "https://prehraj.to/the-well-2014/5a8dcfaf574f5",
+              "title": "The Well (2014)",
+              "year": null,
+              "duration_sec": 5695,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 5.328,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "638a14b2158cf",
+              "url": "https://prehraj.to/vevoda-z-wellingtonu-the-duke-2020-1080p-bluray-cz-5-1-miki/638a14b2158cf",
+              "title": "Vevoda z Wellingtonu - The.Duke.2020.1080p.BluRay.CZ.5.1…",
+              "year": null,
+              "duration_sec": 5682,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2014,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Wellington (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T03:18:14.699856+00:00"
         }
       ],
       "identity": {
@@ -23479,7 +23530,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T14:59:22.651058+00:00"
+        "at": "2026-08-28T03:18:13.758670+00:00"
       }
     },
     "28797": {
@@ -72092,5 +72143,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T03:18:12.229387+00:00"
+  "updated_at": "2026-08-28T03:18:14.699878+00:00"
 }
