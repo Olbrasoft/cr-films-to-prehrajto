@@ -23887,7 +23887,67 @@
         },
         "at": "2026-08-28T02:47:36.026779+00:00"
       }
+    },
+    "24492": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5de384700a87e",
+              "url": "https://prehraj.to/30-pripadu-majora-zemana-21-cz-serial-1974-jad/5de384700a87e",
+              "title": "30 případů majora Zemana-21-cz serial-1974-jad",
+              "year": null,
+              "duration_sec": 4655,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.281,
+                "title_contains_alias": false,
+                "film_year": 1974,
+                "candidate_year": 1974,
+                "year_match": true,
+                "film_runtime_min": 77,
+                "candidate_runtime_sec": 4655,
+                "runtime_delta": 0.008,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:47:39.799206+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "wet-lust-21-strippers",
+        "title": "Wet Lust: 21 Strippers",
+        "original_title": "Wet Lust: 21 Strippers",
+        "year": 1974,
+        "runtime_min": 77,
+        "tmdb_id": 234627,
+        "imdb_id": "tt0235631",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:47:38.757856+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:47:37.566189+00:00"
+  "updated_at": "2026-08-28T02:47:39.799227+00:00"
 }
