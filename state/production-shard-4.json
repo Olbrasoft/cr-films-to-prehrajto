@@ -27612,7 +27612,94 @@
         },
         "at": "2026-08-28T02:49:11.766063+00:00"
       }
+    },
+    "23148": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55cd7840506fa",
+              "url": "https://prehraj.to/cisarovy-nove-saty-pohadka-cz-1993-xvid/55cd7840506fa",
+              "title": "Císařovy-nové-šaty---Pohádka---cz.1993.xvid",
+              "year": null,
+              "duration_sec": 5345,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.23,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 63,
+                "candidate_runtime_sec": 5345,
+                "runtime_delta": 0.414,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c92f97426b8",
+              "url": "https://prehraj.to/cisarovy-nove-saty-pohadka-cz-1993-xvid/55c92f97426b8",
+              "title": "Císařovy-nové-šaty---Pohádka---cz.1993.xvid",
+              "year": null,
+              "duration_sec": 5345,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.23,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 63,
+                "candidate_runtime_sec": 5345,
+                "runtime_delta": 0.414,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:49:34.750099+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "allemagne-90-neuf-zero",
+        "title": "Allemagne 90 neuf zéro",
+        "original_title": "Germany Year 90 Nine Zero",
+        "year": 1993,
+        "runtime_min": 63,
+        "tmdb_id": 53016,
+        "imdb_id": "tt0101307",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:49:19.926274+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:49:18.533672+00:00"
+  "updated_at": "2026-08-28T02:49:34.750118+00:00"
 }
