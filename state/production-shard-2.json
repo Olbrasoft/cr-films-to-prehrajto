@@ -32535,7 +32535,121 @@
         },
         "at": "2026-08-28T07:33:03.815249+00:00"
       }
+    },
+    "22330": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a97f0a514a7a",
+              "url": "https://prehraj.to/stiny-horkeho-leta-1977/5a97f0a514a7a",
+              "title": "Stíny horkého léta (1977)",
+              "year": null,
+              "duration_sec": 5970,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.238,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5970,
+                "runtime_delta": 0.106,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab5136bbf669",
+              "url": "https://prehraj.to/stiny-horkeho-leta-1977/5ab5136bbf669",
+              "title": "Stíny horkého léta (1977)",
+              "year": null,
+              "duration_sec": 5974,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.238,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5974,
+                "runtime_delta": 0.106,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5846bf08782de",
+              "url": "https://prehraj.to/stiny-horkeho-leta-1977/5846bf08782de",
+              "title": "Stiny-horkeho-leta-1977",
+              "year": null,
+              "duration_sec": 5971,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.238,
+                "title_contains_alias": false,
+                "film_year": 1977,
+                "candidate_year": 1977,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5971,
+                "runtime_delta": 0.106,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:33:15.415248+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "letaci-velikog-neba",
+        "title": "Letači velikog neba",
+        "original_title": "Fliers of the Open Skies",
+        "year": 1977,
+        "runtime_min": 90,
+        "tmdb_id": 503896,
+        "imdb_id": "tt0076311",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:33:08.653624+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:33:06.929793+00:00"
+  "updated_at": "2026-08-28T07:33:15.415270+00:00"
 }
