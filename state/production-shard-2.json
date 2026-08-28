@@ -27821,7 +27821,67 @@
         },
         "at": "2026-08-28T07:25:12.389616+00:00"
       }
+    },
+    "24314": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586b015466fe8",
+              "url": "https://prehraj.to/zivot-a-smrt-malire-petra-jana-b-1986-monty-698/586b015466fe8",
+              "title": "Život-a-smrt-malíře-Petra-Jana-B.-(1986)-Monty-698",
+              "year": null,
+              "duration_sec": 4786,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.188,
+                "title_contains_alias": false,
+                "film_year": 1986,
+                "candidate_year": 1986,
+                "year_match": true,
+                "film_runtime_min": 109,
+                "candidate_runtime_sec": 4786,
+                "runtime_delta": 0.268,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:25:37.413419+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "spadijer-jedan-zivot",
+        "title": "Špadijer-jedan život",
+        "original_title": "Spadijer: One Life",
+        "year": 1986,
+        "runtime_min": 109,
+        "tmdb_id": 478751,
+        "imdb_id": "tt0187522",
+        "created_at": "2026-04-20 22:32:37.695316+02:00",
+        "added_at": "2026-04-20 22:32:37.695316+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:25:26.688011+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:25:22.373525+00:00"
+  "updated_at": "2026-08-28T07:25:37.413442+00:00"
 }
