@@ -31359,7 +31359,106 @@
         },
         "at": "2026-08-28T06:58:59.322661+00:00"
       }
+    },
+    "22067": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588dd17e8aa7c",
+              "url": "https://prehraj.to/ai-nu-1972-mandarin-dvdrip/588dd17e8aa7c",
+              "title": "Ai-nu-(1972)-Mandarin-DVDRip-",
+              "year": null,
+              "duration_sec": 5169,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.229,
+                "title_contains_alias": false,
+                "film_year": 1972,
+                "candidate_year": 1972,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5169,
+                "runtime_delta": 0.043,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68fa2a008e544",
+              "url": "https://prehraj.to/brian-ice-talking-to-the-night-live-1985-hq-audio/68fa2a008e544",
+              "title": "Brian Ice - Talking To The Night (live 1985) [HQ audio]",
+              "year": null,
+              "duration_sec": 287,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1972,
+                "candidate_year": 1985,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Right to Love (1972)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65be9ba6e9fb8",
+              "url": "https://prehraj.to/samir755-hokuto-no-ken-003-in-a-city-without-light-a-lone-fist-burns-furious-death-of-the-five-exploding-fingers/65be9ba6e9fb8",
+              "title": "[Samir755] Hokuto no Ken 003 - In a City Without Light, a…",
+              "year": null,
+              "duration_sec": 1451,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.731,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Right to Love (1972)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:59:20.095954+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "le-droit-d-aimer",
+        "title": "Le Droit d'aimer",
+        "original_title": "The Right to Love",
+        "year": 1972,
+        "runtime_min": 90,
+        "tmdb_id": 285531,
+        "imdb_id": "tt0068511",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:59:18.427037+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:59:15.091598+00:00"
+  "updated_at": "2026-08-28T06:59:20.095975+00:00"
 }
