@@ -13032,6 +13032,37 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:21:54.055645+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9bb60077559",
+              "url": "https://prehraj.to/rad-modre-planety-sci-fi-cz-dab-2016-jad/5a9bb60077559",
+              "title": "Řád modré planety-sci fi-cz dab.-2016-jad",
+              "year": null,
+              "duration_sec": 6632,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.126,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:06:56.368320+00:00"
         }
       ],
       "identity": {
@@ -13050,7 +13081,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:21:53.559977+00:00"
+        "at": "2026-08-28T11:06:54.741296+00:00"
       }
     },
     "29522": {
@@ -58481,5 +58512,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:06:53.310682+00:00"
+  "updated_at": "2026-08-28T11:06:56.368337+00:00"
 }
