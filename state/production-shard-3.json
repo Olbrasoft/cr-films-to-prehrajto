@@ -29799,7 +29799,94 @@
         },
         "at": "2026-08-28T06:57:37.383979+00:00"
       }
+    },
+    "23347": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67b37867d8c42",
+              "url": "https://prehraj.to/osobni-strazce-kevin-costner-whitney-houston-gary-kemp-1992-romanticky-drama-thriller-hudebni-bdrip-1080p-cz-dabing/67b37867d8c42",
+              "title": "Osobní strážce (Kevin Costner,Whitney Houston,Gary Kemp-1992 Romantický-Drama-Thriller-Hudební-Bdrip.-1080p.) Cz dabing",
+              "year": null,
+              "duration_sec": 7763,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.237,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 116,
+                "candidate_runtime_sec": 7763,
+                "runtime_delta": 0.115,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b36ad0d0cb8",
+              "url": "https://prehraj.to/osobni-strazce-kevin-costner-whitney-houston-gary-kemp-1992-romanticky-drama-thriller-hudebni-bdrip-1080p-cz-dabing/67b36ad0d0cb8",
+              "title": "Osobní strážce (Kevin Costner,Whitney Houston,Gary Kemp-1992 Romantický-Drama-Thriller-Hudební-Bdrip.-1080p.) Cz dabing",
+              "year": null,
+              "duration_sec": 7763,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.237,
+                "title_contains_alias": false,
+                "film_year": 1992,
+                "candidate_year": 1992,
+                "year_match": true,
+                "film_runtime_min": 116,
+                "candidate_runtime_sec": 7763,
+                "runtime_delta": 0.115,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:57:40.784658+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-strange-tale-of-oyuki",
+        "title": "The Strange Tale of Oyuki",
+        "original_title": "The Strange Tale of Oyuki",
+        "year": 1992,
+        "runtime_min": 116,
+        "tmdb_id": 120065,
+        "imdb_id": "tt0106457",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:57:39.311626+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:57:38.037931+00:00"
+  "updated_at": "2026-08-28T06:57:40.784677+00:00"
 }
