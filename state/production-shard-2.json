@@ -28880,7 +28880,125 @@
         },
         "at": "2026-08-28T07:25:46.973325+00:00"
       }
+    },
+    "24106": {
+      "attempts": [],
+      "identity": {
+        "slug": "pripad-chobotnice",
+        "title": "Případ Chobotnice",
+        "original_title": "The Octopus",
+        "year": 1998,
+        "runtime_min": 100,
+        "tmdb_id": 62012,
+        "imdb_id": "tt0162555",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "24836687",
+          "account_name": "Chobotnice (1998) CZ Dabing",
+          "title_similarity": 0.625,
+          "title_contains_alias": false,
+          "film_year": 1998,
+          "candidate_year": 1998,
+          "year_match": true,
+          "film_runtime_min": 100,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T07:26:01.299537+00:00"
+      }
+    },
+    "24074": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588f8391c007b",
+              "url": "https://prehraj.to/zemianska-cest-1957-sk/588f8391c007b",
+              "title": "Zemianska-česť-(1957)-Sk",
+              "year": null,
+              "duration_sec": 4183,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 1957,
+                "candidate_year": 1957,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 4183,
+                "runtime_delta": 0.274,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60598d67bca74",
+              "url": "https://prehraj.to/zemianska-cest-1957-skdab/60598d67bca74",
+              "title": "Zemianska česť (1957) SKdab",
+              "year": null,
+              "duration_sec": 4161,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.348,
+                "title_contains_alias": false,
+                "film_year": 1957,
+                "candidate_year": 1957,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 4161,
+                "runtime_delta": 0.278,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:26:07.979559+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "c-est-la-faute-d-adam",
+        "title": "C'est la faute d'Adam",
+        "original_title": "In Six Easy Lessons",
+        "year": 1957,
+        "runtime_min": 96,
+        "tmdb_id": 561959,
+        "imdb_id": "tt0155579",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:26:01.299582+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:25:59.634441+00:00"
+  "updated_at": "2026-08-28T07:26:07.979581+00:00"
 }
