@@ -73095,7 +73095,720 @@
         },
         "at": "2026-08-28T11:19:46.691831+00:00"
       }
+    },
+    "21760": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5866f563002f7",
+              "url": "https://prehraj.to/7-zabitych-1965-pres-multiload-cz/5866f563002f7",
+              "title": "7-zabitych-1965-pres-MultiLoad.cz",
+              "year": null,
+              "duration_sec": 5796,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.162,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 5796,
+                "runtime_delta": 0.11,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686ad40c91cd3",
+              "url": "https://prehraj.to/woman-prison-mkv-women-in-cell-block-7-1973-sk-tit/686ad40c91cd3",
+              "title": "Woman Prison MKV-Women In Cell Block 7 1973-sk tit",
+              "year": null,
+              "duration_sec": 5984,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1973,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6851883432004",
+              "url": "https://prehraj.to/woman-in-prison-mkv-women-in-cell-block-7-1973/6851883432004",
+              "title": "Woman in Prison MKV-Women In Cell Block 7 1973",
+              "year": null,
+              "duration_sec": 5984,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1973,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55f1c422a374fcc9",
+              "url": "https://prehraj.to/women-in-cell-block-7-1973-sk-tit/55f1c422a374fcc9",
+              "title": "Women In Cell Block 7 1973-sk tit",
+              "year": null,
+              "duration_sec": 5984,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1973,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c04f56c799c",
+              "url": "https://prehraj.to/p-f-woman-in-prisoncomfort-women-1992-ldrip-x264/67c04f56c799c",
+              "title": "P.F. Woman in PrisonComfort.Women.1992.Ldrip.x264",
+              "year": null,
+              "duration_sec": 5387,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1992,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e1101b60a6a",
+              "url": "https://prehraj.to/p-f-woman-in-prison-caged-women-1982-1080p-bluray-cz-tit/67e1101b60a6a",
+              "title": "P.F. Woman in Prison-Caged Women 1982 1080p BluRay -cz tit",
+              "year": null,
+              "duration_sec": 5919,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1982,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c04ad7718d3",
+              "url": "https://prehraj.to/p-f-woman-in-prisonten-violent-women-1982-sk-tit/67c04ad7718d3",
+              "title": "P.F. Woman in PrisonTen.Violent.Women.1982-sk tit",
+              "year": null,
+              "duration_sec": 5800,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1982,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "671b7356775dc",
+              "url": "https://prehraj.to/3-women-1977-tri-zeny-bluray-czsubs/671b7356775dc",
+              "title": "3 Women (1977) Tri zeny BluRay CZsubs",
+              "year": null,
+              "duration_sec": 7431,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1977,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60928b805f11f",
+              "url": "https://prehraj.to/3-women-2020-720p-webrip-x264-aac-yts-mx/60928b805f11f",
+              "title": "3.Women.2020.720p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 4581,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60928b4993daa",
+              "url": "https://prehraj.to/3-women-2020-1080p-webrip-x264-aac-yts-mx/60928b4993daa",
+              "title": "3.Women.2020.1080p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 4581,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e0f199421e4",
+              "url": "https://prehraj.to/p-f-woman-in-prison-women-in-fury-1985-cz-tit/67e0f199421e4",
+              "title": "P.F. Woman in Prison-Women in Fury (1985 cz tit)",
+              "year": null,
+              "duration_sec": 5396,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1985,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67c059b9ddec2",
+              "url": "https://prehraj.to/p-f-woman-in-prisoncaged-women-1982-720p-bluray-x264-x0r/67c059b9ddec2",
+              "title": "P.F. Woman in PrisonCaged.Women.1982.720p.BluRay.x264-x0r",
+              "year": null,
+              "duration_sec": 5919,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1982,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e0f22bc87ea",
+              "url": "https://prehraj.to/p-f-woman-in-prison-women-in-cages-1971-cs/67e0f22bc87ea",
+              "title": "P.F. Woman in Prison-Women.in.Cages.(1971).cs",
+              "year": null,
+              "duration_sec": 4876,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1971,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6546c0a9376ad",
+              "url": "https://prehraj.to/why-women-love-17-engtitulky/6546c0a9376ad",
+              "title": "Why Women Love - 17 ENGtitulky",
+              "year": null,
+              "duration_sec": 2722,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.343,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 2722,
+                "runtime_delta": 0.479,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63439238c5174eee",
+              "url": "https://prehraj.to/captive-women-4-1977-dvdrip-oldies-cs-tit/63439238c5174eee",
+              "title": "Captive Women 4 (1977) DVDRip Oldies.cs tit",
+              "year": null,
+              "duration_sec": 5020,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1977,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9e008c11dad3359d",
+              "url": "https://prehraj.to/x-men-but-only-with-women-x-women-1950-s-super-panavision-70/9e008c11dad3359d",
+              "title": "X-men But Only with Women - X-Women - 1950’s Super…",
+              "year": null,
+              "duration_sec": 98,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1950,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ee7ef7ecb75a0d78",
+              "url": "https://prehraj.to/women-of-mafia-2-2019-720p-bluray-x264-sprinter/ee7ef7ecb75a0d78",
+              "title": "women.of.mafia.2.2019.720p.bluray.x264-sprinter",
+              "year": null,
+              "duration_sec": 8280,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "681a02af7a6bc",
+              "url": "https://prehraj.to/women-of-mafia-1-2018-pol-dab-cz-t-vlozene-women-of-mafia-kobiety-mafii-138-min-olga-boladz-agnieszka-dygant/681a02af7a6bc",
+              "title": "WOMEN OF MAFIA 1  2018  (POL Dab. - CZ T. vložené)  (Women…",
+              "year": null,
+              "duration_sec": 8280,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 2018,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66f99b10f0465",
+              "url": "https://prehraj.to/overwhelming-women-2-0-2024-1080p-dsnp-web-dl-ddp5-1-h-264-tupac/66f99b10f0465",
+              "title": "Overwhelming.Women.2.0.2024.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 5608,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55ba849a11e34",
+              "url": "https://prehraj.to/tri-zeny-3-women-1977-cz-tit/55ba849a11e34",
+              "title": "Tři-ženy-_-3-Women-1977,-CZ-tit",
+              "year": null,
+              "duration_sec": 7426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1977,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e0f27029676",
+              "url": "https://prehraj.to/p-f-woman-in-prison-women-of-valor-1986-720p-webrip-x264-aac-yts-mx-cs/67e0f27029676",
+              "title": "P.F. Woman in Prison-Women.Of.Valor.1986.720p.WEBRip.x264…",
+              "year": null,
+              "duration_sec": 5726,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1986,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4f1f611ec84961fe",
+              "url": "https://prehraj.to/women-who-left-a-scar-en/4f1f611ec84961fe",
+              "title": "Women Who Left A Scar EN",
+              "year": null,
+              "duration_sec": 1455,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.721,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67925361f2b8a",
+              "url": "https://prehraj.to/captive-women-4-fraulein-devil-1977/67925361f2b8a",
+              "title": "Captive Women 4 -Fraulein Devil 1977",
+              "year": null,
+              "duration_sec": 5020,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1977,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66cc733da51cbadb",
+              "url": "https://prehraj.to/eight-women-die-a-martyr-sk-tit/66cc733da51cbadb",
+              "title": "Eight Women Die a Martyr-sk tit",
+              "year": null,
+              "duration_sec": 6001,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.343,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 6001,
+                "runtime_delta": 0.15,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d4c9b21a3a4f7083",
+              "url": "https://prehraj.to/women-of-the-1950-s-super-panavision-70/d4c9b21a3a4f7083",
+              "title": "Women Of The 1950's Super Panavision 70",
+              "year": null,
+              "duration_sec": 87,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1950,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5926eb2e67d46",
+              "url": "https://prehraj.to/the-woman-who-still-wants-to-marry-7/5926eb2e67d46",
+              "title": "The-Woman-Who-Still-Wants-To-Marry-7",
+              "year": null,
+              "duration_sec": 3693,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.233,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 87,
+                "candidate_runtime_sec": 3693,
+                "runtime_delta": 0.293,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "681848ca96775",
+              "url": "https://prehraj.to/lutinen-5-women-of-mafia-1-2018-pol-dab-cz-t-vlozene-women-of-mafia-kobiety-mafii-138-min-olga-boladz-agnieszka-dygant/681848ca96775",
+              "title": "LUTINEN 5 ✠  WOMEN OF MAFIA 1  2018  (POL Dab. - CZ T.…",
+              "year": null,
+              "duration_sec": 8280,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 2018,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6777a371c46f7",
+              "url": "https://prehraj.to/riot-in-a-women-s-prison-1974-sk-tit/6777a371c46f7",
+              "title": "Riot in a Women's Prison 1974-sk tit",
+              "year": null,
+              "duration_sec": 5009,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67fbd5be7f224",
+              "url": "https://prehraj.to/p-f-gore-dok-death-women/67fbd5be7f224",
+              "title": "P.F. Gore Dok-Death Women",
+              "year": null,
+              "duration_sec": 2481,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.525,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9279090ed2dfea35",
+              "url": "https://prehraj.to/women-of-street-fighter-vol1-music-video-super-panavision-70/9279090ed2dfea35",
+              "title": "Women of Street Fighter Vol1 [Music Video] [Super…",
+              "year": null,
+              "duration_sec": 210,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.96,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "df62b37bfd8275ac",
+              "url": "https://prehraj.to/rolling-stones-honky-tonk-women-2-ocik-avi/df62b37bfd8275ac",
+              "title": "Rolling Stones - Honky Tonk Women 2 ocik.avi",
+              "year": null,
+              "duration_sec": 285,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.945,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6ad980d522e263ba",
+              "url": "https://prehraj.to/rolling-stones-honky-tonk-women-1-ocik-avi/6ad980d522e263ba",
+              "title": "Rolling Stones - Honky Tonk Women 1 ocik.avi",
+              "year": null,
+              "duration_sec": 180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.966,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "7 Women (1965)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5967bf53ef1e7bad",
+              "url": "https://prehraj.to/muzi-zeny-a-deti-men-women-children-2014-komedie-czdab-avi/5967bf53ef1e7bad",
+              "title": "Muži, ženy a děti - Men, Women & Children (2014) komedie…",
+              "year": null,
+              "duration_sec": 7167,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1965,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "7 Women (1965)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:19:56.040660+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "7-women",
+        "title": "7 Women",
+        "original_title": null,
+        "year": 1965,
+        "runtime_min": 87,
+        "tmdb_id": 68692,
+        "imdb_id": "tt0060050",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T11:19:54.965656+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T11:19:53.386397+00:00"
+  "updated_at": "2026-08-28T11:19:56.040676+00:00"
 }
