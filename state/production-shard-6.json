@@ -29818,7 +29818,121 @@
         },
         "at": "2026-08-28T07:03:48.118457+00:00"
       }
+    },
+    "23382": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b4d3fe055b0",
+              "url": "https://prehraj.to/puppet-master-4-the-demon-1993-eng-by-salfa72/55b4d3fe055b0",
+              "title": "Puppet-Master-4---The-Demon-(1993)-Eng.-by-salfa72",
+              "year": null,
+              "duration_sec": 4746,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.393,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 143,
+                "candidate_runtime_sec": 4746,
+                "runtime_delta": 0.447,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61e8b9f807b08",
+              "url": "https://prehraj.to/the-puppet-master-hunting-the-ultimate-conman-s01e03-cztitulky/61e8b9f807b08",
+              "title": "The Puppet Master - Hunting the Ultimate Conman S01E03…",
+              "year": null,
+              "duration_sec": 3033,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Puppetmaster (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61e8b9a1b02f0",
+              "url": "https://prehraj.to/the-puppet-master-hunting-the-ultimate-conman-s01e02-cztitulky/61e8b9a1b02f0",
+              "title": "The Puppet Master - Hunting the Ultimate Conman S01E02…",
+              "year": null,
+              "duration_sec": 1780,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Puppetmaster (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61e8b91d6f87b",
+              "url": "https://prehraj.to/the-puppet-master-hunting-the-ultimate-conman-s01e01-cztitulky/61e8b91d6f87b",
+              "title": "The Puppet Master - Hunting the Ultimate Conman S01E01…",
+              "year": null,
+              "duration_sec": 2933,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Puppetmaster (1993)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:03:55.350584+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-puppetmaster",
+        "title": "The Puppetmaster",
+        "original_title": "The Puppetmaster",
+        "year": 1993,
+        "runtime_min": 143,
+        "tmdb_id": 96712,
+        "imdb_id": "tt0107157",
+        "created_at": "2026-04-20 22:32:36.677598+02:00",
+        "added_at": "2026-04-20 22:32:36.677598+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:03:51.546532+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:03:49.973504+00:00"
+  "updated_at": "2026-08-28T07:03:55.350606+00:00"
 }
