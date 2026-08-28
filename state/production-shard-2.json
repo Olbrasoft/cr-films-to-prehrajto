@@ -24806,7 +24806,67 @@
         },
         "at": "2026-08-28T07:23:57.809303+00:00"
       }
+    },
+    "25234": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5867216e93dec",
+              "url": "https://prehraj.to/muz-s-orlem-a-slepici-drama-ceskoslovensko-1978/5867216e93dec",
+              "title": "Muž-s-orlem-a-slepicí--Drama-Československo-1978",
+              "year": null,
+              "duration_sec": 4714,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.299,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 4714,
+                "runtime_delta": 0.086,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:24:08.607456+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "kdyz-je-muz-v-dome",
+        "title": "Když je muž v domě",
+        "original_title": "When a Man is Around",
+        "year": 1978,
+        "runtime_min": 86,
+        "tmdb_id": 1420698,
+        "imdb_id": "tt0385817",
+        "created_at": "2026-04-20 22:32:38.757214+02:00",
+        "added_at": "2026-04-20 22:32:38.757214+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:24:01.301587+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:23:59.745900+00:00"
+  "updated_at": "2026-08-28T07:24:08.607477+00:00"
 }
