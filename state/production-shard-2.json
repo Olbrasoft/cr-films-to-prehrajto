@@ -32388,7 +32388,94 @@
         },
         "at": "2026-08-28T07:32:57.072224+00:00"
       }
+    },
+    "22450": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e15d6e86487e",
+              "url": "https://prehraj.to/vitr-v-kapse-cz-fylm-1982-jad/5e15d6e86487e",
+              "title": "Vitr v kapse-cz fylm-1982-jad",
+              "year": null,
+              "duration_sec": 4549,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.293,
+                "title_contains_alias": false,
+                "film_year": 1982,
+                "candidate_year": 1982,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 4549,
+                "runtime_delta": 0.176,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e214e2a74a10",
+              "url": "https://prehraj.to/vitr-v-kapse-cz-fylm-1982-jad/5e214e2a74a10",
+              "title": "Vitr v kapse-cz fylm-1982-jad",
+              "year": null,
+              "duration_sec": 4549,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.293,
+                "title_contains_alias": false,
+                "film_year": 1982,
+                "candidate_year": 1982,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 4549,
+                "runtime_delta": 0.176,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:33:02.334643+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "the-jade-badger",
+        "title": "The Jade Badger",
+        "original_title": "The Jade Badger",
+        "year": 1982,
+        "runtime_min": 92,
+        "tmdb_id": 315498,
+        "imdb_id": "tt0079358",
+        "created_at": "2026-04-20 22:32:35.649207+02:00",
+        "added_at": "2026-04-20 22:32:35.649207+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:33:01.134756+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:32:59.497411+00:00"
+  "updated_at": "2026-08-28T07:33:02.334660+00:00"
 }
