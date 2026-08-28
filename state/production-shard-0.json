@@ -13394,6 +13394,82 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:22:04.209846+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad65f840cfd3",
+              "url": "https://prehraj.to/clovek-2015/5ad65f840cfd3",
+              "title": "Člověk (2015)",
+              "year": null,
+              "duration_sec": 8024,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.462,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 8024,
+                "runtime_delta": 0.337,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6811190558704",
+              "url": "https://prehraj.to/to-be-hero-x-04-cz-obycejny-clovek/6811190558704",
+              "title": "To Be Hero X - 04 CZ - Obyčejný člověk",
+              "year": null,
+              "duration_sec": 1420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.763,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Obyčejný člověk (2015)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "daba7267a3b849c3",
+              "url": "https://prehraj.to/jak-spravne-cvicit-159-dil-obycejny-clovek-zkusi-trenink-kulturisty-rozseka-ho-nebo-to-zvladne/daba7267a3b849c3",
+              "title": "Jak správně cvičit - 159. díl - Obyčejný člověk zkusí…",
+              "year": null,
+              "duration_sec": 1401,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.767,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Obyčejný člověk (2015)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:06:59.133607+00:00"
         }
       ],
       "identity": {
@@ -13412,7 +13488,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:22:03.582161+00:00"
+        "at": "2026-08-28T11:06:57.808212+00:00"
       }
     },
     "29490": {
@@ -58512,5 +58588,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:06:56.368337+00:00"
+  "updated_at": "2026-08-28T11:06:59.133623+00:00"
 }
