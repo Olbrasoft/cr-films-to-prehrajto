@@ -34292,7 +34292,80 @@
         },
         "at": "2026-08-28T07:42:09.171563+00:00"
       }
+    },
+    "21986": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5d3ece644bef2",
+              "url": "https://prehraj.to/partie-krasneho-dragouna-cz-film-1970-jad/5d3ece644bef2",
+              "title": "Partie krásného dragouna-cz film-1970-jad",
+              "year": null,
+              "duration_sec": 5297,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.523,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d32e9469031b",
+              "url": "https://prehraj.to/partie-krasneho-dragouna-cz-film-1970-jad/5d32e9469031b",
+              "title": "Partie krásného dragouna-cz film-1970-jad",
+              "year": null,
+              "duration_sec": 5297,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.523,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:42:24.256532+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "king-a-filmed-record-montgomery-to-memphis",
+        "title": "King: A Filmed Record... Montgomery to Memphis",
+        "original_title": null,
+        "year": 1970,
+        "runtime_min": 185,
+        "tmdb_id": 149320,
+        "imdb_id": "tt0065944",
+        "created_at": "2026-04-20 22:32:35.154206+02:00",
+        "added_at": "2026-04-20 22:32:35.154206+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:42:20.402777+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:42:16.323959+00:00"
+  "updated_at": "2026-08-28T07:42:24.256554+00:00"
 }
