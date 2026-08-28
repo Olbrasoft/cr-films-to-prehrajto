@@ -36241,7 +36241,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-28T21:20:55.007065+00:00"
+        "at": "2026-08-28T22:06:38.309787+00:00"
       }
     },
     "5516": {
@@ -36324,6 +36324,42 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T22:01:48.042909+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "2647",
+              "url": "https://online.sktorrent.eu/video/2647/",
+              "title": "Aquaman",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T22:06:39.887044+00:00"
         }
       ],
       "identity": {
@@ -36342,7 +36378,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T20:50:22.140900+00:00"
+        "at": "2026-08-28T22:06:38.309843+00:00"
       }
     },
     "3316": {
@@ -36600,5 +36636,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T22:06:36.665333+00:00"
+  "updated_at": "2026-08-28T22:06:39.887063+00:00"
 }
