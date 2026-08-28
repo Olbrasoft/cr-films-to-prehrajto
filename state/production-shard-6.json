@@ -29758,7 +29758,67 @@
         },
         "at": "2026-08-28T07:03:42.469723+00:00"
       }
+    },
+    "24014": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67e58172b68d4",
+              "url": "https://prehraj.to/strach-a-hnus-v-las-vegas-johnny-depp-benicio-del-toro-ellen-barkin-1998-komedie-road-movie-bdrip-1080p-cz-dabing/67e58172b68d4",
+              "title": "Strach a hnus v Las Vegas (Johnny Depp,Benicio Del Toro,Ellen Barkin-1998 Komedie-Road movie-Bdrip.-1080p.) Cz dabing",
+              "year": null,
+              "duration_sec": 6809,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.096,
+                "title_contains_alias": false,
+                "film_year": 1998,
+                "candidate_year": 1998,
+                "year_match": true,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 6809,
+                "runtime_delta": 0.081,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:03:49.973482+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "floating-away",
+        "title": "Floating Away",
+        "original_title": null,
+        "year": 1998,
+        "runtime_min": 105,
+        "tmdb_id": 290313,
+        "imdb_id": "tt0143891",
+        "created_at": "2026-04-20 22:32:37.159724+02:00",
+        "added_at": "2026-04-20 22:32:37.159724+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:03:48.118457+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:03:46.605229+00:00"
+  "updated_at": "2026-08-28T07:03:49.973504+00:00"
 }
