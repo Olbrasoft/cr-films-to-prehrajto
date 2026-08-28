@@ -24866,7 +24866,862 @@
         },
         "at": "2026-08-28T07:24:01.301587+00:00"
       }
+    },
+    "25082": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55c339a174f3a",
+              "url": "https://prehraj.to/hostel-2005-czdab/55c339a174f3a",
+              "title": "Hostel (2005)CZdab",
+              "year": null,
+              "duration_sec": 5384,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.083,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5384,
+                "runtime_delta": 0.02,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ada21c2ace99",
+              "url": "https://prehraj.to/hostel-2005/5ada21c2ace99",
+              "title": "Hostel (2005)",
+              "year": null,
+              "duration_sec": 5384,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.111,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5384,
+                "runtime_delta": 0.02,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cfb5949a1622",
+              "url": "https://prehraj.to/hostel-horor-cz-dabing-2005/5cfb5949a1622",
+              "title": "Hostel-horor (cz dabing) 2005",
+              "year": null,
+              "duration_sec": 5384,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.167,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5384,
+                "runtime_delta": 0.02,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c0df64d2fbf1",
+              "url": "https://prehraj.to/hostel-2005/5c0df64d2fbf1",
+              "title": "Hostel (2005)",
+              "year": null,
+              "duration_sec": 5384,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.111,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5384,
+                "runtime_delta": 0.02,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57ca5365e1edf",
+              "url": "https://prehraj.to/hostel-2005-czdab/57ca5365e1edf",
+              "title": "Hostel (2005)CZdab",
+              "year": null,
+              "duration_sec": 5384,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.083,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5384,
+                "runtime_delta": 0.02,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60713b79d41ef",
+              "url": "https://prehraj.to/hostel-horor-2005-cz-dabing/60713b79d41ef",
+              "title": "Hostel-(horor)-(2005)--cz-dabing",
+              "year": null,
+              "duration_sec": 5388,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.167,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5388,
+                "runtime_delta": 0.02,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "82dbcd725bf03233",
+              "url": "https://prehraj.to/hostel-2005-cz-dab-1080p/82dbcd725bf03233",
+              "title": "Hostel 2005 CZ dab 1080p",
+              "year": null,
+              "duration_sec": 5616,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.111,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5616,
+                "runtime_delta": 0.064,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "669058b259eb4",
+              "url": "https://prehraj.to/dr-bibberrr-waaawulawala-suicide-rage-remix/669058b259eb4",
+              "title": "Dr Bibberrr - Waaawulawala (Suicide Rage Remix)",
+              "year": null,
+              "duration_sec": 332,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66328f4da95d9",
+              "url": "https://prehraj.to/dr-bibberrr-waaawulawala-suicide-rage-remix/66328f4da95d9",
+              "title": "Dr Bibberrr - Waaawulawala (Suicide Rage Remix)",
+              "year": null,
+              "duration_sec": 331,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ceed395202f",
+              "url": "https://prehraj.to/dr-bibberrr-waaawulawala-suicide-rage-remix/68ceed395202f",
+              "title": "Dr Bibberrr - Waaawulawala (Suicide Rage Remix)",
+              "year": null,
+              "duration_sec": 332,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67855c8dbfce1",
+              "url": "https://prehraj.to/dr-bibberrr-waaaawulawala-suicide-rage-remix-tb/67855c8dbfce1",
+              "title": "Dr.bibberrr - Waaaawulawala (Suicide rage Remix) (TB)",
+              "year": null,
+              "duration_sec": 331,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.937,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68810124cded2",
+              "url": "https://prehraj.to/irradiate-drs-demonic-rage-atomic-warfare-edit/68810124cded2",
+              "title": "Irradiate & DRS - Demonic Rage (Atomic Warfare Edit)",
+              "year": null,
+              "duration_sec": 61,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.988,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "668190ddad992",
+              "url": "https://prehraj.to/dj-paul-elstak-ft-ruffian-rage/668190ddad992",
+              "title": "DJ Paul Elstak Ft. Ruffian - Rage  (",
+              "year": null,
+              "duration_sec": 328,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.938,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68810138304f3",
+              "url": "https://prehraj.to/irradiate-drs-ft-sovereign-king-demonic-rage-official-videoclip/68810138304f3",
+              "title": "Irradiate & DRS ft. Sovereign King - Demonic Rage (Official…",
+              "year": null,
+              "duration_sec": 195,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.963,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58b6c93142358",
+              "url": "https://prehraj.to/cesticky-do-raje-reporteri-ct-ivysilani-ceska-televize-upl-by-dr-yver-dj/58b6c93142358",
+              "title": "Cestičky-do-ráje-—-Reportéři-ČT-—-iVysílání-—-Česká…",
+              "year": null,
+              "duration_sec": 755,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.857,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c08b7933a3e2c014",
+              "url": "https://prehraj.to/dj-paul-elstak-mc-ruffian-rage-off-001/c08b7933a3e2c014",
+              "title": "Dj Paul Elstak & Mc Ruffian - rage [ OFF 001 ]",
+              "year": null,
+              "duration_sec": 297,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.944,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678270d6736cf",
+              "url": "https://prehraj.to/dj-paul-elstak-mc-ruffian-rage-off-001/678270d6736cf",
+              "title": "Dj Paul Elstak & Mc Ruffian - rage [ OFF 001 ]",
+              "year": null,
+              "duration_sec": 297,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.944,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cecb88b995b",
+              "url": "https://prehraj.to/dj-paul-elstak-mc-ruffian-rage-off-001/68cecb88b995b",
+              "title": "Dj Paul Elstak  Mc Ruffian - rage [ OFF 001 ]",
+              "year": null,
+              "duration_sec": 297,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.944,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a8fed755ae4",
+              "url": "https://prehraj.to/vzhuru-do-raje-bydejv/68a8fed755ae4",
+              "title": "Vzhůru do ráje byDejv",
+              "year": null,
+              "duration_sec": 3513,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.357,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3513,
+                "runtime_delta": 0.335,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bc3857688be1ab7e",
+              "url": "https://prehraj.to/cesta-do-raje-2006-cs/bc3857688be1ab7e",
+              "title": "Cesta do ráje - 2006 CS",
+              "year": null,
+              "duration_sec": 5150,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.357,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5150,
+                "runtime_delta": 0.025,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697fcba1737",
+              "url": "https://prehraj.to/navrat-do-raje-2x17-tvrip-cz-ss23-bt/58697fcba1737",
+              "title": "Navrat-do-raje---2x17-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2587,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f35b0624",
+              "url": "https://prehraj.to/navrat-do-raje-2x03-tvrip-cz-ss23-bt/58697f35b0624",
+              "title": "Navrat-do-raje---2x03-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2614,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f7e75cf7",
+              "url": "https://prehraj.to/navrat-do-raje-2x19-tvrip-cz-ss23-bt/58697f7e75cf7",
+              "title": "Navrat-do-raje---2x19-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2621,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f4a6ee30",
+              "url": "https://prehraj.to/navrat-do-raje-2x02-tvrip-cz-ss23-bt/58697f4a6ee30",
+              "title": "Navrat-do-raje---2x02-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f644717a",
+              "url": "https://prehraj.to/navrat-do-raje-2x07-tvrip-cz-ss23-bt/58697f644717a",
+              "title": "Navrat-do-raje---2x07-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2600,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697fc767d0b",
+              "url": "https://prehraj.to/navrat-do-raje-2x16-tvrip-cz-ss23-bt/58697fc767d0b",
+              "title": "Navrat-do-raje---2x16-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2603,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58cfaff82270d",
+              "url": "https://prehraj.to/navrat-do-raje-2x12-tvrip-cz-ss23-bt/58cfaff82270d",
+              "title": "Navrat-do-raje---2x12-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2553,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cdab88f575d70e0f",
+              "url": "https://prehraj.to/vstupenka-do-raje-2022-cz-titulky/cdab88f575d70e0f",
+              "title": "Vstupenka do ráje (2022) CZ titulky",
+              "year": null,
+              "duration_sec": 6239,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2005,
+                "candidate_year": 2022,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1e7fbab293e287a7",
+              "url": "https://prehraj.to/navrat-do-raje-s1e4-cs/1e7fbab293e287a7",
+              "title": "Návrat do ráje - S1E4 CS",
+              "year": null,
+              "duration_sec": 2750,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "663289b97cf1f",
+              "url": "https://prehraj.to/dj-paul-elstak-ft-ruffian-rage-the-unfamous-radiate-remix/663289b97cf1f",
+              "title": "DJ Paul Elstak Ft. Ruffian - Rage  (The Unfamous & Radiate…",
+              "year": null,
+              "duration_sec": 328,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.938,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ceec7eb8ceb",
+              "url": "https://prehraj.to/dj-paul-elstak-ft-ruffian-rage-the-unfamous-radiate-remix/68ceec7eb8ceb",
+              "title": "DJ Paul Elstak Ft. Ruffian - Rage  (The Unfamous  Radiate…",
+              "year": null,
+              "duration_sec": 328,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.938,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f46b3f6e",
+              "url": "https://prehraj.to/navrat-do-raje-1x01-tvrip-cz-ss23-bt/58697f46b3f6e",
+              "title": "Navrat-do-raje---1x01-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2652,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f0b48b14",
+              "url": "https://prehraj.to/navrat-do-raje-1x02-tvrip-cz-ss23-bt/58697f0b48b14",
+              "title": "Navrat-do-raje---1x02-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2582,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a76a9e607de",
+              "url": "https://prehraj.to/vzhuru-do-raje-1080p-cz/68a76a9e607de",
+              "title": "Vzhůru do ráje 1080p CZ",
+              "year": null,
+              "duration_sec": 3513,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.476,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3513,
+                "runtime_delta": 0.335,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f61dc7df",
+              "url": "https://prehraj.to/navrat-do-raje-1x03-tvrip-cz-ss23-bt/58697f61dc7df",
+              "title": "Navrat-do-raje---1x03-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a469a81ebbb",
+              "url": "https://prehraj.to/vzhuru-do-raje/68a469a81ebbb",
+              "title": "Vzhůru do ráje",
+              "year": null,
+              "duration_sec": 3513,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.476,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3513,
+                "runtime_delta": 0.335,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a8de364b43ad",
+              "url": "https://prehraj.to/cesta-do-raje-2006/5a8de364b43ad",
+              "title": "Cesta do ráje (2006)",
+              "year": null,
+              "duration_sec": 5150,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5150,
+                "runtime_delta": 0.025,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e9eb70255240cfac",
+              "url": "https://prehraj.to/cesta-do-raje-1997-cs/e9eb70255240cfac",
+              "title": "Cesta do ráje - 1997 CS",
+              "year": null,
+              "duration_sec": 6565,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2005,
+                "candidate_year": 1997,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dr. Rage (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58697f47b9ec5",
+              "url": "https://prehraj.to/navrat-do-raje-2x18-tvrip-cz-ss23-bt/58697f47b9ec5",
+              "title": "Navrat-do-raje---2x18-TVRip-Cz-SS23-bt",
+              "year": null,
+              "duration_sec": 2599,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Dr. Rage (2005)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:24:14.027599+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "dr-rage",
+        "title": "Dr. Rage",
+        "original_title": null,
+        "year": 2005,
+        "runtime_min": 88,
+        "tmdb_id": 153188,
+        "imdb_id": "tt0357848",
+        "created_at": "2026-04-20 22:32:38.196594+02:00",
+        "added_at": "2026-04-20 22:32:38.196594+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:24:09.970017+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:24:08.607477+00:00"
+  "updated_at": "2026-08-28T07:24:14.027620+00:00"
 }
