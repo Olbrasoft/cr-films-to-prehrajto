@@ -22087,7 +22087,67 @@
         },
         "at": "2026-08-28T06:49:19.956516+00:00"
       }
+    },
+    "26654": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "588296bfa1a26",
+              "url": "https://prehraj.to/20160111-2021-stv1-grand-restaurant-pana-septima-le-grand-restaurant-ad-cz-fr/588296bfa1a26",
+              "title": "20160111-2021---STV1---Grand-restaurant-pána-Septima-;-le-grand-restaurant-[ad]-[cz+fr]",
+              "year": null,
+              "duration_sec": 4965,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.277,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 4965,
+                "runtime_delta": 0.12,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:49:27.309825+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "fate-grand-order-final-singularity-grand-temple-of-time-solomon",
+        "title": "Fate/Grand Order Final Singularity – Grand Temple of Time: Solomon",
+        "original_title": "Fate/Grand Order Final Singularity – Grand Temple of Time: Solomon",
+        "year": 2021,
+        "runtime_min": 94,
+        "tmdb_id": 829920,
+        "imdb_id": "tt12007484",
+        "created_at": "2026-04-20 22:32:40.301539+02:00",
+        "added_at": "2026-04-20 22:32:40.301539+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:49:23.797684+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:49:22.229229+00:00"
+  "updated_at": "2026-08-28T06:49:27.309848+00:00"
 }
