@@ -37937,7 +37937,59 @@
         },
         "at": "2026-08-28T23:05:20.980438+00:00"
       }
+    },
+    "12974": {
+      "attempts": [],
+      "identity": {
+        "slug": "osudy-dobreho-vojaka-svejka-1956",
+        "title": "Osudy dobrého vojáka Švejka",
+        "original_title": "Osudy dobrého vojáka Švejka",
+        "year": 1956,
+        "runtime_min": 76,
+        "tmdb_id": 257101,
+        "imdb_id": "tt0239348",
+        "created_at": "2026-04-14 15:43:49.388300+02:00",
+        "added_at": "2018-10-20 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "preexisting_on_account",
+        "evidence": {
+          "method": "title_year_runtime",
+          "target_video_id": "25220602",
+          "account_name": "Osudy dobrého vojáka Švejka – Švejkova budějovická anabase (1956) CZ",
+          "title_similarity": 1.0,
+          "title_contains_alias": true,
+          "film_year": 1956,
+          "candidate_year": 1956,
+          "year_match": true,
+          "film_runtime_min": 76,
+          "candidate_runtime_sec": null,
+          "runtime_delta": null
+        },
+        "at": "2026-08-28T23:05:25.238912+00:00"
+      }
+    },
+    "286": {
+      "attempts": [],
+      "identity": {
+        "slug": "blade-runner-2049",
+        "title": "Blade Runner 2049",
+        "original_title": "Blade Runner 2049",
+        "year": 2017,
+        "runtime_min": null,
+        "tmdb_id": 335984,
+        "imdb_id": "tt1856101",
+        "created_at": "2026-04-13 13:19:23.907755+02:00",
+        "added_at": "2018-09-14 17:13:10.066732+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T23:05:25.238960+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T23:05:23.832976+00:00"
+  "updated_at": "2026-08-28T23:05:27.704473+00:00"
 }
