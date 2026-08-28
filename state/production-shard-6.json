@@ -33006,7 +33006,67 @@
         },
         "at": "2026-08-28T07:27:08.271487+00:00"
       }
+    },
+    "21190": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c7bd68921e",
+              "url": "https://prehraj.to/valcik-na-rozloucenou-waterloo-bridge-1940-valecny/586c7bd68921e",
+              "title": "Valčík-na-rozloučenou_Waterloo-Bridge-1940-válečný",
+              "year": null,
+              "duration_sec": 6495,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.293,
+                "title_contains_alias": false,
+                "film_year": 1940,
+                "candidate_year": 1940,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 6495,
+                "runtime_delta": 0.336,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:27:14.769767+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "navrat-neviditelneho-muze",
+        "title": "Návrat neviditelného muže",
+        "original_title": "The Invisible Man Returns",
+        "year": 1940,
+        "runtime_min": 81,
+        "tmdb_id": 28421,
+        "imdb_id": "tt0032635",
+        "created_at": "2026-04-20 22:23:02.168597+02:00",
+        "added_at": "2026-04-20 22:23:02.168597+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T07:27:11.170107+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T07:27:09.749146+00:00"
+  "updated_at": "2026-08-28T07:27:14.769789+00:00"
 }
