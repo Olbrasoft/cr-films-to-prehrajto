@@ -30642,7 +30642,124 @@
         },
         "at": "2026-08-28T06:58:09.049551+00:00"
       }
+    },
+    "23003": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587ec31b3f033",
+              "url": "https://prehraj.to/komisar-montalbano-tvar-vody-2000-sk/587ec31b3f033",
+              "title": "Komisař-Montalbano.Tvar-vody-(2000)--SK",
+              "year": null,
+              "duration_sec": 6705,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.208,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 6705,
+                "runtime_delta": 0.49,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a785fe10722",
+              "url": "https://prehraj.to/258-jesus-turns-water-into-wine-just-for-laughs-gags/68a785fe10722",
+              "title": "258. Jesus Turns Water Into Wine   Just For Laughs Gags",
+              "year": null,
+              "duration_sec": 643,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.857,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Water, Wind, Dust (2000)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a76b6f04201",
+              "url": "https://prehraj.to/186-jesus-turns-water-into-wine-prank-just-for-laughs-gags/68a76b6f04201",
+              "title": "186. Jesus Turns Water Into Wine Prank   Just For Laughs…",
+              "year": null,
+              "duration_sec": 668,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.852,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Water, Wind, Dust (2000)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a76dde1410a",
+              "url": "https://prehraj.to/194-jesus-turns-water-into-wine-shorts-just-for-laughs-gags/68a76dde1410a",
+              "title": "194. Jesus Turns Water Into Wine #SHORTS   Just For Laughs…",
+              "year": null,
+              "duration_sec": 50,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.989,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Water, Wind, Dust (2000)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T06:58:13.103700+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "voda-vitr-prach",
+        "title": "Voda, vítr, prach",
+        "original_title": "Water, Wind, Dust",
+        "year": 2000,
+        "runtime_min": 75,
+        "tmdb_id": 239798,
+        "imdb_id": "tt0096747",
+        "created_at": "2026-04-20 22:32:36.171739+02:00",
+        "added_at": "2026-04-20 22:32:36.171739+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T06:58:11.501274+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T06:58:10.245819+00:00"
+  "updated_at": "2026-08-28T06:58:13.103719+00:00"
 }
