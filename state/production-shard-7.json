@@ -5850,7 +5850,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T10:52:47.645343+00:00",
-        "verified_at": "2026-08-27T21:54:01.080157+00:00",
+        "verified_at": "2026-08-28T02:22:47.333409+00:00",
         "live_display_name": "Asterix a Olympijské hry (2008) CZ titulky"
       }
     },
@@ -33238,8 +33238,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T22:10:22.045023+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T22:10:22.045023+00:00",
+        "verified_at": "2026-08-28T01:08:51.730591+00:00",
+        "live_display_name": "Letní Vánoce (2024) CZ Dabing"
       }
     },
     "15439": {
@@ -33272,8 +33274,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T22:17:05.142552+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T22:17:05.142552+00:00",
+        "verified_at": "2026-08-28T01:09:00.815928+00:00",
+        "live_display_name": "Mr. Bones 3: Son of Bones (2022) CZ Dabing"
       }
     },
     "2175": {
@@ -33306,12 +33310,26 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T22:20:27.833286+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T22:20:27.833286+00:00",
+        "verified_at": "2026-08-28T01:09:11.786705+00:00",
+        "live_display_name": "Heretik (2024) CZ Dabing"
       }
     },
     "12687": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "43910",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28894804",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T01:09:30.978406+00:00"
+        }
+      ],
       "identity": {
         "slug": "medved-1961",
         "title": "Medvěd",
@@ -33329,23 +33347,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T22:20:29.530304+00:00"
-      },
-      "upload": {
-        "target_video_id": "28894804",
-        "display_name": "Medvěd (1961) CZ Dabing",
-        "size_bytes": 183727338,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "43910",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T22:22:10.792667+00:00"
       }
     },
     "3487": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "43799",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28894862",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T01:09:49.953985+00:00"
+        }
+      ],
       "identity": {
         "slug": "dve-tvare-lasky",
         "title": "Dvě tváře lásky",
@@ -33363,19 +33380,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T22:22:18.439583+00:00"
-      },
-      "upload": {
-        "target_video_id": "28894862",
-        "display_name": "Dvě tváře lásky (1996) CZ Dabing",
-        "size_bytes": 954619919,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "43799",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T22:29:57.251421+00:00"
       }
     },
     "12879": {
@@ -33440,8 +33444,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-27T22:35:30.322906+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-27T22:35:30.322906+00:00",
+        "verified_at": "2026-08-28T01:09:59.422544+00:00",
+        "live_display_name": "Muž ve stínu (2010) CZ Dabing"
       }
     },
     "15687": {
@@ -33513,5 +33519,5 @@
       }
     }
   },
-  "updated_at": "2026-08-27T22:43:56.158191+00:00"
+  "updated_at": "2026-08-28T02:22:57.279637+00:00"
 }
