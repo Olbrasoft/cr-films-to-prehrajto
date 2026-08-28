@@ -10240,7 +10240,127 @@
         },
         "at": "2026-08-28T02:24:59.815612+00:00"
       }
+    },
+    "29812": {
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5febf1ca303b1",
+              "url": "https://prehraj.to/wunderland-2018-valecny-drama-novinka/5febf1ca303b1",
+              "title": "Wunderland--2018--,válečný,drama,novinka",
+              "year": null,
+              "duration_sec": 5105,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.316,
+                "title_contains_alias": false,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5105,
+                "runtime_delta": 0.055,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d279d9df391cc0ca",
+              "url": "https://prehraj.to/the-night-before-christmas-in-wonderland-2024-cz-dabing-1080p-mkv/d279d9df391cc0ca",
+              "title": "The Night Before Christmas in Wonderland (2024) CZ Dabing…",
+              "year": null,
+              "duration_sec": 5014,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Christmas Wonderland (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "be8ce4f2858c6218",
+              "url": "https://prehraj.to/the-night-before-christmas-in-wonderland-web-dlcz-en-2024/be8ce4f2858c6218",
+              "title": "The.Night.Before.Christmas.in.Wonderland.WEB-DLCZ.EN.2024",
+              "year": null,
+              "duration_sec": 5014,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Christmas Wonderland (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "30917b466001796c",
+              "url": "https://prehraj.to/the-night-before-christmas-in-wonderland-web-dlcz-en-2024-1080p/30917b466001796c",
+              "title": "The.Night.Before.Christmas.in.Wonderland.WEB-DLCZ.EN.2024…",
+              "year": null,
+              "duration_sec": 5014,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Christmas Wonderland (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T02:25:03.053476+00:00"
+        }
+      ],
+      "identity": {
+        "slug": "christmas-wonderland",
+        "title": "Christmas Wonderland",
+        "original_title": null,
+        "year": 2018,
+        "runtime_min": 90,
+        "tmdb_id": 550032,
+        "imdb_id": "tt9028856",
+        "created_at": "2026-04-20 22:32:43.318708+02:00",
+        "added_at": "2026-04-20 22:32:43.318708+02:00"
+      },
+      "reconciliation": {
+        "status": "missing",
+        "evidence": {
+          "method": "no_confident_account_match"
+        },
+        "at": "2026-08-28T02:25:02.047190+00:00"
+      }
     }
   },
-  "updated_at": "2026-08-28T02:25:00.777972+00:00"
+  "updated_at": "2026-08-28T02:25:03.053496+00:00"
 }
