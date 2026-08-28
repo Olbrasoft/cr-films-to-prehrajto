@@ -8364,6 +8364,37 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-24T15:02:40.782759+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "564d552b2ac38",
+              "url": "https://prehraj.to/pearl-harbor-1-cast-2001-cz-dab-n-y/564d552b2ac38",
+              "title": "Pearl Harbor 1-část - 2001 cz dab.n@y",
+              "year": null,
+              "duration_sec": 5657,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.598,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T07:17:42.644607+00:00"
         }
       ],
       "identity": {
@@ -8382,7 +8413,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-24T15:02:18.358540+00:00"
+        "at": "2026-08-28T07:17:41.317003+00:00"
       }
     },
     "29746": {
@@ -57252,5 +57283,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T07:17:39.885661+00:00"
+  "updated_at": "2026-08-28T07:17:42.644625+00:00"
 }
