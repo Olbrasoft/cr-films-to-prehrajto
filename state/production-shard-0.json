@@ -49554,6 +49554,57 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:27:15.058072+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61194add38c70",
+              "url": "https://prehraj.to/cid-1973-skdab/61194add38c70",
+              "title": "Cid (1973) SKdab",
+              "year": null,
+              "duration_sec": 5258,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.967,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "612782675493e",
+              "url": "https://prehraj.to/cid-1973/612782675493e",
+              "title": "Cid (1973)",
+              "year": null,
+              "duration_sec": 5258,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 6.967,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:10:49.299538+00:00"
         }
       ],
       "identity": {
@@ -49572,7 +49623,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:27:13.034162+00:00"
+        "at": "2026-08-28T11:10:42.191381+00:00"
       }
     },
     "27080": {
@@ -66765,5 +66816,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:10:40.664342+00:00"
+  "updated_at": "2026-08-28T11:10:49.299555+00:00"
 }
