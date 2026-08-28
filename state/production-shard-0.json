@@ -26190,6 +26190,44 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:23:31.874419+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "689aee22107f0",
+              "url": "https://prehraj.to/horror-cz-dab-les-sebevrahu-2013-tv-film-usa-horor/689aee22107f0",
+              "title": "Horror cz dab-Les sebevrahů (2013) (TV film) USA, Horor -",
+              "year": null,
+              "duration_sec": 5145,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.393,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5145,
+                "runtime_delta": 0.026,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-28T11:08:14.769711+00:00"
         }
       ],
       "identity": {
@@ -26208,7 +26246,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T15:23:31.360130+00:00"
+        "at": "2026-08-28T11:08:13.894767+00:00"
       }
     },
     "28786": {
@@ -62784,5 +62822,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T11:08:12.437328+00:00"
+  "updated_at": "2026-08-28T11:08:14.769728+00:00"
 }
