@@ -22252,6 +22252,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T00:02:28.784239+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-60af4618350457b3",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "9f4c525ba8e31dde",
+              "url": "https://prehraj.to/cirque-du-soleil-quidam-1999-cz-titulky/9f4c525ba8e31dde",
+              "title": "Cirque du Soleil: Quidam (1999) CZ titulky",
+              "year": null,
+              "duration_sec": 5632,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5632,
+                "runtime_delta": 0.043,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:44:18.308900+00:00"
         }
       ],
       "identity": {
@@ -22270,7 +22308,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T00:02:24.747845+00:00"
+        "at": "2026-08-29T18:44:06.433647+00:00"
       }
     },
     "7575": {
@@ -54017,5 +54055,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:43:59.109462+00:00"
+  "updated_at": "2026-08-29T18:44:18.308914+00:00"
 }
