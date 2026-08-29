@@ -88798,6 +88798,69 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T03:25:44.865766+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-e6090ad2b8c9fb8c",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "e8f11002d12bad9e",
+              "url": "https://prehraj.to/dolly-2026-cz-titulky/e8f11002d12bad9e",
+              "title": "Dolly-2026-CZ Titulky",
+              "year": null,
+              "duration_sec": 4977,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2026,
+                "candidate_year": 2026,
+                "year_match": true,
+                "film_runtime_min": 83,
+                "candidate_runtime_sec": 4977,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Dolly (2026)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "59021",
+              "url": "https://online.sktorrent.eu/video/59021/",
+              "title": "Dolly",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:33.193276+00:00"
         }
       ],
       "identity": {
@@ -88816,7 +88879,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T03:25:39.089666+00:00"
+        "at": "2026-08-29T18:39:21.178121+00:00"
       }
     },
     "16353": {
@@ -101937,5 +102000,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:19.368815+00:00"
+  "updated_at": "2026-08-29T18:39:33.193293+00:00"
 }
