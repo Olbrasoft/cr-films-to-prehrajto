@@ -5588,7 +5588,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.382577+00:00"
+        "at": "2026-08-29T18:35:47.386253+00:00"
       }
     },
     "23869": {
@@ -5744,6 +5744,109 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T01:03:36.522050+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-0bafb76d958fdb27",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b768b655135",
+              "url": "https://prehraj.to/vrazedna-nenavist-1996-thriller-dvd-cz/55b768b655135",
+              "title": "Vražedná-nenávist=1996-Thriller-DVD-CZ",
+              "year": null,
+              "duration_sec": 5516,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 1996,
+                "candidate_year": 1996,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5516,
+                "runtime_delta": 0.032,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5869be165c5b6",
+              "url": "https://prehraj.to/smrtici-instinkt-dvdrip-xvid-cz/5869be165c5b6",
+              "title": "Smrtici-instinkt_dvdrip_xvid_cz",
+              "year": null,
+              "duration_sec": 5086,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1996,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5086,
+                "runtime_delta": 0.108,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65563c0f55ebc",
+              "url": "https://prehraj.to/devil-s-train-sweet-devil-s-kiss-official-music-video/65563c0f55ebc",
+              "title": "Devil's Train Sweet Devil's Kiss Official Music Video",
+              "year": null,
+              "duration_sec": 239,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.958,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sweet Evil (1996)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65563c09e6558",
+              "url": "https://prehraj.to/devil-s-train-sweet-devil-s-kiss-official-music-video-6906231671108313/65563c09e6558",
+              "title": "Devil's Train Sweet Devil's Kiss Official Music Video -…",
+              "year": null,
+              "duration_sec": 239,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.958,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Sweet Evil (1996)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:49.263364+00:00"
         }
       ],
       "identity": {
@@ -5762,7 +5865,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T01:03:33.628395+00:00"
+        "at": "2026-08-29T18:35:47.388778+00:00"
       }
     },
     "23685": {
@@ -40859,5 +40962,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:46.086014+00:00"
+  "updated_at": "2026-08-29T18:35:49.263385+00:00"
 }
