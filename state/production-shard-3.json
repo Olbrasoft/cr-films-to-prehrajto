@@ -12843,7 +12843,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:27.705506+00:00"
+        "at": "2026-08-29T18:58:37.200238+00:00"
       }
     },
     "171": {
@@ -13031,6 +13031,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T15:53:04.330641+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-4ba598060debdab7",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6e4a3f0147d98560",
+              "url": "https://prehraj.to/podfukari-now-you-see-me-2013-cz-mkv/6e4a3f0147d98560",
+              "title": "Podfukáři / Now You See Me 2013, CZ.mkv",
+              "year": null,
+              "duration_sec": 6921,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6921,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:58:38.307140+00:00"
         }
       ],
       "identity": {
@@ -13049,7 +13087,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T15:53:03.326876+00:00"
+        "at": "2026-08-29T18:58:37.201021+00:00"
       }
     },
     "13659": {
@@ -41565,5 +41603,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:58:35.534926+00:00"
+  "updated_at": "2026-08-29T18:58:38.307153+00:00"
 }
