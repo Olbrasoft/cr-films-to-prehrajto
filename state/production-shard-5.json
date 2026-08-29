@@ -3105,6 +3105,152 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T23:12:10.716980+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-5b5b4aa0a919ca25",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "621389069163b",
+              "url": "https://prehraj.to/vrazedne-stiny-1-dil-2022-1080p/621389069163b",
+              "title": "Vražedné stíny 1.díl (2022) 1080p",
+              "year": null,
+              "duration_sec": 5422,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.367,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5422,
+                "runtime_delta": 0.007,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62a8183c0f8a0",
+              "url": "https://prehraj.to/vrazedne-stiny-1-dil-novinka-2022/62a8183c0f8a0",
+              "title": "Vrazedne stiny 1. díl NOVINKA 2022",
+              "year": null,
+              "duration_sec": 5422,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.351,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5422,
+                "runtime_delta": 0.007,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62138a611c1e9",
+              "url": "https://prehraj.to/vrazedne-stiny-1-dil-2022/62138a611c1e9",
+              "title": "Vražedné stíny_1.díl (2022)",
+              "year": null,
+              "duration_sec": 5422,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.367,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5422,
+                "runtime_delta": 0.007,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62138840916a8",
+              "url": "https://prehraj.to/vrazedne-stiny-1-dil-2022/62138840916a8",
+              "title": "Vražedné stíny - 1.díl (2022)",
+              "year": null,
+              "duration_sec": 5422,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.367,
+                "title_contains_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5422,
+                "runtime_delta": 0.007,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e9c7c62c7936aea",
+              "url": "https://prehraj.to/stiny-smrti-vrazedny-roj-2022-cs/5e9c7c62c7936aea",
+              "title": "Stíny smrti: Vražedný roj - 2022 CS",
+              "year": null,
+              "duration_sec": 5391,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5391,
+                "runtime_delta": 0.013,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:32:44.892016+00:00"
         }
       ],
       "identity": {
@@ -3123,7 +3269,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T23:12:08.597828+00:00"
+        "at": "2026-08-29T18:32:42.551300+00:00"
       }
     },
     "27645": {
@@ -39872,5 +40018,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:32:41.188135+00:00"
+  "updated_at": "2026-08-29T18:32:44.892037+00:00"
 }
