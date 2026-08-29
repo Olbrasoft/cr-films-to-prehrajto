@@ -2680,6 +2680,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:30:26.181862+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-d2cefe1dd1496b04",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68d2f9ea87587bc4",
+              "url": "https://prehraj.to/herbie-na-plny-plyn-2006-cz-dabing-mkv/68d2f9ea87587bc4",
+              "title": "Herbie - Na plný plyn 2006 cz dabing.mkv",
+              "year": null,
+              "duration_sec": 6068,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.393,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6068,
+                "runtime_delta": 0.124,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b1866d6d6534605a",
+              "url": "https://prehraj.to/herbie-hancock-possibilities-2006-cs/b1866d6d6534605a",
+              "title": "Herbie Hancock: Possibilities - 2006 CS",
+              "year": null,
+              "duration_sec": 5093,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5093,
+                "runtime_delta": 0.057,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:43:00.990363+00:00"
         }
       ],
       "identity": {
@@ -2698,7 +2763,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:30:23.850737+00:00"
+        "at": "2026-08-29T18:42:57.531366+00:00"
       }
     },
     "25254": {
@@ -51763,5 +51828,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:42:55.879621+00:00"
+  "updated_at": "2026-08-29T18:43:00.990382+00:00"
 }
