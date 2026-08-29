@@ -2949,6 +2949,152 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:35:00.595738+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-bb6792516c7dd5e2",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64bddac0415ae",
+              "url": "https://prehraj.to/roboti-2005-cz-1080p-web-dl/64bddac0415ae",
+              "title": "Roboti.2005.CZ.1080p.WEB-DL",
+              "year": null,
+              "duration_sec": 5385,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.167,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5385,
+                "runtime_delta": 0.056,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64c17fddc85cb",
+              "url": "https://prehraj.to/roboti-robots-2005-cz-en-1080p-web-dl/64c17fddc85cb",
+              "title": "Roboti.Robots.2005.CZ.EN.1080p.WEB-DL",
+              "year": null,
+              "duration_sec": 5385,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5385,
+                "runtime_delta": 0.056,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6817d04c53cf1",
+              "url": "https://prehraj.to/dlouhy-vikend-2005/6817d04c53cf1",
+              "title": "Dlouhý-víkend-(2005)",
+              "year": null,
+              "duration_sec": 5193,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5193,
+                "runtime_delta": 0.018,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e8b7ee3d11b40626",
+              "url": "https://prehraj.to/dlouhy-vikend-2005-cs/e8b7ee3d11b40626",
+              "title": "Dlouhý víkend - 2005 CS",
+              "year": null,
+              "duration_sec": 5193,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5193,
+                "runtime_delta": 0.018,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c254adbbb055db92",
+              "url": "https://prehraj.to/dlouhy-vikend-2005-cs/c254adbbb055db92",
+              "title": "Dlouhý víkend - 2005 CS",
+              "year": null,
+              "duration_sec": 5194,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5194,
+                "runtime_delta": 0.018,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:43:05.804319+00:00"
         }
       ],
       "identity": {
@@ -2967,7 +3113,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:34:55.227086+00:00"
+        "at": "2026-08-29T18:43:02.499919+00:00"
       }
     },
     "25030": {
@@ -51828,5 +51974,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:43:00.990382+00:00"
+  "updated_at": "2026-08-29T18:43:05.804338+00:00"
 }
