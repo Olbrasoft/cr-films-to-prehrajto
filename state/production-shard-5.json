@@ -4301,6 +4301,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:37:43.242558+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-5de54d83d495656f",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58507ccd183cd",
+              "url": "https://prehraj.to/pribehy-z-temnoty-cz-dabing-horor-thriller-usa-2008/58507ccd183cd",
+              "title": "Příběhy-z-temnoty-CZ-Dabing,-Horor-,-Thriller,-USA,-2008",
+              "year": null,
+              "duration_sec": 5587,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.275,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5587,
+                "runtime_delta": 0.012,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3859c267e51d79f8",
+              "url": "https://prehraj.to/moji-kamaradi-tygr-a-pu-kamaradske-pribehy-2008-cs/3859c267e51d79f8",
+              "title": "Moji kamarádi Tygr a Pú Kamarádské příběhy - 2008 CS",
+              "year": null,
+              "duration_sec": 4153,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 4153,
+                "runtime_delta": 0.248,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:33:05.345829+00:00"
         }
       ],
       "identity": {
@@ -4319,7 +4384,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:37:39.883387+00:00"
+        "at": "2026-08-29T18:33:02.412886+00:00"
       }
     },
     "26653": {
@@ -40310,5 +40375,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:32:55.586982+00:00"
+  "updated_at": "2026-08-29T18:33:05.345850+00:00"
 }
