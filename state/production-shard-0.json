@@ -64280,6 +64280,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T07:29:26.863527+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-7b50c74a1a2bb7e9",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5877657b0bb4b",
+              "url": "https://prehraj.to/jerry-cotton-01-1965-vrazedne-pouzdro-na-housle/5877657b0bb4b",
+              "title": "Jerry-Cotton-01-1965---Vrazedne-pouzdro-na-housle",
+              "year": null,
+              "duration_sec": 5053,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.159,
+                "title_contains_alias": false,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5053,
+                "runtime_delta": 0.054,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b1faca913fe36b50",
+              "url": "https://prehraj.to/noc-v-manhattanu-1965-cs/b1faca913fe36b50",
+              "title": "Noc v Manhattanu - 1965 CS",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1965,
+                "candidate_year": 1965,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 4949,
+                "runtime_delta": 0.073,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:34:00.610085+00:00"
         }
       ],
       "identity": {
@@ -64298,7 +64363,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T07:29:22.077087+00:00"
+        "at": "2026-08-29T18:33:54.778318+00:00"
       }
     },
     "21536": {
@@ -90484,5 +90549,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:33:53.074662+00:00"
+  "updated_at": "2026-08-29T18:34:00.610105+00:00"
 }
