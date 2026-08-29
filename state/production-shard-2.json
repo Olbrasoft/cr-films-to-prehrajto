@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.850842+00:00"
+        "at": "2026-08-29T18:30:35.808269+00:00"
       }
     },
     "27350": {
@@ -762,6 +762,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:09:33.889025+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-2f4336ee0dbbc622",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b8237735a69",
+              "url": "https://prehraj.to/perfect-blue-1998-anime-jap-eng-dubing-cz-tit/58b8237735a69",
+              "title": "Perfect-Blue-1998-anime-JAP,ENG-dubing-CZ-tit",
+              "year": null,
+              "duration_sec": 4904,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1998,
+                "candidate_year": 1998,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4904,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0b102f1147ca6ab8",
+              "url": "https://prehraj.to/perfect-blue-1998-en/0b102f1147ca6ab8",
+              "title": "Perfect Blue - 1998 EN",
+              "year": null,
+              "duration_sec": 4904,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1998,
+                "candidate_year": 1998,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4904,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "87d2ebd91cf3f802",
+              "url": "https://prehraj.to/perfect-blue-1998-ja/87d2ebd91cf3f802",
+              "title": "Perfect Blue - 1998 JA",
+              "year": null,
+              "duration_sec": 4907,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1998,
+                "candidate_year": 1998,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4907,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:30:39.670540+00:00"
         }
       ],
       "identity": {
@@ -780,7 +872,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:09:30.465610+00:00"
+        "at": "2026-08-29T18:30:35.809215+00:00"
       }
     },
     "23634": {
@@ -140604,5 +140696,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:21:43.532338+00:00"
+  "updated_at": "2026-08-29T18:30:39.670558+00:00"
 }
