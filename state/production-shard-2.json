@@ -7609,7 +7609,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.865729+00:00"
+        "at": "2026-08-29T19:14:50.127046+00:00"
       }
     },
     "14978": {
@@ -7998,7 +7998,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.865894+00:00"
+        "at": "2026-08-29T19:14:50.127357+00:00"
       }
     },
     "16170": {
@@ -8436,6 +8436,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T17:29:07.765655+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-4186dd04abba973a",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64b27a1939da49af",
+              "url": "https://prehraj.to/macgyver-ztraceny-poklad-atlantidy-1994-cs/64b27a1939da49af",
+              "title": "MacGyver: Ztracený poklad Atlantidy - 1994 CS",
+              "year": null,
+              "duration_sec": 5555,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1994,
+                "candidate_year": 1994,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5555,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:15:10.196321+00:00"
         }
       ],
       "identity": {
@@ -8454,7 +8492,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T17:29:01.147788+00:00"
+        "at": "2026-08-29T19:14:50.127409+00:00"
       }
     },
     "14122": {
@@ -141586,5 +141624,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:14:48.145623+00:00"
+  "updated_at": "2026-08-29T19:15:10.196341+00:00"
 }
