@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.215598+00:00"
+        "at": "2026-08-29T01:21:48.077973+00:00"
       }
     },
     "28126": {
@@ -139,7 +139,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.217052+00:00"
+        "at": "2026-08-29T01:21:48.078746+00:00"
       }
     },
     "27238": {
@@ -1016,7 +1016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.217537+00:00"
+        "at": "2026-08-29T01:21:48.079013+00:00"
       }
     },
     "16782": {
@@ -1096,7 +1096,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.218608+00:00"
+        "at": "2026-08-29T01:21:48.079589+00:00"
       }
     },
     "29350": {
@@ -1225,7 +1225,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.221676+00:00"
+        "at": "2026-08-29T01:21:48.081143+00:00"
       }
     },
     "28934": {
@@ -2571,7 +2571,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.222970+00:00"
+        "at": "2026-08-29T01:21:48.081821+00:00"
       }
     },
     "22670": {
@@ -3892,7 +3892,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.224912+00:00"
+        "at": "2026-08-29T01:21:48.082839+00:00"
       }
     },
     "15846": {
@@ -5391,7 +5391,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.229442+00:00"
+        "at": "2026-08-29T01:21:48.085239+00:00"
       }
     },
     "3606": {
@@ -6350,6 +6350,154 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T01:07:11.753180+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "65db676e30daa",
+              "url": "https://prehraj.to/the-zone-of-interest-2023-1080p-amzn-web-dl-ddp5-1-atmos-h-264-flux/65db676e30daa",
+              "title": "The.Zone.of.Interest.2023.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H…",
+              "year": null,
+              "duration_sec": 6284,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "cz",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6284,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d4d4b2c2248",
+              "url": "https://prehraj.to/the-zone-of-interest-2023-720p-webrip-x264-aac-yts-mx/65d4d4b2c2248",
+              "title": "The.Zone.Of.Interest.2023.720p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 6284,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6284,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7dabd7252def0cf4",
+              "url": "https://prehraj.to/zona-zajmu-the-zone-of-interest-2023-de-cz-tit-mkv/7dabd7252def0cf4",
+              "title": "Zóna zájmu / The Zone of Interest 2023, DE - CZ tit.mkv",
+              "year": null,
+              "duration_sec": 6284,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "cze",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "rus",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "eng",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "eng1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6284,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T01:21:49.897085+00:00"
         }
       ],
       "identity": {
@@ -6369,7 +6517,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28871118"
         },
-        "at": "2026-08-29T01:07:10.263054+00:00"
+        "at": "2026-08-29T01:21:48.102919+00:00"
       }
     },
     "14614": {
@@ -7455,7 +7603,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.231349+00:00"
+        "at": "2026-08-29T01:21:48.086220+00:00"
       }
     },
     "8142": {
@@ -8170,7 +8318,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.231946+00:00"
+        "at": "2026-08-29T01:21:48.086526+00:00"
       }
     },
     "15054": {
@@ -8360,7 +8508,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.233321+00:00"
+        "at": "2026-08-29T01:21:48.087240+00:00"
       }
     },
     "1910": {
@@ -8499,7 +8647,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.238796+00:00"
+        "at": "2026-08-29T01:21:48.090115+00:00"
       }
     },
     "1438": {
@@ -8579,7 +8727,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.239298+00:00"
+        "at": "2026-08-29T01:21:48.090386+00:00"
       }
     },
     "14390": {
@@ -8778,7 +8926,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.239690+00:00"
+        "at": "2026-08-29T01:21:48.090596+00:00"
       }
     },
     "1118": {
@@ -9024,7 +9172,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.240352+00:00"
+        "at": "2026-08-29T01:21:48.090937+00:00"
       }
     },
     "14110": {
@@ -9178,7 +9326,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.244735+00:00"
+        "at": "2026-08-29T01:21:48.093232+00:00"
       }
     },
     "14158": {
@@ -10388,7 +10536,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.246676+00:00"
+        "at": "2026-08-29T01:21:48.094280+00:00"
       }
     },
     "16502": {
@@ -10619,7 +10767,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.249170+00:00"
+        "at": "2026-08-29T01:21:48.095535+00:00"
       }
     },
     "16358": {
@@ -11730,7 +11878,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.249551+00:00"
+        "at": "2026-08-29T01:21:48.095738+00:00"
       }
     },
     "2078": {
@@ -11941,7 +12089,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.251264+00:00"
+        "at": "2026-08-29T01:21:48.096587+00:00"
       }
     },
     "646": {
@@ -12224,7 +12372,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.253605+00:00"
+        "at": "2026-08-29T01:21:48.097813+00:00"
       }
     },
     "14646": {
@@ -14844,7 +14992,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.253923+00:00"
+        "at": "2026-08-29T01:21:48.097984+00:00"
       }
     },
     "29686": {
@@ -18582,7 +18730,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.254893+00:00"
+        "at": "2026-08-29T01:21:48.098517+00:00"
       }
     },
     "28302": {
@@ -20455,7 +20603,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.255075+00:00"
+        "at": "2026-08-29T01:21:48.098628+00:00"
       }
     },
     "27470": {
@@ -21664,7 +21812,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.255456+00:00"
+        "at": "2026-08-29T01:21:48.098847+00:00"
       }
     },
     "26934": {
@@ -33979,7 +34127,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.258316+00:00"
+        "at": "2026-08-29T01:21:48.100431+00:00"
       }
     },
     "14902": {
@@ -34186,7 +34334,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.259641+00:00"
+        "at": "2026-08-29T01:21:48.101131+00:00"
       }
     },
     "16302": {
@@ -34573,7 +34721,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.260209+00:00"
+        "at": "2026-08-29T01:21:48.101424+00:00"
       }
     },
     "14150": {
@@ -36003,7 +36151,7 @@
             }
           ]
         },
-        "at": "2026-08-29T01:07:10.261150+00:00"
+        "at": "2026-08-29T01:21:48.101912+00:00"
       }
     },
     "2846": {
@@ -36914,7 +37062,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.261893+00:00"
+        "at": "2026-08-29T01:21:48.102303+00:00"
       }
     },
     "9790": {
@@ -37007,7 +37155,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.262161+00:00"
+        "at": "2026-08-29T01:21:48.102451+00:00"
       }
     },
     "14382": {
@@ -37947,7 +38095,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.262547+00:00"
+        "at": "2026-08-29T01:21:48.102652+00:00"
       }
     },
     "10470": {
@@ -38851,7 +38999,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T01:07:10.263015+00:00"
+        "at": "2026-08-29T01:21:48.102891+00:00"
       }
     },
     "286": {
@@ -39594,5 +39742,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T01:20:11.586928+00:00"
+  "updated_at": "2026-08-29T01:21:49.897102+00:00"
 }
