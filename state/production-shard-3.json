@@ -3579,6 +3579,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:36:33.968698+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f653c726da7c4408",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5e935acc874d2",
+              "url": "https://prehraj.to/prokleta-cz-dabing-horor-thriller-usa-2009-nejlepsi-filmy-mypage-cz/5e935acc874d2",
+              "title": "ProkletĂ˝-CZ-dabing---Horor--Thriller,-USA,-2009-(nejlepsi-filmy.mypage.cz)",
+              "year": null,
+              "duration_sec": 5109,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.268,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 120,
+                "candidate_runtime_sec": 5109,
+                "runtime_delta": 0.29,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e935ad0b9a69",
+              "url": "https://prehraj.to/prokleta-cz-dabing-horor-thriller-usa-2009-nejlepsi-filmy-mypage-cz/5e935ad0b9a69",
+              "title": "ProkletĂ˝-CZ-dabing---Horor--Thriller,-USA,-2009-(nejlepsi-filmy.mypage.cz)",
+              "year": null,
+              "duration_sec": 5109,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.268,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 120,
+                "candidate_runtime_sec": 5109,
+                "runtime_delta": 0.29,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e935a708d2ec",
+              "url": "https://prehraj.to/prokleta-cz-dabing-horor-thriller-usa-2009-nejlepsi-filmy-mypage-cz/5e935a708d2ec",
+              "title": "ProkletĂ˝-CZ-dabing---Horor--Thriller,-USA,-2009-(nejlepsi-filmy.mypage.cz)",
+              "year": null,
+              "duration_sec": 5109,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.268,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 120,
+                "candidate_runtime_sec": 5109,
+                "runtime_delta": 0.29,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d4d8992a84dda188",
+              "url": "https://prehraj.to/nora-roberts-prokleta-zatoka-2009-cs/d4d8992a84dda188",
+              "title": "Nora Roberts: Prokletá zátoka - 2009 CS",
+              "year": null,
+              "duration_sec": 5245,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 120,
+                "candidate_runtime_sec": 5245,
+                "runtime_delta": 0.272,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:01.147928+00:00"
         }
       ],
       "identity": {
@@ -3597,7 +3716,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:36:31.384052+00:00"
+        "at": "2026-08-29T18:34:58.829402+00:00"
       }
     },
     "26283": {
@@ -39879,5 +39998,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:34:57.323967+00:00"
+  "updated_at": "2026-08-29T18:35:01.147950+00:00"
 }
