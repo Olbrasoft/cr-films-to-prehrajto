@@ -23517,6 +23517,233 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:33:42.564847+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f52cf9bb5acc7d3a",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "59468ed6975ce",
+              "url": "https://prehraj.to/jako-ve-snu-2014-cz-dabing/59468ed6975ce",
+              "title": "Jako Ve Snu (2014) CZ Dabing",
+              "year": null,
+              "duration_sec": 5638,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 5638,
+                "runtime_delta": 0.096,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad5d64f41ba4",
+              "url": "https://prehraj.to/jako-ve-snu-2014/5ad5d64f41ba4",
+              "title": "Jako ve snu (2014)",
+              "year": null,
+              "duration_sec": 5638,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 5638,
+                "runtime_delta": 0.096,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "598cff6ac9fa7",
+              "url": "https://prehraj.to/jako-ve-snu-2014-cz-dabing/598cff6ac9fa7",
+              "title": "Jako Ve Snu (2014) CZ Dabing",
+              "year": null,
+              "duration_sec": 5638,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 5638,
+                "runtime_delta": 0.096,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5982c0f32186f",
+              "url": "https://prehraj.to/jako-ve-snu-2014-cz-dabing/5982c0f32186f",
+              "title": "Jako Ve Snu (2014) CZ Dabing",
+              "year": null,
+              "duration_sec": 5638,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.269,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 5638,
+                "runtime_delta": 0.096,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5abcd7fa302ae",
+              "url": "https://prehraj.to/ellis-island-historie-americkeho-snu-2013/5abcd7fa302ae",
+              "title": "Ellis Island: Historie amerického snu (2013)",
+              "year": null,
+              "duration_sec": 3183,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 3183,
+                "runtime_delta": 0.49,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "052328ea84639796",
+              "url": "https://prehraj.to/ellis-island-historie-americkeho-snu-2013-720p-dokument/052328ea84639796",
+              "title": "Ellis Island_ Historie amerického snu (2013) 720p DOKUMENT",
+              "year": null,
+              "duration_sec": 3183,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 3183,
+                "runtime_delta": 0.49,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9149fa7b16a24bee",
+              "url": "https://prehraj.to/ellis-island-historie-americkeho-snu-2013-cs/9149fa7b16a24bee",
+              "title": "Ellis Island: Historie amerického snu - 2013 CS",
+              "year": null,
+              "duration_sec": 3183,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 3183,
+                "runtime_delta": 0.49,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ecc40357965",
+              "url": "https://prehraj.to/ellis-island-historie-americkeho-snu-2013-by-nexsus/64ecc40357965",
+              "title": "Ellis Island - Historie amerického snu (2013)(by Nexsus)",
+              "year": null,
+              "duration_sec": 3183,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 3183,
+                "runtime_delta": 0.49,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:33:26.308040+00:00"
         }
       ],
       "identity": {
@@ -23535,7 +23762,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:33:36.251234+00:00"
+        "at": "2026-08-29T18:33:21.240356+00:00"
       }
     },
     "28952": {
@@ -89706,5 +89933,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:33:19.545001+00:00"
+  "updated_at": "2026-08-29T18:33:26.308059+00:00"
 }
