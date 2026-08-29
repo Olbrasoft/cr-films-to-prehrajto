@@ -1520,7 +1520,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.534324+00:00"
+        "at": "2026-08-29T18:31:37.668996+00:00"
       }
     },
     "26980": {
@@ -1663,7 +1663,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:05.538822+00:00"
+        "at": "2026-08-29T18:31:37.671790+00:00"
       }
     },
     "26420": {
@@ -1732,6 +1732,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:30:41.796604+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-e90af26a246a7397",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5eecf5c256ac0",
+              "url": "https://prehraj.to/dead-set-2008-zombie-serie-3-dily-v-jednom-souboru-cz-dabing/5eecf5c256ac0",
+              "title": "Dead Set -2008 ZOMBIE SÉRIE 3 DÍLY V JEDNOM SOUBORU CZ DABING",
+              "year": null,
+              "duration_sec": 8531,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 117,
+                "candidate_runtime_sec": 8531,
+                "runtime_delta": 0.215,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4b3c9f318a8cfb7e",
+              "url": "https://prehraj.to/stvanec-ira-2008-cs/4b3c9f318a8cfb7e",
+              "title": "Štvanec IRA - 2008 CS",
+              "year": null,
+              "duration_sec": 6767,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 117,
+                "candidate_runtime_sec": 6767,
+                "runtime_delta": 0.036,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:31:40.030656+00:00"
         }
       ],
       "identity": {
@@ -1750,7 +1815,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:30:38.989182+00:00"
+        "at": "2026-08-29T18:31:37.671832+00:00"
       }
     },
     "26252": {
@@ -36985,5 +37050,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:31:36.307868+00:00"
+  "updated_at": "2026-08-29T18:31:40.030676+00:00"
 }
