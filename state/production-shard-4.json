@@ -1279,6 +1279,198 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:14:47.710806+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-8aee8255f6be9834",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58738dd58608d",
+              "url": "https://prehraj.to/uzavreny-pavilon-1990/58738dd58608d",
+              "title": "Uzavreny-pavilon-1990",
+              "year": null,
+              "duration_sec": 3931,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 3931,
+                "runtime_delta": 0.376,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "619d3457e0190",
+              "url": "https://prehraj.to/archa-blaznu-aneb-vypraveni-z-konce-zivota/619d3457e0190",
+              "title": "Archa bláznů aneb Vyprávění z konce života",
+              "year": null,
+              "duration_sec": 6119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 6119,
+                "runtime_delta": 0.029,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c5afa59506f400c8",
+              "url": "https://prehraj.to/archa-blaznu-aneb-vypraveni-z-konce-zivota-the-ark-of-fools-1970-cz-avi/c5afa59506f400c8",
+              "title": "Archa bláznů aneb Vyprávění z konce života / The Ark of…",
+              "year": null,
+              "duration_sec": 6119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 105,
+                "candidate_runtime_sec": 6119,
+                "runtime_delta": 0.029,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65cb86e187a7b",
+              "url": "https://prehraj.to/archa-blaznu-aneb-vypraveni-z-konce-zivota-r-1970-1480x1080-by-ugare/65cb86e187a7b",
+              "title": "Archa bláznů aneb Vyprávění z konce života (r.1970 -…",
+              "year": null,
+              "duration_sec": 6119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Archa bláznů aneb Vyprávění z konce života (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9d5649312a23701a",
+              "url": "https://prehraj.to/archa-blaznu-aneb-vypraveni-z-konce-zivota-1970-cs/9d5649312a23701a",
+              "title": "Archa bláznů aneb Vyprávění z konce života - 1970 CS",
+              "year": null,
+              "duration_sec": 6118,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Archa bláznů aneb Vyprávění z konce života (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65f4321ea2589",
+              "url": "https://prehraj.to/archa-blaznu-aneb-vypraveni-z-konce-zivota-r-1970-1480x1080-bydejv/65f4321ea2589",
+              "title": "Archa bláznů aneb Vyprávění z konce života (r.1970 -…",
+              "year": null,
+              "duration_sec": 6119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Archa bláznů aneb Vyprávění z konce života (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68587e256f928",
+              "url": "https://prehraj.to/archa-blaznu-aneb-vypraveni-z-konce-zivota-1970-1480x1080-bydejv/68587e256f928",
+              "title": "Archa bláznů aneb Vyprávění z konce života 1970 - 1480x1080…",
+              "year": null,
+              "duration_sec": 6119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Archa bláznů aneb Vyprávění z konce života (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6246189fc80f7",
+              "url": "https://prehraj.to/archa-blaznu-aneb-vypraveni-z-konce-zivota-r-1970-1480x1080/6246189fc80f7",
+              "title": "Archa bláznů aneb Vyprávění z konce života (r.1970 -…",
+              "year": null,
+              "duration_sec": 6119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1990,
+                "candidate_year": 1970,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Archa bláznů aneb Vyprávění z konce života (1990)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:31:36.307849+00:00"
         }
       ],
       "identity": {
@@ -1297,7 +1489,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:14:43.296665+00:00"
+        "at": "2026-08-29T18:31:33.378372+00:00"
       }
     },
     "27156": {
@@ -36793,5 +36985,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:31:31.997930+00:00"
+  "updated_at": "2026-08-29T18:31:36.307868+00:00"
 }
