@@ -6283,7 +6283,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.862024+00:00"
+        "at": "2026-08-29T19:14:35.980215+00:00"
       }
     },
     "16546": {
@@ -6350,7 +6350,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.862349+00:00"
+        "at": "2026-08-29T19:14:35.980779+00:00"
       }
     },
     "1266": {
@@ -7042,7 +7042,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.862680+00:00"
+        "at": "2026-08-29T19:14:35.981432+00:00"
       }
     },
     "15882": {
@@ -7109,7 +7109,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.863749+00:00"
+        "at": "2026-08-29T19:14:35.983183+00:00"
       }
     },
     "15074": {
@@ -7227,7 +7227,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:06.864150+00:00"
+        "at": "2026-08-29T19:14:35.983848+00:00"
       }
     },
     "17490": {
@@ -7394,7 +7394,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:06.865223+00:00"
+        "at": "2026-08-29T19:14:35.985693+00:00"
       }
     },
     "9842": {
@@ -7461,6 +7461,69 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T10:30:59.215489+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-8c22e271786cc21c",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad0897667a3e1ae",
+              "url": "https://prehraj.to/rosario-2025-cz-titulky-v-obraze/5ad0897667a3e1ae",
+              "title": "Rosario (2025) CZ titulky v obraze",
+              "year": null,
+              "duration_sec": 5310,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5310,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "46751",
+              "url": "https://online.sktorrent.eu/video/46751/",
+              "title": "Rosario: Prokletí",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:14:48.145604+00:00"
         }
       ],
       "identity": {
@@ -7479,7 +7542,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T10:30:54.410331+00:00"
+        "at": "2026-08-29T19:14:35.985733+00:00"
       }
     },
     "4042": {
@@ -141523,5 +141586,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:14:34.048077+00:00"
+  "updated_at": "2026-08-29T19:14:48.145623+00:00"
 }
