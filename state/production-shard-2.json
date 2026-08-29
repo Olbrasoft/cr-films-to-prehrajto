@@ -9164,7 +9164,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.866702+00:00"
+        "at": "2026-08-29T19:15:56.729857+00:00"
       }
     },
     "2842": {
@@ -9267,7 +9267,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.866860+00:00"
+        "at": "2026-08-29T19:15:56.730180+00:00"
       }
     },
     "14202": {
@@ -9455,7 +9455,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.867822+00:00"
+        "at": "2026-08-29T19:15:56.731904+00:00"
       }
     },
     "1602": {
@@ -9702,7 +9702,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.867980+00:00"
+        "at": "2026-08-29T19:15:56.732219+00:00"
       }
     },
     "15722": {
@@ -9733,7 +9733,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.868101+00:00"
+        "at": "2026-08-29T19:15:56.732453+00:00"
       }
     },
     "10010": {
@@ -9836,7 +9836,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.868542+00:00"
+        "at": "2026-08-29T19:15:56.733272+00:00"
       }
     },
     "5850": {
@@ -10506,7 +10506,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:06.889084+00:00"
+        "at": "2026-08-29T19:15:56.770444+00:00"
       }
     },
     "15098": {
@@ -10573,6 +10573,69 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T03:49:49.698237+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-902af4a097af217d",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "3610ec04b1315685",
+              "url": "https://prehraj.to/amigo-2011-cz-titulky/3610ec04b1315685",
+              "title": "Amigo (2011) CZ titulky",
+              "year": null,
+              "duration_sec": 4956,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 128,
+                "candidate_runtime_sec": 4956,
+                "runtime_delta": 0.355,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "22025",
+              "url": "https://online.sktorrent.eu/video/22025/",
+              "title": "Amigo",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:16:07.115654+00:00"
         }
       ],
       "identity": {
@@ -10591,7 +10654,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T03:49:44.940504+00:00"
+        "at": "2026-08-29T19:15:56.770663+00:00"
       }
     },
     "2258": {
@@ -141754,5 +141817,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:15:54.829454+00:00"
+  "updated_at": "2026-08-29T19:16:07.115674+00:00"
 }
