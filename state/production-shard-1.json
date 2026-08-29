@@ -17700,7 +17700,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:25.315020+00:00"
+        "at": "2026-08-29T18:36:56.105612+00:00"
       }
     },
     "29121": {
@@ -17815,7 +17815,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:25.316052+00:00"
+        "at": "2026-08-29T18:36:56.106668+00:00"
       }
     },
     "29103": {
@@ -60211,6 +60211,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T21:21:12.337096+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f21dc5944106014c",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583d03e441cd6",
+              "url": "https://prehraj.to/survival-of-the-dead-2010-dvdrip/583d03e441cd6",
+              "title": "survival-of-the-dead-2010-dvdrip.",
+              "year": null,
+              "duration_sec": 5165,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2010,
+                "candidate_year": 2010,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5165,
+                "runtime_delta": 0.044,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:36:58.677220+00:00"
         }
       ],
       "identity": {
@@ -60229,7 +60267,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T21:21:05.524151+00:00"
+        "at": "2026-08-29T18:36:56.106827+00:00"
       }
     },
     "26495": {
@@ -98980,5 +99018,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:49.369626+00:00"
+  "updated_at": "2026-08-29T18:36:58.677238+00:00"
 }
