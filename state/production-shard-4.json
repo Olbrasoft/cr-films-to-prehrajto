@@ -9386,7 +9386,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.568597+00:00"
+        "at": "2026-08-29T18:41:10.241055+00:00"
       }
     },
     "988": {
@@ -9841,7 +9841,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:05.571436+00:00"
+        "at": "2026-08-29T18:41:10.243682+00:00"
       }
     },
     "17084": {
@@ -9887,7 +9887,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:05.571702+00:00"
+        "at": "2026-08-29T18:41:10.243929+00:00"
       }
     },
     "14260": {
@@ -9933,7 +9933,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:05.572578+00:00"
+        "at": "2026-08-29T18:41:10.244725+00:00"
       }
     },
     "5948": {
@@ -10015,7 +10015,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:05.572801+00:00"
+        "at": "2026-08-29T18:41:10.244936+00:00"
       }
     },
     "16884": {
@@ -10046,7 +10046,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.573942+00:00"
+        "at": "2026-08-29T18:41:10.246018+00:00"
       }
     },
     "17020": {
@@ -10088,6 +10088,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T13:51:24.521582+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-cb321cd1f69eeae0",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "66211fa575772c04",
+              "url": "https://prehraj.to/vrazedna-sezona-temna-zahada-2017-cs/66211fa575772c04",
+              "title": "Vražedná sezóna: Temná záhada - 2017 CS",
+              "year": null,
+              "duration_sec": 5857,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5857,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:41:22.831708+00:00"
         }
       ],
       "identity": {
@@ -10106,7 +10144,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T13:51:19.370226+00:00"
+        "at": "2026-08-29T18:41:10.248166+00:00"
       }
     },
     "1772": {
@@ -38286,5 +38324,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:40:58.995834+00:00"
+  "updated_at": "2026-08-29T18:41:22.831728+00:00"
 }
