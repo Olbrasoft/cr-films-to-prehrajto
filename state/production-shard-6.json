@@ -3643,7 +3643,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:07.141576+00:00"
+        "at": "2026-08-29T18:43:10.616587+00:00"
       }
     },
     "22670": {
@@ -3959,6 +3959,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T03:03:49.625643+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-9ccc702cc6731378",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58553e26b9ea0",
+              "url": "https://prehraj.to/chladne-leto-roku-1953-1988-sk-tit/58553e26b9ea0",
+              "title": "Chladné-léto-roku-1953-_-Холодное-лето-пятьдесят-третьего...-1988,-SK-tit",
+              "year": null,
+              "duration_sec": 5764,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.356,
+                "title_contains_alias": false,
+                "film_year": 1953,
+                "candidate_year": 1953,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5764,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6719516e55f45",
+              "url": "https://prehraj.to/leto-s-monikou-svedsko-1953-cz-tit/6719516e55f45",
+              "title": "Léto s Monikou (Švédsko 1953, CZ tit)",
+              "year": null,
+              "duration_sec": 5601,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1953,
+                "candidate_year": 1953,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5601,
+                "runtime_delta": 0.028,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b3fd3f6ed62",
+              "url": "https://prehraj.to/leto-s-monikou-svedsko-1953-cz-tit-1080p-jackripper/68b3fd3f6ed62",
+              "title": "Léto s Monikou (Švédsko 1953, CZ tit., 1080p) JackRIPper",
+              "year": null,
+              "duration_sec": 5601,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1953,
+                "candidate_year": 1953,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5601,
+                "runtime_delta": 0.028,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6719521d942b2",
+              "url": "https://prehraj.to/leto-s-monikou-svedsko-1953-cz-tit-1080p/6719521d942b2",
+              "title": "Léto s Monikou (Švédsko 1953, CZ tit., 1080p)",
+              "year": null,
+              "duration_sec": 5601,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1953,
+                "candidate_year": 1953,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5601,
+                "runtime_delta": 0.028,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:43:14.405026+00:00"
         }
       ],
       "identity": {
@@ -3977,7 +4096,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T03:03:45.174954+00:00"
+        "at": "2026-08-29T18:43:10.616845+00:00"
       }
     },
     "21326": {
@@ -52066,5 +52185,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:43:09.115378+00:00"
+  "updated_at": "2026-08-29T18:43:14.405045+00:00"
 }
