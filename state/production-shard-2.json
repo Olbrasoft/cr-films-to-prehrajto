@@ -5016,7 +5016,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.861736+00:00"
+        "at": "2026-08-29T19:14:24.002865+00:00"
       }
     },
     "25770": {
@@ -5085,6 +5085,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:12:16.879070+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-48aed1bab44f70d6",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586d0e7fcd66c",
+              "url": "https://prehraj.to/pes-za-vsechny-penize-cz-dabing-komedie-rodinny-kanada-2005/586d0e7fcd66c",
+              "title": "pes-za-vsechny-penize-cz-dabing-komedie-rodinny-kanada-2005",
+              "year": null,
+              "duration_sec": 5341,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.34,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5341,
+                "runtime_delta": null,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1d930cb4daad5e49",
+              "url": "https://prehraj.to/jeden-pes-dva-kufry-a-velka-laska-2005-cs/1d930cb4daad5e49",
+              "title": "Jeden pes, dva kufry a velká láska - 2005 CS",
+              "year": null,
+              "duration_sec": 5527,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5527,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:14:25.774841+00:00"
         }
       ],
       "identity": {
@@ -5103,7 +5168,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:12:14.041413+00:00"
+        "at": "2026-08-29T19:14:24.002963+00:00"
       }
     },
     "25634": {
@@ -141282,5 +141347,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:14:22.204873+00:00"
+  "updated_at": "2026-08-29T19:14:25.774863+00:00"
 }
