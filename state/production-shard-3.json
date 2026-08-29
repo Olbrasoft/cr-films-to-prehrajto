@@ -403,7 +403,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:27.676076+00:00"
+        "at": "2026-08-29T18:30:42.022859+00:00"
       }
     },
     "28619": {
@@ -485,6 +485,84 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T18:19:31.632907+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-dd1be63e120d6601",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "b4cc863ad7119e47",
+              "url": "https://prehraj.to/stans-2025-1080p-webrip-ddp-5-1-10bit-h-265-ivy-mkv/b4cc863ad7119e47",
+              "title": "Stans.2025.1080p. cz tit.mkv",
+              "year": null,
+              "duration_sec": 6090,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 6090,
+                "runtime_delta": 0.005,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a2910fc4ca212c1e",
+              "url": "https://prehraj.to/stans-2025-1080p-webrip-ddp-5-1-10bit-h-265-ivy/a2910fc4ca212c1e",
+              "title": "Stans.2025.1080p.WEBRip.DDP.5.1.10bit.H.265-iVy",
+              "year": null,
+              "duration_sec": 6090,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "eng",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "eng1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 102,
+                "candidate_runtime_sec": 6090,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:30:44.087840+00:00"
         }
       ],
       "identity": {
@@ -503,7 +581,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T18:19:27.640686+00:00"
+        "at": "2026-08-29T18:30:42.022909+00:00"
       }
     },
     "28535": {
@@ -39041,5 +39119,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:30:25.442734+00:00"
+  "updated_at": "2026-08-29T18:30:44.087862+00:00"
 }
