@@ -6448,6 +6448,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T03:03:46.453694+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-2f8025dec46d65aa",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c23ea03e6d69",
+              "url": "https://prehraj.to/polska-krev-1978-opera-oskar-nedbal/5c23ea03e6d69",
+              "title": "Polská krev 1978 - opera - Oskar Nedbal",
+              "year": null,
+              "duration_sec": 7471,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.327,
+                "title_contains_alias": false,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 7471,
+                "runtime_delta": 0.311,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "259b6222eea886cc",
+              "url": "https://prehraj.to/spravni-chlapi-nosi-cernou-1978-good-guys-wear-black-chuck-norris/259b6222eea886cc",
+              "title": "Správní chlapi nosí černou 1978  (Good Guys Wear Black)…",
+              "year": null,
+              "duration_sec": 5736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5736,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "39c1178f07196fbf",
+              "url": "https://prehraj.to/spravni-chlapi-nosi-cernou-1978-cs/39c1178f07196fbf",
+              "title": "Správní chlapi nosí černou - 1978 CS",
+              "year": null,
+              "duration_sec": 5736,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1978,
+                "candidate_year": 1978,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5736,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:56.010244+00:00"
         }
       ],
       "identity": {
@@ -6466,7 +6558,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T03:03:42.338183+00:00"
+        "at": "2026-08-29T18:35:53.564286+00:00"
       }
     },
     "22413": {
@@ -41027,5 +41119,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:52.181266+00:00"
+  "updated_at": "2026-08-29T18:35:56.010264+00:00"
 }
