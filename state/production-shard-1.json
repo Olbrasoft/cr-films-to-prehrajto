@@ -55419,6 +55419,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:12:43.208465+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-b5e00e70d0a91189",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "584d86279d77a",
+              "url": "https://prehraj.to/sting-koncert-v-katedrale-2f-sting-a-winter-s-night-live-from-durham-cathedral-2009-cz-tit/584d86279d77a",
+              "title": "Sting--Koncert-v-katedrále-%2F-Sting--A-Winter's-Night...-Live-from-Durham-Cathedral-2009,-CZ-tit",
+              "year": null,
+              "duration_sec": 5446,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 61,
+                "candidate_runtime_sec": 5446,
+                "runtime_delta": 0.488,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5870ccf7a3359",
+              "url": "https://prehraj.to/stingray-sam-2009-titulky/5870ccf7a3359",
+              "title": "!Stingray-Sam-2009-Titulky",
+              "year": null,
+              "duration_sec": 3628,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 61,
+                "candidate_runtime_sec": 3628,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:37:24.415034+00:00"
         }
       ],
       "identity": {
@@ -55437,7 +55502,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:12:40.539232+00:00"
+        "at": "2026-08-29T18:37:22.373864+00:00"
       }
     },
     "26989": {
@@ -99729,5 +99794,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:37:20.651208+00:00"
+  "updated_at": "2026-08-29T18:37:24.415051+00:00"
 }
