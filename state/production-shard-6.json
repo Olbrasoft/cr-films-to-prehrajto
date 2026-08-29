@@ -5083,7 +5083,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:07.143509+00:00"
+        "at": "2026-08-29T18:43:15.877575+00:00"
       }
     },
     "15846": {
@@ -5357,6 +5357,96 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T11:08:32.022802+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-3b0f36a72acaf4a8",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "49d00dc470bc41e6",
+              "url": "https://prehraj.to/confession-2023-cz-titulky/49d00dc470bc41e6",
+              "title": "Confession (2023) CZ titulky",
+              "year": null,
+              "duration_sec": 4416,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 4416,
+                "runtime_delta": 0.173,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3dd8bd4c231b2299",
+              "url": "https://prehraj.to/confessions-of-a-psycho-killer-2023-en/3dd8bd4c231b2299",
+              "title": "Confessions of a Psycho Killer - 2023 EN",
+              "year": null,
+              "duration_sec": 5700,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5700,
+                "runtime_delta": 0.067,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "45454",
+              "url": "https://online.sktorrent.eu/video/45454/",
+              "title": "Confession",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:43:28.425995+00:00"
         }
       ],
       "identity": {
@@ -5375,7 +5465,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T11:08:27.075618+00:00"
+        "at": "2026-08-29T18:43:15.877754+00:00"
       }
     },
     "15006": {
@@ -52185,5 +52275,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:43:14.405045+00:00"
+  "updated_at": "2026-08-29T18:43:28.426012+00:00"
 }
