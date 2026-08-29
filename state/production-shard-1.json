@@ -9141,7 +9141,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.309054+00:00"
+        "at": "2026-08-29T18:22:25.367695+00:00"
       }
     },
     "29523": {
@@ -14952,7 +14952,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.309379+00:00"
+        "at": "2026-08-29T18:22:25.368066+00:00"
       }
     },
     "29317": {
@@ -17635,7 +17635,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.262019+00:00"
+        "at": "2026-08-29T18:22:25.315020+00:00"
       }
     },
     "29121": {
@@ -17750,7 +17750,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.262955+00:00"
+        "at": "2026-08-29T18:22:25.316052+00:00"
       }
     },
     "29103": {
@@ -18145,7 +18145,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.267908+00:00"
+        "at": "2026-08-29T18:22:25.321570+00:00"
       }
     },
     "29045": {
@@ -23188,7 +23188,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.312915+00:00"
+        "at": "2026-08-29T18:22:25.372540+00:00"
       }
     },
     "28825": {
@@ -37967,6 +37967,132 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T18:07:49.628621+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c3b34b2552",
+              "url": "https://prehraj.to/the-boss-6ch-2016-1080p-titulky-v-obraze/586c3b34b2552",
+              "title": "The Boss 6CH (2016) 1080p. Titulky v obraze",
+              "year": null,
+              "duration_sec": 6254,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6254,
+                "runtime_delta": 0.145,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57a23c2759fbe",
+              "url": "https://prehraj.to/the-boss-2016-cz-titulky/57a23c2759fbe",
+              "title": "The Boss (2016) CZ titulky",
+              "year": null,
+              "duration_sec": 6254,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6254,
+                "runtime_delta": 0.145,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5731e66cebaec",
+              "url": "https://prehraj.to/the-boss-2016-cz-titulky/5731e66cebaec",
+              "title": "The Boss (2016) CZ titulky",
+              "year": null,
+              "duration_sec": 5685,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5685,
+                "runtime_delta": 0.041,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f786330ded795076",
+              "url": "https://prehraj.to/the-boss-6ch-2016-1080p-titulky-v-obraze/f786330ded795076",
+              "title": "The Boss 6CH (2016) 1080p. Titulky v obraze",
+              "year": null,
+              "duration_sec": 6254,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6254,
+                "runtime_delta": 0.145,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:22:28.265923+00:00"
         }
       ],
       "identity": {
@@ -37986,7 +38112,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28836006"
         },
-        "at": "2026-08-29T18:07:48.339666+00:00"
+        "at": "2026-08-29T18:22:25.402453+00:00"
       }
     },
     "28391": {
@@ -61023,7 +61149,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.264906+00:00"
+        "at": "2026-08-29T18:22:25.318286+00:00"
       }
     },
     "25169": {
@@ -61920,7 +62046,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.266216+00:00"
+        "at": "2026-08-29T18:22:25.319708+00:00"
       }
     },
     "23061": {
@@ -62826,7 +62952,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.308855+00:00"
+        "at": "2026-08-29T18:22:25.367494+00:00"
       }
     },
     "21381": {
@@ -68729,7 +68855,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.272396+00:00"
+        "at": "2026-08-29T18:22:25.326520+00:00"
       }
     },
     "25951": {
@@ -70319,7 +70445,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.313696+00:00"
+        "at": "2026-08-29T18:22:25.373407+00:00"
       }
     },
     "25357": {
@@ -70833,7 +70959,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.316243+00:00"
+        "at": "2026-08-29T18:22:25.376467+00:00"
       }
     },
     "25241": {
@@ -71366,7 +71492,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.273258+00:00"
+        "at": "2026-08-29T18:22:25.327447+00:00"
       }
     },
     "24963": {
@@ -87433,7 +87559,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.274203+00:00"
+        "at": "2026-08-29T18:22:25.328484+00:00"
       }
     },
     "865": {
@@ -87464,7 +87590,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.275852+00:00"
+        "at": "2026-08-29T18:22:25.330350+00:00"
       }
     },
     "15145": {
@@ -87688,7 +87814,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.276721+00:00"
+        "at": "2026-08-29T18:22:25.331329+00:00"
       }
     },
     "7489": {
@@ -87791,7 +87917,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.282183+00:00"
+        "at": "2026-08-29T18:22:25.337445+00:00"
       }
     },
     "16865": {
@@ -87921,7 +88047,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.283780+00:00"
+        "at": "2026-08-29T18:22:25.339257+00:00"
       }
     },
     "3641": {
@@ -88001,7 +88127,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.284060+00:00"
+        "at": "2026-08-29T18:22:25.339561+00:00"
       }
     },
     "14745": {
@@ -88315,7 +88441,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.284168+00:00"
+        "at": "2026-08-29T18:22:25.339685+00:00"
       }
     },
     "15577": {
@@ -88575,7 +88701,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.285879+00:00"
+        "at": "2026-08-29T18:22:25.341604+00:00"
       }
     },
     "3665": {
@@ -88609,7 +88735,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.286303+00:00"
+        "at": "2026-08-29T18:22:25.342104+00:00"
       }
     },
     "14649": {
@@ -88748,7 +88874,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.286704+00:00"
+        "at": "2026-08-29T18:22:25.342551+00:00"
       }
     },
     "12041": {
@@ -88779,7 +88905,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.287155+00:00"
+        "at": "2026-08-29T18:22:25.343068+00:00"
       }
     },
     "9865": {
@@ -88825,7 +88951,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.289604+00:00"
+        "at": "2026-08-29T18:22:25.345919+00:00"
       }
     },
     "8177": {
@@ -88920,7 +89046,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.290387+00:00"
+        "at": "2026-08-29T18:22:25.346809+00:00"
       }
     },
     "15537": {
@@ -89686,7 +89812,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.291176+00:00"
+        "at": "2026-08-29T18:22:25.347719+00:00"
       }
     },
     "3601": {
@@ -89753,7 +89879,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.292202+00:00"
+        "at": "2026-08-29T18:22:25.348875+00:00"
       }
     },
     "5497": {
@@ -89928,7 +90054,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.294427+00:00"
+        "at": "2026-08-29T18:22:25.351378+00:00"
       }
     },
     "4425": {
@@ -90802,7 +90928,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.297539+00:00"
+        "at": "2026-08-29T18:22:25.354876+00:00"
       }
     },
     "17393": {
@@ -91147,7 +91273,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.300671+00:00"
+        "at": "2026-08-29T18:22:25.358436+00:00"
       }
     },
     "10625": {
@@ -91394,7 +91520,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.303039+00:00"
+        "at": "2026-08-29T18:22:25.361063+00:00"
       }
     },
     "9689": {
@@ -91440,7 +91566,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.303416+00:00"
+        "at": "2026-08-29T18:22:25.361492+00:00"
       }
     },
     "5489": {
@@ -91543,7 +91669,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.305535+00:00"
+        "at": "2026-08-29T18:22:25.363788+00:00"
       }
     },
     "1209": {
@@ -91718,7 +91844,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.306316+00:00"
+        "at": "2026-08-29T18:22:25.364632+00:00"
       }
     },
     "1185": {
@@ -94695,7 +94821,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.317272+00:00"
+        "at": "2026-08-29T18:22:25.377629+00:00"
       }
     },
     "2769": {
@@ -94837,7 +94963,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.319255+00:00"
+        "at": "2026-08-29T18:22:25.379955+00:00"
       }
     },
     "49": {
@@ -94973,7 +95099,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.319593+00:00"
+        "at": "2026-08-29T18:22:25.380331+00:00"
       }
     },
     "15729": {
@@ -95974,7 +96100,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.320187+00:00"
+        "at": "2026-08-29T18:22:25.380999+00:00"
       }
     },
     "16897": {
@@ -96412,7 +96538,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.333659+00:00"
+        "at": "2026-08-29T18:22:25.395977+00:00"
       }
     },
     "1889": {
@@ -97129,7 +97255,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.338100+00:00"
+        "at": "2026-08-29T18:22:25.400838+00:00"
       }
     },
     "1929": {
@@ -98342,7 +98468,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:07:48.339235+00:00"
+        "at": "2026-08-29T18:22:25.402004+00:00"
       }
     },
     "17137": {
@@ -98407,7 +98533,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:07:48.339580+00:00"
+        "at": "2026-08-29T18:22:25.402386+00:00"
       }
     },
     "13905": {
@@ -98789,5 +98915,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:20:26.854065+00:00"
+  "updated_at": "2026-08-29T18:22:28.265943+00:00"
 }
