@@ -87427,6 +87427,291 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:22:13.383907+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-67b8daf73621a0ad",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5869b236e9810",
+              "url": "https://prehraj.to/pata-pecet-az-otodik-pecset-1976-sk-tit/5869b236e9810",
+              "title": "Pátá-pečeť-_-Az-Ötödik-pecsét-1976,-SK-tit",
+              "year": null,
+              "duration_sec": 6409,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.204,
+                "title_contains_alias": false,
+                "film_year": 1976,
+                "candidate_year": 1976,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 6409,
+                "runtime_delta": 0.124,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cc301535db1833e1",
+              "url": "https://prehraj.to/podivny-patek-1976-cs/cc301535db1833e1",
+              "title": "Podivný pátek - 1976 CS",
+              "year": null,
+              "duration_sec": 5893,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1976,
+                "candidate_year": 1976,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5893,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68afdb6b6525d",
+              "url": "https://prehraj.to/freaky-friday-2003-1080p-hevc/68afdb6b6525d",
+              "title": "Freaky Friday (2003) [1080p] [HEVC]",
+              "year": null,
+              "duration_sec": 5816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68d14427b434d",
+              "url": "https://prehraj.to/freaky-friday-2003-1080p-bluray-x264-yts-am/68d14427b434d",
+              "title": "Freaky.Friday.2003.1080p.BluRay.x264-[YTS.AM]",
+              "year": null,
+              "duration_sec": 5816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1fbc52822f5e3655",
+              "url": "https://prehraj.to/freaky-friday-1995-en/1fbc52822f5e3655",
+              "title": "Freaky Friday (1995) EN",
+              "year": null,
+              "duration_sec": 5500,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 1995,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ffa62d2ab39c01c8",
+              "url": "https://prehraj.to/freaky-friday-1995/ffa62d2ab39c01c8",
+              "title": "Freaky Friday (1995)",
+              "year": null,
+              "duration_sec": 5500,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 1995,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7febd9bbd7227caf",
+              "url": "https://prehraj.to/freaky-friday-2-2025-cz-titulky-1080p-mkv/7febd9bbd7227caf",
+              "title": "Freaky Friday 2 (2025) CZ Titulky 1080p.mkv",
+              "year": null,
+              "duration_sec": 6633,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "db1257678f1473a9",
+              "url": "https://prehraj.to/mezi-nami-devcaty-freaky-friday-2003-cz-en-dab-cz-en-tit-cz-forced-tit-1080p-bluray/db1257678f1473a9",
+              "title": "Mezi námi děvčaty ( Freaky Friday 2003 ) CZ , EN dab + CZ ,…",
+              "year": null,
+              "duration_sec": 5816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67e0bd156977f",
+              "url": "https://prehraj.to/mezi-nami-devcaty-freaky-friday-2003/67e0bd156977f",
+              "title": "Mezi Námi Děvčaty (Freaky Friday, 2003)",
+              "year": null,
+              "duration_sec": 5817,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6897e2b3482b2",
+              "url": "https://prehraj.to/mezi-nami-devcaty-freaky-friday-2003/6897e2b3482b2",
+              "title": "Mezi námi děvčaty - Freaky Friday (2003)",
+              "year": null,
+              "duration_sec": 5816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b8e396a8a92e5781",
+              "url": "https://prehraj.to/mezi-nami-devcaty-freaky-friday-2003-cz-en-dab-cz/b8e396a8a92e5781",
+              "title": "Mezi námi děvčaty Freaky Friday 2003 CZ EN dab CZ",
+              "year": null,
+              "duration_sec": 5816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60b8dc941e4c8",
+              "url": "https://prehraj.to/mezi-nami-devcaty-freaky-friday-2003-cz-en-dab-cz-en-tit-cz-forced-tit-1080p-bluray/60b8dc941e4c8",
+              "title": "Mezi námi děvčaty ( Freaky Friday 2003 ) CZ , EN dab + CZ ,…",
+              "year": null,
+              "duration_sec": 5816,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5731f040732030ad",
+              "url": "https://prehraj.to/mezi-nami-devcaty-2-freakier-friday-2025/5731f040732030ad",
+              "title": "Mezi+námi+děvčaty+2_Freakier+Friday.2025",
+              "year": null,
+              "duration_sec": 6633,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1976,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Freaky Friday (1976)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:03.689718+00:00"
         }
       ],
       "identity": {
@@ -87445,7 +87730,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:22:09.901857+00:00"
+        "at": "2026-08-29T18:39:01.453714+00:00"
       }
     },
     "22193": {
@@ -101330,5 +101615,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:38:59.714241+00:00"
+  "updated_at": "2026-08-29T18:39:03.689733+00:00"
 }
