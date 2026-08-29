@@ -31424,6 +31424,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:45:09.287826+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-9d4d9ea202503c06",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c51605b4763e",
+              "url": "https://prehraj.to/labuti-princezna-5-pribeh-kralovske-rodiny-anim-2013-cz-dabing/5c51605b4763e",
+              "title": "Labuti-princezna-5-Pribeh-kralovske-rodiny-(Anim)-(2013)--cz-dabing",
+              "year": null,
+              "duration_sec": 5006,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.315,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 5006,
+                "runtime_delta": 0.112,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "604ef70bf248b",
+              "url": "https://prehraj.to/labuti-princezna-5-pribeh-kralovske-rodiny-anim-2013-cz-dabing/604ef70bf248b",
+              "title": "Labuti-princezna-5-Pribeh-kralovske-rodiny-(anim)-(2013)--cz-dabing",
+              "year": null,
+              "duration_sec": 5006,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.315,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 5006,
+                "runtime_delta": 0.112,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0e0ed3f45e598b44",
+              "url": "https://prehraj.to/barbie-mariposa-a-kvetinova-princezna-2013-cs/0e0ed3f45e598b44",
+              "title": "Barbie - Mariposa a Květinová princezna - 2013 CS",
+              "year": null,
+              "duration_sec": 4347,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4347,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:33:30.103002+00:00"
         }
       ],
       "identity": {
@@ -31442,7 +31534,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:45:03.555565+00:00"
+        "at": "2026-08-29T18:33:27.997111+00:00"
       }
     },
     "28502": {
@@ -89933,5 +90025,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:33:26.308059+00:00"
+  "updated_at": "2026-08-29T18:33:30.103021+00:00"
 }
