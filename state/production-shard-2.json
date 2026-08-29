@@ -11241,7 +11241,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.889799+00:00"
+        "at": "2026-08-29T19:16:32.534549+00:00"
       }
     },
     "466": {
@@ -11344,7 +11344,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.890804+00:00"
+        "at": "2026-08-29T19:16:32.536386+00:00"
       }
     },
     "5722": {
@@ -11432,7 +11432,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.891107+00:00"
+        "at": "2026-08-29T19:16:32.536903+00:00"
       }
     },
     "5466": {
@@ -11478,7 +11478,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:06.892059+00:00"
+        "at": "2026-08-29T19:16:32.538533+00:00"
       }
     },
     "2922": {
@@ -11617,7 +11617,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.892530+00:00"
+        "at": "2026-08-29T19:16:32.539369+00:00"
       }
     },
     "7962": {
@@ -55598,7 +55598,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.893074+00:00"
+        "at": "2026-08-29T19:16:32.540362+00:00"
       }
     },
     "15130": {
@@ -55968,7 +55968,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:06.895321+00:00"
+        "at": "2026-08-29T19:16:32.544198+00:00"
       }
     },
     "2698": {
@@ -56130,7 +56130,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.896169+00:00"
+        "at": "2026-08-29T19:16:32.545640+00:00"
       }
     },
     "3386": {
@@ -87665,7 +87665,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:06.896884+00:00"
+        "at": "2026-08-29T19:16:32.547017+00:00"
       }
     },
     "2402": {
@@ -87842,6 +87842,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T03:02:09.580271+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-9eac2d7a0b835343",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "125828e2cec08b22",
+              "url": "https://prehraj.to/winchester-sidlo-demonu-2018-cz-titulky/125828e2cec08b22",
+              "title": "Winchester - Sídlo démonů (2018) CZ-Titulky",
+              "year": null,
+              "duration_sec": 5970,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5970,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Winchester: Sídlo démonů (2018)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:16:51.978225+00:00"
         }
       ],
       "identity": {
@@ -87860,7 +87898,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T03:02:04.306906+00:00"
+        "at": "2026-08-29T19:16:32.547173+00:00"
       }
     },
     "7970": {
@@ -141882,5 +141920,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:16:30.389249+00:00"
+  "updated_at": "2026-08-29T19:16:51.978241+00:00"
 }
