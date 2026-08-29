@@ -80910,6 +80910,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T21:56:31.926362+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-4003a312c03a90c7",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "1614cd823f09bae4",
+              "url": "https://prehraj.to/vrana-3-navrat-2000-mp4/1614cd823f09bae4",
+              "title": "Vrána 3 Návrat 2000.mp4",
+              "year": null,
+              "duration_sec": 5862,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5862,
+                "runtime_delta": 0.033,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cd7714df36488cf8",
+              "url": "https://prehraj.to/vrana-3-navrat-2000-cs/cd7714df36488cf8",
+              "title": "Vrána 3: Návrat - 2000 CS",
+              "year": null,
+              "duration_sec": 5861,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5861,
+                "runtime_delta": 0.033,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5113b3c4f32a3b86",
+              "url": "https://prehraj.to/vrana-3-navrat-2000-cs/5113b3c4f32a3b86",
+              "title": "Vrána 3: Návrat - 2000 CS",
+              "year": null,
+              "duration_sec": 5862,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5862,
+                "runtime_delta": 0.033,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:45:48.125422+00:00"
         }
       ],
       "identity": {
@@ -80928,7 +81020,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T21:56:25.478944+00:00"
+        "at": "2026-08-29T18:45:36.057469+00:00"
       }
     },
     "3008": {
@@ -91612,5 +91704,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:45:31.905601+00:00"
+  "updated_at": "2026-08-29T18:45:48.125444+00:00"
 }
