@@ -10839,7 +10839,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.403738+00:00"
+        "at": "2026-08-29T18:36:09.360486+00:00"
       }
     },
     "1605": {
@@ -10942,7 +10942,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.404201+00:00"
+        "at": "2026-08-29T18:36:09.360984+00:00"
       }
     },
     "3261": {
@@ -11860,6 +11860,776 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T09:29:08.265656+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-afc4ea91284f87e8",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "4d0d864956d8a710",
+              "url": "https://prehraj.to/letni-mraz-2023-cz-titulky/4d0d864956d8a710",
+              "title": "Letní mráz (2023) CZ titulky",
+              "year": null,
+              "duration_sec": 6433,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 6433,
+                "runtime_delta": 0.043,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69077faa031bf",
+              "url": "https://prehraj.to/mysterious-case-in-river-2023-1080p-webrip-x264-iqiyi-pt/69077faa031bf",
+              "title": "Mysterious Case In River 2023 1080p.WEBRip.x264-iQIYI-pt",
+              "year": null,
+              "duration_sec": 4654,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.377,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4654,
+                "runtime_delta": 0.307,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6776177c8603b",
+              "url": "https://prehraj.to/the-beast-in-the-river-2023-tit/6776177c8603b",
+              "title": "The Beast in the River (2023-tit",
+              "year": null,
+              "duration_sec": 4136,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.435,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4136,
+                "runtime_delta": 0.385,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6775a4cf5680d",
+              "url": "https://prehraj.to/giant-snake-events-in-yellow-river-2023-h/6775a4cf5680d",
+              "title": "Giant Snake Events in Yellow River 2023-H",
+              "year": null,
+              "duration_sec": 5046,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 5046,
+                "runtime_delta": 0.249,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d7df1a69439056b7",
+              "url": "https://prehraj.to/giant-snake-events-in-yellow-river-2023-h/d7df1a69439056b7",
+              "title": "Giant Snake Events in Yellow River 2023-H",
+              "year": null,
+              "duration_sec": 5047,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 5047,
+                "runtime_delta": 0.249,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "680a885363ab2",
+              "url": "https://prehraj.to/chinese-adventure-mysterious-case-in-river-2023-1080p-webrip-x264-iqiyi-pt/680a885363ab2",
+              "title": "Chinese Adventure-Mysterious Case In River 2023 1080p…",
+              "year": null,
+              "duration_sec": 4654,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.258,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4654,
+                "runtime_delta": 0.307,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "680200df2478a",
+              "url": "https://prehraj.to/chinese-monster-giant-snake-events-in-yellow-river-2023-h/680200df2478a",
+              "title": "Chinese Monster-Giant Snake Events in Yellow River 2023-H",
+              "year": null,
+              "duration_sec": 5047,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.222,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 5047,
+                "runtime_delta": 0.249,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6850386fe37f8",
+              "url": "https://prehraj.to/chinese-monster-mkv-giant-snake-events-in-yellow-river-2023-h/6850386fe37f8",
+              "title": "chinese monster mkv-Giant Snake Events in Yellow River 2023…",
+              "year": null,
+              "duration_sec": 5047,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.189,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 5047,
+                "runtime_delta": 0.249,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c0052b9c362cf29e",
+              "url": "https://prehraj.to/blood-river-dieci-bianchi-uccisi-da-un-piccolo-indiano-1974-cs/c0052b9c362cf29e",
+              "title": "Blood River -Dieci bianchi uccisi da un piccolo indiano …",
+              "year": null,
+              "duration_sec": 4993,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.261,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4993,
+                "runtime_delta": 0.257,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b77b6b04c35",
+              "url": "https://prehraj.to/p-f-chinese-monster-the-beast-in-the-river-2023-tit/67b77b6b04c35",
+              "title": "P.F. Chinese Monster-The Beast in the River (2023-tit",
+              "year": null,
+              "duration_sec": 4136,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.303,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 4136,
+                "runtime_delta": 0.385,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b75c0504264",
+              "url": "https://prehraj.to/p-f-chinese-monster-giant-snake-events-in-yellow-river-2023-h/67b75c0504264",
+              "title": "P.F. Chinese Monster-Giant Snake Events in Yellow River…",
+              "year": null,
+              "duration_sec": 5046,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.174,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 5046,
+                "runtime_delta": 0.249,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "615c79a3e2a56",
+              "url": "https://prehraj.to/sunset-on-the-river-styx-2021-1080p-webrip-dd5-1-x264-nogrp/615c79a3e2a56",
+              "title": "Sunset.on.the.River.Styx.2021.1080p.WEBRip.DD5.1.x264-NOGRP",
+              "year": null,
+              "duration_sec": 5651,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a462d94c2d7",
+              "url": "https://prehraj.to/sunset-on-the-river-styx-2020-yify-download-movie-torrent-yts/67a462d94c2d7",
+              "title": "Sunset on the River Styx (2020) YIFY - Download Movie…",
+              "year": null,
+              "duration_sec": 5650,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a74b8ac12cf",
+              "url": "https://prehraj.to/52-shark-attack-in-river/68a74b8ac12cf",
+              "title": "52. Shark Attack In River",
+              "year": null,
+              "duration_sec": 2035,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.697,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "615c7952a2ec6",
+              "url": "https://prehraj.to/sunset-on-the-river-styx-2020-webrip-xvid-mp3-xvid/615c7952a2ec6",
+              "title": "Sunset.on.the.River.Styx.2020.WEBRip.XviD.MP3-XVID",
+              "year": null,
+              "duration_sec": 5651,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "615c792710792",
+              "url": "https://prehraj.to/sunset-on-the-river-styx-2020-webrip-x264-ion10/615c792710792",
+              "title": "Sunset.on.the.River.Styx.2020.WEBRip.x264-ION10",
+              "year": null,
+              "duration_sec": 5651,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2020,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a4b6040eb5040ede",
+              "url": "https://prehraj.to/the-bridge-on-the-river-kwai-1957-uhd-bluray-2160p-truehd-atmos-7-1-dv-hevc-hybrid/a4b6040eb5040ede",
+              "title": "The.Bridge.on.the.River.Kwai.1957.UHD.BluRay.2160p.TrueHD…",
+              "year": null,
+              "duration_sec": 9725,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 1957,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ec40a326101c9a70",
+              "url": "https://prehraj.to/plaveni-hribat-foals-in-the-river-1975-cz-mpg/ec40a326101c9a70",
+              "title": "Plavení hříbat / Foals in the River 1975, CZ.mpg",
+              "year": null,
+              "duration_sec": 5112,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 1975,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6017a4e402334",
+              "url": "https://prehraj.to/hover-racers-flying-on-air-vznasedla-2007-viasat-exlorer/6017a4e402334",
+              "title": "Hover Racers - Flying On Air - Vznášedla 2007 (Viasat…",
+              "year": null,
+              "duration_sec": 2791,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2007,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1f86b51062a815bd",
+              "url": "https://prehraj.to/plaveni-hribat-foals-in-the-river-1975-cz-mkv/1f86b51062a815bd",
+              "title": "Plavení hříbat / Foals in the River 1975, CZ.mkv",
+              "year": null,
+              "duration_sec": 5110,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 1975,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "47cc594d2eab435e",
+              "url": "https://prehraj.to/cecelia-ahern-zwischen-himmel-und-hier-2014-cz-dabing/47cc594d2eab435e",
+              "title": "Cecelia Ahern: Zwischen Himmel und hier (2014) CZ Dabing",
+              "year": null,
+              "duration_sec": 5264,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "680c97ab79122",
+              "url": "https://prehraj.to/10-the-bridge-on-the-river-zzzeee/680c97ab79122",
+              "title": "10 - the bridge on the river zzzeee",
+              "year": null,
+              "duration_sec": 342,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.949,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555f0f4b9ec9",
+              "url": "https://prehraj.to/black-river-drive-bullet-for-your-gun/6555f0f4b9ec9",
+              "title": "Black River Drive - Bullet For Your Gun",
+              "year": null,
+              "duration_sec": 242,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.964,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555f03a79aa9",
+              "url": "https://prehraj.to/black-label-society-in-this-river-unblackened-207501671108373/6555f03a79aa9",
+              "title": "Black Label Society  - In This River (Unblackened) -…",
+              "year": null,
+              "duration_sec": 246,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.963,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cdf2a443e160",
+              "url": "https://prehraj.to/dj-sivr-imerx-river-flows-in-you-techno-remix-2017-2/5cdf2a443e160",
+              "title": "Dj Sivr-imerx - River flows in you (techno remix 2017) (2)",
+              "year": null,
+              "duration_sec": 234,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7ab4f1f8e4e0687f",
+              "url": "https://prehraj.to/the-jewel-in-the-crown-episode-01-crossing-the-river-en-cz-sub-avi/7ab4f1f8e4e0687f",
+              "title": "The-Jewel-in-the-Crown-Episode-01-Crossing-the-River-EN.CZ…",
+              "year": null,
+              "duration_sec": 6310,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 6310,
+                "runtime_delta": 0.061,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ff4a3fc11df6",
+              "url": "https://prehraj.to/a-girl-in-the-river-the-price-of-forgiveness-2015-cztitulky/5ff4a3fc11df6",
+              "title": "A Girl in the River - The Price of Forgiveness (2015)…",
+              "year": null,
+              "duration_sec": 2252,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cdf2b3f1d767",
+              "url": "https://prehraj.to/dj-sivr-imerx-river-flows-in-you-techno-remix-2017/5cdf2b3f1d767",
+              "title": "Dj Sivr-imerx - River flows in you (techno remix 2017)",
+              "year": null,
+              "duration_sec": 232,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555ae8519792",
+              "url": "https://prehraj.to/acdc-back-in-black-live-at-river-plate-december-2009/6555ae8519792",
+              "title": "ACDC - Back In Black (Live At River Plate, December 2009)",
+              "year": null,
+              "duration_sec": 240,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2009,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55bbebc5e5e1b",
+              "url": "https://prehraj.to/the-bridge-on-the-river-kwai-1957-cd1-dvdrip-xvid-internal-ffm/55bbebc5e5e1b",
+              "title": "The.Bridge.On.The.River.Kwai.1957.cd1.DVDRip.Xvid.iNTERNAL…",
+              "year": null,
+              "duration_sec": 4684,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 1957,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a2a765c48ca",
+              "url": "https://prehraj.to/most-pres-reku-kwai-the-bridge-on-the-river-kwai-1080p-x264-ac3-cz-dab-1957/68a2a765c48ca",
+              "title": "Most přes Řeku Kwai The Bridge on the River Kwai 1080p x264…",
+              "year": null,
+              "duration_sec": 9688,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 112,
+                "candidate_runtime_sec": 9688,
+                "runtime_delta": 0.442,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654a77c3f18d4",
+              "url": "https://prehraj.to/most-pres-reku-kwai-the-bridge-on-the-river-kwai-1957/654a77c3f18d4",
+              "title": "Most přes řeku Kwai (The Bridge on the River Kwai, 1957)",
+              "year": null,
+              "duration_sec": 9725,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 1957,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e13b4169818e",
+              "url": "https://prehraj.to/adventures-of-the-gummi-bears-bridge-on-the-river-gummi/5e13b4169818e",
+              "title": "Adventures of the Gummi Bears Bridge On The River Gummi",
+              "year": null,
+              "duration_sec": 623,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.907,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Un Hiver en été (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "28331",
+              "url": "https://online.sktorrent.eu/video/28331/",
+              "title": "Letní mráz",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:36:12.995524+00:00"
         }
       ],
       "identity": {
@@ -11878,7 +12648,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T09:29:02.358164+00:00"
+        "at": "2026-08-29T18:36:09.361149+00:00"
       }
     },
     "9765": {
@@ -41341,5 +42111,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:36:07.911976+00:00"
+  "updated_at": "2026-08-29T18:36:12.995541+00:00"
 }
