@@ -21705,7 +21705,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.347673+00:00"
+        "at": "2026-08-29T18:43:46.327419+00:00"
       }
     },
     "14191": {
@@ -21772,7 +21772,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.349193+00:00"
+        "at": "2026-08-29T18:43:46.328910+00:00"
       }
     },
     "7551": {
@@ -21803,7 +21803,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.351290+00:00"
+        "at": "2026-08-29T18:43:46.330966+00:00"
       }
     },
     "5871": {
@@ -21834,7 +21834,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.352101+00:00"
+        "at": "2026-08-29T18:43:46.331730+00:00"
       }
     },
     "9207": {
@@ -22024,6 +22024,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T21:56:56.420374+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-53c5fd2b9c4ccea3",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68e1094d7a2de",
+              "url": "https://prehraj.to/patek-trinacteho-8-jason-na-manhattanu-kane-hodder-jensen-daggett-scott-reeves-1989-horor-bdrip-1080p-cz-dabing/68e1094d7a2de",
+              "title": "Pátek třináctého 8-Jason na Manhattanu (Kane Hodder, Jensen…",
+              "year": null,
+              "duration_sec": 6026,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6026,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68e0a0ab032d9",
+              "url": "https://prehraj.to/patek-trinacteho-8-jason-na-manhattanu-kane-hodder-jensen-daggett-scott-reeves-1989-horor-bdrip-1080p-cz-dabing/68e0a0ab032d9",
+              "title": "Pátek třináctého 8-Jason na Manhattanu (Kane Hodder, Jensen…",
+              "year": null,
+              "duration_sec": 6025,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1989,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6025,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:43:59.109450+00:00"
         }
       ],
       "identity": {
@@ -22042,7 +22107,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T21:56:51.191720+00:00"
+        "at": "2026-08-29T18:43:46.332407+00:00"
       }
     },
     "4999": {
@@ -53952,5 +54017,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:43:44.833535+00:00"
+  "updated_at": "2026-08-29T18:43:59.109462+00:00"
 }
