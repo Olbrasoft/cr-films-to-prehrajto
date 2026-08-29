@@ -2842,7 +2842,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.540424+00:00"
+        "at": "2026-08-29T18:31:56.547299+00:00"
       }
     },
     "22940": {
@@ -2967,6 +2967,91 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:37:32.364396+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-55634e434bc26ca1",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5887de31d7257",
+              "url": "https://prehraj.to/boty-plne-vody-1976-cesky-film-do-mobilu-misa/5887de31d7257",
+              "title": "Boty-plné-vody-1976-Český-film-do-mobilu-míša",
+              "year": null,
+              "duration_sec": 5340,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.35,
+                "title_contains_alias": false,
+                "film_year": 1976,
+                "candidate_year": 1976,
+                "year_match": true,
+                "film_runtime_min": 68,
+                "candidate_runtime_sec": 5340,
+                "runtime_delta": 0.309,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cb9ef11d6dd1",
+              "url": "https://prehraj.to/maxipes-fik-1-2-cz-1976/5cb9ef11d6dd1",
+              "title": "Maxipes Fík 1-2 CZ 1976",
+              "year": null,
+              "duration_sec": 10644,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.609,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e712c4947f0d6869",
+              "url": "https://prehraj.to/kocour-v-botach-2-cesta-kolem-sveta-1976-cs/e712c4947f0d6869",
+              "title": "Kocour v botách 2: Cesta kolem světa - 1976 CS",
+              "year": null,
+              "duration_sec": 3935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1976,
+                "candidate_year": 1976,
+                "year_match": true,
+                "film_runtime_min": 68,
+                "candidate_runtime_sec": 3935,
+                "runtime_delta": 0.036,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:31:58.720097+00:00"
         }
       ],
       "identity": {
@@ -2985,7 +3070,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:37:29.484435+00:00"
+        "at": "2026-08-29T18:31:56.547818+00:00"
       }
     },
     "22548": {
@@ -37464,5 +37549,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:31:55.202883+00:00"
+  "updated_at": "2026-08-29T18:31:58.720117+00:00"
 }
