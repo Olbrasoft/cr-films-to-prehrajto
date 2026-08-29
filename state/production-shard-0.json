@@ -41364,7 +41364,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:19.448055+00:00"
+        "at": "2026-08-29T18:33:31.842539+00:00"
       }
     },
     "27562": {
@@ -41437,7 +41437,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.448226+00:00"
+        "at": "2026-08-29T18:33:31.842731+00:00"
       }
     },
     "27546": {
@@ -50290,7 +50290,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.448317+00:00"
+        "at": "2026-08-29T18:33:31.842839+00:00"
       }
     },
     "27040": {
@@ -54072,7 +54072,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.449044+00:00"
+        "at": "2026-08-29T18:33:31.843501+00:00"
       }
     },
     "26252": {
@@ -56802,6 +56802,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:33:29.093458+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-44b332d27819f957",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c3291f41f505",
+              "url": "https://prehraj.to/prisera-2004/5c3291f41f505",
+              "title": "Příšera (2004)",
+              "year": null,
+              "duration_sec": 5279,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.326,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 74,
+                "candidate_runtime_sec": 5279,
+                "runtime_delta": 0.189,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2ec6c6d190ea2019",
+              "url": "https://prehraj.to/scooby-doo-a-lochnesska-prisera-2004-cs/2ec6c6d190ea2019",
+              "title": "Scooby-Doo a Lochnesská příšera - 2004 CS",
+              "year": null,
+              "duration_sec": 4288,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 74,
+                "candidate_runtime_sec": 4288,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b2686544e38c4f3d",
+              "url": "https://prehraj.to/scooby-doo-a-lochnesska-prisera-2004-cs/b2686544e38c4f3d",
+              "title": "Scooby-Doo a Lochnesská příšera - 2004 CS",
+              "year": null,
+              "duration_sec": 4237,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 74,
+                "candidate_runtime_sec": 4237,
+                "runtime_delta": 0.046,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:33:34.376987+00:00"
         }
       ],
       "identity": {
@@ -56820,7 +56912,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:33:24.139736+00:00"
+        "at": "2026-08-29T18:33:31.844073+00:00"
       }
     },
     "25362": {
@@ -90025,5 +90117,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:33:30.103021+00:00"
+  "updated_at": "2026-08-29T18:33:34.377006+00:00"
 }
