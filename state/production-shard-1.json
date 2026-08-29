@@ -88576,6 +88576,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:49:53.933903+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-7b40e8a8fde701d8",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "4a8c6e5e240c5232",
+              "url": "https://prehraj.to/snehurka-a-sedm-trpasliku-cely-film-1937-pohadka-pro-deti-anim-czdab-m-mp4/4a8c6e5e240c5232",
+              "title": "Sněhurka a sedm trpaslíků,celý film,(1937),Pohádka pro děti,Anim,CZdab-M.mp4",
+              "year": null,
+              "duration_sec": 4991,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.154,
+                "title_contains_alias": false,
+                "film_year": 1937,
+                "candidate_year": 1937,
+                "year_match": true,
+                "film_runtime_min": 83,
+                "candidate_runtime_sec": 4991,
+                "runtime_delta": 0.002,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60b9bba78028f",
+              "url": "https://prehraj.to/mlady-a-nezkuseny-drama-1937-cz-titulky/60b9bba78028f",
+              "title": "Mladý a nezkušený-(drama)-(1937)--cz-titulky",
+              "year": null,
+              "duration_sec": 4766,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1937,
+                "candidate_year": 1937,
+                "year_match": true,
+                "film_runtime_min": 83,
+                "candidate_runtime_sec": 4766,
+                "runtime_delta": 0.043,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:19.368796+00:00"
         }
       ],
       "identity": {
@@ -88594,7 +88659,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:49:50.209254+00:00"
+        "at": "2026-08-29T18:39:16.976428+00:00"
       }
     },
     "15513": {
@@ -101872,5 +101937,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:12.044540+00:00"
+  "updated_at": "2026-08-29T18:39:19.368815+00:00"
 }
