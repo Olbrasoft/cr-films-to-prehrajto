@@ -23414,7 +23414,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:58.354736+00:00"
+        "at": "2026-08-29T18:44:49.213411+00:00"
       }
     },
     "10591": {
@@ -23445,7 +23445,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.354850+00:00"
+        "at": "2026-08-29T18:44:49.213548+00:00"
       }
     },
     "3767": {
@@ -23864,7 +23864,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:58.355333+00:00"
+        "at": "2026-08-29T18:44:49.214095+00:00"
       }
     },
     "14295": {
@@ -23982,7 +23982,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:58.378180+00:00"
+        "at": "2026-08-29T18:44:49.237135+00:00"
       }
     },
     "999": {
@@ -24013,7 +24013,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.378637+00:00"
+        "at": "2026-08-29T18:44:49.237591+00:00"
       }
     },
     "17423": {
@@ -24201,7 +24201,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.381124+00:00"
+        "at": "2026-08-29T18:44:49.240061+00:00"
       }
     },
     "4983": {
@@ -24268,6 +24268,69 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T07:08:51.030571+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-0920cff61a4f678d",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "62d2c49a7544b396",
+              "url": "https://prehraj.to/blue-story-2019-en/62d2c49a7544b396",
+              "title": "Blue Story (2019) EN",
+              "year": null,
+              "duration_sec": 3582,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 3582,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "9241",
+              "url": "https://online.sktorrent.eu/video/9241/",
+              "title": "Blue Story",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:44:52.951412+00:00"
         }
       ],
       "identity": {
@@ -24286,7 +24349,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T07:08:45.564786+00:00"
+        "at": "2026-08-29T18:44:49.242306+00:00"
       }
     },
     "8839": {
@@ -54388,5 +54451,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:44:33.971358+00:00"
+  "updated_at": "2026-08-29T18:44:52.951425+00:00"
 }
