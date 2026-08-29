@@ -360,7 +360,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:38:39.835629+00:00"
+        "at": "2026-08-29T19:14:15.479126+00:00"
       }
     },
     "27350": {
@@ -1011,7 +1011,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:38:39.837284+00:00"
+        "at": "2026-08-29T19:14:15.480755+00:00"
       }
     },
     "22730": {
@@ -3145,7 +3145,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:38:39.853038+00:00"
+        "at": "2026-08-29T19:14:15.496498+00:00"
       }
     },
     "22474": {
@@ -3176,7 +3176,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:38:39.853827+00:00"
+        "at": "2026-08-29T19:14:15.497301+00:00"
       }
     },
     "22354": {
@@ -3923,7 +3923,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:38:39.854299+00:00"
+        "at": "2026-08-29T19:14:15.497763+00:00"
       }
     },
     "28426": {
@@ -4181,7 +4181,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:38:39.854524+00:00"
+        "at": "2026-08-29T19:14:15.498009+00:00"
       }
     },
     "27970": {
@@ -4542,6 +4542,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:12:02.389711+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-5965fc00c1193812",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f3df2238771e",
+              "url": "https://prehraj.to/cesta-2009-720p-cze-eng/5f3df2238771e",
+              "title": "Cesta.2009.720p.cze.eng",
+              "year": null,
+              "duration_sec": 6681,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.324,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6681,
+                "runtime_delta": 0.237,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58745438a4a96",
+              "url": "https://prehraj.to/v-ocekavani-zazraku-usa-drama-2009-cs-dabing-tvrip/58745438a4a96",
+              "title": "V-ocekavani-zazraku-USA-drama-2009-CS-dabing-TVrip",
+              "year": null,
+              "duration_sec": 5130,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5130,
+                "runtime_delta": 0.05,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "33db56e829946cab",
+              "url": "https://prehraj.to/v-ocekavani-zazraku-2009-cs/33db56e829946cab",
+              "title": "V očekávání zázraku - 2009 CS",
+              "year": null,
+              "duration_sec": 5131,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5131,
+                "runtime_delta": 0.05,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac64a0c2ef85",
+              "url": "https://prehraj.to/v-ocekavani-zazraku-2009/5ac64a0c2ef85",
+              "title": "V očekávání zázraku (2009)",
+              "year": null,
+              "duration_sec": 5132,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5132,
+                "runtime_delta": 0.05,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:14:18.534544+00:00"
         }
       ],
       "identity": {
@@ -4560,7 +4679,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:11:57.341456+00:00"
+        "at": "2026-08-29T19:14:15.498055+00:00"
       }
     },
     "26090": {
@@ -141021,5 +141140,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:14:13.463304+00:00"
+  "updated_at": "2026-08-29T19:14:18.534567+00:00"
 }
