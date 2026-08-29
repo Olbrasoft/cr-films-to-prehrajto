@@ -6589,7 +6589,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.384900+00:00"
+        "at": "2026-08-29T18:35:57.336107+00:00"
       }
     },
     "22133": {
@@ -6864,6 +6864,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T04:43:58.749880+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-76cbac64889b8308",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "587427811c1fe",
+              "url": "https://prehraj.to/watch-videos-online-vitezna-kridla-1950-veoh-com/587427811c1fe",
+              "title": "Watch-Videos-Online-_-Vítězná-křídla-(1950)-_-Veoh_com",
+              "year": null,
+              "duration_sec": 5173,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.312,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": 1950,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 5173,
+                "runtime_delta": 0.214,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b14be040eae22e90",
+              "url": "https://prehraj.to/watch-the-birdie-1950-en/b14be040eae22e90",
+              "title": "Watch the Birdie - 1950 EN",
+              "year": null,
+              "duration_sec": 4265,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1950,
+                "candidate_year": 1950,
+                "year_match": true,
+                "film_runtime_min": 71,
+                "candidate_runtime_sec": 4265,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:58.800683+00:00"
         }
       ],
       "identity": {
@@ -6882,7 +6947,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T04:43:53.681992+00:00"
+        "at": "2026-08-29T18:35:57.336162+00:00"
       }
     },
     "21221": {
@@ -41119,5 +41184,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:56.010264+00:00"
+  "updated_at": "2026-08-29T18:35:58.800704+00:00"
 }
