@@ -5222,6 +5222,109 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T23:15:28.501163+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f0bbab171c7f738b",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68a9e30ab01b8",
+              "url": "https://prehraj.to/horror-tit-see-no-evil-2-2014-yify-cz-tit/68a9e30ab01b8",
+              "title": "HORROR TIT-See No Evil 2 2014 YIFY -cz tit",
+              "year": null,
+              "duration_sec": 5412,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 5412,
+                "runtime_delta": 0.114,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ebfdd38d253d9ba1",
+              "url": "https://prehraj.to/why-horror-2014-1080p/ebfdd38d253d9ba1",
+              "title": "Why.Horror.2014.1080p",
+              "year": null,
+              "duration_sec": 4822,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 81,
+                "candidate_runtime_sec": 4822,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57fd4be6513a88c2",
+              "url": "https://prehraj.to/honest-guide-83-dil-kriklava-hruza-v-praze-mesto-sepsalo-manual-pro-boj-s-vizualnim-smogem/57fd4be6513a88c2",
+              "title": "Honest guide - 83. díl - Křiklavá hrůza v Praze Město…",
+              "year": null,
+              "duration_sec": 153,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.969,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Proč hrůza? (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5892499889a9e",
+              "url": "https://prehraj.to/folklorika-ruza-pro-krala-dokument-tvrip/5892499889a9e",
+              "title": "Folklorika-Ruza-pro-krala-dokument-TVrip",
+              "year": null,
+              "duration_sec": 1551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.681,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Proč hrůza? (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:38.996851+00:00"
         }
       ],
       "identity": {
@@ -5240,7 +5343,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T23:15:25.549849+00:00"
+        "at": "2026-08-29T18:39:37.016726+00:00"
       }
     },
     "28391": {
@@ -50925,5 +51028,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:35.507471+00:00"
+  "updated_at": "2026-08-29T18:39:38.996864+00:00"
 }
