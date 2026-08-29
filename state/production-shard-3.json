@@ -658,7 +658,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:27.676479+00:00"
+        "at": "2026-08-29T18:30:45.639579+00:00"
       }
     },
     "28071": {
@@ -883,7 +883,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:27.677338+00:00"
+        "at": "2026-08-29T18:30:45.641406+00:00"
       }
     },
     "27263": {
@@ -1185,6 +1185,152 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T18:57:19.005572+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-c498e3498a755bbe",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5cd0fa5b02ccd",
+              "url": "https://prehraj.to/scooby-doo-klidek-scooby-doo-2007/5cd0fa5b02ccd",
+              "title": "Scooby-Doo - Klídek, Scooby-Doo! (2007)",
+              "year": null,
+              "duration_sec": 4181,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4181,
+                "runtime_delta": 0.045,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Klídek, Scooby-Doo! (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "660179df0ad1c",
+              "url": "https://prehraj.to/klidek-scooby-doo-r-2007-1280x720-bydejv/660179df0ad1c",
+              "title": "Klídek Scooby-Doo (r.2007 - 1280x720) byDejv",
+              "year": null,
+              "duration_sec": 4365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4365,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6600d09826ca7",
+              "url": "https://prehraj.to/klidek-scooby-doo-r-2007-1280x720/6600d09826ca7",
+              "title": "Klídek Scooby-Doo (r.2007 - 1280x720)",
+              "year": null,
+              "duration_sec": 4365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4365,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "43930e3fc9312eee",
+              "url": "https://prehraj.to/klidek-scooby-doo-2007-cs/43930e3fc9312eee",
+              "title": "Klídek, Scooby-Doo! - 2007 CS",
+              "year": null,
+              "duration_sec": 4186,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4186,
+                "runtime_delta": 0.044,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a026cbc13f3322f1",
+              "url": "https://prehraj.to/klidek-scooby-doo-2007-cs/a026cbc13f3322f1",
+              "title": "Klídek, Scooby-Doo! - 2007 CS",
+              "year": null,
+              "duration_sec": 4181,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4181,
+                "runtime_delta": 0.045,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:30:53.414876+00:00"
         }
       ],
       "identity": {
@@ -1203,7 +1349,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T18:57:04.029238+00:00"
+        "at": "2026-08-29T18:30:45.641507+00:00"
       }
     },
     "26279": {
@@ -39119,5 +39265,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:30:44.087862+00:00"
+  "updated_at": "2026-08-29T18:30:53.414894+00:00"
 }
