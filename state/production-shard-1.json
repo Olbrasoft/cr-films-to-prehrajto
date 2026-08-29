@@ -90454,6 +90454,16 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T04:01:09.931034+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T04:03:08.560248+00:00"
         }
       ],
       "identity": {
@@ -90472,7 +90482,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T23:39:59.258166+00:00"
+        "at": "2026-08-29T04:03:04.875230+00:00"
       }
     },
     "4313": {
@@ -90683,5 +90693,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T04:03:00.820874+00:00"
+  "updated_at": "2026-08-29T04:03:08.560266+00:00"
 }
