@@ -657,6 +657,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:22:24.074317+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-beb65b10a3e6f1bb",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "461642b5366ee347",
+              "url": "https://prehraj.to/sabrina-1995-cs/461642b5366ee347",
+              "title": "Sabrina - 1995 CS",
+              "year": null,
+              "duration_sec": 7314,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1995,
+                "candidate_year": 1995,
+                "year_match": true,
+                "film_runtime_min": 122,
+                "candidate_runtime_sec": 7314,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:42:30.333367+00:00"
         }
       ],
       "identity": {
@@ -675,7 +713,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:22:21.333149+00:00"
+        "at": "2026-08-29T18:42:26.611373+00:00"
       }
     },
     "23462": {
@@ -51175,5 +51213,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:42:25.214595+00:00"
+  "updated_at": "2026-08-29T18:42:30.333386+00:00"
 }
