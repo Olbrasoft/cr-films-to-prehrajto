@@ -28329,6 +28329,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T06:41:35.536190+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "6b212d37486a0264",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28926856",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T07:08:09.892480+00:00"
         }
       ],
       "identity": {
@@ -28348,19 +28359,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-29T06:43:41.947511+00:00"
-      },
-      "upload": {
-        "target_video_id": "28926856",
-        "display_name": "John Wick 2 (2017) CZ Dabing",
-        "size_bytes": 659932607,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "6b212d37486a0264",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-29T06:47:33.999805+00:00"
       }
     },
     "5290": {
@@ -66912,5 +66910,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T06:57:21.428316+00:00"
+  "updated_at": "2026-08-29T07:08:09.892503+00:00"
 }
