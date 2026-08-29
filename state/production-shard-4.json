@@ -9233,6 +9233,110 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T10:14:42.070578+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-947cf7d7de455dab",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "b53a8066c81b9031",
+              "url": "https://prehraj.to/mala-ryba-2005-cs/b53a8066c81b9031",
+              "title": "Malá ryba - 2005 CS",
+              "year": null,
+              "duration_sec": 6550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 114,
+                "candidate_runtime_sec": 6550,
+                "runtime_delta": 0.042,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d1874591e649a313",
+              "url": "https://prehraj.to/mala-ryba-2005-cs/d1874591e649a313",
+              "title": "Malá ryba - 2005 CS",
+              "year": null,
+              "duration_sec": 6550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 114,
+                "candidate_runtime_sec": 6550,
+                "runtime_delta": 0.042,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "563a6ae228015",
+              "url": "https://prehraj.to/01-little-fish/563a6ae228015",
+              "title": "01 Little Fish",
+              "year": null,
+              "duration_sec": 2864,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.581,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Little Fish (2005)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "643d0ad080d5b",
+              "url": "https://prehraj.to/mala-z-rybarny-little-from-the-fish-shop-2015-cz-aac-2-0-1080p/643d0ad080d5b",
+              "title": "Malá z rybárny - Little From The Fish Shop (2015) CZ-AAC-2…",
+              "year": null,
+              "duration_sec": 4204,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2005,
+                "candidate_year": 2015,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Little Fish (2005)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:40:58.995813+00:00"
         }
       ],
       "identity": {
@@ -9251,7 +9355,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T10:14:36.421838+00:00"
+        "at": "2026-08-29T18:40:46.644645+00:00"
       }
     },
     "5620": {
@@ -38182,5 +38286,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:38:51.912017+00:00"
+  "updated_at": "2026-08-29T18:40:58.995834+00:00"
 }
