@@ -6583,7 +6583,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.322387+00:00"
+        "at": "2026-08-29T18:39:52.937507+00:00"
       }
     },
     "25951": {
@@ -6733,6 +6733,152 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:09:34.991100+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-26810428ddc3f1b5",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad7a41c1576d",
+              "url": "https://prehraj.to/slecna-marplova-cukani-v-palci-2006/5ad7a41c1576d",
+              "title": "Slečna Marplová: Cukání v palci (2006)",
+              "year": null,
+              "duration_sec": 5583,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.391,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5583,
+                "runtime_delta": 0.095,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58a06410a81de",
+              "url": "https://prehraj.to/slecna-marplova-cukani-v-palci-2006/58a06410a81de",
+              "title": "slecna-marplova-cukani-v-palci-2006",
+              "year": null,
+              "duration_sec": 5583,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.391,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5583,
+                "runtime_delta": 0.095,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58a0655d3b3ff",
+              "url": "https://prehraj.to/slecna-marplova-neni-koure-bez-ohynku-2006/58a0655d3b3ff",
+              "title": "slecna-marplova-neni-koure-bez-ohynku-2006",
+              "year": null,
+              "duration_sec": 5581,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.377,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5581,
+                "runtime_delta": 0.094,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58a068f38e3ff",
+              "url": "https://prehraj.to/slecna-marplova-sittafordska-ahada-2006/58a068f38e3ff",
+              "title": "slecna-marplova-sittafordska-ahada-2006",
+              "year": null,
+              "duration_sec": 5571,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.32,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5571,
+                "runtime_delta": 0.092,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8e55e8d73eb2f1ab",
+              "url": "https://prehraj.to/slecna-guru-2006-cs/8e55e8d73eb2f1ab",
+              "title": "Slečna Guru - 2006 CS",
+              "year": null,
+              "duration_sec": 5067,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5067,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:54.448904+00:00"
         }
       ],
       "identity": {
@@ -6751,7 +6897,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:09:33.146747+00:00"
+        "at": "2026-08-29T18:39:52.937697+00:00"
       }
     },
     "25799": {
@@ -51539,5 +51685,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:51.385499+00:00"
+  "updated_at": "2026-08-29T18:39:54.448917+00:00"
 }
