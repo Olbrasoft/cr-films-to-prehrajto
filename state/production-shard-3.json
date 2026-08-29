@@ -3353,6 +3353,91 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:36:30.117851+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f882c60164af5112",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60887f9c1741a",
+              "url": "https://prehraj.to/oscar-2021-czdab/60887f9c1741a",
+              "title": "Oscar 2021 CZdab",
+              "year": null,
+              "duration_sec": 8910,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.856,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6230ece36477b",
+              "url": "https://prehraj.to/oscar-micheaux-the-superhero-of-black-filmmaking-2021-1080p-webrip-x264-aac5-1-yts-mx/6230ece36477b",
+              "title": "Oscar.Micheaux.The.Superhero.Of.Black.Filmmaking.2021.1080p…",
+              "year": null,
+              "duration_sec": 4827,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4827,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6230ecbb86428",
+              "url": "https://prehraj.to/oscar-micheaux-the-superhero-of-black-filmmaking-2021-720p-webrip-x264-aac-yts-mx/6230ecbb86428",
+              "title": "Oscar.Micheaux.The.Superhero.Of.Black.Filmmaking.2021.720p…",
+              "year": null,
+              "duration_sec": 4826,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4826,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:34:57.323946+00:00"
         }
       ],
       "identity": {
@@ -3371,7 +3456,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:36:25.106356+00:00"
+        "at": "2026-08-29T18:34:54.646448+00:00"
       }
     },
     "26915": {
@@ -39794,5 +39879,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:34:53.132378+00:00"
+  "updated_at": "2026-08-29T18:34:57.323967+00:00"
 }
