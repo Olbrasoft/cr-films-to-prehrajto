@@ -88127,6 +88127,198 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:26:21.084254+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-a47393f82553fac7",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "660aa0ca8e00dc6d",
+              "url": "https://prehraj.to/valka-je-valka-1968-dvdrip-x264-ac3-czdabing-jrk-mkv/660aa0ca8e00dc6d",
+              "title": "Válka je válka (1968) DVDRip.x264.ac3 CZdabing-JrK.mkv",
+              "year": null,
+              "duration_sec": 5100,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 5100,
+                "runtime_delta": 0.227,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5860e43e476a1",
+              "url": "https://prehraj.to/tajny-obrad-secret-ceremony-1968-cz-tit/5860e43e476a1",
+              "title": "Tajný-obřad-_-Secret-Ceremony-1968,-CZ-tit",
+              "year": null,
+              "duration_sec": 6263,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.431,
+                "title_contains_alias": false,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 6263,
+                "runtime_delta": 0.051,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6a27b7cb9224b9d5",
+              "url": "https://prehraj.to/tajna-valka-harryho-frigga-1968-1080p-h264-ac3-6ch-cztit-cz-mkv/6a27b7cb9224b9d5",
+              "title": "Tajná válka Harryho Frigga-1968-(1080p.h264.AC3.6ch)-CZtit…",
+              "year": null,
+              "duration_sec": 6323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "unk2",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "unk3",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 6323,
+                "runtime_delta": 0.042,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c755dce19664c802",
+              "url": "https://prehraj.to/tajna-valka-harryho-frigga-1968-cs/c755dce19664c802",
+              "title": "Tajná válka Harryho Frigga - 1968 CS",
+              "year": null,
+              "duration_sec": 6595,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 6595,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1f09b855a9951684",
+              "url": "https://prehraj.to/tajna-valka-harryho-frigga-1968-720p/1f09b855a9951684",
+              "title": "Tajná válka Harryho Frigga (1968) (720p)",
+              "year": null,
+              "duration_sec": 6598,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 6598,
+                "runtime_delta": 0.0,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b508747874924fdf",
+              "url": "https://prehraj.to/the-secret-war-of-harry-frigg-1968-odnoklassniki/b508747874924fdf",
+              "title": "The Secret War of Harry Frigg (1968) - Одноклассники",
+              "year": null,
+              "duration_sec": 6598,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 110,
+                "candidate_runtime_sec": 6598,
+                "runtime_delta": 0.0,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Secret War of Harry Frigg (1968)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:12.044524+00:00"
         }
       ],
       "identity": {
@@ -88145,7 +88337,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:26:14.657009+00:00"
+        "at": "2026-08-29T18:39:08.655311+00:00"
       }
     },
     "21625": {
@@ -101680,5 +101872,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:06.905000+00:00"
+  "updated_at": "2026-08-29T18:39:12.044540+00:00"
 }
