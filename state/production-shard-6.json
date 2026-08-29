@@ -177,7 +177,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:07.135768+00:00"
+        "at": "2026-08-29T18:42:11.108774+00:00"
       }
     },
     "27238": {
@@ -259,6 +259,84 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:09:39.528975+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-d4ef4f198a8362b1",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "577c9c13f00f3",
+              "url": "https://prehraj.to/libanon-2f-lebanon-2009-cz-tit/577c9c13f00f3",
+              "title": "Libanon-%2F-Lebanon-2009,-CZ-tit",
+              "year": null,
+              "duration_sec": 5380,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5380,
+                "runtime_delta": 0.036,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Lebanon (2009)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "11f19173ff11f3af",
+              "url": "https://prehraj.to/lebanon-2009-bluray-720p-ganool-cz-tit/11f19173ff11f3af",
+              "title": "Lebanon (2009) BluRay 720p Ganool-cz tit",
+              "year": null,
+              "duration_sec": 5370,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "eng",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5370,
+                "runtime_delta": 0.038,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:42:16.733004+00:00"
         }
       ],
       "identity": {
@@ -277,7 +355,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:09:36.767347+00:00"
+        "at": "2026-08-29T18:42:11.108821+00:00"
       }
     },
     "25694": {
@@ -51032,5 +51110,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:38:55.706640+00:00"
+  "updated_at": "2026-08-29T18:42:16.733023+00:00"
 }
