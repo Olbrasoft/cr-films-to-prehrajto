@@ -2131,6 +2131,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:42:13.330602+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-ca1e4fc40e301ce8",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9ba8747859a",
+              "url": "https://prehraj.to/animal-farm-sub-1954/5a9ba8747859a",
+              "title": "ANIMAL FARM sub (1954)",
+              "year": null,
+              "duration_sec": 4166,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1954,
+                "candidate_year": 1954,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4166,
+                "runtime_delta": 0.049,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b098bb5b78c8c06f",
+              "url": "https://prehraj.to/farma-zvirat-animal-farm-1954-1080p-cztit-arx-mp4/b098bb5b78c8c06f",
+              "title": "Farma zvířat - Animal Farm (1954) 1080p CZtit (ARX).mp4",
+              "year": null,
+              "duration_sec": 4326,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1954,
+                "candidate_year": 1954,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4326,
+                "runtime_delta": 0.012,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:32:26.941216+00:00"
         }
       ],
       "identity": {
@@ -2149,7 +2214,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:42:10.198766+00:00"
+        "at": "2026-08-29T18:32:23.904649+00:00"
       }
     },
     "17517": {
@@ -39604,5 +39669,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:32:22.521590+00:00"
+  "updated_at": "2026-08-29T18:32:26.941237+00:00"
 }
