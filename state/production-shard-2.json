@@ -1011,7 +1011,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.851801+00:00"
+        "at": "2026-08-29T18:30:54.516794+00:00"
       }
     },
     "22730": {
@@ -3145,7 +3145,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:06.860587+00:00"
+        "at": "2026-08-29T18:30:54.536613+00:00"
       }
     },
     "22474": {
@@ -3176,7 +3176,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.861063+00:00"
+        "at": "2026-08-29T18:30:54.537616+00:00"
       }
     },
     "22354": {
@@ -3290,6 +3290,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:47:46.709960+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f7616aaefacbf0ab",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5dfe36c8f093a",
+              "url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+              "title": "Project X 1968 - ENG",
+              "year": null,
+              "duration_sec": 5825,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1968,
+                "candidate_year": 1968,
+                "year_match": true,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5825,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:30:57.322311+00:00"
         }
       ],
       "identity": {
@@ -3308,7 +3346,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:47:44.832316+00:00"
+        "at": "2026-08-29T18:30:54.538220+00:00"
       }
     },
     "29826": {
@@ -140696,5 +140734,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:30:39.670558+00:00"
+  "updated_at": "2026-08-29T18:30:57.322331+00:00"
 }
