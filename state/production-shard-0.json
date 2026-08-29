@@ -63918,6 +63918,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T05:05:16.671061+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-d1d9d642364160db",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ac3e4a3bcf2d",
+              "url": "https://prehraj.to/utek-do-aten-1979/5ac3e4a3bcf2d",
+              "title": "Útěk do Atén (1979)",
+              "year": null,
+              "duration_sec": 7176,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.424,
+                "title_contains_alias": false,
+                "film_year": 1979,
+                "candidate_year": 1979,
+                "year_match": true,
+                "film_runtime_min": 125,
+                "candidate_runtime_sec": 7176,
+                "runtime_delta": 0.043,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7cf6ac803c90dcc0",
+              "url": "https://prehraj.to/athenin-poklad-1979-cs/7cf6ac803c90dcc0",
+              "title": "Athénin poklad - 1979 CS",
+              "year": null,
+              "duration_sec": 7175,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1979,
+                "candidate_year": 1979,
+                "year_match": true,
+                "film_runtime_min": 125,
+                "candidate_runtime_sec": 7175,
+                "runtime_delta": 0.043,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ba4adbf2c670ba39",
+              "url": "https://prehraj.to/athenin-poklad-1979-cs/ba4adbf2c670ba39",
+              "title": "Athénin poklad - 1979 CS",
+              "year": null,
+              "duration_sec": 6873,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1979,
+                "candidate_year": 1979,
+                "year_match": true,
+                "film_runtime_min": 125,
+                "candidate_runtime_sec": 6873,
+                "runtime_delta": 0.084,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:33:53.074642+00:00"
         }
       ],
       "identity": {
@@ -63936,7 +64028,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T05:05:09.686276+00:00"
+        "at": "2026-08-29T18:33:48.589192+00:00"
       }
     },
     "22336": {
@@ -90392,5 +90484,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:33:46.993570+00:00"
+  "updated_at": "2026-08-29T18:33:53.074662+00:00"
 }
