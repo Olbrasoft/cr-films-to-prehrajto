@@ -21545,7 +21545,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.149993+00:00"
+        "at": "2026-08-29T18:44:27.471101+00:00"
       }
     },
     "8142": {
@@ -21740,6 +21740,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T22:26:59.385355+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f1957a2e9b7dd884",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "8f3a832b70e37240",
+              "url": "https://prehraj.to/barbie-uvadi-thumbelina-2009-cs/8f3a832b70e37240",
+              "title": "Barbie uvádí Thumbelina - 2009 CS",
+              "year": null,
+              "duration_sec": 4489,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4489,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "71c94bb33866ba2d",
+              "url": "https://prehraj.to/barbie-uvadi-thumbelina-2009-cs/71c94bb33866ba2d",
+              "title": "Barbie uvádí Thumbelina - 2009 CS",
+              "year": null,
+              "duration_sec": 4490,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4490,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7707cba450184909",
+              "url": "https://prehraj.to/barbie-presents-thumbelina-2009-imdbid-tt1398940-dvd-aac-2/7707cba450184909",
+              "title": "Barbie Presents Thumbelina (2009) [imdbid-tt1398940] - [DVD…",
+              "year": null,
+              "duration_sec": 4490,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4490,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Barbie Presents: Thumbelina (2009)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b80f9892d74a83b1",
+              "url": "https://prehraj.to/barbie-presents-thumbelina-2009-imdbid-tt1398940-dvd-aac-2-0-x264-lounge/b80f9892d74a83b1",
+              "title": "Barbie Presents Thumbelina (2009) [imdbid-tt1398940] - [DVD…",
+              "year": null,
+              "duration_sec": 4490,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 75,
+                "candidate_runtime_sec": 4490,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Barbie Presents: Thumbelina (2009)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:44:39.071087+00:00"
         }
       ],
       "identity": {
@@ -21758,7 +21877,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T22:26:50.226258+00:00"
+        "at": "2026-08-29T18:44:27.471157+00:00"
       }
     },
     "14878": {
@@ -53688,5 +53807,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:44:14.022062+00:00"
+  "updated_at": "2026-08-29T18:44:39.071105+00:00"
 }
