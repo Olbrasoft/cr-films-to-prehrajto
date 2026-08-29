@@ -403,7 +403,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:40:56.900198+00:00"
+        "at": "2026-08-29T18:57:59.908131+00:00"
       }
     },
     "28619": {
@@ -658,7 +658,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:40:56.900785+00:00"
+        "at": "2026-08-29T18:57:59.908695+00:00"
       }
     },
     "28071": {
@@ -883,7 +883,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:40:56.902044+00:00"
+        "at": "2026-08-29T18:57:59.909940+00:00"
       }
     },
     "27263": {
@@ -2035,7 +2035,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:40:56.903386+00:00"
+        "at": "2026-08-29T18:57:59.911270+00:00"
       }
     },
     "17083": {
@@ -2369,7 +2369,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:40:56.919839+00:00"
+        "at": "2026-08-29T18:57:59.927563+00:00"
       }
     },
     "29755": {
@@ -2950,7 +2950,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:40:56.921422+00:00"
+        "at": "2026-08-29T18:57:59.929122+00:00"
       }
     },
     "27675": {
@@ -4324,7 +4324,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:40:56.921795+00:00"
+        "at": "2026-08-29T18:57:59.929458+00:00"
       }
     },
     "24091": {
@@ -4661,7 +4661,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:40:56.922641+00:00"
+        "at": "2026-08-29T18:57:59.930294+00:00"
       }
     },
     "23395": {
@@ -7121,6 +7121,51 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:03:37.377725+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-68a29134a69a25c8",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67d4a0f4717e3",
+              "url": "https://prehraj.to/inspektor-popleta-1980/67d4a0f4717e3",
+              "title": "Inspektor Popleta (1980)",
+              "year": null,
+              "duration_sec": 6135,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1980,
+                "candidate_year": 1980,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 6135,
+                "runtime_delta": 0.022,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:58:00.515206+00:00"
         }
       ],
       "identity": {
@@ -7139,7 +7184,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:03:36.379791+00:00"
+        "at": "2026-08-29T18:57:59.930552+00:00"
       }
     },
     "22187": {
@@ -41148,5 +41193,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:57:53.277867+00:00"
+  "updated_at": "2026-08-29T18:58:00.515220+00:00"
 }
