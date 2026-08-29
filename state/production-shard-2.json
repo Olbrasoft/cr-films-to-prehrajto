@@ -3923,7 +3923,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:06.861344+00:00"
+        "at": "2026-08-29T18:31:09.291134+00:00"
       }
     },
     "28426": {
@@ -4005,6 +4005,84 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T23:04:21.783332+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-d1b85fa95e269afb",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "635bfd94a74ae",
+              "url": "https://prehraj.to/all-quiet-on-the-western-front-2022-1080p-cz-titulky/635bfd94a74ae",
+              "title": "All.Quiet.On.The.Western.Front.2022.1080P CZ TITULKY",
+              "year": null,
+              "duration_sec": 8929,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.268,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65673b30d895b",
+              "url": "https://prehraj.to/all-quiet-on-the-western-front-2022/65673b30d895b",
+              "title": "All Quiet on the Western Front (2022)",
+              "year": null,
+              "duration_sec": 8929,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 7.268,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64059a35d0fd7",
+              "url": "https://prehraj.to/jak-se-natacel-film-na-zapadni-fronte-klid/64059a35d0fd7",
+              "title": "Jak se natáčel film Na západní frontě klid",
+              "year": null,
+              "duration_sec": 1081,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 18,
+                "candidate_runtime_sec": 1081,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:31:11.886376+00:00"
         }
       ],
       "identity": {
@@ -4023,7 +4101,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T23:04:19.045526+00:00"
+        "at": "2026-08-29T18:31:09.292445+00:00"
       }
     },
     "28354": {
@@ -140918,5 +140996,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:31:07.330917+00:00"
+  "updated_at": "2026-08-29T18:31:11.886395+00:00"
 }
