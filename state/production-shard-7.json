@@ -8620,7 +8620,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:58.326357+00:00"
+        "at": "2026-08-29T18:40:10.162460+00:00"
       }
     },
     "23343": {
@@ -9548,6 +9548,590 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:44:23.530736+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-ed600868c7552fd1",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586a534cc395b",
+              "url": "https://prehraj.to/posel-usvitu-1950-cz/586a534cc395b",
+              "title": "Posel-úsvitu-1950,-CZ",
+              "year": null,
+              "duration_sec": 6235,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.343,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": 1950,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6235,
+                "runtime_delta": 0.181,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a5bc382f4be0f2f9",
+              "url": "https://prehraj.to/posledni-prazdniny/a5bc382f4be0f2f9",
+              "title": "Poslední prázdniny",
+              "year": null,
+              "duration_sec": 6119,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6119,
+                "runtime_delta": 0.159,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58d4f76484c7defc",
+              "url": "https://prehraj.to/posledni-prazdniny-1080p-cz/58d4f76484c7defc",
+              "title": "Poslední prázdniny 1080p CZ",
+              "year": null,
+              "duration_sec": 6696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6696,
+                "runtime_delta": 0.268,
+                "rejection_reason": "title_only"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f1c3d5ab2e1f7c92",
+              "url": "https://prehraj.to/posledni-prazdniny/f1c3d5ab2e1f7c92",
+              "title": "Poslední prázdniny",
+              "year": null,
+              "duration_sec": 6696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6696,
+                "runtime_delta": 0.268,
+                "rejection_reason": "title_only"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e225e2c6487ed9c9",
+              "url": "https://prehraj.to/posledni-prazdniny/e225e2c6487ed9c9",
+              "title": "Posledni prazdniny",
+              "year": null,
+              "duration_sec": 6426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6426,
+                "runtime_delta": 0.217,
+                "rejection_reason": "title_only"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c7817b8cee28438c",
+              "url": "https://prehraj.to/posledni-prazdniny-mp4/c7817b8cee28438c",
+              "title": "Posledni prazdniny.mp4",
+              "year": null,
+              "duration_sec": 6426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 6426,
+                "runtime_delta": 0.217,
+                "rejection_reason": "title_only"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0571363f29bd5d05",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-sk-dab-1080p/0571363f29bd5d05",
+              "title": "Poslední prázdniny 2006 SK dab 1080p",
+              "year": null,
+              "duration_sec": 6696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8171fdc7a6a62eab",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-sk-dab-1080p/8171fdc7a6a62eab",
+              "title": "Poslední prázdniny 2006 SK dab 1080p",
+              "year": null,
+              "duration_sec": 6696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58dd5c54ee43be64",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-cs/58dd5c54ee43be64",
+              "title": "Poslední prázdniny - 2006 CS",
+              "year": null,
+              "duration_sec": 6424,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b81415ce99994465",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-sk-dabing/b81415ce99994465",
+              "title": "Poslední prázdniny (2006) SK Dabing",
+              "year": null,
+              "duration_sec": 6696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "903b253be2f5f6a9",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-en/903b253be2f5f6a9",
+              "title": "Poslední prázdniny - 2006 EN",
+              "year": null,
+              "duration_sec": 6696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3f202174f10e79b5",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-avi/3f202174f10e79b5",
+              "title": "Poslední prázdniny 2006.avi",
+              "year": null,
+              "duration_sec": 6423,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c49d3605593c4201",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-sk-dabing-1080p-fhd/c49d3605593c4201",
+              "title": "Poslední prázdniny 2006 SK dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 6696,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "655d8b96900609a5",
+              "url": "https://prehraj.to/posledni-prazdniny-2006/655d8b96900609a5",
+              "title": "Posledni Prazdniny (2006)",
+              "year": null,
+              "duration_sec": 6426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "492e31137f3eb049",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-mkv/492e31137f3eb049",
+              "title": "Posledni Prazdniny (2006).mkv",
+              "year": null,
+              "duration_sec": 6426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "db0b8edeffcb94d9",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-cs/db0b8edeffcb94d9",
+              "title": "Poslední prázdniny - 2006 CS",
+              "year": null,
+              "duration_sec": 6426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61a9c742a4fa6ba0",
+              "url": "https://prehraj.to/posledni-prazdniny-2006-cz/61a9c742a4fa6ba0",
+              "title": "Posledni_prazdniny(2006)CZ",
+              "year": null,
+              "duration_sec": 6411,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "786d075290a3e00e",
+              "url": "https://prehraj.to/posledni-den-prazdnin-2007-cs/786d075290a3e00e",
+              "title": "Poslední den prázdnin - 2007 CS",
+              "year": null,
+              "duration_sec": 4959,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2007,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586ea8eeee213",
+              "url": "https://prehraj.to/posledni-den-prazdnin-cz-cd3/586ea8eeee213",
+              "title": "Posledni-den-prazdnin-CZ-cd3",
+              "year": null,
+              "duration_sec": 1185,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.776,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586ea8eeebce1",
+              "url": "https://prehraj.to/posledni-den-prazdnin-cz-cd2/586ea8eeebce1",
+              "title": "Posledni-den-prazdnin-CZ-cd2",
+              "year": null,
+              "duration_sec": 1886,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.643,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586ea8eee25c1",
+              "url": "https://prehraj.to/posledni-den-prazdnin-cz-cd1/586ea8eee25c1",
+              "title": "Posledni-den-prazdnin-CZ-cd1",
+              "year": null,
+              "duration_sec": 1887,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.643,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66d296dde15a3",
+              "url": "https://prehraj.to/posledni-den-prazdnin-rodinny-komedie-2007-cz-dab/66d296dde15a3",
+              "title": "Poslední den prázdnin - Rodinný Komedie 2007 Cz dab",
+              "year": null,
+              "duration_sec": 4961,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2007,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "80ef01e9f9aac125",
+              "url": "https://prehraj.to/konec-velkych-prazdnin-5-nadeje-umira-posledni/80ef01e9f9aac125",
+              "title": "Konec velkých prázdnin 5 - Naděje umírá poslední",
+              "year": null,
+              "duration_sec": 3588,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.344,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3588,
+                "runtime_delta": 0.32,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7203dcdc4731fceb",
+              "url": "https://prehraj.to/konec-velkych-prazdnin-5-nadeje-umira-posledni/7203dcdc4731fceb",
+              "title": "Konec velkých prázdnin 5-Naděje umírá poslední",
+              "year": null,
+              "duration_sec": 3585,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.344,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3585,
+                "runtime_delta": 0.321,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2de3042f71e8125f",
+              "url": "https://prehraj.to/konec-velkych-prazdnin-5-nadeje-umira-posledni-martin-dejdar-vilma-cibulkova-1996-cz/2de3042f71e8125f",
+              "title": "Konec velkých prázdnin 5 Naděje umírá poslední - Martin…",
+              "year": null,
+              "duration_sec": 3586,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.31,
+                "title_contains_alias": false,
+                "film_year": 1950,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3586,
+                "runtime_delta": 0.321,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Poslední prázdniny (1950)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d8368c9108609e75",
+              "url": "https://prehraj.to/posledne-vianoce-last-holiday-2006-czdab/d8368c9108609e75",
+              "title": "Posledné Vianoce (Last Holiday)-2006 CZdab",
+              "year": null,
+              "duration_sec": 6423,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1950,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Last Holiday (1950)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:40:12.999405+00:00"
         }
       ],
       "identity": {
@@ -9566,7 +10150,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:44:20.807558+00:00"
+        "at": "2026-08-29T18:40:10.166254+00:00"
       }
     },
     "21175": {
@@ -52352,5 +52936,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:40:08.581967+00:00"
+  "updated_at": "2026-08-29T18:40:12.999416+00:00"
 }
