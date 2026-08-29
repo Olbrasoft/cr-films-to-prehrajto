@@ -52340,6 +52340,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:07:00.911151+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-ee502c16b87c6be7",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "589551af00069",
+              "url": "https://prehraj.to/na-velikosti-zalezi-izr-fr-komedie-2009-cs-titulky-tvrip/589551af00069",
+              "title": "Na-velikosti-zalezi-Izr-Fr-komedie-2009-CS-titulky-TVrip",
+              "year": null,
+              "duration_sec": 5404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5404,
+                "runtime_delta": 0.052,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "558bd237b4dd0",
+              "url": "https://prehraj.to/na-brusel-vavro-na-brusel-2009-ceska-komedie-avi/558bd237b4dd0",
+              "title": "Na-Brusel,Vavro!-Na-Brusel!-2009-ceska-komedie-avi",
+              "year": null,
+              "duration_sec": 5995,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5995,
+                "runtime_delta": 0.052,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58e139c2a5215",
+              "url": "https://prehraj.to/na-velikosti-zalezi-izr-fr-komedie-2009-cs-titulky-tvrip/58e139c2a5215",
+              "title": "Na-velikosti-zalezi-Izr-Fr-komedie-2009-CS-titulky-TVrip",
+              "year": null,
+              "duration_sec": 5404,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 2009,
+                "candidate_year": 2009,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5404,
+                "runtime_delta": 0.052,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6010a088c7aaf",
+              "url": "https://prehraj.to/naruto-shippuden-the-movie-the-will-of-fire/6010a088c7aaf",
+              "title": "Naruto Shippuden the Movie The Will of Fire",
+              "year": null,
+              "duration_sec": 5741,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2009,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5741,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:37:20.651191+00:00"
         }
       ],
       "identity": {
@@ -52358,7 +52477,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:06:57.170414+00:00"
+        "at": "2026-08-29T18:37:17.579682+00:00"
       }
     },
     "27225": {
@@ -99610,5 +99729,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:37:15.858364+00:00"
+  "updated_at": "2026-08-29T18:37:20.651208+00:00"
 }
