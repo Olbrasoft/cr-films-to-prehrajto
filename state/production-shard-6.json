@@ -26921,7 +26921,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.168166+00:00"
+        "at": "2026-08-29T18:46:40.507024+00:00"
       }
     },
     "2078": {
@@ -27132,7 +27132,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.169847+00:00"
+        "at": "2026-08-29T18:46:40.508234+00:00"
       }
     },
     "646": {
@@ -27415,7 +27415,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.172196+00:00"
+        "at": "2026-08-29T18:46:40.509952+00:00"
       }
     },
     "14646": {
@@ -27493,6 +27493,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-28T04:01:30.306233+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-96284d346fe2ddc0",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "43278ca44b117761",
+              "url": "https://prehraj.to/sammyho-dobrodruzstvi-2-2012/43278ca44b117761",
+              "title": "Sammyho dobrodruzstvi 2 (2012)",
+              "year": null,
+              "duration_sec": 5320,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2012,
+                "candidate_year": 2012,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5320,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Sammyho dobrodružství 2 (2012)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:47:00.674977+00:00"
         }
       ],
       "identity": {
@@ -27511,7 +27549,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T04:01:23.513711+00:00"
+        "at": "2026-08-29T18:46:40.510137+00:00"
       }
     },
     "3102": {
@@ -54789,5 +54827,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:46:38.859061+00:00"
+  "updated_at": "2026-08-29T18:47:00.674994+00:00"
 }
