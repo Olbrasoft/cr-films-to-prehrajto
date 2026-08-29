@@ -72258,6 +72258,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:53:35.894165+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-7977b374618f53e6",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5869abb2785dd",
+              "url": "https://prehraj.to/modry-motyl-2004-drama-dobrodruzny/5869abb2785dd",
+              "title": "Modrý-motýl-(2004)-Drama.Dobrodružný-",
+              "year": null,
+              "duration_sec": 5587,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.208,
+                "title_contains_alias": false,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 119,
+                "candidate_runtime_sec": 5587,
+                "runtime_delta": 0.218,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "35a88bb4ef32fbc5",
+              "url": "https://prehraj.to/bibi-blocksberg-tajemstvi-modrych-sov-2004-cs/35a88bb4ef32fbc5",
+              "title": "Bibi Blocksberg: Tajemství modrých sov - 2004 CS",
+              "year": null,
+              "duration_sec": 6562,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2004,
+                "candidate_year": 2004,
+                "year_match": true,
+                "film_runtime_min": 119,
+                "candidate_runtime_sec": 6562,
+                "runtime_delta": 0.081,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:37:55.810214+00:00"
         }
       ],
       "identity": {
@@ -72276,7 +72341,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:53:33.094700+00:00"
+        "at": "2026-08-29T18:37:52.595734+00:00"
       }
     },
     "25221": {
@@ -100135,5 +100200,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:37:50.776968+00:00"
+  "updated_at": "2026-08-29T18:37:55.810231+00:00"
 }
