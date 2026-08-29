@@ -6304,6 +6304,165 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:15:01.343888+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-2b39860a02c41eba",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5877e91390723",
+              "url": "https://prehraj.to/nekde-je-mozna-hezky-cesky-film-1991/5877e91390723",
+              "title": "Někde-je-možná-hezky---český-film-(1991)",
+              "year": null,
+              "duration_sec": 5256,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.385,
+                "title_contains_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5256,
+                "runtime_delta": 0.106,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c4ef70df528806d0",
+              "url": "https://prehraj.to/nekdy-se-vraceji-1991-cs/c4ef70df528806d0",
+              "title": "Někdy se vracejí - 1991 CS",
+              "year": null,
+              "duration_sec": 5396,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5396,
+                "runtime_delta": 0.082,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5839c20568784",
+              "url": "https://prehraj.to/jednou-se-vrati-nekdy-se-vraceji-cz-dabing-horor-drama-usa-1991-nejlepsi-filmy-mypage-cz/5839c20568784",
+              "title": "Jednou_se_vrátí_(Někdy_se_vracejí)_CZ_dabing_-_Horor__Drama…",
+              "year": null,
+              "duration_sec": 5884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5884,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Někdy se vracejí (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "580380954323b",
+              "url": "https://prehraj.to/jednou-se-vrati-nekdy-se-vraceji-cz-dabing-horor-drama-usa-1991/580380954323b",
+              "title": "Jednou_se_vrátí_(Někdy_se_vracejí)_CZ_dabing_-_Horor__Drama…",
+              "year": null,
+              "duration_sec": 5884,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1991,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5884,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Někdy se vracejí (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b132866bd811a62d",
+              "url": "https://prehraj.to/sometimes-they-come-back-again-1996-720p-webrip-x264-yts-am-cz-tit/b132866bd811a62d",
+              "title": "Sometimes.They.Come.Back....Again.1996.720p.WEBRip.x264-…",
+              "year": null,
+              "duration_sec": 5907,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1996,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sometimes They Come Back (1991)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "813b31e9e445d3a8",
+              "url": "https://prehraj.to/sometimes-they-come-back-for-more-1998-720p-bluray-x264-aac-yts-mx-cz-tit/813b31e9e445d3a8",
+              "title": "Sometimes.They.Come.Back....For.More.1998.720p.BluRay.x264…",
+              "year": null,
+              "duration_sec": 5405,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1991,
+                "candidate_year": 1998,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Sometimes They Come Back (1991)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:22.543819+00:00"
         }
       ],
       "identity": {
@@ -6322,7 +6481,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:14:57.789745+00:00"
+        "at": "2026-08-29T18:35:19.622028+00:00"
       }
     },
     "22931": {
@@ -40976,5 +41135,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:18.162727+00:00"
+  "updated_at": "2026-08-29T18:35:22.543841+00:00"
 }
