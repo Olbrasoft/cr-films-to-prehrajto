@@ -2143,6 +2143,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:30:06.950164+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-3096c6fad841e427",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "644cda9e55ff0",
+              "url": "https://prehraj.to/o-vanocni-hvezde-2020-pohadka-cz-dabing-1080p/644cda9e55ff0",
+              "title": "O vánoční hvězdě (2020) Pohádka, CZ-AAC-2.0, 1080p",
+              "year": null,
+              "duration_sec": 5487,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.28,
+                "title_contains_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5487,
+                "runtime_delta": 0.028,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "609292a7bc0b5",
+              "url": "https://prehraj.to/childhood-2-0-2020-1080p-webrip-x264-aac-yts-mx/609292a7bc0b5",
+              "title": "Childhood.2.0.2020.1080p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 5304,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5304,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "609292e211264",
+              "url": "https://prehraj.to/childhood-2-0-2020-720p-webrip-x264-aac-yts-mx/609292e211264",
+              "title": "Childhood.2.0.2020.720p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 5304,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5304,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:42:48.792336+00:00"
         }
       ],
       "identity": {
@@ -2161,7 +2253,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:30:01.121623+00:00"
+        "at": "2026-08-29T18:42:41.612649+00:00"
       }
     },
     "26622": {
@@ -51514,5 +51606,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:42:40.194911+00:00"
+  "updated_at": "2026-08-29T18:42:48.792356+00:00"
 }
