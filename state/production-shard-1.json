@@ -8242,7 +8242,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-25T17:29:40.739413+00:00",
-        "verified_at": "2026-08-29T03:46:47.516644+00:00",
+        "verified_at": "2026-08-29T04:00:49.210205+00:00",
         "live_display_name": "Až umřu, budou mě milovat (2018) CZ titulky"
       }
     },
@@ -78748,7 +78748,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T11:07:16.992458+00:00",
-        "verified_at": "2026-08-29T03:46:57.186190+00:00",
+        "verified_at": "2026-08-29T04:00:59.578871+00:00",
         "live_display_name": "Pozdě, ale přece (2024) CZ titulky"
       }
     },
@@ -90381,7 +90381,19 @@
       }
     },
     "1713": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "6137",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917834",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T04:01:09.828700+00:00"
+        }
+      ],
       "identity": {
         "slug": "vratne-lahve",
         "title": "Vratné lahve",
@@ -90399,23 +90411,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T23:24:36.029710+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917834",
-        "display_name": "Vratné lahve (2007) CZ Dabing",
-        "size_bytes": 3089675060,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "6137",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T23:39:54.669384+00:00"
       }
     },
     "10785": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "4166",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28918009",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T04:01:09.931034+00:00"
+        }
+      ],
       "identity": {
         "slug": "kral-sumavy-1959",
         "title": "Král Šumavy",
@@ -90433,19 +90444,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T23:39:59.258166+00:00"
-      },
-      "upload": {
-        "target_video_id": "28918009",
-        "display_name": "Král Šumavy (1959) CZ Dabing",
-        "size_bytes": 958154533,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "4166",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T23:44:35.781457+00:00"
       }
     },
     "4313": {
@@ -90656,5 +90654,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T03:49:03.888724+00:00"
+  "updated_at": "2026-08-29T04:02:11.272131+00:00"
 }
