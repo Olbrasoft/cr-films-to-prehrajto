@@ -9952,7 +9952,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:27.699081+00:00"
+        "at": "2026-08-29T18:58:12.579184+00:00"
       }
     },
     "15619": {
@@ -10104,7 +10104,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:27.699196+00:00"
+        "at": "2026-08-29T18:58:12.579368+00:00"
       }
     },
     "16027": {
@@ -11033,6 +11033,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T03:17:49.867425+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-b373a72f0e9c4256",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6902e78b1b5b6",
+              "url": "https://prehraj.to/follow-me-2020-cz-sktonline/6902e78b1b5b6",
+              "title": "Follow Me (2020)(CZ) - SkTonline",
+              "year": null,
+              "duration_sec": 5274,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5274,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:58:13.122701+00:00"
         }
       ],
       "identity": {
@@ -11051,7 +11089,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T03:17:49.117897+00:00"
+        "at": "2026-08-29T18:58:12.579524+00:00"
       }
     },
     "7731": {
@@ -41489,5 +41527,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:58:11.094991+00:00"
+  "updated_at": "2026-08-29T18:58:13.122715+00:00"
 }
