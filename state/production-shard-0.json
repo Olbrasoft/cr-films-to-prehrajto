@@ -41416,7 +41416,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.445216+00:00"
+        "at": "2026-08-29T18:33:16.042268+00:00"
       }
     },
     "27116": {
@@ -42072,7 +42072,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:19.446784+00:00"
+        "at": "2026-08-29T18:33:16.043723+00:00"
       }
     },
     "26538": {
@@ -46588,6 +46588,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:07:01.146912+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-71338d3f73fa2353",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67fcbfda35ae7",
+              "url": "https://prehraj.to/la-dolce-vita-1960-720p-bluray-x264-yts-am/67fcbfda35ae7",
+              "title": "La.Dolce.Vita.1960.720p.BluRay.x264-[YTS.AM]",
+              "year": null,
+              "duration_sec": 10546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1960,
+                "candidate_year": 1960,
+                "year_match": true,
+                "film_runtime_min": 176,
+                "candidate_runtime_sec": 10546,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bce06bdfcc586bb7",
+              "url": "https://prehraj.to/sladky-zivot-la-dolce-vita-the-sweet-life-1960-ita-cz-tit-mkv/bce06bdfcc586bb7",
+              "title": "Sladký život / La Dolce Vita / The Sweet Life 1960, ITA -…",
+              "year": null,
+              "duration_sec": 10546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1960,
+                "candidate_year": 1960,
+                "year_match": true,
+                "film_runtime_min": 176,
+                "candidate_runtime_sec": 10546,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "33d8cf9c32d5f5d0",
+              "url": "https://prehraj.to/sladky-zivot-la-dolce-vita-1960-ita-cz-titulky-720p-mkv/33d8cf9c32d5f5d0",
+              "title": "Sladký život - La Dolce Vita (1960) ITA - CZ TITULKY 720p…",
+              "year": null,
+              "duration_sec": 10546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1960,
+                "candidate_year": 1960,
+                "year_match": true,
+                "film_runtime_min": 176,
+                "candidate_runtime_sec": 10546,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "La Dolce Vita (1960)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:33:19.544980+00:00"
         }
       ],
       "identity": {
@@ -46606,7 +46698,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:06:57.310547+00:00"
+        "at": "2026-08-29T18:33:16.044568+00:00"
       }
     },
     "21312": {
@@ -89614,5 +89706,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:32:40.830879+00:00"
+  "updated_at": "2026-08-29T18:33:19.545001+00:00"
 }
