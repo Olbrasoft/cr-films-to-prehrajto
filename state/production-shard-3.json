@@ -2644,6 +2644,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:36:14.256244+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-363a8625f36ed980",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5eb78fa797852",
+              "url": "https://prehraj.to/the-lodge-chata-2019-cz-titulky-v-obraze/5eb78fa797852",
+              "title": "The Lodge - Chata (2019) CZ titulky v obraze",
+              "year": null,
+              "duration_sec": 6499,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.367,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 6499,
+                "runtime_delta": 0.165,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ebacba0cdeb1",
+              "url": "https://prehraj.to/the-lodge-chata-2019-cz-titulky-v-obraze/5ebacba0cdeb1",
+              "title": "The Lodge - Chata (2019) CZ titulky v obraze",
+              "year": null,
+              "duration_sec": 6499,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.367,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 6499,
+                "runtime_delta": 0.165,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ebbb86e31710",
+              "url": "https://prehraj.to/the-lodge-chata-2019-cz-titulky-v-obraze/5ebbb86e31710",
+              "title": "The Lodge - Chata (2019) CZ titulky v obraze",
+              "year": null,
+              "duration_sec": 6499,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.367,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 6499,
+                "runtime_delta": 0.165,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "677cbf662886a",
+              "url": "https://prehraj.to/tales-from-the-lodge-2019-720p-webrip-x264-yts-lt/677cbf662886a",
+              "title": "Tales.From.The.Lodge.2019.720p.WEBRip.x264-[YTS.LT]",
+              "year": null,
+              "duration_sec": 5590,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5590,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:34:43.395789+00:00"
         }
       ],
       "identity": {
@@ -2662,7 +2781,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:36:10.729663+00:00"
+        "at": "2026-08-29T18:34:41.677150+00:00"
       }
     },
     "28947": {
@@ -39471,5 +39590,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:34:40.079968+00:00"
+  "updated_at": "2026-08-29T18:34:43.395810+00:00"
 }
