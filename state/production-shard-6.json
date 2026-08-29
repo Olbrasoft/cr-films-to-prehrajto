@@ -22607,7 +22607,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:07.152009+00:00"
+        "at": "2026-08-29T18:45:28.115212+00:00"
       }
     },
     "1910": {
@@ -22746,7 +22746,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.157472+00:00"
+        "at": "2026-08-29T18:45:28.119210+00:00"
       }
     },
     "1438": {
@@ -22826,7 +22826,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.157993+00:00"
+        "at": "2026-08-29T18:45:28.119616+00:00"
       }
     },
     "14390": {
@@ -22868,6 +22868,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T03:33:18.077925+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-8630e2ce47d492ba",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "71bf76e17e4c45b9",
+              "url": "https://prehraj.to/ztraceny-poklad-azteku-2008-cs/71bf76e17e4c45b9",
+              "title": "Ztracený poklad Aztéků - 2008 CS",
+              "year": null,
+              "duration_sec": 5195,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5195,
+                "runtime_delta": 0.016,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:45:41.236437+00:00"
         }
       ],
       "identity": {
@@ -22886,7 +22924,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T03:33:11.568061+00:00"
+        "at": "2026-08-29T18:45:28.120146+00:00"
       }
     },
     "10486": {
@@ -53845,5 +53883,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:44:48.327023+00:00"
+  "updated_at": "2026-08-29T18:45:41.236455+00:00"
 }
