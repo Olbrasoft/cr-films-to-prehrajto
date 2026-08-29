@@ -37912,6 +37912,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T11:05:46.987437+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "481a8ea9cd8014fc",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28930216",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T11:11:00.381658+00:00"
         }
       ],
       "identity": {
@@ -37931,19 +37942,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-29T10:56:30.407908+00:00"
-      },
-      "upload": {
-        "target_video_id": "28930216",
-        "display_name": "John Wick 2 (2017) CZ titulky",
-        "size_bytes": 1693554526,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "481a8ea9cd8014fc",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 720,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-29T11:06:16.832648+00:00"
       }
     },
     "5290": {
@@ -82129,5 +82127,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T11:06:33.657280+00:00"
+  "updated_at": "2026-08-29T11:11:00.381678+00:00"
 }
