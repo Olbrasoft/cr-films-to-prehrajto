@@ -19520,6 +19520,51 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T23:14:36.685124+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-44151f8cd04429c1",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58fa146c23f9d41c",
+              "url": "https://prehraj.to/indian-grey-owl-1999-1080p-webrip-x264-aac-mkv/58fa146c23f9d41c",
+              "title": "Indián - Grey.Owl.1999.1080p.WEBRip.x264.AAC.mkv",
+              "year": null,
+              "duration_sec": 6771,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cze",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1999,
+                "candidate_year": 1999,
+                "year_match": true,
+                "film_runtime_min": 114,
+                "candidate_runtime_sec": 6771,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T23:26:41.716832+00:00"
         }
       ],
       "identity": {
@@ -19539,7 +19584,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28845730"
         },
-        "at": "2026-08-29T23:14:36.123475+00:00"
+        "at": "2026-08-29T23:26:41.205895+00:00"
       }
     },
     "11279": {
@@ -56244,5 +56289,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T23:26:39.889286+00:00"
+  "updated_at": "2026-08-29T23:26:41.716846+00:00"
 }
