@@ -8195,7 +8195,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.387993+00:00"
+        "at": "2026-08-29T18:36:02.824095+00:00"
       }
     },
     "4877": {
@@ -8298,7 +8298,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.390054+00:00"
+        "at": "2026-08-29T18:36:02.825948+00:00"
       }
     },
     "13525": {
@@ -8401,7 +8401,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.390833+00:00"
+        "at": "2026-08-29T18:36:02.826639+00:00"
       }
     },
     "15333": {
@@ -8468,7 +8468,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.391647+00:00"
+        "at": "2026-08-29T18:36:02.827359+00:00"
       }
     },
     "14493": {
@@ -8571,7 +8571,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.391974+00:00"
+        "at": "2026-08-29T18:36:02.827641+00:00"
       }
     },
     "10133": {
@@ -9047,7 +9047,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.395837+00:00"
+        "at": "2026-08-29T18:36:02.831052+00:00"
       }
     },
     "2501": {
@@ -9306,7 +9306,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.396635+00:00"
+        "at": "2026-08-29T18:36:02.831708+00:00"
       }
     },
     "16077": {
@@ -10058,7 +10058,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.397689+00:00"
+        "at": "2026-08-29T18:36:02.832672+00:00"
       }
     },
     "2117": {
@@ -10116,7 +10116,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:54.400225+00:00"
+        "at": "2026-08-29T18:36:02.834850+00:00"
       }
     },
     "12925": {
@@ -10471,7 +10471,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.400397+00:00"
+        "at": "2026-08-29T18:36:02.834987+00:00"
       }
     },
     "7517": {
@@ -10517,7 +10517,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:54.403244+00:00"
+        "at": "2026-08-29T18:36:02.837383+00:00"
       }
     },
     "4957": {
@@ -10631,6 +10631,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T06:16:10.926520+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-c759a97fe2fe676d",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "534b9b604cb17952",
+              "url": "https://prehraj.to/monster-trucks-2016-usa-akcny-komedie-rodinny-scifi/534b9b604cb17952",
+              "title": "Monster trucks-2016,USA-akcny,komedie,rodinny,scifi",
+              "year": null,
+              "duration_sec": 6254,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6254,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:36:07.911958+00:00"
         }
       ],
       "identity": {
@@ -10649,7 +10687,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T06:16:04.589436+00:00"
+        "at": "2026-08-29T18:36:02.837425+00:00"
       }
     },
     "341": {
@@ -41303,5 +41341,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:36:01.441374+00:00"
+  "updated_at": "2026-08-29T18:36:07.911976+00:00"
 }
