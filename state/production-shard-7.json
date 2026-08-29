@@ -323,7 +323,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:58.318626+00:00"
+        "at": "2026-08-29T18:30:19.876692+00:00"
       }
     },
     "28071": {
@@ -419,6 +419,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:10:16.915719+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-05e73b5e83b77324",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5650892378de3",
+              "url": "https://prehraj.to/wildlike-2015-eng-dobrodr-drama-thrill/5650892378de3",
+              "title": "Wildlike - 2015 eng.dobrodr.drama thrill",
+              "year": null,
+              "duration_sec": 6244,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 6244,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "560e653250da3",
+              "url": "https://prehraj.to/wildlike-2015-eng-dobrodr-drama-thrill/560e653250da3",
+              "title": "Wildlike - 2015 eng.dobrodr.drama thrill",
+              "year": null,
+              "duration_sec": 6243,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 6243,
+                "runtime_delta": 0.0,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "44076f4335173d57",
+              "url": "https://prehraj.to/wildlike-2015-eng-dobrodr-drama-thrill/44076f4335173d57",
+              "title": "Wildlike - 2015 eng.dobrodr.drama thrill",
+              "year": null,
+              "duration_sec": 6243,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 104,
+                "candidate_runtime_sec": 6243,
+                "runtime_delta": 0.0,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:30:21.855866+00:00"
         }
       ],
       "identity": {
@@ -437,7 +529,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:10:13.752941+00:00"
+        "at": "2026-08-29T18:30:19.876747+00:00"
       }
     },
     "27775": {
@@ -50705,5 +50797,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:30:18.470477+00:00"
+  "updated_at": "2026-08-29T18:30:21.855885+00:00"
 }
