@@ -4860,7 +4860,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.321330+00:00"
+        "at": "2026-08-29T18:39:32.066020+00:00"
       }
     },
     "28863": {
@@ -4891,7 +4891,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.321827+00:00"
+        "at": "2026-08-29T18:39:32.066526+00:00"
       }
     },
     "28823": {
@@ -4960,6 +4960,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T23:02:10.686700+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-7f1cd3704bfd2e3d",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55e1a878d80fc",
+              "url": "https://prehraj.to/the-prince-elitni-zabijak-2014-sk-dabing-b-willis/55e1a878d80fc",
+              "title": "The Prince-Elitní zabiják-2014-Sk.dabing-B.Willis",
+              "year": null,
+              "duration_sec": 5440,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.344,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 5440,
+                "runtime_delta": 0.242,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "79314452511bda13",
+              "url": "https://prehraj.to/barbie-perlova-princezna-2014-cs/79314452511bda13",
+              "title": "Barbie Perlová princezna - 2014 CS",
+              "year": null,
+              "duration_sec": 4415,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 73,
+                "candidate_runtime_sec": 4415,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:35.507460+00:00"
         }
       ],
       "identity": {
@@ -4978,7 +5043,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T23:02:07.635989+00:00"
+        "at": "2026-08-29T18:39:32.067133+00:00"
       }
     },
     "28767": {
@@ -50860,5 +50925,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:17.444870+00:00"
+  "updated_at": "2026-08-29T18:39:35.507471+00:00"
 }
