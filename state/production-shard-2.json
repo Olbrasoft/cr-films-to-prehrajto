@@ -5411,6 +5411,90 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:25:14.005828+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-2c0b6d36d9895787",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5837fb6b85cf9",
+              "url": "https://prehraj.to/utek-do-mexika-the-getaway-1993-picaso11/5837fb6b85cf9",
+              "title": "Utek-do-Mexika-The-Getaway---1993.Picaso11",
+              "year": null,
+              "duration_sec": 6949,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.295,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 6949,
+                "runtime_delta": 0.287,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "860fd494e3ba221a",
+              "url": "https://prehraj.to/na-uteku-za-prusvihem-1993-cs/860fd494e3ba221a",
+              "title": "Na útěku za průšvihem - 1993 CS",
+              "year": null,
+              "duration_sec": 5387,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5387,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5907870b05865",
+              "url": "https://prehraj.to/the-garfield-show-106-not-so-sweet-sound-turkey-trouble-sw220/5907870b05865",
+              "title": "The Garfield Show 106 Not So Sweet Sound; Turkey Trouble …",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.755,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Trouble Bound (1993)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:14:30.016643+00:00"
         }
       ],
       "identity": {
@@ -5429,7 +5513,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:25:09.773019+00:00"
+        "at": "2026-08-29T19:14:27.990237+00:00"
       }
     },
     "23218": {
@@ -141347,5 +141431,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:14:25.774863+00:00"
+  "updated_at": "2026-08-29T19:14:30.016665+00:00"
 }
