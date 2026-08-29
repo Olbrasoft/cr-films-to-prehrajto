@@ -5923,6 +5923,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:23:43.509093+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-851e3f18e3767dc9",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55be9821dea94",
+              "url": "https://prehraj.to/bocianie-hniezdo-cast-4-sr-drama-1981-tvrip/55be9821dea94",
+              "title": "Bocianie-Hniezdo-cast-4-SR-drama-1981-TVrip",
+              "year": null,
+              "duration_sec": 4019,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.291,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 4019,
+                "runtime_delta": 0.239,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55be953a01962",
+              "url": "https://prehraj.to/bocianie-hniezdo-cast-3-sr-drama-1981-tvrip/55be953a01962",
+              "title": "Bocianie-hniezdo-cast-3-SR-drama-1981-TVrip",
+              "year": null,
+              "duration_sec": 3872,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.291,
+                "title_contains_alias": false,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 3872,
+                "runtime_delta": 0.267,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e2b75a34164252d5",
+              "url": "https://prehraj.to/casta-e-pura-1981-it-fr-esp-eroticky-komedie/e2b75a34164252d5",
+              "title": "Casta e pura-1981,IT,FR,ESP-eroticky,komedie",
+              "year": null,
+              "duration_sec": 5041,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1981,
+                "candidate_year": 1981,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5041,
+                "runtime_delta": 0.045,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:14:34.048058+00:00"
         }
       ],
       "identity": {
@@ -5941,7 +6033,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:23:40.229689+00:00"
+        "at": "2026-08-29T19:14:31.922188+00:00"
       }
     },
     "22034": {
@@ -141431,5 +141523,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:14:30.016665+00:00"
+  "updated_at": "2026-08-29T19:14:34.048077+00:00"
 }
