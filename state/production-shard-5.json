@@ -6017,7 +6017,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:54.383450+00:00"
+        "at": "2026-08-29T18:35:50.692709+00:00"
       }
     },
     "22845": {
@@ -6135,6 +6135,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:40:33.535117+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-1aa760469ce88360",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55b7eaa6a6bd3",
+              "url": "https://prehraj.to/pizza-connection-1985-by-biggles/55b7eaa6a6bd3",
+              "title": "Pizza-Connection-(1985)-by-Biggles",
+              "year": null,
+              "duration_sec": 6001,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6001,
+                "runtime_delta": 0.099,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6abbbf49aae6a84d",
+              "url": "https://prehraj.to/delivery-boys-1985-mario-van-peebles/6abbbf49aae6a84d",
+              "title": "DELIVERY BOYS 1985 MARIO VAN PEEBLES",
+              "year": null,
+              "duration_sec": 5508,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5508,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:52.181247+00:00"
         }
       ],
       "identity": {
@@ -6153,7 +6218,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:40:31.357887+00:00"
+        "at": "2026-08-29T18:35:50.692858+00:00"
       }
     },
     "22709": {
@@ -40962,5 +41027,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:49.263385+00:00"
+  "updated_at": "2026-08-29T18:35:52.181266+00:00"
 }
