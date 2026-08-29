@@ -68513,7 +68513,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.467131+00:00"
+        "at": "2026-08-29T18:36:21.700405+00:00"
       }
     },
     "4480": {
@@ -68544,7 +68544,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.468073+00:00"
+        "at": "2026-08-29T18:36:21.701226+00:00"
       }
     },
     "8584": {
@@ -68662,7 +68662,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:19.470034+00:00"
+        "at": "2026-08-29T18:36:21.703131+00:00"
       }
     },
     "14008": {
@@ -68945,7 +68945,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.470881+00:00"
+        "at": "2026-08-29T18:36:21.703948+00:00"
       }
     },
     "17560": {
@@ -69010,7 +69010,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.471091+00:00"
+        "at": "2026-08-29T18:36:21.704160+00:00"
       }
     },
     "10304": {
@@ -69293,7 +69293,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.473220+00:00"
+        "at": "2026-08-29T18:36:21.706112+00:00"
       }
     },
     "15024": {
@@ -69553,7 +69553,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.473910+00:00"
+        "at": "2026-08-29T18:36:21.706830+00:00"
       }
     },
     "16720": {
@@ -69620,7 +69620,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.474097+00:00"
+        "at": "2026-08-29T18:36:21.707014+00:00"
       }
     },
     "2248": {
@@ -69918,7 +69918,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:19.474388+00:00"
+        "at": "2026-08-29T18:36:21.707315+00:00"
       }
     },
     "14096": {
@@ -70104,6 +70104,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T12:46:00.838271+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-9e423fb8a3bea622",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "c4c81c03af021703",
+              "url": "https://prehraj.to/futurama-benderova-hra-2008/c4c81c03af021703",
+              "title": "Futurama - Benderova hra (2008)",
+              "year": null,
+              "duration_sec": 4792,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": 2008,
+                "year_match": true,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 4792,
+                "runtime_delta": 0.092,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:36:26.784100+00:00"
         }
       ],
       "identity": {
@@ -70122,7 +70160,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T12:45:55.697997+00:00"
+        "at": "2026-08-29T18:36:21.707362+00:00"
       }
     },
     "7376": {
@@ -91379,5 +91417,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:34:38.562545+00:00"
+  "updated_at": "2026-08-29T18:36:26.784119+00:00"
 }
