@@ -64912,7 +64912,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.449692+00:00"
+        "at": "2026-08-29T18:34:02.336561+00:00"
       }
     },
     "14976": {
@@ -65042,7 +65042,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:19.458236+00:00"
+        "at": "2026-08-29T18:34:02.344192+00:00"
       }
     },
     "664": {
@@ -65302,7 +65302,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:19.459763+00:00"
+        "at": "2026-08-29T18:34:02.345625+00:00"
       }
     },
     "2160": {
@@ -66460,6 +66460,679 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T16:49:55.269196+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-6d42be5a586908f5",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "1870eb5c13efe0b6",
+              "url": "https://prehraj.to/malvina-avi/1870eb5c13efe0b6",
+              "title": "MALVÍNA.avi",
+              "year": null,
+              "duration_sec": 3497,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 3497,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "347dfddeaf6d1347",
+              "url": "https://prehraj.to/malvina-2003/347dfddeaf6d1347",
+              "title": "Malvína (2003)",
+              "year": null,
+              "duration_sec": 3497,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "655bdbac7a85c",
+              "url": "https://prehraj.to/malvina-z-bretonska/655bdbac7a85c",
+              "title": "Malvína z Bretonska",
+              "year": null,
+              "duration_sec": 2456,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 2456,
+                "runtime_delta": 0.294,
+                "rejection_reason": "title_only"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62339ed4d9ee1",
+              "url": "https://prehraj.to/malvina-z-bretonska-1983-skdab/62339ed4d9ee1",
+              "title": "Malvína z Bretónska (1983) SKdab",
+              "year": null,
+              "duration_sec": 2442,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1983,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583f48216e525",
+              "url": "https://prehraj.to/bozena-nemcova-malvina-2003-cz/583f48216e525",
+              "title": "Bozena-Nemcova---Malvina-2003-Cz",
+              "year": null,
+              "duration_sec": 3500,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e2a22fbdd0f2",
+              "url": "https://prehraj.to/malvina-z-bretonska-83-dvbt-sk-romin/5e2a22fbdd0f2",
+              "title": "malvina z bretonska -83' -DVBT_SK-(romin)",
+              "year": null,
+              "duration_sec": 2450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 2450,
+                "runtime_delta": 0.296,
+                "rejection_reason": "title_only"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "04b1e5c84cde370e",
+              "url": "https://prehraj.to/malina-brothers/04b1e5c84cde370e",
+              "title": "Malina Brothers",
+              "year": null,
+              "duration_sec": 4184,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.545,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 4184,
+                "runtime_delta": 0.202,
+                "rejection_reason": "title_only"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fda878dedda39c9d",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cz-avi/fda878dedda39c9d",
+              "title": "Příběh Alvina Straighta (1999) CZ.avi",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7465a85e3d57081c",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cz-dab-720p/7465a85e3d57081c",
+              "title": "Příběh Alvina Straighta 1999 CZ dab 720p",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fb81abcf352e98ce",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cs/fb81abcf352e98ce",
+              "title": "Příběh Alvina Straighta - 1999 CS",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a9f004d25a442d32",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cs/a9f004d25a442d32",
+              "title": "Příběh Alvina Straighta - 1999 CS",
+              "year": null,
+              "duration_sec": 6420,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0c9888b050e7bbff",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1080p-cz/0c9888b050e7bbff",
+              "title": "Příběh Alvina Straighta 1080p CZ",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.936,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b34716d810b704fe",
+              "url": "https://prehraj.to/malina-liska-nejtek/b34716d810b704fe",
+              "title": "Malina – Liška – Nejtek",
+              "year": null,
+              "duration_sec": 3643,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.462,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 3643,
+                "runtime_delta": 0.047,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67930473b5e62",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cz-en-fullhd-bydejv/67930473b5e62",
+              "title": "Příběh Alvina Straighta (1999) [CZ+EN][FullHD] byDejv",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b12a3893b2f",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cz-en-fullhd/68b12a3893b2f",
+              "title": "Příběh Alvina Straighta (1999) [CZ EN][FullHD]",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "928eacbf64cf408a",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cz-en-fullhd/928eacbf64cf408a",
+              "title": "Příběh Alvina Straighta (1999) [CZ+EN][FullHD]",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5dc4c36cb5f1eb8b",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cz-dabing/5dc4c36cb5f1eb8b",
+              "title": "Příběh Alvina Straighta (1999) CZ Dabing",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa9daf668f7f",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999/5aa9daf668f7f",
+              "title": "Příběh Alvina Straighta (1999)",
+              "year": null,
+              "duration_sec": 6738,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6736a3c7901aa",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-cz-dab/6736a3c7901aa",
+              "title": "Příběh Alvina Straighta 1999 CZ dab",
+              "year": null,
+              "duration_sec": 6738,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b2eefd06aca",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-1999-zivotopisny-road-movie-czdab/67b2eefd06aca",
+              "title": "Příběh Alvina Straighta (1999) životopisný Road movie czdab",
+              "year": null,
+              "duration_sec": 6738,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59ac1cdcf3583",
+              "url": "https://prehraj.to/na-plovarne-jaroslav-malina/59ac1cdcf3583",
+              "title": "Na plovárně_ Jaroslav Malina",
+              "year": null,
+              "duration_sec": 1314,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.622,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "687c12ae7158f",
+              "url": "https://prehraj.to/david-lynch-pribeh-alvina-straighta-1999/687c12ae7158f",
+              "title": "DAVID LYNCH  Príbeh Alvina Straighta  1999",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59ac1cbc1681b",
+              "url": "https://prehraj.to/na-plovarne-jaroslav-malina-2/59ac1cbc1681b",
+              "title": "Na plovárně_ Jaroslav Malina (2)",
+              "year": null,
+              "duration_sec": 1365,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.608,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60467e8e7bae7",
+              "url": "https://prehraj.to/the-straight-story-pribeh-alvina-straighta-cz-dab-1999/60467e8e7bae7",
+              "title": "The Straight Story  Příběh Alvina Straighta Cz dab 1999",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1999,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "27e47dc43c25166b",
+              "url": "https://prehraj.to/pribeh-alvina-straighta-the-straight-story-1080p-bluray-x264-ac3-cz-dab-1999-avi/27e47dc43c25166b",
+              "title": "Příběh Alvina Straighta The Straight Story 1080p Bluray…",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.936,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f3359f106d3486c",
+              "url": "https://prehraj.to/na-plovarne-433-dil-jaroslav-malina/5f3359f106d3486c",
+              "title": "Na plovárně - 433. díl - Jaroslav Malina",
+              "year": null,
+              "duration_sec": 1314,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.622,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55af46bf4ec85",
+              "url": "https://prehraj.to/the-straight-story-pribeh-alvina-straighta-eng/55af46bf4ec85",
+              "title": "The-Straight-Story_Příbeh-Alvina-Straighta_eng",
+              "year": null,
+              "duration_sec": 6723,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.932,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586d56860389d",
+              "url": "https://prehraj.to/usmevy-ceskeho-filmu-lilian-malkina-talkwhow-tvrip/586d56860389d",
+              "title": "Usmevy-ceskeho-filmu-Lilian-Malkina-talkwhow-TVrip",
+              "year": null,
+              "duration_sec": 2218,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.211,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 2218,
+                "runtime_delta": 0.363,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a51f9f237b30",
+              "url": "https://prehraj.to/bolo-raz-jedno-teliatko-05-malina-a-kozliatka-animovany-91-sk-romin/5a51f9f237b30",
+              "title": "(bolo raz jedno teliatko) 05 malina a kozliatka (animovany)…",
+              "year": null,
+              "duration_sec": 431,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.876,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "665450b8d34bc",
+              "url": "https://prehraj.to/bojovnici-ze-zapadni-a-vychodni-fronty-denicek-raf-rezieoliver-malina-morgenstern-dokument-hd/665450b8d34bc",
+              "title": "Bojovníci ze západní a východní fronty - Deníček RAF  …",
+              "year": null,
+              "duration_sec": 3605,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.105,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 3605,
+                "runtime_delta": 0.036,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Malvína (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "661866dc38881",
+              "url": "https://prehraj.to/bojovnici-ze-zapadni-a-vychodni-fronty-denicek-raf-rezie-oliver-malina-morgenstern-doku/661866dc38881",
+              "title": "Bojovníci ze západní a východní fronty - Deníček RAF ｜…",
+              "year": null,
+              "duration_sec": 3605,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.105,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 58,
+                "candidate_runtime_sec": 3605,
+                "runtime_delta": 0.036,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Malvína (2007)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:34:11.959967+00:00"
         }
       ],
       "identity": {
@@ -66478,7 +67151,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T16:49:50.244986+00:00"
+        "at": "2026-08-29T18:34:02.345665+00:00"
       }
     },
     "15048": {
@@ -90549,5 +91222,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:34:00.610105+00:00"
+  "updated_at": "2026-08-29T18:34:11.959986+00:00"
 }
