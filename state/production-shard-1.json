@@ -81869,6 +81869,167 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T01:07:54.676549+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-dd4f1f3614e7f1d4",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5857df9d4c02c",
+              "url": "https://prehraj.to/posledni-presun-1995-cz-film-mh/5857df9d4c02c",
+              "title": "Posledni-presun-1995-cz-film_MH_",
+              "year": null,
+              "duration_sec": 5401,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.489,
+                "title_contains_alias": false,
+                "film_year": 1995,
+                "candidate_year": 1995,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5401,
+                "runtime_delta": 0.047,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "406a0f2d97b5b6fc",
+              "url": "https://prehraj.to/v-posledni-chvili-1995-cs/406a0f2d97b5b6fc",
+              "title": "V poslední chvíli - 1995 CS",
+              "year": null,
+              "duration_sec": 5333,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1995,
+                "candidate_year": 1995,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5333,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6556071d2dc06",
+              "url": "https://prehraj.to/bonnie-raitt-nick-of-time-official-music-video/6556071d2dc06",
+              "title": "Bonnie Raitt - Nick Of Time (Official Music Video)",
+              "year": null,
+              "duration_sec": 228,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.956,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Nick of Time (1995)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6507219d14472",
+              "url": "https://prehraj.to/anime-time-one-piece-0130-scent-of-danger-the-seventh-member-is-nico-robin/6507219d14472",
+              "title": "[Anime Time] One Piece - 0130 - Scent of Danger! The…",
+              "year": null,
+              "duration_sec": 1456,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.718,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Nick of Time (1995)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "587cb3ff06243",
+              "url": "https://prehraj.to/nic-nez-lasku-2f-standard-time-muzikal-2002-cz/587cb3ff06243",
+              "title": "Nic-než-lásku-%2F-Standard-Time---muzikál-2002,-CZ",
+              "year": null,
+              "duration_sec": 5707,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1995,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Nick of Time (1995)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "650720339327e",
+              "url": "https://prehraj.to/anime-time-one-piece-0078-nami-s-sick-beyond-the-snow-falling-on-the-sea/650720339327e",
+              "title": "[Anime Time] One Piece - 0078 - Nami's Sick Beyond the Snow…",
+              "year": null,
+              "duration_sec": 1440,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.721,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Nick of Time (1995)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8878daa2bdd72de6",
+              "url": "https://prehraj.to/pavel-cyprich-podcast-02-dil-mikroplasty-jime-i-dychame-skoro-porad-nic-dobreho-pro-telo-to-neni/8878daa2bdd72de6",
+              "title": "Pavel cyprich podcast - 02. díl - Mikroplasty jíme i…",
+              "year": null,
+              "duration_sec": 1822,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.647,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Nick of Time (1995)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:38:48.653407+00:00"
         }
       ],
       "identity": {
@@ -81887,7 +82048,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T01:07:51.712563+00:00"
+        "at": "2026-08-29T18:38:46.353188+00:00"
       }
     },
     "23599": {
@@ -100265,5 +100426,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:38:41.986565+00:00"
+  "updated_at": "2026-08-29T18:38:48.653426+00:00"
 }
