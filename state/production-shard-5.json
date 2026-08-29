@@ -2260,7 +2260,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:54.375568+00:00"
+        "at": "2026-08-29T18:32:28.307932+00:00"
       }
     },
     "16845": {
@@ -2556,6 +2556,151 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T23:08:53.004524+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-af77c17f977492f8",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9ce9fde5187",
+              "url": "https://prehraj.to/teoneol-2016/5a9ce9fde5187",
+              "title": "Teoneol (2016)",
+              "year": null,
+              "duration_sec": 7588,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.444,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 126,
+                "candidate_runtime_sec": 7588,
+                "runtime_delta": 0.004,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5851961da21aa",
+              "url": "https://prehraj.to/tunnel-2016-cztit-v-obraze/5851961da21aa",
+              "title": "Tunnel (2016)CZtit  V OBRAZE",
+              "year": null,
+              "duration_sec": 7588,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 126,
+                "candidate_runtime_sec": 7588,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58aada0740c27",
+              "url": "https://prehraj.to/tunnel-2016-jazyk-korea-cz-titulky-v-obraze-thriller-akcni-webrip/58aada0740c27",
+              "title": "Tunnel (2016)Jazyk Korea CZ Titulky v obraze  Thriller …",
+              "year": null,
+              "duration_sec": 7588,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 126,
+                "candidate_runtime_sec": 7588,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583c7eaa24e6e",
+              "url": "https://prehraj.to/tunnel-2016-cz-tit-vloz/583c7eaa24e6e",
+              "title": "Tunnel-2016-cz.tit.vlož",
+              "year": null,
+              "duration_sec": 7588,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 126,
+                "candidate_runtime_sec": 7588,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b6d7e93f6835c709",
+              "url": "https://prehraj.to/na-konci-tunelu-al-final-del-tunel-at-the-end-of-the-tunnel-2016-esp-cz-tit-mkv/b6d7e93f6835c709",
+              "title": "Na konci tunelu / Al final del túnel / At the End of the…",
+              "year": null,
+              "duration_sec": 7223,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.207,
+                "title_contains_alias": false,
+                "film_year": 2016,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 126,
+                "candidate_runtime_sec": 7223,
+                "runtime_delta": 0.045,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Tunnel (2016)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:32:32.269285+00:00"
         }
       ],
       "identity": {
@@ -2574,7 +2719,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T23:08:48.820053+00:00"
+        "at": "2026-08-29T18:32:28.308214+00:00"
       }
     },
     "28413": {
@@ -39669,5 +39814,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:32:26.941237+00:00"
+  "updated_at": "2026-08-29T18:32:32.269306+00:00"
 }
