@@ -69987,6 +69987,112 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T03:08:01.810498+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64f1b21911bbd",
+              "url": "https://prehraj.to/perpetrator-2023-1080p-web-dl-ddp5-1-x264-aoc/64f1b21911bbd",
+              "title": "Perpetrator.2023.1080p.WEB-DL.DDP5.1.x264-AOC",
+              "year": null,
+              "duration_sec": 6045,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6045,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64f1b26c6995d",
+              "url": "https://prehraj.to/perpetrator-2023-1080p-webrip-1400mb-dd5-1-x264-galaxyrg/64f1b26c6995d",
+              "title": "Perpetrator.2023.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG",
+              "year": null,
+              "duration_sec": 6045,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6045,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64f1b283291a2",
+              "url": "https://prehraj.to/perpetrator-2023-720p-webrip-800mb-x264-galaxyrg/64f1b283291a2",
+              "title": "Perpetrator.2023.720p.WEBRip.800MB.x264-GalaxyRG",
+              "year": null,
+              "duration_sec": 6045,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6045,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T03:22:09.722871+00:00"
         }
       ],
       "identity": {
@@ -70006,7 +70112,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28889902"
         },
-        "at": "2026-08-29T03:08:00.638019+00:00"
+        "at": "2026-08-29T03:22:08.398878+00:00"
       }
     },
     "11288": {
@@ -82338,5 +82444,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T03:22:04.654006+00:00"
+  "updated_at": "2026-08-29T03:22:09.722888+00:00"
 }
