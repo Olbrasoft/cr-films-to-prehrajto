@@ -25485,7 +25485,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.165307+00:00"
+        "at": "2026-08-29T18:46:06.625250+00:00"
       }
     },
     "16502": {
@@ -25592,6 +25592,62 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T12:22:19.329818+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-537f9dce3e043b6d",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "e7508811afdd5d92",
+              "url": "https://prehraj.to/dvojnici-non-c-e-due-senza-quattro-mp4/e7508811afdd5d92",
+              "title": "Dvojníci  (Non c'è due senza quattro).mp4",
+              "year": null,
+              "duration_sec": 5982,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1984,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 99,
+                "candidate_runtime_sec": 5982,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "18373",
+              "url": "https://online.sktorrent.eu/video/18373/",
+              "title": "Dvojníci",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:46:20.031277+00:00"
         }
       ],
       "identity": {
@@ -25610,7 +25666,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T12:22:13.410694+00:00"
+        "at": "2026-08-29T18:46:06.625330+00:00"
       }
     },
     "3334": {
@@ -54695,5 +54751,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:45:59.415239+00:00"
+  "updated_at": "2026-08-29T18:46:20.031300+00:00"
 }
