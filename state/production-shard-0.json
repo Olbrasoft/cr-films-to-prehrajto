@@ -79363,6 +79363,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-29T00:23:43.013128+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "13831",
+              "url": "https://online.sktorrent.eu/video/13831/",
+              "title": "3Bobule",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:25:57.262002+00:00"
         }
       ],
       "identity": {
@@ -79381,7 +79410,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T22:39:21.324931+00:00"
+        "at": "2026-08-29T00:25:55.473816+00:00"
       }
     },
     "13312": {
@@ -80758,5 +80787,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T00:25:53.619405+00:00"
+  "updated_at": "2026-08-29T00:25:57.262022+00:00"
 }
