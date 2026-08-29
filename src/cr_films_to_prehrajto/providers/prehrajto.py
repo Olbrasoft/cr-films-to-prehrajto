@@ -587,6 +587,8 @@ class PrehrajtoProvider:
             catalog_candidates = resolved
 
         discovered: dict[str, Candidate] = {}
+        prefetched_resolved: list[Candidate] = []
+        prefetched_ids: set[str] = set()
         prefetched = self._prefetched_hits(film)
         if prefetched:
             for hit in prefetched:
@@ -603,9 +605,15 @@ class PrehrajtoProvider:
                     match_evidence=match.evidence,
                     query="local_prefetch",
                 )
-            resolved = self._resolve_candidates(film, list(discovered.values()))
-            if rank_candidates(resolved):
-                return resolved
+            # Search order already expresses relevance. Resolve one hit at a
+            # time and stop as soon as it proves acceptable; resolving dozens
+            # of lower-ranked variants first can stall every upload shard.
+            for candidate in discovered.values():
+                prefetched_ids.add(candidate.source_id)
+                resolved = self._resolve_candidates(film, [candidate])
+                prefetched_resolved.extend(resolved)
+                if rank_candidates(resolved):
+                    return resolved
         for alias in dict.fromkeys(a for a in (film.title, film.original_title) if a):
             query = f"{alias} ({film.year})" if film.year else alias
             hits = []
@@ -657,10 +665,21 @@ class PrehrajtoProvider:
                         query=query,
                     ),
                 )
-        live_candidates = self._resolve_candidates(film, list(discovered.values()))
+        live_candidates = self._resolve_candidates(
+            film,
+            [
+                candidate
+                for candidate in discovered.values()
+                if candidate.source_id not in prefetched_ids
+            ],
+        )
         combined = {
             candidate.source_id: candidate
-            for candidate in [*catalog_candidates, *live_candidates]
+            for candidate in [
+                *catalog_candidates,
+                *prefetched_resolved,
+                *live_candidates,
+            ]
         }
         return list(combined.values())
 

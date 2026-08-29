@@ -149,6 +149,52 @@ def test_exported_prehrajto_source_is_resolved_before_live_search(
     assert candidates[0].audio_language == "cs"
 
 
+def test_prefetched_discovery_stops_after_first_acceptable_source(film):
+    provider = PrehrajtoProvider("proxy", "key", requests.Session())
+    provider._prefetch_data = {
+        str(film.cr_film_id): [
+            {
+                "source_id": "foreign",
+                "url": "https://prehraj.to/foreign/foreign",
+                "title": "Pelíšky (1999)",
+                "duration_sec": 6900,
+            },
+            {
+                "source_id": "czech",
+                "url": "https://prehraj.to/czech/czech",
+                "title": "Pelíšky (1999) CZ",
+                "duration_sec": 6900,
+            },
+            {
+                "source_id": "unused",
+                "url": "https://prehraj.to/unused/unused",
+                "title": "Pelíšky (1999) CZ",
+                "duration_sec": 6900,
+            },
+        ]
+    }
+    resolved_ids = []
+
+    def resolve(_film, candidates):
+        candidate = candidates[0]
+        resolved_ids.append(candidate.source_id)
+        candidate.resolution = 720
+        candidate.stream_url = "https://cdn.example/movie.mp4"
+        candidate.language_tier = (
+            LanguageTier.CZECH_AUDIO
+            if candidate.source_id == "czech"
+            else LanguageTier.UNACCEPTABLE
+        )
+        return candidates
+
+    provider._resolve_candidates = resolve
+
+    candidates = provider.discover(film)
+
+    assert resolved_ids == ["foreign", "czech"]
+    assert [candidate.source_id for candidate in candidates] == ["czech"]
+
+
 def test_catalog_source_rejects_wrong_title_even_with_stable_film_link(film):
     film = replace(
         film,
