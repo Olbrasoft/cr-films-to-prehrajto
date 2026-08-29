@@ -4661,7 +4661,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:27.691740+00:00"
+        "at": "2026-08-29T18:35:15.226873+00:00"
       }
     },
     "23395": {
@@ -5394,6 +5394,735 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:14:56.640279+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-548789eee7b06d61",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5881d1df99153",
+              "url": "https://prehraj.to/mezi-kladivem-a-kovadlinou-hammers-over-the-anvil-1993-srt-cz/5881d1df99153",
+              "title": "Mezi-kladivem-a-kovadlinou--Hammers-Over-The-Anvil.1993-srt.cz",
+              "year": null,
+              "duration_sec": 5843,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.065,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 131,
+                "candidate_runtime_sec": 5843,
+                "runtime_delta": 0.257,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b36908e80cc5a1a1",
+              "url": "https://prehraj.to/nahy-1993-gb-drama-komedie/b36908e80cc5a1a1",
+              "title": "Nahy-1993,GB-drama,komedie",
+              "year": null,
+              "duration_sec": 7905,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 131,
+                "candidate_runtime_sec": 7905,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4e4aaf043f1499e3",
+              "url": "https://prehraj.to/nahy-1993-en/4e4aaf043f1499e3",
+              "title": "Nahý - 1993 EN",
+              "year": null,
+              "duration_sec": 7907,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 131,
+                "candidate_runtime_sec": 7907,
+                "runtime_delta": 0.006,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59b5246e34c87",
+              "url": "https://prehraj.to/naked-2017-webrip-cz-titulky-v-obraze/59b5246e34c87",
+              "title": "Naked (2017) WEBRip. CZ Titulky v Obraze",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a01af2e58d0",
+              "url": "https://prehraj.to/naked-2017-webrip-cz-titulky-vlozene/67a01af2e58d0",
+              "title": "Naked+(2017)+WEBRip.+CZ+Titulky+Vložené",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "990a585f87b3daec",
+              "url": "https://prehraj.to/naked-2017-cztit-v-obraze/990a585f87b3daec",
+              "title": "Naked (2017)CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59b03f3bd02ad",
+              "url": "https://prehraj.to/naked-2017-cztit-v-obraze/59b03f3bd02ad",
+              "title": "Naked (2017)CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "de2f14baaad63415",
+              "url": "https://prehraj.to/naked-2017-en/de2f14baaad63415",
+              "title": "Naked - 2017 EN",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b004294028a1",
+              "url": "https://prehraj.to/naked-2017-webrip/5b004294028a1",
+              "title": "Naked (2017) WEBRip",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59b2bd1474379",
+              "url": "https://prehraj.to/naked-2017-webrip-cz-titulky-v-obraze/59b2bd1474379",
+              "title": "Naked (2017) WEBRip. CZ Titulky v Obraze",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f1034c81297e6c4e",
+              "url": "https://prehraj.to/naked-2017-cz/f1034c81297e6c4e",
+              "title": "Naked (2017) CZ",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad253887bbde",
+              "url": "https://prehraj.to/naked-2017/5ad253887bbde",
+              "title": "Naked (2017)",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "20cacf9e3d8391dc",
+              "url": "https://prehraj.to/naked-2017-en/20cacf9e3d8391dc",
+              "title": "Naked - 2017 EN",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59eba018b3c01",
+              "url": "https://prehraj.to/naked-2017-webrip-cz-titulky-vlozene/59eba018b3c01",
+              "title": "Naked (2017) WEBRip. CZ Titulky Vložené",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6d571850ca4",
+              "url": "https://prehraj.to/naked-2017-cztit-v-obraze/5a6d571850ca4",
+              "title": "Naked (2017)CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "612a2bf0df523",
+              "url": "https://prehraj.to/naked-singularity-2021-1080p-web-h264-rumour/612a2bf0df523",
+              "title": "Naked.Singularity.2021.1080p.WEB.h264-RUMOUR",
+              "year": null,
+              "duration_sec": 5605,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6116e35a42c68",
+              "url": "https://prehraj.to/naked-singularity-2021-1080p-webrip-dd5-1-x264-cm/6116e35a42c68",
+              "title": "Naked.Singularity.2021.1080p.WEBRip.DD5.1.x264-CM",
+              "year": null,
+              "duration_sec": 5605,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61621807384a9",
+              "url": "https://prehraj.to/naked-singularity-2021-1080p-bluray-x264-dts-hd-ma-5-1-mt/61621807384a9",
+              "title": "Naked.Singularity.2021.1080p.BluRay.x264.DTS-HD.MA.5.1-MT",
+              "year": null,
+              "duration_sec": 5608,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61621997e1562",
+              "url": "https://prehraj.to/naked-singularity-2021-1080p-bluray-x264-dts-mt/61621997e1562",
+              "title": "Naked.Singularity.2021.1080p.BluRay.x264.DTS-MT",
+              "year": null,
+              "duration_sec": 5608,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5eeda2fe96302",
+              "url": "https://prehraj.to/naked-komedie-2017-1080p-5-1-s-cz-titulky-sten-ok/5eeda2fe96302",
+              "title": "Naked.komedie.2017.1080p.5.1.s.CZ.titulky.STEN.ok",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65de27150f66e",
+              "url": "https://prehraj.to/naked-soldier-tit/65de27150f66e",
+              "title": "Naked soldier TIT°",
+              "year": null,
+              "duration_sec": 5600,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1993,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 131,
+                "candidate_runtime_sec": 5600,
+                "runtime_delta": 0.288,
+                "rejection_reason": "title_only"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67cbc632516f4",
+              "url": "https://prehraj.to/naked-lunch-1991-remastered-1080p/67cbc632516f4",
+              "title": "Naked.Lunch.1991.REMASTERED.1080p",
+              "year": null,
+              "duration_sec": 6913,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68a191fc9ad59",
+              "url": "https://prehraj.to/naked-alarm/68a191fc9ad59",
+              "title": "Naked alarm",
+              "year": null,
+              "duration_sec": 23,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.997,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6116e41da7ed7",
+              "url": "https://prehraj.to/naked-singularity-2021-1080p-webrip-x264-rarbg/6116e41da7ed7",
+              "title": "Naked.Singularity.2021.1080p.WEBRip.x264-RARBG",
+              "year": null,
+              "duration_sec": 5605,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "88f5bb34d877db25",
+              "url": "https://prehraj.to/naked-soldier-2012-1080p-bluray-x264-aac5-1-yts-bz/88f5bb34d877db25",
+              "title": "Naked.Soldier.2012.1080p.BluRay.x264.AAC5.1-[YTS.BZ]",
+              "year": null,
+              "duration_sec": 5597,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61184b15ebf33",
+              "url": "https://prehraj.to/naked-singularity-2021-1080p-webrip-x264-aac5-1-yts-mx/61184b15ebf33",
+              "title": "Naked.Singularity.2021.1080p.WEBRip.x264.AAC5.1-[YTS.MX]",
+              "year": null,
+              "duration_sec": 5606,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d2b9efa78de46c5c",
+              "url": "https://prehraj.to/naked-gun-1956/d2b9efa78de46c5c",
+              "title": "Naked Gun (1956)",
+              "year": null,
+              "duration_sec": 4164,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 1956,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62e0528f0e8f1",
+              "url": "https://prehraj.to/naked-singularity-2021-czdab/62e0528f0e8f1",
+              "title": "Naked Singularity (2021) CZdab",
+              "year": null,
+              "duration_sec": 5608,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68210002dc4a6",
+              "url": "https://prehraj.to/naked-education-s01e01-720p-webrip-x264-galaxytv/68210002dc4a6",
+              "title": "Naked.Education.S01E01.720p.WEBRip.x264-GalaxyTV",
+              "year": null,
+              "duration_sec": 2814,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "be787cb575cb3976",
+              "url": "https://prehraj.to/naked-soldier-2012-720p-bluray-yts-bz-cztit/be787cb575cb3976",
+              "title": "Naked Soldier (2012) [720p] [BluRay] [YTS.BZ-cztit",
+              "year": null,
+              "duration_sec": 5597,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6162168c41096",
+              "url": "https://prehraj.to/naked-singularity-2021-720p-bluray-h264-aac-rarbg/6162168c41096",
+              "title": "Naked.Singularity.2021.720p.BluRay.H264.AAC-RARBG",
+              "year": null,
+              "duration_sec": 5608,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6f83e77fd2f",
+              "url": "https://prehraj.to/naked-city-s01e20-one-to-get-lost/5a6f83e77fd2f",
+              "title": "Naked City S01E20 One to Get Lost",
+              "year": null,
+              "duration_sec": 1548,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "642f59bf77212",
+              "url": "https://prehraj.to/naked-education-s01e01-eng/642f59bf77212",
+              "title": "Naked Education S01E01 - ENG",
+              "year": null,
+              "duration_sec": 2813,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "105da993eecae42b",
+              "url": "https://prehraj.to/naked-nahy-2017-cz-tit-vloz/105da993eecae42b",
+              "title": "Naked-Nahý-2017-cz.tit.vlož",
+              "year": null,
+              "duration_sec": 5812,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1993,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Naked (1993)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a6f83fd74061",
+              "url": "https://prehraj.to/naked-city-s02e06-killer-with-a-kiss/5a6f83fd74061",
+              "title": "Naked City S02E06 Killer with A Kiss",
+              "year": null,
+              "duration_sec": 2863,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Naked (1993)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:18.162705+00:00"
         }
       ],
       "identity": {
@@ -5412,7 +6141,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:14:52.951616+00:00"
+        "at": "2026-08-29T18:35:15.227530+00:00"
       }
     },
     "23227": {
@@ -40247,5 +40976,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:13.699572+00:00"
+  "updated_at": "2026-08-29T18:35:18.162727+00:00"
 }
