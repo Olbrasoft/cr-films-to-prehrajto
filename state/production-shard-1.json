@@ -70679,6 +70679,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:53:26.231649+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-0f3d47708bd9641e",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6150d24b591e7",
+              "url": "https://prehraj.to/lod-snu-sanghaj-2007-czdab/6150d24b591e7",
+              "title": "Loď snů - Šanghaj (2007) CZdab",
+              "year": null,
+              "duration_sec": 5718,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.409,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 106,
+                "candidate_runtime_sec": 5718,
+                "runtime_delta": 0.101,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a9a68d19c12d",
+              "url": "https://prehraj.to/sanghajsky-polibek-2007/5a9a68d19c12d",
+              "title": "Šanghajský polibek (2007)",
+              "year": null,
+              "duration_sec": 6377,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 106,
+                "candidate_runtime_sec": 6377,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62750950ee0c155d",
+              "url": "https://prehraj.to/sanghajsky-polibek-2007-cs/62750950ee0c155d",
+              "title": "Šanghajský polibek - 2007 CS",
+              "year": null,
+              "duration_sec": 6377,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 106,
+                "candidate_runtime_sec": 6377,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8a360c001f4a9f97",
+              "url": "https://prehraj.to/sanghajsky-polibek-2007-usa-chn-hk-drama-komedie-romanticky/8a360c001f4a9f97",
+              "title": "Sanghajsky polibek-2007,USA,CHN,HK-drama,komedie,romanticky",
+              "year": null,
+              "duration_sec": 6392,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 106,
+                "candidate_runtime_sec": 6392,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:37:42.631917+00:00"
         }
       ],
       "identity": {
@@ -70697,7 +70816,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:53:20.550454+00:00"
+        "at": "2026-08-29T18:37:39.465435+00:00"
       }
     },
     "25603": {
@@ -99924,5 +100043,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:37:37.765511+00:00"
+  "updated_at": "2026-08-29T18:37:42.631933+00:00"
 }
