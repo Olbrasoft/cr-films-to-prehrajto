@@ -24416,7 +24416,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.382788+00:00"
+        "at": "2026-08-29T18:44:54.601089+00:00"
       }
     },
     "16751": {
@@ -24579,6 +24579,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T09:17:20.607637+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-b609e7d575b98588",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "1a35c0abe2ba20b2",
+              "url": "https://prehraj.to/vrazedna-sezona-zluty-kosatec-2015-cs/1a35c0abe2ba20b2",
+              "title": "Vražedná sezóna: Žlutý kosatec - 2015 CS",
+              "year": null,
+              "duration_sec": 5405,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2015,
+                "candidate_year": 2015,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5405,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:45:00.588740+00:00"
         }
       ],
       "identity": {
@@ -24597,7 +24635,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T09:17:14.360714+00:00"
+        "at": "2026-08-29T18:44:54.601155+00:00"
       }
     },
     "7975": {
@@ -54451,5 +54489,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:44:52.951425+00:00"
+  "updated_at": "2026-08-29T18:45:00.588756+00:00"
 }
