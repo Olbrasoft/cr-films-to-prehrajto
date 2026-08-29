@@ -3925,7 +3925,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.540835+00:00"
+        "at": "2026-08-29T18:32:07.925575+00:00"
       }
     },
     "12348": {
@@ -4316,7 +4316,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.543666+00:00"
+        "at": "2026-08-29T18:32:07.927326+00:00"
       }
     },
     "604": {
@@ -4398,7 +4398,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:05.546877+00:00"
+        "at": "2026-08-29T18:32:07.929288+00:00"
       }
     },
     "2260": {
@@ -4923,7 +4923,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.547833+00:00"
+        "at": "2026-08-29T18:32:07.929863+00:00"
       }
     },
     "652": {
@@ -5098,7 +5098,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.551478+00:00"
+        "at": "2026-08-29T18:32:07.932048+00:00"
       }
     },
     "532": {
@@ -5752,6 +5752,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T16:48:32.267952+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-9ea7be67fcafa2c2",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "a16660392acdc6de",
+              "url": "https://prehraj.to/snatkova-kancelar-1932-cs/a16660392acdc6de",
+              "title": "Sňatková kancelář - 1932 CS",
+              "year": null,
+              "duration_sec": 5362,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1932,
+                "candidate_year": 1932,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5362,
+                "runtime_delta": 0.059,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:32:27.929546+00:00"
         }
       ],
       "identity": {
@@ -5770,7 +5808,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T16:48:27.462514+00:00"
+        "at": "2026-08-29T18:32:07.932083+00:00"
       }
     },
     "2196": {
@@ -37679,5 +37717,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:32:06.499498+00:00"
+  "updated_at": "2026-08-29T18:32:27.929566+00:00"
 }
