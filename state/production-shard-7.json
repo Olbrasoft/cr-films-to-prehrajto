@@ -20802,7 +20802,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.340926+00:00"
+        "at": "2026-08-29T18:43:43.271910+00:00"
       }
     },
     "14951": {
@@ -20869,7 +20869,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.344564+00:00"
+        "at": "2026-08-29T18:43:43.275510+00:00"
       }
     },
     "6519": {
@@ -21227,7 +21227,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.347413+00:00"
+        "at": "2026-08-29T18:43:43.278407+00:00"
       }
     },
     "6199": {
@@ -21395,6 +21395,51 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T20:37:23.207337+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-e671942ca8805188",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64b01b25b2904",
+              "url": "https://prehraj.to/30-noches-con-mi-ex-webrip-cz-es-2022-720p/64b01b25b2904",
+              "title": "30.noches.con.mi.ex.WEBRip.CZ.ES.2022.720p",
+              "year": null,
+              "duration_sec": 5488,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5488,
+                "runtime_delta": 0.037,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:43:44.833524+00:00"
         }
       ],
       "identity": {
@@ -21413,7 +21458,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T20:37:22.809558+00:00"
+        "at": "2026-08-29T18:43:43.280159+00:00"
       }
     },
     "13279": {
@@ -53907,5 +53952,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:42:22.397181+00:00"
+  "updated_at": "2026-08-29T18:43:44.833535+00:00"
 }
