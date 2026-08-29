@@ -2312,6 +2312,117 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:30:52.793984+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-d24f744895a35e67",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6519b65708a9c",
+              "url": "https://prehraj.to/slasti-otce-vlasti-1969-1080p-web-dl-h264-r-i-h/6519b65708a9c",
+              "title": "Slasti.Otce.Vlasti.1969.1080p.WEB-DL.H264-R.i.H",
+              "year": null,
+              "duration_sec": 5968,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 1969,
+                "candidate_year": 1969,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5968,
+                "runtime_delta": 0.005,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bd66bc23dc8482d8",
+              "url": "https://prehraj.to/pippi-dlouha-puncocha-1969-cs/bd66bc23dc8482d8",
+              "title": "Pippi dlouhá punčocha - 1969 CS",
+              "year": null,
+              "duration_sec": 5425,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": 1969,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5425,
+                "runtime_delta": 0.096,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584d83a378f95",
+              "url": "https://prehraj.to/pippi-dlouha-puncocha-08-pippi-slavi-vanoce-serial-1969-cz-irisa/584d83a378f95",
+              "title": "Pippi-dlouhá-punčocha--08---Pippi-slaví-vánoce-(seriál-1969…",
+              "year": null,
+              "duration_sec": 1649,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.725,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Pippi dlouhá punčocha (1969)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5771823813e44",
+              "url": "https://prehraj.to/0-pippi-dlouha-puncocha-1969/5771823813e44",
+              "title": "0-Pippi-dlouhá-punčocha-(1969)",
+              "year": null,
+              "duration_sec": 5608,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1969,
+                "candidate_year": 1969,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5608,
+                "runtime_delta": 0.065,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Pippi dlouhá punčocha (1969)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:31:48.054140+00:00"
         }
       ],
       "identity": {
@@ -2330,7 +2441,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:30:47.937988+00:00"
+        "at": "2026-08-29T18:31:45.585846+00:00"
       }
     },
     "24516": {
@@ -37230,5 +37341,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:31:44.148818+00:00"
+  "updated_at": "2026-08-29T18:31:48.054160+00:00"
 }
