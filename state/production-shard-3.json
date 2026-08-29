@@ -6778,7 +6778,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T08:02:17.574699+00:00",
-        "verified_at": "2026-08-28T23:16:23.465946+00:00",
+        "verified_at": "2026-08-29T00:24:03.280896+00:00",
         "live_display_name": "Tajemství loňského léta 3 (2006) CZ titulky"
       }
     },
@@ -9055,7 +9055,7 @@
         "subtitle_handling": "not required",
         "processing_status": "active",
         "uploaded_at": "2026-08-27T03:53:07.912431+00:00",
-        "verified_at": "2026-08-28T23:16:34.102544+00:00",
+        "verified_at": "2026-08-29T00:24:13.090359+00:00",
         "live_display_name": "Christmas Bloody Christmas (2022) CZ titulky"
       }
     },
@@ -38727,7 +38727,19 @@
       }
     },
     "2963": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "4636",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917109",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:24:23.139864+00:00"
+        }
+      ],
       "identity": {
         "slug": "lvi-kral-2019",
         "title": "Lví král",
@@ -38745,23 +38757,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:25:18.979492+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917109",
-        "display_name": "Lví král (2019) CZ Dabing",
-        "size_bytes": 1669899141,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "4636",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:36:03.494668+00:00"
       }
     },
     "5091": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "4066",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917262",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:24:23.361520+00:00"
+        }
+      ],
       "identity": {
         "slug": "teroristka",
         "title": "Teroristka",
@@ -38779,23 +38790,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:36:09.456454+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917262",
-        "display_name": "Teroristka (2019) CZ Dabing",
-        "size_bytes": 1200761021,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "4066",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:45:54.433280+00:00"
       }
     },
     "2075": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "2959",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917357",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:24:23.813491+00:00"
+        }
+      ],
       "identity": {
         "slug": "teorie-tygra",
         "title": "Teorie tygra",
@@ -38813,19 +38823,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:46:00.368577+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917357",
-        "display_name": "Teorie tygra (2016) CZ Dabing",
-        "size_bytes": 1188568765,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "2959",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:53:50.649331+00:00"
       }
     },
     "2835": {
@@ -38863,5 +38860,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T23:19:10.490725+00:00"
+  "updated_at": "2026-08-29T00:25:04.898972+00:00"
 }

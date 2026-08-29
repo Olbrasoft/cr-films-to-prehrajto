@@ -1193,7 +1193,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:17:38.434934+00:00",
-        "verified_at": "2026-08-28T23:17:06.078876+00:00",
+        "verified_at": "2026-08-29T00:24:44.106651+00:00",
         "live_display_name": "Buena Vista Social Club: Adios (2017) CZ titulky"
       }
     },
@@ -37108,7 +37108,19 @@
       }
     },
     "7006": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "6051",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917124",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:24:54.573885+00:00"
+        }
+      ],
       "identity": {
         "slug": "spunti-na-vode",
         "title": "Špunti na vodě",
@@ -37126,23 +37138,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:28:35.960887+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917124",
-        "display_name": "Špunti na vodě (2017) CZ Dabing",
-        "size_bytes": 1330446649,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "6051",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:36:17.662785+00:00"
       }
     },
     "7974": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "6003",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917271",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:24:54.699935+00:00"
+        }
+      ],
       "identity": {
         "slug": "pres-prsty",
         "title": "Přes prsty",
@@ -37160,23 +37171,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:36:30.660327+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917271",
-        "display_name": "Přes prsty (2019) CZ Dabing",
-        "size_bytes": 1100700112,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "6003",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:45:57.996500+00:00"
       }
     },
     "16974": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "5570",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917358",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:24:54.729466+00:00"
+        }
+      ],
       "identity": {
         "slug": "gangster-ka-african-2015",
         "title": "Gangster Ka: Afričan",
@@ -37194,19 +37204,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:46:11.330971+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917358",
-        "display_name": "Gangster Ka: Afričan (2015) CZ Dabing",
-        "size_bytes": 879042237,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "5570",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:52:32.678587+00:00"
       }
     },
     "11742": {
@@ -38916,5 +38913,5 @@
       }
     }
   },
-  "updated_at": "2026-08-28T23:20:22.636523+00:00"
+  "updated_at": "2026-08-29T00:25:05.253157+00:00"
 }

@@ -8242,7 +8242,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-25T17:29:40.739413+00:00",
-        "verified_at": "2026-08-28T23:16:01.811437+00:00",
+        "verified_at": "2026-08-29T00:23:43.092176+00:00",
         "live_display_name": "Až umřu, budou mě milovat (2018) CZ titulky"
       }
     },
@@ -13995,8 +13995,10 @@
         "language_tier": "czech_subtitles",
         "actual_resolution": 480,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-29T00:18:27.329578+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-29T00:18:27.329578+00:00",
+        "verified_at": "2026-08-29T00:23:53.213360+00:00",
+        "live_display_name": "Imagine Dragons: Smoke + Mirrors Live (2016) CZ titulky"
       }
     },
     "29381": {
@@ -27185,8 +27187,10 @@
         "language_tier": "czech_subtitles",
         "actual_resolution": 480,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-29T00:18:52.929873+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-29T00:18:52.929873+00:00",
+        "verified_at": "2026-08-29T00:23:53.213380+00:00",
+        "live_display_name": "రుద్రమదేవి (2015) CZ titulky"
       }
     },
     "28451": {
@@ -76728,7 +76732,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T11:07:16.992458+00:00",
-        "verified_at": "2026-08-28T23:16:12.241392+00:00",
+        "verified_at": "2026-08-29T00:23:53.213383+00:00",
         "live_display_name": "Pozdě, ale přece (2024) CZ titulky"
       }
     },
@@ -87771,8 +87775,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:20:48.996533+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T22:20:48.996533+00:00",
+        "verified_at": "2026-08-29T00:24:03.212043+00:00",
+        "live_display_name": "Císař: Občanská válka (2020) CZ Dabing"
       }
     },
     "15913": {
@@ -87965,8 +87971,10 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:34:12.771027+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-28T22:34:12.771027+00:00",
+        "verified_at": "2026-08-29T00:24:03.212063+00:00",
+        "live_display_name": "Opilí láskou (2018) CZ Dabing"
       }
     },
     "17617": {
@@ -88116,7 +88124,19 @@
       }
     },
     "16329": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "11472",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28917257",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T00:24:03.212071+00:00"
+        }
+      ],
       "identity": {
         "slug": "survivor-2014",
         "title": "Survivor",
@@ -88134,19 +88154,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:39:07.222460+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917257",
-        "display_name": "Survivor (2014) CZ Dabing",
-        "size_bytes": 1003660554,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "11472",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-28T22:44:47.614108+00:00"
       }
     },
     "17041": {
@@ -88604,5 +88611,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T00:18:58.019690+00:00"
+  "updated_at": "2026-08-29T00:25:05.056574+00:00"
 }
