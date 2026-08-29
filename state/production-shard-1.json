@@ -83181,6 +83181,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T02:03:40.379106+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-48fba3a6aa195c1f",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55faa251d8230",
+              "url": "https://prehraj.to/legenda-2-1993-tit/55faa251d8230",
+              "title": "Legenda 2-1993-tit",
+              "year": null,
+              "duration_sec": 5778,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.516,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5778,
+                "runtime_delta": 0.014,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67740ed8c319a",
+              "url": "https://prehraj.to/the-legend-ii-1993/67740ed8c319a",
+              "title": "The Legend II ( 1993 )",
+              "year": null,
+              "duration_sec": 5778,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5778,
+                "runtime_delta": 0.014,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b691269bafe",
+              "url": "https://prehraj.to/p-f-chinese-the-legend-ii-1993-cz-tit/67b691269bafe",
+              "title": "P.F. Chinese-The Legend II ( 1993 )-cz tit",
+              "year": null,
+              "duration_sec": 5778,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5778,
+                "runtime_delta": 0.014,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Legend II (1993)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:38:52.289485+00:00"
         }
       ],
       "identity": {
@@ -83199,7 +83291,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:03:37.288872+00:00"
+        "at": "2026-08-29T18:38:50.393353+00:00"
       }
     },
     "23347": {
@@ -100426,5 +100518,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:38:48.653426+00:00"
+  "updated_at": "2026-08-29T18:38:52.289502+00:00"
 }
