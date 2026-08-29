@@ -5890,7 +5890,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:05.552636+00:00"
+        "at": "2026-08-29T18:32:33.496222+00:00"
       }
     },
     "1588": {
@@ -6101,7 +6101,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:05.554697+00:00"
+        "at": "2026-08-29T18:32:33.497515+00:00"
       }
     },
     "7452": {
@@ -6902,6 +6902,69 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T01:56:25.104396+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-ddab59013419c501",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "2ec2a93650aa0ea5",
+              "url": "https://prehraj.to/zlato-ryna-rheingold-2022-webrip-720p-cz-titulky-v-obraze/2ec2a93650aa0ea5",
+              "title": "Zlato Rýna _ Rheingold (2022) - WEBRip - 720p - CZ titulky…",
+              "year": null,
+              "duration_sec": 8293,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8293,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "30765",
+              "url": "https://online.sktorrent.eu/video/30765/",
+              "title": "Zlato Rýna",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:32:45.329185+00:00"
         }
       ],
       "identity": {
@@ -6920,7 +6983,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T01:56:19.565507+00:00"
+        "at": "2026-08-29T18:32:33.497548+00:00"
       }
     },
     "5844": {
@@ -37717,5 +37780,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:32:27.929566+00:00"
+  "updated_at": "2026-08-29T18:32:45.329201+00:00"
 }
