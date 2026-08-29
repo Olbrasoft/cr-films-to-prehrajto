@@ -3245,6 +3245,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:40:11.399779+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-2b464a156e5ad0fd",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "580f55bbe1d92",
+              "url": "https://prehraj.to/cherry-2000-cz-dabing-akcni-sci-fi-usa-1987-filmy-site88-net/580f55bbe1d92",
+              "title": "Cherry 2000 CZ dabing - Akční Sci-Fi, USA, 1987 (Filmy.Site88.net)",
+              "year": null,
+              "duration_sec": 5670,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.29,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5670,
+                "runtime_delta": 0.027,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "580ad29cbfd42",
+              "url": "https://prehraj.to/cherry-2000-cz-dabing-akcni-sci-fi-usa-1987-filmy-site88-net/580ad29cbfd42",
+              "title": "Cherry 2000 CZ dabing - Akční Sci-Fi, USA, 1987 (Filmy.Site88.net)",
+              "year": null,
+              "duration_sec": 5670,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.29,
+                "title_contains_alias": false,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5670,
+                "runtime_delta": 0.027,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b09c0892ad607cf6",
+              "url": "https://prehraj.to/vrazdy-v-cherry-falls-2000-en/b09c0892ad607cf6",
+              "title": "Vraždy v Cherry Falls - 2000 EN",
+              "year": null,
+              "duration_sec": 4982,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2000,
+                "candidate_year": 2000,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 4982,
+                "runtime_delta": 0.097,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:43:09.115358+00:00"
         }
       ],
       "identity": {
@@ -3263,7 +3355,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:40:08.711223+00:00"
+        "at": "2026-08-29T18:43:07.295309+00:00"
       }
     },
     "24214": {
@@ -51974,5 +52066,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:43:05.804338+00:00"
+  "updated_at": "2026-08-29T18:43:09.115378+00:00"
 }
