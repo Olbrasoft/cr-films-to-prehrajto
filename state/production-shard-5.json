@@ -5213,6 +5213,78 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:49:52.303204+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-e448e5254a4a95b2",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fdf8a4a5d4a2",
+              "url": "https://prehraj.to/rapl-ii-12-ryba-smrdi-od-ocasu-2019/5fdf8a4a5d4a2",
+              "title": "Rapl II - 12 - Ryba smrdí od ocasu 2019",
+              "year": null,
+              "duration_sec": 3655,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.154,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 3655,
+                "runtime_delta": 0.338,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "12efefc0e520a63d",
+              "url": "https://prehraj.to/k-12-2019-en/12efefc0e520a63d",
+              "title": "K-12 - 2019 EN",
+              "year": null,
+              "duration_sec": 5526,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "en",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5526,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:39.383175+00:00"
         }
       ],
       "identity": {
@@ -5231,7 +5303,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:49:50.146183+00:00"
+        "at": "2026-08-29T18:35:36.372324+00:00"
       }
     },
     "25845": {
@@ -40689,5 +40761,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:33:16.070644+00:00"
+  "updated_at": "2026-08-29T18:35:39.383195+00:00"
 }
