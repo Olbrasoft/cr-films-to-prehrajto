@@ -7222,7 +7222,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:54.385681+00:00"
+        "at": "2026-08-29T18:36:00.150778+00:00"
       }
     },
     "14845": {
@@ -7488,6 +7488,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T12:43:16.713678+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f3b1f4a6f646055c",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "43dec1d699fe5255",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-sk-mp4/43dec1d699fe5255",
+              "title": "Hore je nebo, v doline som ja (2024)(SK).mp4",
+              "year": null,
+              "duration_sec": 5551,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5551,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ed03f32a73f40c9c",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-sk/ed03f32a73f40c9c",
+              "title": "Hore je nebo, v doline som ja (2024)(SK)",
+              "year": null,
+              "duration_sec": 5551,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_sk_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5551,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "52827e7d290c2345",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-1080p-mkv/52827e7d290c2345",
+              "title": "Hore je nebo, v doline som ja (2024) 1080p.mkv",
+              "year": null,
+              "duration_sec": 5550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5550,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0eb8f4841ec442a9",
+              "url": "https://prehraj.to/hore-je-nebo-v-doline-som-ja-2024-1080p/0eb8f4841ec442a9",
+              "title": "Hore je nebo, v doline som ja (2024) 1080p",
+              "year": null,
+              "duration_sec": 5550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2025,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 93,
+                "candidate_runtime_sec": 5550,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:36:01.441359+00:00"
         }
       ],
       "identity": {
@@ -7506,7 +7625,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T12:43:15.167421+00:00"
+        "at": "2026-08-29T18:36:00.150876+00:00"
       }
     },
     "15893": {
@@ -41184,5 +41303,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:58.800704+00:00"
+  "updated_at": "2026-08-29T18:36:01.441374+00:00"
 }
