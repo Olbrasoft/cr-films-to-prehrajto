@@ -17700,7 +17700,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:36:56.105612+00:00"
+        "at": "2026-08-29T18:38:38.994749+00:00"
       }
     },
     "29121": {
@@ -17815,7 +17815,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:36:56.106668+00:00"
+        "at": "2026-08-29T18:38:38.995840+00:00"
       }
     },
     "29103": {
@@ -18210,7 +18210,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:37:05.801089+00:00"
+        "at": "2026-08-29T18:38:39.001583+00:00"
       }
     },
     "29045": {
@@ -61751,7 +61751,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:37:00.401301+00:00"
+        "at": "2026-08-29T18:38:38.998154+00:00"
       }
     },
     "25169": {
@@ -62648,7 +62648,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:37:00.402816+00:00"
+        "at": "2026-08-29T18:38:38.999645+00:00"
       }
     },
     "23061": {
@@ -69799,7 +69799,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:37:34.342899+00:00"
+        "at": "2026-08-29T18:38:39.006734+00:00"
       }
     },
     "25951": {
@@ -72777,7 +72777,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:22:25.327447+00:00"
+        "at": "2026-08-29T18:38:39.007734+00:00"
       }
     },
     "24963": {
@@ -74848,6 +74848,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:56:35.121890+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-7b5eb052c9357870",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586b005ba548b",
+              "url": "https://prehraj.to/zatraceny-otec-2f-muj-otec-2f-mon-pere-il-m-a-sauve-la-vie-2001-cz/586b005ba548b",
+              "title": "Zatracený-otec-%2F-Můj-otec-%2F-Mon-père,-il-m'a-sauvé-la-vie-2001,-CZ",
+              "year": null,
+              "duration_sec": 6596,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.262,
+                "title_contains_alias": false,
+                "film_year": 2001,
+                "candidate_year": 2001,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6596,
+                "runtime_delta": 0.208,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "db29c3ec77c97764",
+              "url": "https://prehraj.to/zatracena-nocni-drina-2001-cs/db29c3ec77c97764",
+              "title": "Zatracená noční dřina - 2001 CS",
+              "year": null,
+              "duration_sec": 5272,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2001,
+                "candidate_year": 2001,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 5272,
+                "runtime_delta": 0.034,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:38:41.986550+00:00"
         }
       ],
       "identity": {
@@ -74866,7 +74931,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:56:31.705579+00:00"
+        "at": "2026-08-29T18:38:39.007803+00:00"
       }
     },
     "24581": {
@@ -100200,5 +100265,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:37:55.810231+00:00"
+  "updated_at": "2026-08-29T18:38:41.986565+00:00"
 }
