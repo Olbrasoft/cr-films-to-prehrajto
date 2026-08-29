@@ -975,6 +975,98 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:41:57.796718+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-011c6e1b8dc7ff26",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "615edb21a30f4",
+              "url": "https://prehraj.to/the-incredible-hulk-the-death-of-the-incredible-hulk-1990-dvdrip/615edb21a30f4",
+              "title": "The.Incredible.Hulk.The.Death.Of.The.Incredible.Hulk.1990…",
+              "year": null,
+              "duration_sec": 5689,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5689,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Death of the Incredible Hulk (1990)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c0746e76fc20031a",
+              "url": "https://prehraj.to/smrt-neuveritelneho-hulka-smrt-neuveritelneho-hulka-1990/c0746e76fc20031a",
+              "title": "SMRT NEUVĚŘITELNÉHO HULKA (Smrt neuvěřitelného Hulka) [1990]",
+              "year": null,
+              "duration_sec": 5689,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5689,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c41befa42b5af7ec",
+              "url": "https://prehraj.to/the-death-of-the-incredible-hulk-1990/c41befa42b5af7ec",
+              "title": "The Death of the Incredible Hulk (1990)",
+              "year": null,
+              "duration_sec": 5689,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1990,
+                "candidate_year": 1990,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5689,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Death of the Incredible Hulk (1990)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:42:36.331926+00:00"
         }
       ],
       "identity": {
@@ -993,7 +1085,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:41:53.869129+00:00"
+        "at": "2026-08-29T18:42:33.835362+00:00"
       }
     },
     "22750": {
@@ -51251,5 +51343,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:42:32.331069+00:00"
+  "updated_at": "2026-08-29T18:42:36.331946+00:00"
 }
