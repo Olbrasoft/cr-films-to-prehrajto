@@ -1258,11 +1258,36 @@
         "added_at": "2025-12-21 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "missing",
+        "status": "ambiguous",
         "evidence": {
-          "method": "no_confident_account_match"
+          "matches": [
+            {
+              "target_video_id": "28864314",
+              "account_name": "Die Alone (2024) CZ Dabing",
+              "title_similarity": 0.56,
+              "title_contains_alias": false,
+              "film_year": 2025,
+              "candidate_year": 2024,
+              "year_match": true,
+              "film_runtime_min": 119,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            },
+            {
+              "target_video_id": "28898133",
+              "account_name": "Die'ced: Reloaded (2025) CZ titulky",
+              "title_similarity": 0.5,
+              "title_contains_alias": false,
+              "film_year": 2025,
+              "candidate_year": 2025,
+              "year_match": true,
+              "film_runtime_min": 119,
+              "candidate_runtime_sec": null,
+              "runtime_delta": null
+            }
+          ]
         },
-        "at": "2026-08-25T22:56:10.900016+00:00"
+        "at": "2026-08-29T18:42:37.800269+00:00"
       }
     },
     "17318": {
@@ -1365,7 +1390,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.136282+00:00"
+        "at": "2026-08-29T18:42:37.800635+00:00"
       }
     },
     "16782": {
@@ -1445,7 +1470,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.137351+00:00"
+        "at": "2026-08-29T18:42:37.801464+00:00"
       }
     },
     "29350": {
@@ -1574,7 +1599,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:22:07.140311+00:00"
+        "at": "2026-08-29T18:42:37.803671+00:00"
       }
     },
     "28934": {
@@ -1822,6 +1847,152 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:29:02.280997+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-15b7f9f9539a9ffd",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b39efe4b60a",
+              "url": "https://prehraj.to/na-strane-osm-page-eight-2011-cz-tit/58b39efe4b60a",
+              "title": "Na-straně-osm-_-Page-eight-2011,-CZ-tit",
+              "year": null,
+              "duration_sec": 5915,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.377,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 5915,
+                "runtime_delta": 0.087,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55ad7d568549e",
+              "url": "https://prehraj.to/komedie-muzika-pripoutani-zelizky-na-skotskem-hudebnim-festivalu-plno-lidi-a-muziky-tonight-you-re-mine-2011-titcz/55ad7d568549e",
+              "title": "'Komedie+Muzika..připoutáni-želízky-na-skotském-hudebním-festivalu..plno-lidí-a-muziky..'-Tonight-You're-Mine-(2011)-TitCz",
+              "year": null,
+              "duration_sec": 4591,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.157,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 4591,
+                "runtime_delta": 0.292,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "601099d208800",
+              "url": "https://prehraj.to/naruto-shippuden-the-movie-blood-prison/601099d208800",
+              "title": "Naruto Shippuden the Movie Blood Prison",
+              "year": null,
+              "duration_sec": 6150,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6150,
+                "runtime_delta": 0.051,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584823bd37d53",
+              "url": "https://prehraj.to/naruto-shippuuden-movie-5-krvave-vezeni-avi/584823bd37d53",
+              "title": "Naruto-Shippuuden-movie-5-Krvave-vezeni.avi",
+              "year": null,
+              "duration_sec": 6150,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.635,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6150,
+                "runtime_delta": 0.051,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Naruto: Krvavé vězení (2011)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5caf5df84978d",
+              "url": "https://prehraj.to/naruto-shippuuden-film-5-krvave-vezeni-cz-tit-hd/5caf5df84978d",
+              "title": "Naruto Shippuuden Film 5 _ Krvavé vězení Cz Tit. HD",
+              "year": null,
+              "duration_sec": 6150,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.615,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 108,
+                "candidate_runtime_sec": 6150,
+                "runtime_delta": 0.051,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Naruto: Krvavé vězení (2011)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:42:40.194891+00:00"
         }
       ],
       "identity": {
@@ -1840,7 +2011,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:28:56.299578+00:00"
+        "at": "2026-08-29T18:42:37.804102+00:00"
       }
     },
     "26942": {
@@ -51343,5 +51514,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:42:36.331946+00:00"
+  "updated_at": "2026-08-29T18:42:40.194911+00:00"
 }
