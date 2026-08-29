@@ -7797,6 +7797,64 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:49:13.690827+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-f6977bd85981691d",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b84eccd3892",
+              "url": "https://prehraj.to/prave-zaciname-1946-lq/58b84eccd3892",
+              "title": "Právě-začínáme-1946-LQ",
+              "year": null,
+              "duration_sec": 5270,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 11.548,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "588b3b0f17449",
+              "url": "https://prehraj.to/squatter-s-rights-1946-1/588b3b0f17449",
+              "title": "SQUATTER'S-RIGHTS-1946-(1)",
+              "year": null,
+              "duration_sec": 423,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1946,
+                "candidate_year": 1946,
+                "year_match": true,
+                "film_runtime_min": 7,
+                "candidate_runtime_sec": 423,
+                "runtime_delta": 0.007,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:58:09.084251+00:00"
         }
       ],
       "identity": {
@@ -7815,7 +7873,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:49:10.644751+00:00"
+        "at": "2026-08-29T18:58:06.617763+00:00"
       }
     },
     "6747": {
@@ -41393,5 +41451,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:58:05.106006+00:00"
+  "updated_at": "2026-08-29T18:58:09.084269+00:00"
 }
