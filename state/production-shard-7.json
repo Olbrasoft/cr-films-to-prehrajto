@@ -33,7 +33,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:30:15.814953+00:00"
+        "at": "2026-08-29T18:39:07.249345+00:00"
       }
     },
     "28991": {
@@ -323,7 +323,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:30:19.876692+00:00"
+        "at": "2026-08-29T18:39:07.251981+00:00"
       }
     },
     "28071": {
@@ -560,7 +560,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.319384+00:00"
+        "at": "2026-08-29T18:39:07.252778+00:00"
       }
     },
     "26823": {
@@ -591,7 +591,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:58.319464+00:00"
+        "at": "2026-08-29T18:39:07.252866+00:00"
       }
     },
     "23807": {
@@ -4699,6 +4699,69 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:58:07.422203+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-1870cdaa85a17911",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "603e12ce44f3b",
+              "url": "https://prehraj.to/adverse-2021-dvdrip-xvid-ac3-evo/603e12ce44f3b",
+              "title": "Adverse.2021.DVDRip.XviD.AC3-EVO",
+              "year": null,
+              "duration_sec": 5646,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5646,
+                "runtime_delta": 0.001,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "16568",
+              "url": "https://online.sktorrent.eu/video/16568/",
+              "title": "Adverse",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:17.444858+00:00"
         }
       ],
       "identity": {
@@ -4717,7 +4780,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:58:03.797727+00:00"
+        "at": "2026-08-29T18:39:07.252902+00:00"
       }
     },
     "17167": {
@@ -50797,5 +50860,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:30:21.855885+00:00"
+  "updated_at": "2026-08-29T18:39:17.444870+00:00"
 }
