@@ -7259,6 +7259,118 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:16:06.208267+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-72a40f3fdd11488b",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "589359efe7797",
+              "url": "https://prehraj.to/filmy-od-lm-1492-dobyti-raje-1992-avi/589359efe7797",
+              "title": "Filmy-od-LM------1492-Dobyti-raje---1992-avi",
+              "year": null,
+              "duration_sec": 8935,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.068,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c48aa89c8aef37d6",
+              "url": "https://prehraj.to/muminci-ve-filmu-kometa-se-blizi/c48aa89c8aef37d6",
+              "title": "Mumínci ve filmu Kometa se blíží",
+              "year": null,
+              "duration_sec": 4188,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4188,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58572cdb7d162",
+              "url": "https://prehraj.to/muminci-ve-filmu-kometa-se-blizi/58572cdb7d162",
+              "title": "Mumínci-ve-filmu---Kometa-se-blíží",
+              "year": null,
+              "duration_sec": 4188,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4188,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "147f3976b3ec1102",
+              "url": "https://prehraj.to/muminci-ve-filmu-kometa-se-blizi/147f3976b3ec1102",
+              "title": "Mumínci - ve - filmu - Kometa - se - blíží",
+              "year": null,
+              "duration_sec": 4188,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1992,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 72,
+                "candidate_runtime_sec": 4188,
+                "runtime_delta": 0.031,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:40:01.839111+00:00"
         }
       ],
       "identity": {
@@ -7277,7 +7389,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:16:00.785114+00:00"
+        "at": "2026-08-29T18:39:58.882087+00:00"
       }
     },
     "24471": {
@@ -51743,5 +51855,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:57.072569+00:00"
+  "updated_at": "2026-08-29T18:40:01.839121+00:00"
 }
