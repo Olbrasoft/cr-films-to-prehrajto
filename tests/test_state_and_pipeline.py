@@ -34,6 +34,15 @@ class Provider:
         return list(self.rows)
 
 
+class RevisableProvider(Provider):
+    def __init__(self, rows, revision):
+        super().__init__(rows)
+        self.revision = revision
+
+    def discovery_revision(self, _film):
+        return self.revision
+
+
 class FailingProvider:
     def discover(self, film):
         raise ProviderError("Proxy HTTP 429")
@@ -399,6 +408,56 @@ def test_new_discovery_version_retries_previous_exhaustion(tmp_path, film):
     ).build_plan([film], 1, maximum=20, skip_exhausted_snapshot=True)
     assert len(plan) == 1
     assert prehraj.calls == 1
+
+
+def test_changed_prefetch_candidates_retry_previous_exhaustion(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    state.set_snapshot("snapshot-1", None)
+    state.record_attempt(
+        film.cr_film_id,
+        {
+            "status": "no_acceptable_source",
+            "discovery_exhausted": True,
+            "discovery_version": "v1:prefetch-old",
+        },
+    )
+    prehraj = RevisableProvider([acceptable("prehrajto", "p1")], "new")
+
+    plan = HybridPipeline(
+        prehrajto=prehraj,
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+        discovery_version="v1",
+    ).build_plan([film], 1, maximum=20, skip_exhausted_snapshot=True)
+
+    assert len(plan) == 1
+    assert prehraj.calls == 1
+
+
+def test_unchanged_prefetch_candidates_stay_exhausted(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    state.set_snapshot("snapshot-1", None)
+    state.record_attempt(
+        film.cr_film_id,
+        {
+            "status": "no_acceptable_source",
+            "discovery_exhausted": True,
+            "discovery_version": "v1:prefetch-same",
+        },
+    )
+    prehraj = RevisableProvider([acceptable("prehrajto", "p1")], "same")
+
+    plan = HybridPipeline(
+        prehrajto=prehraj,
+        sktorrent=Provider([]),
+        inventory=[],
+        state=state,
+        discovery_version="v1",
+    ).build_plan([film], 1, maximum=20, skip_exhausted_snapshot=True)
+
+    assert plan == []
+    assert prehraj.calls == 0
 
 
 def test_partial_subtitle_upload_is_repaired_without_second_video(tmp_path, film):

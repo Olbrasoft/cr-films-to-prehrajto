@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -327,6 +328,20 @@ class PrehrajtoProvider:
 
     def has_prefetched(self, film: Film) -> bool:
         return bool(self._prefetched_hits(film))
+
+    def discovery_revision(self, film: Film) -> str | None:
+        """Identify the candidate set that was available for this film."""
+        source_ids = sorted(
+            {
+                str(hit.get("source_id"))
+                for hit in self._prefetched_hits(film)
+                if hit.get("source_id") is not None
+            }
+        )
+        if not source_ids:
+            return None
+        payload = "\n".join(source_ids).encode()
+        return hashlib.sha256(payload).hexdigest()[:16]
 
     @staticmethod
     def _catalog_candidates(film: Film) -> list[Candidate]:

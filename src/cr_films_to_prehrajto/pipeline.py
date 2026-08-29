@@ -73,6 +73,15 @@ class HybridPipeline:
             for token in set(normalize_title(item.name).split()):
                 self._inventory_by_token[token].append(item)
 
+    def _discovery_version_for(self, film: Film) -> str | None:
+        revision = getattr(
+            self.prehrajto, "discovery_revision", lambda _film: None
+        )(film)
+        if not revision:
+            return self.discovery_version
+        base = self.discovery_version or "discovery"
+        return f"{base}:prefetch-{revision}"
+
     def _plausible_inventory(self, film: Film):
         plausible = {}
         for alias in (film.title, film.original_title):
@@ -131,12 +140,13 @@ class HybridPipeline:
             if self.state.uploaded(film.cr_film_id):
                 continue
             partial = self.state.pending_partial_upload(film.cr_film_id)
+            discovery_version = self._discovery_version_for(film)
             exhausted = self.state.discovery_exhausted_for_snapshot(
-                film.cr_film_id, self.discovery_version
+                film.cr_film_id, discovery_version
             )
             repeated = (
                 self.state.discovery_attempts_for_snapshot(
-                    film.cr_film_id, self.discovery_version
+                    film.cr_film_id, discovery_version
                 )
                 >= MAX_DISCOVERY_RETRIES_PER_SNAPSHOT
             )
@@ -219,7 +229,7 @@ class HybridPipeline:
                         "status": "no_acceptable_source",
                         "permanent": False,
                         "discovery_exhausted": not provider_errors,
-                        "discovery_version": self.discovery_version,
+                        "discovery_version": discovery_version,
                         "reason": "No currently acceptable source was discovered",
                         "candidate_evidence": [
                             candidate.to_dict() for candidate in all_candidates
@@ -322,7 +332,7 @@ class HybridPipeline:
                         "status": "no_acceptable_source",
                         "permanent": False,
                         "discovery_exhausted": False,
-                        "discovery_version": self.discovery_version,
+                        "discovery_version": self._discovery_version_for(film),
                         "reason": "All currently acceptable candidates were exhausted",
                     },
                 )
