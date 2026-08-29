@@ -5441,6 +5441,104 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:52:13.139750+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-22ec09787767f57a",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c21d900c1a9e",
+              "url": "https://prehraj.to/cert-vi-proc-2003-ceska-filmova-pohadka-vanoce-2018/5c21d900c1a9e",
+              "title": "Čert Ví Proč (2003) Česká Filmová Pohádka - Vánoce 2018",
+              "year": null,
+              "duration_sec": 5983,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.319,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c1e29a547485",
+              "url": "https://prehraj.to/cert-vi-proc-2003-ceska-filmova-pohadka-vanoce-2018/5c1e29a547485",
+              "title": "Čert Ví Proč (2003) Česká Filmová Pohádka - Vánoce 2018",
+              "year": null,
+              "duration_sec": 5983,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.319,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c23f22395f4b",
+              "url": "https://prehraj.to/cert-vi-proc-2003-ceska-filmova-pohadka-vanoce-2018/5c23f22395f4b",
+              "title": "Čert Ví Proč (2003) Česká Filmová Pohádka - Vánoce 2018",
+              "year": null,
+              "duration_sec": 5983,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 1.319,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584d810072646",
+              "url": "https://prehraj.to/jahudka-2-jahudciny-vanoce/584d810072646",
+              "title": "Jahudka_2_-_Jahudčiny_vánoce",
+              "year": null,
+              "duration_sec": 2600,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2003,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 43,
+                "candidate_runtime_sec": 2600,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:35:46.085995+00:00"
         }
       ],
       "identity": {
@@ -5459,7 +5557,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:52:09.561730+00:00"
+        "at": "2026-08-29T18:35:40.818485+00:00"
       }
     },
     "25405": {
@@ -40761,5 +40859,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:35:39.383195+00:00"
+  "updated_at": "2026-08-29T18:35:46.086014+00:00"
 }
