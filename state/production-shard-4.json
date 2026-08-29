@@ -10283,6 +10283,105 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T15:53:07.397452+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-178246d25efff09c",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "9a170f8a56d6bea3",
+              "url": "https://prehraj.to/kral-ubu/9a170f8a56d6bea3",
+              "title": "Král Ubu",
+              "year": null,
+              "duration_sec": 5035,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1996,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5035,
+                "runtime_delta": 0.046,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c81a83b20bb4361",
+              "url": "https://prehraj.to/kral-ubu/1c81a83b20bb4361",
+              "title": "Král Ubu",
+              "year": null,
+              "duration_sec": 5035,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1996,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5035,
+                "runtime_delta": 0.046,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58593d78a1bb5",
+              "url": "https://prehraj.to/kral-ubu/58593d78a1bb5",
+              "title": "kral_ubu",
+              "year": null,
+              "duration_sec": 5034,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1996,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 88,
+                "candidate_runtime_sec": 5034,
+                "runtime_delta": 0.047,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:41:42.941356+00:00"
         }
       ],
       "identity": {
@@ -10301,7 +10400,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T15:53:01.912765+00:00"
+        "at": "2026-08-29T18:41:28.428928+00:00"
       }
     },
     "7300": {
@@ -38324,5 +38423,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:41:22.831728+00:00"
+  "updated_at": "2026-08-29T18:41:42.941376+00:00"
 }
