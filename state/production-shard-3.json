@@ -8133,7 +8133,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:27.693635+00:00"
+        "at": "2026-08-29T18:58:10.531557+00:00"
       }
     },
     "9147": {
@@ -8215,7 +8215,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:27.694056+00:00"
+        "at": "2026-08-29T18:58:10.532181+00:00"
       }
     },
     "1019": {
@@ -8498,7 +8498,7 @@
           "candidate_runtime_sec": null,
           "runtime_delta": null
         },
-        "at": "2026-08-29T18:21:27.694607+00:00"
+        "at": "2026-08-29T18:58:10.532937+00:00"
       }
     },
     "14867": {
@@ -8544,7 +8544,7 @@
             }
           ]
         },
-        "at": "2026-08-29T18:21:27.698157+00:00"
+        "at": "2026-08-29T18:58:10.537632+00:00"
       }
     },
     "1643": {
@@ -9106,6 +9106,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T06:01:01.685956+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-1f6e04fe916d5a40",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64596e13c8015",
+              "url": "https://prehraj.to/the-family-2013-bdrip-xvid-cz-trezzor/64596e13c8015",
+              "title": "The.Family.2013.Bdrip.Xvid.Cz-Trezzor",
+              "year": null,
+              "duration_sec": 6694,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6694,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:58:11.094978+00:00"
         }
       ],
       "identity": {
@@ -9124,7 +9162,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T06:00:58.131103+00:00"
+        "at": "2026-08-29T18:58:10.538429+00:00"
       }
     },
     "13419": {
@@ -41451,5 +41489,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:58:09.084269+00:00"
+  "updated_at": "2026-08-29T18:58:11.094991+00:00"
 }
