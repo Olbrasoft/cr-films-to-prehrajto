@@ -6959,6 +6959,64 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:09:37.913866+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-9fcd936502f4abbb",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f59df3806b54",
+              "url": "https://prehraj.to/bozi-pole-s-r-o-1-a2-dil-cz-film-2006-jad/5f59df3806b54",
+              "title": "Boží pole s. r. o.-1.a2.díl-cz film-2006-jad",
+              "year": null,
+              "duration_sec": 9656,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.642,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584fdfe71bf6a",
+              "url": "https://prehraj.to/this-film-is-not-yet-rated-2006-limited-dvdrip-xvid-dmt/584fdfe71bf6a",
+              "title": "This.Film.Is.Not.Yet.Rated.2006.LIMITED.DVDRip.XviD-DMT",
+              "year": null,
+              "duration_sec": 5870,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 98,
+                "candidate_runtime_sec": 5870,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:39:57.072556+00:00"
         }
       ],
       "identity": {
@@ -6977,7 +7035,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:09:36.311142+00:00"
+        "at": "2026-08-29T18:39:55.948698+00:00"
       }
     },
     "25511": {
@@ -51685,5 +51743,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:39:54.448917+00:00"
+  "updated_at": "2026-08-29T18:39:57.072569+00:00"
 }
