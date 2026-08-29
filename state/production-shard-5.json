@@ -815,6 +815,125 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:21:26.248082+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-0a6bdb797e26d865",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67c4da40360f7",
+              "url": "https://prehraj.to/akce-v-istanbulu-1975-mp4/67c4da40360f7",
+              "title": "Akce v Istanbulu (1975) mp4",
+              "year": null,
+              "duration_sec": 5739,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1975,
+                "candidate_year": 1975,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5739,
+                "runtime_delta": 0.053,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "580e17c2a1142",
+              "url": "https://prehraj.to/akce-v-istanbulu-1975/580e17c2a1142",
+              "title": "Akce-v-Istanbulu-1975",
+              "year": null,
+              "duration_sec": 5735,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1975,
+                "candidate_year": 1975,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5735,
+                "runtime_delta": 0.054,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5823e0fb10afe",
+              "url": "https://prehraj.to/akce-v-istanbulu-1975/5823e0fb10afe",
+              "title": "Akce-v-Istanbulu-1975",
+              "year": null,
+              "duration_sec": 5735,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1975,
+                "candidate_year": 1975,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5735,
+                "runtime_delta": 0.054,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2774544d19f8caec",
+              "url": "https://prehraj.to/akce-v-istanbulu-1975/2774544d19f8caec",
+              "title": "Akce v Istanbulu (1975)",
+              "year": null,
+              "duration_sec": 5739,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1975,
+                "candidate_year": 1975,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 5739,
+                "runtime_delta": 0.053,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:30:32.072929+00:00"
         }
       ],
       "identity": {
@@ -833,7 +952,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:21:23.400249+00:00"
+        "at": "2026-08-29T18:30:29.329488+00:00"
       }
     },
     "24389": {
@@ -38970,5 +39089,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:30:23.409527+00:00"
+  "updated_at": "2026-08-29T18:30:32.072952+00:00"
 }
