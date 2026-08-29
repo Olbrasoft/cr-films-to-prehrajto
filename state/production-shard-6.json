@@ -774,6 +774,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:06:58.983801+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-75ba53d583171991",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "633e1e93c61ec",
+              "url": "https://prehraj.to/lanari-1994-1080p-cz-dab/633e1e93c61ec",
+              "title": "Lanaři (1994) 1080p cz dab",
+              "year": null,
+              "duration_sec": 6473,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1994,
+                "candidate_year": 1994,
+                "year_match": true,
+                "film_runtime_min": 101,
+                "candidate_runtime_sec": 6473,
+                "runtime_delta": 0.068,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:42:32.331054+00:00"
         }
       ],
       "identity": {
@@ -792,7 +830,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:06:58.308288+00:00"
+        "at": "2026-08-29T18:42:31.869194+00:00"
       }
     },
     "23350": {
@@ -51213,5 +51251,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:42:30.333386+00:00"
+  "updated_at": "2026-08-29T18:42:32.331069+00:00"
 }
