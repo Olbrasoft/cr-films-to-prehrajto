@@ -4825,6 +4825,148 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T00:12:10.336450+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-b952cddd5502b7a3",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "689f81a4f32aa",
+              "url": "https://prehraj.to/valecnici-jet-li-andy-lau-takesi-kanesiro-2007-akcni-drama-historicky-romanticky-valecny-hdtvrip-cz-dabing/689f81a4f32aa",
+              "title": "Válečníci (Jet Li, Andy Lau, Takeši Kaneširo-2007 Akční-Drama-Historický-Romantický-Válečný-Hdtvrip.) Cz dabing",
+              "year": null,
+              "duration_sec": 6518,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.279,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 6518,
+                "runtime_delta": 0.181,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58833ca741992",
+              "url": "https://prehraj.to/muj-zivot-neni-romanticka-komedie/58833ca741992",
+              "title": "Můj-život-není-romantická-komedie",
+              "year": null,
+              "duration_sec": 5535,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 92,
+                "candidate_runtime_sec": 5535,
+                "runtime_delta": 0.003,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "656ad782357ee",
+              "url": "https://prehraj.to/it-had-to-be-you-1947/656ad782357ee",
+              "title": "It Had to Be You 1947",
+              "year": null,
+              "duration_sec": 5666,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2007,
+                "candidate_year": 1947,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "It Had to be You (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59e920b2f0780",
+              "url": "https://prehraj.to/aston-merrygold-and-janette-foxtrot-to-it-had-to-be-you-strictly-come-dancing-2017/59e920b2f0780",
+              "title": "Aston Merrygold and Janette Foxtrot to ‘It Had To Be You’ -…",
+              "year": null,
+              "duration_sec": 99,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.982,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "It Had to be You (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59e920b72d393",
+              "url": "https://prehraj.to/aston-merrygold-and-janette-foxtrot-to-it-had-to-be-you-strictly-come-dancing-2017-2/59e920b72d393",
+              "title": "Aston Merrygold and Janette Foxtrot to ‘It Had To Be You’ -…",
+              "year": null,
+              "duration_sec": 99,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.982,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "It Had to be You (2007)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6556caa67d517",
+              "url": "https://prehraj.to/judas-priest-you-don-t-have-to-be-old-to-be-wise-live-at-the-seminole-hard-rock-arena/6556caa67d517",
+              "title": "Judas Priest - You Don't Have to Be Old to Be Wise (Live at…",
+              "year": null,
+              "duration_sec": 321,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.942,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "It Had to be You (2007)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:14:22.204853+00:00"
         }
       ],
       "identity": {
@@ -4843,7 +4985,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T00:12:06.987766+00:00"
+        "at": "2026-08-29T19:14:20.483969+00:00"
       }
     },
     "25922": {
@@ -141140,5 +141282,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:14:18.534567+00:00"
+  "updated_at": "2026-08-29T19:14:22.204873+00:00"
 }
