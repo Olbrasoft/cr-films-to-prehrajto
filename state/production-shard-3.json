@@ -1921,6 +1921,71 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T22:22:08.498569+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-33476bc7c074583e",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "55af708ecbb04",
+              "url": "https://prehraj.to/rembrandt-1936-engsub/55af708ecbb04",
+              "title": "Rembrandt-(1936)-engsub",
+              "year": null,
+              "duration_sec": 5047,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1936,
+                "candidate_year": 1936,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5047,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ed4fcf64da4e7a00",
+              "url": "https://prehraj.to/rembrandt-1936-en/ed4fcf64da4e7a00",
+              "title": "Rembrandt (1936) EN",
+              "year": null,
+              "duration_sec": 5047,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1936,
+                "candidate_year": 1936,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5047,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T18:34:31.430712+00:00"
         }
       ],
       "identity": {
@@ -1939,7 +2004,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T22:22:04.367498+00:00"
+        "at": "2026-08-29T18:34:28.580122+00:00"
       }
     },
     "17203": {
@@ -39341,5 +39406,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T18:34:27.069962+00:00"
+  "updated_at": "2026-08-29T18:34:31.430735+00:00"
 }
