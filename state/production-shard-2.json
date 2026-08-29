@@ -8740,6 +8740,44 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T17:29:21.846493+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-45f7cf2140b669d7",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "a90c6f71ccead2f8",
+              "url": "https://prehraj.to/barbora-radi-miroslav-cikan-1935-cely-film-barevny-mp4/a90c6f71ccead2f8",
+              "title": "Barbora rádí (Miroslav Cikán, 1935, celý film) - BAREVNY.mp4",
+              "year": null,
+              "duration_sec": 4731,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1935,
+                "candidate_year": 1935,
+                "year_match": true,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4731,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-29T19:15:54.829436+00:00"
         }
       ],
       "identity": {
@@ -8758,7 +8796,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T17:29:16.981612+00:00"
+        "at": "2026-08-29T19:15:36.068113+00:00"
       }
     },
     "10402": {
@@ -141716,5 +141754,5 @@
       }
     }
   },
-  "updated_at": "2026-08-29T19:15:34.019871+00:00"
+  "updated_at": "2026-08-29T19:15:54.829454+00:00"
 }
