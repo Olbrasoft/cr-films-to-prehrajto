@@ -1674,21 +1674,24 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25172386",
-          "account_name": "Nová doba ledová (2013) CZ",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2014,
-          "candidate_year": 2013,
-          "year_match": true,
-          "film_runtime_min": 85,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:23.999752+00:00"
+        "at": "2026-08-30T09:20:38.709404+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951002",
+        "display_name": "Doba ledová (2014) CZ Dabing",
+        "size_bytes": 745598765,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "51b8fbaf137c4f69",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:23:34.680626+00:00"
       }
     },
     "28934": {
@@ -59572,5 +59575,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:20:37.284751+00:00"
+  "updated_at": "2026-08-30T09:23:34.680658+00:00"
 }
