@@ -3401,7 +3401,20 @@
       }
     },
     "27373": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "b1278d9f286c2d75",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28951465",
+          "display_name": "Io sono l'abisso (2022) CZ titulky",
+          "size_bytes": 913396557,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:44:01.964106+00:00"
+        }
+      ],
       "identity": {
         "slug": "io-sono-l-abisso",
         "title": "Io sono l'abisso",
@@ -3414,21 +3427,11 @@
         "added_at": "2026-04-20 22:32:40.810471+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25436883",
-          "account_name": "Juice WRLD: Into the Abyss (2021)",
-          "title_similarity": 0.545,
-          "title_contains_alias": false,
-          "film_year": 2022,
-          "candidate_year": 2021,
-          "year_match": true,
-          "film_runtime_min": 126,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.711858+00:00"
+        "at": "2026-08-30T09:40:50.409262+00:00"
       }
     },
     "27149": {
@@ -43095,5 +43098,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:40:49.113924+00:00"
+  "updated_at": "2026-08-30T09:44:01.964127+00:00"
 }
