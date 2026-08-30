@@ -5637,7 +5637,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-30T11:13:50.195751+00:00"
+        "at": "2026-08-30T11:16:50.269386+00:00"
       }
     },
     "23869": {
@@ -7292,7 +7292,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:13:50.196122+00:00"
+        "at": "2026-08-30T11:16:50.269740+00:00"
       }
     },
     "14845": {
@@ -10189,48 +10189,11 @@
         "added_at": "2024-02-05 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24790155",
-              "account_name": "Bratři z donucení (2008) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2009,
-              "candidate_year": 2008,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "24794096",
-              "account_name": "Velcí bratři (2008) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2009,
-              "candidate_year": 2008,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25481921",
-              "account_name": "Pokrevní bratři 2 (2009)",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2009,
-              "candidate_year": 2009,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.735412+00:00"
+        "at": "2026-08-30T11:16:50.271248+00:00"
       }
     },
     "12925": {
@@ -43205,5 +43168,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:16:43.222391+00:00"
+  "updated_at": "2026-08-30T11:16:50.760836+00:00"
 }
