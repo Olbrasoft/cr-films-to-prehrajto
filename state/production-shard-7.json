@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-30T12:26:27.378238+00:00"
+        "at": "2026-08-30T12:33:05.261880+00:00"
       }
     },
     "23807": {
@@ -27591,7 +27591,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-30T12:26:27.378504+00:00"
+        "at": "2026-08-30T12:33:05.262147+00:00"
       }
     },
     "14191": {
@@ -29293,30 +29293,24 @@
             {
               "target_video_id": "25503423",
               "account_name": "Skřítek (1993)",
-              "title_similarity": 0.762,
-              "title_contains_alias": false,
+              "title_similarity": 0.875,
+              "title_exact_alias": false,
               "film_year": 1994,
               "candidate_year": 1993,
-              "year_match": true,
-              "film_runtime_min": 85,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             },
             {
               "target_video_id": "24947132",
               "account_name": "Skřítek 3 (1995) CZ Dabing",
-              "title_similarity": 0.696,
-              "title_contains_alias": false,
+              "title_similarity": 0.889,
+              "title_exact_alias": false,
               "film_year": 1994,
               "candidate_year": 1995,
-              "year_match": true,
-              "film_runtime_min": 85,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             }
           ]
         },
-        "at": "2026-08-30T08:57:45.815284+00:00"
+        "at": "2026-08-30T12:33:05.262811+00:00"
       }
     },
     "10591": {
@@ -29339,15 +29333,12 @@
           "target_video_id": "28835824",
           "account_name": "Luca (2021) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2021,
           "candidate_year": 2021,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:45.815387+00:00"
+        "at": "2026-08-30T12:33:05.262883+00:00"
       }
     },
     "3767": {
@@ -29737,36 +29728,11 @@
         "added_at": "2020-10-05 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25363653",
-              "account_name": "The Girl Next Door (2007) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2007,
-              "candidate_year": 2007,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25162775",
-              "account_name": "SOS! Tokyo Metro Explorers: The Next (2007) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2007,
-              "candidate_year": 2007,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.815904+00:00"
+        "at": "2026-08-30T12:33:05.263097+00:00"
       }
     },
     "14295": {
@@ -60391,5 +60357,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:32:57.680677+00:00"
+  "updated_at": "2026-08-30T12:33:06.905600+00:00"
 }
