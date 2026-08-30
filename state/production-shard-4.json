@@ -17486,7 +17486,647 @@
       }
     },
     "28948": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab9a02b8864c",
+              "url": "https://prehraj.to/durak-2014/5ab9a02b8864c",
+              "title": "Durak (2014)",
+              "year": null,
+              "duration_sec": 6962,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 37.678,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "213114f120903404",
+              "url": "https://prehraj.to/non-stop-2014-cz-1080p-brrip/213114f120903404",
+              "title": "Non-Stop.2014.CZ.1080p.BRRip",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63f254164ddce",
+              "url": "https://prehraj.to/non-stop-2014-cz/63f254164ddce",
+              "title": "Non-Stop (2014) CZ",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c046e3aca271663c",
+              "url": "https://prehraj.to/novinka-non-stop-2014-cz-cz-tit-thriller-akcni-mysteriozni/c046e3aca271663c",
+              "title": "novinka_NON-STOP-(2014)-(CZ+CZ-tit.)-(Thriller,-Akční,…",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "678040988781d",
+              "url": "https://prehraj.to/non-stop-2014-cz-en-en/678040988781d",
+              "title": "Non-Stop (2014) CZ-EN-EN",
+              "year": null,
+              "duration_sec": 6398,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.544,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0aa1cf449a573ee5",
+              "url": "https://prehraj.to/non-stop-2014-cz-cz-tit-thriller-akcni-mysteriozni-fv/0aa1cf449a573ee5",
+              "title": "NON-STOP-(2014)-(CZ+CZ-tit.)-(Thriller,-Akční,-Mysteriózní)…",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f331caae29309c0e",
+              "url": "https://prehraj.to/novinka-fv-non-stop-2014-cz-cz-tit-thriller-akcni-mysteriozni-fv/f331caae29309c0e",
+              "title": "Novinka_fv_NON-STOP-(2014)-(CZ+CZ-tit.)-(Thriller,-Akční,…",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68adacdaab795",
+              "url": "https://prehraj.to/non-stop-2014-cz-cz-tit-thriller-akcni-mysteriozni/68adacdaab795",
+              "title": "NON-STOP-(2014)-(CZ+CZ-tit.)-(Thriller,-Akční,-Mysteriózní)",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "686623f6195f0",
+              "url": "https://prehraj.to/non-stop-liam-neeson-julianne-moore-michelle-dockery-2014-akcni-drama-czdab/686623f6195f0",
+              "title": "Non-Stop,(Liam.Neeson,Julianne.Moore,Michelle,Dockery),2014…",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6740f7397feee",
+              "url": "https://prehraj.to/non-stop-liam-neeson-julianne-moore-michelle-dockery-2014-mysteriozni-akcni-thriller-bdrip-1080p-cz-dabing/6740f7397feee",
+              "title": "Non-Stop (Liam Neeson,Julianne Moore,Michelle Dockery-2014…",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "415d35dec97891a7",
+              "url": "https://prehraj.to/non-stop-liam-neeson-julianne-moore-michelle-dockery-2014-mysteriozni-akcni-thriller-bdrip-1080p-cz-dabing/415d35dec97891a7",
+              "title": "Non-Stop (Liam Neeson, Julianne Moore, Michelle Dockery…",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "75f44b0c52df6e7c",
+              "url": "https://prehraj.to/non-stop-liam-neeson-julianne-moore-michelle-dockery-2014-akcni-drama-czdab/75f44b0c52df6e7c",
+              "title": "Non-Stop,(Liam.Neeson,Julianne.Moore,Michelle,Dockery),2014…",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67305c6848eed",
+              "url": "https://prehraj.to/non-stop-2014/67305c6848eed",
+              "title": "NON-STOP (2014)",
+              "year": null,
+              "duration_sec": 6078,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 32.767,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685752b2dea99",
+              "url": "https://prehraj.to/non-stop-2014-cz-en-1080p/685752b2dea99",
+              "title": "NON-STOP 2014 CZ,EN 1080p",
+              "year": null,
+              "duration_sec": 6370,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.389,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63ee1062b6975",
+              "url": "https://prehraj.to/non-stop-2014-bdrip-cz-en-1080p/63ee1062b6975",
+              "title": "Non-Stop (2014) BDRip.CZ.EN.1080p",
+              "year": null,
+              "duration_sec": 6370,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.389,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "573ac93e54c50",
+              "url": "https://prehraj.to/non-stop-cz-dabing-2014/573ac93e54c50",
+              "title": "Non Stop, CZ dabing (2014)",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6740eebb5c8aa",
+              "url": "https://prehraj.to/non-stop-liam-neeson-julianne-moore-michelle-dockery-2014-mysteriozni-akcni-thriller-bdrip-1080p-cz-dabing/6740eebb5c8aa",
+              "title": "Non-Stop (Liam Neeson,Julianne Moore,Michelle Dockery-2014…",
+              "year": null,
+              "duration_sec": 6398,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.544,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fbacd3e96cea",
+              "url": "https://prehraj.to/non-stop-2014-cz/5fbacd3e96cea",
+              "title": "Non Stop 2014 CZ",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5abaa2044e835",
+              "url": "https://prehraj.to/non-stop-cz-dabing-2014/5abaa2044e835",
+              "title": "Non Stop [CZ dabing, 2014]",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57d42e229f818",
+              "url": "https://prehraj.to/non-stop-2014-czdabing/57d42e229f818",
+              "title": "Non stop 2014  CZdabing",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cdad76ddaa5e",
+              "url": "https://prehraj.to/non-stop-2014-czdab-by-fidlatko/5cdad76ddaa5e",
+              "title": "NON-STOP (2014)CZDab by fidlatko",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa2384f29624",
+              "url": "https://prehraj.to/non-stop-2014/5aa2384f29624",
+              "title": "NON-STOP (2014)",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "03984e167916b640",
+              "url": "https://prehraj.to/non-stop-2014-cs/03984e167916b640",
+              "title": "NON-STOP - 2014 CS",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "07186807a73dd9ff",
+              "url": "https://prehraj.to/non-stop-2014-thriller-cz-dabing-fv/07186807a73dd9ff",
+              "title": "NON-STOP (2014)_thriller_CZ dabing_fv_",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "01fbee2c52f58acc",
+              "url": "https://prehraj.to/non-stop-2014-thriller-cz-dabing-avi/01fbee2c52f58acc",
+              "title": "NON-STOP (2014)_thriller_CZ dabing.avi",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0302052d48c7649e",
+              "url": "https://prehraj.to/non-stop-2014-thriller-cz-dabing/0302052d48c7649e",
+              "title": "NON-STOP (2014)_thriller_CZ dabing",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b625a73b3257d83e",
+              "url": "https://prehraj.to/novinka-non-stop-2014-thriller-cz-dabing/b625a73b3257d83e",
+              "title": "novinka_NON-STOP (2014)_thriller_CZ dabing",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ce1bcc9aa2c2",
+              "url": "https://prehraj.to/non-stop-2014-bdrip-cz-dab/5ce1bcc9aa2c2",
+              "title": "Non-Stop .2014 BDRip CZ Dab",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57d5934f5bd7b",
+              "url": "https://prehraj.to/non-stop-2014-czdab/57d5934f5bd7b",
+              "title": "Non Stop (2014) CZdab",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55d5ce99096d8",
+              "url": "https://prehraj.to/non-stop-2014-cz-dabing-novinka/55d5ce99096d8",
+              "title": "Non Stop-2014-cz.dabing-novinka",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5867a011804c6",
+              "url": "https://prehraj.to/non-stop-cz-dabing-2014-by-brute/5867a011804c6",
+              "title": "Non Stop [CZ dabing, 2014] by BRUTE",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5875150293dbb",
+              "url": "https://prehraj.to/non-stop-cz-dabing-2014/5875150293dbb",
+              "title": "Non Stop cz dabing 2014",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55ff073a35cb9",
+              "url": "https://prehraj.to/non-stop-2014-cz-dabing-novinka-hit/55ff073a35cb9",
+              "title": "Non Stop (2014) CZ DABING NOVINKA HIT",
+              "year": null,
+              "duration_sec": 6397,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 34.539,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Stop (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:50:27.615573+00:00"
+        }
+      ],
       "identity": {
         "slug": "stop",
         "title": "Stop",
@@ -17499,21 +18139,11 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24790926",
-          "account_name": "NON-STOP (2014) CZ Dabing",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2014,
-          "candidate_year": 2014,
-          "year_match": true,
-          "film_runtime_min": 3,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.362274+00:00"
+        "at": "2026-08-30T12:50:26.676860+00:00"
       }
     },
     "28924": {
@@ -38994,5 +39624,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:50:25.245804+00:00"
+  "updated_at": "2026-08-30T12:50:27.615590+00:00"
 }
