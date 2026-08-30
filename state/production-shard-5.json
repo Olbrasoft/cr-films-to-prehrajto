@@ -2218,7 +2218,20 @@
       }
     },
     "17517": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "6113d3d8e1fc7",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28951233",
+          "display_name": "Dokonalá desítka (2020) CZ titulky",
+          "size_bytes": 1377195560,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:33:29.041330+00:00"
+        }
+      ],
       "identity": {
         "slug": "dokonala-desitka-2020",
         "title": "Dokonalá desítka",
@@ -2231,36 +2244,11 @@
         "added_at": "2021-08-07 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25399572",
-              "account_name": "Dan Carter: A Perfect 10 (2019) SK Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2020,
-              "candidate_year": 2019,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25299820",
-              "account_name": "A Perfect Enemy (2020) CZ Titulky",
-              "title_similarity": 0.6,
-              "title_contains_alias": false,
-              "film_year": 2020,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.707853+00:00"
+        "at": "2026-08-30T09:29:21.247604+00:00"
       }
     },
     "16845": {
@@ -43047,5 +43035,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:29:15.292238+00:00"
+  "updated_at": "2026-08-30T09:33:29.041355+00:00"
 }
