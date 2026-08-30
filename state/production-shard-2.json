@@ -2155,21 +2155,11 @@
         "added_at": "2026-04-20 22:32:41.300427+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25170513",
-          "account_name": "LEGO Hero Factory: Nový tým (2010) CZ",
-          "title_similarity": 0.645,
-          "title_contains_alias": false,
-          "film_year": 2011,
-          "candidate_year": 2010,
-          "year_match": true,
-          "film_runtime_min": 44,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.322051+00:00"
+        "at": "2026-08-30T09:19:42.784706+00:00"
       }
     },
     "27970": {
@@ -253356,5 +253346,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:19:40.306977+00:00"
+  "updated_at": "2026-08-30T09:19:43.509117+00:00"
 }
