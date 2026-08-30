@@ -8069,7 +8069,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T12:46:19.210663+00:00"
+        "at": "2026-08-30T12:51:23.647300+00:00"
       }
     },
     "9147": {
@@ -9874,7 +9874,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T12:46:19.211658+00:00"
+        "at": "2026-08-30T12:51:23.648291+00:00"
       }
     },
     "15619": {
@@ -11935,7 +11935,7 @@
           "candidate_year": 2022,
           "year_match": true
         },
-        "at": "2026-08-30T12:46:19.211889+00:00"
+        "at": "2026-08-30T12:51:23.648558+00:00"
       }
     },
     "7115": {
@@ -19606,7 +19606,46 @@
       }
     },
     "28899": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5abe755f0ad47",
+              "url": "https://prehraj.to/zombies-2017/5abe755f0ad47",
+              "title": "Zombies (2017)",
+              "year": null,
+              "duration_sec": 5083,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.5,
+                "title_contains_alias": false,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": 70,
+                "candidate_runtime_sec": 5083,
+                "runtime_delta": 0.21,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:51:26.307372+00:00"
+        }
+      ],
       "identity": {
         "slug": "alien-vs-zombies",
         "title": "Alien Vs. Zombies",
@@ -19619,21 +19658,11 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25451411",
-          "account_name": "Alien Siege (2018)",
-          "title_similarity": 0.562,
-          "title_contains_alias": false,
-          "film_year": 2017,
-          "candidate_year": 2018,
-          "year_match": true,
-          "film_runtime_min": 70,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.644680+00:00"
+        "at": "2026-08-30T12:51:23.649386+00:00"
       }
     },
     "28811": {
@@ -41581,5 +41610,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:51:18.348092+00:00"
+  "updated_at": "2026-08-30T12:51:26.307390+00:00"
 }
