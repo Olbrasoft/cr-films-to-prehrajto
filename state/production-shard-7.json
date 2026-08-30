@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-30T14:56:30.240060+00:00"
+        "at": "2026-08-30T15:33:29.554135+00:00"
       }
     },
     "23807": {
@@ -27681,7 +27681,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-30T14:56:30.240364+00:00"
+        "at": "2026-08-30T15:33:29.554513+00:00"
       }
     },
     "14191": {
@@ -29403,7 +29403,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:56:30.241097+00:00"
+        "at": "2026-08-30T15:33:29.555486+00:00"
       }
     },
     "10591": {
@@ -29431,7 +29431,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T14:56:30.241166+00:00"
+        "at": "2026-08-30T15:33:29.555573+00:00"
       }
     },
     "3767": {
@@ -29944,7 +29944,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:56:30.250900+00:00"
+        "at": "2026-08-30T15:33:29.568078+00:00"
       }
     },
     "999": {
@@ -30167,7 +30167,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:56:30.252495+00:00"
+        "at": "2026-08-30T15:33:29.570104+00:00"
       }
     },
     "4983": {
@@ -53860,6 +53860,88 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T15:32:41.262122+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "8151d5c0604b2671",
+              "url": "https://prehraj.to/a-quiet-place-day-one-2024/8151d5c0604b2671",
+              "title": "A Quiet Place - Day One (2024)",
+              "year": null,
+              "duration_sec": 5720,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2018,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "A Quiet Place (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bf5a904acca94ce1",
+              "url": "https://prehraj.to/tiche-misto-cast-2-a-quiet-place-part-2-cz-en-1080p/bf5a904acca94ce1",
+              "title": "Tiche Misto - Cast 2 - A Quiet Place Part 2 CZ,EN 1080p.",
+              "year": null,
+              "duration_sec": 5820,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5820,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "A Quiet Place (2018)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "57045",
+              "url": "https://online.sktorrent.eu/video/57045/",
+              "title": "Tiché místo",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:33:35.011873+00:00"
         }
       ],
       "identity": {
@@ -53878,7 +53960,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T14:41:28.035165+00:00"
+        "at": "2026-08-30T15:33:29.571544+00:00"
       }
     },
     "14799": {
@@ -61345,5 +61427,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:32:41.728852+00:00"
+  "updated_at": "2026-08-30T15:33:35.011890+00:00"
 }
