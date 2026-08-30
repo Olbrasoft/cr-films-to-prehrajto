@@ -5277,7 +5277,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T10:00:45.897280+00:00",
-        "last_verification_at": "2026-08-30T10:30:12.316473+00:00"
+        "last_verification_at": "2026-08-30T11:49:03.167291+00:00"
       }
     },
     "17490": {
@@ -5431,8 +5431,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T10:41:54.628968+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T10:41:54.628968+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.167294+00:00",
+        "verified_at": "2026-08-30T11:49:03.167296+00:00",
+        "live_display_name": "Letní tábor (2024) CZ Dabing"
       }
     },
     "9842": {
@@ -5649,8 +5652,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T10:49:38.419061+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T10:49:38.419061+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.167298+00:00",
+        "verified_at": "2026-08-30T11:49:03.167301+00:00",
+        "live_display_name": "Kickboxer: Odplata (2017) CZ Dabing"
       }
     },
     "14978": {
@@ -5936,7 +5942,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-26T13:07:09.275068+00:00"
+        "uploaded_at": "2026-08-26T13:07:09.275068+00:00",
+        "last_verification_at": "2026-08-30T11:49:36.423008+00:00"
       }
     },
     "10706": {
@@ -6041,8 +6048,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T10:54:12.864504+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T10:54:12.864504+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.167303+00:00",
+        "verified_at": "2026-08-30T11:49:03.167305+00:00",
+        "live_display_name": "Nepřivolávej nic zlého (2022) CZ Dabing"
       }
     },
     "16170": {
@@ -7211,7 +7221,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T10:57:42.698471+00:00"
+        "uploaded_at": "2026-08-30T10:57:42.698471+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.167307+00:00"
       }
     },
     "2842": {
@@ -7316,8 +7327,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T11:00:31.477924+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T11:00:31.477924+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.167309+00:00",
+        "verified_at": "2026-08-30T11:49:03.167311+00:00",
+        "live_display_name": "O malých věcech (2023) CZ Dabing"
       }
     },
     "14202": {
@@ -7507,8 +7521,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T11:06:26.644230+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T11:06:26.644230+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.167313+00:00",
+        "verified_at": "2026-08-30T11:49:03.167315+00:00",
+        "live_display_name": "Superman se vrací (2006) CZ Dabing"
       }
     },
     "1602": {
@@ -7740,6 +7757,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T11:13:20.603327+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "638aa7dff1a27",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28952992",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T11:49:03.167327+00:00"
         }
       ],
       "identity": {
@@ -7759,19 +7787,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T11:06:33.007575+00:00"
-      },
-      "upload": {
-        "target_video_id": "28952992",
-        "display_name": "Trojúhelník smutku (2022) CZ titulky",
-        "size_bytes": 1953149356,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "638aa7dff1a27",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 720,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T11:13:51.035855+00:00"
       }
     },
     "15722": {
@@ -7804,8 +7819,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T11:27:24.372991+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T11:27:24.372991+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.457543+00:00",
+        "verified_at": "2026-08-30T11:49:03.457565+00:00",
+        "live_display_name": "Kouzelní kmotříčci a Vánoce (2013) CZ Dabing"
       }
     },
     "10010": {
@@ -7910,8 +7928,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T11:29:13.307821+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T11:29:13.307821+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.457570+00:00",
+        "verified_at": "2026-08-30T11:49:03.457573+00:00",
+        "live_display_name": "Až do nebes (2020) CZ Dabing"
       }
     },
     "5850": {
@@ -8305,7 +8326,8 @@
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T11:35:42.722592+00:00"
+        "uploaded_at": "2026-08-30T11:35:42.722592+00:00",
+        "last_verification_at": "2026-08-30T11:49:03.457577+00:00"
       }
     },
     "15098": {
@@ -253165,5 +253187,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:35:42.722627+00:00"
+  "updated_at": "2026-08-30T11:49:59.125936+00:00"
 }
