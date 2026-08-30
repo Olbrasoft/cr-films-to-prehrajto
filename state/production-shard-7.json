@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-30T13:11:28.116144+00:00"
+        "at": "2026-08-30T14:30:27.039891+00:00"
       }
     },
     "23807": {
@@ -27591,7 +27591,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-30T13:11:28.116412+00:00"
+        "at": "2026-08-30T14:30:27.040212+00:00"
       }
     },
     "14191": {
@@ -29313,7 +29313,7 @@
             }
           ]
         },
-        "at": "2026-08-30T13:11:28.117061+00:00"
+        "at": "2026-08-30T14:30:27.040988+00:00"
       }
     },
     "10591": {
@@ -29341,7 +29341,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T13:11:28.117124+00:00"
+        "at": "2026-08-30T14:30:27.041062+00:00"
       }
     },
     "3767": {
@@ -29854,7 +29854,7 @@
             }
           ]
         },
-        "at": "2026-08-30T13:11:28.125453+00:00"
+        "at": "2026-08-30T14:30:27.050954+00:00"
       }
     },
     "999": {
@@ -30077,7 +30077,7 @@
             }
           ]
         },
-        "at": "2026-08-30T13:11:28.126843+00:00"
+        "at": "2026-08-30T14:30:27.052650+00:00"
       }
     },
     "4983": {
@@ -32612,7 +32612,285 @@
       }
     },
     "29895": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61210635363f0",
+              "url": "https://prehraj.to/soldatik-2019-1080p-webrip-x264-aac-yts-mx/61210635363f0",
+              "title": "Soldatik.2019.1080p.WEBRip.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 5189,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5189,
+                "runtime_delta": 0.006,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fc02e72edbcd",
+              "url": "https://prehraj.to/soldier-boyz-1995-cztitulky/5fc02e72edbcd",
+              "title": "Soldier Boyz (1995) CZtitulky",
+              "year": null,
+              "duration_sec": 5361,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2019,
+                "candidate_year": 1995,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f37aeb7d65d542d2",
+              "url": "https://prehraj.to/vojacek-vojacik-soldatik-soldatik-soldier-boy-2018-ru-en-tit-hard-mkv/f37aeb7d65d542d2",
+              "title": "Vojáček / Vojačik / Soldatik / Солдатик / Soldier Boy 2018,…",
+              "year": null,
+              "duration_sec": 5188,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "slo",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5188,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d124896bacda68fd",
+              "url": "https://prehraj.to/vojacek-vojacik-soldatik-soldatik-soldier-boy-2018-ru-en-tit-hard-mkv/d124896bacda68fd",
+              "title": "Vojáček / Vojačik / Soldatik / Солдатик / Soldier Boy 2018,…",
+              "year": null,
+              "duration_sec": 5188,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5188,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57a57696c656af05",
+              "url": "https://prehraj.to/vojacek-vojacik-soldatik-soldatik-soldier-boy-2018-ru-en-tit-sk-tit-mkv/57a57696c656af05",
+              "title": "Vojáček / Vojačik / Soldatik / Солдатик / Soldier Boy 2018,…",
+              "year": null,
+              "duration_sec": 5182,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "eng",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "slo",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5182,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fa0b0d7d1b41ae25",
+              "url": "https://prehraj.to/vojacek-vojacik-soldatik-soldatik-soldier-boy-2018-ru-en-tit-hard-sk-tit-mkv/fa0b0d7d1b41ae25",
+              "title": "Vojáček / Vojačik / Soldatik / Солдатик / Soldier Boy 2018,…",
+              "year": null,
+              "duration_sec": 5188,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "slo",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5188,
+                "runtime_delta": 0.005,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7bf742af34d651d7",
+              "url": "https://prehraj.to/vojacek-vojacik-soldatik-soldatik-soldier-boy-2018-ru-avi/7bf742af34d651d7",
+              "title": "Vojáček / Vojačik / Soldatik / Солдатик / Soldier Boy 2018,…",
+              "year": null,
+              "duration_sec": 5182,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2019,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5182,
+                "runtime_delta": 0.004,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5990ee9ccf54f",
+              "url": "https://prehraj.to/a-different-world-322-soldier-boy/5990ee9ccf54f",
+              "title": "A_Different_World_322_-_Soldier_Boy",
+              "year": null,
+              "duration_sec": 1192,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.769,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6659e022c191e",
+              "url": "https://prehraj.to/soldiers-of-core-fat-boy/6659e022c191e",
+              "title": "Soldiers Of Core - Fat Boy",
+              "year": null,
+              "duration_sec": 249,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.952,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Soldier Boy (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6555fda8578ac",
+              "url": "https://prehraj.to/bob-marley-the-wailers-buffalo-soldier-official-music-video/6555fda8578ac",
+              "title": "Bob Marley & The Wailers - Buffalo Soldier (Official Music…",
+              "year": null,
+              "duration_sec": 162,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.969,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Soldier Boy (2019)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T14:30:30.980255+00:00"
+        }
+      ],
       "identity": {
         "slug": "soldier-boy",
         "title": "Soldier Boy",
@@ -32625,21 +32903,11 @@
         "added_at": "2026-04-20 22:32:43.318708+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25303388",
-          "account_name": "Father Soldier Son (2020) CZ Titulky",
-          "title_similarity": 0.529,
-          "title_contains_alias": false,
-          "film_year": 2019,
-          "candidate_year": 2020,
-          "year_match": true,
-          "film_runtime_min": 86,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.846421+00:00"
+        "at": "2026-08-30T14:30:27.052947+00:00"
       }
     },
     "29879": {
@@ -60391,5 +60659,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T14:29:36.841782+00:00"
+  "updated_at": "2026-08-30T14:30:30.980276+00:00"
 }
