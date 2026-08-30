@@ -5637,7 +5637,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-30T14:37:36.689740+00:00"
+        "at": "2026-08-30T14:50:37.637899+00:00"
       }
     },
     "23869": {
@@ -7292,7 +7292,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:37:36.690259+00:00"
+        "at": "2026-08-30T14:50:37.638422+00:00"
       }
     },
     "14845": {
@@ -10576,7 +10576,7 @@
           "candidate_year": 2006,
           "year_match": true
         },
-        "at": "2026-08-30T14:37:36.690425+00:00"
+        "at": "2026-08-30T14:50:37.638584+00:00"
       }
     },
     "7517": {
@@ -11037,7 +11037,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T14:37:36.690846+00:00"
+        "at": "2026-08-30T14:50:37.638997+00:00"
       }
     },
     "3261": {
@@ -13372,7 +13372,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T14:37:36.691403+00:00"
+        "at": "2026-08-30T14:50:37.639557+00:00"
       }
     },
     "13781": {
@@ -16543,7 +16543,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:37:36.691636+00:00"
+        "at": "2026-08-30T14:50:37.639784+00:00"
       }
     },
     "14405": {
@@ -16643,7 +16643,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-30T14:37:36.691723+00:00"
+        "at": "2026-08-30T14:50:37.639875+00:00"
       }
     },
     "2741": {
@@ -25787,7 +25787,46 @@
       }
     },
     "27245": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61d9c1c29621c",
+              "url": "https://prehraj.to/tokyo-revengers-2021-1080p-web-rip-10-bit-x265-titulky-cz/61d9c1c29621c",
+              "title": "Tokyo.Revengers.2021.1080p.WEB-RIP.10-bit.x265 titulky CZ",
+              "year": null,
+              "duration_sec": 7187,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.319,
+                "title_contains_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 7187,
+                "runtime_delta": 0.497,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T14:50:40.801961+00:00"
+        }
+      ],
       "identity": {
         "slug": "mortal-kombat-legends-bitva-o-rise",
         "title": "Mortal Kombat Legends: Bitva o říše",
@@ -25800,36 +25839,11 @@
         "added_at": "2026-04-20 22:32:40.810471+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "28839141",
-              "account_name": "Mortal Kombat Legends: Scorpion's Revenge (2020) CZ titulky",
-              "title_similarity": 0.658,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 80,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25279752",
-              "account_name": "Mortal Kombat Legends: Snow Blind (2022) CZ Titulky",
-              "title_similarity": 0.648,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2022,
-              "year_match": true,
-              "film_runtime_min": 80,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.774002+00:00"
+        "at": "2026-08-30T14:50:37.640700+00:00"
       }
     },
     "27221": {
@@ -43132,5 +43146,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T14:50:30.298452+00:00"
+  "updated_at": "2026-08-30T14:50:40.801978+00:00"
 }
