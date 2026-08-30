@@ -4411,7 +4411,20 @@
       }
     },
     "26653": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "4ca56fc8e16c7ab5",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28951542",
+          "display_name": "Krvavá jízda (2009) CZ titulky",
+          "size_bytes": 399479823,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:46:20.415725+00:00"
+        }
+      ],
       "identity": {
         "slug": "krvava-jizda",
         "title": "Krvavá jízda",
@@ -4424,21 +4437,11 @@
         "added_at": "2026-04-20 22:32:40.301539+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25024268",
-          "account_name": "Krvavá aréna (2010) CZ",
-          "title_similarity": 0.552,
-          "title_contains_alias": false,
-          "film_year": 2009,
-          "candidate_year": 2010,
-          "year_match": true,
-          "film_runtime_min": 81,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.717265+00:00"
+        "at": "2026-08-30T09:44:50.289590+00:00"
       }
     },
     "26629": {
@@ -43111,5 +43114,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:44:44.345599+00:00"
+  "updated_at": "2026-08-30T09:46:20.415743+00:00"
 }
