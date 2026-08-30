@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:00:37.425172+00:00"
+        "at": "2026-08-30T11:06:33.007243+00:00"
       }
     },
     "22730": {
@@ -7741,21 +7741,11 @@
         "added_at": "2023-03-19 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25402634",
-          "account_name": "The Sadness (2021) SK Titulky",
-          "title_similarity": 0.571,
-          "title_contains_alias": false,
-          "film_year": 2022,
-          "candidate_year": 2021,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.341069+00:00"
+        "at": "2026-08-30T11:06:33.007575+00:00"
       }
     },
     "15722": {
@@ -253419,5 +253409,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:06:26.644263+00:00"
+  "updated_at": "2026-08-30T11:06:33.831805+00:00"
 }
