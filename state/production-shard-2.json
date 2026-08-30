@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T13:14:25.958731+00:00"
+        "at": "2026-08-30T14:31:19.325841+00:00"
       }
     },
     "22730": {
@@ -9062,7 +9062,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T13:14:25.959242+00:00"
+        "at": "2026-08-30T14:31:19.326402+00:00"
       }
     },
     "466": {
@@ -87391,6 +87391,51 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T14:29:14.654070+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-2b601f11e3f0cb7a",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67b54a59ade00",
+              "url": "https://prehraj.to/the-island-2005-cz-dabing-1080p/67b54a59ade00",
+              "title": "The+Island+2005+CZ+Dabing+1080p",
+              "year": null,
+              "duration_sec": 8164,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8164,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T14:31:20.238574+00:00"
         }
       ],
       "identity": {
@@ -87409,7 +87454,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T12:51:03.988758+00:00"
+        "at": "2026-08-30T14:31:19.329087+00:00"
       }
     },
     "2698": {
@@ -253210,5 +253255,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T14:29:36.902932+00:00"
+  "updated_at": "2026-08-30T14:31:20.238589+00:00"
 }
