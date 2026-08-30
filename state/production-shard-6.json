@@ -27771,21 +27771,24 @@
         "added_at": "2022-05-16 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24887484",
-          "account_name": "Zlouni: Vánoční zlo (2023) CZ Dabing",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2022,
-          "candidate_year": 2023,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.016408+00:00"
+        "at": "2026-08-30T10:56:58.774790+00:00"
+      },
+      "upload": {
+        "target_video_id": "28952765",
+        "display_name": "Zlouni (2022) CZ Dabing",
+        "size_bytes": 1750869389,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "a79f5de24ef71e0f",
+        "language_tier": "czech_audio",
+        "actual_resolution": 720,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T11:02:35.334239+00:00"
       }
     },
     "14110": {
@@ -59543,5 +59546,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:56:51.553412+00:00"
+  "updated_at": "2026-08-30T11:02:35.334267+00:00"
 }
