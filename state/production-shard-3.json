@@ -21612,7 +21612,46 @@
       }
     },
     "28155": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "59dcaa6b31259",
+              "url": "https://prehraj.to/vrazda-na-objednavku-tv-rip-cz-2013/59dcaa6b31259",
+              "title": "vrazda-na-objednavku-tv-rip-cz-2013",
+              "year": null,
+              "duration_sec": 5337,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.31,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 89,
+                "candidate_runtime_sec": 5337,
+                "runtime_delta": 0.001,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:51:29.821388+00:00"
+        }
+      ],
       "identity": {
         "slug": "vrazda-prezidenta-lincolna",
         "title": "Vražda prezidenta Lincolna",
@@ -21625,21 +21664,11 @@
         "added_at": "2026-04-20 22:32:41.789747+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25378164",
-          "account_name": "Lincoln (2012) CZ",
-          "title_similarity": 0.519,
-          "title_contains_alias": false,
-          "film_year": 2013,
-          "candidate_year": 2012,
-          "year_match": true,
-          "film_runtime_min": 89,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.645215+00:00"
+        "at": "2026-08-30T12:51:27.697323+00:00"
       }
     },
     "28107": {
@@ -41610,5 +41639,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:51:26.307390+00:00"
+  "updated_at": "2026-08-30T12:51:29.821405+00:00"
 }
