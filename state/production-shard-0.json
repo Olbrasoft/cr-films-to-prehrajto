@@ -60856,7 +60856,39 @@
       }
     },
     "24600": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58481776c0592",
+              "url": "https://prehraj.to/nic-takoveho-usa-island-komedialni-drama-2001-tvrip/58481776c0592",
+              "title": "Nic-takoveho-USA-Island-komedialni-drama--2001-TVrip",
+              "year": null,
+              "duration_sec": 5926,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.506,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T11:52:25.761286+00:00"
+        }
+      ],
       "identity": {
         "slug": "the-life-and-adventures-of-nicholas-nickleby",
         "title": "The Life and Adventures of Nicholas Nickleby",
@@ -60869,21 +60901,11 @@
         "added_at": "2026-04-20 22:32:37.695316+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25497748",
-          "account_name": "Nicholas Nickleby (2002)",
-          "title_similarity": 0.515,
-          "title_contains_alias": false,
-          "film_year": 2001,
-          "candidate_year": 2002,
-          "year_match": true,
-          "film_runtime_min": 200,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.128818+00:00"
+        "at": "2026-08-30T11:52:24.310134+00:00"
       }
     },
     "24596": {
@@ -68447,7 +68469,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T11:50:40.096170+00:00"
+        "at": "2026-08-30T11:52:24.308544+00:00"
       }
     },
     "14024": {
@@ -69880,7 +69902,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T11:50:40.096417+00:00"
+        "at": "2026-08-30T11:52:24.308776+00:00"
       }
     },
     "10304": {
@@ -70786,7 +70808,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T11:50:40.096656+00:00"
+        "at": "2026-08-30T11:52:24.309007+00:00"
       }
     },
     "14096": {
@@ -82870,7 +82892,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:50:40.096843+00:00"
+        "at": "2026-08-30T11:52:24.309206+00:00"
       }
     },
     "4056": {
@@ -86771,7 +86793,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:50:40.097190+00:00"
+        "at": "2026-08-30T11:52:24.309534+00:00"
       }
     },
     "6440": {
@@ -95938,5 +95960,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:52:22.641124+00:00"
+  "updated_at": "2026-08-30T11:52:25.761305+00:00"
 }
