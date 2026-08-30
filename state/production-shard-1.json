@@ -72651,21 +72651,24 @@
         "added_at": "2026-04-20 22:32:39.267246+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25229314",
-          "account_name": "Jízdenka do vesmíru (2006) CZ Dabing",
-          "title_similarity": 0.564,
-          "title_contains_alias": false,
-          "film_year": 2007,
-          "candidate_year": 2006,
-          "year_match": true,
-          "film_runtime_min": 95,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:27.980609+00:00"
+        "at": "2026-08-30T09:41:24.367835+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951477",
+        "display_name": "Agent z vesmíru (2007) CZ Dabing",
+        "size_bytes": 573560321,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "662e375fbeb32",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:43:58.233320+00:00"
       }
     },
     "25951": {
@@ -104876,5 +104879,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:41:18.958883+00:00"
+  "updated_at": "2026-08-30T09:43:58.233346+00:00"
 }
