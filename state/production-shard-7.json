@@ -19,21 +19,24 @@
         "added_at": "2026-04-20 22:32:42.857660+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25308784",
-          "account_name": "The Russian Bride (2018) CZ Titulky",
-          "title_similarity": 0.581,
-          "title_contains_alias": false,
-          "film_year": 2017,
-          "candidate_year": 2018,
-          "year_match": true,
-          "film_runtime_min": 90,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.780636+00:00"
+        "at": "2026-08-30T09:06:11.695089+00:00"
+      },
+      "upload": {
+        "target_video_id": "28950690",
+        "display_name": "The Bride (2017) CZ Dabing",
+        "size_bytes": 405558763,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "5951ca3135b72",
+        "language_tier": "slovak_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:08:28.196218+00:00"
       }
     },
     "28991": {
@@ -60245,5 +60248,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T08:58:49.252464+00:00"
+  "updated_at": "2026-08-30T09:08:28.196248+00:00"
 }
