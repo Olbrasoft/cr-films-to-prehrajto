@@ -9180,7 +9180,39 @@
       }
     },
     "29529": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5809810f6e521",
+              "url": "https://prehraj.to/lunar-cop-cz-cely-film-cesky-dabing-akcni-sci-fi-1994/5809810f6e521",
+              "title": "Lunar-Cop---CZ-celý-film,-český-dabing,-akční,-sci-fi,-1994",
+              "year": null,
+              "duration_sec": 5276,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 9.992,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:27:35.126555+00:00"
+        }
+      ],
       "identity": {
         "slug": "lunar-path",
         "title": "Lunar Path",
@@ -9193,21 +9225,11 @@
         "added_at": "2026-04-20 22:32:42.857660+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25183070",
-          "account_name": "Lunar Cop (1995) CZ Dabing",
-          "title_similarity": 0.583,
-          "title_contains_alias": false,
-          "film_year": 1994,
-          "candidate_year": 1995,
-          "year_match": true,
-          "film_runtime_min": 8,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:28.022675+00:00"
+        "at": "2026-08-30T12:27:33.580851+00:00"
       }
     },
     "29523": {
@@ -104891,5 +104913,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:27:31.912118+00:00"
+  "updated_at": "2026-08-30T12:27:35.126567+00:00"
 }
