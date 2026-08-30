@@ -272,84 +272,24 @@
         "added_at": "2026-04-20 22:32:38.757214+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24832138",
-              "account_name": "Krokodýl: Návrat do krvavé laguny (2007) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2006,
-              "candidate_year": 2007,
-              "year_match": true,
-              "film_runtime_min": 98,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "24969684",
-              "account_name": "Flynn Carsen 2: Návrat do dolů krále Šalamouna (2006) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2006,
-              "candidate_year": 2006,
-              "year_match": true,
-              "film_runtime_min": 98,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "24987923",
-              "account_name": "Ozvěny mrtvých: Návrat (2007) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2006,
-              "candidate_year": 2007,
-              "year_match": true,
-              "film_runtime_min": 98,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25147362",
-              "account_name": "Hellraiser: Návrat mrtvých (2005) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2006,
-              "candidate_year": 2005,
-              "year_match": true,
-              "film_runtime_min": 98,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25159201",
-              "account_name": "Návrat domů (2006) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2006,
-              "candidate_year": 2006,
-              "year_match": true,
-              "film_runtime_min": 98,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25161113",
-              "account_name": "Návrat do domu hrůzy (2007) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2006,
-              "candidate_year": 2007,
-              "year_match": true,
-              "film_runtime_min": 98,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.292114+00:00"
+        "at": "2026-08-30T09:32:11.098855+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951298",
+        "display_name": "Návrat (2006) CZ Dabing",
+        "size_bytes": 351228882,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "5836526061d1d",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:34:23.977886+00:00"
       }
     },
     "24308": {
@@ -38439,5 +38379,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:32:09.696132+00:00"
+  "updated_at": "2026-08-30T09:34:23.977915+00:00"
 }
