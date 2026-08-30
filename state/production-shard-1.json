@@ -75650,7 +75650,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:20:34.925893+00:00"
+        "at": "2026-08-30T11:23:21.045777+00:00"
       }
     },
     "24963": {
@@ -94887,7 +94887,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:20:34.926443+00:00"
+        "at": "2026-08-30T11:23:21.046303+00:00"
       }
     },
     "9865": {
@@ -95747,30 +95747,24 @@
             {
               "target_video_id": "25272680",
               "account_name": "Vřískot 6 (2023) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
+              "title_similarity": 0.875,
+              "title_exact_alias": false,
               "film_year": 2022,
               "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             },
             {
               "target_video_id": "25026692",
               "account_name": "Vřískot 6 (2023) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
+              "title_similarity": 0.875,
+              "title_exact_alias": false,
               "film_year": 2022,
               "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             }
           ]
         },
-        "at": "2026-08-30T08:57:28.002491+00:00"
+        "at": "2026-08-30T11:23:21.047116+00:00"
       }
     },
     "3601": {
@@ -95823,21 +95817,11 @@
         "added_at": "2022-04-19 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24857490",
-          "account_name": "Krajina snů (2019) CZ Dabing",
-          "title_similarity": 0.688,
-          "title_contains_alias": false,
-          "film_year": 2020,
-          "candidate_year": 2019,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:28.003664+00:00"
+        "at": "2026-08-30T11:23:21.047738+00:00"
       }
     },
     "5497": {
@@ -104873,5 +104857,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:23:16.018878+00:00"
+  "updated_at": "2026-08-30T11:23:23.465621+00:00"
 }
