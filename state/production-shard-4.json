@@ -8156,15 +8156,17 @@
         "target_video_id": "28953385",
         "display_name": "Není čas zemřít (2021) CZ titulky",
         "size_bytes": 2534722484,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "bb8a4d62d7518386",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
+        "processing_status": "active",
         "uploaded_at": "2026-08-30T11:31:43.713655+00:00",
-        "last_verification_at": "2026-08-30T11:49:25.858394+00:00"
+        "last_verification_at": "2026-08-30T19:14:49.021144+00:00",
+        "verified_at": "2026-08-30T19:14:49.021174+00:00",
+        "live_display_name": "Není čas zemřít (2021) CZ titulky"
       }
     },
     "5644": {
@@ -9440,15 +9442,17 @@
         "target_video_id": "28953605",
         "display_name": "Inferno (2016) CZ titulky",
         "size_bytes": 2969598458,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "8ff17045dabcc48a",
         "language_tier": "czech_subtitles",
         "actual_resolution": 1080,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
+        "processing_status": "active",
         "uploaded_at": "2026-08-30T11:42:52.529648+00:00",
-        "last_verification_at": "2026-08-30T11:49:25.858397+00:00"
+        "last_verification_at": "2026-08-30T19:15:00.050579+00:00",
+        "verified_at": "2026-08-30T19:15:00.050598+00:00",
+        "live_display_name": "Inferno (2016) CZ titulky"
       }
     },
     "988": {
@@ -11862,6 +11866,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T18:56:05.397806+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "91d5859965a181d2",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28960900",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T19:14:48.949898+00:00"
         }
       ],
       "identity": {
@@ -11881,19 +11896,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T18:57:21.037660+00:00"
-      },
-      "upload": {
-        "target_video_id": "28960900",
-        "display_name": "Duch (1990) CZ Dabing",
-        "size_bytes": 3768687744,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "91d5859965a181d2",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T19:13:51.285138+00:00"
       }
     },
     "3820": {
@@ -41822,5 +41824,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T19:14:04.355754+00:00"
+  "updated_at": "2026-08-30T19:15:22.432069+00:00"
 }
