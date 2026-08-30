@@ -26828,21 +26828,24 @@
         "added_at": "2023-05-16 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25183815",
-          "account_name": "Burákova cesta časem (2012) CZ Dabing",
-          "title_similarity": 0.526,
-          "title_contains_alias": false,
-          "film_year": 2013,
-          "candidate_year": 2012,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.008929+00:00"
+        "at": "2026-08-30T09:50:04.743151+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951682",
+        "display_name": "Závod s časem (2013) CZ Dabing",
+        "size_bytes": 1306283258,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "611213a715d2d",
+        "language_tier": "czech_audio",
+        "actual_resolution": 720,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:56:25.314751+00:00"
       }
     },
     "15054": {
@@ -59530,5 +59533,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:49:51.093809+00:00"
+  "updated_at": "2026-08-30T09:56:25.314782+00:00"
 }
