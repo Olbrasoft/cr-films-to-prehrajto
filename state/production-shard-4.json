@@ -408,15 +408,17 @@
         "target_video_id": "28951384",
         "display_name": "Oběť (1986) CZ titulky",
         "size_bytes": 1864082061,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "96b0bbdd82b84cd4",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
+        "processing_status": "active",
         "uploaded_at": "2026-08-30T09:43:02.942987+00:00",
-        "last_verification_at": "2026-08-30T10:30:23.338038+00:00"
+        "last_verification_at": "2026-08-30T17:56:36.793366+00:00",
+        "verified_at": "2026-08-30T17:56:36.793369+00:00",
+        "live_display_name": "Oběť (1986) CZ titulky"
       }
     },
     "22380": {
@@ -9915,6 +9917,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T17:09:55.748405+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "5fbaf64f561e1",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28959652",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T17:56:14.803563+00:00"
         }
       ],
       "identity": {
@@ -9934,19 +9947,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T17:11:07.110872+00:00"
-      },
-      "upload": {
-        "target_video_id": "28959652",
-        "display_name": "Narušitel (2019) CZ Dabing",
-        "size_bytes": 1710404220,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "5fbaf64f561e1",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T17:36:07.326078+00:00"
       }
     },
     "14260": {
@@ -10822,7 +10822,8 @@
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T17:55:30.417219+00:00"
+        "uploaded_at": "2026-08-30T17:55:30.417219+00:00",
+        "last_verification_at": "2026-08-30T17:56:14.852364+00:00"
       }
     },
     "3820": {
@@ -40751,5 +40752,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T17:55:31.807683+00:00"
+  "updated_at": "2026-08-30T17:56:58.422403+00:00"
 }
