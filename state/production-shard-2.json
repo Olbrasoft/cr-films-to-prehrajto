@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T10:54:19.310201+00:00"
+        "at": "2026-08-30T10:57:49.139404+00:00"
       }
     },
     "22730": {
@@ -7300,21 +7300,11 @@
         "added_at": "2023-09-13 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25034107",
-          "account_name": "O rodinných věcech (2024) CZ Dabing",
-          "title_similarity": 0.632,
-          "title_contains_alias": false,
-          "film_year": 2023,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": 74,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.338792+00:00"
+        "at": "2026-08-30T10:57:49.139684+00:00"
       }
     },
     "14202": {
@@ -253413,5 +253403,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:57:42.698504+00:00"
+  "updated_at": "2026-08-30T10:57:59.876215+00:00"
 }
