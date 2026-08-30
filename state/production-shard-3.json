@@ -8067,7 +8067,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T11:11:24.839932+00:00"
+        "at": "2026-08-30T11:15:50.954831+00:00"
       }
     },
     "9147": {
@@ -9864,7 +9864,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T11:11:24.840478+00:00"
+        "at": "2026-08-30T11:15:50.955367+00:00"
       }
     },
     "15619": {
@@ -11907,15 +11907,12 @@
           "target_video_id": "28881846",
           "account_name": "Elvis (2022) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2022,
           "candidate_year": 2022,
-          "year_match": true,
-          "film_runtime_min": 159,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:24.632488+00:00"
+        "at": "2026-08-30T11:15:50.955492+00:00"
       }
     },
     "7115": {
@@ -12714,36 +12711,11 @@
         "added_at": "2021-07-13 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "28839141",
-              "account_name": "Mortal Kombat Legends: Scorpion's Revenge (2020) CZ titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25279752",
-              "account_name": "Mortal Kombat Legends: Snow Blind (2022) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2022,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.633084+00:00"
+        "at": "2026-08-30T11:15:50.955729+00:00"
       }
     },
     "171": {
@@ -41509,5 +41481,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:15:45.132036+00:00"
+  "updated_at": "2026-08-30T11:15:51.411495+00:00"
 }
