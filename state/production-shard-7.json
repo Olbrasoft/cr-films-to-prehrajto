@@ -284,7 +284,20 @@
       }
     },
     "28535": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "5c38cbd44f4c9",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28950727",
+          "display_name": "Death House (2018) CZ titulky",
+          "size_bytes": 425618644,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:10:23.625741+00:00"
+        }
+      ],
       "identity": {
         "slug": "death-house",
         "title": "Death House",
@@ -297,36 +310,11 @@
         "added_at": "2026-04-20 22:32:41.789747+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25044999",
-              "account_name": "Death Fighter (2017) CZ",
-              "title_similarity": 0.552,
-              "title_contains_alias": false,
-              "film_year": 2018,
-              "candidate_year": 2017,
-              "year_match": true,
-              "film_runtime_min": 88,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25070128",
-              "account_name": "Death Note (2017) CZ",
-              "title_similarity": 0.615,
-              "title_contains_alias": false,
-              "film_year": 2018,
-              "candidate_year": 2017,
-              "year_match": true,
-              "film_runtime_min": 88,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.783004+00:00"
+        "at": "2026-08-30T09:08:29.914534+00:00"
       }
     },
     "28071": {
@@ -60248,5 +60236,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:08:28.196248+00:00"
+  "updated_at": "2026-08-30T09:10:23.625766+00:00"
 }
