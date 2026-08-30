@@ -55503,7 +55503,104 @@
       }
     },
     "2815": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "740098645214e1bf",
+              "url": "https://prehraj.to/unos-1971-2024-cz-dabing/740098645214e1bf",
+              "title": "Únos 1971 (2024) CZ Dabing",
+              "year": null,
+              "duration_sec": 6013,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2024,
+                "candidate_year": 1971,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Únos 1971 (2024)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6814ae8d776c4512",
+              "url": "https://prehraj.to/unos-1971-2024-cz-titulky/6814ae8d776c4512",
+              "title": "Únos 1971 (2024) CZ Titulky",
+              "year": null,
+              "duration_sec": 5247,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2024,
+                "candidate_year": 1971,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Únos 1971 (2024)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b21e05dce09",
+              "url": "https://prehraj.to/rozsudek-02-unos-1971/67b21e05dce09",
+              "title": "Rozsudek 02 Únos (1971)",
+              "year": null,
+              "duration_sec": 5337,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2024,
+                "candidate_year": 1971,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Únos 1971 (2024)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "38578",
+              "url": "https://online.sktorrent.eu/video/38578/",
+              "title": "Únos 1971",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T14:43:27.388984+00:00"
+        }
+      ],
       "identity": {
         "slug": "hijack-1971",
         "title": "Únos 1971",
@@ -55516,21 +55613,11 @@
         "added_at": "2024-08-07 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25267483",
-          "account_name": "Únos 93 (2024) CZ Titulky",
-          "title_similarity": 0.571,
-          "title_contains_alias": false,
-          "film_year": 2024,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.988214+00:00"
+        "at": "2026-08-30T14:43:24.369430+00:00"
       }
     },
     "4927": {
@@ -61152,5 +61239,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T14:43:22.890762+00:00"
+  "updated_at": "2026-08-30T14:43:27.389003+00:00"
 }
