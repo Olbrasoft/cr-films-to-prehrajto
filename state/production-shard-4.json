@@ -1611,7 +1611,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T10:01:41.744450+00:00"
+        "at": "2026-08-30T10:04:25.698695+00:00"
       }
     },
     "26420": {
@@ -3865,21 +3865,11 @@
         "added_at": "2026-02-18 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25267477",
-          "account_name": "The Cellar (2024) CZ Titulky",
-          "title_similarity": 0.538,
-          "title_contains_alias": false,
-          "film_year": 2024,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.305698+00:00"
+        "at": "2026-08-30T10:04:25.699136+00:00"
       }
     },
     "12348": {
@@ -38377,5 +38367,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:04:20.188358+00:00"
+  "updated_at": "2026-08-30T10:04:27.428714+00:00"
 }
