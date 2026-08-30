@@ -19462,7 +19462,376 @@
       }
     },
     "28284": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5acdb306486ac",
+              "url": "https://prehraj.to/judy-2014/5acdb306486ac",
+              "title": "Judy (2014)",
+              "year": null,
+              "duration_sec": 4547,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.5,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 4547,
+                "runtime_delta": 0.076,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ffbd2a02d9c7",
+              "url": "https://prehraj.to/dead-snow-rudy-vs-mrtvy-dead-snow-2-2014-cz-titulky-novinky-novinka/5ffbd2a02d9c7",
+              "title": "Dead-Snow-Rudý-vs.-Mrtvý---Dead-Snow-2-2014-cz-titulky…",
+              "year": null,
+              "duration_sec": 6041,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.392,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6041,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c6b55548afc",
+              "url": "https://prehraj.to/dead-snow-rudy-vs-mrtvy-dead-snow-2-2014-sk-tit-p-p/55c6b55548afc",
+              "title": "Dead Snow-Rudý vs. Mrtvý, Dead Snow-2 - 2014 sk tit. p.p.",
+              "year": null,
+              "duration_sec": 6042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.339,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6042,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6776bb4eb0b2c",
+              "url": "https://prehraj.to/dead-snow-rudy-vs-mrtvy-dead-snow-2-2014-sk-tit-p-p/6776bb4eb0b2c",
+              "title": "Dead+Snow-Rudý+vs.+Mrtvý,+Dead+Snow-2+-+2014+sk+tit.+p.p.",
+              "year": null,
+              "duration_sec": 6042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.339,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6042,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c9f146714dc",
+              "url": "https://prehraj.to/dead-snow-2-rudy-vs-mrtvy-2014-cz-tit-horor-koko/55c9f146714dc",
+              "title": "Dead Snow 2. Rudý vs Mrtvý - 2014 cz tit.horor koko",
+              "year": null,
+              "duration_sec": 6042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.143,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6042,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55c9f17c90b1b",
+              "url": "https://prehraj.to/dead-snow-2-rudy-vs-mrtvy-2014-sk-tit-horor-koko/55c9f17c90b1b",
+              "title": "Dead Snow 2. Rudý vs Mrtvý - 2014 sk tit.horor koko",
+              "year": null,
+              "duration_sec": 6042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.143,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6042,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c8ff9059fd9eebc9",
+              "url": "https://prehraj.to/dead-snow-2-rudy-vs-mrtvy-2014-sk-tit-horor-koko/c8ff9059fd9eebc9",
+              "title": "Dead Snow 2. Rudý vs Mrtvý - 2014 sk tit.horor koko",
+              "year": null,
+              "duration_sec": 6042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.143,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6042,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "654a7eda2dece",
+              "url": "https://prehraj.to/mrtvy-snih-2-rudy-vs-mrtvy-dead-snow-red-vs-dead-2014/654a7eda2dece",
+              "title": "Mrtvý sníh 2 Rudý vs. Mrtvý (Dead Snow - Red vs Dead, 2014)",
+              "year": null,
+              "duration_sec": 6041,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.312,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6041,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65fb1edb15bc7",
+              "url": "https://prehraj.to/mrtvy-snih-2-rudy-vs-mrtvy-dead-snow-red-vs-dead-2014-by-ugare/65fb1edb15bc7",
+              "title": "Mrtvý sníh 2 Rudý vs. Mrtvý (Dead Snow - Red vs Dead, 2014)…",
+              "year": null,
+              "duration_sec": 6041,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.312,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6041,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "84bb1f56cc33ab0b",
+              "url": "https://prehraj.to/mrtvy-snih-2-rudy-vs-mrtvy-dead-snow-red-vs-dead-2014-by-ugare/84bb1f56cc33ab0b",
+              "title": "Mrtvý sníh 2 Rudý vs. Mrtvý (Dead Snow - Red vs Dead, 2014)…",
+              "year": null,
+              "duration_sec": 6041,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.312,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6041,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "609e2c06cf3b9",
+              "url": "https://prehraj.to/mrtvy-snih-2-dead-snow-rudy-vs-mrtvy-2014-horor-cz-title-vlozene/609e2c06cf3b9",
+              "title": "Mrtvy snih 2 Dead snow-Rudy vs Mrtvy-2014-horor-cz title…",
+              "year": null,
+              "duration_sec": 6042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6042,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aab5db2ae03",
+              "url": "https://prehraj.to/horror-war-dead-snow-2-rudy-vs-mrtvy-2014-sk-tit-horor-koko/68aab5db2ae03",
+              "title": "Horror War-Dead Snow 2. Rudý vs Mrtvý - 2014 sk tit.horor…",
+              "year": null,
+              "duration_sec": 6042,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.194,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": 2014,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6042,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4f3e87eff1f",
+              "url": "https://prehraj.to/dead-snow-rudy-vs-mrtvy-dod-sno-2/5c4f3e87eff1f",
+              "title": "Dead Snow: Rudý vs. Mrtvý - Død Snø 2 -",
+              "year": null,
+              "duration_sec": 6041,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.186,
+                "title_contains_alias": false,
+                "film_year": 2014,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 6041,
+                "runtime_delta": 0.228,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Judy's Dead (2014)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59c25fed388bc",
+              "url": "https://prehraj.to/deadly-women-dark-secrets-judy-buenoano-s2e4/59c25fed388bc",
+              "title": "DEADLY WOMEN _ Dark Secrets _ Judy Buenoano _ S2E4",
+              "year": null,
+              "duration_sec": 2690,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Judy's Dead (2014)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:50:29.966386+00:00"
+        }
+      ],
       "identity": {
         "slug": "judy-s-dead",
         "title": "Judy's Dead",
@@ -19475,21 +19844,11 @@
         "added_at": "2026-04-20 22:32:41.789747+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25465788",
-          "account_name": "Judy (2014)",
-          "title_similarity": 0.5,
-          "title_contains_alias": false,
-          "film_year": 2014,
-          "candidate_year": 2014,
-          "year_match": true,
-          "film_runtime_min": 82,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.362536+00:00"
+        "at": "2026-08-30T12:50:29.167368+00:00"
       }
     },
     "28268": {
@@ -39624,5 +39983,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:50:27.615590+00:00"
+  "updated_at": "2026-08-30T12:50:29.966404+00:00"
 }
