@@ -8042,15 +8042,12 @@
           "target_video_id": "25272083",
           "account_name": "Anaconda (2024) CZ Titulky",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2025,
           "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:24.617790+00:00"
+        "at": "2026-08-30T10:21:37.800163+00:00"
       }
     },
     "9147": {
@@ -8103,36 +8100,11 @@
         "added_at": "2026-02-25 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25303493",
-              "account_name": "Dune Drifter (2020) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25437717",
-              "account_name": "Dune World (2021)",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2021,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.618360+00:00"
+        "at": "2026-08-30T10:21:37.800580+00:00"
       }
     },
     "1019": {
@@ -41523,5 +41495,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:21:36.172428+00:00"
+  "updated_at": "2026-08-30T10:21:39.188122+00:00"
 }
