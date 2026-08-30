@@ -1611,7 +1611,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T10:04:25.698695+00:00"
+        "at": "2026-08-30T10:07:58.851928+00:00"
       }
     },
     "26420": {
@@ -4272,21 +4272,11 @@
         "added_at": "2026-01-03 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24988297",
-          "account_name": "Černé Vánoce (2019) CZ Dabing",
-          "title_similarity": 0.571,
-          "title_contains_alias": false,
-          "film_year": 2020,
-          "candidate_year": 2019,
-          "year_match": true,
-          "film_runtime_min": 87,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.308585+00:00"
+        "at": "2026-08-30T10:07:58.854324+00:00"
       }
     },
     "604": {
@@ -38393,5 +38383,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:07:57.408641+00:00"
+  "updated_at": "2026-08-30T10:07:59.269619+00:00"
 }
