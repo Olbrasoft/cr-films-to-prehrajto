@@ -17790,21 +17790,24 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25022611",
-          "account_name": "Království Vikingů (2013) CZ Dabing",
-          "title_similarity": 0.556,
-          "title_contains_alias": false,
-          "film_year": 2014,
-          "candidate_year": 2013,
-          "year_match": true,
-          "film_runtime_min": 88,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:27.969858+00:00"
+        "at": "2026-08-30T09:12:10.209614+00:00"
+      },
+      "upload": {
+        "target_video_id": "28950837",
+        "display_name": "Cesta Vikingů (2014) CZ Dabing",
+        "size_bytes": 453493411,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "5f3e5fb66052e",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:15:17.045960+00:00"
       }
     },
     "29103": {
@@ -104879,5 +104882,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:12:05.264251+00:00"
+  "updated_at": "2026-08-30T09:15:17.045986+00:00"
 }
