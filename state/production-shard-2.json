@@ -1027,7 +1027,7 @@
             }
           ]
         },
-        "at": "2026-08-30T09:12:31.481327+00:00"
+        "at": "2026-08-30T09:14:57.949476+00:00"
       }
     },
     "22730": {
@@ -1078,21 +1078,11 @@
         "added_at": "2026-04-20 22:32:35.649207+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25520410",
-          "account_name": "Warriors Two (1978)",
-          "title_similarity": 0.552,
-          "title_contains_alias": false,
-          "film_year": 1979,
-          "candidate_year": 1978,
-          "year_match": true,
-          "film_runtime_min": 94,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.320696+00:00"
+        "at": "2026-08-30T09:14:57.950213+00:00"
       }
     },
     "22354": {
@@ -253284,5 +253274,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:14:52.042987+00:00"
+  "updated_at": "2026-08-30T09:14:59.004279+00:00"
 }
