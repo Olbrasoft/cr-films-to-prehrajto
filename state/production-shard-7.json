@@ -595,7 +595,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-30T09:16:13.473943+00:00"
+        "at": "2026-08-30T09:27:05.245982+00:00"
       }
     },
     "23807": {
@@ -9446,7 +9446,100 @@
       }
     },
     "26031": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-d4ec97a4c110f23d",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad1d99b3f8a5",
+              "url": "https://prehraj.to/pad-andela-2007/5ad1d99b3f8a5",
+              "title": "Pád anděla (2007)",
+              "year": null,
+              "duration_sec": 5488,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.359,
+                "title_contains_alias": false,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5488,
+                "runtime_delta": 0.016,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "152370d7460da9da",
+              "url": "https://prehraj.to/nora-roberts-mestecko-angels-fall-2007-cs/152370d7460da9da",
+              "title": "Nora Roberts: Městečko Angels Fall - 2007 CS",
+              "year": null,
+              "duration_sec": 5487,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5487,
+                "runtime_delta": 0.016,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cf8d54f12db1679d",
+              "url": "https://prehraj.to/nora-roberts-mestecko-angels-fall-2007-cs/cf8d54f12db1679d",
+              "title": "Nora Roberts: Městečko Angels Fall - 2007 CS",
+              "year": null,
+              "duration_sec": 5485,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2007,
+                "candidate_year": 2007,
+                "year_match": true,
+                "film_runtime_min": 90,
+                "candidate_runtime_sec": 5485,
+                "runtime_delta": 0.016,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:27:07.789873+00:00"
+        }
+      ],
       "identity": {
         "slug": "nora-roberts-mestecko-angels-fall",
         "title": "Nora Roberts: Městečko Angels Fall",
@@ -9459,21 +9552,11 @@
         "added_at": "2026-04-20 22:32:39.267246+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25161691",
-          "account_name": "Nora Roberts: Posedlost ohněm (2007) CZ Dabing",
-          "title_similarity": 0.606,
-          "title_contains_alias": false,
-          "film_year": 2007,
-          "candidate_year": 2007,
-          "year_match": true,
-          "film_runtime_min": 90,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.786439+00:00"
+        "at": "2026-08-30T09:27:05.246464+00:00"
       }
     },
     "25951": {
@@ -60255,5 +60338,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:26:55.864050+00:00"
+  "updated_at": "2026-08-30T09:27:07.789891+00:00"
 }
