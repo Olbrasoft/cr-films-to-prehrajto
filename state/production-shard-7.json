@@ -22673,6 +22673,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T10:52:19.514228+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "47c937615f8c7aad",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28864699",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T04:13:51.446451+00:00"
         }
       ],
       "identity": {
@@ -22692,21 +22703,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T10:37:22.091919+00:00"
-      },
-      "upload": {
-        "target_video_id": "28864699",
-        "display_name": "Asterix a Olympijské hry (2008) CZ titulky",
-        "size_bytes": 3627021589,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "47c937615f8c7aad",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 720,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T10:52:47.645343+00:00",
-        "verified_at": "2026-08-30T04:00:48.168116+00:00",
-        "live_display_name": "Asterix a Olympijské hry (2008) CZ titulky"
       }
     },
     "3247": {
@@ -58179,5 +58175,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T04:02:59.165135+00:00"
+  "updated_at": "2026-08-30T04:13:51.446472+00:00"
 }
