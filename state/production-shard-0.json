@@ -51075,7 +51075,20 @@
       }
     },
     "27048": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "623777569e739",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28951121",
+          "display_name": "The Bunker Game (2022) CZ titulky",
+          "size_bytes": 1132323260,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:28:54.445669+00:00"
+        }
+      ],
       "identity": {
         "slug": "the-bunker-game",
         "title": "The Bunker Game",
@@ -51088,21 +51101,11 @@
         "added_at": "2026-04-20 22:32:40.301539+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25283769",
-          "account_name": "Bunker (2022) CZ Titulky",
-          "title_similarity": 0.538,
-          "title_contains_alias": false,
-          "film_year": 2022,
-          "candidate_year": 2022,
-          "year_match": true,
-          "film_runtime_min": 92,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.101752+00:00"
+        "at": "2026-08-30T09:24:48.711776+00:00"
       }
     },
     "27040": {
@@ -95883,5 +95886,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:24:44.939276+00:00"
+  "updated_at": "2026-08-30T09:28:54.445694+00:00"
 }
