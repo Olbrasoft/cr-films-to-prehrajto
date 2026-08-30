@@ -75239,7 +75239,46 @@
       }
     },
     "25377": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "583b2499a1599",
+              "url": "https://prehraj.to/tunel-smrti-2005-death-tunnel-horor-dvdrip-xvid-cz/583b2499a1599",
+              "title": "tunel-smrti-2005-death-tunnel-horor-dvdrip-xvid-cz",
+              "year": null,
+              "duration_sec": 5358,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.2,
+                "title_contains_alias": false,
+                "film_year": 2005,
+                "candidate_year": 2005,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 5358,
+                "runtime_delta": 0.089,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:33:18.713063+00:00"
+        }
+      ],
       "identity": {
         "slug": "duch-podzemi",
         "title": "Duch podzemí",
@@ -75252,21 +75291,11 @@
         "added_at": "2026-04-20 22:32:38.757214+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25159655",
-          "account_name": "Peklo v podzemí (2006) CZ Dabing",
-          "title_similarity": 0.5,
-          "title_contains_alias": false,
-          "film_year": 2005,
-          "candidate_year": 2006,
-          "year_match": true,
-          "film_runtime_min": 82,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:28.027907+00:00"
+        "at": "2026-08-30T12:33:17.085982+00:00"
       }
     },
     "25357": {
@@ -76363,7 +76392,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:27:30.818195+00:00"
+        "at": "2026-08-30T12:33:17.080828+00:00"
       }
     },
     "24963": {
@@ -95614,7 +95643,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:27:30.818691+00:00"
+        "at": "2026-08-30T12:33:17.081328+00:00"
       }
     },
     "9865": {
@@ -96495,7 +96524,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:27:30.819655+00:00"
+        "at": "2026-08-30T12:33:17.082156+00:00"
       }
     },
     "3601": {
@@ -97924,7 +97953,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:27:30.822606+00:00"
+        "at": "2026-08-30T12:33:17.085077+00:00"
       }
     },
     "10625": {
@@ -105563,5 +105592,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:33:12.669522+00:00"
+  "updated_at": "2026-08-30T12:33:18.713076+00:00"
 }
