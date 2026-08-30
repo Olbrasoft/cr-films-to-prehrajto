@@ -42253,21 +42253,24 @@
         "added_at": "2026-04-20 22:32:40.810471+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25200557",
-          "account_name": "2010: Moby Dick (2010) CZ",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2010,
-          "candidate_year": 2010,
-          "year_match": true,
-          "film_runtime_min": 87,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.101653+00:00"
+        "at": "2026-08-30T09:22:24.300870+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951059",
+        "display_name": "2010: Moby Dick (2010) CZ Dabing",
+        "size_bytes": 507443281,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "ef4a0668da635535",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:24:44.939250+00:00"
       }
     },
     "27546": {
@@ -95880,5 +95883,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:22:22.650172+00:00"
+  "updated_at": "2026-08-30T09:24:44.939276+00:00"
 }
