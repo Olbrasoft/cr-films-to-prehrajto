@@ -87133,7 +87133,46 @@
       }
     },
     "23432": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab0a02ac69f4",
+              "url": "https://prehraj.to/tango-1993/5ab0a02ac69f4",
+              "title": "Tango (1993)",
+              "year": null,
+              "duration_sec": 5145,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.5,
+                "title_contains_alias": false,
+                "film_year": 1993,
+                "candidate_year": 1993,
+                "year_match": true,
+                "film_runtime_min": 125,
+                "candidate_runtime_sec": 5145,
+                "runtime_delta": 0.314,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T11:52:28.568119+00:00"
+        }
+      ],
       "identity": {
         "slug": "tango-feroz-la-leyenda-de-tanguito",
         "title": "Tango feroz: La leyenda de Tanguito",
@@ -87146,21 +87185,11 @@
         "added_at": "2026-04-20 22:32:36.677598+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25503320",
-          "account_name": "Tango (1993)",
-          "title_similarity": 0.5,
-          "title_contains_alias": false,
-          "film_year": 1993,
-          "candidate_year": 1993,
-          "year_match": true,
-          "film_runtime_min": 125,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.129603+00:00"
+        "at": "2026-08-30T11:52:27.474531+00:00"
       }
     },
     "23240": {
@@ -95960,5 +95989,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:52:25.761305+00:00"
+  "updated_at": "2026-08-30T11:52:28.568169+00:00"
 }
