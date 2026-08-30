@@ -14892,7 +14892,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T13:56:26.084393+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.212129+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388963+00:00"
       }
     },
     "1213": {
@@ -16861,7 +16861,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T14:50:30.298425+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.212136+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388966+00:00"
       }
     },
     "3397": {
@@ -16931,7 +16931,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-28T03:46:59.732280+00:00"
+        "uploaded_at": "2026-08-28T03:46:59.732280+00:00",
+        "last_verification_at": "2026-08-30T15:55:40.441975+00:00"
       }
     },
     "8293": {
@@ -39160,7 +39161,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T14:53:26.937674+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.212139+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388968+00:00"
       }
     },
     "14389": {
@@ -39195,7 +39196,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T14:57:03.797309+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.212141+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388971+00:00"
       }
     },
     "16525": {
@@ -39300,7 +39301,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T14:59:02.520681+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.212143+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388973+00:00"
       }
     },
     "9293": {
@@ -39653,7 +39654,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T15:09:11.518727+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.212149+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388976+00:00"
       }
     },
     "15469": {
@@ -39688,7 +39689,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T15:11:55.468801+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.212151+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388978+00:00"
       }
     },
     "16645": {
@@ -40629,7 +40630,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T15:17:21.773278+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.262089+00:00"
+        "last_verification_at": "2026-08-30T15:55:40.388980+00:00"
       }
     },
     "3933": {
@@ -40761,7 +40762,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:37:58.018653+00:00"
+        "uploaded_at": "2026-08-30T15:37:58.018653+00:00",
+        "last_verification_at": "2026-08-30T15:55:40.388983+00:00"
       }
     },
     "8669": {
@@ -40889,7 +40891,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:40:12.882431+00:00"
+        "uploaded_at": "2026-08-30T15:40:12.882431+00:00",
+        "last_verification_at": "2026-08-30T15:55:40.388985+00:00"
       }
     },
     "16901": {
@@ -41091,7 +41094,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:43:43.739301+00:00"
+        "uploaded_at": "2026-08-30T15:43:43.739301+00:00",
+        "last_verification_at": "2026-08-30T15:55:40.388987+00:00"
       }
     },
     "8173": {
@@ -41496,7 +41500,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:48:38.159157+00:00"
+        "uploaded_at": "2026-08-30T15:48:38.159157+00:00",
+        "last_verification_at": "2026-08-30T15:55:40.388989+00:00"
       }
     },
     "213": {
@@ -42437,7 +42442,19 @@
       }
     },
     "3333": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "18389",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28957799",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:55:40.389001+00:00"
+        }
+      ],
       "identity": {
         "slug": "ulice-strachu-2-cast-1978",
         "title": "Ulice strachu – 2. část: 1978",
@@ -42455,19 +42472,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T15:48:52.949700+00:00"
-      },
-      "upload": {
-        "target_video_id": "28957799",
-        "display_name": "Ulice strachu – 2. část: 1978 (2021) CZ Dabing",
-        "size_bytes": 449720814,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "18389",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:51:44.184405+00:00"
       }
     },
     "16485": {
@@ -43631,7 +43635,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:54:25.243787+00:00"
+        "uploaded_at": "2026-08-30T15:54:25.243787+00:00",
+        "last_verification_at": "2026-08-30T15:55:40.441936+00:00"
       }
     },
     "16869": {
@@ -44080,5 +44085,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:54:26.695483+00:00"
+  "updated_at": "2026-08-30T15:55:40.972981+00:00"
 }
