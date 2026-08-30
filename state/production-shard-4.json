@@ -1481,21 +1481,24 @@
         "added_at": "2026-04-20 22:32:40.810471+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25294002",
-          "account_name": "American Night (2021) CZ Titulky",
-          "title_similarity": 0.519,
-          "title_contains_alias": false,
-          "film_year": 2022,
-          "candidate_year": 2021,
-          "year_match": true,
-          "film_runtime_min": 87,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.299024+00:00"
+        "at": "2026-08-30T09:43:04.401366+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951516",
+        "display_name": "Ma nuit (2022) CZ Dabing",
+        "size_bytes": 1582588777,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "fb9d60d8312ff8e4",
+        "language_tier": "czech_audio",
+        "actual_resolution": 1080,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:48:28.797192+00:00"
       }
     },
     "26980": {
@@ -38398,5 +38401,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:43:02.943016+00:00"
+  "updated_at": "2026-08-30T09:48:28.797223+00:00"
 }
