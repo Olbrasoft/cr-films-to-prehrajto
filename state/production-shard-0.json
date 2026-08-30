@@ -68437,7 +68437,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T11:13:33.068890+00:00"
+        "at": "2026-08-30T11:20:11.196658+00:00"
       }
     },
     "14024": {
@@ -69855,7 +69855,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T11:13:33.069120+00:00"
+        "at": "2026-08-30T11:20:11.196896+00:00"
       }
     },
     "10304": {
@@ -70754,7 +70754,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T11:13:33.069343+00:00"
+        "at": "2026-08-30T11:20:11.197135+00:00"
       }
     },
     "14096": {
@@ -82838,7 +82838,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:13:33.069544+00:00"
+        "at": "2026-08-30T11:20:11.197316+00:00"
       }
     },
     "4056": {
@@ -86721,21 +86721,21 @@
         "added_at": "2019-05-11 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "ambiguous",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "28892981",
-          "account_name": "Paranormal Activity 3 (2011) CZ Dabing",
-          "title_similarity": 0.894,
-          "title_contains_alias": false,
-          "film_year": 2010,
-          "candidate_year": 2011,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "matches": [
+            {
+              "target_video_id": "28892981",
+              "account_name": "Paranormal Activity 3 (2011) CZ Dabing",
+              "title_similarity": 0.952,
+              "title_exact_alias": false,
+              "film_year": 2010,
+              "candidate_year": 2011,
+              "year_match": true
+            }
+          ]
         },
-        "at": "2026-08-30T08:57:57.126984+00:00"
+        "at": "2026-08-30T11:20:11.197681+00:00"
       }
     },
     "6440": {
@@ -86909,21 +86909,11 @@
         "added_at": "2018-09-27 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25502149",
-          "account_name": "Titanic's Lost Sister (1996)",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 1997,
-          "candidate_year": 1996,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.127619+00:00"
+        "at": "2026-08-30T11:20:11.198090+00:00"
       }
     },
     "1400": {
@@ -95898,5 +95888,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:20:06.486950+00:00"
+  "updated_at": "2026-08-30T11:20:11.667647+00:00"
 }
