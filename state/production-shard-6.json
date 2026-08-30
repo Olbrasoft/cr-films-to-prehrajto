@@ -5122,48 +5122,24 @@
         "added_at": "2025-09-19 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25474480",
-              "account_name": "Jak vycvičit draka: Legenda o Kostikradovi (2010)",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2010,
-              "candidate_year": 2010,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25394880",
-              "account_name": "Jak vycvičit draky: Dar Nočního běsa (2011) SK Dabing",
-              "title_similarity": 0.621,
-              "title_contains_alias": false,
-              "film_year": 2010,
-              "candidate_year": 2011,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "28883698",
-              "account_name": "Jak vycvičit draka: Lexikon draků (2011) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2010,
-              "candidate_year": 2011,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.002657+00:00"
+        "at": "2026-08-30T09:31:34.787531+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951271",
+        "display_name": "Jak vycvičit draka (2010) CZ Dabing",
+        "size_bytes": 588677928,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "7873d3ca105c8b34",
+        "language_tier": "czech_audio",
+        "actual_resolution": 1080,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:33:26.008478+00:00"
       }
     },
     "15846": {
@@ -59563,5 +59539,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:31:27.099174+00:00"
+  "updated_at": "2026-08-30T09:33:26.008511+00:00"
 }
