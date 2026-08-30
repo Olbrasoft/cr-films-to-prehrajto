@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-30T10:33:20.693589+00:00"
+        "at": "2026-08-30T10:41:32.606365+00:00"
       }
     },
     "23807": {
@@ -24452,21 +24452,11 @@
         "added_at": "2025-03-10 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25273759",
-          "account_name": "Temná okna (2023) CZ Titulky",
-          "title_similarity": 0.583,
-          "title_contains_alias": false,
-          "film_year": 2023,
-          "candidate_year": 2023,
-          "year_match": true,
-          "film_runtime_min": 114,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.800127+00:00"
+        "at": "2026-08-30T10:41:32.608749+00:00"
       }
     },
     "7807": {
@@ -60324,5 +60314,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:41:25.229180+00:00"
+  "updated_at": "2026-08-30T10:41:33.199789+00:00"
 }
