@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T16:03:40.734963+00:00"
+        "at": "2026-08-30T16:06:55.554398+00:00"
       }
     },
     "22730": {
@@ -7993,6 +7993,51 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T16:03:41.542156+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-d3b9377e371c455e",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "638aa7dff1a27",
+              "url": "https://prehraj.to/triangle-of-sadness-2022-cztitulky/638aa7dff1a27",
+              "title": "Triangle of Sadness (2022) CZtitulky",
+              "year": null,
+              "duration_sec": 8835,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8835,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T16:06:56.297847+00:00"
         }
       ],
       "identity": {
@@ -8012,7 +8057,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28952992"
         },
-        "at": "2026-08-30T16:03:40.736127+00:00"
+        "at": "2026-08-30T16:06:55.555845+00:00"
       }
     },
     "15722": {
@@ -9288,7 +9333,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T16:03:40.735528+00:00"
+        "at": "2026-08-30T16:06:55.555102+00:00"
       }
     },
     "466": {
@@ -264284,5 +264329,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T16:06:11.216978+00:00"
+  "updated_at": "2026-08-30T16:06:56.297863+00:00"
 }
