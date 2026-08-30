@@ -212,7 +212,20 @@
       }
     },
     "25564": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "5f4fd7646162d",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28951113",
+          "display_name": "Nikdy neříkej sbohem (2006) CZ titulky",
+          "size_bytes": 2449540232,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:31:39.111498+00:00"
+        }
+      ],
       "identity": {
         "slug": "nikdy-nerikej-sbohem",
         "title": "Nikdy neříkej sbohem",
@@ -225,21 +238,11 @@
         "added_at": "2026-04-20 22:32:38.757214+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24969036",
-          "account_name": "Nikomu to neříkej (2006) CZ Dabing",
-          "title_similarity": 0.571,
-          "title_contains_alias": false,
-          "film_year": 2006,
-          "candidate_year": 2006,
-          "year_match": true,
-          "film_runtime_min": 193,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.281581+00:00"
+        "at": "2026-08-30T09:24:10.521750+00:00"
       }
     },
     "25204": {
@@ -38423,5 +38426,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:04:19.024545+00:00"
+  "updated_at": "2026-08-30T09:31:39.111529+00:00"
 }
