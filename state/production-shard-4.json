@@ -342,21 +342,24 @@
         "added_at": "2026-04-20 22:32:37.159724+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24699481",
-          "account_name": "Cesta do fantazie (2001) CZ Dabing",
-          "title_similarity": 0.686,
-          "title_contains_alias": false,
-          "film_year": 2000,
-          "candidate_year": 2001,
-          "year_match": true,
-          "film_runtime_min": 75,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.292409+00:00"
+        "at": "2026-08-30T09:34:29.580792+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951320",
+        "display_name": "Fantazie 2000 (2000) CZ Dabing",
+        "size_bytes": 505813296,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "57b6761a722a2",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:36:13.415942+00:00"
       }
     },
     "22860": {
@@ -38379,5 +38382,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:34:23.977915+00:00"
+  "updated_at": "2026-08-30T09:36:13.415971+00:00"
 }
