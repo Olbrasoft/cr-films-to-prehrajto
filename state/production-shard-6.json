@@ -19,21 +19,24 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25175848",
-          "account_name": "Bibi a Tina: Zmatená a okouzlená (2014) CZ Dabing",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2014,
-          "candidate_year": 2014,
-          "year_match": true,
-          "film_runtime_min": 100,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:23.989439+00:00"
+        "at": "2026-08-30T09:06:09.371184+00:00"
+      },
+      "upload": {
+        "target_video_id": "28950676",
+        "display_name": "Bibi & Tina - Der Film (2014) CZ Dabing",
+        "size_bytes": 892012526,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "6073630f7108c",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:09:03.276230+00:00"
       }
     },
     "28126": {
@@ -59483,5 +59486,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:04:18.743711+00:00"
+  "updated_at": "2026-08-30T09:09:03.276264+00:00"
 }
