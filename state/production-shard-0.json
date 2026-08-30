@@ -94746,36 +94746,11 @@
         "added_at": "2022-02-16 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "28900443",
-              "account_name": "Broken Bridges (2006) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2007,
-              "candidate_year": 2006,
-              "year_match": true,
-              "film_runtime_min": 110,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25210363",
-              "account_name": "Broken Path (2008) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2007,
-              "candidate_year": 2008,
-              "year_match": true,
-              "film_runtime_min": 110,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.132513+00:00"
+        "at": "2026-08-30T12:04:18.490167+00:00"
       }
     },
     "10592": {
@@ -96713,5 +96688,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:04:16.646729+00:00"
+  "updated_at": "2026-08-30T12:04:21.997550+00:00"
 }
