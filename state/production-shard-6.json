@@ -54947,48 +54947,11 @@
         "added_at": "2026-02-20 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25298781",
-              "account_name": "Skutečné vraždy: Hra na schovávanou (2020) CZ Titulky",
-              "title_similarity": 0.551,
-              "title_contains_alias": false,
-              "film_year": 2019,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25004108",
-              "account_name": "Skutečné vraždy: Školní sraz (2020) CZ Dabing",
-              "title_similarity": 0.581,
-              "title_contains_alias": false,
-              "film_year": 2019,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25063116",
-              "account_name": "Skutečné vraždy: Podivný únos (2018) CZ",
-              "title_similarity": 0.603,
-              "title_contains_alias": false,
-              "film_year": 2019,
-              "candidate_year": 2018,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.032320+00:00"
+        "at": "2026-08-30T11:32:11.680258+00:00"
       }
     },
     "14902": {
@@ -60607,5 +60570,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:32:10.242447+00:00"
+  "updated_at": "2026-08-30T11:32:19.640724+00:00"
 }
