@@ -25765,7 +25765,141 @@
       }
     },
     "25820": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "62ea32faf2b99",
+              "url": "https://prehraj.to/little-man-2006-blu-ray-1080p-cz-en/62ea32faf2b99",
+              "title": "Little.Man.2006.Blu-ray.1080p.CZ.EN",
+              "year": null,
+              "duration_sec": 5860,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.244,
+                "title_contains_alias": false,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 86,
+                "candidate_runtime_sec": 5860,
+                "runtime_delta": 0.136,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5754dc4d1eb0a",
+              "url": "https://prehraj.to/mr-bean-ray-of-sunshine-animovany/5754dc4d1eb0a",
+              "title": "Mr.Bean - Ray of sunshine, animovaný",
+              "year": null,
+              "duration_sec": 688,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.867,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ray of Sunshine (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "57c98a25d5642",
+              "url": "https://prehraj.to/mr-bean-ray-of-sunshine-anim/57c98a25d5642",
+              "title": "Mr.Bean - Ray of sunshine - anim",
+              "year": null,
+              "duration_sec": 689,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.866,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ray of Sunshine (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5863e2211d24c",
+              "url": "https://prehraj.to/mr-bean-ray-of-sunshine-animovany-katikaa/5863e2211d24c",
+              "title": "Mr.Bean - Ray of sunshine, animovaný KATIKAA",
+              "year": null,
+              "duration_sec": 688,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.867,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ray of Sunshine (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "578e8165b586a",
+              "url": "https://prehraj.to/mr-bean-ray-of-sunshine-animovany-by-led/578e8165b586a",
+              "title": "Mr.Bean - Ray of sunshine, animovaný - by LED",
+              "year": null,
+              "duration_sec": 688,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.867,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ray of Sunshine (2006)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a345b234bffb",
+              "url": "https://prehraj.to/mr-bean-animovane-pribehy-ray-of-sunshine-animovany-2f-komedie-2f-rodinny-velka-britanie-2002-id-154291/5a345b234bffb",
+              "title": "Mr. Bean_ Animované příběhy-Ray of Sunshine-Animovaný %2F…",
+              "year": null,
+              "duration_sec": 688,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.867,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Ray of Sunshine (2006)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:50:35.294937+00:00"
+        }
+      ],
       "identity": {
         "slug": "ray-of-sunshine",
         "title": "Ray of Sunshine",
@@ -25778,36 +25912,11 @@
         "added_at": "2026-04-20 22:32:39.267246+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24779603",
-              "account_name": "Sunshine (2007) CZ Dabing",
-              "title_similarity": 0.571,
-              "title_contains_alias": false,
-              "film_year": 2006,
-              "candidate_year": 2007,
-              "year_match": true,
-              "film_runtime_min": 86,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25077150",
-              "account_name": "Malá Miss Sunshine (2006) CZ Dabing",
-              "title_similarity": 0.579,
-              "title_contains_alias": false,
-              "film_year": 2006,
-              "candidate_year": 2006,
-              "year_match": true,
-              "film_runtime_min": 86,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.363602+00:00"
+        "at": "2026-08-30T12:50:34.553469+00:00"
       }
     },
     "25796": {
@@ -40012,5 +40121,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:50:33.077110+00:00"
+  "updated_at": "2026-08-30T12:50:35.294955+00:00"
 }
