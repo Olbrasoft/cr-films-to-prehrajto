@@ -68412,15 +68412,12 @@
           "target_video_id": "25191445",
           "account_name": "Sámán (2023) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2024,
           "candidate_year": 2023,
-          "year_match": true,
-          "film_runtime_min": 104,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:57.111549+00:00"
+        "at": "2026-08-30T09:59:51.600136+00:00"
       }
     },
     "14024": {
@@ -68545,21 +68542,11 @@
         "added_at": "2024-11-26 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25444179",
-          "account_name": "A Godwink Christmas: Meant For Love (2019)",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2018,
-          "candidate_year": 2019,
-          "year_match": true,
-          "film_runtime_min": 90,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.111802+00:00"
+        "at": "2026-08-30T09:59:51.600348+00:00"
       }
     },
     "9464": {
@@ -95897,5 +95884,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:59:46.857777+00:00"
+  "updated_at": "2026-08-30T09:59:56.206638+00:00"
 }
