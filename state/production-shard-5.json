@@ -2807,21 +2807,24 @@
         "added_at": "2026-04-20 22:32:41.300427+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25471431",
-          "account_name": "Outpost: Black Sun (2012)",
-          "title_similarity": 0.562,
-          "title_contains_alias": false,
-          "film_year": 2012,
-          "candidate_year": 2012,
-          "year_match": true,
-          "film_runtime_min": 91,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.708881+00:00"
+        "at": "2026-08-30T09:38:22.724769+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951427",
+        "display_name": "Outpost 11 (2012) CZ Dabing",
+        "size_bytes": 428172487,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "3c30512ffb65a66a",
+        "language_tier": "slovak_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:40:41.081970+00:00"
       }
     },
     "27989": {
@@ -43051,5 +43054,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:38:16.117986+00:00"
+  "updated_at": "2026-08-30T09:40:41.081995+00:00"
 }
