@@ -6,7 +6,6 @@ import argparse
 import json
 import os
 import time
-import urllib.parse
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -20,6 +19,7 @@ from cr_films_to_prehrajto.providers.prehrajto import (
     USER_AGENT,
     login,
     parse_search_html,
+    search_path,
 )
 
 
@@ -57,7 +57,7 @@ def search_alias(
         for attempt in range(retries + 1):
             try:
                 response = session.get(
-                    search_base + "/hledej/" + urllib.parse.quote(query, safe=""),
+                    search_base + search_path(query),
                     timeout=15,
                 )
                 if response.status_code == 429 or response.status_code >= 500:

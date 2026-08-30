@@ -3,6 +3,7 @@ import subprocess
 import threading
 import time
 from dataclasses import replace
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from cr_films_to_prehrajto.cli import build_parser, execute_production_incrementally
@@ -44,7 +45,12 @@ def test_pending_production_upload_becomes_active(tmp_path):
         ),
     )
     payload = json.loads(path.read_text())
-    assert counts == {"active": 1, "pending": 0, "failed": 0}
+    assert counts == {
+        "active": 1,
+        "pending": 0,
+        "recent_pending": 0,
+        "failed": 0,
+    }
     assert payload["films"]["42"]["upload"]["processing_status"] == "active"
 
 
@@ -78,7 +84,38 @@ def test_pending_czech_subtitle_is_verified_without_blocking_upload(tmp_path):
     saved = json.loads(path.read_text())["films"]["42"]["upload"]
     assert saved["processing_status"] == "active"
     assert saved["subtitle_verification"] == "verified"
-    assert counts == {"active": 1, "pending": 0, "failed": 0}
+    assert counts == {
+        "active": 1,
+        "pending": 0,
+        "recent_pending": 0,
+        "failed": 0,
+    }
+
+
+def test_only_recent_processing_uploads_keep_production_running(tmp_path):
+    recent_path = tmp_path / "recent.json"
+    old_path = tmp_path / "old.json"
+    write_pending_state(recent_path, film_id="1", video_id="101")
+    write_pending_state(old_path, film_id="2", video_id="102")
+    recent = json.loads(recent_path.read_text())
+    old = json.loads(old_path.read_text())
+    recent["films"]["1"]["upload"]["uploaded_at"] = datetime.now(UTC).isoformat()
+    old["films"]["2"]["upload"]["uploaded_at"] = (
+        datetime.now(UTC) - timedelta(days=1)
+    ).isoformat()
+    recent_path.write_text(json.dumps(recent))
+    old_path.write_text(json.dumps(old))
+
+    counts = verify_pending_uploads(
+        [recent_path, old_path], lambda _name, _video_id: ("pending", None)
+    )
+
+    assert counts == {
+        "active": 0,
+        "pending": 2,
+        "recent_pending": 1,
+        "failed": 0,
+    }
 
 
 def test_deleted_production_upload_returns_to_retryable_state(tmp_path):
@@ -93,7 +130,12 @@ def test_deleted_production_upload_returns_to_retryable_state(tmp_path):
     )
     payload = json.loads(path.read_text())
     film = payload["films"]["42"]
-    assert counts == {"active": 0, "pending": 0, "failed": 1}
+    assert counts == {
+        "active": 0,
+        "pending": 0,
+        "recent_pending": 0,
+        "failed": 1,
+    }
     assert "upload" not in film
     assert film["attempts"][-1]["permanent"] is True
     assert film["attempts"][-1]["source_id"] == "source-1"
@@ -133,7 +175,12 @@ def test_pending_verification_can_run_lookups_concurrently(tmp_path):
     counts = verify_pending_uploads([path], lookup, workers=4)
 
     assert maximum_active == 4
-    assert counts == {"active": 8, "pending": 0, "failed": 0}
+    assert counts == {
+        "active": 8,
+        "pending": 0,
+        "recent_pending": 0,
+        "failed": 0,
+    }
 
 
 def test_git_state_pusher_commits_and_pushes_only_its_state(tmp_path):

@@ -4,6 +4,7 @@ import subprocess
 import time
 from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -165,7 +166,8 @@ def verify_pending_uploads(
             )
             if remaining:
                 time.sleep(delay_seconds)
-    counts = {"active": 0, "pending": 0, "failed": 0}
+    counts = {"active": 0, "pending": 0, "recent_pending": 0, "failed": 0}
+    recent_cutoff = datetime.now(UTC) - timedelta(hours=2)
     for state in states:
         for row in state.data["films"].values():
             upload = row.get("upload") or {}
@@ -176,6 +178,15 @@ def verify_pending_uploads(
                 and upload.get("subtitle_verification") == "pending"
             ):
                 counts["pending"] += 1
+                try:
+                    uploaded_at = datetime.fromisoformat(upload.get("uploaded_at", ""))
+                except (TypeError, ValueError):
+                    uploaded_at = None
+                if uploaded_at is not None:
+                    if uploaded_at.tzinfo is None:
+                        uploaded_at = uploaded_at.replace(tzinfo=UTC)
+                    if uploaded_at >= recent_cutoff:
+                        counts["recent_pending"] += 1
             counts["failed"] += sum(
                 attempt.get("status") == "failed_after_upload"
                 for attempt in row.get("attempts", [])

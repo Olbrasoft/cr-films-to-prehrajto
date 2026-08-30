@@ -26,6 +26,13 @@ USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/145 Safari/537.36"
 )
 
+
+def search_path(query: str) -> str:
+    """Build a route-safe search path without title slashes becoming segments."""
+    route_safe = re.sub(r"\s*[/\\]+\s*", " ", query)
+    route_safe = re.sub(r"\s+", " ", route_safe).strip()
+    return "/hledej/" + urllib.parse.quote(route_safe, safe="")
+
 CZ_DUB_RE = re.compile(
     r"\b(?:cz|cesk[ýyae])\s*[._-]?(?:dab|dub|dabing)\b|\bczdub\b", re.IGNORECASE
 )
@@ -620,7 +627,7 @@ class PrehrajtoProvider:
             for search_base in SEARCH_BASE_URLS:
                 try:
                     response = self._proxy_get(
-                        search_base + "/hledej/" + urllib.parse.quote(query, safe="")
+                        search_base + search_path(query)
                     )
                 except ProviderError:
                     continue

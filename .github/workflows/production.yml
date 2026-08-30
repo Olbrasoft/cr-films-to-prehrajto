@@ -289,7 +289,7 @@ jobs:
             fromJSON(steps.backlog.outputs.after) > 0 &&
             (
               fromJSON(steps.backlog.outputs.after) < fromJSON(steps.backlog.outputs.before) ||
-              fromJSON(steps.verification.outputs.pending) > 0 ||
+              fromJSON(steps.verification.outputs.recent_pending) > 0 ||
               (
                 needs.prefetch.result == 'success' &&
                 fromJSON(needs.prefetch.outputs.remaining) > 0

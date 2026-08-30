@@ -70,6 +70,24 @@ def test_search_alias_does_not_accept_a_200_bot_challenge(monkeypatch):
     assert result.hits == []
 
 
+def test_search_alias_replaces_title_slashes_with_route_safe_spaces(monkeypatch):
+    session = FakeSession(
+        [
+            FakeResponse(200, "<title>Search - Přehraj.to</title><form>hledej</form>"),
+            FakeResponse(200, "<title>Search - Přehraj.to</title><form>hledej</form>"),
+        ]
+    )
+    monkeypatch.setattr(prefetch_sources.time, "sleep", lambda _: None)
+
+    result = prefetch_sources.search_alias(
+        session, "V/H/S/2 (2013)", delay=0, retries=0
+    )
+
+    assert result.completed is True
+    assert all("V%20H%20S%202%20%282013%29" in url for url in session.calls)
+    assert all("%2F" not in url for url in session.calls)
+
+
 def test_prefetch_stops_after_first_safe_hit_and_persists_status(
     tmp_path, fixtures, film, monkeypatch
 ):
