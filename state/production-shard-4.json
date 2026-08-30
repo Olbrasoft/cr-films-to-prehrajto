@@ -1625,7 +1625,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T10:33:40.894728+00:00"
+        "at": "2026-08-30T10:39:35.284932+00:00"
       }
     },
     "26420": {
@@ -4902,7 +4902,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T10:33:40.895553+00:00"
+        "at": "2026-08-30T10:39:35.285815+00:00"
       }
     },
     "652": {
@@ -5843,36 +5843,11 @@
         "added_at": "2024-07-01 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24861731",
-              "account_name": "Opičí král (2023) CZ Dabing",
-              "title_similarity": 0.5,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "24988602",
-              "account_name": "Opičí park (2023) CZ Dabing",
-              "title_similarity": 0.5,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.317824+00:00"
+        "at": "2026-08-30T10:39:35.286795+00:00"
       }
     },
     "1588": {
@@ -38405,5 +38380,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:39:29.591517+00:00"
+  "updated_at": "2026-08-30T10:39:35.795278+00:00"
 }
