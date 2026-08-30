@@ -8067,7 +8067,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T10:38:58.786200+00:00"
+        "at": "2026-08-30T10:44:58.913602+00:00"
       }
     },
     "9147": {
@@ -8441,36 +8441,11 @@
         "added_at": "2025-12-17 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25237351",
-              "account_name": "Pomsta v srdci (2023) CZ Dabing",
-              "title_similarity": 0.625,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": 90,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25275811",
-              "account_name": "Klíč k srdci (2023) CZ Titulky",
-              "title_similarity": 0.6,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": 90,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.623799+00:00"
+        "at": "2026-08-30T10:44:58.915935+00:00"
       }
     },
     "1643": {
@@ -41536,5 +41511,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:44:53.251914+00:00"
+  "updated_at": "2026-08-30T10:45:00.058505+00:00"
 }
