@@ -7118,7 +7118,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T03:25:32.420001+00:00",
-        "last_verification_at": "2026-08-30T11:49:47.353349+00:00"
+        "last_verification_at": "2026-08-30T19:40:43.128945+00:00"
       }
     },
     "17660": {
@@ -7153,7 +7153,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T03:29:23.833709+00:00",
-        "last_verification_at": "2026-08-30T11:49:47.353351+00:00"
+        "last_verification_at": "2026-08-30T19:40:43.128948+00:00"
       }
     },
     "5396": {
@@ -12543,6 +12543,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T19:14:48.949898+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "e3e3dc08a3a6221d",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28961128",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T19:40:21.731501+00:00"
         }
       ],
       "identity": {
@@ -12562,20 +12573,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T19:16:01.523989+00:00"
-      },
-      "upload": {
-        "target_video_id": "28961128",
-        "display_name": "Duch (1990) CZ Dabing",
-        "size_bytes": 5548750207,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "e3e3dc08a3a6221d",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T19:36:07.823370+00:00",
-        "last_verification_at": "2026-08-30T19:37:08.065609+00:00"
       }
     },
     "3820": {
@@ -42504,5 +42501,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T19:38:16.622419+00:00"
+  "updated_at": "2026-08-30T19:40:43.865055+00:00"
 }
