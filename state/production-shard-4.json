@@ -7201,21 +7201,11 @@
         "added_at": "2023-03-18 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25501484",
-          "account_name": "Scanner 2: Volkinova pomsta (1995)",
-          "title_similarity": 0.553,
-          "title_contains_alias": false,
-          "film_year": 1994,
-          "candidate_year": 1995,
-          "year_match": true,
-          "film_runtime_min": 94,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.320147+00:00"
+        "at": "2026-08-30T10:52:05.186633+00:00"
       }
     },
     "6540": {
@@ -38435,5 +38425,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:52:03.823929+00:00"
+  "updated_at": "2026-08-30T10:52:05.646984+00:00"
 }
