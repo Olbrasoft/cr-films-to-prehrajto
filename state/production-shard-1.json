@@ -66751,7 +66751,58 @@
       }
     },
     "21777": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c81a89b6ec",
+              "url": "https://prehraj.to/volejte-martina-cesky-film-1965/586c81a89b6ec",
+              "title": "Volejte-Martina---český-film-(1965)",
+              "year": null,
+              "duration_sec": 4492,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 2.743,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a15e53b45f3",
+              "url": "https://prehraj.to/film-v-cz-dabingu-durchs-wilde-kurdistan-1965-cz-dobrodruznyzapadni-nemecko-spanelsko-99-min/67a15e53b45f3",
+              "title": "Film v CZ dabingu.Durchs wilde Kurdistan 1965 CZ…",
+              "year": null,
+              "duration_sec": 6161,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 4.134,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Film (1965)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:27:31.912107+00:00"
+        }
+      ],
       "identity": {
         "slug": "film-3",
         "title": "Film",
@@ -66764,21 +66815,11 @@
         "added_at": "2026-04-20 22:32:35.154206+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25375324",
-          "account_name": "Onibaba : Film Location (1964) CZ Titulky",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 1965,
-          "candidate_year": 1964,
-          "year_match": true,
-          "film_runtime_min": 20,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:28.022453+00:00"
+        "at": "2026-08-30T12:27:30.825068+00:00"
       }
     },
     "21381": {
@@ -75650,7 +75691,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:20:48.243346+00:00"
+        "at": "2026-08-30T12:27:30.818195+00:00"
       }
     },
     "24963": {
@@ -94901,7 +94942,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:20:48.243896+00:00"
+        "at": "2026-08-30T12:27:30.818691+00:00"
       }
     },
     "9865": {
@@ -95782,7 +95823,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:20:48.244661+00:00"
+        "at": "2026-08-30T12:27:30.819655+00:00"
       }
     },
     "3601": {
@@ -97211,7 +97252,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:20:48.247531+00:00"
+        "at": "2026-08-30T12:27:30.822606+00:00"
       }
     },
     "10625": {
@@ -104850,5 +104891,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:27:26.686720+00:00"
+  "updated_at": "2026-08-30T12:27:31.912118+00:00"
 }
