@@ -34770,7 +34770,149 @@
       }
     },
     "29766": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67eedde0cfef1",
+              "url": "https://prehraj.to/machri-2-adam-sandler-salma-hayek-maya-rudolph-chris-rock-2013-komedie-bdrip-1080p-cz-dabing/67eedde0cfef1",
+              "title": "Machři 2 (Adam Sandler,Salma Hayek,Maya Rudolph,Chris Rock-2013 Komédie-Bdrip.1080p.) Cz dabing",
+              "year": null,
+              "duration_sec": 5700,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.61,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67aae919d6294",
+              "url": "https://prehraj.to/scary-movie-5-ashley-tisdale-simon-rex-lindsay-lohan-charlie-sheen-2013-komedie-horor-fantasy-1080p-bdrip-cz-dabing/67aae919d6294",
+              "title": "Scary Movie 5 (Ashley Tisdale, Simon Rex, Lindsay Lohan, Charlie Sheen-2013 Komédie-Horor-Fantasy-1080p.-Bdrip.) Cz dabing",
+              "year": null,
+              "duration_sec": 5147,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.237,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 59,
+                "candidate_runtime_sec": 5147,
+                "runtime_delta": 0.454,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "603d095461946",
+              "url": "https://prehraj.to/proces-divadlo-komedie-telefilm/603d095461946",
+              "title": "Proces Divadlo Komedie telefilm",
+              "year": null,
+              "duration_sec": 5532,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.563,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Divadlo Komedie 2002-2012 (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6046a33947d50",
+              "url": "https://prehraj.to/nadvaha-nedulezite-neforemnost-divadlo-komedie-telefilm/6046a33947d50",
+              "title": "Nadváha, nedůležité: Neforemnost - Divadlo Komedie, telefilm",
+              "year": null,
+              "duration_sec": 4913,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "film_year": 2013,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 59,
+                "candidate_runtime_sec": 4913,
+                "runtime_delta": 0.388,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Divadlo Komedie 2002-2012 (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60468c631db54",
+              "url": "https://prehraj.to/legenda-o-sv-pijanovi-divadlo-komedie-telefilm/60468c631db54",
+              "title": "Legenda o sv pijanovi - Divadlo Komedie, telefilm",
+              "year": null,
+              "duration_sec": 5564,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.572,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Divadlo Komedie 2002-2012 (2013)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "670435c68c4bd",
+              "url": "https://prehraj.to/jakub-a-jeho-pan-komedie-m-kundery-v-podani-divadla-bez-zabradli-1080p/670435c68c4bd",
+              "title": "Jakub a jeho pán [komedie M.Kundery v podání Divadla Bez…",
+              "year": null,
+              "duration_sec": 6392,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.806,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Divadlo Komedie 2002-2012 (2013)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T11:32:00.880765+00:00"
+        }
+      ],
       "identity": {
         "slug": "divadlo-komedie-2002-2012",
         "title": "Divadlo Komedie 2002-2012",
@@ -34783,21 +34925,11 @@
         "added_at": "2026-04-20 22:32:43.318708+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "28790525",
-          "account_name": "Louskáček - Divadlo Mariinsky (2012) (2012) CZ Dabing",
-          "title_similarity": 0.613,
-          "title_contains_alias": false,
-          "film_year": 2013,
-          "candidate_year": 2012,
-          "year_match": true,
-          "film_runtime_min": 59,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.028179+00:00"
+        "at": "2026-08-30T11:31:59.680025+00:00"
       }
     },
     "29686": {
@@ -59551,5 +59683,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:31:52.959910+00:00"
+  "updated_at": "2026-08-30T11:32:00.880776+00:00"
 }
