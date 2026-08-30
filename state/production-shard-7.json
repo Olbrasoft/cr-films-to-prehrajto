@@ -43397,7 +43397,39 @@
       }
     },
     "26495": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5fb54ca66deca",
+              "url": "https://prehraj.to/laska-jako-past-2009-skdab/5fb54ca66deca",
+              "title": "Láska jako past 2009 SKdab",
+              "year": null,
+              "duration_sec": 8667,
+              "language_tier": "slovak_audio",
+              "audio_language": "sk",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.72,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T14:39:27.014205+00:00"
+        }
+      ],
       "identity": {
         "slug": "past-na-lasku",
         "title": "Past na lásku",
@@ -43410,36 +43442,11 @@
         "added_at": "2026-04-20 22:32:39.775883+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24802261",
-              "account_name": "Poslední čas na lásku (2008) CZ Dabing",
-              "title_similarity": 0.615,
-              "title_contains_alias": false,
-              "film_year": 2009,
-              "candidate_year": 2008,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25165435",
-              "account_name": "Anděl hledá lásku (2009) CZ",
-              "title_similarity": 0.514,
-              "title_contains_alias": false,
-              "film_year": 2009,
-              "candidate_year": 2009,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.980052+00:00"
+        "at": "2026-08-30T14:39:25.364621+00:00"
       }
     },
     "26351": {
@@ -60897,5 +60904,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T14:39:23.907889+00:00"
+  "updated_at": "2026-08-30T14:39:27.014226+00:00"
 }
