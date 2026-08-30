@@ -90038,36 +90038,11 @@
         "added_at": "2026-03-28 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24881197",
-              "account_name": "Něco jako líbánky (2024) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2025,
-              "candidate_year": 2024,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25046992",
-              "account_name": "Líbánky na hlavu (2025) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2025,
-              "candidate_year": 2025,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.130098+00:00"
+        "at": "2026-08-30T11:52:30.186284+00:00"
       }
     },
     "17512": {
@@ -95989,5 +95964,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:52:28.568169+00:00"
+  "updated_at": "2026-08-30T11:52:32.749428+00:00"
 }
