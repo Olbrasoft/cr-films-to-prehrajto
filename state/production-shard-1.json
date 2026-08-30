@@ -101655,60 +101655,11 @@
         "added_at": "2026-02-13 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24863356",
-              "account_name": "Resident Evil: Ostrov smrti (2023) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2023,
-              "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": 100,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "24877495",
-              "account_name": "Jack Mimoun a tajemný ostrov (2022) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2023,
-              "candidate_year": 2022,
-              "year_match": true,
-              "film_runtime_min": 100,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25005684",
-              "account_name": "Prokletý ostrov (2023) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2023,
-              "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": 100,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25035118",
-              "account_name": "Ostrov záhad (2023) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2023,
-              "candidate_year": 2023,
-              "year_match": true,
-              "film_runtime_min": 100,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:28.034131+00:00"
+        "at": "2026-08-30T12:33:28.088204+00:00"
       }
     },
     "49": {
@@ -105660,5 +105611,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:33:26.497007+00:00"
+  "updated_at": "2026-08-30T12:33:30.974570+00:00"
 }
