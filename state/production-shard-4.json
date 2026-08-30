@@ -1625,7 +1625,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T10:11:09.004332+00:00"
+        "at": "2026-08-30T10:33:40.894728+00:00"
       }
     },
     "26420": {
@@ -4897,15 +4897,12 @@
           "target_video_id": "24900013",
           "account_name": "Poslední nádech (2024) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2025,
           "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:46.312881+00:00"
+        "at": "2026-08-30T10:33:40.895553+00:00"
       }
     },
     "652": {
@@ -5066,21 +5063,11 @@
         "added_at": "2025-04-14 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24803677",
-          "account_name": "Vlci (2024) CZ Dabing",
-          "title_similarity": 0.588,
-          "title_contains_alias": false,
-          "film_year": 2025,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.316604+00:00"
+        "at": "2026-08-30T10:33:40.898512+00:00"
       }
     },
     "532": {
@@ -38405,5 +38392,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:32:33.461840+00:00"
+  "updated_at": "2026-08-30T10:33:41.356166+00:00"
 }
