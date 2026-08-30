@@ -29916,7 +29916,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:30:07.254218+00:00"
+        "at": "2026-08-30T11:31:40.863730+00:00"
       }
     },
     "16502": {
@@ -31789,7 +31789,100 @@
       }
     },
     "13686": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-c8ff4fd2be35ee21",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "7ac701301ab5c0ae",
+              "url": "https://prehraj.to/hrdina-jedne-noci-1935-mp4/7ac701301ab5c0ae",
+              "title": "Hrdina jedné noci (1935).mp4",
+              "year": null,
+              "duration_sec": 5410,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1935,
+                "candidate_year": 1935,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5410,
+                "runtime_delta": 0.061,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f7be9ca4cf941678",
+              "url": "https://prehraj.to/hrdina-jedne-noci-1935/f7be9ca4cf941678",
+              "title": "Hrdina jedné noci (1935)",
+              "year": null,
+              "duration_sec": 5410,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1935,
+                "candidate_year": 1935,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5410,
+                "runtime_delta": 0.061,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b18a652d2f50e2a2",
+              "url": "https://prehraj.to/hrdina-jedne-noci-1935-cs/b18a652d2f50e2a2",
+              "title": "Hrdina jedné noci - 1935 CS",
+              "year": null,
+              "duration_sec": 5902,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1935,
+                "candidate_year": 1935,
+                "year_match": true,
+                "film_runtime_min": 96,
+                "candidate_runtime_sec": 5902,
+                "runtime_delta": 0.025,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T11:31:52.959897+00:00"
+        }
+      ],
       "identity": {
         "slug": "hrdina-jedne-noci-1935",
         "title": "Hrdina jedné noci",
@@ -31802,21 +31895,11 @@
         "added_at": "2018-09-08 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25099587",
-          "account_name": "Stalo se jedné noci (1934) CZ",
-          "title_similarity": 0.585,
-          "title_contains_alias": false,
-          "film_year": 1935,
-          "candidate_year": 1934,
-          "year_match": true,
-          "film_runtime_min": 96,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.027898+00:00"
+        "at": "2026-08-30T11:31:40.865040+00:00"
       }
     },
     "14646": {
@@ -59468,5 +59551,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:31:34.349146+00:00"
+  "updated_at": "2026-08-30T11:31:52.959910+00:00"
 }
