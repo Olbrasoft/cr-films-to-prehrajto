@@ -5624,7 +5624,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-30T09:52:18.045415+00:00"
+        "at": "2026-08-30T09:59:38.417343+00:00"
       }
     },
     "23869": {
@@ -7267,30 +7267,15 @@
             {
               "target_video_id": "28843019",
               "account_name": "One Mile: Chapter Two (2026) CZ Dabing",
-              "title_similarity": 0.8,
-              "title_contains_alias": false,
+              "title_similarity": 0.9,
+              "title_exact_alias": false,
               "film_year": 2026,
               "candidate_year": 2026,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "28845445",
-              "account_name": "The Strangers: Chapter 3 (2026) CZ titulky",
-              "title_similarity": 0.5,
-              "title_contains_alias": false,
-              "film_year": 2026,
-              "candidate_year": 2026,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             }
           ]
         },
-        "at": "2026-08-30T08:58:07.720755+00:00"
+        "at": "2026-08-30T09:59:38.417833+00:00"
       }
     },
     "14845": {
@@ -8249,21 +8234,11 @@
         "added_at": "2025-12-03 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "28847393",
-          "account_name": "Útok zdrogovaného aligátora (2024) CZ titulky",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2023,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.723089+00:00"
+        "at": "2026-08-30T09:59:38.419947+00:00"
       }
     },
     "4877": {
@@ -43156,5 +43131,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:59:37.042201+00:00"
+  "updated_at": "2026-08-30T09:59:39.169884+00:00"
 }
