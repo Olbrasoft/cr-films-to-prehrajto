@@ -1611,7 +1611,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T09:48:34.904636+00:00"
+        "at": "2026-08-30T10:01:41.744450+00:00"
       }
     },
     "26420": {
@@ -2779,21 +2779,11 @@
         "added_at": "2026-04-20 22:32:36.171739+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25507256",
-          "account_name": "Ghoulies III: Ghoulies Go to College (1990)",
-          "title_similarity": 0.581,
-          "title_contains_alias": false,
-          "film_year": 1989,
-          "candidate_year": 1990,
-          "year_match": true,
-          "film_runtime_min": 86,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.305244+00:00"
+        "at": "2026-08-30T10:01:41.744738+00:00"
       }
     },
     "22940": {
@@ -38374,5 +38364,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:01:34.934885+00:00"
+  "updated_at": "2026-08-30T10:01:42.174409+00:00"
 }
