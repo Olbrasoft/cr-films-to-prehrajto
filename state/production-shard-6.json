@@ -27877,72 +27877,24 @@
         "added_at": "2022-03-17 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "28865098",
-              "account_name": "Dobrý šéf (2021) CZ Dabing",
-              "title_similarity": 0.538,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2021,
-              "year_match": true,
-              "film_runtime_min": 107,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25288282",
-              "account_name": "Good Mourning (2022) CZ Titulky",
-              "title_similarity": 0.5,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2022,
-              "year_match": true,
-              "film_runtime_min": 107,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25298831",
-              "account_name": "Feels Good Man (2020) CZ Titulky",
-              "title_similarity": 0.621,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 107,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25298688",
-              "account_name": "Good Samaritans (2020) CZ Titulky",
-              "title_similarity": 0.533,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 107,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25290206",
-              "account_name": "A Good Enough Day (2022) CZ Titulky",
-              "title_similarity": 0.5,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2022,
-              "year_match": true,
-              "film_runtime_min": 107,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.020149+00:00"
+        "at": "2026-08-30T11:02:43.349090+00:00"
+      },
+      "upload": {
+        "target_video_id": "28952919",
+        "display_name": "Dobrý člověk (2021) CZ Dabing",
+        "size_bytes": 1926007293,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "62ec0bf3db068",
+        "language_tier": "czech_audio",
+        "actual_resolution": 1080,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T11:08:26.765612+00:00"
       }
     },
     "14158": {
@@ -59546,5 +59498,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:02:35.334267+00:00"
+  "updated_at": "2026-08-30T11:08:26.765638+00:00"
 }
