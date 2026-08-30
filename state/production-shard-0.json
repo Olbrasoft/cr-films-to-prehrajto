@@ -66111,21 +66111,24 @@
         "added_at": "2025-09-11 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25260991",
-          "account_name": "TOHLE JSOU KHUMALOVI (2025) CZ Titulky",
-          "title_similarity": 0.5,
-          "title_contains_alias": false,
-          "film_year": 2024,
-          "candidate_year": 2025,
-          "year_match": true,
-          "film_runtime_min": 104,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.111197+00:00"
+        "at": "2026-08-30T09:49:48.881032+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951675",
+        "display_name": "Tohle je moje matka (2024) CZ Dabing",
+        "size_bytes": 2326545439,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "f22dc0a2d20ba135",
+        "language_tier": "czech_audio",
+        "actual_resolution": 1080,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:59:46.857750+00:00"
       }
     },
     "2160": {
@@ -95894,5 +95897,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:49:44.377112+00:00"
+  "updated_at": "2026-08-30T09:59:46.857777+00:00"
 }
