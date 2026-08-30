@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T10:57:49.139404+00:00"
+        "at": "2026-08-30T11:00:37.425172+00:00"
       }
     },
     "22730": {
@@ -7491,21 +7491,11 @@
         "added_at": "2023-08-09 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25162063",
-          "account_name": "Superman: Soudný den (2007) CZ Dabing",
-          "title_similarity": 0.537,
-          "title_contains_alias": false,
-          "film_year": 2006,
-          "candidate_year": 2007,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.340748+00:00"
+        "at": "2026-08-30T11:00:37.426551+00:00"
       }
     },
     "1602": {
@@ -253416,5 +253406,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:00:31.477956+00:00"
+  "updated_at": "2026-08-30T11:00:38.192679+00:00"
 }
