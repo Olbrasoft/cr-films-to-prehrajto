@@ -13564,6 +13564,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T19:47:20.274160+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "67e3c9f4ab5c6",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28961973",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T20:20:14.240819+00:00"
         }
       ],
       "identity": {
@@ -13583,20 +13594,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T19:49:11.816959+00:00"
-      },
-      "upload": {
-        "target_video_id": "28961973",
-        "display_name": "Duch (1990) CZ Dabing",
-        "size_bytes": 989385351,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "67e3c9f4ab5c6",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T20:16:22.082368+00:00",
-        "last_verification_at": "2026-08-30T20:17:18.675705+00:00"
       }
     },
     "3820": {
@@ -38946,7 +38943,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T02:56:30.410299+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.403765+00:00"
+        "last_verification_at": "2026-08-30T20:20:14.292855+00:00"
       }
     },
     "14756": {
@@ -39146,7 +39143,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T03:05:21.219719+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.403767+00:00"
+        "last_verification_at": "2026-08-30T20:20:14.292857+00:00"
       }
     },
     "15716": {
@@ -39181,7 +39178,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T03:10:59.982149+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.403769+00:00"
+        "last_verification_at": "2026-08-30T20:20:14.292860+00:00"
       }
     },
     "15676": {
@@ -39216,7 +39213,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T03:13:46.491819+00:00",
-        "last_verification_at": "2026-08-30T15:55:40.441968+00:00"
+        "last_verification_at": "2026-08-30T20:20:14.292870+00:00"
       }
     },
     "16180": {
@@ -39251,7 +39248,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T03:16:53.974895+00:00",
-        "last_verification_at": "2026-08-30T15:55:40.441971+00:00"
+        "last_verification_at": "2026-08-30T20:20:14.292873+00:00"
       }
     },
     "15972": {
@@ -43525,5 +43522,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T20:19:27.088736+00:00"
+  "updated_at": "2026-08-30T20:20:14.418675+00:00"
 }
