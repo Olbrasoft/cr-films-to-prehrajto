@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T15:05:49.134292+00:00"
+        "at": "2026-08-30T15:16:22.529973+00:00"
       }
     },
     "22730": {
@@ -9062,7 +9062,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T15:05:49.134814+00:00"
+        "at": "2026-08-30T15:16:22.530514+00:00"
       }
     },
     "466": {
@@ -197044,7 +197044,373 @@
       }
     },
     "24106": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586af7d597cea",
+              "url": "https://prehraj.to/pripad-z-poodle-springs-poodle-springs-1998-cesky-dabing/586af7d597cea",
+              "title": "Případ-z-Poodle-Springs-(Poodle-Springs,-1998)_český-dabing",
+              "year": null,
+              "duration_sec": 5735,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.364,
+                "title_contains_alias": false,
+                "film_year": 1998,
+                "candidate_year": 1998,
+                "year_match": true,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5735,
+                "runtime_delta": 0.044,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "922f2cb9851a54f7",
+              "url": "https://prehraj.to/the-antarctic-octopus-2023-ko/922f2cb9851a54f7",
+              "title": "The Antarctic Octopus - 2023 KO",
+              "year": null,
+              "duration_sec": 5180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "660d87ea7f984",
+              "url": "https://prehraj.to/the-antarctic-octopus-2023-sk-sub-1080p/660d87ea7f984",
+              "title": "The Antarctic Octopus 2023 sk sub 1080p",
+              "year": null,
+              "duration_sec": 5181,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "660c795fdc5fb",
+              "url": "https://prehraj.to/the-antarctic-octopus-chinese/660c795fdc5fb",
+              "title": "The Antarctic Octopus chinese",
+              "year": null,
+              "duration_sec": 5181,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.55,
+                "title_contains_alias": false,
+                "film_year": 1998,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5181,
+                "runtime_delta": 0.137,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6731211dbda49",
+              "url": "https://prehraj.to/secrets-of-the-octopus-s01e03-1080p-hevc-x265-megusta/6731211dbda49",
+              "title": "Secrets.of.the.Octopus.S01E03.1080p.HEVC.x265-MeGusta",
+              "year": null,
+              "duration_sec": 2568,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "673120d75352b",
+              "url": "https://prehraj.to/secrets-of-the-octopus-s01e02-720p-x265-t0paz/673120d75352b",
+              "title": "Secrets of the Octopus S01E02 720p x265-T0PAZ",
+              "year": null,
+              "duration_sec": 2536,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3cb9ac30a9e6bb69",
+              "url": "https://prehraj.to/20-the-octopus-masters/3cb9ac30a9e6bb69",
+              "title": "20. The Octopus Masters",
+              "year": null,
+              "duration_sec": 426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.929,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "673120fd23981",
+              "url": "https://prehraj.to/secrets-of-the-octopus-s01e01-shapeshifters-documentary/673120fd23981",
+              "title": "secrets.of.the.octopus.s01e01.shapeshifters.documentary",
+              "year": null,
+              "duration_sec": 2295,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64f776bb8f52a",
+              "url": "https://prehraj.to/oggy-a-svaby-291-the-octopus-master/64f776bb8f52a",
+              "title": "Oggy a Šváby - 291 - The Octopus Master",
+              "year": null,
+              "duration_sec": 426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.929,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67722519d1f36",
+              "url": "https://prehraj.to/the-antarctic-octopus-ji-han-zhi-di-2023-sktonline/67722519d1f36",
+              "title": "The Antarctic Octopus - Ji han zhi di (2023) - SkTonline",
+              "year": null,
+              "duration_sec": 5180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "680222c18885d",
+              "url": "https://prehraj.to/chinese-monster-the-antarctic-octopus-ji-han-zhi-di-2023-sktonline/680222c18885d",
+              "title": "Chinese Monster-The Antarctic Octopus - Ji han zhi di (2023…",
+              "year": null,
+              "duration_sec": 5180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1998,
+                "candidate_year": 2023,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ae0e35d28d6c",
+              "url": "https://prehraj.to/the-amazing-octopus-that-can-walk-on-dry-land-the-hunt-episode-6-preview-bbc-one/5ae0e35d28d6c",
+              "title": "The amazing Octopus that can walk on dry land - The Hunt-…",
+              "year": null,
+              "duration_sec": 132,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.978,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68507f79d45d0",
+              "url": "https://prehraj.to/chinese-monster-mkv-the-antarctic-octopus-ji-han-zhi-di-2023-sktonline/68507f79d45d0",
+              "title": "chinese monster mkv-The Antarctic Octopus - Ji han zhi di …",
+              "year": null,
+              "duration_sec": 5180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 1998,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5180,
+                "runtime_delta": 0.137,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65da5606577db",
+              "url": "https://prehraj.to/oggy-a-svaby-291-the-octopus-master-by-ugare/65da5606577db",
+              "title": "Oggy a Šváby - 291 - The Octopus Master (by_UgarE)",
+              "year": null,
+              "duration_sec": 426,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.929,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66083ce401e13",
+              "url": "https://prehraj.to/he-wants-the-puss-reacting-to-sml-movie-chef-pee-pee-the-octopus-charmx/66083ce401e13",
+              "title": "HE WANTS THE PUSS! - Reacting to SML Movie - Chef Pee Pee…",
+              "year": null,
+              "duration_sec": 798,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.867,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65071f04433f8",
+              "url": "https://prehraj.to/anime-time-one-piece-0039-luffy-submerged-zoro-vs-hatchan-the-octopus/65071f04433f8",
+              "title": "[Anime Time] One Piece - 0039 - Luffy Submerged! Zoro vs.…",
+              "year": null,
+              "duration_sec": 1500,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.75,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "The Octopus (1998)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b69f1c49380",
+              "url": "https://prehraj.to/p-f-chinese-monster-the-antarctic-octopus-ji-han-zhi-di-2023-sk-tit/67b69f1c49380",
+              "title": "P.F. Chinese Monster-The Antarctic Octopus - Ji han zhi di …",
+              "year": null,
+              "duration_sec": 5180,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.333,
+                "title_contains_alias": false,
+                "film_year": 1998,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 100,
+                "candidate_runtime_sec": 5180,
+                "runtime_delta": 0.137,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The Octopus (1998)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:16:27.323528+00:00"
+        }
+      ],
       "identity": {
         "slug": "pripad-chobotnice",
         "title": "Případ Chobotnice",
@@ -197057,21 +197423,11 @@
         "added_at": "2026-04-20 22:32:37.159724+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24836687",
-          "account_name": "Chobotnice (1998) CZ Dabing",
-          "title_similarity": 0.625,
-          "title_contains_alias": false,
-          "film_year": 1998,
-          "candidate_year": 1998,
-          "year_match": true,
-          "film_runtime_min": 100,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.418989+00:00"
+        "at": "2026-08-30T15:16:22.531380+00:00"
       }
     },
     "24074": {
@@ -254049,5 +254405,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:16:16.044755+00:00"
+  "updated_at": "2026-08-30T15:16:27.323548+00:00"
 }
