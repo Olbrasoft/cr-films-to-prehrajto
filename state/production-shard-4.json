@@ -1625,7 +1625,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T10:39:35.284932+00:00"
+        "at": "2026-08-30T10:51:58.304029+00:00"
       }
     },
     "26420": {
@@ -4902,7 +4902,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T10:39:35.285815+00:00"
+        "at": "2026-08-30T10:51:58.304924+00:00"
       }
     },
     "652": {
@@ -6057,7 +6057,46 @@
       }
     },
     "13740": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-1c53e28456f2325e",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "eb9a0ed0d265ccc9",
+              "url": "https://prehraj.to/barbie-morska-vila-2006-cs/eb9a0ed0d265ccc9",
+              "title": "Barbie mořská víla - 2006 CS",
+              "year": null,
+              "duration_sec": 4477,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2006,
+                "candidate_year": 2006,
+                "year_match": true,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 4477,
+                "runtime_delta": 0.018,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T10:52:03.823916+00:00"
+        }
+      ],
       "identity": {
         "slug": "barbie-morska-vila-2006",
         "title": "Barbie mořská víla",
@@ -6070,21 +6109,11 @@
         "added_at": "2024-04-24 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25493647",
-          "account_name": "Malá mořská víla (2005)",
-          "title_similarity": 0.667,
-          "title_contains_alias": false,
-          "film_year": 2006,
-          "candidate_year": 2005,
-          "year_match": true,
-          "film_runtime_min": 76,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.319919+00:00"
+        "at": "2026-08-30T10:51:58.306697+00:00"
       }
     },
     "7452": {
@@ -38406,5 +38435,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:51:52.636212+00:00"
+  "updated_at": "2026-08-30T10:52:03.823929+00:00"
 }
