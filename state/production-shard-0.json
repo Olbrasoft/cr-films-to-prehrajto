@@ -68485,7 +68485,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T16:38:15.259667+00:00"
+        "at": "2026-08-30T16:41:51.285998+00:00"
       }
     },
     "14024": {
@@ -69919,7 +69919,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T16:38:15.259923+00:00"
+        "at": "2026-08-30T16:41:51.286245+00:00"
       }
     },
     "10304": {
@@ -70825,7 +70825,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T16:38:15.260202+00:00"
+        "at": "2026-08-30T16:41:51.286521+00:00"
       }
     },
     "14096": {
@@ -83629,7 +83629,7 @@
             }
           ]
         },
-        "at": "2026-08-30T16:38:15.260442+00:00"
+        "at": "2026-08-30T16:41:51.286756+00:00"
       }
     },
     "4056": {
@@ -87530,7 +87530,7 @@
             }
           ]
         },
-        "at": "2026-08-30T16:38:15.260903+00:00"
+        "at": "2026-08-30T16:41:51.287202+00:00"
       }
     },
     "6440": {
@@ -90773,6 +90773,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T16:40:57.914984+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "58622",
+              "url": "https://online.sktorrent.eu/video/58622/",
+              "title": "Líbánky",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T16:41:55.597734+00:00"
         }
       ],
       "identity": {
@@ -90791,7 +90820,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T11:52:30.186284+00:00"
+        "at": "2026-08-30T16:41:51.288283+00:00"
       }
     },
     "17512": {
@@ -97471,5 +97500,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T16:40:58.013769+00:00"
+  "updated_at": "2026-08-30T16:41:55.597751+00:00"
 }
