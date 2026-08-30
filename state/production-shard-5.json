@@ -41479,36 +41479,11 @@
         "added_at": "2021-11-08 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24994106",
-              "account_name": "Unesená princezna (2020) CZ",
-              "title_similarity": 0.556,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 125,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "24992521",
-              "account_name": "Kidnapped by a Classmate (2020) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 125,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.802235+00:00"
+        "at": "2026-08-30T15:43:49.236433+00:00"
       }
     },
     "213": {
@@ -43216,5 +43191,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:43:47.807792+00:00"
+  "updated_at": "2026-08-30T15:43:55.104344+00:00"
 }
