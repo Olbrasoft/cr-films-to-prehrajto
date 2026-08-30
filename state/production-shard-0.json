@@ -68485,7 +68485,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:29.598419+00:00"
+        "at": "2026-08-30T15:56:42.500580+00:00"
       }
     },
     "14024": {
@@ -69919,7 +69919,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:29.598666+00:00"
+        "at": "2026-08-30T15:56:42.500828+00:00"
       }
     },
     "10304": {
@@ -70825,7 +70825,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:29.598942+00:00"
+        "at": "2026-08-30T15:56:42.501132+00:00"
       }
     },
     "14096": {
@@ -82958,6 +82958,51 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T15:33:30.349070+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-c78b4e1726c4382a",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64f1b26c6995d",
+              "url": "https://prehraj.to/perpetrator-2023-1080p-webrip-1400mb-dd5-1-x264-galaxyrg/64f1b26c6995d",
+              "title": "Perpetrator.2023.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG",
+              "year": null,
+              "duration_sec": 6045,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6045,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:56:43.387733+00:00"
         }
       ],
       "identity": {
@@ -82977,7 +83022,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28889902"
         },
-        "at": "2026-08-30T15:33:29.600672+00:00"
+        "at": "2026-08-30T15:56:42.502832+00:00"
       }
     },
     "11288": {
@@ -83044,7 +83089,7 @@
             }
           ]
         },
-        "at": "2026-08-30T15:33:29.599185+00:00"
+        "at": "2026-08-30T15:56:42.501348+00:00"
       }
     },
     "4056": {
@@ -86945,7 +86990,7 @@
             }
           ]
         },
-        "at": "2026-08-30T15:33:29.599636+00:00"
+        "at": "2026-08-30T15:56:42.501799+00:00"
       }
     },
     "6440": {
@@ -94954,7 +94999,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:29.600526+00:00"
+        "at": "2026-08-30T15:56:42.502687+00:00"
       }
     },
     "2264": {
@@ -96867,5 +96912,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:33:34.269362+00:00"
+  "updated_at": "2026-08-30T15:56:43.387748+00:00"
 }
