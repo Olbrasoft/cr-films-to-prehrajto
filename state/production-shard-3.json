@@ -8067,7 +8067,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T10:44:58.913602+00:00"
+        "at": "2026-08-30T10:48:33.784259+00:00"
       }
     },
     "9147": {
@@ -9859,15 +9859,12 @@
           "target_video_id": "25237565",
           "account_name": "Noční směna (2021) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2020,
           "candidate_year": 2021,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:24.624976+00:00"
+        "at": "2026-08-30T10:48:33.784823+00:00"
       }
     },
     "15619": {
@@ -10005,21 +10002,11 @@
         "added_at": "2024-11-09 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25270317",
-          "account_name": "My Two Husbands (2024) CZ Titulky",
-          "title_similarity": 0.581,
-          "title_contains_alias": false,
-          "film_year": 2024,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": 99,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.625166+00:00"
+        "at": "2026-08-30T10:48:33.784912+00:00"
       }
     },
     "16027": {
@@ -41524,5 +41511,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:48:28.548038+00:00"
+  "updated_at": "2026-08-30T10:48:34.268003+00:00"
 }
