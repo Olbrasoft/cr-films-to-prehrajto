@@ -4231,21 +4231,24 @@
         "added_at": "2026-04-20 22:32:38.196594+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25523185",
-          "account_name": "Holocaust 2000 (1977)",
-          "title_similarity": 0.541,
-          "title_contains_alias": false,
-          "film_year": 2000,
-          "candidate_year": 2000,
-          "year_match": true,
-          "film_runtime_min": 56,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.614521+00:00"
+        "at": "2026-08-30T10:08:15.453060+00:00"
+      },
+      "upload": {
+        "target_video_id": "28952027",
+        "display_name": "A Holocaust szemei (2000) CZ Dabing",
+        "size_bytes": 127307866,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "677b46b9d39c3",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T10:11:57.095613+00:00"
       }
     },
     "24091": {
@@ -41529,5 +41532,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:08:14.005667+00:00"
+  "updated_at": "2026-08-30T10:11:57.095665+00:00"
 }
