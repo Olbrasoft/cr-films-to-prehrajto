@@ -5637,7 +5637,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:31.763925+00:00"
+        "at": "2026-08-30T15:37:59.529330+00:00"
       }
     },
     "23869": {
@@ -7292,7 +7292,7 @@
             }
           ]
         },
-        "at": "2026-08-30T15:33:31.764457+00:00"
+        "at": "2026-08-30T15:37:59.529851+00:00"
       }
     },
     "14845": {
@@ -10576,7 +10576,7 @@
           "candidate_year": 2006,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:31.764625+00:00"
+        "at": "2026-08-30T15:37:59.530013+00:00"
       }
     },
     "7517": {
@@ -11037,7 +11037,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:31.765053+00:00"
+        "at": "2026-08-30T15:37:59.530469+00:00"
       }
     },
     "3261": {
@@ -13372,7 +13372,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:31.765609+00:00"
+        "at": "2026-08-30T15:37:59.530973+00:00"
       }
     },
     "13781": {
@@ -16545,7 +16545,7 @@
             }
           ]
         },
-        "at": "2026-08-30T15:33:31.765842+00:00"
+        "at": "2026-08-30T15:37:59.531198+00:00"
       }
     },
     "14405": {
@@ -16645,7 +16645,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-30T15:33:31.765929+00:00"
+        "at": "2026-08-30T15:37:59.531287+00:00"
       }
     },
     "2741": {
@@ -40799,7 +40799,46 @@
       }
     },
     "16765": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "000654289490e7bb",
+              "url": "https://prehraj.to/barbie-a-psi-dobrodruzstvi/000654289490e7bb",
+              "title": "Barbie a Psi dobrodruzstvi",
+              "year": null,
+              "duration_sec": 4324,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.96,
+                "title_contains_alias": false,
+                "film_year": 2015,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 76,
+                "candidate_runtime_sec": 4324,
+                "runtime_delta": 0.052,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Barbie: Psí dobrodružství (2015)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:38:05.294499+00:00"
+        }
+      ],
       "identity": {
         "slug": "barbie-psi-dobrodruzstvi-2015",
         "title": "Barbie: Psí dobrodružství",
@@ -40812,21 +40851,11 @@
         "added_at": "2024-02-05 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25184269",
-          "account_name": "Barbie in Rock 'N Royals (2015) CZ Dabing",
-          "title_similarity": 0.5,
-          "title_contains_alias": false,
-          "film_year": 2015,
-          "candidate_year": 2015,
-          "year_match": true,
-          "film_runtime_min": 76,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.798798+00:00"
+        "at": "2026-08-30T15:37:59.535947+00:00"
       }
     },
     "7853": {
@@ -43174,5 +43203,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:37:58.018679+00:00"
+  "updated_at": "2026-08-30T15:38:05.294516+00:00"
 }
