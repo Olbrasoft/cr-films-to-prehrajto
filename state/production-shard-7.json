@@ -595,7 +595,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-30T09:27:05.245982+00:00"
+        "at": "2026-08-30T09:29:42.044533+00:00"
       }
     },
     "23807": {
@@ -13514,36 +13514,11 @@
         "added_at": "2026-02-28 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24803279",
-              "account_name": "Tiché znamení (2024) CZ Dabing",
-              "title_similarity": 0.513,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2024,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "28853562",
-              "account_name": "Tiché burácení (2025) CZ Dabing",
-              "title_similarity": 0.5,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2025,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.791011+00:00"
+        "at": "2026-08-30T09:29:42.045511+00:00"
       }
     },
     "15295": {
@@ -60314,5 +60289,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:29:19.085723+00:00"
+  "updated_at": "2026-08-30T09:29:42.550506+00:00"
 }
