@@ -1516,7 +1516,20 @@
       }
     },
     "29790": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "d6f01c889feed87e",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28950925",
+          "display_name": "Na shledanou včera (2019) CZ titulky",
+          "size_bytes": 623080651,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:20:00.960864+00:00"
+        }
+      ],
       "identity": {
         "slug": "na-shledanou-vcera",
         "title": "Na shledanou včera",
@@ -1529,21 +1542,11 @@
         "added_at": "2026-04-20 22:32:43.318708+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25052720",
-          "account_name": "Brzy na shledanou (2019) CZ Dabing",
-          "title_similarity": 0.65,
-          "title_contains_alias": false,
-          "film_year": 2019,
-          "candidate_year": 2019,
-          "year_match": true,
-          "film_runtime_min": 86,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:23.997124+00:00"
+        "at": "2026-08-30T09:17:36.585345+00:00"
       }
     },
     "29350": {
@@ -59556,5 +59559,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:17:29.436622+00:00"
+  "updated_at": "2026-08-30T09:20:00.960889+00:00"
 }
