@@ -29902,21 +29902,21 @@
         "added_at": "2021-08-18 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "ambiguous",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24845297",
-          "account_name": "Pátek třináctého 2 (1981) CZ Dabing",
-          "title_similarity": 0.829,
-          "title_contains_alias": false,
-          "film_year": 1982,
-          "candidate_year": 1981,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "matches": [
+            {
+              "target_video_id": "24845297",
+              "account_name": "Pátek třináctého 2 (1981) CZ Dabing",
+              "title_similarity": 0.944,
+              "title_exact_alias": false,
+              "film_year": 1982,
+              "candidate_year": 1981,
+              "year_match": true
+            }
+          ]
         },
-        "at": "2026-08-30T08:57:24.021900+00:00"
+        "at": "2026-08-30T11:08:34.251217+00:00"
       }
     },
     "16502": {
@@ -30150,60 +30150,11 @@
         "added_at": "2021-06-23 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24881181",
-              "account_name": "Nikdo nevyvázne živý (2021) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2021,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25297532",
-              "account_name": "Nikdo neví, že tu jsem (2020) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25072310",
-              "account_name": "Dnes v noci v lese nikdo nespí 2 (2021) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2021,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25092237",
-              "account_name": "Dnes v noci v lese nikdo nespí (2020) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2021,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.024066+00:00"
+        "at": "2026-08-30T11:08:34.253397+00:00"
       }
     },
     "16358": {
@@ -59498,5 +59449,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:08:26.765638+00:00"
+  "updated_at": "2026-08-30T11:08:34.741239+00:00"
 }
