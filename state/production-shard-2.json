@@ -1027,7 +1027,7 @@
             }
           ]
         },
-        "at": "2026-08-30T09:22:08.741498+00:00"
+        "at": "2026-08-30T09:25:06.597455+00:00"
       }
     },
     "22730": {
@@ -4265,21 +4265,11 @@
         "added_at": "2026-04-11 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25017738",
-          "account_name": "Nejdelší víkend (2022) CZ Dabing",
-          "title_similarity": 0.513,
-          "title_contains_alias": false,
-          "film_year": 2021,
-          "candidate_year": 2022,
-          "year_match": true,
-          "film_runtime_min": 96,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.324398+00:00"
+        "at": "2026-08-30T09:25:06.597995+00:00"
       }
     },
     "16546": {
@@ -253362,5 +253352,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:25:00.387568+00:00"
+  "updated_at": "2026-08-30T09:25:07.360177+00:00"
 }
