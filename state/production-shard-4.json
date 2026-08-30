@@ -17426,7 +17426,46 @@
       }
     },
     "28972": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "85c816fb45843788",
+              "url": "https://prehraj.to/dreamteam-2025-komedie-cz-1080p/85c816fb45843788",
+              "title": "DreamTeam 2025 Komedie CZ 1080p",
+              "year": null,
+              "duration_sec": 7594,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.439,
+                "title_contains_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 7594,
+                "runtime_delta": 0.489,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:50:25.245785+00:00"
+        }
+      ],
       "identity": {
         "slug": "izgubljeni-dream-team",
         "title": "Izgubljeni Dream Team",
@@ -17439,21 +17478,11 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "28844612",
-          "account_name": "Dream Team (2025) CZ Dabing",
-          "title_similarity": 0.588,
-          "title_contains_alias": false,
-          "film_year": 2025,
-          "candidate_year": 2025,
-          "year_match": true,
-          "film_runtime_min": 85,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.361995+00:00"
+        "at": "2026-08-30T12:50:23.865570+00:00"
       }
     },
     "28948": {
@@ -38965,5 +38994,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:50:22.320984+00:00"
+  "updated_at": "2026-08-30T12:50:25.245804+00:00"
 }
