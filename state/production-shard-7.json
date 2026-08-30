@@ -11552,48 +11552,11 @@
         "added_at": "2026-04-20 22:32:36.677598+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25075133",
-              "account_name": "Strážní andělé (1995) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 1994,
-              "candidate_year": 1995,
-              "year_match": true,
-              "film_runtime_min": 103,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25128141",
-              "account_name": "Andělé nejsou andělé (1994) CZ",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 1994,
-              "candidate_year": 1994,
-              "year_match": true,
-              "film_runtime_min": 103,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25503682",
-              "account_name": "Padlí andělé (1995)",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 1994,
-              "candidate_year": 1995,
-              "year_match": true,
-              "film_runtime_min": 103,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.789931+00:00"
+        "at": "2026-08-30T09:27:09.396070+00:00"
       }
     },
     "23343": {
@@ -60338,5 +60301,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:27:07.789891+00:00"
+  "updated_at": "2026-08-30T09:27:10.097252+00:00"
 }
