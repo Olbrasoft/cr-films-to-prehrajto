@@ -24148,36 +24148,11 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25385862",
-              "account_name": "Bad Sister (2015) SK Dabing",
-              "title_similarity": 0.533,
-              "title_contains_alias": false,
-              "film_year": 2014,
-              "candidate_year": 2015,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25319204",
-              "account_name": "Dark Sister (2014) CZ Titulky",
-              "title_similarity": 0.516,
-              "title_contains_alias": false,
-              "film_year": 2014,
-              "candidate_year": 2014,
-              "year_match": true,
-              "film_runtime_min": 84,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:28.027034+00:00"
+        "at": "2026-08-30T12:27:39.519928+00:00"
       }
     },
     "28825": {
@@ -105575,5 +105550,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:27:37.974408+00:00"
+  "updated_at": "2026-08-30T12:27:39.995860+00:00"
 }
