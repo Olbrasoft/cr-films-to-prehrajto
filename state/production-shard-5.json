@@ -5619,15 +5619,12 @@
           "target_video_id": "25365298",
           "account_name": "Premonition (2005) CZ Titulky",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2004,
           "candidate_year": 2005,
-          "year_match": true,
-          "film_runtime_min": 95,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:58:07.717553+00:00"
+        "at": "2026-08-30T09:46:50.619600+00:00"
       }
     },
     "23869": {
@@ -6042,21 +6039,11 @@
         "added_at": "2026-04-20 22:32:36.171739+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24933547",
-          "account_name": "Krátký film o zabíjení (1988) CZ",
-          "title_similarity": 0.696,
-          "title_contains_alias": false,
-          "film_year": 1988,
-          "candidate_year": 1988,
-          "year_match": true,
-          "film_runtime_min": 86,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.718452+00:00"
+        "at": "2026-08-30T09:46:50.620404+00:00"
       }
     },
     "22845": {
@@ -43127,5 +43114,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:46:49.253893+00:00"
+  "updated_at": "2026-08-30T09:46:51.051314+00:00"
 }
