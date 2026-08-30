@@ -7378,36 +7378,24 @@
         "added_at": "2024-10-18 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25410158",
-              "account_name": "It Ends (2025)",
-              "title_similarity": 0.593,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2025,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25259975",
-              "account_name": "Violent Ends (2025) CZ Titulky",
-              "title_similarity": 0.5,
-              "title_contains_alias": false,
-              "film_year": 2024,
-              "candidate_year": 2025,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.006733+00:00"
+        "at": "2026-08-30T09:33:32.557814+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951328",
+        "display_name": "Námi to končí (2024) CZ Dabing",
+        "size_bytes": 2636627679,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "12abcd9934986995",
+        "language_tier": "czech_audio",
+        "actual_resolution": 1080,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:42:07.266010+00:00"
       }
     },
     "3606": {
@@ -59539,5 +59527,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:33:26.008511+00:00"
+  "updated_at": "2026-08-30T09:42:07.266041+00:00"
 }
