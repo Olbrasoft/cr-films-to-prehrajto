@@ -590,15 +590,12 @@
           "target_video_id": "25478533",
           "account_name": "Shank (2010)",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2009,
           "candidate_year": 2010,
-          "year_match": true,
-          "film_runtime_min": 94,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:45.783777+00:00"
+        "at": "2026-08-30T09:12:55.137493+00:00"
       }
     },
     "23807": {
@@ -7733,21 +7730,11 @@
         "added_at": "2020-01-21 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24903033",
-          "account_name": "Nezvaný host (2020) CZ Dabing",
-          "title_similarity": 0.533,
-          "title_contains_alias": false,
-          "film_year": 2019,
-          "candidate_year": 2020,
-          "year_match": true,
-          "film_runtime_min": 96,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.785458+00:00"
+        "at": "2026-08-30T09:12:55.138924+00:00"
       }
     },
     "28863": {
@@ -60252,5 +60239,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:12:46.833002+00:00"
+  "updated_at": "2026-08-30T09:12:55.872722+00:00"
 }
