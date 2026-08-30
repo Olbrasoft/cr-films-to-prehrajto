@@ -41998,6 +41998,51 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T14:38:43.644559+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-e2a0ccab60a959d9",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "586c3b34b2552",
+              "url": "https://prehraj.to/the-boss-6ch-2016-1080p-titulky-v-obraze/586c3b34b2552",
+              "title": "The Boss 6CH (2016) 1080p. Titulky v obraze",
+              "year": null,
+              "duration_sec": 6254,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": 91,
+                "candidate_runtime_sec": 6254,
+                "runtime_delta": 0.145,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:34:24.881587+00:00"
         }
       ],
       "identity": {
@@ -42017,7 +42062,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28836006"
         },
-        "at": "2026-08-30T14:38:40.079861+00:00"
+        "at": "2026-08-30T15:34:23.650423+00:00"
       }
     },
     "28391": {
@@ -76507,7 +76552,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:38:40.076058+00:00"
+        "at": "2026-08-30T15:34:23.647236+00:00"
       }
     },
     "24963": {
@@ -95758,7 +95803,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:38:40.076419+00:00"
+        "at": "2026-08-30T15:34:23.647560+00:00"
       }
     },
     "9865": {
@@ -96639,7 +96684,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:38:40.076973+00:00"
+        "at": "2026-08-30T15:34:23.648060+00:00"
       }
     },
     "3601": {
@@ -98069,7 +98114,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:38:40.079051+00:00"
+        "at": "2026-08-30T15:34:23.649914+00:00"
       }
     },
     "10625": {
@@ -105487,5 +105532,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:32:41.559161+00:00"
+  "updated_at": "2026-08-30T15:34:24.881603+00:00"
 }
