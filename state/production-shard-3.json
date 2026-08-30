@@ -8069,7 +8069,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T12:40:39.482697+00:00"
+        "at": "2026-08-30T12:46:19.210663+00:00"
       }
     },
     "9147": {
@@ -9874,7 +9874,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T12:40:39.483691+00:00"
+        "at": "2026-08-30T12:46:19.211658+00:00"
       }
     },
     "15619": {
@@ -11935,7 +11935,7 @@
           "candidate_year": 2022,
           "year_match": true
         },
-        "at": "2026-08-30T12:40:39.483923+00:00"
+        "at": "2026-08-30T12:46:19.211889+00:00"
       }
     },
     "7115": {
@@ -14314,7 +14314,57 @@
       }
     },
     "28147": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "681b76d86ed19",
+              "url": "https://prehraj.to/last-summer-2023-1080p-french-bluray-hevc-x265-5-1/681b76d86ed19",
+              "title": "Last Summer-2023-1080p-French-BluRay-HEVC-x265+5.1",
+              "year": null,
+              "duration_sec": 6213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 13.793,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Last Summer (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "669599214ed41",
+              "url": "https://prehraj.to/last-summer-2023-1080p-french-bluray-hevc-x265-5-1-bone/669599214ed41",
+              "title": "Last Summer 2023 1080p French BluRay HEVC x265 5.1 BONE",
+              "year": null,
+              "duration_sec": 6213,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 13.793,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Last Summer (2023)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:46:20.545547+00:00"
+        }
+      ],
       "identity": {
         "slug": "last-summer",
         "title": "Last Summer",
@@ -14327,21 +14377,11 @@
         "added_at": "2026-04-20 22:32:41.789747+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25270456",
-          "account_name": "Monster Summer (2024) CZ Titulky",
-          "title_similarity": 0.6,
-          "title_contains_alias": false,
-          "film_year": 2023,
-          "candidate_year": 2024,
-          "year_match": true,
-          "film_runtime_min": 7,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.643477+00:00"
+        "at": "2026-08-30T12:46:19.212698+00:00"
       }
     },
     "27907": {
@@ -41525,5 +41565,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:46:14.027252+00:00"
+  "updated_at": "2026-08-30T12:46:20.545564+00:00"
 }
