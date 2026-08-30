@@ -14,6 +14,18 @@ from .providers.prehrajto import BASE_URL, parse_inventory_html
 from .state import StateStore, now_iso
 
 
+RECENT_PENDING_AGE = timedelta(hours=2)
+STALE_PENDING_VERIFICATION_LIMIT = 8
+
+
+def _timestamp(value: object) -> datetime | None:
+    try:
+        parsed = datetime.fromisoformat(str(value))
+    except (TypeError, ValueError):
+        return None
+    return parsed.replace(tzinfo=UTC) if parsed.tzinfo is None else parsed
+
+
 class GitStatePusher:
     def __init__(self, state_path: Path, shard_id: int, retries: int = 30):
         self.state_path = state_path
@@ -95,10 +107,13 @@ def verify_pending_uploads(
     delay_seconds: float = 0,
     subtitle_lookup: Callable[[str, str], bool] | None = None,
     workers: int = 1,
+    stale_limit: int = STALE_PENDING_VERIFICATION_LIMIT,
 ) -> dict[str, int]:
     states = [StateStore(path) for path in state_paths if path.exists()]
     for attempt_number in range(attempts):
-        pending = []
+        recent_cutoff = datetime.now(UTC) - RECENT_PENDING_AGE
+        recent_pending = []
+        stale_pending = []
         for state in states:
             for film_id, row in state.data["films"].items():
                 upload = row.get("upload") or {}
@@ -106,7 +121,23 @@ def verify_pending_uploads(
                     upload.get("language_tier") == "czech_subtitles"
                     and upload.get("subtitle_verification") == "pending"
                 ):
-                    pending.append((state, film_id, row, upload))
+                    item = (state, film_id, row, upload)
+                    uploaded_at = _timestamp(upload.get("uploaded_at"))
+                    if uploaded_at is not None and uploaded_at >= recent_cutoff:
+                        recent_pending.append(item)
+                    else:
+                        stale_pending.append(item)
+        stale_pending.sort(
+            key=lambda item: (
+                item[3].get("last_verification_at") or "",
+                item[3].get("uploaded_at") or "",
+                int(item[1]),
+            )
+        )
+        pending = [
+            *recent_pending,
+            *stale_pending[: max(stale_limit, 0)],
+        ]
         if not pending:
             break
 
@@ -126,6 +157,8 @@ def verify_pending_uploads(
         for (state, film_id, row, upload), (status, video) in zip(
             pending, results, strict=True
         ):
+            upload["last_verification_at"] = now_iso()
+            dirty_states.add(state)
             if status == "active":
                 upload["processing_status"] = "active"
                 upload["verified_at"] = now_iso()
@@ -141,7 +174,6 @@ def verify_pending_uploads(
                     )
                 ):
                     upload["subtitle_verification"] = "verified"
-                dirty_states.add(state)
             elif status == "deleted":
                 failed = row.pop("upload")
                 state.record_attempt(
@@ -167,7 +199,7 @@ def verify_pending_uploads(
             if remaining:
                 time.sleep(delay_seconds)
     counts = {"active": 0, "pending": 0, "recent_pending": 0, "failed": 0}
-    recent_cutoff = datetime.now(UTC) - timedelta(hours=2)
+    recent_cutoff = datetime.now(UTC) - RECENT_PENDING_AGE
     for state in states:
         for row in state.data["films"].values():
             upload = row.get("upload") or {}
@@ -178,13 +210,8 @@ def verify_pending_uploads(
                 and upload.get("subtitle_verification") == "pending"
             ):
                 counts["pending"] += 1
-                try:
-                    uploaded_at = datetime.fromisoformat(upload.get("uploaded_at", ""))
-                except (TypeError, ValueError):
-                    uploaded_at = None
+                uploaded_at = _timestamp(upload.get("uploaded_at"))
                 if uploaded_at is not None:
-                    if uploaded_at.tzinfo is None:
-                        uploaded_at = uploaded_at.replace(tzinfo=UTC)
                     if uploaded_at >= recent_cutoff:
                         counts["recent_pending"] += 1
             counts["failed"] += sum(

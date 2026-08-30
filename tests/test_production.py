@@ -183,6 +183,43 @@ def test_pending_verification_can_run_lookups_concurrently(tmp_path):
     }
 
 
+def test_stale_pending_verification_is_bounded_and_rotates(tmp_path):
+    path = tmp_path / "state.json"
+    old_upload = (datetime.now(UTC) - timedelta(days=1)).isoformat()
+    payload = {
+        "schema_version": 1,
+        "snapshot": {"id": "snapshot-1"},
+        "films": {
+            str(film_id): {
+                "attempts": [],
+                "upload": {
+                    "target_video_id": str(100 + film_id),
+                    "display_name": f"Film {film_id}",
+                    "processing_status": "pending",
+                    "uploaded_at": old_upload,
+                },
+            }
+            for film_id in range(10)
+        },
+    }
+    path.write_text(json.dumps(payload))
+    checked: list[str] = []
+
+    def lookup(_name, video_id):
+        checked.append(video_id)
+        return "pending", None
+
+    verify_pending_uploads([path], lookup, stale_limit=4)
+    first_batch = set(checked)
+    verify_pending_uploads([path], lookup, stale_limit=4)
+    second_batch = set(checked[4:])
+
+    assert len(checked) == 8
+    assert len(first_batch) == 4
+    assert len(second_batch) == 4
+    assert first_batch.isdisjoint(second_batch)
+
+
 def test_git_state_pusher_commits_and_pushes_only_its_state(tmp_path):
     state_path = tmp_path / "production-shard-0.json"
     calls = []
