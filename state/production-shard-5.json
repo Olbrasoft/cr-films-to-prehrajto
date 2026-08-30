@@ -17176,7 +17176,20 @@
       }
     },
     "28301": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "fa5403053d31fa35",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28951073",
+          "display_name": "V/H/S/2 (2013) CZ titulky",
+          "size_bytes": 1803964292,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:28:44.440227+00:00"
+        }
+      ],
       "identity": {
         "slug": "v-h-s-2",
         "title": "V/H/S/2",
@@ -17189,36 +17202,11 @@
         "added_at": "2026-04-20 22:32:41.789747+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25323008",
-              "account_name": "V/H/S (2012) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2013,
-              "candidate_year": 2012,
-              "year_match": true,
-              "film_runtime_min": 96,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25320988",
-              "account_name": "V/H/S: Viral (2014) CZ Titulky",
-              "title_similarity": 0.609,
-              "title_contains_alias": false,
-              "film_year": 2013,
-              "candidate_year": 2014,
-              "year_match": true,
-              "film_runtime_min": 96,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.706011+00:00"
+        "at": "2026-08-30T09:22:06.428447+00:00"
       }
     },
     "27805": {
@@ -43046,5 +43034,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T08:58:07.809085+00:00"
+  "updated_at": "2026-08-30T09:28:44.440262+00:00"
 }
