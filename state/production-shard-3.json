@@ -2707,7 +2707,154 @@
       }
     },
     "27931": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-c6e66baae96f4334",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "65a6406692eeb",
+              "url": "https://prehraj.to/2011-skola-pro-princezny/65a6406692eeb",
+              "title": "2011-Skola pro princezny",
+              "year": null,
+              "duration_sec": 4784,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.769,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4784,
+                "runtime_delta": 0.009,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "647cf898404ac",
+              "url": "https://prehraj.to/2011-skola-pro-princezny/647cf898404ac",
+              "title": "2011-Skola pro princezny",
+              "year": null,
+              "duration_sec": 4784,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.769,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4784,
+                "runtime_delta": 0.009,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66af1b5d90f71",
+              "url": "https://prehraj.to/2011-skola-pro-princezny/66af1b5d90f71",
+              "title": "2011-Skola pro princezny",
+              "year": null,
+              "duration_sec": 4784,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.769,
+                "title_contains_alias": false,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4784,
+                "runtime_delta": 0.009,
+                "catalog_source": true,
+                "rejection_reason": null
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6e9f7b52ddea0eec",
+              "url": "https://prehraj.to/barbie-a-skola-pro-princezny-2011-cs/6e9f7b52ddea0eec",
+              "title": "Barbie a Škola pro princezny - 2011 CS",
+              "year": null,
+              "duration_sec": 4783,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4783,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "204e4ece58dd6c9b",
+              "url": "https://prehraj.to/barbie-a-skola-pro-princezny-2011-cs/204e4ece58dd6c9b",
+              "title": "Barbie a Škola pro princezny - 2011 CS",
+              "year": null,
+              "duration_sec": 4783,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2011,
+                "candidate_year": 2011,
+                "year_match": true,
+                "film_runtime_min": 79,
+                "candidate_runtime_sec": 4783,
+                "runtime_delta": 0.009,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T10:08:14.005645+00:00"
+        }
+      ],
       "identity": {
         "slug": "barbie-a-skola-pro-princezny",
         "title": "Barbie a Škola pro princezny",
@@ -2720,21 +2867,11 @@
         "added_at": "2026-04-20 22:32:41.300427+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25024786",
-          "account_name": "Vánoce labutí princezny (2012) CZ Dabing",
-          "title_similarity": 0.536,
-          "title_contains_alias": false,
-          "film_year": 2011,
-          "candidate_year": 2012,
-          "year_match": true,
-          "film_runtime_min": 79,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.614178+00:00"
+        "at": "2026-08-30T10:08:10.870311+00:00"
       }
     },
     "27675": {
@@ -41392,5 +41529,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:07:53.755983+00:00"
+  "updated_at": "2026-08-30T10:08:14.005667+00:00"
 }
