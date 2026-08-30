@@ -68437,7 +68437,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T10:47:01.279123+00:00"
+        "at": "2026-08-30T10:51:48.933001+00:00"
       }
     },
     "14024": {
@@ -69850,15 +69850,12 @@
           "target_video_id": "28839072",
           "account_name": "Operace Fortune: Ruse de Guerre (2023) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2023,
           "candidate_year": 2023,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:57.120929+00:00"
+        "at": "2026-08-30T10:51:48.933237+00:00"
       }
     },
     "10304": {
@@ -70127,21 +70124,11 @@
         "added_at": "2023-01-01 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "28841104",
-          "account_name": "Dark Prince: The True Story of Dracula (2000) CZ titulky",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2000,
-          "candidate_year": 2000,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:57.122702+00:00"
+        "at": "2026-08-30T10:51:48.934247+00:00"
       }
     },
     "15024": {
@@ -95919,5 +95906,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:51:37.446878+00:00"
+  "updated_at": "2026-08-30T10:51:49.459412+00:00"
 }
