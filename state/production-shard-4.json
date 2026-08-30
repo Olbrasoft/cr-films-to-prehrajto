@@ -1611,7 +1611,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T10:07:58.851928+00:00"
+        "at": "2026-08-30T10:11:09.004332+00:00"
       }
     },
     "26420": {
@@ -4342,36 +4342,11 @@
         "added_at": "2025-12-13 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25385087",
-              "account_name": "Vzorný otec: Příběh Martina MacNeilla (2021) SK Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2020,
-              "candidate_year": 2021,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25396619",
-              "account_name": "Show Me the Father (2021) SK Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2020,
-              "candidate_year": 2021,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.311933+00:00"
+        "at": "2026-08-30T10:11:09.007293+00:00"
       }
     },
     "2260": {
@@ -38396,5 +38371,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:11:03.427799+00:00"
+  "updated_at": "2026-08-30T10:11:09.431511+00:00"
 }
