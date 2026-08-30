@@ -9303,8 +9303,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T12:34:05.890457+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T12:34:05.890457+00:00",
+        "last_verification_at": "2026-08-30T14:29:03.495222+00:00",
+        "verified_at": "2026-08-30T14:29:03.495225+00:00",
+        "live_display_name": "Nejkrásnější vánoční polibek (2019) CZ Dabing"
       }
     },
     "2922": {
@@ -9452,14 +9455,17 @@
         "target_video_id": "28954706",
         "display_name": "Gabriel's Inferno (2020) CZ titulky",
         "size_bytes": 1078839327,
-        "subtitle_verification": "pending",
+        "subtitle_verification": "verified",
         "provider": "prehrajto",
         "source_id": "5f1ab6856eceb",
         "language_tier": "czech_subtitles",
         "actual_resolution": 720,
         "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T12:38:26.052661+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T12:38:26.052661+00:00",
+        "last_verification_at": "2026-08-30T14:29:03.495227+00:00",
+        "verified_at": "2026-08-30T14:29:03.495229+00:00",
+        "live_display_name": "Gabriel's Inferno (2020) CZ titulky"
       }
     },
     "7962": {
@@ -87042,8 +87048,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T12:50:33.934333+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T12:50:33.934333+00:00",
+        "last_verification_at": "2026-08-30T14:29:14.654035+00:00",
+        "verified_at": "2026-08-30T14:29:14.654052+00:00",
+        "live_display_name": "Nenávist (2020) CZ Dabing"
       }
     },
     "15130": {
@@ -87371,7 +87380,19 @@
       }
     },
     "3042": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "67b54a59ade00",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28955119",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T14:29:14.654070+00:00"
+        }
+      ],
       "identity": {
         "slug": "ostrov",
         "title": "Ostrov",
@@ -87389,19 +87410,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T12:51:03.988758+00:00"
-      },
-      "upload": {
-        "target_video_id": "28955119",
-        "display_name": "Ostrov (2005) CZ Dabing",
-        "size_bytes": 4524420819,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "67b54a59ade00",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T13:08:22.948073+00:00"
       }
     },
     "2698": {
@@ -87565,8 +87573,11 @@
         "language_tier": "slovak_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T13:11:46.095539+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T13:11:46.095539+00:00",
+        "last_verification_at": "2026-08-30T14:29:14.906300+00:00",
+        "verified_at": "2026-08-30T14:29:14.906318+00:00",
+        "live_display_name": "Spider-Man: Daleko od domova (2019) CZ Dabing"
       }
     },
     "3386": {
@@ -178864,8 +178875,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T13:14:23.579282+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T13:14:23.579282+00:00",
+        "last_verification_at": "2026-08-30T14:29:14.906323+00:00",
+        "verified_at": "2026-08-30T14:29:14.906325+00:00",
+        "live_display_name": "Monstrum (2013) CZ Dabing"
       }
     },
     "2402": {
@@ -181539,8 +181553,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T13:19:22.188998+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T13:19:22.188998+00:00",
+        "last_verification_at": "2026-08-30T14:29:14.906328+00:00",
+        "verified_at": "2026-08-30T14:29:14.906330+00:00",
+        "live_display_name": "Zemřít šťastný (2018) CZ Dabing"
       }
     },
     "29898": {
@@ -253193,5 +253210,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T13:19:22.189029+00:00"
+  "updated_at": "2026-08-30T14:29:36.902932+00:00"
 }
