@@ -76459,7 +76459,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:36:25.421694+00:00"
+        "at": "2026-08-30T12:38:06.916474+00:00"
       }
     },
     "24963": {
@@ -95710,7 +95710,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:36:25.422216+00:00"
+        "at": "2026-08-30T12:38:06.917014+00:00"
       }
     },
     "9865": {
@@ -96591,7 +96591,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:36:25.423021+00:00"
+        "at": "2026-08-30T12:38:06.917830+00:00"
       }
     },
     "3601": {
@@ -98020,7 +98020,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:36:25.425919+00:00"
+        "at": "2026-08-30T12:38:06.920725+00:00"
       }
     },
     "10625": {
@@ -102785,7 +102785,18 @@
       }
     },
     "13321": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:38:12.073400+00:00"
+        }
+      ],
       "identity": {
         "slug": "anatomie-pekla-2004",
         "title": "Anatomie pekla",
@@ -102798,21 +102809,11 @@
         "added_at": "2024-06-19 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25219312",
-          "account_name": "Anatomie 2 (2003) CZ Dabing",
-          "title_similarity": 0.621,
-          "title_contains_alias": false,
-          "film_year": 2004,
-          "candidate_year": 2003,
-          "year_match": true,
-          "film_runtime_min": 77,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:28.035199+00:00"
+        "at": "2026-08-30T12:38:06.921875+00:00"
       }
     },
     "16897": {
@@ -105627,5 +105628,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:38:02.492221+00:00"
+  "updated_at": "2026-08-30T12:38:12.073413+00:00"
 }
