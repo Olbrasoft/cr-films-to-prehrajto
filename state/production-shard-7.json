@@ -550,21 +550,24 @@
         "added_at": "2026-04-20 22:32:41.300427+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24808684",
-          "account_name": "Expresní zásilka (2012) CZ Dabing",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2013,
-          "candidate_year": 2012,
-          "year_match": true,
-          "film_runtime_min": 96,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:45.783701+00:00"
+        "at": "2026-08-30T09:10:56.634505+00:00"
+      },
+      "upload": {
+        "target_video_id": "28950782",
+        "display_name": "Zásilka (2013) CZ Dabing",
+        "size_bytes": 350966389,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "558bd236a12d5",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:12:46.832975+00:00"
       }
     },
     "26823": {
@@ -60249,5 +60252,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:10:55.032170+00:00"
+  "updated_at": "2026-08-30T09:12:46.833002+00:00"
 }
