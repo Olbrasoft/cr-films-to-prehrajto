@@ -4556,36 +4556,24 @@
         "added_at": "2026-04-20 22:32:36.677598+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24950118",
-              "account_name": "Tři barvy: Modrá (1993) CZ Dabing",
-              "title_similarity": 0.649,
-              "title_contains_alias": false,
-              "film_year": 1994,
-              "candidate_year": 1993,
-              "year_match": true,
-              "film_runtime_min": 95,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25222740",
-              "account_name": "Tři barvy: Bílá (1994) CZ Dabing",
-              "title_similarity": 0.611,
-              "title_contains_alias": false,
-              "film_year": 1994,
-              "candidate_year": 1994,
-              "year_match": true,
-              "film_runtime_min": 95,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.615364+00:00"
+        "at": "2026-08-30T10:12:02.778330+00:00"
+      },
+      "upload": {
+        "target_video_id": "28952066",
+        "display_name": "Tři barvy: Červená (1994) CZ Dabing",
+        "size_bytes": 2210067879,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "65d73a4d91f0b",
+        "language_tier": "czech_audio",
+        "actual_resolution": 720,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T10:19:22.090590+00:00"
       }
     },
     "23395": {
@@ -41532,5 +41520,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T10:11:57.095665+00:00"
+  "updated_at": "2026-08-30T10:19:22.090640+00:00"
 }
