@@ -2737,21 +2737,24 @@
         "added_at": "2026-04-20 22:32:41.789747+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25213974",
-          "account_name": "Paris-Manhattan (2012) CZ",
-          "title_similarity": 0.5,
-          "title_contains_alias": false,
-          "film_year": 2012,
-          "candidate_year": 2012,
-          "year_match": true,
-          "film_runtime_min": 52,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.708609+00:00"
+        "at": "2026-08-30T09:34:05.101786+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951319",
+        "display_name": "Paříž v zrcadle času (2012) CZ Dabing",
+        "size_bytes": 1233019494,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "66a6e00b1db99",
+        "language_tier": "czech_audio",
+        "actual_resolution": 720,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:38:16.117961+00:00"
       }
     },
     "28277": {
@@ -43048,5 +43051,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:34:03.845216+00:00"
+  "updated_at": "2026-08-30T09:38:16.117986+00:00"
 }
