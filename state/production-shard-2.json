@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:00:40.146117+00:00"
+        "at": "2026-08-30T12:12:46.319995+00:00"
       }
     },
     "22730": {
@@ -9062,7 +9062,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T12:00:40.146652+00:00"
+        "at": "2026-08-30T12:12:46.320521+00:00"
       }
     },
     "466": {
@@ -9287,36 +9287,11 @@
         "added_at": "2021-03-07 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25386933",
-              "account_name": "Nejkrásnější vánoční tradice (2019) SK Dabing",
-              "title_similarity": 0.754,
-              "title_contains_alias": false,
-              "film_year": 2019,
-              "candidate_year": 2019,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25062672",
-              "account_name": "Nejkrásnější dárek (2018) CZ Dabing",
-              "title_similarity": 0.627,
-              "title_contains_alias": false,
-              "film_year": 2019,
-              "candidate_year": 2018,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.400538+00:00"
+        "at": "2026-08-30T12:12:46.321591+00:00"
       }
     },
     "2922": {
@@ -253204,5 +253179,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:12:39.486919+00:00"
+  "updated_at": "2026-08-30T12:12:47.262079+00:00"
 }
