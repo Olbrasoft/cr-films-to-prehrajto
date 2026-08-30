@@ -9893,7 +9893,19 @@
       }
     },
     "17084": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "6600dbff0d72e",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28954084",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T16:44:36.624174+00:00"
+        }
+      ],
       "identity": {
         "slug": "narusitel-2019-2",
         "title": "Narušitel",
@@ -9911,19 +9923,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T11:55:52.596626+00:00"
-      },
-      "upload": {
-        "target_video_id": "28954084",
-        "display_name": "Narušitel (2019) CZ Dabing",
-        "size_bytes": 876318106,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "6600dbff0d72e",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T12:00:02.819907+00:00"
       }
     },
     "14260": {
@@ -10060,8 +10059,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T12:04:14.781112+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T12:04:14.781112+00:00",
+        "last_verification_at": "2026-08-30T16:44:36.738720+00:00",
+        "verified_at": "2026-08-30T16:44:36.738723+00:00",
+        "live_display_name": "Útok mutantů (2017) CZ Dabing"
       }
     },
     "17020": {
@@ -39993,7 +39995,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T14:49:27.175926+00:00",
-        "last_verification_at": "2026-08-30T16:40:57.914923+00:00"
+        "last_verification_at": "2026-08-30T16:44:36.624121+00:00"
       }
     },
     "17396": {
@@ -40713,5 +40715,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T16:42:08.452492+00:00"
+  "updated_at": "2026-08-30T16:44:36.738729+00:00"
 }
