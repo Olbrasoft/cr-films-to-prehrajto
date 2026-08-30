@@ -75621,32 +75621,17 @@
         "evidence": {
           "matches": [
             {
-              "target_video_id": "25151848",
-              "account_name": "DC Sniper - 23 dní strachu (2003) CZ Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2004,
-              "candidate_year": 2003,
-              "year_match": true,
-              "film_runtime_min": 91,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
               "target_video_id": "25192582",
               "account_name": "Sniper 3 (2005) CZ Dabing",
-              "title_similarity": 0.762,
-              "title_contains_alias": false,
+              "title_similarity": 0.875,
+              "title_exact_alias": false,
               "film_year": 2004,
               "candidate_year": 2005,
-              "year_match": true,
-              "film_runtime_min": 91,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             }
           ]
         },
-        "at": "2026-08-30T08:57:27.981584+00:00"
+        "at": "2026-08-30T09:44:07.482839+00:00"
       }
     },
     "24963": {
@@ -93499,21 +93484,11 @@
         "added_at": "2024-09-07 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25095904",
-          "account_name": "Navždy s tebou? (2025) CZ",
-          "title_similarity": 0.514,
-          "title_contains_alias": false,
-          "film_year": 2024,
-          "candidate_year": 2025,
-          "year_match": true,
-          "film_runtime_min": 92,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:27.982681+00:00"
+        "at": "2026-08-30T09:44:07.483775+00:00"
       }
     },
     "865": {
@@ -104879,5 +104854,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:43:58.233346+00:00"
+  "updated_at": "2026-08-30T09:44:08.379609+00:00"
 }
