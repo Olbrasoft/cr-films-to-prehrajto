@@ -14817,9 +14817,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
+        "processing_status": "active",
         "uploaded_at": "2026-08-30T13:49:29.698352+00:00",
-        "last_verification_at": "2026-08-30T14:29:25.600157+00:00"
+        "last_verification_at": "2026-08-30T15:32:41.212123+00:00",
+        "verified_at": "2026-08-30T15:32:41.212126+00:00",
+        "live_display_name": "Příslib (2017) CZ Dabing"
       }
     },
     "5": {
@@ -14890,7 +14892,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T13:56:26.084393+00:00",
-        "last_verification_at": "2026-08-30T14:29:25.600160+00:00"
+        "last_verification_at": "2026-08-30T15:32:41.212129+00:00"
       }
     },
     "1213": {
@@ -16748,8 +16750,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 480,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T14:37:35.231559+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T14:37:35.231559+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212131+00:00",
+        "verified_at": "2026-08-30T15:32:41.212133+00:00",
+        "live_display_name": "Hledání zmizelých (2011) CZ Dabing"
       }
     },
     "16797": {
@@ -16855,7 +16860,8 @@
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T14:50:30.298425+00:00"
+        "uploaded_at": "2026-08-30T14:50:30.298425+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212136+00:00"
       }
     },
     "3397": {
@@ -39153,7 +39159,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T14:53:26.937674+00:00"
+        "uploaded_at": "2026-08-30T14:53:26.937674+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212139+00:00"
       }
     },
     "14389": {
@@ -39187,7 +39194,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T14:57:03.797309+00:00"
+        "uploaded_at": "2026-08-30T14:57:03.797309+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212141+00:00"
       }
     },
     "16525": {
@@ -39291,7 +39299,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T14:59:02.520681+00:00"
+        "uploaded_at": "2026-08-30T14:59:02.520681+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212143+00:00"
       }
     },
     "9293": {
@@ -39605,8 +39614,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:05:24.741458+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-30T15:05:24.741458+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212145+00:00",
+        "verified_at": "2026-08-30T15:32:41.212147+00:00",
+        "live_display_name": "Poslední tanec (2024) CZ Dabing"
       }
     },
     "16069": {
@@ -39640,7 +39652,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:09:11.518727+00:00"
+        "uploaded_at": "2026-08-30T15:09:11.518727+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212149+00:00"
       }
     },
     "15469": {
@@ -39674,7 +39687,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:11:55.468801+00:00"
+        "uploaded_at": "2026-08-30T15:11:55.468801+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.212151+00:00"
       }
     },
     "16645": {
@@ -39712,7 +39726,19 @@
       }
     },
     "9005": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "49665",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28957253",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:32:41.212164+00:00"
+        }
+      ],
       "identity": {
         "slug": "high-school-heist",
         "title": "High School Heist",
@@ -39730,19 +39756,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T15:12:01.636270+00:00"
-      },
-      "upload": {
-        "target_video_id": "28957253",
-        "display_name": "High School Heist (2025) CZ Dabing",
-        "size_bytes": 559095363,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "49665",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:15:14.986609+00:00"
       }
     },
     "4885": {
@@ -40586,7 +40599,8 @@
         "actual_resolution": 720,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:17:21.773278+00:00"
+        "uploaded_at": "2026-08-30T15:17:21.773278+00:00",
+        "last_verification_at": "2026-08-30T15:32:41.262089+00:00"
       }
     },
     "3933": {
@@ -43155,5 +43169,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:17:21.773305+00:00"
+  "updated_at": "2026-08-30T15:32:41.678360+00:00"
 }
