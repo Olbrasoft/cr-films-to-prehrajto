@@ -5637,7 +5637,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-30T13:56:27.632821+00:00"
+        "at": "2026-08-30T14:35:31.561642+00:00"
       }
     },
     "23869": {
@@ -7292,7 +7292,7 @@
             }
           ]
         },
-        "at": "2026-08-30T13:56:27.633176+00:00"
+        "at": "2026-08-30T14:35:31.562152+00:00"
       }
     },
     "14845": {
@@ -10576,7 +10576,7 @@
           "candidate_year": 2006,
           "year_match": true
         },
-        "at": "2026-08-30T13:56:27.633282+00:00"
+        "at": "2026-08-30T14:35:31.562351+00:00"
       }
     },
     "7517": {
@@ -11037,7 +11037,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-30T13:56:27.633573+00:00"
+        "at": "2026-08-30T14:35:31.562788+00:00"
       }
     },
     "3261": {
@@ -13372,7 +13372,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T13:56:27.633941+00:00"
+        "at": "2026-08-30T14:35:31.563350+00:00"
       }
     },
     "13781": {
@@ -16527,29 +16527,23 @@
               "target_video_id": "25461724",
               "account_name": "Hacker (2015)",
               "title_similarity": 1.0,
-              "title_contains_alias": true,
+              "title_exact_alias": true,
               "film_year": 2016,
               "candidate_year": 2015,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             },
             {
               "target_video_id": "25201301",
               "account_name": "Hacker (2015) CZ Dabing",
               "title_similarity": 1.0,
-              "title_contains_alias": true,
+              "title_exact_alias": true,
               "film_year": 2016,
               "candidate_year": 2015,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             }
           ]
         },
-        "at": "2026-08-30T08:58:07.769148+00:00"
+        "at": "2026-08-30T14:35:31.563587+00:00"
       }
     },
     "14405": {
@@ -16644,15 +16638,12 @@
           "target_video_id": "28894563",
           "account_name": "Bumblebee (2018) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2018,
           "candidate_year": 2018,
-          "year_match": true,
-          "film_runtime_min": 187,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:58:07.769271+00:00"
+        "at": "2026-08-30T14:35:31.563676+00:00"
       }
     },
     "2741": {
@@ -16741,21 +16732,11 @@
         "added_at": "2018-12-25 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25474339",
-          "account_name": "The Bang Bang Club (2011)",
-          "title_similarity": 0.629,
-          "title_contains_alias": false,
-          "film_year": 2011,
-          "candidate_year": 2011,
-          "year_match": true,
-          "film_runtime_min": 101,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.770554+00:00"
+        "at": "2026-08-30T14:35:31.564770+00:00"
       }
     },
     "16797": {
@@ -43162,5 +43143,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T14:29:36.736480+00:00"
+  "updated_at": "2026-08-30T14:35:33.128139+00:00"
 }
