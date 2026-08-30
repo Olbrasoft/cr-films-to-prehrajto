@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T15:18:55.225081+00:00"
+        "at": "2026-08-30T15:25:26.374353+00:00"
       }
     },
     "22730": {
@@ -9062,7 +9062,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T15:18:55.225627+00:00"
+        "at": "2026-08-30T15:25:26.374869+00:00"
       }
     },
     "466": {
@@ -205928,7 +205928,783 @@
       }
     },
     "6890": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "60981ae98f10b",
+              "url": "https://prehraj.to/ticha-noc-cicha-noc-2017-bluray-aac-5-1-1080p-h-264-1920x804-cz-title-vlozene-vypinatelne/60981ae98f10b",
+              "title": "Tichá noc-Cicha noc-2017-Bluray-AAC.5.1-1080p.H.264…",
+              "year": null,
+              "duration_sec": 6034,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "41aa1798f6752644",
+              "url": "https://prehraj.to/ticha-noc-2017-pl/41aa1798f6752644",
+              "title": "Tichá noc - 2017 PL",
+              "year": null,
+              "duration_sec": 6034,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2017,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60169bf0681fc",
+              "url": "https://prehraj.to/ticha-noc-2002-cz-dabing/60169bf0681fc",
+              "title": "Tichá noc (2002) CZ dabing",
+              "year": null,
+              "duration_sec": 5174,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a7daf32c041afae",
+              "url": "https://prehraj.to/ticha-noc-2002-cs/5a7daf32c041afae",
+              "title": "Tichá noc - 2002 CS",
+              "year": null,
+              "duration_sec": 5174,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b162767533a1",
+              "url": "https://prehraj.to/ticha-noc-cicha-nocr-silent-night-2017-hc-titulky-cz-1080p-hd/5b162767533a1",
+              "title": "Tichá noc_Cicha nocr_Silent Night_2017_HC.titulky.CZ_1080p…",
+              "year": null,
+              "duration_sec": 6035,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6035,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9c4f9ba74396cd23",
+              "url": "https://prehraj.to/ticha-noc-2002-cs/9c4f9ba74396cd23",
+              "title": "Tichá noc - 2002 CS",
+              "year": null,
+              "duration_sec": 5174,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b1360b41e022",
+              "url": "https://prehraj.to/ticha-noc-cicha-nocr-silent-night-2017-titulky-cz-1080p-hd/5b1360b41e022",
+              "title": "Tichá noc_Cicha nocr_Silent Night_2017_titulky.CZ_1080p.HD",
+              "year": null,
+              "duration_sec": 6034,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6034,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c06563e3c677",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc/5c06563e3c677",
+              "title": "Tichá noc, krvavá noc",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5088,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584d8725732c9",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1974-dvdrip-czdub-od-soucka-tomase/584d8725732c9",
+              "title": "Ticha-noc-krvava-noc-1974-DVDRip-czdub-OD-SOUČKA-TOMÁŠE",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9f6932d9abc4f174",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972-cz-dabing/9f6932d9abc4f174",
+              "title": "Tichá noc, krvavá noc (1972) CZ Dabing",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cc11017f1840b8fb",
+              "url": "https://prehraj.to/ticha-noc-hororova-noc-1984-cz/cc11017f1840b8fb",
+              "title": "Tichá noc, hororová noc (1984) CZ",
+              "year": null,
+              "duration_sec": 5092,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab970041ca7f",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972/5ab970041ca7f",
+              "title": "Tichá noc, krvavá noc (1972)",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6397e449252bc",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1974-dvdrip-czdub-od-soucka-tomase/6397e449252bc",
+              "title": "Ticha-noc-krvava-noc-1974-DVDRip-czdub-OD-SOUČKA-TOMÁŠE",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "01967234393ae261",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972-cs/01967234393ae261",
+              "title": "Tichá noc, krvavá noc - 1972 CS",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a333d7985d0b",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1974-dvdrip-cz-dabing/5a333d7985d0b",
+              "title": "Tichá Noc, Krvavá Noc (1974) DVDrip. CZ Dabing",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "28b7079a3d6802ae",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972-sk/28b7079a3d6802ae",
+              "title": "Tichá noc, krvavá noc - 1972 SK",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe8365671a71",
+              "url": "https://prehraj.to/ticha-noc-silent-night-2017-titulky-cz-1080p-fullhd-drama-thriller/5fe8365671a71",
+              "title": "Tichá noc_Silent Night_2017_titulky.CZ_1080p.FullHD,drama…",
+              "year": null,
+              "duration_sec": 6034,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6034,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6848171a0c340",
+              "url": "https://prehraj.to/ticha-noc-silent-night-2002-cz/6848171a0c340",
+              "title": "Tichá noc (Silent Night) 2002 - cz",
+              "year": null,
+              "duration_sec": 5175,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "677ac8539e003",
+              "url": "https://prehraj.to/ticha-noc-silent-night-2002-cz-dab/677ac8539e003",
+              "title": "Tichá noc (Silent Night) 2002 - cz dab",
+              "year": null,
+              "duration_sec": 5175,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2002,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0269f83ca48cda0a",
+              "url": "https://prehraj.to/32-ticha-noc/0269f83ca48cda0a",
+              "title": "32 - Tichá noc",
+              "year": null,
+              "duration_sec": 2574,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2574,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67d703c25d1e9",
+              "url": "https://prehraj.to/lunetic-ticha-noc/67d703c25d1e9",
+              "title": "Lunetic - Ticha noc",
+              "year": null,
+              "duration_sec": 234,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 234,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6615d20b9204b",
+              "url": "https://prehraj.to/viking-vicke-ticha-noc/6615d20b9204b",
+              "title": "Viking Vicke - Ticha noc",
+              "year": null,
+              "duration_sec": 712,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 712,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "48ea796f4edd0796",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-1972-horor-thriller-bdrip-1080p-cz-dabing/48ea796f4edd0796",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal, James Patterson-1972…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3bee2551c0ef3120",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-1972-horor-thriller-bdrip-1080p-cz-dabing/3bee2551c0ef3120",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal, James Patterson-1972…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6b1bb43b2566b04c",
+              "url": "https://prehraj.to/ticha-noc-lal-gece-night-of-silence-2012-tr-en-tit/6b1bb43b2566b04c",
+              "title": "Tichá noc Lal gece Night of Silence 2012, TR - EN tit",
+              "year": null,
+              "duration_sec": 5503,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8c3def666ee9d33f",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-1972-horor-thriller-bdrip-1080p-cz-dabing/8c3def666ee9d33f",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal, James Patterson-1972…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68aed11867a1a",
+              "url": "https://prehraj.to/ticha-noc-lal-gece-night-of-silence-2012-tr-en-tit/68aed11867a1a",
+              "title": "Tichá noc / Lal gece / Night of Silence 2012, TR - EN tit",
+              "year": null,
+              "duration_sec": 5503,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2021,
+                "candidate_year": 2012,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cb2752ebc4c",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-mary-woronov-1972-horor-thriller-cz-dabing/68cb2752ebc4c",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal,James Patterson,Mary…",
+              "year": null,
+              "duration_sec": 5089,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5089,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cb33098a676",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-mary-woronov-1972-horor-thriller-cz-dabing/68cb33098a676",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal,James Patterson,Mary…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5088,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cb14d066e27",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-mary-woronov-1972-horor-thriller-cz-dabing/68cb14d066e27",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal,James Patterson,Mary…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5088,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d125c3e4cc305466",
+              "url": "https://prehraj.to/zpivejte-s-nami-29-dil-ticha-noc/d125c3e4cc305466",
+              "title": "Zpívejte s námi - 29. díl - Tichá noc",
+              "year": null,
+              "duration_sec": 290,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 290,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ef56993a13dc4039",
+              "url": "https://prehraj.to/vylety-do-minulosti-69-dil-ticha-noc-24-prosinec-1818/ef56993a13dc4039",
+              "title": "Výlety do minulosti - 69. díl - Tichá noc (24. prosinec…",
+              "year": null,
+              "duration_sec": 424,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 424,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tichá noc (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6556462fa157d",
+              "url": "https://prehraj.to/leaves-eyes-silent-night-2021-official-music-video-afm-records-7586841671108057/6556462fa157d",
+              "title": "LEAVES' EYES - Silent Night (2021)  Official Music Video …",
+              "year": null,
+              "duration_sec": 144,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 144,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Silent Night (2021)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "33795",
+              "url": "https://online.sktorrent.eu/video/33795/",
+              "title": "Tichá noc",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T15:25:37.930273+00:00"
+        }
+      ],
       "identity": {
         "slug": "ticha-noc-2021",
         "title": "Tichá noc",
@@ -205941,48 +206717,11 @@
         "added_at": "2023-12-21 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24863722",
-              "account_name": "Tichá dvojčata (2022) CZ Dabing",
-              "title_similarity": 0.571,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2022,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "28881774",
-              "account_name": "Tichá svoboda (2022) CZ Dabing",
-              "title_similarity": 0.519,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2022,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25439401",
-              "account_name": "Silent Hours (2021)",
-              "title_similarity": 0.552,
-              "title_contains_alias": false,
-              "film_year": 2021,
-              "candidate_year": 2021,
-              "year_match": true,
-              "film_runtime_min": null,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.425076+00:00"
+        "at": "2026-08-30T15:25:26.377560+00:00"
       }
     },
     "14466": {
@@ -254411,5 +255150,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T15:25:24.007367+00:00"
+  "updated_at": "2026-08-30T15:25:37.930289+00:00"
 }
