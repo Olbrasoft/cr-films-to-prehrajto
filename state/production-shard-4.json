@@ -1625,7 +1625,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-30T11:55:52.595195+00:00"
+        "at": "2026-08-30T12:00:14.627286+00:00"
       }
     },
     "26420": {
@@ -4910,7 +4910,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T11:55:52.595861+00:00"
+        "at": "2026-08-30T12:00:14.627962+00:00"
       }
     },
     "652": {
@@ -7859,7 +7859,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:55:52.596420+00:00"
+        "at": "2026-08-30T12:00:14.628505+00:00"
       }
     },
     "436": {
@@ -9936,36 +9936,18 @@
         "added_at": "2020-03-21 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "preexisting_on_account",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25443267",
-              "account_name": "Party Hard (2020)",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2019,
-              "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 62,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25445172",
-              "account_name": "Playing Hard (2018)",
-              "title_similarity": 0.593,
-              "title_contains_alias": false,
-              "film_year": 2019,
-              "candidate_year": 2018,
-              "year_match": true,
-              "film_runtime_min": 62,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "title_year_runtime",
+          "target_video_id": "25443267",
+          "account_name": "Party Hard (2020)",
+          "title_similarity": 1.0,
+          "title_exact_alias": true,
+          "film_year": 2019,
+          "candidate_year": 2020,
+          "year_match": true
         },
-        "at": "2026-08-30T08:57:46.338110+00:00"
+        "at": "2026-08-30T12:00:14.628936+00:00"
       }
     },
     "5948": {
@@ -10025,29 +10007,23 @@
               "target_video_id": "25380891",
               "account_name": "Pretvářka (2020) SK Dabing",
               "title_similarity": 1.0,
-              "title_contains_alias": true,
+              "title_exact_alias": true,
               "film_year": 2019,
               "candidate_year": 2020,
-              "year_match": true,
-              "film_runtime_min": 95,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             },
             {
               "target_video_id": "25447627",
               "account_name": "Pretenders (2018)",
               "title_similarity": 1.0,
-              "title_contains_alias": true,
+              "title_exact_alias": true,
               "film_year": 2019,
               "candidate_year": 2018,
-              "year_match": true,
-              "film_runtime_min": 95,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
+              "year_match": true
             }
           ]
         },
-        "at": "2026-08-30T08:57:46.338356+00:00"
+        "at": "2026-08-30T12:00:14.629101+00:00"
       }
     },
     "16884": {
@@ -10064,21 +10040,11 @@
         "added_at": "2020-01-21 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25312093",
-          "account_name": "A Reckoning (2018) CZ Titulky",
-          "title_similarity": 0.688,
-          "title_contains_alias": false,
-          "film_year": 2017,
-          "candidate_year": 2018,
-          "year_match": true,
-          "film_runtime_min": 85,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.339521+00:00"
+        "at": "2026-08-30T12:00:14.629843+00:00"
       }
     },
     "17020": {
@@ -38455,5 +38421,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:00:02.819941+00:00"
+  "updated_at": "2026-08-30T12:00:15.173976+00:00"
 }
