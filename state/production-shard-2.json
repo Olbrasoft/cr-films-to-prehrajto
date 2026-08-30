@@ -333,7 +333,20 @@
       }
     },
     "27354": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "75794d16de71de70",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28950695",
+          "display_name": "David (2025) CZ titulky",
+          "size_bytes": 1522156113,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:11:54.068813+00:00"
+        }
+      ],
       "identity": {
         "slug": "david",
         "title": "David",
@@ -346,21 +359,11 @@
         "added_at": "2026-04-20 22:32:40.810471+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25175661",
-          "account_name": "David Attenborough: Gorilí příběh (2026) CZ",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2025,
-          "candidate_year": 2026,
-          "year_match": true,
-          "film_runtime_min": 109,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.296530+00:00"
+        "at": "2026-08-30T09:06:23.755594+00:00"
       }
     },
     "27350": {
@@ -255368,5 +255371,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T08:58:16.403226+00:00"
+  "updated_at": "2026-08-30T09:11:54.068842+00:00"
 }
