@@ -9951,6 +9951,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T18:25:32.686423+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "5d9daa3aee41e",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28960354",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T18:38:58.836988+00:00"
         }
       ],
       "identity": {
@@ -9970,19 +9981,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T18:14:48.986780+00:00"
-      },
-      "upload": {
-        "target_video_id": "28960354",
-        "display_name": "Narušitel (2019) CZ titulky",
-        "size_bytes": 1688741864,
-        "subtitle_verification": "pending",
-        "provider": "prehrajto",
-        "source_id": "5d9daa3aee41e",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 720,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T18:26:04.324301+00:00"
       }
     },
     "14260": {
@@ -10869,7 +10867,8 @@
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
         "processing_status": "pending",
-        "uploaded_at": "2026-08-30T18:38:11.318117+00:00"
+        "uploaded_at": "2026-08-30T18:38:11.318117+00:00",
+        "last_verification_at": "2026-08-30T18:38:58.887650+00:00"
       }
     },
     "3820": {
@@ -40798,5 +40797,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T18:38:12.822005+00:00"
+  "updated_at": "2026-08-30T18:39:21.291763+00:00"
 }
