@@ -3706,36 +3706,24 @@
         "added_at": "2026-04-20 22:32:36.171739+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24925975",
-              "account_name": "Ohnivé oči (1984) CZ",
-              "title_similarity": 0.593,
-              "title_contains_alias": false,
-              "film_year": 1984,
-              "candidate_year": 1984,
-              "year_match": true,
-              "film_runtime_min": 93,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "24968921",
-              "account_name": "Ohnivé ženy (1984) CZ",
-              "title_similarity": 0.571,
-              "title_contains_alias": false,
-              "film_year": 1984,
-              "candidate_year": 1984,
-              "year_match": true,
-              "film_runtime_min": 93,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.000917+00:00"
+        "at": "2026-08-30T09:23:41.518139+00:00"
+      },
+      "upload": {
+        "target_video_id": "28951107",
+        "display_name": "Ohnivé ulice (1984) CZ Dabing",
+        "size_bytes": 2251758293,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "8675abbd94632827",
+        "language_tier": "czech_audio",
+        "actual_resolution": 1080,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-30T09:31:27.099142+00:00"
       }
     },
     "22670": {
@@ -59575,5 +59563,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:23:34.680658+00:00"
+  "updated_at": "2026-08-30T09:31:27.099174+00:00"
 }
