@@ -17646,7 +17646,20 @@
       }
     },
     "29129": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "586568e49e13d",
+          "status": "partial_upload",
+          "permanent": false,
+          "partial_target_video_id": "28950751",
+          "display_name": "River (2016) CZ titulky",
+          "size_bytes": 453808437,
+          "reason": "Video uploaded; Czech subtitle completion is pending",
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:11:35.527482+00:00"
+        }
+      ],
       "identity": {
         "slug": "river",
         "title": "River",
@@ -17659,48 +17672,11 @@
         "added_at": "2026-04-20 22:32:42.350697+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25314811",
-              "account_name": "Dark River (2017) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2016,
-              "candidate_year": 2017,
-              "year_match": true,
-              "film_runtime_min": 95,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25316280",
-              "account_name": "Take Me to the River (2015) CZ Titulky",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2016,
-              "candidate_year": 2015,
-              "year_match": true,
-              "film_runtime_min": 95,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            },
-            {
-              "target_video_id": "25384154",
-              "account_name": "Mississippi River Sharks (2017) SK Dabing",
-              "title_similarity": 1.0,
-              "title_contains_alias": true,
-              "film_year": 2016,
-              "candidate_year": 2017,
-              "year_match": true,
-              "film_runtime_min": 95,
-              "candidate_runtime_sec": null,
-              "runtime_delta": null
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:27.968801+00:00"
+        "at": "2026-08-30T09:09:29.958717+00:00"
       }
     },
     "29121": {
@@ -104890,5 +104866,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:04:19.138221+00:00"
+  "updated_at": "2026-08-30T09:11:35.527502+00:00"
 }
