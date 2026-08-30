@@ -29932,7 +29932,7 @@
             }
           ]
         },
-        "at": "2026-08-30T12:08:37.702723+00:00"
+        "at": "2026-08-30T12:11:41.922110+00:00"
       }
     },
     "16502": {
@@ -58957,21 +58957,21 @@
         "added_at": "2019-06-19 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "ambiguous",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "24903070",
-          "account_name": "Kameňák 2 (2004) CZ",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2003,
-          "candidate_year": 2004,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "matches": [
+            {
+              "target_video_id": "24903070",
+              "account_name": "Kameňák 2 (2004) CZ",
+              "title_similarity": 0.875,
+              "title_exact_alias": false,
+              "film_year": 2003,
+              "candidate_year": 2004,
+              "year_match": true
+            }
+          ]
         },
-        "at": "2026-08-30T08:57:24.035940+00:00"
+        "at": "2026-08-30T12:11:41.923062+00:00"
       }
     },
     "10470": {
@@ -59861,21 +59861,11 @@
         "added_at": "2018-10-20 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25220602",
-          "account_name": "Osudy dobrého vojáka Švejka – Švejkova budějovická anabase (1956) CZ",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 1956,
-          "candidate_year": 1956,
-          "year_match": true,
-          "film_runtime_min": 76,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.036347+00:00"
+        "at": "2026-08-30T12:11:41.923335+00:00"
       }
     },
     "286": {
@@ -60620,5 +60610,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:11:35.027782+00:00"
+  "updated_at": "2026-08-30T12:11:43.642997+00:00"
 }
