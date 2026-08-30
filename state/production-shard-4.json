@@ -1020,9 +1020,9 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T00:12:50.479620+00:00",
-        "verified_at": "2026-08-30T10:31:50.084503+00:00",
+        "verified_at": "2026-08-30T18:13:23.817644+00:00",
         "live_display_name": "1 Mile To You (2017) CZ titulky",
-        "last_verification_at": "2026-08-30T10:31:50.084484+00:00"
+        "last_verification_at": "2026-08-30T18:13:23.817627+00:00"
       }
     },
     "27780": {
@@ -9928,6 +9928,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T17:56:14.803563+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "655cfce5a7646",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28960211",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T18:13:12.342122+00:00"
         }
       ],
       "identity": {
@@ -9947,19 +9958,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T17:58:05.846371+00:00"
-      },
-      "upload": {
-        "target_video_id": "28960211",
-        "display_name": "Narušitel (2019) CZ Dabing",
-        "size_bytes": 876318106,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "655cfce5a7646",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T18:12:16.687044+00:00"
       }
     },
     "14260": {
@@ -10804,6 +10802,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T17:09:55.797497+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "0d29e095e90ad9f4",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28959776",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T18:13:12.418066+00:00"
         }
       ],
       "identity": {
@@ -10823,20 +10832,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T17:36:13.834938+00:00"
-      },
-      "upload": {
-        "target_video_id": "28959776",
-        "display_name": "Duch (1990) CZ Dabing",
-        "size_bytes": 3768687744,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "0d29e095e90ad9f4",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T17:55:30.417219+00:00",
-        "last_verification_at": "2026-08-30T17:56:14.852364+00:00"
       }
     },
     "3820": {
@@ -40765,5 +40760,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T18:12:22.917483+00:00"
+  "updated_at": "2026-08-30T18:14:00.192212+00:00"
 }
