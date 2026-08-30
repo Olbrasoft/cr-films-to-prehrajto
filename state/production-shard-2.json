@@ -1027,7 +1027,7 @@
             }
           ]
         },
-        "at": "2026-08-30T09:14:57.949476+00:00"
+        "at": "2026-08-30T09:19:36.947025+00:00"
       }
     },
     "22730": {
@@ -1815,7 +1815,86 @@
       }
     },
     "28610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-679700b1d50eb6e1",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5aa2a2df52c8a",
+              "url": "https://prehraj.to/ida-2013/5aa2a2df52c8a",
+              "title": "Ida (2013)",
+              "year": null,
+              "duration_sec": 4910,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.819,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c09e822b2717",
+              "url": "https://prehraj.to/ida-2013/5c09e822b2717",
+              "title": "Ida (2013)",
+              "year": null,
+              "duration_sec": 4910,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.819,
+                "catalog_source": true,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a3ec2ae8bb70b718",
+              "url": "https://prehraj.to/alfa-a-omega-2-vanocni-dobrodruzstvi-2013/a3ec2ae8bb70b718",
+              "title": "Alfa a Omega 2 - Vanocni dobrodruzstvi [2013]",
+              "year": null,
+              "duration_sec": 2338,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2013,
+                "candidate_year": 2013,
+                "year_match": true,
+                "film_runtime_min": 45,
+                "candidate_runtime_sec": 2338,
+                "runtime_delta": 0.134,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T09:19:40.306959+00:00"
+        }
+      ],
       "identity": {
         "slug": "alfa-a-omega-2-vanocni-dobrodruzstvi",
         "title": "Alfa a Omega 2: Vánoční dobrodružství",
@@ -1828,21 +1907,11 @@
         "added_at": "2026-04-20 22:32:41.789747+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25043839",
-          "account_name": "Alfa a Omega 3: Velké vlčí hry (2014) CZ Dabing",
-          "title_similarity": 0.543,
-          "title_contains_alias": false,
-          "film_year": 2013,
-          "candidate_year": 2014,
-          "year_match": true,
-          "film_runtime_min": 45,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.321660+00:00"
+        "at": "2026-08-30T09:19:36.947511+00:00"
       }
     },
     "28426": {
@@ -253287,5 +253356,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T09:19:30.818394+00:00"
+  "updated_at": "2026-08-30T09:19:40.306977+00:00"
 }
