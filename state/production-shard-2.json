@@ -9229,7 +9229,18 @@
       }
     },
     "2114": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "68dd356a46169",
+          "status": "failed",
+          "reason": "Source exceeds the 6 GB runner limit",
+          "permanent": true,
+          "partial_target_video_id": null,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:00:45.936436+00:00"
+        }
+      ],
       "identity": {
         "slug": "transformers",
         "title": "Transformers",
@@ -253180,5 +253191,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:00:41.600195+00:00"
+  "updated_at": "2026-08-30T12:00:45.936455+00:00"
 }
