@@ -8069,7 +8069,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-30T12:56:34.395721+00:00"
+        "at": "2026-08-30T12:58:42.006231+00:00"
       }
     },
     "9147": {
@@ -9874,7 +9874,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T12:56:34.396737+00:00"
+        "at": "2026-08-30T12:58:42.007240+00:00"
       }
     },
     "15619": {
@@ -11935,7 +11935,7 @@
           "candidate_year": 2022,
           "year_match": true
         },
-        "at": "2026-08-30T12:56:34.396970+00:00"
+        "at": "2026-08-30T12:58:42.007474+00:00"
       }
     },
     "7115": {
@@ -40156,7 +40156,137 @@
       }
     },
     "2267": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "607cd1940ab69",
+              "url": "https://prehraj.to/henry-portret-masoveho-vraha/607cd1940ab69",
+              "title": "Henry - Portrét masového vraha",
+              "year": null,
+              "duration_sec": 4756,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4756,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Henry: Portrét masového vraha (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1b9cb09a24c6f06b",
+              "url": "https://prehraj.to/henry-portret-masoveho-vraha-1986/1b9cb09a24c6f06b",
+              "title": "Henry: Portrét masového vraha (1986)",
+              "year": null,
+              "duration_sec": 4939,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2008,
+                "candidate_year": 1986,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Henry: Portrét masového vraha (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d25814af50403a73",
+              "url": "https://prehraj.to/henry-portret-masoveho-vraha-1986-cs/d25814af50403a73",
+              "title": "Henry: Portrét masového vraha - 1986 CS",
+              "year": null,
+              "duration_sec": 4939,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2008,
+                "candidate_year": 1986,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Henry: Portrét masového vraha (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "583d0d6e3efaf",
+              "url": "https://prehraj.to/henry-portret-masoveho-vraha-cz/583d0d6e3efaf",
+              "title": "Henry-Portrét-masového-vraha-Cz",
+              "year": null,
+              "duration_sec": 4756,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4756,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Henry: Portrét masového vraha (2008)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "02dc5bb224d2ca51",
+              "url": "https://prehraj.to/henry-portret-masoveho-vraha-henry-portrait-of-a-serial-killer-1986-en-cz-mkv/02dc5bb224d2ca51",
+              "title": "Henry: Portrét masového vraha / Henry: Portrait of a Serial…",
+              "year": null,
+              "duration_sec": 4940,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 2008,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4940,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Henry: Portrét masového vraha (2008)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:58:45.512641+00:00"
+        }
+      ],
       "identity": {
         "slug": "interview-s-masovym-vrahem",
         "title": "Henry: Portrét masového vraha",
@@ -40169,21 +40299,11 @@
         "added_at": "2021-08-23 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25484764",
-          "account_name": "Heinrich Himmler: Profil masového vraha (2008)",
-          "title_similarity": 0.62,
-          "title_contains_alias": false,
-          "film_year": 2008,
-          "candidate_year": 2008,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:24.648637+00:00"
+        "at": "2026-08-30T12:58:42.008562+00:00"
       }
     },
     "15235": {
@@ -41645,5 +41765,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:58:40.655199+00:00"
+  "updated_at": "2026-08-30T12:58:45.512661+00:00"
 }
