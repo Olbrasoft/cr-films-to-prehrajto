@@ -32891,7 +32891,422 @@
       }
     },
     "22756": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6067f67b822d2a27",
+              "url": "https://prehraj.to/muz-na-drate-1985-cz-dab-1080p/6067f67b822d2a27",
+              "title": "Muž na drátě 1985 CZ dab 1080p",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 4949,
+                "runtime_delta": 0.03,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "55b7ef8e44b44",
+              "url": "https://prehraj.to/muz-na-drate-1985/55b7ef8e44b44",
+              "title": "Muž-na-drátě-(1985)",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 4949,
+                "runtime_delta": 0.03,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "609171b32715c",
+              "url": "https://prehraj.to/muz-na-drate-krimi-1985-cz/609171b32715c",
+              "title": "Muž na drátě-(krimi)-(1985)--cz",
+              "year": null,
+              "duration_sec": 4949,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.286,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": 1985,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 4949,
+                "runtime_delta": 0.03,
+                "catalog_source": true,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "exported_catalog_source"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5942b0a0469ac",
+              "url": "https://prehraj.to/minuta-mody-moderni-hipster-vs-klasicky-cesky-muz/5942b0a0469ac",
+              "title": "Minuta módy - Moderní hipster vs. klasický český muž",
+              "year": null,
+              "duration_sec": 89,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.983,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5942afe1da364",
+              "url": "https://prehraj.to/minuta-mody-jak-by-mel-vypadat-elegantni-muz/5942afe1da364",
+              "title": "Minuta módy - Jak by měl vypadat elegantní muž_",
+              "year": null,
+              "duration_sec": 75,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.985,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "58ac6326d5825",
+              "url": "https://prehraj.to/kajetan-a-modra-liska-02-zelezny-muz-animovany-05-cz-romin/58ac6326d5825",
+              "title": "(kajetan-a-modra-liska)-02-zelezny-muz-(animovany)_05'_CZ-…",
+              "year": null,
+              "duration_sec": 493,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.903,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cc72dc3be7d6afba",
+              "url": "https://prehraj.to/michaeluv-mashup-62-dil-naschvaly-ve-vysilani-blizkost-smrti-mraz-v-parnem-lete-i-vznik-hlasky-modri-uz-vedi/cc72dc3be7d6afba",
+              "title": "Michaelův mashup - 62. díl - Naschvály ve vysílání,…",
+              "year": null,
+              "duration_sec": 2073,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.594,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ce4669e119458564",
+              "url": "https://prehraj.to/dvtv-interview-87-dil-misto-nhl-uranove-doly-bohumil-modry-byl-sekac-komuniste-mu-vzali-zivot-i-dusi-bylo-to-silene/ce4669e119458564",
+              "title": "Dvtv interview - 87. díl - Místo NHL uranové doly Bohumil…",
+              "year": null,
+              "duration_sec": 590,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.884,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5942afe20d7a4",
+              "url": "https://prehraj.to/minuta-mody-jak-by-se-meli-muzi-v-cesku-oblekat/5942afe20d7a4",
+              "title": "Minuta módy - Jak by se měli muži v Česku oblékat",
+              "year": null,
+              "duration_sec": 96,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.981,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ef51912cce7",
+              "url": "https://prehraj.to/07-muz-v-modrych-flanelovych-kalhotach/68ef51912cce7",
+              "title": "07 Muž v modrých flanelových kalhotách",
+              "year": null,
+              "duration_sec": 1294,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.746,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "77c6d168fe12d235",
+              "url": "https://prehraj.to/loupez-v-postovnim-muzeu-kam-zmizel-modry-merkur-a-tajemstvi-chladnokrevne-kradeze/77c6d168fe12d235",
+              "title": "Loupež v Poštovním muzeu Kam zmizel Modrý Merkur a…",
+              "year": null,
+              "duration_sec": 1591,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.688,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8584d2aa42616395",
+              "url": "https://prehraj.to/komisar-adamsberg-muz-s-modrymi-kruhy-2009-cs/8584d2aa42616395",
+              "title": "Komisař Adamsberg - Muž s modrými kruhy - 2009 CS",
+              "year": null,
+              "duration_sec": 6315,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2009,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586d6ff02bd86",
+              "url": "https://prehraj.to/komisar-adamsberg-muz-s-modrymi-kruhy-cz/586d6ff02bd86",
+              "title": "Komisař-Adamsberg_Muž-s-modrými-kruhy_cz",
+              "year": null,
+              "duration_sec": 5472,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.327,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5472,
+                "runtime_delta": 0.073,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ad139360c85a",
+              "url": "https://prehraj.to/muz-s-modrymi-kruhy-2009/5ad139360c85a",
+              "title": "Muž s modrými kruhy (2009)",
+              "year": null,
+              "duration_sec": 5471,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2009,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c01ae5d83af7",
+              "url": "https://prehraj.to/muz-s-modrymi-kruhy/5c01ae5d83af7",
+              "title": "Muž s modrými kruhy",
+              "year": null,
+              "duration_sec": 5471,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.5,
+                "title_contains_alias": false,
+                "film_year": 1985,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 5471,
+                "runtime_delta": 0.073,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1e1a1b985bb9e530",
+              "url": "https://prehraj.to/komisar-adamsberg-muz-s-modrymi-kruhy-2009-cs/1e1a1b985bb9e530",
+              "title": "Komisař Adamsberg - Muž s modrými kruhy - 2009 CS",
+              "year": null,
+              "duration_sec": 5470,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 1985,
+                "candidate_year": 2009,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5942af7e86115",
+              "url": "https://prehraj.to/minuta-mody-co-si-maji-muzi-obleknout-do-zimy-perovku-rozhodne-ne-je-nevzhledna/5942af7e86115",
+              "title": "Minuta módy - Co si mají muži obléknout do zimy_ Péřovku…",
+              "year": null,
+              "duration_sec": 80,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.984,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5942b0356e7ba",
+              "url": "https://prehraj.to/minuta-mody-jak-zkombinovat-sukni-a-top-pozor-tohle-uz-se-davno-nenosi/5942b0356e7ba",
+              "title": "Minuta módy - Jak zkombinovat sukni a top. Pozor, tohle už…",
+              "year": null,
+              "duration_sec": 92,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.982,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fb09f430b9b92ab7",
+              "url": "https://prehraj.to/v-novem-tele-03-dil-promena-nicole-23-uz-mela-vlasy-ruzove-modre-i-zelene-co-prijde-ted/fb09f430b9b92ab7",
+              "title": "V novém těle - 03. díl - Proměna Nicole (23) už měla vlasy…",
+              "year": null,
+              "duration_sec": 216,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.958,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Modrý muž (1985)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T12:50:39.077374+00:00"
+        }
+      ],
       "identity": {
         "slug": "modry-muz",
         "title": "Modrý muž",
@@ -32904,21 +33319,11 @@
         "added_at": "2026-04-20 22:32:36.171739+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25515159",
-          "account_name": "Modrý samet (1986)",
-          "title_similarity": 0.56,
-          "title_contains_alias": false,
-          "film_year": 1985,
-          "candidate_year": 1986,
-          "year_match": true,
-          "film_runtime_min": 85,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.365266+00:00"
+        "at": "2026-08-30T12:50:36.756370+00:00"
       }
     },
     "22660": {
@@ -40121,5 +40526,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T12:50:35.294955+00:00"
+  "updated_at": "2026-08-30T12:50:39.077393+00:00"
 }
