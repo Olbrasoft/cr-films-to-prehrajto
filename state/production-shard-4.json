@@ -11170,6 +11170,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-30T18:13:12.418066+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "1402192c5f500858",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28960508",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T18:42:29.681971+00:00"
         }
       ],
       "identity": {
@@ -11189,20 +11200,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T18:26:05.866818+00:00"
-      },
-      "upload": {
-        "target_video_id": "28960508",
-        "display_name": "Duch (1990) CZ Dabing",
-        "size_bytes": 2457282663,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "1402192c5f500858",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T18:38:11.318117+00:00",
-        "last_verification_at": "2026-08-30T18:38:58.887650+00:00"
       }
     },
     "3820": {
@@ -41131,5 +41128,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T18:40:51.962649+00:00"
+  "updated_at": "2026-08-30T18:42:41.315171+00:00"
 }
