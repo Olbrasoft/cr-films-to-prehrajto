@@ -5637,7 +5637,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-30T11:20:22.322952+00:00"
+        "at": "2026-08-30T11:22:43.125469+00:00"
       }
     },
     "23869": {
@@ -7292,7 +7292,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:20:22.323302+00:00"
+        "at": "2026-08-30T11:22:43.125812+00:00"
       }
     },
     "14845": {
@@ -10558,7 +10558,7 @@
           "candidate_year": 2006,
           "year_match": true
         },
-        "at": "2026-08-30T11:20:22.323409+00:00"
+        "at": "2026-08-30T11:22:43.125942+00:00"
       }
     },
     "7517": {
@@ -11012,15 +11012,12 @@
           "target_video_id": "28838481",
           "account_name": "Super Mario Bros. ve filmu (2023) CZ Dabing",
           "title_similarity": 1.0,
-          "title_contains_alias": true,
+          "title_exact_alias": true,
           "film_year": 2023,
           "candidate_year": 2023,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "year_match": true
         },
-        "at": "2026-08-30T08:58:07.739382+00:00"
+        "at": "2026-08-30T11:22:43.126232+00:00"
       }
     },
     "3261": {
@@ -13057,21 +13054,11 @@
         "added_at": "2022-07-03 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25394852",
-          "account_name": "Michael Jackson: The Life of an Icon (2011) SK Dabing",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2011,
-          "candidate_year": 2011,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:58:07.740382+00:00"
+        "at": "2026-08-30T11:22:43.126640+00:00"
       }
     },
     "14421": {
@@ -43169,5 +43156,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:22:36.446201+00:00"
+  "updated_at": "2026-08-30T11:22:43.657003+00:00"
 }
