@@ -1030,7 +1030,7 @@
             }
           ]
         },
-        "at": "2026-08-30T11:29:19.340363+00:00"
+        "at": "2026-08-30T11:50:46.005300+00:00"
       }
     },
     "22730": {
@@ -8564,21 +8564,11 @@
         "added_at": "2021-12-29 17:13:10.066732+01:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25312112",
-          "account_name": "Hunting Lands (2018) CZ Titulky",
-          "title_similarity": 0.5,
-          "title_contains_alias": false,
-          "film_year": 2019,
-          "candidate_year": 2018,
-          "year_match": true,
-          "film_runtime_min": 100,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:29.395223+00:00"
+        "at": "2026-08-30T11:50:46.005786+00:00"
       }
     },
     "906": {
@@ -253187,5 +253177,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T11:49:59.125936+00:00"
+  "updated_at": "2026-08-30T11:50:47.171607+00:00"
 }
