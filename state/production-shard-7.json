@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-30T14:51:10.830207+00:00"
+        "at": "2026-08-30T14:56:30.240060+00:00"
       }
     },
     "23807": {
@@ -27591,7 +27591,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-30T14:51:10.830542+00:00"
+        "at": "2026-08-30T14:56:30.240364+00:00"
       }
     },
     "14191": {
@@ -29313,7 +29313,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:51:10.831280+00:00"
+        "at": "2026-08-30T14:56:30.241097+00:00"
       }
     },
     "10591": {
@@ -29341,7 +29341,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-30T14:51:10.831348+00:00"
+        "at": "2026-08-30T14:56:30.241166+00:00"
       }
     },
     "3767": {
@@ -29854,7 +29854,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:51:10.841134+00:00"
+        "at": "2026-08-30T14:56:30.250900+00:00"
       }
     },
     "999": {
@@ -30077,7 +30077,7 @@
             }
           ]
         },
-        "at": "2026-08-30T14:51:10.842773+00:00"
+        "at": "2026-08-30T14:56:30.252495+00:00"
       }
     },
     "4983": {
@@ -60317,7 +60317,18 @@
       }
     },
     "10063": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-30T14:56:34.062408+00:00"
+        }
+      ],
       "identity": {
         "slug": "narusitel-2019",
         "title": "Narušitel",
@@ -60330,21 +60341,11 @@
         "added_at": "2019-06-02 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "preexisting_on_account",
+        "status": "missing",
         "evidence": {
-          "method": "title_year_runtime",
-          "target_video_id": "25442809",
-          "account_name": "Narušitel systému (2019)",
-          "title_similarity": 1.0,
-          "title_contains_alias": true,
-          "film_year": 2019,
-          "candidate_year": 2019,
-          "year_match": true,
-          "film_runtime_min": null,
-          "candidate_runtime_sec": null,
-          "runtime_delta": null
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T08:57:46.003702+00:00"
+        "at": "2026-08-30T14:56:30.253271+00:00"
       }
     },
     "10471": {
@@ -61236,5 +61237,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T14:56:22.985870+00:00"
+  "updated_at": "2026-08-30T14:56:34.062428+00:00"
 }
