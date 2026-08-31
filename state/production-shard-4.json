@@ -1627,7 +1627,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-31T20:33:50.614882+00:00"
+        "at": "2026-08-31T20:54:04.539243+00:00"
       }
     },
     "26420": {
@@ -5001,7 +5001,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T20:33:50.615733+00:00"
+        "at": "2026-08-31T20:54:04.540091+00:00"
       }
     },
     "652": {
@@ -5679,6 +5679,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127032+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "d5c01df81a80bafe",
+              "url": "https://prehraj.to/laska-na-zakazku-2024/d5c01df81a80bafe",
+              "title": "Laska na zakazku (2024)",
+              "year": null,
+              "duration_sec": 4882,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 82,
+                "candidate_runtime_sec": 4882,
+                "runtime_delta": 0.008,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Láska na zakázku (2024)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "40902",
+              "url": "https://online.sktorrent.eu/video/40902/",
+              "title": "Láska na zakázku",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T20:54:16.418251+00:00"
         }
       ],
       "identity": {
@@ -5697,7 +5754,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T13:54:36.046530+00:00"
+        "at": "2026-08-31T20:54:04.541865+00:00"
       }
     },
     "6484": {
@@ -20109,7 +20166,7 @@
           "candidate_year": 2020,
           "year_match": true
         },
-        "at": "2026-08-31T20:33:50.616316+00:00"
+        "at": "2026-08-31T20:54:04.540663+00:00"
       }
     },
     "5948": {
@@ -20182,7 +20239,7 @@
             }
           ]
         },
-        "at": "2026-08-31T20:33:50.616515+00:00"
+        "at": "2026-08-31T20:54:04.540880+00:00"
       }
     },
     "16884": {
@@ -65400,5 +65457,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T20:53:13.445308+00:00"
+  "updated_at": "2026-08-31T20:54:16.418265+00:00"
 }
