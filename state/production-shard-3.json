@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T22:27:37.696146+00:00"
+        "at": "2026-08-31T22:30:31.892643+00:00"
       }
     },
     "9147": {
@@ -10108,7 +10108,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T22:27:37.697167+00:00"
+        "at": "2026-08-31T22:30:31.893758+00:00"
       }
     },
     "15619": {
@@ -41610,6 +41610,458 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068771+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "49fb292bc993ce7a",
+              "url": "https://prehraj.to/amundsen-versus-scott-2014-cs/49fb292bc993ce7a",
+              "title": "Amundsen versus Scott - 2014 CS",
+              "year": null,
+              "duration_sec": 3210,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2019,
+                "candidate_year": 2014,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9ef2b90012c0fe38",
+              "url": "https://prehraj.to/amundsen-a-jizni-576x432-s76e43-cz/9ef2b90012c0fe38",
+              "title": "Amundsen a Jizni 576x432 S76E43 CZ",
+              "year": null,
+              "duration_sec": 1546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65c1334b1ea4d",
+              "url": "https://prehraj.to/22-amundsen-a-jizni-pol/65c1334b1ea4d",
+              "title": "22 - Amundsen a Jizni pol",
+              "year": null,
+              "duration_sec": 1546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.516,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1546,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6832c786ce2d0",
+              "url": "https://prehraj.to/22-amundsen-a-jizni-pol-576x432/6832c786ce2d0",
+              "title": "22 - Amundsen a Jizni pol_576x432",
+              "year": null,
+              "duration_sec": 1546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.41,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1546,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65c909e03b0f5",
+              "url": "https://prehraj.to/22-amundsen-a-jizni-pol-by-ugare/65c909e03b0f5",
+              "title": "22 - Amundsen a Jizni pol (by_UgarE)",
+              "year": null,
+              "duration_sec": 1546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1546,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "64ae2366e472c",
+              "url": "https://prehraj.to/roald-amundsen-a-jeho-horke-dobyti-jizniho-polu/64ae2366e472c",
+              "title": "Roald Amundsen a jeho hořké dobytí jižního pólu",
+              "year": null,
+              "duration_sec": 602,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.291,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 602,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a5fad8a918b",
+              "url": "https://prehraj.to/zivoty-slavnych-roald-amundsen-horke-dobyti-jizniho-polu/67a5fad8a918b",
+              "title": "Životy slavných - Roald Amundsen - Hořké dobytí Jižního pólu",
+              "year": null,
+              "duration_sec": 602,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 602,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a8b3b9d81d4",
+              "url": "https://prehraj.to/08-roald-amundsen-a-jeho-horke-dobyti-jizniho-polu/67a8b3b9d81d4",
+              "title": "08. Roald Amundsen a jeho hořké dobytí jižního pólu",
+              "year": null,
+              "duration_sec": 602,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 602,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6136fde17facd",
+              "url": "https://prehraj.to/byl-jednou-jeden-objevitel-22-amundsen-a-jizni-pol-dvdrip-cz/6136fde17facd",
+              "title": "Byl jednou jeden objevitel 22 - Amundsen a Jizni pol DVDRIP…",
+              "year": null,
+              "duration_sec": 1550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1550,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3ca4292230774f96",
+              "url": "https://prehraj.to/byl-jednou-jeden-objevitel-22-amundsen-a-jizni-pol-dvdrip-cz-avi/3ca4292230774f96",
+              "title": "Byl jednou jeden objevitel 22 - Amundsen a Jizni pol DVDRIP…",
+              "year": null,
+              "duration_sec": 1550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1550,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "674b235c01df4",
+              "url": "https://prehraj.to/byl-jednou-jeden-objevitel-22-amundsen-a-jizni-pol/674b235c01df4",
+              "title": "Byl jednou jeden objevitel 22. Amundsen a jižní pól",
+              "year": null,
+              "duration_sec": 1550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1550,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "645f269f1b4ef",
+              "url": "https://prehraj.to/byl-jednou-jeden-objevitel-22-amundsen-a-jizni-pol-dvdrip-cz/645f269f1b4ef",
+              "title": "Byl jednou jeden objevitel 22 - Amundsen a Jizni pol DVDRIP…",
+              "year": null,
+              "duration_sec": 1550,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1550,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62e2151741339",
+              "url": "https://prehraj.to/byl-jednou-jeden-objevitel-22-amundsen-a-jizni-pol/62e2151741339",
+              "title": "Byl jednou jeden objevitel 22 Amundsen a Jizni pol",
+              "year": null,
+              "duration_sec": 1546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.276,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1546,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "02082d88358deccc",
+              "url": "https://prehraj.to/zivoty-slavnych-roald-amundsen-a-jeho-horke-dobyti-jizniho-polu/02082d88358deccc",
+              "title": "Životy Slavných Roald Amundsen a jeho hořké dobytí jižního…",
+              "year": null,
+              "duration_sec": 602,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.242,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 602,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6688d29604afb",
+              "url": "https://prehraj.to/byl-jednou-jeden-objevitel-22-amundsen-a-jizni-pol-576x432/6688d29604afb",
+              "title": "Byl jednou jeden objevitel 22 - Amundsen a Jizni pol_576x432",
+              "year": null,
+              "duration_sec": 1546,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.242,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1546,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65d9974f97631",
+              "url": "https://prehraj.to/roald-amundsen-a-jeho-horke-dobyti-jizniho-polu-by-ugare/65d9974f97631",
+              "title": "Roald Amundsen a jeho hořké dobytí jižního pólu by_(UgarE)",
+              "year": null,
+              "duration_sec": 602,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.25,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 602,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Amundsen (2019)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "14651",
+              "url": "https://online.sktorrent.eu/video/14651/",
+              "title": "Amundsen",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:30:35.183826+00:00"
         }
       ],
       "identity": {
@@ -41628,7 +42080,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T20:29:20.134340+00:00"
+        "at": "2026-08-31T22:30:31.894826+00:00"
       }
     },
     "9083": {
@@ -43054,5 +43506,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:30:26.207603+00:00"
+  "updated_at": "2026-08-31T22:30:35.183872+00:00"
 }
