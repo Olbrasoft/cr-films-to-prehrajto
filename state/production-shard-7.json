@@ -63700,6 +63700,1326 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395591+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6387f0c8ee3e0",
+              "url": "https://prehraj.to/rozpolceny-cz-dabing/6387f0c8ee3e0",
+              "title": "Rozpolcený (CZ dabing)",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.9,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7027,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ef16869f851",
+              "url": "https://prehraj.to/15-rozpolcena/68ef16869f851",
+              "title": "15 - Rozpolcená",
+              "year": null,
+              "duration_sec": 2763,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.87,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2763,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "649527b3c16dc",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dabing-1920x804/649527b3c16dc",
+              "title": "Rozpolcený (2016)CZ Dabing 1920x804",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ff6c9b6cd3df",
+              "url": "https://prehraj.to/rozpolceny-2160p/5ff6c9b6cd3df",
+              "title": "Rozpolcený(2160p)",
+              "year": null,
+              "duration_sec": 7028,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.9,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7028,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5937d917b73b4",
+              "url": "https://prehraj.to/rozpolceny-cz-dabing-2016-msdos/5937d917b73b4",
+              "title": "Rozpolceny+CZ+Dabing+2016+MSDos",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "934d15efb7fdce02",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dabing-1080p-fhd/934d15efb7fdce02",
+              "title": "Rozpolcený 2016 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5825d10d65dff4cb",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dab-3840x1606p/5825d10d65dff4cb",
+              "title": "Rozpolcený (2016) CZ DAB 3840x1606p",
+              "year": null,
+              "duration_sec": 7028,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68ff56d5bbbff",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dab-1080p/68ff56d5bbbff",
+              "title": "Rozpolcený 2016 CZ dab 1080p",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685c5d9ac5c17",
+              "url": "https://prehraj.to/rozpolceny-2016/685c5d9ac5c17",
+              "title": "Rozpolcený 2016",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63f4726a41f85",
+              "url": "https://prehraj.to/rozpolceny/63f4726a41f85",
+              "title": "Rozpolcený",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.9,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7027,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3b792737cffcb4db",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dabing/3b792737cffcb4db",
+              "title": "Rozpolcený (2016) CZ Dabing",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "592ad09f54d0a",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dab/592ad09f54d0a",
+              "title": "Rozpolcený-(2016-CZ-dab)",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5fe2ae4d6457e",
+              "url": "https://prehraj.to/rozpolceny-2016-thriller-cz-dab/5fe2ae4d6457e",
+              "title": "Rozpolcený (2016)thriller,cz dab.",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60f95c7b437ee",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dabing-top/60f95c7b437ee",
+              "title": "Rozpolcený (2016) CZ-dabing TOP",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "efe07fd7ca3fd47c",
+              "url": "https://prehraj.to/novinka-rozpolceny-cz-dabing-2016/efe07fd7ca3fd47c",
+              "title": "novinka_Rozpolceny-CZ-dabing-2016",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59c517f1cc0c8",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-titulky-vlozene/59c517f1cc0c8",
+              "title": "Rozpolcený (2016) CZ Titulky Vložené",
+              "year": null,
+              "duration_sec": 6645,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "638a25c9885bc",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-titulky-v-obraze/638a25c9885bc",
+              "title": "Rozpolcený (2016) CZ Titulky v Obraze",
+              "year": null,
+              "duration_sec": 6645,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "63994cda64a3e",
+              "url": "https://prehraj.to/rozpolceny-2016-hdrip-cz-dabing-m3/63994cda64a3e",
+              "title": "Rozpolcený(2016)HDrip - CZ dabing...M3",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "601a4c538a463",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-4gb/601a4c538a463",
+              "title": "Rozpolcený 2016 CZ (4GB)",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "29650a92569e4339",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dabing-avi/29650a92569e4339",
+              "title": "Rozpolcený+(2016)CZ+Dabing.avi",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "675555efa2e23",
+              "url": "https://prehraj.to/rozpolceny-cz-dabing/675555efa2e23",
+              "title": "Rozpolcený (CZ dabing)",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.9,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7027,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "682617f38b3d8",
+              "url": "https://prehraj.to/rozpolceny-cz-dabing-online-ke-zhlednuti-a-stazeni-prehraj-to/682617f38b3d8",
+              "title": "Rozpolcený CZ dabing - online ke zhlédnutí a stažení -…",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7027,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59938bff11591",
+              "url": "https://prehraj.to/rozpolceny-cz-dabing-2016/59938bff11591",
+              "title": "Rozpolcený [CZ dabing, 2016]",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f919aad2ba00918c",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dabing-1080p-fhd/f919aad2ba00918c",
+              "title": "Rozpolcený 2016 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65f522d269a4af1a",
+              "url": "https://prehraj.to/rozpolceny-2016-avi/65f522d269a4af1a",
+              "title": "Rozpolcený 2016.avi",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59d4038d8264d",
+              "url": "https://prehraj.to/rozpolceny-2016-cz-dabing-hq-ddd/59d4038d8264d",
+              "title": "Rozpolcený (2016,cz,dabing,HQ)ddd",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5cb083aa1d119",
+              "url": "https://prehraj.to/rozpolceny-cz-dab-2016-ados/5cb083aa1d119",
+              "title": "Rozpolceny CZ Dab 2016 (Ados)",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b468e78ab2b68a31",
+              "url": "https://prehraj.to/rozpolceny-2016-en/b468e78ab2b68a31",
+              "title": "Rozpolcený - 2016 EN",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab7f0beb1658",
+              "url": "https://prehraj.to/rozpolceny-2016/5ab7f0beb1658",
+              "title": "Rozpolcený (2016)",
+              "year": null,
+              "duration_sec": 7028,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1b608460184e379d",
+              "url": "https://prehraj.to/rozpolceny-2016-usa-jap-horor-thriller/1b608460184e379d",
+              "title": "Rozpolceny-2016,USA,JAP-horor,thriller",
+              "year": null,
+              "duration_sec": 6989,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bf08961e7d86512f",
+              "url": "https://prehraj.to/rozpolceny-cz-dabing-2016-fv/bf08961e7d86512f",
+              "title": "Rozpolceny-CZ-dabing-2016_fv_",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.643,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7027,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c67d4751cc99b93e",
+              "url": "https://prehraj.to/rozpolceny-2016-cs/c67d4751cc99b93e",
+              "title": "Rozpolcený - 2016 CS",
+              "year": null,
+              "duration_sec": 7027,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2016,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Rozpolcená (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c94b7861a",
+              "url": "https://prehraj.to/shattered-2017-s03e09/6876c94b7861a",
+              "title": "Shattered 2017 S03E09",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c893245ca",
+              "url": "https://prehraj.to/shattered-2017-s01e02/6876c893245ca",
+              "title": "Shattered 2017 S01E02",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8c9f39dc",
+              "url": "https://prehraj.to/shattered-2017-s02e04/6876c8c9f39dc",
+              "title": "Shattered 2017 S02E04",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c90d279be",
+              "url": "https://prehraj.to/shattered-2017-s03e03/6876c90d279be",
+              "title": "Shattered 2017 S03E03",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c94ebf170",
+              "url": "https://prehraj.to/shattered-2017-s03e10/6876c94ebf170",
+              "title": "Shattered 2017 S03E10",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c89b49bac",
+              "url": "https://prehraj.to/shattered-2017-s01e03/6876c89b49bac",
+              "title": "Shattered 2017 S01E03",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c90cd061a",
+              "url": "https://prehraj.to/shattered-2017-s03e02/6876c90cd061a",
+              "title": "Shattered 2017 S03E02",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c89b7229a",
+              "url": "https://prehraj.to/shattered-2017-s01e04/6876c89b7229a",
+              "title": "Shattered 2017 S01E04",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8fc1e305",
+              "url": "https://prehraj.to/shattered-2017-s02e10/6876c8fc1e305",
+              "title": "Shattered 2017 S02E10",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8ffec3c7",
+              "url": "https://prehraj.to/shattered-2017-s03e01/6876c8ffec3c7",
+              "title": "Shattered 2017 S03E01",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8789f5da",
+              "url": "https://prehraj.to/shattered-2017-s01e01/6876c8789f5da",
+              "title": "Shattered 2017 S01E01",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8a36a6a9",
+              "url": "https://prehraj.to/shattered-2017-s01e06/6876c8a36a6a9",
+              "title": "Shattered 2017 S01E06",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8d457933",
+              "url": "https://prehraj.to/shattered-2017-s02e06/6876c8d457933",
+              "title": "Shattered 2017 S02E06",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8fb94a81",
+              "url": "https://prehraj.to/shattered-2017-s02e09/6876c8fb94a81",
+              "title": "Shattered 2017 S02E09",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c91a9a299",
+              "url": "https://prehraj.to/shattered-2017-s03e05/6876c91a9a299",
+              "title": "Shattered 2017 S03E05",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c92ba6fd1",
+              "url": "https://prehraj.to/shattered-2017-s03e06/6876c92ba6fd1",
+              "title": "Shattered 2017 S03E06",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8bd1fda2",
+              "url": "https://prehraj.to/shattered-2017-s02e02/6876c8bd1fda2",
+              "title": "Shattered 2017 S02E02",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8ba70ec7",
+              "url": "https://prehraj.to/shattered-2017-s02e01/6876c8ba70ec7",
+              "title": "Shattered 2017 S02E01",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8d46ae66",
+              "url": "https://prehraj.to/shattered-2017-s02e05/6876c8d46ae66",
+              "title": "Shattered 2017 S02E05",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8e0bf33a",
+              "url": "https://prehraj.to/shattered-2017-s02e07/6876c8e0bf33a",
+              "title": "Shattered 2017 S02E07",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8ed7d8d0",
+              "url": "https://prehraj.to/shattered-2017-s02e08/6876c8ed7d8d0",
+              "title": "Shattered 2017 S02E08",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c9143b1c9",
+              "url": "https://prehraj.to/shattered-2017-s03e04/6876c9143b1c9",
+              "title": "Shattered 2017 S03E04",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c9388dae7",
+              "url": "https://prehraj.to/shattered-2017-s03e07/6876c9388dae7",
+              "title": "Shattered 2017 S03E07",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8a14389f",
+              "url": "https://prehraj.to/shattered-2017-s01e05/6876c8a14389f",
+              "title": "Shattered 2017 S01E05",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c8c1ddbdd",
+              "url": "https://prehraj.to/shattered-2017-s02e03/6876c8c1ddbdd",
+              "title": "Shattered 2017 S02E03",
+              "year": null,
+              "duration_sec": 2552,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6876c937d5cdf",
+              "url": "https://prehraj.to/shattered-2017-s03e08/6876c937d5cdf",
+              "title": "Shattered 2017 S03E08",
+              "year": null,
+              "duration_sec": 2551,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6120befc76255",
+              "url": "https://prehraj.to/shattered-memories-2018/6120befc76255",
+              "title": "Shattered.Memories.2018",
+              "year": null,
+              "duration_sec": 4828,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2018,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6141f39d9b91d",
+              "url": "https://prehraj.to/shattered-memories-2018-1/6141f39d9b91d",
+              "title": "Shattered.Memories.2018 (1)",
+              "year": null,
+              "duration_sec": 4828,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2018,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f0e5d9c5483ce825",
+              "url": "https://prehraj.to/shattered-memories-2018/f0e5d9c5483ce825",
+              "title": "Shattered.Memories.2018",
+              "year": null,
+              "duration_sec": 4828,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2018,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "656a2e3d9ed27",
+              "url": "https://prehraj.to/711-shattered/656a2e3d9ed27",
+              "title": "711 - Shattered",
+              "year": null,
+              "duration_sec": 2638,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.818,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2638,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "44e83d1c63c6b476",
+              "url": "https://prehraj.to/voyager711-shattered/44e83d1c63c6b476",
+              "title": "voyager711 - Shattered",
+              "year": null,
+              "duration_sec": 2638,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.621,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2638,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66a56c6ce43d8",
+              "url": "https://prehraj.to/bez-identity-shattered-1991-remastered-bluray-1080p-cz-en-phdteam/66a56c6ce43d8",
+              "title": "Bez identity - Shattered (1991)(Remastered)(BluRay)(1080p)…",
+              "year": null,
+              "duration_sec": 5899,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Shattered (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "28421",
+              "url": "https://online.sktorrent.eu/video/28421/",
+              "title": "Rozpolcená",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:31:21.081043+00:00"
         }
       ],
       "identity": {
@@ -63718,7 +65038,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T06:37:15.053198+00:00"
+        "at": "2026-08-31T21:31:16.437056+00:00"
       }
     },
     "12255": {
@@ -68175,5 +69495,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:31:14.807712+00:00"
+  "updated_at": "2026-08-31T21:31:21.081060+00:00"
 }
