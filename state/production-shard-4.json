@@ -1627,7 +1627,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-31T22:04:01.119820+00:00"
+        "at": "2026-08-31T22:08:30.108828+00:00"
       }
     },
     "26420": {
@@ -5001,7 +5001,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T22:04:01.120576+00:00"
+        "at": "2026-08-31T22:08:30.109585+00:00"
       }
     },
     "652": {
@@ -8210,6 +8210,77 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127054+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "72dd5ea03c5199f6",
+              "url": "https://prehraj.to/sirotek-prvni-obet-2022-cz-titulky/72dd5ea03c5199f6",
+              "title": "Sirotek - První oběť (2022)Cz.Titulky",
+              "year": null,
+              "duration_sec": 5905,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5905,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Sirotek: První oběť (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "28429",
+              "url": "https://online.sktorrent.eu/video/28429/",
+              "title": "Sirotek: První oběť",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:08:33.342539+00:00"
         }
       ],
       "identity": {
@@ -8228,7 +8299,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T03:37:58.996569+00:00"
+        "at": "2026-08-31T22:08:30.111189+00:00"
       }
     },
     "3276": {
@@ -20948,7 +21019,7 @@
           "candidate_year": 2020,
           "year_match": true
         },
-        "at": "2026-08-31T22:04:01.121058+00:00"
+        "at": "2026-08-31T22:08:30.110049+00:00"
       }
     },
     "5948": {
@@ -21021,7 +21092,7 @@
             }
           ]
         },
-        "at": "2026-08-31T22:04:01.121232+00:00"
+        "at": "2026-08-31T22:08:30.110218+00:00"
       }
     },
     "16884": {
@@ -66987,5 +67058,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:08:06.015176+00:00"
+  "updated_at": "2026-08-31T22:08:33.342558+00:00"
 }
