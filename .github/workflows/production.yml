@@ -303,7 +303,8 @@ jobs:
         env:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
-          PREHRAJTO_INVENTORY_WORKERS: "16"
+          PREHRAJTO_INVENTORY_WORKERS: "4"
+          PREHRAJTO_INVENTORY_RETRIES: "10"
         run: >-
           cr-films-pilot inventory-account
           --deleted

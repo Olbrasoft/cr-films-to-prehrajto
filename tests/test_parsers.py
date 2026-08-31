@@ -1,4 +1,5 @@
 import pytest
+import requests
 
 from cr_films_to_prehrajto.models import AccountVideo
 from cr_films_to_prehrajto.providers.prehrajto import (
@@ -87,6 +88,37 @@ def test_deleted_inventory_requests_deleted_filter():
 
     assert videos[0].video_id == "123"
     assert session.params == [{"filterIsDeleted": "1"}]
+
+
+def test_deleted_inventory_retries_gateway_timeout(monkeypatch):
+    class Response:
+        def __init__(self, status_code, text=""):
+            self.status_code = status_code
+            self.text = text
+            self.headers = {}
+
+        def raise_for_status(self):
+            if self.status_code >= 400:
+                raise requests.HTTPError(str(self.status_code))
+
+    class Session:
+        def __init__(self):
+            self.responses = iter(
+                [
+                    Response(504),
+                    Response(200, '<div data-video-id="123"><h3>Film</h3></div>'),
+                ]
+            )
+
+        def get(self, _url, *, params, timeout):
+            return next(self.responses)
+
+    monkeypatch.setenv("PREHRAJTO_INVENTORY_RETRIES", "3")
+    monkeypatch.setattr(
+        "cr_films_to_prehrajto.providers.prehrajto.time.sleep", lambda _: None
+    )
+
+    assert inventory_account(Session(), deleted=True)[0].video_id == "123"
 
 
 def test_sktorrent_detail_fixture(fixtures):

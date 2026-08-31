@@ -167,6 +167,9 @@ def inventory_account(
     cache_dir = Path(cache_value) if cache_value else None
     if cache_dir:
         cache_dir.mkdir(parents=True, exist_ok=True)
+    max_attempts = max(
+        1, min(int(os.environ.get("PREHRAJTO_INVENTORY_RETRIES", "3")), 12)
+    )
 
     def fetch_page(page: int) -> tuple[list[AccountVideo], int]:
         cache_prefix = "deleted-page" if deleted else "page"
@@ -177,18 +180,31 @@ def inventory_account(
                 [AccountVideo(**row) for row in payload["videos"]],
                 int(payload["last_page"]),
             )
-        for attempt in range(3):
+        for attempt in range(max_attempts):
             params = {}
             if deleted:
                 params["filterIsDeleted"] = "1"
             if page > 1:
                 params["uploadedVideoListing-visualPaginator-page"] = page
-            response = session.get(
-                BASE_URL + "/profil/nahrana-videa",
-                params=params or None,
-                timeout=30,
-            )
-            if response.status_code < 500 or attempt == 2:
+            try:
+                response = session.get(
+                    BASE_URL + "/profil/nahrana-videa",
+                    params=params or None,
+                    timeout=30,
+                )
+                retryable = response.status_code == 429 or response.status_code >= 500
+                if not retryable:
+                    response.raise_for_status()
+                elif attempt + 1 >= max_attempts:
+                    response.raise_for_status()
+                else:
+                    retry_after = response.headers.get("Retry-After", "")
+                    try:
+                        delay = max(float(retry_after), 1.0)
+                    except ValueError:
+                        delay = min(2**attempt, 30)
+                    time.sleep(delay)
+                    continue
                 response.raise_for_status()
                 rows, last_page = parse_inventory_html(response.text)
                 if cache_path:
@@ -211,7 +227,10 @@ def inventory_account(
                     )
                     temporary.replace(cache_path)
                 return rows, last_page
-            time.sleep(attempt + 1)
+            except requests.RequestException:
+                if attempt + 1 >= max_attempts:
+                    raise
+                time.sleep(min(2**attempt, 30))
         raise ProviderError(f"Could not inventory account page {page}")
 
     inventory: dict[str, AccountVideo] = {}
