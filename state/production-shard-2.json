@@ -11648,7 +11648,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-31T22:14:50.278944+00:00"
+        "at": "2026-08-31T22:23:29.363612+00:00"
       }
     },
     "466": {
@@ -117933,6 +117933,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.734823+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "d9b05ce14f96fd24",
+              "url": "https://prehraj.to/obecna-skola-1991-mrknitv/d9b05ce14f96fd24",
+              "title": "Obecná škola - 1991 mrknitv",
+              "year": null,
+              "duration_sec": 5879,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.75,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 1991,
+                "candidate_year": 1991,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5879,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Obecná škola (1991)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "5912",
+              "url": "https://online.sktorrent.eu/video/5912/",
+              "title": "Obecná škola",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:23:32.083658+00:00"
         }
       ],
       "identity": {
@@ -117951,7 +118008,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T13:50:39.960984+00:00"
+        "at": "2026-08-31T22:23:29.364446+00:00"
       }
     },
     "5842": {
@@ -351826,5 +351883,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:23:20.772680+00:00"
+  "updated_at": "2026-08-31T22:23:32.083680+00:00"
 }
