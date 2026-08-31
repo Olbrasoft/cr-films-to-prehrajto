@@ -68775,7 +68775,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-31T19:01:06.549343+00:00"
+        "at": "2026-08-31T19:52:10.419415+00:00"
       }
     },
     "14024": {
@@ -71103,7 +71103,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T19:01:06.549633+00:00"
+        "at": "2026-08-31T19:52:10.419701+00:00"
       }
     },
     "14096": {
@@ -94661,6 +94661,45 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.447607+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67fcbc4e665c3",
+              "url": "https://prehraj.to/super-skritkove-2024-1080p-cz-dabing/67fcbc4e665c3",
+              "title": "Super skřítkové 2024 1080p CZ DABING",
+              "year": null,
+              "duration_sec": 4621,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.966,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 85,
+                "candidate_runtime_sec": 4621,
+                "runtime_delta": 0.094,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Superskřítkové (2024)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T19:52:12.141118+00:00"
         }
       ],
       "identity": {
@@ -94679,7 +94718,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:23:56.934984+00:00"
+        "at": "2026-08-31T19:52:10.420558+00:00"
       }
     },
     "15992": {
@@ -100781,5 +100820,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T19:52:05.253628+00:00"
+  "updated_at": "2026-08-31T19:52:12.141134+00:00"
 }
