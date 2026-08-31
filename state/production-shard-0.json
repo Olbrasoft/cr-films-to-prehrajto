@@ -68803,7 +68803,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-31T22:03:36.798725+00:00"
+        "at": "2026-08-31T22:11:29.320385+00:00"
       }
     },
     "14024": {
@@ -71263,7 +71263,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T22:03:36.798992+00:00"
+        "at": "2026-08-31T22:11:29.320670+00:00"
       }
     },
     "14096": {
@@ -99150,7 +99150,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T14:53:01.228110+00:00"
+        "at": "2026-08-31T22:11:29.321694+00:00"
       }
     },
     "2264": {
@@ -99165,6 +99165,69 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.447616+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "61d626e2a64c8",
+              "url": "https://prehraj.to/pripady-detektiva-murdocha-vii-4-dil-sherlockuv-navrat/61d626e2a64c8",
+              "title": "Případy detektiva Murdocha VII - 4.díl - Sherlockův návrat",
+              "year": null,
+              "duration_sec": 2539,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.343,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2539,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Návrat detektiva (2020)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "20337",
+              "url": "https://online.sktorrent.eu/video/20337/",
+              "title": "Návrat detektiva",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:11:32.493148+00:00"
         }
       ],
       "identity": {
@@ -99183,7 +99246,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T21:22:36.201400+00:00"
+        "at": "2026-08-31T22:11:29.322210+00:00"
       }
     },
     "7248": {
@@ -101095,5 +101158,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:11:16.897083+00:00"
+  "updated_at": "2026-08-31T22:11:32.493167+00:00"
 }
