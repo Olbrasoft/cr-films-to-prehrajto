@@ -288475,6 +288475,75 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.734857+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5641f4ace3af7ae2",
+              "url": "https://prehraj.to/kosmopes-a-turbokocka-2021/5641f4ace3af7ae2",
+              "title": "Kosmopes a Turbokocka (2021)",
+              "year": null,
+              "duration_sec": 5432,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2019,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kosmopes a Turbokočka (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3d29de6ed38fd76e",
+              "url": "https://prehraj.to/kosmopes-a-turbokocka-2021-mkv/3d29de6ed38fd76e",
+              "title": "Kosmopes a Turbokocka (2021).mkv",
+              "year": null,
+              "duration_sec": 5432,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2019,
+                "candidate_year": 2021,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Kosmopes a Turbokočka (2019)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "16036",
+              "url": "https://online.sktorrent.eu/video/16036/",
+              "title": "Kosmopes a Turbokočka",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:35:10.426283+00:00"
         }
       ],
       "identity": {
@@ -288493,7 +288562,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T17:21:11.367962+00:00"
+        "at": "2026-08-31T21:35:07.712848+00:00"
       }
     },
     "3178": {
@@ -351350,5 +351419,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:35:04.742204+00:00"
+  "updated_at": "2026-08-31T21:35:10.426300+00:00"
 }
