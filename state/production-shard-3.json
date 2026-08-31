@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T16:52:42.969498+00:00"
+        "at": "2026-08-31T16:59:21.799329+00:00"
       }
     },
     "9147": {
@@ -10102,7 +10102,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T16:52:42.970486+00:00"
+        "at": "2026-08-31T16:59:21.800335+00:00"
       }
     },
     "15619": {
@@ -37179,6 +37179,62 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068754+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "0bd1f560e3c2a9c0",
+              "url": "https://prehraj.to/krvava-leta-100-dil-perzekuce-od-nacistu-i-od-vlastencu-vrazda-johanna-husche-v-hroubovicich/0bd1f560e3c2a9c0",
+              "title": "Krvavá léta - 100. díl - Perzekuce od nacistů i od…",
+              "year": null,
+              "duration_sec": 349,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.241,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 349,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Krvavý Johann (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "36786",
+              "url": "https://online.sktorrent.eu/video/36786/",
+              "title": "Krvavý Johann",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T16:59:25.739174+00:00"
         }
       ],
       "identity": {
@@ -37197,7 +37253,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:13:36.649507+00:00"
+        "at": "2026-08-31T16:59:21.801186+00:00"
       }
     },
     "17339": {
@@ -42204,5 +42260,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T16:59:15.468762+00:00"
+  "updated_at": "2026-08-31T16:59:25.739188+00:00"
 }
