@@ -99552,6 +99552,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.561340+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "aa98ebc850f78e1f",
+              "url": "https://prehraj.to/cesta-domu-2021-cs/aa98ebc850f78e1f",
+              "title": "Cesta domů - 2021 CS",
+              "year": null,
+              "duration_sec": 5476,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.87,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5476,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Cesta domů (2021)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "20604",
+              "url": "https://online.sktorrent.eu/video/20604/",
+              "title": "Cesta domů",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:08:11.038203+00:00"
         }
       ],
       "identity": {
@@ -99570,7 +99627,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T09:30:39.621979+00:00"
+        "at": "2026-08-31T22:08:08.636103+00:00"
       }
     },
     "4153": {
@@ -109630,5 +109687,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:08:06.569506+00:00"
+  "updated_at": "2026-08-31T22:08:11.038218+00:00"
 }
