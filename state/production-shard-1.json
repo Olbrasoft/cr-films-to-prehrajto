@@ -95049,6 +95049,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.561281+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "19a70c116abaa7a8",
+              "url": "https://prehraj.to/kde-konci-laska-2025-mp4/19a70c116abaa7a8",
+              "title": "Kde končí láska (2025).mp4",
+              "year": null,
+              "duration_sec": 6206,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.882,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 107,
+                "candidate_runtime_sec": 6206,
+                "runtime_delta": 0.033,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Kde končí láska (2025)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "57555",
+              "url": "https://online.sktorrent.eu/video/57555/",
+              "title": "Kde končí láska",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T16:01:30.867591+00:00"
         }
       ],
       "identity": {
@@ -95067,7 +95124,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T05:01:12.239545+00:00"
+        "at": "2026-08-31T16:01:26.792144+00:00"
       }
     },
     "2473": {
@@ -107716,5 +107773,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T16:01:20.748993+00:00"
+  "updated_at": "2026-08-31T16:01:30.867612+00:00"
 }
