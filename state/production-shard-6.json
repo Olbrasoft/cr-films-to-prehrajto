@@ -32454,6 +32454,147 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.282307+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "09562c97707d9646",
+              "url": "https://prehraj.to/mothering-sunday-2021-en/09562c97707d9646",
+              "title": "Mothering Sunday - 2021 EN",
+              "year": null,
+              "duration_sec": 5462,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 480,
+              "subtitles": [
+                {
+                  "lang": "sk",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.914,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5462,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Mothering Sunday (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "633cb07b71339",
+              "url": "https://prehraj.to/mothering-sunday-2021-cztitulky/633cb07b71339",
+              "title": "Mothering Sunday (2021) CZtitulky",
+              "year": null,
+              "duration_sec": 6277,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                },
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.762,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6277,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Mothering Sunday (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61f6f37c38af4",
+              "url": "https://prehraj.to/mothering-sunday-2021-1080p-bluray-x264-aac5-1-yts-mx/61f6f37c38af4",
+              "title": "Mothering.Sunday.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
+              "year": null,
+              "duration_sec": 6268,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.696,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6268,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Mothering Sunday (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "61f6f345190a7",
+              "url": "https://prehraj.to/mothering-sunday-2021-720p-bluray-x264-aac-yts-mx/61f6f345190a7",
+              "title": "Mothering.Sunday.2021.720p.BluRay.x264.AAC-[YTS.MX]",
+              "year": null,
+              "duration_sec": 6268,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.744,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6268,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Mothering Sunday (2021)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T17:06:43.593480+00:00"
         }
       ],
       "identity": {
@@ -32472,7 +32613,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T00:15:13.107461+00:00"
+        "at": "2026-08-31T17:06:41.410329+00:00"
       }
     },
     "4102": {
@@ -66675,5 +66816,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T17:06:39.624615+00:00"
+  "updated_at": "2026-08-31T17:06:43.593497+00:00"
 }
