@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-31T19:49:45.138005+00:00"
+        "at": "2026-08-31T19:53:52.513509+00:00"
       }
     },
     "23807": {
@@ -32379,7 +32379,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-31T19:49:45.138416+00:00"
+        "at": "2026-08-31T19:53:52.513901+00:00"
       }
     },
     "14191": {
@@ -62934,6 +62934,62 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395580+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "7d3a2db70c44b237",
+              "url": "https://prehraj.to/tancuj-matyldo/7d3a2db70c44b237",
+              "title": "tancuj-matyldo",
+              "year": null,
+              "duration_sec": 6724,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6724,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Tancuj Matyldo (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "35752",
+              "url": "https://online.sktorrent.eu/video/35752/",
+              "title": "Tancuj Matyldo",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T19:53:54.167203+00:00"
         }
       ],
       "identity": {
@@ -62952,7 +63008,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T02:48:33.062736+00:00"
+        "at": "2026-08-31T19:53:52.514507+00:00"
       }
     },
     "10775": {
@@ -67851,5 +67907,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T19:53:44.774411+00:00"
+  "updated_at": "2026-08-31T19:53:54.167220+00:00"
 }
