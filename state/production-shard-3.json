@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T16:45:58.856853+00:00"
+        "at": "2026-08-31T16:52:42.969498+00:00"
       }
     },
     "9147": {
@@ -10102,7 +10102,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T16:45:58.857881+00:00"
+        "at": "2026-08-31T16:52:42.970486+00:00"
       }
     },
     "15619": {
@@ -10332,6 +10332,114 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068662+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67c157cb83034",
+              "url": "https://prehraj.to/jedna-noc-webrip-cz-5-1-2024-1080p/67c157cb83034",
+              "title": "Jedna.noc.WEBRip.CZ.5.1.2024.1080p",
+              "year": null,
+              "duration_sec": 5344,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.818,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5344,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Jedna noc (2024)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67cf19dd77ba3",
+              "url": "https://prehraj.to/jedna-noc-webrip-cz-5-1-2024/67cf19dd77ba3",
+              "title": "Jedna.noc.WEBRip.CZ.5.1.2024",
+              "year": null,
+              "duration_sec": 5344,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.818,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5344,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Jedna noc (2024)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "54059c24bab0e4c5",
+              "url": "https://prehraj.to/staci-jedna-noc-2024-czdab/54059c24bab0e4c5",
+              "title": "Stačí jedna noc (2024) CZdab",
+              "year": null,
+              "duration_sec": 5649,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.6,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5649,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Jedna noc (2024)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T16:52:44.244007+00:00"
         }
       ],
       "identity": {
@@ -10350,7 +10458,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T16:16:45.099763+00:00"
+        "at": "2026-08-31T16:52:42.972966+00:00"
       }
     },
     "14955": {
@@ -42083,5 +42191,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T16:52:37.303397+00:00"
+  "updated_at": "2026-08-31T16:52:44.244020+00:00"
 }
