@@ -105,8 +105,13 @@ class StateStore:
         if self.uploaded(cr_film_id):
             return None
         row = self.data["films"].get(str(cr_film_id), {})
+        invalidated_video_ids: set[str] = set()
         for attempt in reversed(row.get("attempts", [])):
-            if attempt.get("partial_target_video_id"):
+            deleted_video_id = attempt.get("deleted_target_video_id")
+            if attempt.get("status") == "failed_after_upload" and deleted_video_id:
+                invalidated_video_ids.add(str(deleted_video_id))
+            partial_video_id = attempt.get("partial_target_video_id")
+            if partial_video_id and str(partial_video_id) not in invalidated_video_ids:
                 return attempt
         return None
 

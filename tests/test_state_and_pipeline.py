@@ -154,6 +154,32 @@ def test_partial_uploads_are_planned_before_new_backlog_films(tmp_path, film):
     assert plan[0]["film"]["cr_film_id"] == film.cr_film_id
 
 
+def test_deleted_partial_upload_is_not_repaired_again(tmp_path, film):
+    state = StateStore(tmp_path / "state.json")
+    state.record_attempt(
+        film.cr_film_id,
+        {
+            "provider": "prehrajto",
+            "source_id": "partial-source",
+            "status": "partial_upload",
+            "partial_target_video_id": "777",
+            "permanent": False,
+        },
+    )
+    state.record_attempt(
+        film.cr_film_id,
+        {
+            "provider": "prehrajto",
+            "source_id": "partial-source",
+            "status": "failed_after_upload",
+            "deleted_target_video_id": "777",
+            "permanent": True,
+        },
+    )
+
+    assert state.pending_partial_upload(film.cr_film_id) is None
+
+
 def test_only_two_partial_repairs_precede_new_films(tmp_path, film):
     state = StateStore(tmp_path / "state.json")
     partials = []
