@@ -108567,6 +108567,116 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.561400+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "58b168f592653",
+              "url": "https://prehraj.to/cesta-boje-brazilie-brazilian-jiu-jitsu/58b168f592653",
+              "title": "Cesta-boje---Brazilie-Brazilian-Jiu-Jitsu",
+              "year": null,
+              "duration_sec": 2625,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2625,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Jiu Jitsu (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "59e9a8e80307b20b",
+              "url": "https://prehraj.to/proti-proudu-45-dil-tajemstvi-rychlych-uspechu-bena-v-brazilskem-jiu-jitsu/59e9a8e80307b20b",
+              "title": "Proti proudu - 45. díl - Tajemství rychlých úspěchů Bena v…",
+              "year": null,
+              "duration_sec": 158,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.226,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 158,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Jiu Jitsu (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "36d348c81f31dfeb",
+              "url": "https://prehraj.to/1905-le-vrai-jiu-jitsu-dranem-phonoscene-by-alice-guy-the-first-music-video-ever/36d348c81f31dfeb",
+              "title": "1905 Le Vrai Jiu-jitsu, Dranem Phonoscène by Alice Guy. The…",
+              "year": null,
+              "duration_sec": 129,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1905,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Jiu Jitsu (2020)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "16465",
+              "url": "https://online.sktorrent.eu/video/16465/",
+              "title": "Jiu Jitsu",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:08:15.890017+00:00"
         }
       ],
       "identity": {
@@ -108585,7 +108695,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T20:47:52.540869+00:00"
+        "at": "2026-08-31T22:08:12.931351+00:00"
       }
     },
     "6985": {
@@ -109687,5 +109797,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:08:11.038218+00:00"
+  "updated_at": "2026-08-31T22:08:15.890034+00:00"
 }
