@@ -61456,6 +61456,94 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127107+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "584e236fbc0b1793",
+              "url": "https://prehraj.to/laska-na-taliri-2019-cs/584e236fbc0b1793",
+              "title": "Láska na talíři - 2019 CS",
+              "year": null,
+              "duration_sec": 4782,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Láska na talíři (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d308aadb654b5dab",
+              "url": "https://prehraj.to/laska-na-taliri-2019-sk-dabing/d308aadb654b5dab",
+              "title": "Láska na talíři (2019) SK Dabing",
+              "year": null,
+              "duration_sec": 4782,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Láska na talíři (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ac1ebc1f9b9c8b06",
+              "url": "https://prehraj.to/zdravi-na-taliri-328-dil-zapecene-brambory-hrisne-dobre-a-tak-snadne-laska-na-prvni-skus/ac1ebc1f9b9c8b06",
+              "title": "Zdraví na talíři - 328. díl - Zapečené brambory, hříšně…",
+              "year": null,
+              "duration_sec": 221,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "runtime_delta": 0.955,
+                "rejection_reason": "wrong_runtime"
+              },
+              "query": "Láska na talíři (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "40389",
+              "url": "https://online.sktorrent.eu/video/40389/",
+              "title": "Láska na talíři",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T20:54:38.189857+00:00"
         }
       ],
       "identity": {
@@ -61474,7 +61562,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T07:08:12.045532+00:00"
+        "at": "2026-08-31T20:54:28.583676+00:00"
       }
     },
     "2188": {
@@ -65457,5 +65545,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T20:54:16.418265+00:00"
+  "updated_at": "2026-08-31T20:54:38.189875+00:00"
 }
