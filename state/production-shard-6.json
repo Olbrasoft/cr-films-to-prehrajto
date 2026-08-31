@@ -61366,21 +61366,24 @@
         "added_at": "2019-06-19 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "24903070",
-              "account_name": "Kameňák 2 (2004) CZ",
-              "title_similarity": 0.875,
-              "title_exact_alias": false,
-              "film_year": 2003,
-              "candidate_year": 2004,
-              "year_match": true
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T20:34:43.210432+00:00"
+        "at": "2026-08-31T12:26:06.277183+00:00"
+      },
+      "upload": {
+        "target_video_id": "28976250",
+        "display_name": "Kameňák (2003) CZ Dabing",
+        "size_bytes": 1970131470,
+        "subtitle_verification": "not_required",
+        "provider": "sktorrent",
+        "source_id": "3446",
+        "language_tier": "czech_audio",
+        "actual_resolution": 720,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-31T12:37:54.962874+00:00"
       }
     },
     "10470": {
@@ -63035,5 +63038,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T12:25:57.373691+00:00"
+  "updated_at": "2026-08-31T12:37:54.962909+00:00"
 }
