@@ -35655,6 +35655,72 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.282318+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "64044c6cb099f",
+              "url": "https://prehraj.to/spici-mesto-2022-cz/64044c6cb099f",
+              "title": "Spící město (2022) CZ",
+              "year": null,
+              "duration_sec": 5654,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2021,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5654,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Spící město (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6310595a15a60",
+              "url": "https://prehraj.to/spici-mesto-thriller-2022-cz-dabing/6310595a15a60",
+              "title": "Spící město (Thriller, 2022) CZ dabing",
+              "year": null,
+              "duration_sec": 5653,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.71,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5653,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Spící město (2021)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T18:29:39.767778+00:00"
         }
       ],
       "identity": {
@@ -35673,7 +35739,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T06:47:07.367421+00:00"
+        "at": "2026-08-31T18:29:38.945183+00:00"
       }
     },
     "3054": {
@@ -67253,5 +67319,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T18:29:31.022800+00:00"
+  "updated_at": "2026-08-31T18:29:39.767794+00:00"
 }
