@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 from collections import defaultdict
 from datetime import UTC, datetime
@@ -231,6 +232,51 @@ def inventory_from_index(index: dict) -> dict:
     }
 
 
+def reconcile_deleted_index(index: dict, deleted_inventory: dict) -> dict:
+    """Move known deleted target mappings out of the active account index.
+
+    This incremental reconciliation needs only the relatively small deleted
+    listing. Existing active mappings remain authoritative, avoiding a full
+    crawl of tens of thousands of active account pages after every batch.
+    """
+    deleted_ids = {
+        str(row["video_id"]) for row in deleted_inventory.get("videos", [])
+    }
+    films = {}
+    inactive_films = dict(index.get("inactive_films") or {})
+    newly_deleted = 0
+    for film_id, row in (index.get("films") or {}).items():
+        if str(row.get("target_video_id")) in deleted_ids:
+            inactive_films[film_id] = {**row, "status": "deleted"}
+            newly_deleted += 1
+        else:
+            films[film_id] = row
+    for film_id, row in inactive_films.items():
+        if str(row.get("target_video_id")) in deleted_ids:
+            row["status"] = "deleted"
+
+    reconciled_at = datetime.now(UTC).isoformat()
+    live_inventory = dict(index.get("live_inventory") or {})
+    live_inventory.update(
+        {
+            "deleted_video_count": len(deleted_ids),
+            "deleted_reconciled_at": reconciled_at,
+        }
+    )
+    return {
+        **index,
+        "generated_at": reconciled_at,
+        "film_count": len(films),
+        "films": dict(sorted(films.items(), key=lambda item: int(item[0]))),
+        "inactive_film_count": len(inactive_films),
+        "inactive_films": dict(
+            sorted(inactive_films.items(), key=lambda item: int(item[0]))
+        ),
+        "live_inventory": live_inventory,
+        "newly_deleted_film_count": newly_deleted,
+    }
+
+
 def build_missing_backlog(snapshot: dict, index: dict) -> dict:
     uploaded = {int(film_id) for film_id in index["films"]}
     films = [
@@ -281,6 +327,13 @@ def main(argv: list[str] | None = None) -> int:
     reconcile_parser.add_argument("--deleted-inventory", type=Path, required=True)
     reconcile_parser.add_argument("--out", type=Path, required=True)
 
+    reconcile_deleted_parser = subparsers.add_parser("reconcile-deleted")
+    reconcile_deleted_parser.add_argument("--index", type=Path, required=True)
+    reconcile_deleted_parser.add_argument(
+        "--deleted-inventory", type=Path, required=True
+    )
+    reconcile_deleted_parser.add_argument("--out", type=Path, required=True)
+
     backlog_parser = subparsers.add_parser("backlog")
     backlog_parser.add_argument("--snapshot", type=Path, required=True)
     backlog_parser.add_argument("--index", type=Path, required=True)
@@ -298,11 +351,21 @@ def main(argv: list[str] | None = None) -> int:
             _load(args.inventory),
             _load(args.deleted_inventory),
         )
+    elif args.command == "reconcile-deleted":
+        payload = reconcile_deleted_index(
+            _load(args.index), _load(args.deleted_inventory)
+        )
     else:
         payload = build_missing_backlog(_load(args.snapshot), _load(args.index))
     _write(args.out, payload)
     count = payload.get("film_count", len(payload.get("videos", [])))
     print(f"Wrote {args.command} with {count} films")
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output and args.command == "reconcile-deleted":
+        with Path(github_output).open("a") as output:
+            output.write(
+                f"newly_deleted_films={payload['newly_deleted_film_count']}\n"
+            )
     return 0
 
 

@@ -11,6 +11,7 @@ from cr_films_to_prehrajto.models import AccountVideo
 from cr_films_to_prehrajto.production import (
     GitStatePusher,
     collect_target_video_ids,
+    invalidate_deleted_uploads,
     verify_pending_uploads,
 )
 
@@ -313,6 +314,41 @@ def test_target_video_count_is_monotonic_across_upload_state_transitions(tmp_pat
     assert collect_target_video_ids([first, second]) == {"99", "100", "101", "102"}
 
 
+def test_deleted_active_production_upload_returns_to_retryable_state(tmp_path):
+    state_path = tmp_path / "state.json"
+    state_path.write_text(
+        json.dumps(
+            {
+                "schema_version": 1,
+                "snapshot": {"id": "snapshot-1"},
+                "films": {
+                    "1": {
+                        "attempts": [],
+                        "upload": {
+                            "target_video_id": "100",
+                            "provider": "prehrajto",
+                            "source_id": "source-1",
+                            "processing_status": "active",
+                        },
+                    },
+                    "2": {
+                        "attempts": [],
+                        "upload": {"target_video_id": "200"},
+                    },
+                },
+            }
+        )
+    )
+
+    assert invalidate_deleted_uploads([state_path], {"100", "999"}) == 1
+    payload = json.loads(state_path.read_text())
+    deleted = payload["films"]["1"]
+    assert "upload" not in deleted
+    assert deleted["attempts"][-1]["deleted_target_video_id"] == "100"
+    assert deleted["attempts"][-1]["discovery_exhausted"] is False
+    assert payload["films"]["2"]["upload"]["target_video_id"] == "200"
+
+
 def test_production_workflow_stops_without_new_uploads_after_full_prefetch():
     workflow = (
         Path(__file__).parents[1] / ".github/workflows/production.yml"
@@ -321,6 +357,9 @@ def test_production_workflow_stops_without_new_uploads_after_full_prefetch():
     assert "count-production-targets" in workflow
     assert "fromJSON(steps.progress.outputs.new_uploads) > 0" in workflow
     assert "fromJSON(needs.prefetch.outputs.remaining) > 0" in workflow
+    assert "fromJSON(steps.deleted.outputs.newly_deleted_films || '0') > 0" in workflow
+    assert "inventory-account" in workflow
+    assert "reconcile-deleted" in workflow
     assert "steps.verification.outputs.recent_pending" not in workflow
     assert "steps.backlog.outputs.after) <" not in workflow
 

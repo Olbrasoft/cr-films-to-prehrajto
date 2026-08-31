@@ -160,14 +160,17 @@ def parse_inventory_html(html: str) -> tuple[list[AccountVideo], int]:
     return list(videos.values()), max(pages, default=1)
 
 
-def inventory_account(session: requests.Session) -> list[AccountVideo]:
+def inventory_account(
+    session: requests.Session, *, deleted: bool = False
+) -> list[AccountVideo]:
     cache_value = os.environ.get("PREHRAJTO_INVENTORY_CACHE_DIR")
     cache_dir = Path(cache_value) if cache_value else None
     if cache_dir:
         cache_dir.mkdir(parents=True, exist_ok=True)
 
     def fetch_page(page: int) -> tuple[list[AccountVideo], int]:
-        cache_path = cache_dir / f"page-{page}.json" if cache_dir else None
+        cache_prefix = "deleted-page" if deleted else "page"
+        cache_path = cache_dir / f"{cache_prefix}-{page}.json" if cache_dir else None
         if cache_path and cache_path.exists():
             payload = json.loads(cache_path.read_text())
             return (
@@ -175,11 +178,14 @@ def inventory_account(session: requests.Session) -> list[AccountVideo]:
                 int(payload["last_page"]),
             )
         for attempt in range(3):
+            params = {}
+            if deleted:
+                params["filterIsDeleted"] = "1"
+            if page > 1:
+                params["uploadedVideoListing-visualPaginator-page"] = page
             response = session.get(
                 BASE_URL + "/profil/nahrana-videa",
-                params={"uploadedVideoListing-visualPaginator-page": page}
-                if page > 1
-                else None,
+                params=params or None,
                 timeout=30,
             )
             if response.status_code < 500 or attempt == 2:

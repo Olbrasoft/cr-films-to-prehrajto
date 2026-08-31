@@ -4,6 +4,7 @@ from cr_films_to_prehrajto.account_index import (
     build_index,
     build_missing_backlog,
     inventory_from_index,
+    reconcile_deleted_index,
     reconcile_live_index,
 )
 from cr_films_to_prehrajto.cli import load_historical
@@ -135,6 +136,38 @@ def test_live_reconciliation_excludes_deleted_and_matches_manual_uploads():
     assert set(reconciled["films"]) == {"2"}
     assert reconciled["films"]["2"]["target_video_id"] == "200"
     assert reconciled["inactive_films"]["1"]["status"] == "deleted"
+
+
+def test_incremental_deleted_reconciliation_reactivates_only_deleted_films():
+    index = {
+        "schema_version": 1,
+        "target_account": "filmy.prehrajto@post.cz",
+        "films": {
+            "1": {"target_video_id": "100", "display_name": "Deleted"},
+            "2": {"target_video_id": "200", "display_name": "Active"},
+        },
+        "inactive_films": {
+            "3": {"target_video_id": "300", "status": "absent"}
+        },
+        "live_inventory": {"active_video_count": 2, "deleted_video_count": 1},
+    }
+
+    reconciled = reconcile_deleted_index(
+        index,
+        {
+            "videos": [
+                {"video_id": "100", "name": "Deleted"},
+                {"video_id": "300", "name": "Previously absent"},
+                {"video_id": "999", "name": "Not a catalog film"},
+            ]
+        },
+    )
+
+    assert set(reconciled["films"]) == {"2"}
+    assert reconciled["inactive_films"]["1"]["status"] == "deleted"
+    assert reconciled["inactive_films"]["3"]["status"] == "deleted"
+    assert reconciled["newly_deleted_film_count"] == 1
+    assert reconciled["live_inventory"]["deleted_video_count"] == 3
 
 
 def test_live_reconciliation_rejects_related_title_false_positive():

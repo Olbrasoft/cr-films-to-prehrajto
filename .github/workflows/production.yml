@@ -293,11 +293,44 @@ jobs:
           echo "new_uploads=$new_uploads" >> "$GITHUB_OUTPUT"
           echo "This run created $new_uploads target uploads"
 
-      - name: Consolidate shard state and backlog
-        id: backlog
+      - name: Inventory deleted videos before declaring completion
+        if: >-
+          ${{
+            fromJSON(steps.progress.outputs.new_uploads) == 0 &&
+            needs.prefetch.result == 'success' &&
+            fromJSON(needs.prefetch.outputs.remaining) == 0
+          }}
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+          PREHRAJTO_INVENTORY_WORKERS: "16"
+        run: >-
+          cr-films-pilot inventory-account
+          --deleted
+          --out data/deleted-account-inventory.json
+
+      - name: Invalidate deleted production uploads
+        if: >-
+          ${{
+            fromJSON(steps.progress.outputs.new_uploads) == 0 &&
+            needs.prefetch.result == 'success' &&
+            fromJSON(needs.prefetch.outputs.remaining) == 0
+          }}
+        run: >-
+          cr-films-pilot invalidate-deleted-production
+          --state state/production-shard-0.json
+          --state state/production-shard-1.json
+          --state state/production-shard-2.json
+          --state state/production-shard-3.json
+          --state state/production-shard-4.json
+          --state state/production-shard-5.json
+          --state state/production-shard-6.json
+          --state state/production-shard-7.json
+          --deleted-inventory data/deleted-account-inventory.json
+
+      - name: Consolidate shard state
         run: |
           set -euo pipefail
-          before=$(jq -r '.film_count' state/missing-films.json)
           for shard_state in state/production-shard-*.json; do
             test -e "$shard_state" || continue
             cr-films-index index \
@@ -305,6 +338,26 @@ jobs:
               --pilot-state "$shard_state" \
               --out state/account-index.json
           done
+
+      - name: Return newly deleted films to the backlog
+        id: deleted
+        if: >-
+          ${{
+            fromJSON(steps.progress.outputs.new_uploads) == 0 &&
+            needs.prefetch.result == 'success' &&
+            fromJSON(needs.prefetch.outputs.remaining) == 0
+          }}
+        run: >-
+          cr-films-index reconcile-deleted
+          --index state/account-index.json
+          --deleted-inventory data/deleted-account-inventory.json
+          --out state/account-index.json
+
+      - name: Regenerate missing-film backlog
+        id: backlog
+        run: |
+          set -euo pipefail
+          before=$(jq -r '.film_count' state/missing-films.json)
           cr-films-index backlog \
             --snapshot state/missing-films.json \
             --index state/account-index.json \
@@ -332,6 +385,7 @@ jobs:
             fromJSON(steps.backlog.outputs.after) > 0 &&
             (
               fromJSON(steps.progress.outputs.new_uploads) > 0 ||
+              fromJSON(steps.deleted.outputs.newly_deleted_films || '0') > 0 ||
               (
                 needs.prefetch.result == 'success' &&
                 fromJSON(needs.prefetch.outputs.remaining) > 0

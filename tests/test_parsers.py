@@ -3,6 +3,7 @@ import pytest
 from cr_films_to_prehrajto.models import AccountVideo
 from cr_films_to_prehrajto.providers.prehrajto import (
     ProviderError,
+    inventory_account,
     parse_detail_html,
     parse_inventory_html,
     parse_search_html,
@@ -57,6 +58,35 @@ def test_inventory_action_link_without_matching_card_fails_closed():
     """
     with pytest.raises(ProviderError, match="safely parse target inventory video 123"):
         parse_inventory_html(html)
+
+
+def test_deleted_inventory_requests_deleted_filter():
+    class Response:
+        status_code = 200
+        text = """
+            <div data-video-id="123">
+              <h3>Deleted Film (2020) CZ</h3>
+              <a href="/deleted-film/abcdef12">Detail souboru</a>
+            </div>
+        """
+
+        def raise_for_status(self):
+            return None
+
+    class Session:
+        def __init__(self):
+            self.params = []
+
+        def get(self, _url, *, params, timeout):
+            self.params.append(params)
+            assert timeout == 30
+            return Response()
+
+    session = Session()
+    videos = inventory_account(session, deleted=True)
+
+    assert videos[0].video_id == "123"
+    assert session.params == [{"filterIsDeleted": "1"}]
 
 
 def test_sktorrent_detail_fixture(fixtures):

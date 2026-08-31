@@ -207,9 +207,12 @@ refresh; transient transfer failures remain retryable.
 Target upload progress counts unique video IDs from successful, partial, and
 subsequently deleted upload records. A deleted account video therefore returns
 to the retry queue without making the counter go backwards. Once all remaining
-films have been searched and a complete run creates no target video, the
-workflow stops; old videos that are merely still processing do not keep it
-running.
+films have been searched and a complete run creates no target video, the final
+job inventories the much smaller deleted-video listing once. Known films found
+there return to the backlog and restart production. The workflow stops only
+when that reconciliation finds no newly deleted film; old videos that are
+merely still processing do not keep it running. The full active account listing
+is not downloaded again for every batch.
 
 Start the full continuation manually once:
 

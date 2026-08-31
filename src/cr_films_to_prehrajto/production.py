@@ -43,6 +43,42 @@ def collect_target_video_ids(state_paths: list[Path]) -> set[str]:
     return target_ids
 
 
+def invalidate_deleted_uploads(
+    state_paths: list[Path], deleted_video_ids: set[str]
+) -> int:
+    """Make production uploads retryable when their target video was deleted."""
+    invalidated = 0
+    for path in state_paths:
+        if not path.exists():
+            continue
+        state = StateStore(path)
+        dirty = False
+        for row in state.data["films"].values():
+            upload = row.get("upload") or {}
+            target_video_id = upload.get("target_video_id")
+            if target_video_id is None or str(target_video_id) not in deleted_video_ids:
+                continue
+            failed = row.pop("upload")
+            row.setdefault("attempts", []).append(
+                {
+                    "provider": failed.get("provider"),
+                    "source_id": failed.get("source_id"),
+                    "status": "failed_after_upload",
+                    "reason": "Target video is present in the deleted account inventory",
+                    "permanent": True,
+                    "deleted_target_video_id": str(target_video_id),
+                    "discovery_exhausted": False,
+                    "snapshot_id": state.data.get("snapshot", {}).get("id"),
+                    "at": now_iso(),
+                }
+            )
+            invalidated += 1
+            dirty = True
+        if dirty:
+            state.save(notify=False)
+    return invalidated
+
+
 def _timestamp(value: object) -> datetime | None:
     try:
         parsed = datetime.fromisoformat(str(value))

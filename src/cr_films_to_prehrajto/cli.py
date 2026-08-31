@@ -15,6 +15,7 @@ from .production import (
     GitStatePusher,
     account_video_status,
     collect_target_video_ids,
+    invalidate_deleted_uploads,
     verify_pending_uploads,
 )
 from .providers.prehrajto import PrehrajtoProvider, inventory_account, login
@@ -310,6 +311,44 @@ def run_production_target_count(args) -> int:
     return 0
 
 
+def run_account_inventory(args) -> int:
+    authenticated = login(
+        os.environ.get("PREHRAJTO_EMAIL", ""),
+        os.environ.get("PREHRAJTO_PASSWORD", ""),
+    )
+    inventory = inventory_account(authenticated, deleted=args.deleted)
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {
+                        "video_id": row.video_id,
+                        "name": row.name,
+                        "url": row.url,
+                    }
+                    for row in inventory
+                ]
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n"
+    )
+    print(f"Inventoried {len(inventory)} {'deleted' if args.deleted else 'active'} videos")
+    return 0
+
+
+def run_deleted_production_invalidation(args) -> int:
+    deleted_payload = json.loads(args.deleted_inventory.read_text())
+    deleted_ids = {
+        str(row["video_id"]) for row in deleted_payload.get("videos", [])
+    }
+    count = invalidate_deleted_uploads(args.state, deleted_ids)
+    print(f"Invalidated {count} deleted production uploads")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="cr-films-pilot")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -357,6 +396,17 @@ def build_parser() -> argparse.ArgumentParser:
         help="Count unique target video IDs allocated by production uploads",
     )
     target_count.add_argument("--state", action="append", type=Path, required=True)
+    inventory = subparsers.add_parser(
+        "inventory-account", help="Inventory active or deleted target-account videos"
+    )
+    inventory.add_argument("--out", type=Path, required=True)
+    inventory.add_argument("--deleted", action="store_true")
+    invalidate = subparsers.add_parser(
+        "invalidate-deleted-production",
+        help="Return deleted production uploads to a retryable state",
+    )
+    invalidate.add_argument("--state", action="append", type=Path, required=True)
+    invalidate.add_argument("--deleted-inventory", type=Path, required=True)
     return parser
 
 
@@ -374,6 +424,10 @@ def main(argv: list[str] | None = None) -> int:
         return run_production_verification(args)
     if args.command == "count-production-targets":
         return run_production_target_count(args)
+    if args.command == "inventory-account":
+        return run_account_inventory(args)
+    if args.command == "invalidate-deleted-production":
+        return run_deleted_production_invalidation(args)
     return run_pilot(args)
 
 
