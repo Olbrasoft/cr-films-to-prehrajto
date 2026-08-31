@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-31T13:31:46.983693+00:00"
+        "at": "2026-08-31T13:36:00.116280+00:00"
       }
     },
     "23807": {
@@ -9442,6 +9442,51 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T13:31:47.511093+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch:prefetch-b3198422772e477f",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5faf01f3ba0df",
+              "url": "https://prehraj.to/hustler-white-1996-cztitulky/5faf01f3ba0df",
+              "title": "Hustler White (1996) CZtitulky",
+              "year": null,
+              "duration_sec": 4799,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 1080,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "film_year": 1996,
+                "candidate_year": 1996,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4799,
+                "runtime_delta": 0.0,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "local_prefetch"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T13:36:00.749633+00:00"
         }
       ],
       "identity": {
@@ -9461,7 +9506,7 @@
           "method": "partial_upload_requires_subtitle_repair",
           "target_video_id": "28838350"
         },
-        "at": "2026-08-31T13:31:46.985145+00:00"
+        "at": "2026-08-31T13:36:00.117383+00:00"
       }
     },
     "22863": {
@@ -31747,7 +31792,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-31T13:31:46.984078+00:00"
+        "at": "2026-08-31T13:36:00.116567+00:00"
       }
     },
     "14191": {
@@ -33505,7 +33550,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T13:31:46.984198+00:00"
+        "at": "2026-08-31T13:36:00.116651+00:00"
       }
     },
     "3767": {
@@ -65556,5 +65601,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T13:34:56.808007+00:00"
+  "updated_at": "2026-08-31T13:36:00.749647+00:00"
 }
