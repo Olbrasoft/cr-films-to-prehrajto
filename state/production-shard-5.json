@@ -45784,6 +45784,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.213519+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "14579",
+              "url": "https://online.sktorrent.eu/video/14579/",
+              "title": "Vánoční rande mého táty",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T23:34:10.592462+00:00"
         }
       ],
       "identity": {
@@ -45802,7 +45831,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T17:20:08.424462+00:00"
+        "at": "2026-08-31T23:34:08.597431+00:00"
       }
     },
     "6941": {
@@ -47207,5 +47236,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T23:34:07.085750+00:00"
+  "updated_at": "2026-08-31T23:34:10.592474+00:00"
 }
