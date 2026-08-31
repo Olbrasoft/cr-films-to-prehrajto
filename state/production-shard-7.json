@@ -29123,6 +29123,73 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395496+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6531457b009d4",
+              "url": "https://prehraj.to/578-magnum2023-480p-webrip-cz/6531457b009d4",
+              "title": "578.Magnum2023.480p.webrip.cz",
+              "year": null,
+              "duration_sec": 5260,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.833,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5260,
+                "runtime_delta": 0.077,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "578 Magnum (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "e405d079f38e6012",
+              "url": "https://prehraj.to/578-phat-dan-cua-ke-dien-2022-cs/e405d079f38e6012",
+              "title": "578: Phát đạn của kẻ điên - 2022 CS",
+              "year": null,
+              "duration_sec": 5260,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.936,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 95,
+                "candidate_runtime_sec": 5260,
+                "runtime_delta": 0.077,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "578: Phát Đạn Của Kẻ Điên (2022)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T19:17:57.492193+00:00"
         }
       ],
       "identity": {
@@ -29141,7 +29208,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T08:26:17.476528+00:00"
+        "at": "2026-08-31T19:17:55.996356+00:00"
       }
     },
     "15447": {
@@ -66126,5 +66193,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T19:17:54.278569+00:00"
+  "updated_at": "2026-08-31T19:17:57.492206+00:00"
 }
