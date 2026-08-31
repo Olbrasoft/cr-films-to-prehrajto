@@ -130,6 +130,7 @@ def test_prefetch_stops_after_first_safe_hit_and_persists_status(
     assert json.loads(scan.read_text())["film_ids"] == ["42"]
     assert json.loads(status.read_text()) == {
         "queue": 1,
+        "newly_queued": 1,
         "scanned": 1,
         "remaining": 0,
         "searched": 1,
@@ -175,3 +176,56 @@ def test_failed_search_is_left_unscanned_for_retry(tmp_path, film, monkeypatch):
     assert json.loads(queue.read_text()) == {}
     assert json.loads(scan.read_text())["film_ids"] == []
     assert json.loads(status.read_text())["remaining"] == 1
+
+
+def test_prefetch_does_not_report_existing_queue_entry_as_new(
+    tmp_path, film, monkeypatch
+):
+    snapshot = tmp_path / "missing.json"
+    snapshot.write_text(json.dumps({"films": [film.to_dict()]}) + "\n")
+    queue = tmp_path / "queue.json"
+    queue.write_text(
+        json.dumps(
+            {
+                str(film.cr_film_id): [
+                    {
+                        "source_id": "existing-source",
+                        "title": "Existing source",
+                    }
+                ]
+            }
+        )
+        + "\n"
+    )
+    scan = tmp_path / "scan.json"
+    status = tmp_path / "status.json"
+    session = FakeSession([])
+    session.headers = {}
+    monkeypatch.setattr(prefetch_sources, "login", lambda *_: session)
+    monkeypatch.setenv("PREHRAJTO_EMAIL", "filmy.prehrajto@post.cz")
+    monkeypatch.setenv("PREHRAJTO_PASSWORD", "secret")
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "prefetch_sources.py",
+            "--snapshot",
+            str(snapshot),
+            "--out",
+            str(queue),
+            "--scan-state",
+            str(scan),
+            "--status-out",
+            str(status),
+            "--uploaded-index",
+            str(tmp_path / "account-index.json"),
+            "--merge",
+            "--delay",
+            "0",
+        ],
+    )
+
+    prefetch_sources.main()
+
+    assert json.loads(status.read_text())["newly_queued"] == 0
+    assert session.calls == []

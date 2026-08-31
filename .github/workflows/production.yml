@@ -57,6 +57,7 @@ jobs:
     timeout-minutes: 350
     outputs:
       queue: ${{ steps.queue.outputs.queue }}
+      newly_queued: ${{ steps.queue.outputs.newly_queued }}
       scanned: ${{ steps.queue.outputs.scanned }}
       remaining: ${{ steps.queue.outputs.remaining }}
     steps:
@@ -82,6 +83,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           remaining=1
+          newly_queued_total=0
           previous_scanned=-1
           stalled_batches=0
           while (( remaining > 0 )); do
@@ -94,6 +96,8 @@ jobs:
               --delay 0.25 \
               --merge
             remaining=$(jq -r '.remaining' "$RUNNER_TEMP/prefetch-status.json")
+            newly_queued=$(jq -r '.newly_queued' "$RUNNER_TEMP/prefetch-status.json")
+            newly_queued_total=$((newly_queued_total + newly_queued))
             scanned=$(jq -r '.scanned' "$RUNNER_TEMP/prefetch-status.json")
             git add state/source-prefetch.json state/source-prefetch-scan.json
             if ! git diff --cached --quiet; then
@@ -121,6 +125,7 @@ jobs:
             fi
             previous_scanned=$scanned
           done
+          echo "newly_queued=$newly_queued_total" >> "$GITHUB_OUTPUT"
 
   upload:
     needs: test
@@ -390,6 +395,7 @@ jobs:
             (
               fromJSON(steps.progress.outputs.new_uploads) > 0 ||
               fromJSON(steps.deleted.outputs.newly_deleted_films || '0') > 0 ||
+              fromJSON(needs.prefetch.outputs.newly_queued || '0') > 0 ||
               (
                 needs.prefetch.result == 'success' &&
                 fromJSON(needs.prefetch.outputs.remaining) > 0

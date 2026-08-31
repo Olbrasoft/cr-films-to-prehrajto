@@ -357,6 +357,8 @@ def test_production_workflow_stops_without_new_uploads_after_full_prefetch():
     assert "count-production-targets" in workflow
     assert "fromJSON(steps.progress.outputs.new_uploads) > 0" in workflow
     assert "fromJSON(needs.prefetch.outputs.remaining) > 0" in workflow
+    assert "fromJSON(needs.prefetch.outputs.newly_queued || '0') > 0" in workflow
+    assert "newly_queued_total=$((newly_queued_total + newly_queued))" in workflow
     assert "fromJSON(steps.deleted.outputs.newly_deleted_films || '0') > 0" in workflow
     assert "inventory-account" in workflow
     assert "reconcile-deleted" in workflow

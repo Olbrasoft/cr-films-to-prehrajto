@@ -171,6 +171,7 @@ def main() -> None:
         for film_id, hits in result.items()
         if film_id not in uploaded_ids
     }
+    initial_queue_ids = set(result)
     scanned_ids: set[str] = set()
     if args.merge and args.scan_state.exists():
         scan_payload = json.loads(args.scan_state.read_text())
@@ -219,14 +220,17 @@ def main() -> None:
         and str(film.cr_film_id) not in scanned_ids
         for film in films
     )
+    newly_queued = len(set(result) - initial_queue_ids)
     github_output = os.environ.get("GITHUB_OUTPUT")
     if github_output:
         with Path(github_output).open("a") as output:
             output.write(f"queue={len(result)}\n")
+            output.write(f"newly_queued={newly_queued}\n")
             output.write(f"scanned={len(scanned_ids)}\n")
             output.write(f"remaining={remaining}\n")
     status = {
         "queue": len(result),
+        "newly_queued": newly_queued,
         "scanned": len(scanned_ids),
         "remaining": remaining,
         "searched": searched,
@@ -234,7 +238,8 @@ def main() -> None:
     if args.status_out:
         _write_json_atomic(args.status_out, status)
     print(
-        f"searched {searched} films; saved {len(result)} queued films; "
+        f"searched {searched} films; saved {len(result)} queued films "
+        f"({newly_queued} newly queued); "
         f"{remaining} films remain unscanned"
     )
 
