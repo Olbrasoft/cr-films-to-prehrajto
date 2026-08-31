@@ -1627,7 +1627,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-31T15:38:12.111590+00:00"
+        "at": "2026-08-31T15:53:39.390971+00:00"
       }
     },
     "26420": {
@@ -4891,7 +4891,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T15:38:12.112312+00:00"
+        "at": "2026-08-31T15:53:39.391716+00:00"
       }
     },
     "652": {
@@ -19937,7 +19937,7 @@
           "candidate_year": 2020,
           "year_match": true
         },
-        "at": "2026-08-31T15:38:12.112789+00:00"
+        "at": "2026-08-31T15:53:39.392184+00:00"
       }
     },
     "5948": {
@@ -20010,7 +20010,7 @@
             }
           ]
         },
-        "at": "2026-08-31T15:38:12.112960+00:00"
+        "at": "2026-08-31T15:53:39.392348+00:00"
       }
     },
     "16884": {
@@ -35562,6 +35562,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127092+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "19658",
+              "url": "https://online.sktorrent.eu/video/19658/",
+              "title": "Falešné bezpečí",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T15:53:43.364045+00:00"
         }
       ],
       "identity": {
@@ -35580,7 +35609,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T23:45:12.109366+00:00"
+        "at": "2026-08-31T15:53:39.392589+00:00"
       }
     },
     "29852": {
@@ -65133,5 +65162,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T15:53:32.834305+00:00"
+  "updated_at": "2026-08-31T15:53:43.364064+00:00"
 }
