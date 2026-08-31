@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import json
 import os
 import re
@@ -18,6 +19,9 @@ ACCOUNT_STATUS_NOISE_RE = re.compile(
 
 
 def _load(path: Path) -> dict:
+    if path.suffix == ".gz":
+        with gzip.open(path, "rt", encoding="utf-8") as source:
+            return json.load(source)
     return json.loads(path.read_text())
 
 

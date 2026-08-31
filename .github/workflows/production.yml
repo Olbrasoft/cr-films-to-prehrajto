@@ -296,6 +296,7 @@ jobs:
       - name: Inventory deleted videos before declaring completion
         if: >-
           ${{
+            needs.upload.result != 'cancelled' &&
             fromJSON(steps.progress.outputs.new_uploads) == 0 &&
             needs.prefetch.result == 'success' &&
             fromJSON(needs.prefetch.outputs.remaining) == 0
@@ -313,6 +314,7 @@ jobs:
       - name: Invalidate deleted production uploads
         if: >-
           ${{
+            needs.upload.result != 'cancelled' &&
             fromJSON(steps.progress.outputs.new_uploads) == 0 &&
             needs.prefetch.result == 'success' &&
             fromJSON(needs.prefetch.outputs.remaining) == 0
@@ -344,6 +346,7 @@ jobs:
         id: deleted
         if: >-
           ${{
+            needs.upload.result != 'cancelled' &&
             fromJSON(steps.progress.outputs.new_uploads) == 0 &&
             needs.prefetch.result == 'success' &&
             fromJSON(needs.prefetch.outputs.remaining) == 0
@@ -360,7 +363,7 @@ jobs:
           set -euo pipefail
           before=$(jq -r '.film_count' state/missing-films.json)
           cr-films-index backlog \
-            --snapshot state/missing-films.json \
+            --snapshot state/catalog.json.gz \
             --index state/account-index.json \
             --out state/missing-films.json
           after=$(jq -r '.film_count' state/missing-films.json)

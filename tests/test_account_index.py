@@ -1,13 +1,48 @@
+import gzip
 import json
 
 from cr_films_to_prehrajto.account_index import (
     build_index,
     build_missing_backlog,
     inventory_from_index,
+    main as account_index_main,
     reconcile_deleted_index,
     reconcile_live_index,
 )
 from cr_films_to_prehrajto.cli import load_historical
+
+
+def test_backlog_cli_reads_compressed_full_catalog(tmp_path):
+    snapshot = tmp_path / "catalog.json.gz"
+    index = tmp_path / "index.json"
+    output = tmp_path / "missing.json"
+    with gzip.open(snapshot, "wt", encoding="utf-8") as target:
+        json.dump(
+            {
+                "snapshot_id": "snapshot",
+                "films": [
+                    {"cr_film_id": 1, "added_at": "2026-01-01"},
+                    {"cr_film_id": 2, "added_at": "2026-02-01"},
+                ],
+            },
+            target,
+        )
+    index.write_text(json.dumps({"films": {"1": {"target_video_id": "100"}}}))
+
+    assert account_index_main(
+        [
+            "backlog",
+            "--snapshot",
+            str(snapshot),
+            "--index",
+            str(index),
+            "--out",
+            str(output),
+        ]
+    ) == 0
+    assert [row["cr_film_id"] for row in json.loads(output.read_text())["films"]] == [
+        2
+    ]
 
 
 def test_index_merges_historical_and_pilot_state(tmp_path):

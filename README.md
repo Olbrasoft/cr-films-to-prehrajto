@@ -20,11 +20,15 @@ updated from `state/pilot.json` after every upload workflow. Deleted and absent
 historical mappings are retained separately as inactive evidence and do not
 suppress re-upload.
 
-`state/missing-films.json` is regenerated from that index and the latest
-read-only production snapshot. It contains only currently playable films that
-are not in the account index, ordered by `films.added_at` newest first. These
-two versioned files avoid repeatedly listing every page of the large target
-account and provide deterministic input for subsequent GitHub-runner batches.
+`state/catalog.json.gz` is the complete committed read-only catalog snapshot
+used by production. `state/missing-films.json` is regenerated from that full
+snapshot and the account index. It contains only currently playable films that
+are not in the account index, ordered by `films.added_at` newest first. Keeping
+the complete compressed snapshot is essential: if an uploaded film is later
+deleted, its metadata is still available and it can return to the missing
+queue. These versioned files avoid repeatedly listing every page of the large
+target account and provide deterministic input for subsequent GitHub-runner
+batches.
 
 The raw active/deleted account page cache stays local and ignored. To refresh
 the committed source of truth after collecting those two inventory snapshots:

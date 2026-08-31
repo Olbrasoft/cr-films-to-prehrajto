@@ -360,6 +360,7 @@ def test_production_workflow_stops_without_new_uploads_after_full_prefetch():
     assert "fromJSON(steps.deleted.outputs.newly_deleted_films || '0') > 0" in workflow
     assert "inventory-account" in workflow
     assert "reconcile-deleted" in workflow
+    assert workflow.count("needs.upload.result != 'cancelled'") >= 4
     assert "steps.verification.outputs.recent_pending" not in workflow
     assert "steps.backlog.outputs.after) <" not in workflow
 
