@@ -5639,7 +5639,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-31T21:15:37.534417+00:00"
+        "at": "2026-08-31T21:27:47.459429+00:00"
       }
     },
     "23869": {
@@ -10249,6 +10249,154 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.213403+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68f4032335033",
+              "url": "https://prehraj.to/boy-kills-world-2022-cz/68f4032335033",
+              "title": "Boy+Kills+World+2022-CZ_",
+              "year": null,
+              "duration_sec": 6642,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6642,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Boy Kills World (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67efbd32d2a45",
+              "url": "https://prehraj.to/boy-kills-world-2022-cz/67efbd32d2a45",
+              "title": "Boy Kills World 2022-CZ",
+              "year": null,
+              "duration_sec": 6642,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2023,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6642,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Boy Kills World (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "673ac4045ee7a",
+              "url": "https://prehraj.to/boys-kills-world-akcni-sci-fi-komedie-thriller-2023-cz-dab/673ac4045ee7a",
+              "title": "Boys kills world - akční sci-fi komedie thriller 2023 cz dab",
+              "year": null,
+              "duration_sec": 6642,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.492,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6642,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Boy Kills World (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66efa70940e99",
+              "url": "https://prehraj.to/boys-kills-world-akcni-sci-fi-komedie-thriller-2023-cz-dab/66efa70940e99",
+              "title": "Boys kills world - akcni,sci-fi,komedie,thriller - 2023 -…",
+              "year": null,
+              "duration_sec": 6642,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.492,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6642,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Boy Kills World (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "52fa2ec16b55d8d9",
+              "url": "https://prehraj.to/boys-kills-world-akcni-sci-fi-komedie-thriller-2023-cz-dab/52fa2ec16b55d8d9",
+              "title": "Boys kills world - akcni,sci-fi,komedie,thriller - 2023 -…",
+              "year": null,
+              "duration_sec": 6642,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.492,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2023,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6642,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Boy Kills World (2023)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:27:48.721332+00:00"
         }
       ],
       "identity": {
@@ -10267,7 +10415,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T00:24:58.769009+00:00"
+        "at": "2026-08-31T21:27:47.461254+00:00"
       }
     },
     "4917": {
@@ -10948,7 +11096,7 @@
           "candidate_year": 2006,
           "year_match": true
         },
-        "at": "2026-08-31T21:15:37.534620+00:00"
+        "at": "2026-08-31T21:27:47.459634+00:00"
       }
     },
     "7517": {
@@ -13742,7 +13890,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T21:15:37.535212+00:00"
+        "at": "2026-08-31T21:27:47.460196+00:00"
       }
     },
     "13781": {
@@ -16902,7 +17050,7 @@
             }
           ]
         },
-        "at": "2026-08-31T21:15:37.535447+00:00"
+        "at": "2026-08-31T21:27:47.460430+00:00"
       }
     },
     "14405": {
@@ -45840,5 +45988,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:27:40.272038+00:00"
+  "updated_at": "2026-08-31T21:27:48.721346+00:00"
 }
