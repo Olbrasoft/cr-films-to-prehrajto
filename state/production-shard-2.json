@@ -287521,6 +287521,830 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.734855+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "281768cd515d0301",
+              "url": "https://prehraj.to/vrana-2024/281768cd515d0301",
+              "title": "Vrána 2024",
+              "year": null,
+              "duration_sec": 6647,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6526b062c77f2daf",
+              "url": "https://prehraj.to/vrana/6526b062c77f2daf",
+              "title": "Vrána",
+              "year": null,
+              "duration_sec": 6122,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.909,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6122,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fe7196a948fed645",
+              "url": "https://prehraj.to/vrana-2024-cz-dabing/fe7196a948fed645",
+              "title": "Vrána (2024) CZ Dabing",
+              "year": null,
+              "duration_sec": 6647,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f74eed7dff159596",
+              "url": "https://prehraj.to/vrana-2024-en/f74eed7dff159596",
+              "title": "Vrána - 2024 EN",
+              "year": null,
+              "duration_sec": 6647,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "bf6e8675e655e0bf",
+              "url": "https://prehraj.to/vrana-s01e04-cz/bf6e8675e655e0bf",
+              "title": "Vrána S01E04 CZ",
+              "year": null,
+              "duration_sec": 5708,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f90277ecfc7087e9",
+              "url": "https://prehraj.to/vrana-1994-mp4/f90277ecfc7087e9",
+              "title": "Vrána 1994.mp4",
+              "year": null,
+              "duration_sec": 5852,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1994,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dee87d8d7dc1c6b6",
+              "url": "https://prehraj.to/vrana/dee87d8d7dc1c6b6",
+              "title": "Vrána",
+              "year": null,
+              "duration_sec": 5848,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.909,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5848,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "70947313d3a23e7f",
+              "url": "https://prehraj.to/vrana-2024-mp4/70947313d3a23e7f",
+              "title": "Vrána 2024.mp4",
+              "year": null,
+              "duration_sec": 6647,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2024,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "df040490f1c319a8",
+              "url": "https://prehraj.to/vrana-1994/df040490f1c319a8",
+              "title": "Vrána 1994",
+              "year": null,
+              "duration_sec": 5852,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1994,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "aa7667e2299e0b26",
+              "url": "https://prehraj.to/nocni-vratny-1974-cz-titulky/aa7667e2299e0b26",
+              "title": "Noční vrátný (1974) CZ Titulky",
+              "year": null,
+              "duration_sec": 7100,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "586d05c894c65",
+              "url": "https://prehraj.to/nocni-vratny/586d05c894c65",
+              "title": "nocni_vratny",
+              "year": null,
+              "duration_sec": 225,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.556,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 225,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6036cf4ef2210",
+              "url": "https://prehraj.to/nocni-vratny-1974-cztitulky/6036cf4ef2210",
+              "title": "Noční vrátný (1974) CZtitulky",
+              "year": null,
+              "duration_sec": 7101,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "88fc4d30c4d92963",
+              "url": "https://prehraj.to/bila-vrana-1938-cz/88fc4d30c4d92963",
+              "title": "Bílá vrána (1938) CZ",
+              "year": null,
+              "duration_sec": 6534,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1938,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4d7a04718ac8dd51",
+              "url": "https://prehraj.to/bila-vrana-2008-cs/4d7a04718ac8dd51",
+              "title": "Bílá vrána - 2008 CS",
+              "year": null,
+              "duration_sec": 5580,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4d8e30f18804bdb6",
+              "url": "https://prehraj.to/bila-vrana-2018-cz-dabing/4d8e30f18804bdb6",
+              "title": "Bílá vrána (2018) CZ Dabing",
+              "year": null,
+              "duration_sec": 7644,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2018,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a3329d9e481dd2d0",
+              "url": "https://prehraj.to/bila-vrana-1938/a3329d9e481dd2d0",
+              "title": "Bílá vrána (1938)",
+              "year": null,
+              "duration_sec": 6534,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1938,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65c0b459df4af",
+              "url": "https://prehraj.to/37-vrata/65c0b459df4af",
+              "title": "37 Vrata",
+              "year": null,
+              "duration_sec": 482,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.714,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 482,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6251bdb598fce",
+              "url": "https://prehraj.to/vratny-od-maxima-1976-michel-galabru-jean-lefebvre-hd/6251bdb598fce",
+              "title": "Vratny od Maxima (1976) Michel Galabru, Jean Lefebvre HD",
+              "year": null,
+              "duration_sec": 5079,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1976,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "034555601eaa49e3",
+              "url": "https://prehraj.to/vratny-od-maxima-1976-cz/034555601eaa49e3",
+              "title": "Vrátný od Maxima (1976) CZ",
+              "year": null,
+              "duration_sec": 5048,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1976,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "d4f62874e0cf1ba2",
+              "url": "https://prehraj.to/vratny-od-maxima-1976-cs/d4f62874e0cf1ba2",
+              "title": "Vrátný od Maxima - 1976 CS",
+              "year": null,
+              "duration_sec": 4605,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1976,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b722196591ffb56d",
+              "url": "https://prehraj.to/vrata-do-podsveti-1987-cs/b722196591ffb56d",
+              "title": "Vrata do podsvětí - 1987 CS",
+              "year": null,
+              "duration_sec": 5145,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1987,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6745a5d85e493",
+              "url": "https://prehraj.to/vrata-do-podsveti-cz-dabing-horor-fantasy-1987/6745a5d85e493",
+              "title": "Vrata do podsvětí--CZ-dabing,Horor,Fantasy,1987",
+              "year": null,
+              "duration_sec": 4944,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1987,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "33af5843ae4f83b7",
+              "url": "https://prehraj.to/vrata-do-podsveti-1987-cz-dabing/33af5843ae4f83b7",
+              "title": "Vrata do podsvětí (1987) CZ Dabing",
+              "year": null,
+              "duration_sec": 4943,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1987,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "496afe4afaa28f5a",
+              "url": "https://prehraj.to/vrana-mesto-andelu-1996-cs/496afe4afaa28f5a",
+              "title": "Vrána: Město andělů - 1996 CS",
+              "year": null,
+              "duration_sec": 5379,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1996,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6889c7ee4df3b",
+              "url": "https://prehraj.to/vrata-ada-2008-tit/6889c7ee4df3b",
+              "title": "Vrata.ada.2008.-tit",
+              "year": null,
+              "duration_sec": 4695,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2008,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c0638aca5ef5",
+              "url": "https://prehraj.to/vrata-do-podsveti/5c0638aca5ef5",
+              "title": "Vrata do podsvětí",
+              "year": null,
+              "duration_sec": 4944,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.435,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4944,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "243ed6c677620d3d",
+              "url": "https://prehraj.to/vrata-do-podsveti-1987-cs/243ed6c677620d3d",
+              "title": "Vrata do podsvětí - 1987 CS",
+              "year": null,
+              "duration_sec": 4944,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1987,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1614cd823f09bae4",
+              "url": "https://prehraj.to/vrana-3-navrat-2000-mp4/1614cd823f09bae4",
+              "title": "Vrána 3 Návrat 2000.mp4",
+              "year": null,
+              "duration_sec": 5862,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2000,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "cd7714df36488cf8",
+              "url": "https://prehraj.to/vrana-3-navrat-2000-cs/cd7714df36488cf8",
+              "title": "Vrána 3: Návrat - 2000 CS",
+              "year": null,
+              "duration_sec": 5861,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2000,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ccf1f0c9ebf8",
+              "url": "https://prehraj.to/do-prdele-vrata/5ccf1f0c9ebf8",
+              "title": "Do prdele! - vrata",
+              "year": null,
+              "duration_sec": 77,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.476,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 77,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5113b3c4f32a3b86",
+              "url": "https://prehraj.to/vrana-3-navrat-2000-cs/5113b3c4f32a3b86",
+              "title": "Vrána 3: Návrat - 2000 CS",
+              "year": null,
+              "duration_sec": 5862,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2000,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67a472f3e9f54",
+              "url": "https://prehraj.to/bratricku-zavrel-jsi-vratka-1994-cz-tvrip-bydejv/67a472f3e9f54",
+              "title": "Bratříčku, zavřel jsi vrátka (1994)(CZ)[TvRip] byDejv",
+              "year": null,
+              "duration_sec": 1477,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 1994,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vrátná (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "718ff30fd5856ef0",
+              "url": "https://prehraj.to/stormin-the-doorman-en/718ff30fd5856ef0",
+              "title": "Stormin' The Doorman EN",
+              "year": null,
+              "duration_sec": 1303,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.667,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1303,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The Doorman (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9f0ab4aaa4adc595",
+              "url": "https://prehraj.to/stormin-the-doorman-cs/9f0ab4aaa4adc595",
+              "title": "Stormin' The Doorman CS",
+              "year": null,
+              "duration_sec": 1246,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.667,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1246,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The Doorman (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65872ba8607a9",
+              "url": "https://prehraj.to/new-york-movie-clip-the-doorman-1080p-cz/65872ba8607a9",
+              "title": "New York Movie Clip - The Doorman 1080p (CZ)",
+              "year": null,
+              "duration_sec": 152,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.524,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 152,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The Doorman (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c011d8f78db2",
+              "url": "https://prehraj.to/the-voorman-problem/5c011d8f78db2",
+              "title": "The Voorman Problem",
+              "year": null,
+              "duration_sec": 753,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.667,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 753,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "The Doorman (2020)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "17957",
+              "url": "https://online.sktorrent.eu/video/17957/",
+              "title": "Vrátná",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:35:04.742188+00:00"
         }
       ],
       "identity": {
@@ -287539,7 +288363,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T17:06:53.093900+00:00"
+        "at": "2026-08-31T21:35:02.084055+00:00"
       }
     },
     "9786": {
@@ -350526,5 +351350,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:34:57.952347+00:00"
+  "updated_at": "2026-08-31T21:35:04.742204+00:00"
 }
