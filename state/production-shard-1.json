@@ -77843,21 +77843,24 @@
         "added_at": "2026-04-20 22:32:38.196594+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25192582",
-              "account_name": "Sniper 3 (2005) CZ Dabing",
-              "title_similarity": 0.875,
-              "title_exact_alias": false,
-              "film_year": 2004,
-              "candidate_year": 2005,
-              "year_match": true
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T20:34:45.385631+00:00"
+        "at": "2026-08-31T12:20:25.045088+00:00"
+      },
+      "upload": {
+        "target_video_id": "28976109",
+        "display_name": "Sniper 2 (2004) CZ Dabing",
+        "size_bytes": 466781039,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "56eeef138b024",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-31T12:22:47.834001+00:00"
       }
     },
     "24963": {
@@ -106884,5 +106887,5 @@
       }
     }
   },
-  "updated_at": "2026-08-30T20:35:34.323518+00:00"
+  "updated_at": "2026-08-31T12:22:47.834036+00:00"
 }
