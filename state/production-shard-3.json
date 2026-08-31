@@ -13838,6 +13838,70 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068721+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "29ceb76ff5fe6082",
+              "url": "https://prehraj.to/vivarium-2019-en/29ceb76ff5fe6082",
+              "title": "Vivárium - 2019 EN",
+              "year": null,
+              "duration_sec": 5914,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.842,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5914,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Vivárium (2019)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "13541",
+              "url": "https://online.sktorrent.eu/video/13541/",
+              "title": "Vivárium",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:30:47.090334+00:00"
         }
       ],
       "identity": {
@@ -13856,7 +13920,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T16:00:04.394109+00:00"
+        "at": "2026-08-31T22:30:43.237047+00:00"
       }
     },
     "13491": {
@@ -43616,5 +43680,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:30:41.537587+00:00"
+  "updated_at": "2026-08-31T22:30:47.090351+00:00"
 }
