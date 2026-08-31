@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-31T22:18:56.845310+00:00"
+        "at": "2026-08-31T22:31:15.384602+00:00"
       }
     },
     "23807": {
@@ -32465,7 +32465,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-31T22:18:56.845804+00:00"
+        "at": "2026-08-31T22:31:15.385120+00:00"
       }
     },
     "14191": {
@@ -34312,6 +34312,143 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395535+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "68b611ac26f41",
+              "url": "https://prehraj.to/balkanska-hranice-anton-pampusnyj-jurij-gosa-kucenko-2019-akcni-drama-1080p-hd-tvrip/68b611ac26f41",
+              "title": "Balkanská hranice (Anton Pampušnyj, Jurij Goša Kucenko-2019…",
+              "year": null,
+              "duration_sec": 7244,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.493,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7244,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Balkánská hranice (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2ae41d16ab9e3d03",
+              "url": "https://prehraj.to/balkanska-hranice-anton-pampusnyj-jurij-gosa-kucenko-2019-akcni-drama-1080p-hd-tvrip/2ae41d16ab9e3d03",
+              "title": "Balkanská hranice (Anton Pampušnyj, Jurij Goša Kucenko-2019…",
+              "year": null,
+              "duration_sec": 7244,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.493,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7244,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Balkánská hranice (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68b7a2c010455",
+              "url": "https://prehraj.to/rus-balkanska-hranice-anton-pampusnyj-jurij-gosa-kucenko-2019-akcni-drama-1080p-hd-tvrip/68b7a2c010455",
+              "title": "RUS-Balkanská hranice (Anton Pampušnyj, Jurij Goša Kucenko…",
+              "year": null,
+              "duration_sec": 7244,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.466,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7244,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Balkánská hranice (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d47a3607ef3",
+              "url": "https://prehraj.to/balkanskii-rubez-2019-sbf4byd5mka4vmw6fds3/60d47a3607ef3",
+              "title": "Балканскии рубеж (2019)_sBF4byD5mkA4vMW6fDS3",
+              "year": null,
+              "duration_sec": 7402,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.216,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7402,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Балканский рубеж (2019)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "13898",
+              "url": "https://online.sktorrent.eu/video/13898/",
+              "title": "Balkánská hranice",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:31:18.002203+00:00"
         }
       ],
       "identity": {
@@ -34330,7 +34467,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T03:12:35.348316+00:00"
+        "at": "2026-08-31T22:31:15.386093+00:00"
       }
     },
     "15767": {
@@ -70359,5 +70496,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:30:23.631889+00:00"
+  "updated_at": "2026-08-31T22:31:18.002226+00:00"
 }
