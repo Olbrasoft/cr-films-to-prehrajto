@@ -39662,7 +39662,19 @@
       }
     },
     "16069": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "52114",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28957169",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T13:27:14.770812+00:00"
+        }
+      ],
       "identity": {
         "slug": "kdo-je-kdo-2024",
         "title": "Kdo je kdo?",
@@ -39680,20 +39692,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T15:05:31.164094+00:00"
-      },
-      "upload": {
-        "target_video_id": "28957169",
-        "display_name": "Kdo je kdo? (2024) CZ Dabing",
-        "size_bytes": 632359200,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "52114",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-30T15:09:11.518727+00:00",
-        "last_verification_at": "2026-08-30T17:09:55.797409+00:00"
       }
     },
     "15469": {
@@ -39728,7 +39726,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T15:11:55.468801+00:00",
-        "last_verification_at": "2026-08-30T17:09:55.797432+00:00"
+        "last_verification_at": "2026-08-31T13:27:14.824376+00:00"
       }
     },
     "16645": {
@@ -44428,5 +44426,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T13:24:52.288122+00:00"
+  "updated_at": "2026-08-31T13:27:14.824401+00:00"
 }
