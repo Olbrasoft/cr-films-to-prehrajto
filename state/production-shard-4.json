@@ -1627,7 +1627,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-31T20:54:04.539243+00:00"
+        "at": "2026-08-31T20:58:01.612284+00:00"
       }
     },
     "26420": {
@@ -5001,7 +5001,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T20:54:04.540091+00:00"
+        "at": "2026-08-31T20:58:01.613102+00:00"
       }
     },
     "652": {
@@ -20166,7 +20166,7 @@
           "candidate_year": 2020,
           "year_match": true
         },
-        "at": "2026-08-31T20:54:04.540663+00:00"
+        "at": "2026-08-31T20:58:01.613683+00:00"
       }
     },
     "5948": {
@@ -20239,7 +20239,7 @@
             }
           ]
         },
-        "at": "2026-08-31T20:54:04.540880+00:00"
+        "at": "2026-08-31T20:58:01.613884+00:00"
       }
     },
     "16884": {
@@ -61623,6 +61623,89 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127111+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5f4a7dbcc5b22",
+              "url": "https://prehraj.to/god-of-war-4-secret-ending-thor-god-of-war-5-teaser/5f4a7dbcc5b22",
+              "title": "GOD OF WAR 4 - SECRET ENDING (Thor & God of War 5 Teaser)",
+              "year": null,
+              "duration_sec": 142,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.246,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 142,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Thorn of War (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5f52de8496d00",
+              "url": "https://prehraj.to/god-of-war-4-atreus-kills-modi-son-of-thor/5f52de8496d00",
+              "title": "GOD OF WAR 4 - Atreus Kills Modi (Son of Thor)",
+              "year": null,
+              "duration_sec": 137,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.296,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 137,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Thorn of War (2021)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "39601",
+              "url": "https://online.sktorrent.eu/video/39601/",
+              "title": "Thorn of War",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T20:58:06.370830+00:00"
         }
       ],
       "identity": {
@@ -61641,7 +61724,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T07:14:24.774978+00:00"
+        "at": "2026-08-31T20:58:01.614738+00:00"
       }
     },
     "14284": {
@@ -65558,5 +65641,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T20:57:55.096660+00:00"
+  "updated_at": "2026-08-31T20:58:06.370848+00:00"
 }
