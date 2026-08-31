@@ -88000,6 +88000,72 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.447592+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "667c7a1ac0ee8",
+              "url": "https://prehraj.to/pasazeri-2016-cz-dabing/667c7a1ac0ee8",
+              "title": "Pasažéři 2016 cz dabing",
+              "year": null,
+              "duration_sec": 198,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 198,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Pasažéři (2016)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "a04938b61a1dd9cb",
+              "url": "https://prehraj.to/pasazieri-passengers-2016-sk/a04938b61a1dd9cb",
+              "title": "Pasažieri, Passengers, 2016, SK",
+              "year": null,
+              "duration_sec": 6199,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.667,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6199,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Passengers (2016)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:26:48.979400+00:00"
         }
       ],
       "identity": {
@@ -88018,7 +88084,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T22:35:48.807169+00:00"
+        "at": "2026-08-31T22:26:47.616219+00:00"
       }
     },
     "9792": {
@@ -102294,5 +102360,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:26:45.432762+00:00"
+  "updated_at": "2026-08-31T22:26:48.979417+00:00"
 }
