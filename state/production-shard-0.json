@@ -48236,6 +48236,95 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.447521+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "488d726173c7a4d0",
+              "url": "https://prehraj.to/dum-na-musce-ii-2025-cz/488d726173c7a4d0",
+              "title": "Dům na mušce II. (2025) CZ",
+              "year": null,
+              "duration_sec": 5761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Dům na mušce (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "91b805e903a82c41",
+              "url": "https://prehraj.to/chasse-gardee-2-web-dl-cz-2025-1080p/91b805e903a82c41",
+              "title": "Chasse.gardée.2.WEB-DL.CZ.2025.1080p",
+              "year": null,
+              "duration_sec": 5761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Chasse gardée (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "382de1de7a618221",
+              "url": "https://prehraj.to/chasse-gardee-2-web-dl-cz-2025/382de1de7a618221",
+              "title": "Chasse.gardée.2.WEB-DL.CZ.2025",
+              "year": null,
+              "duration_sec": 5761,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2025,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Chasse gardée (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "37632",
+              "url": "https://online.sktorrent.eu/video/37632/",
+              "title": "Dům na mušce",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T15:08:59.991152+00:00"
         }
       ],
       "identity": {
@@ -48254,7 +48343,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-25T07:26:00.527509+00:00"
+        "at": "2026-08-31T15:08:55.288113+00:00"
       }
     },
     "17012": {
@@ -68448,7 +68537,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-31T15:03:00.450706+00:00"
+        "at": "2026-08-31T15:08:55.287513+00:00"
       }
     },
     "14024": {
@@ -69878,7 +69967,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-31T15:03:00.450899+00:00"
+        "at": "2026-08-31T15:08:55.287726+00:00"
       }
     },
     "10304": {
@@ -70776,7 +70865,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T15:03:00.451086+00:00"
+        "at": "2026-08-31T15:08:55.287910+00:00"
       }
     },
     "14096": {
@@ -99042,5 +99131,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T15:08:49.992445+00:00"
+  "updated_at": "2026-08-31T15:08:59.991170+00:00"
 }
