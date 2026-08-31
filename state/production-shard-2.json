@@ -10659,6 +10659,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.734796+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "654110a3b9458899",
+              "url": "https://prehraj.to/krystof-2021-avi/654110a3b9458899",
+              "title": "Kryštof. (2021) .avi",
+              "year": null,
+              "duration_sec": 5892,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.778,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": 2021,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5892,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Kryštof (2021)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "24180",
+              "url": "https://online.sktorrent.eu/video/24180/",
+              "title": "Kryštof",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:32:08.100158+00:00"
         }
       ],
       "identity": {
@@ -10677,7 +10734,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T03:33:33.551290+00:00"
+        "at": "2026-08-31T21:32:05.472519+00:00"
       }
     },
     "4138": {
@@ -349210,5 +349267,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:32:02.530114+00:00"
+  "updated_at": "2026-08-31T21:32:08.100179+00:00"
 }
