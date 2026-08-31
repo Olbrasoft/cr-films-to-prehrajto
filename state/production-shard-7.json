@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-31T22:41:54.117551+00:00"
+        "at": "2026-08-31T22:46:59.935601+00:00"
       }
     },
     "23807": {
@@ -32465,7 +32465,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-31T22:41:54.118056+00:00"
+        "at": "2026-08-31T22:46:59.936026+00:00"
       }
     },
     "14191": {
@@ -67767,6 +67767,42 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395600+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "12472",
+              "url": "https://online.sktorrent.eu/video/12472/",
+              "title": "Crown Vic",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:47:04.355347+00:00"
         }
       ],
       "identity": {
@@ -67785,7 +67821,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:00:16.678066+00:00"
+        "at": "2026-08-31T22:46:59.936722+00:00"
       }
     },
     "9583": {
@@ -71004,5 +71040,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:46:14.239784+00:00"
+  "updated_at": "2026-08-31T22:47:04.355366+00:00"
 }
