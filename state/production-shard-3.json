@@ -8031,6 +8031,71 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068628+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "90c358b63d6d996a",
+              "url": "https://prehraj.to/whistle-ozvena-2025-horor-cz-titulky/90c358b63d6d996a",
+              "title": "Whistle+Ozvěna.2025.HOROR+CZ+TITULKY",
+              "year": null,
+              "duration_sec": 6014,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.519,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6014,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Ozvěna (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "22493c50f68a41de",
+              "url": "https://prehraj.to/ozvena-2025-hd-cz-tit/22493c50f68a41de",
+              "title": "ozvena-2025-hd-cz-tit",
+              "year": null,
+              "duration_sec": 6014,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.632,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6014,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Ozvěna (2025)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T15:20:18.872412+00:00"
         }
       ],
       "identity": {
@@ -8049,7 +8114,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T02:17:04.137571+00:00"
+        "at": "2026-08-31T15:20:15.109779+00:00"
       }
     },
     "5731": {
@@ -8110,7 +8175,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T15:13:07.759086+00:00"
+        "at": "2026-08-31T15:20:15.107602+00:00"
       }
     },
     "9147": {
@@ -9900,7 +9965,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T15:13:07.760085+00:00"
+        "at": "2026-08-31T15:20:15.108592+00:00"
       }
     },
     "15619": {
@@ -11925,7 +11990,7 @@
           "candidate_year": 2022,
           "year_match": true
         },
-        "at": "2026-08-31T15:13:07.760317+00:00"
+        "at": "2026-08-31T15:20:15.108868+00:00"
       }
     },
     "7115": {
@@ -41787,5 +41852,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T15:20:08.807771+00:00"
+  "updated_at": "2026-08-31T15:20:18.872431+00:00"
 }
