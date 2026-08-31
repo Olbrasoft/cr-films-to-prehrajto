@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T20:16:41.145690+00:00"
+        "at": "2026-08-31T20:59:05.573643+00:00"
       }
     },
     "9147": {
@@ -10108,7 +10108,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T20:16:41.146551+00:00"
+        "at": "2026-08-31T20:59:05.574149+00:00"
       }
     },
     "15619": {
@@ -11619,6 +11619,126 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068688+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5eaf1fc01345d728",
+              "url": "https://prehraj.to/vsechno-vsude-najednou-2022-cs/5eaf1fc01345d728",
+              "title": "Všechno, všude, najednou - 2022 CS",
+              "year": null,
+              "duration_sec": 8015,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.936,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8015,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Všechno, všude, najednou (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62d5369c88418",
+              "url": "https://prehraj.to/everything-everywhere-all-at-once-akcni-2022-cz-tit/62d5369c88418",
+              "title": "Everything Everywhere All at Once-Akcni-2022-(CZ-TIT)",
+              "year": null,
+              "duration_sec": 4064,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.868,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4064,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Everything Everywhere All at Once (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2d049b8f26a449b9",
+              "url": "https://prehraj.to/everything-everywhere-all-at-once-akcni-2022-cz-tit/2d049b8f26a449b9",
+              "title": "Everything Everywhere All at Once-Akcni-2022-(CZ-TIT)",
+              "year": null,
+              "duration_sec": 8359,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.868,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 8359,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Everything Everywhere All at Once (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "28508",
+              "url": "https://online.sktorrent.eu/video/28508/",
+              "title": "Všechno, všude, najednou",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T20:59:11.330734+00:00"
         }
       ],
       "identity": {
@@ -11637,7 +11757,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T00:51:21.916520+00:00"
+        "at": "2026-08-31T20:59:05.574749+00:00"
       }
     },
     "10339": {
@@ -42397,5 +42517,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T20:53:12.664630+00:00"
+  "updated_at": "2026-08-31T20:59:11.330755+00:00"
 }
