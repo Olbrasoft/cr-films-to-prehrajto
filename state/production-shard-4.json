@@ -1627,7 +1627,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-31T21:48:34.751914+00:00"
+        "at": "2026-08-31T21:54:52.180844+00:00"
       }
     },
     "26420": {
@@ -5001,7 +5001,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T21:48:34.752757+00:00"
+        "at": "2026-08-31T21:54:52.181681+00:00"
       }
     },
     "652": {
@@ -20902,7 +20902,7 @@
           "candidate_year": 2020,
           "year_match": true
         },
-        "at": "2026-08-31T21:48:34.753328+00:00"
+        "at": "2026-08-31T21:54:52.182258+00:00"
       }
     },
     "5948": {
@@ -20975,7 +20975,7 @@
             }
           ]
         },
-        "at": "2026-08-31T21:48:34.753535+00:00"
+        "at": "2026-08-31T21:54:52.182458+00:00"
       }
     },
     "16884": {
@@ -63118,6 +63118,106 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127116+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "71a83e6d36f75c0c",
+              "url": "https://prehraj.to/tina-turner-what-s-love-got-to-do-with-it-bydejv-m2ts/71a83e6d36f75c0c",
+              "title": "Tina Turner - What's love got to do with it byDejv.m2ts",
+              "year": null,
+              "duration_sec": 219,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.707,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 219,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "What's Love Got to Do with It? (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1c954b46a1283dd9",
+              "url": "https://prehraj.to/kygo-tina-turner-what-s-love-got-to-do-with-it-pres-covid-19-a-porad-mp4/1c954b46a1283dd9",
+              "title": "Kygo, Tina Turner - What's Love Got to Do with It,přes…",
+              "year": null,
+              "duration_sec": 258,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.725,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 258,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "What's Love Got to Do with It? (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "645f8a46193cc",
+              "url": "https://prehraj.to/whats-love-got-to-do-with-it-2022-1080p-cz-sub/645f8a46193cc",
+              "title": "Whats.Love.Got.to.Do.with.It.2022.1080p.cz sub",
+              "year": null,
+              "duration_sec": 6535,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.982,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6535,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "What's Love Got to Do with It? (2022)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:54:54.037749+00:00"
         }
       ],
       "identity": {
@@ -63136,7 +63236,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:27:06.862109+00:00"
+        "at": "2026-08-31T21:54:52.184034+00:00"
       }
     },
     "14852": {
@@ -66406,5 +66506,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:54:45.891863+00:00"
+  "updated_at": "2026-08-31T21:54:54.037760+00:00"
 }
