@@ -5639,7 +5639,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-31T15:13:22.940443+00:00"
+        "at": "2026-08-31T15:18:52.370251+00:00"
       }
     },
     "23869": {
@@ -7182,6 +7182,180 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.213359+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "4a99cbb3f2318548",
+              "url": "https://prehraj.to/bubak-2025-cz-hd-1080p/4a99cbb3f2318548",
+              "title": "Bubák 2025 CZ HD 1080p",
+              "year": null,
+              "duration_sec": 4895,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio_marker",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.769,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4895,
+                "runtime_delta": 0.02,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Bubák (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b83051227bf6f2dd",
+              "url": "https://prehraj.to/bubak-2025-cz-dabing-1080p-fhd/b83051227bf6f2dd",
+              "title": "Bubák 2025 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 4895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.714,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4895,
+                "runtime_delta": 0.02,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bubák (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7c598c68c275cd71",
+              "url": "https://prehraj.to/bubak-2025-cz-mp4/7c598c68c275cd71",
+              "title": "Bubák (2025)(CZ).mp4",
+              "year": null,
+              "duration_sec": 4895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.714,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4895,
+                "runtime_delta": 0.02,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bubák (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "32966c524d424fdf",
+              "url": "https://prehraj.to/bubak-2025-ceska-novinka/32966c524d424fdf",
+              "title": "Bubák (2025) Česká novinka",
+              "year": null,
+              "duration_sec": 4895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.417,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4895,
+                "runtime_delta": 0.02,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bubák (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f11ec6999e57c14d",
+              "url": "https://prehraj.to/bubak-2025-ceska-novinka-mkv/f11ec6999e57c14d",
+              "title": "Bubák (2025) Česká novinka.mkv",
+              "year": null,
+              "duration_sec": 4895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.357,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4895,
+                "runtime_delta": 0.02,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bubák (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "eea7c16a9a4976b0",
+              "url": "https://prehraj.to/bubak-2025-ceska-novinka/eea7c16a9a4976b0",
+              "title": "Bubák (2025) Česká novinka",
+              "year": null,
+              "duration_sec": 4895,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.417,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": 2025,
+                "year_match": true,
+                "film_runtime_min": 80,
+                "candidate_runtime_sec": 4895,
+                "runtime_delta": 0.02,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Bubák (2025)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T15:18:53.262438+00:00"
         }
       ],
       "identity": {
@@ -7200,7 +7374,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T05:17:45.941200+00:00"
+        "at": "2026-08-31T15:18:52.371490+00:00"
       }
     },
     "15933": {
@@ -10553,7 +10727,7 @@
           "candidate_year": 2006,
           "year_match": true
         },
-        "at": "2026-08-31T15:13:22.940638+00:00"
+        "at": "2026-08-31T15:18:52.370409+00:00"
       }
     },
     "7517": {
@@ -13344,7 +13518,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T15:13:22.941116+00:00"
+        "at": "2026-08-31T15:18:52.370793+00:00"
       }
     },
     "13781": {
@@ -16504,7 +16678,7 @@
             }
           ]
         },
-        "at": "2026-08-31T15:13:22.941319+00:00"
+        "at": "2026-08-31T15:18:52.370950+00:00"
       }
     },
     "14405": {
@@ -16601,7 +16775,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-31T15:13:22.941396+00:00"
+        "at": "2026-08-31T15:18:52.371009+00:00"
       }
     },
     "2741": {
@@ -45081,5 +45255,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T15:18:45.067136+00:00"
+  "updated_at": "2026-08-31T15:18:53.262455+00:00"
 }
