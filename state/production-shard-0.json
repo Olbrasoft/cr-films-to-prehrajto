@@ -68800,7 +68800,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-08-31T19:52:10.419415+00:00"
+        "at": "2026-08-31T20:54:00.616466+00:00"
       }
     },
     "14024": {
@@ -71128,7 +71128,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T19:52:10.419701+00:00"
+        "at": "2026-08-31T20:54:00.616735+00:00"
       }
     },
     "14096": {
@@ -96099,6 +96099,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.447609+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "42706",
+              "url": "https://online.sktorrent.eu/video/42706/",
+              "title": "Zvony naděje",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T20:54:10.283178+00:00"
         }
       ],
       "identity": {
@@ -96117,7 +96146,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:43:08.630451+00:00"
+        "at": "2026-08-31T20:54:00.617960+00:00"
       }
     },
     "17344": {
@@ -100845,5 +100874,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T20:53:13.329575+00:00"
+  "updated_at": "2026-08-31T20:54:10.283198+00:00"
 }
