@@ -24709,6 +24709,17 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T06:56:17.461675+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "66ca1871314bcf31",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28833175",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447473+00:00"
         }
       ],
       "identity": {
@@ -24728,21 +24739,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-25T17:38:24.844731+00:00"
-      },
-      "upload": {
-        "target_video_id": "28833175",
-        "display_name": "Undertone (2026) CZ Dabing",
-        "size_bytes": 978298640,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "66ca1871314bcf31",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-25T17:42:40.009126+00:00",
-        "verified_at": "2026-08-25T21:45:11.367247+00:00",
-        "live_display_name": "Undertone (2026) CZ Dabing"
       }
     },
     "28878": {
@@ -38565,6 +38561,17 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T07:21:28.719031+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "eb817fbae14fc87a",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28834957",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447508+00:00"
         }
       ],
       "identity": {
@@ -38584,21 +38591,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-25T18:21:31.264287+00:00"
-      },
-      "upload": {
-        "target_video_id": "28834957",
-        "display_name": "Lili a klokani (2025) CZ Dabing",
-        "size_bytes": 2471470943,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "eb817fbae14fc87a",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-25T19:24:46.935722+00:00",
-        "verified_at": "2026-08-25T21:46:42.850832+00:00",
-        "live_display_name": "Lili a klokani (2025) CZ Dabing"
       }
     },
     "27894": {
@@ -43031,6 +43023,17 @@
           "candidate_evidence": [],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-25T15:19:37.008284+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "17fc7e3dae454f46",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28835824",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447515+00:00"
         }
       ],
       "identity": {
@@ -43050,21 +43053,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-25T20:02:38.548261+00:00"
-      },
-      "upload": {
-        "target_video_id": "28835824",
-        "display_name": "Luca (2021) CZ Dabing",
-        "size_bytes": 1691255281,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "17fc7e3dae454f46",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-25T20:08:44.649967+00:00",
-        "verified_at": "2026-08-25T21:47:55.591436+00:00",
-        "live_display_name": "Luca (2021) CZ Dabing"
       }
     },
     "26648": {
@@ -48224,7 +48212,19 @@
       }
     },
     "17528": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "37632",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28805773",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447521+00:00"
+        }
+      ],
       "identity": {
         "slug": "dum-na-musce-2023",
         "title": "Dům na mušce",
@@ -48242,21 +48242,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-25T07:26:00.527509+00:00"
-      },
-      "upload": {
-        "target_video_id": "28805773",
-        "display_name": "Dům na mušce (2023) CZ Dabing",
-        "size_bytes": 691769346,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "37632",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-25T07:31:14.938263+00:00",
-        "verified_at": "2026-08-25T21:48:37.461480+00:00",
-        "live_display_name": "Dům na mušce (2023) CZ Dabing"
       }
     },
     "17012": {
@@ -48494,7 +48479,19 @@
       }
     },
     "16824": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "19939",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28805978",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447524+00:00"
+        }
+      ],
       "identity": {
         "slug": "vecna-krasa-2020",
         "title": "Věčná krása",
@@ -48512,21 +48509,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-25T07:26:25.600260+00:00"
-      },
-      "upload": {
-        "target_video_id": "28805978",
-        "display_name": "Věčná krása (2020) CZ Dabing",
-        "size_bytes": 354439124,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "19939",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-25T07:37:55.203103+00:00",
-        "verified_at": "2026-08-25T21:48:58.107587+00:00",
-        "live_display_name": "Věčná krása (2020) CZ Dabing"
       }
     },
     "17460": {
@@ -65323,6 +65305,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-26T07:45:13.393002+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "962a28441a2ce4f1",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28847501",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447540+00:00"
         }
       ],
       "identity": {
@@ -65342,21 +65335,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T07:38:13.526558+00:00"
-      },
-      "upload": {
-        "target_video_id": "28847501",
-        "display_name": "Přísahám, že za to nemůžu (2025) CZ titulky",
-        "size_bytes": 1251135950,
-        "subtitle_verification": "verified",
-        "provider": "prehrajto",
-        "source_id": "962a28441a2ce4f1",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 720,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T07:45:41.899411+00:00",
-        "verified_at": "2026-08-26T08:55:22.052025+00:00",
-        "live_display_name": "Přísahám, že za to nemůžu (2025) CZ titulky"
       }
     },
     "16120": {
@@ -65396,7 +65374,19 @@
       }
     },
     "5296": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "044a5adc57841f27",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28853273",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447542+00:00"
+        }
+      ],
       "identity": {
         "slug": "ranhojic-ii",
         "title": "Ranhojič II",
@@ -65414,21 +65404,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T07:54:36.779222+00:00"
-      },
-      "upload": {
-        "target_video_id": "28853273",
-        "display_name": "Ranhojič II (2025) CZ Dabing",
-        "size_bytes": 2962026082,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "044a5adc57841f27",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T08:01:21.309854+00:00",
-        "verified_at": "2026-08-26T09:22:29.306199+00:00",
-        "live_display_name": "Ranhojič II (2025) CZ Dabing"
       }
     },
     "14368": {
@@ -65565,7 +65540,19 @@
       }
     },
     "16368": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "8ff46d41f2b76c4c",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28853605",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447545+00:00"
+        }
+      ],
       "identity": {
         "slug": "super-pruvodce-2025",
         "title": "Super průvodce",
@@ -65583,25 +65570,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T08:16:44.043218+00:00"
-      },
-      "upload": {
-        "target_video_id": "28853605",
-        "display_name": "Super průvodce (2025) CZ Dabing",
-        "size_bytes": 2111296772,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "8ff46d41f2b76c4c",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T08:22:10.032311+00:00",
-        "verified_at": "2026-08-26T09:15:19.691291+00:00",
-        "live_display_name": "Super průvodce (2025) CZ Dabing"
       }
     },
     "16288": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "4e26a5c06f857709",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28853717",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447547+00:00"
+        }
+      ],
       "identity": {
         "slug": "zlato-uber-plyn-2024",
         "title": "Zlato, uber plyn!",
@@ -65619,21 +65603,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T08:22:14.212385+00:00"
-      },
-      "upload": {
-        "target_video_id": "28853717",
-        "display_name": "Zlato, uber plyn! (2024) CZ Dabing",
-        "size_bytes": 1789107339,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "4e26a5c06f857709",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T08:27:02.549039+00:00",
-        "verified_at": "2026-08-26T11:40:29.619324+00:00",
-        "live_display_name": "Zlato, uber plyn! (2024) CZ Dabing"
       }
     },
     "15064": {
@@ -65673,7 +65642,19 @@
       }
     },
     "9840": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "ad48427d3299508f",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28864255",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447549+00:00"
+        }
+      ],
       "identity": {
         "slug": "mimo-system",
         "title": "Mimo systém",
@@ -65691,21 +65672,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T10:01:07.952815+00:00"
-      },
-      "upload": {
-        "target_video_id": "28864255",
-        "display_name": "Mimo systém (2025) CZ Dabing",
-        "size_bytes": 2984637013,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "ad48427d3299508f",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T10:20:16.819651+00:00",
-        "verified_at": "2026-08-26T11:40:39.922349+00:00",
-        "live_display_name": "Mimo systém (2025) CZ Dabing"
       }
     },
     "880": {
@@ -65831,7 +65797,19 @@
       }
     },
     "14976": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "22ba703e9faa69ab",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28864750",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447551+00:00"
+        }
+      ],
       "identity": {
         "slug": "temny-priliv-2012",
         "title": "Temný příliv",
@@ -65849,21 +65827,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T10:44:07.859064+00:00"
-      },
-      "upload": {
-        "target_video_id": "28864750",
-        "display_name": "Temný příliv (2012) CZ Dabing",
-        "size_bytes": 1116148850,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "22ba703e9faa69ab",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T10:48:46.758660+00:00",
-        "verified_at": "2026-08-26T11:59:24.699201+00:00",
-        "live_display_name": "Temný příliv (2012) CZ Dabing"
       }
     },
     "11928": {
@@ -65903,7 +65866,19 @@
       }
     },
     "2800": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "236136d68f3ba770",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28951548",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447554+00:00"
+        }
+      ],
       "identity": {
         "slug": "velky-pan",
         "title": "Velký pán",
@@ -65921,22 +65896,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T09:44:30.616484+00:00"
-      },
-      "upload": {
-        "target_video_id": "28951548",
-        "display_name": "Velký pán (2024) CZ Dabing",
-        "size_bytes": 1352846837,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "236136d68f3ba770",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-30T09:49:44.377086+00:00",
-        "last_verification_at": "2026-08-30T10:29:28.834952+00:00",
-        "verified_at": "2026-08-30T10:29:28.834953+00:00",
-        "live_display_name": "Velký pán (2024) CZ Dabing"
       }
     },
     "664": {
@@ -65976,7 +65935,19 @@
       }
     },
     "184": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "a2a9a85adc85306e",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28865039",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447556+00:00"
+        }
+      ],
       "identity": {
         "slug": "navzdy-s-vami",
         "title": "Navždy s vámi",
@@ -65994,21 +65965,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T11:00:59.681318+00:00"
-      },
-      "upload": {
-        "target_video_id": "28865039",
-        "display_name": "Navždy s vámi (2024) CZ Dabing",
-        "size_bytes": 4142617440,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "a2a9a85adc85306e",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T11:19:02.785078+00:00",
-        "verified_at": "2026-08-26T11:41:41.234713+00:00",
-        "live_display_name": "Navždy s vámi (2024) CZ Dabing"
       }
     },
     "16216": {
@@ -66061,7 +66017,19 @@
       }
     },
     "7488": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "61718fcb15291785",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28865316",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447557+00:00"
+        }
+      ],
       "identity": {
         "slug": "clean",
         "title": "Špinavá práce",
@@ -66079,21 +66047,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T11:22:49.548017+00:00"
-      },
-      "upload": {
-        "target_video_id": "28865316",
-        "display_name": "Špinavá práce (2021) CZ Dabing",
-        "size_bytes": 1551378838,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "61718fcb15291785",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T11:28:54.696554+00:00",
-        "verified_at": "2026-08-26T12:12:28.534705+00:00",
-        "live_display_name": "Špinavá práce (2021) CZ Dabing"
       }
     },
     "2784": {
@@ -66386,7 +66339,19 @@
       }
     },
     "5328": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "5b7347f9a5a0fe7e",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28868761",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447560+00:00"
+        }
+      ],
       "identity": {
         "slug": "na-plech",
         "title": "Na plech",
@@ -66404,21 +66369,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T14:23:53.388410+00:00"
-      },
-      "upload": {
-        "target_video_id": "28868761",
-        "display_name": "Na plech (2025) CZ Dabing",
-        "size_bytes": 2777390069,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "5b7347f9a5a0fe7e",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T14:38:19.788526+00:00",
-        "verified_at": "2026-08-26T15:09:01.418782+00:00",
-        "live_display_name": "Na plech (2025) CZ Dabing"
       }
     },
     "13976": {
@@ -66494,7 +66444,19 @@
       }
     },
     "16384": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "509c7d7dd0e838ab",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28869338",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447562+00:00"
+        }
+      ],
       "identity": {
         "slug": "bob-a-bobek-ve-filmu-na-stope-mrkvojeda-2024",
         "title": "Bob a Bobek ve filmu: Na stopě Mrkvojeda",
@@ -66512,21 +66474,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T14:50:24.655965+00:00"
-      },
-      "upload": {
-        "target_video_id": "28869338",
-        "display_name": "Bob a Bobek ve filmu: Na stopě Mrkvojeda (2024) CZ Dabing",
-        "size_bytes": 2259143706,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "509c7d7dd0e838ab",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T15:06:30.012724+00:00",
-        "verified_at": "2026-08-26T15:53:29.655021+00:00",
-        "live_display_name": "Bob a Bobek ve filmu: Na stopě Mrkvojeda (2024) CZ Dabing"
       }
     },
     "15880": {
@@ -68104,7 +68051,19 @@
       }
     },
     "9192": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "67efe04cb095b",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28872073",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447565+00:00"
+        }
+      ],
       "identity": {
         "slug": "the-locksmith",
         "title": "Zámečník",
@@ -68122,21 +68081,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T17:06:26.570998+00:00"
-      },
-      "upload": {
-        "target_video_id": "28872073",
-        "display_name": "Zámečník (2023) CZ Dabing",
-        "size_bytes": 1661338175,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "67efe04cb095b",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T17:33:49.157934+00:00",
-        "verified_at": "2026-08-26T19:41:01.368960+00:00",
-        "live_display_name": "Zámečník (2023) CZ Dabing"
       }
     },
     "6168": {
@@ -68531,7 +68475,19 @@
       }
     },
     "8640": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "26ce775f1cc8e01d",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28876385",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447569+00:00"
+        }
+      ],
       "identity": {
         "slug": "kocka-a-pes-silene-dobrodruzstvi",
         "title": "Kočka a pes: Šílené dobrodružství",
@@ -68549,21 +68505,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T21:33:42.661801+00:00"
-      },
-      "upload": {
-        "target_video_id": "28876385",
-        "display_name": "Kočka a pes: Šílené dobrodružství (2024) CZ Dabing",
-        "size_bytes": 2315607125,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "26ce775f1cc8e01d",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T21:45:07.811880+00:00",
-        "verified_at": "2026-08-26T22:59:12.159338+00:00",
-        "live_display_name": "Kočka a pes: Šílené dobrodružství (2024) CZ Dabing"
       }
     },
     "15832": {
@@ -69615,7 +69556,19 @@
       }
     },
     "14168": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "6e3e3244d5c3a458",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28881445",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447574+00:00"
+        }
+      ],
       "identity": {
         "slug": "dve-slova-jako-klic-2023",
         "title": "Dvě slova jako klíč",
@@ -69633,21 +69586,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T03:12:38.506175+00:00"
-      },
-      "upload": {
-        "target_video_id": "28881445",
-        "display_name": "Dvě slova jako klíč (2023) CZ Dabing",
-        "size_bytes": 1964512927,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "6e3e3244d5c3a458",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T03:22:21.710197+00:00",
-        "verified_at": "2026-08-27T05:09:21.773552+00:00",
-        "live_display_name": "Dvě slova jako klíč (2023) CZ Dabing"
       }
     },
     "14560": {
@@ -70147,7 +70085,19 @@
       }
     },
     "4120": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "1a6fd17932eaec64",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28883881",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447577+00:00"
+        }
+      ],
       "identity": {
         "slug": "otec-stu",
         "title": "Otec Stu",
@@ -70165,21 +70115,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T06:15:35.830268+00:00"
-      },
-      "upload": {
-        "target_video_id": "28883881",
-        "display_name": "Otec Stu (2022) CZ Dabing",
-        "size_bytes": 1554840131,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "1a6fd17932eaec64",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T06:23:17.437626+00:00",
-        "verified_at": "2026-08-27T08:13:46.940947+00:00",
-        "live_display_name": "Otec Stu (2022) CZ Dabing"
       }
     },
     "9152": {
@@ -70304,6 +70239,17 @@
           "reason": "Video uploaded; Czech subtitle completion is pending",
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T06:38:17.039600+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "615970f257681",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28884156",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447579+00:00"
         }
       ],
       "identity": {
@@ -70323,21 +70269,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T06:33:02.004164+00:00"
-      },
-      "upload": {
-        "target_video_id": "28884156",
-        "display_name": "Zamilovaný Figaro (2020) CZ titulky",
-        "size_bytes": 659112604,
-        "subtitle_verification": "verified",
-        "provider": "prehrajto",
-        "source_id": "615970f257681",
-        "language_tier": "czech_subtitles",
-        "actual_resolution": 480,
-        "subtitle_handling": "external Czech track will be uploaded and verified",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T06:38:45.089319+00:00",
-        "verified_at": "2026-08-27T07:54:29.590419+00:00",
-        "live_display_name": "Zamilovaný Figaro (2020) CZ titulky"
       }
     },
     "16648": {
@@ -70703,7 +70634,19 @@
       }
     },
     "5880": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "04f4367d0ca7f3f8",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28887258",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447582+00:00"
+        }
+      ],
       "identity": {
         "slug": "vybusnej-koktejl",
         "title": "Výbušnej koktejl",
@@ -70721,21 +70664,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T10:03:07.526044+00:00"
-      },
-      "upload": {
-        "target_video_id": "28887258",
-        "display_name": "Výbušnej koktejl (2021) CZ Dabing",
-        "size_bytes": 1632092872,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "04f4367d0ca7f3f8",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T10:08:52.689237+00:00",
-        "verified_at": "2026-08-27T11:56:15.622913+00:00",
-        "live_display_name": "Výbušnej koktejl (2021) CZ Dabing"
       }
     },
     "2896": {
@@ -70875,7 +70803,19 @@
       }
     },
     "5432": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "78cd09473e6270e3",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28887646",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447584+00:00"
+        }
+      ],
       "identity": {
         "slug": "vlk-a-lev-necekane-pratelstvi",
         "title": "Vlk a lev: Nečekané přátelství",
@@ -70893,21 +70833,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T10:30:04.036528+00:00"
-      },
-      "upload": {
-        "target_video_id": "28887646",
-        "display_name": "Vlk a lev: Nečekané přátelství (2021) CZ Dabing",
-        "size_bytes": 1554755989,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "78cd09473e6270e3",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T10:36:56.233644+00:00",
-        "verified_at": "2026-08-27T11:33:05.528858+00:00",
-        "live_display_name": "Vlk a lev: Nečekané přátelství (2021) CZ Dabing"
       }
     },
     "1328": {
@@ -85414,7 +85339,19 @@
       }
     },
     "2088": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "cf9c53a683eda749",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28891795",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447587+00:00"
+        }
+      ],
       "identity": {
         "slug": "den-pred-krizi",
         "title": "Den před krizí",
@@ -85432,21 +85369,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T16:28:14.485286+00:00"
-      },
-      "upload": {
-        "target_video_id": "28891795",
-        "display_name": "Den před krizí (2011) CZ Dabing",
-        "size_bytes": 1735145246,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "cf9c53a683eda749",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T16:40:18.547788+00:00",
-        "verified_at": "2026-08-27T20:26:07.312881+00:00",
-        "live_display_name": "Den před krizí (2011) CZ Dabing"
       }
     },
     "12504": {
@@ -87413,7 +87335,19 @@
       }
     },
     "16728": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "11951",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28894939",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447590+00:00"
+        }
+      ],
       "identity": {
         "slug": "pravdivy-pribeh-neda-kellyho-a-jeho-bandy-2019",
         "title": "Pravdivý příběh Neda Kellyho a jeho bandy",
@@ -87431,21 +87365,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T22:30:18.296457+00:00"
-      },
-      "upload": {
-        "target_video_id": "28894939",
-        "display_name": "Pravdivý příběh Neda Kellyho a jeho bandy (2019) CZ Dabing",
-        "size_bytes": 647886026,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "11951",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T22:35:44.692007+00:00",
-        "verified_at": "2026-08-28T00:51:38.403800+00:00",
-        "live_display_name": "Pravdivý příběh Neda Kellyho a jeho bandy (2019) CZ Dabing"
       }
     },
     "2368": {
@@ -87459,6 +87378,17 @@
           "partial_target_video_id": null,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T22:35:55.941275+00:00"
+        },
+        {
+          "provider": "sktorrent",
+          "source_id": "10880",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28895011",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447592+00:00"
         }
       ],
       "identity": {
@@ -87478,21 +87408,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T22:35:48.807169+00:00"
-      },
-      "upload": {
-        "target_video_id": "28895011",
-        "display_name": "Pasažéři (2016) CZ Dabing",
-        "size_bytes": 644021770,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "10880",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T22:40:43.495941+00:00",
-        "verified_at": "2026-08-28T00:51:47.462164+00:00",
-        "live_display_name": "Pasažéři (2016) CZ Dabing"
       }
     },
     "9792": {
@@ -88997,7 +88912,19 @@
       }
     },
     "5624": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "5696",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28898050",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447595+00:00"
+        }
+      ],
       "identity": {
         "slug": "cesta-do-lesa",
         "title": "Cesta do lesa",
@@ -89015,21 +88942,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T03:09:50.261066+00:00"
-      },
-      "upload": {
-        "target_video_id": "28898050",
-        "display_name": "Cesta do lesa (2012) CZ Dabing",
-        "size_bytes": 1650877586,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "5696",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T03:22:18.883049+00:00",
-        "verified_at": "2026-08-28T04:38:35.772449+00:00",
-        "live_display_name": "Cesta do lesa (2012) CZ Dabing"
       }
     },
     "1272": {
@@ -89372,7 +89284,19 @@
       }
     },
     "1400": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "ba7b6512f1b013eb",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28900495",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447598+00:00"
+        }
+      ],
       "identity": {
         "slug": "desive-dedictvi",
         "title": "Děsivé dědictví",
@@ -89390,21 +89314,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T06:44:08.508024+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900495",
-        "display_name": "Děsivé dědictví (2018) CZ Dabing",
-        "size_bytes": 460268673,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "ba7b6512f1b013eb",
-        "language_tier": "slovak_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T06:46:20.855223+00:00",
-        "verified_at": "2026-08-28T07:53:21.078470+00:00",
-        "live_display_name": "Děsivé dědictví (2018) CZ Dabing"
       }
     },
     "1224": {
@@ -92610,7 +92519,19 @@
       }
     },
     "7400": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "54993",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28904664",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447602+00:00"
+        }
+      ],
       "identity": {
         "slug": "niko-2-sk",
         "title": "Sobík Niko 2",
@@ -92628,25 +92549,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:34:03.157451+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904664",
-        "display_name": "Sobík Niko 2 (2012) CZ Dabing",
-        "size_bytes": 533730691,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "54993",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T11:38:04.083217+00:00",
-        "verified_at": "2026-08-28T12:22:52.191816+00:00",
-        "live_display_name": "Sobík Niko 2 (2012) CZ Dabing"
       }
     },
     "16304": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "54785",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28904699",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447603+00:00"
+        }
+      ],
       "identity": {
         "slug": "sestra-ve-meste-2025",
         "title": "Sestra ve městě",
@@ -92664,21 +92582,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T11:38:11.124078+00:00"
-      },
-      "upload": {
-        "target_video_id": "28904699",
-        "display_name": "Sestra ve městě (2025) CZ Dabing",
-        "size_bytes": 559903700,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "54785",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T11:41:20.212432+00:00",
-        "verified_at": "2026-08-28T12:23:02.497281+00:00",
-        "live_display_name": "Sestra ve městě (2025) CZ Dabing"
       }
     },
     "5704": {
@@ -92809,7 +92712,19 @@
       }
     },
     "16232": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "48892",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28907158",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447605+00:00"
+        }
+      ],
       "identity": {
         "slug": "franny-2015",
         "title": "Franny",
@@ -92827,21 +92742,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:05:56.961730+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907158",
-        "display_name": "Franny (2015) CZ Dabing",
-        "size_bytes": 422692290,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "48892",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T15:08:48.460339+00:00",
-        "verified_at": "2026-08-28T19:47:44.292612+00:00",
-        "live_display_name": "Franny (2015) CZ Dabing"
       }
     },
     "14808": {
@@ -93035,7 +92935,19 @@
       }
     },
     "16208": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "67fcbc4e665c3",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28907386",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447607+00:00"
+        }
+      ],
       "identity": {
         "slug": "superskritkove-2024",
         "title": "Superskřítkové",
@@ -93053,21 +92965,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:23:56.934984+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907386",
-        "display_name": "Superskřítkové (2024) CZ Dabing",
-        "size_bytes": 2134396994,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "67fcbc4e665c3",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T15:35:03.605220+00:00",
-        "verified_at": "2026-08-28T19:47:44.292643+00:00",
-        "live_display_name": "Superskřítkové (2024) CZ Dabing"
       }
     },
     "15992": {
@@ -94412,7 +94309,19 @@
       }
     },
     "15528": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "42706",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28907609",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447609+00:00"
+        }
+      ],
       "identity": {
         "slug": "zvony-nadeje-2022",
         "title": "Zvony naděje",
@@ -94430,21 +94339,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:43:08.630451+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907609",
-        "display_name": "Zvony naděje (2022) CZ Dabing",
-        "size_bytes": 494564198,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "42706",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T15:45:25.332447+00:00",
-        "verified_at": "2026-08-28T19:47:44.482442+00:00",
-        "live_display_name": "Zvony naděje (2022) CZ Dabing"
       }
     },
     "17344": {
@@ -94888,7 +94782,19 @@
       }
     },
     "15240": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "38566",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28908539",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447611+00:00"
+        }
+      ],
       "identity": {
         "slug": "fakju-pani-profesorko-2022",
         "title": "Fakjů paní profesorko",
@@ -94906,21 +94812,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T16:42:45.704732+00:00"
-      },
-      "upload": {
-        "target_video_id": "28908539",
-        "display_name": "Fakjů paní profesorko (2022) CZ Dabing",
-        "size_bytes": 544059240,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "38566",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T16:50:27.688555+00:00",
-        "verified_at": "2026-08-28T19:47:44.482470+00:00",
-        "live_display_name": "Fakjů paní profesorko (2022) CZ Dabing"
       }
     },
     "13280": {
@@ -96095,7 +95986,19 @@
       }
     },
     "6208": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "4fea433f15d0ba21",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28915087",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447614+00:00"
+        }
+      ],
       "identity": {
         "slug": "svetlonoc",
         "title": "Světlonoc",
@@ -96113,21 +96016,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T19:57:58.063504+00:00"
-      },
-      "upload": {
-        "target_video_id": "28915087",
-        "display_name": "Světlonoc (2022) CZ Dabing",
-        "size_bytes": 997097149,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "4fea433f15d0ba21",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T20:32:09.005400+00:00",
-        "verified_at": "2026-08-28T22:00:41.380093+00:00",
-        "live_display_name": "Světlonoc (2022) CZ Dabing"
       }
     },
     "17232": {
@@ -97237,7 +97125,19 @@
       }
     },
     "2264": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "20337",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28916087",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447616+00:00"
+        }
+      ],
       "identity": {
         "slug": "navrat-detektiva",
         "title": "Návrat detektiva",
@@ -97255,25 +97155,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T21:22:36.201400+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916087",
-        "display_name": "Návrat detektiva (2020) CZ Dabing",
-        "size_bytes": 354620682,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "20337",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T21:26:19.970047+00:00",
-        "verified_at": "2026-08-28T23:16:01.721489+00:00",
-        "live_display_name": "Návrat detektiva (2020) CZ Dabing"
       }
     },
     "7248": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "20189",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28954301",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447619+00:00"
+        }
+      ],
       "identity": {
         "slug": "nightlife-na-tahu",
         "title": "Nightlife: Na tahu",
@@ -97291,26 +97188,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T12:09:01.609000+00:00"
-      },
-      "upload": {
-        "target_video_id": "28954301",
-        "display_name": "Nightlife: Na tahu (2020) CZ Dabing",
-        "size_bytes": 823102907,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "20189",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-30T12:12:51.765901+00:00",
-        "last_verification_at": "2026-08-30T17:06:34.020919+00:00",
-        "verified_at": "2026-08-30T17:06:34.020920+00:00",
-        "live_display_name": "Nightlife: Na tahu (2020) CZ Dabing"
       }
     },
     "4576": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "20063",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28916171",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447621+00:00"
+        }
+      ],
       "identity": {
         "slug": "galerie-zlomenych-srdci",
         "title": "Galerie zlomených srdcí",
@@ -97328,21 +97221,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T21:26:22.137836+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916171",
-        "display_name": "Galerie zlomených srdcí (2020) CZ Dabing",
-        "size_bytes": 563736388,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "20063",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T21:31:26.578315+00:00",
-        "verified_at": "2026-08-28T23:16:01.721507+00:00",
-        "live_display_name": "Galerie zlomených srdcí (2020) CZ Dabing"
       }
     },
     "6896": {
@@ -97382,7 +97260,19 @@
       }
     },
     "4584": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "19319",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28916882",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447623+00:00"
+        }
+      ],
       "identity": {
         "slug": "svet-podle-muchy",
         "title": "Svět podle Muchy",
@@ -97400,25 +97290,22 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:10:21.643730+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916882",
-        "display_name": "Svět podle Muchy (2020) CZ Dabing",
-        "size_bytes": 696333151,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "19319",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T22:15:47.126604+00:00",
-        "verified_at": "2026-08-28T23:16:01.721529+00:00",
-        "live_display_name": "Svět podle Muchy (2020) CZ Dabing"
       }
     },
     "1736": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "16950",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28916952",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T14:51:42.447625+00:00"
+        }
+      ],
       "identity": {
         "slug": "spacewalker",
         "title": "Čas dobyvatelů",
@@ -97436,21 +97323,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T22:15:50.994250+00:00"
-      },
-      "upload": {
-        "target_video_id": "28916952",
-        "display_name": "Čas dobyvatelů (2017) CZ Dabing",
-        "size_bytes": 775638386,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "16950",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T22:21:10.921460+00:00",
-        "verified_at": "2026-08-28T23:16:01.721532+00:00",
-        "live_display_name": "Čas dobyvatelů (2017) CZ Dabing"
       }
     },
     "16176": {
@@ -99157,5 +99029,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T14:36:43.589444+00:00"
+  "updated_at": "2026-08-31T14:51:42.447629+00:00"
 }
