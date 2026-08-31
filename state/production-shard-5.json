@@ -5639,7 +5639,7 @@
           "candidate_year": 2005,
           "year_match": true
         },
-        "at": "2026-08-31T23:11:33.536316+00:00"
+        "at": "2026-08-31T23:33:34.359044+00:00"
       }
     },
     "23869": {
@@ -11154,7 +11154,7 @@
           "candidate_year": 2006,
           "year_match": true
         },
-        "at": "2026-08-31T23:11:33.536520+00:00"
+        "at": "2026-08-31T23:33:34.359196+00:00"
       }
     },
     "7517": {
@@ -14040,7 +14040,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T23:11:33.537044+00:00"
+        "at": "2026-08-31T23:33:34.359583+00:00"
       }
     },
     "13781": {
@@ -14165,6 +14165,97 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.213457+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "7447203e7f4188f4",
+              "url": "https://prehraj.to/mesto-lzi-2018/7447203e7f4188f4",
+              "title": "Město lží (2018)",
+              "year": null,
+              "duration_sec": 6737,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2018,
+                "candidate_year": 2018,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6737,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Město lží (2018)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e5d18e84252a",
+              "url": "https://prehraj.to/04-bohove-a-myty-stare-evropy-pad-rima-a-teutobursky-les/5e5d18e84252a",
+              "title": "04 - Bohové a mýty staré Evropy - Pád Říma a Teutoburský les",
+              "year": null,
+              "duration_sec": 1009,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.235,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2018,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1009,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "City of Lies (2018)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "19833",
+              "url": "https://online.sktorrent.eu/video/19833/",
+              "title": "Město lží",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T23:33:38.114289+00:00"
         }
       ],
       "identity": {
@@ -14183,7 +14274,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T13:17:08.762100+00:00"
+        "at": "2026-08-31T23:33:34.362557+00:00"
       }
     },
     "9077": {
@@ -17200,7 +17291,7 @@
             }
           ]
         },
-        "at": "2026-08-31T23:11:33.537293+00:00"
+        "at": "2026-08-31T23:33:34.359741+00:00"
       }
     },
     "14405": {
@@ -46938,5 +47029,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T23:32:38.968051+00:00"
+  "updated_at": "2026-08-31T23:33:38.114304+00:00"
 }
