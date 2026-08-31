@@ -1627,7 +1627,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-08-31T21:32:37.558642+00:00"
+        "at": "2026-08-31T21:48:34.751914+00:00"
       }
     },
     "26420": {
@@ -5001,7 +5001,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T21:32:37.559492+00:00"
+        "at": "2026-08-31T21:48:34.752757+00:00"
       }
     },
     "652": {
@@ -20889,7 +20889,7 @@
           "candidate_year": 2020,
           "year_match": true
         },
-        "at": "2026-08-31T21:32:37.560028+00:00"
+        "at": "2026-08-31T21:48:34.753328+00:00"
       }
     },
     "5948": {
@@ -20962,7 +20962,7 @@
             }
           ]
         },
-        "at": "2026-08-31T21:32:37.560273+00:00"
+        "at": "2026-08-31T21:48:34.753535+00:00"
       }
     },
     "16884": {
@@ -62934,6 +62934,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127114+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "32811",
+              "url": "https://online.sktorrent.eu/video/32811/",
+              "title": "Villa Lucia",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:48:38.620601+00:00"
         }
       ],
       "identity": {
@@ -62952,7 +62981,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:12:22.560443+00:00"
+        "at": "2026-08-31T21:48:34.754374+00:00"
       }
     },
     "7796": {
@@ -66364,5 +66393,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:48:26.534956+00:00"
+  "updated_at": "2026-08-31T21:48:38.620615+00:00"
 }
