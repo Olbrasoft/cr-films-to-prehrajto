@@ -283,11 +283,53 @@ def reconcile_deleted_index(index: dict, deleted_inventory: dict) -> dict:
 
 def build_missing_backlog(snapshot: dict, index: dict) -> dict:
     uploaded = {int(film_id) for film_id in index["films"]}
-    films = [
-        row
-        for row in snapshot.get("films", [])
-        if int(row["cr_film_id"]) not in uploaded
-    ]
+
+    def duplicate_identity(row: dict) -> tuple[str, str, int] | None:
+        title = normalize_title(row.get("title") or "")
+        original_title = normalize_title(row.get("original_title") or "")
+        year = row.get("year")
+        if not title or not original_title or year is None:
+            return None
+        return title, original_title, int(year)
+
+    catalog_rows = snapshot.get("films", [])
+    covered_identities = {
+        identity
+        for row in catalog_rows
+        if int(row["cr_film_id"]) in uploaded
+        if (identity := duplicate_identity(row)) is not None
+    }
+    unique_missing: dict[tuple | str, dict] = {}
+    for row in catalog_rows:
+        film_id = int(row["cr_film_id"])
+        identity = duplicate_identity(row)
+        if film_id in uploaded or identity in covered_identities:
+            continue
+        key: tuple | str = identity or f"id:{film_id}"
+        current = unique_missing.get(key)
+        # Prefer the better-linked catalog record when an old duplicate and
+        # its canonical replacement describe exactly the same film.
+        quality = (
+            row.get("tmdb_id") is not None,
+            row.get("runtime_min") is not None,
+            row.get("imdb_id") is not None,
+            len(row.get("sources") or []),
+            film_id,
+        )
+        current_quality = (
+            (
+                current.get("tmdb_id") is not None,
+                current.get("runtime_min") is not None,
+                current.get("imdb_id") is not None,
+                len(current.get("sources") or []),
+                int(current["cr_film_id"]),
+            )
+            if current
+            else None
+        )
+        if current_quality is None or quality > current_quality:
+            unique_missing[key] = row
+    films = list(unique_missing.values())
     films.sort(
         key=lambda row: (
             row.get("added_at") or row.get("created_at") or "",

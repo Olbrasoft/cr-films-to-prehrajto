@@ -104,6 +104,73 @@ def test_missing_backlog_is_newest_first():
     assert [row["cr_film_id"] for row in backlog["films"]] == [2, 1]
 
 
+def test_missing_backlog_queues_only_canonical_exact_duplicate():
+    duplicate = {
+        "title": "Super Mario Bros. ve filmu",
+        "original_title": "The Super Mario Bros. Movie",
+        "year": 2023,
+    }
+    snapshot = {
+        "films": [
+            {
+                **duplicate,
+                "cr_film_id": 10557,
+                "added_at": "2023-01-01",
+                "sources": [{"url": "old"}],
+            },
+            {
+                **duplicate,
+                "cr_film_id": 17083,
+                "added_at": "2023-02-01",
+                "tmdb_id": 502356,
+                "runtime_min": 93,
+                "sources": [{"url": "one"}, {"url": "two"}],
+            },
+        ]
+    }
+
+    backlog = build_missing_backlog(snapshot, {"films": {}})
+
+    assert [row["cr_film_id"] for row in backlog["films"]] == [17083]
+
+
+def test_missing_backlog_treats_uploaded_exact_duplicate_as_covered():
+    snapshot = {
+        "films": [
+            {
+                "cr_film_id": 1,
+                "title": "Film",
+                "original_title": "Movie",
+                "year": 2024,
+            },
+            {
+                "cr_film_id": 2,
+                "title": "Film",
+                "original_title": "Movie",
+                "year": 2024,
+            },
+            {
+                "cr_film_id": 3,
+                "title": "Film",
+                "original_title": "Different Movie",
+                "year": 2024,
+            },
+            {
+                "cr_film_id": 4,
+                "title": "Film",
+                "original_title": "Movie",
+                "year": 2023,
+            },
+        ]
+    }
+
+    backlog = build_missing_backlog(
+        snapshot, {"films": {"1": {"target_video_id": "100"}}}
+    )
+
+    assert {row["cr_film_id"] for row in backlog["films"]} == {3, 4}
+
+
 def test_account_index_is_accepted_as_historical_state(tmp_path):
     path = tmp_path / "index.json"
     path.write_text(
