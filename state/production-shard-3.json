@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T15:38:25.580631+00:00"
+        "at": "2026-08-31T16:24:18.846182+00:00"
       }
     },
     "9147": {
@@ -8630,6 +8630,70 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068643+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "b95f8528cf8cb750",
+              "url": "https://prehraj.to/minamata-2020-en/b95f8528cf8cb750",
+              "title": "Minamata - 2020 EN",
+              "year": null,
+              "duration_sec": 6626,
+              "language_tier": "unacceptable",
+              "audio_language": "en",
+              "language_evidence": "title_foreign_audio",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.842,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": 2020,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6626,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Minamata (2020)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "54562",
+              "url": "https://online.sktorrent.eu/video/54562/",
+              "title": "Minamata",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T16:24:22.182107+00:00"
         }
       ],
       "identity": {
@@ -8648,7 +8712,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T04:44:14.916119+00:00"
+        "at": "2026-08-31T16:24:18.848113+00:00"
       }
     },
     "15995": {
@@ -10012,7 +10076,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T15:38:25.581630+00:00"
+        "at": "2026-08-31T16:24:18.847250+00:00"
       }
     },
     "15619": {
@@ -41902,5 +41966,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T16:23:21.904017+00:00"
+  "updated_at": "2026-08-31T16:24:22.182124+00:00"
 }
