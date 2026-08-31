@@ -97986,30 +97986,24 @@
         "added_at": "2022-05-04 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25272680",
-              "account_name": "Vřískot 6 (2023) CZ Titulky",
-              "title_similarity": 0.875,
-              "title_exact_alias": false,
-              "film_year": 2022,
-              "candidate_year": 2023,
-              "year_match": true
-            },
-            {
-              "target_video_id": "25026692",
-              "account_name": "Vřískot 6 (2023) CZ Dabing",
-              "title_similarity": 0.875,
-              "title_exact_alias": false,
-              "film_year": 2022,
-              "candidate_year": 2023,
-              "year_match": true
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T20:34:45.387023+00:00"
+        "at": "2026-08-31T12:26:18.950465+00:00"
+      },
+      "upload": {
+        "target_video_id": "28976223",
+        "display_name": "Vřískot (2022) CZ Dabing",
+        "size_bytes": 2948073453,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "e7ba4a35f6dad6a1",
+        "language_tier": "czech_audio",
+        "actual_resolution": 1080,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-31T12:39:36.291203+00:00"
       }
     },
     "3601": {
@@ -106890,5 +106884,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T12:26:12.452591+00:00"
+  "updated_at": "2026-08-31T12:39:36.291234+00:00"
 }
