@@ -13,6 +13,11 @@ def test_exact_title_and_year_is_preexisting(film):
     assert status == ReconciliationStatus.PREEXISTING
 
 
+def test_exact_title_allows_one_year_release_tolerance(film):
+    status, _ = reconcile_film(film, [AccountVideo("99", "Pelíšky (2000) CZ")])
+    assert status == ReconciliationStatus.PREEXISTING
+
+
 def test_title_only_is_ambiguous_not_missing(film):
     status, _ = reconcile_film(film, [AccountVideo("99", "Pelíšky CZ")])
     assert status == ReconciliationStatus.AMBIGUOUS
@@ -84,3 +89,31 @@ def test_vhs_halloween_does_not_match_a_different_installment():
     )
 
     assert status == ReconciliationStatus.MISSING
+
+
+def test_related_high_similarity_titles_do_not_block_upload():
+    cases = [
+        ("Jackass 3", 2010, "Jackass 3.5 (2011) CZ Dabing"),
+        ("Critters 4", 1992, "Critters 3 (1991) CZ Dabing"),
+        (
+            "One Mile: Chapter One",
+            2026,
+            "One Mile: Chapter Two (2026) CZ Dabing",
+        ),
+        ("Mizerové navždy", 2020, "Good Boys for Life (2021)"),
+    ]
+    for film_id, (title, year, account_name) in enumerate(cases, start=1):
+        film = Film(
+            cr_film_id=film_id,
+            slug=f"film-{film_id}",
+            title=title,
+            original_title=None,
+            year=year,
+            runtime_min=90,
+            original_language=None,
+            description="",
+        )
+
+        status, _ = reconcile_film(film, [AccountVideo(str(film_id), account_name)])
+
+        assert status == ReconciliationStatus.MISSING

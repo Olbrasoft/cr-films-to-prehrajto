@@ -9,7 +9,6 @@ from .models import AccountVideo, Film, ReconciliationStatus
 ACCOUNT_NAME_NOISE_RE = re.compile(
     r"\.(?:mp4|mkv|avi|webm)\b|\(\s*zpracovává se\s*\)", re.IGNORECASE
 )
-ACCOUNT_AMBIGUOUS_SIMILARITY = 0.85
 
 
 def _account_match_evidence(film: Film, video: AccountVideo) -> dict:
@@ -63,11 +62,6 @@ def reconcile_film(
         if evidence["title_exact_alias"] and evidence["year_match"]:
             confident.append(evidence)
         elif evidence["title_exact_alias"] and evidence["candidate_year"] is None:
-            ambiguous.append(evidence)
-        elif (
-            evidence["year_match"]
-            and evidence["title_similarity"] >= ACCOUNT_AMBIGUOUS_SIMILARITY
-        ):
             ambiguous.append(evidence)
 
     if len(confident) == 1:
