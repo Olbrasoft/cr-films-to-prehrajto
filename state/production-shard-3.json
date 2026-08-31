@@ -2037,6 +2037,45 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068589+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "54059c24bab0e4c5",
+              "url": "https://prehraj.to/staci-jedna-noc-2024-czdab/54059c24bab0e4c5",
+              "title": "Stačí jedna noc (2024) CZdab",
+              "year": null,
+              "duration_sec": 5649,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_cz_audio",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.833,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": 94,
+                "candidate_runtime_sec": 5649,
+                "runtime_delta": 0.002,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Stačí jedna noc (2023)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T15:03:00.499535+00:00"
         }
       ],
       "identity": {
@@ -2055,7 +2094,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T09:38:28.750952+00:00"
+        "at": "2026-08-31T15:02:56.895765+00:00"
       }
     },
     "17083": {
@@ -8058,7 +8097,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T14:52:27.649791+00:00"
+        "at": "2026-08-31T15:02:56.893346+00:00"
       }
     },
     "9147": {
@@ -9848,7 +9887,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T14:52:27.650808+00:00"
+        "at": "2026-08-31T15:02:56.894368+00:00"
       }
     },
     "15619": {
@@ -11873,7 +11912,7 @@
           "candidate_year": 2022,
           "year_match": true
         },
-        "at": "2026-08-31T14:52:27.651068+00:00"
+        "at": "2026-08-31T15:02:56.894608+00:00"
       }
     },
     "7115": {
@@ -41701,5 +41740,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T14:52:27.651928+00:00"
+  "updated_at": "2026-08-31T15:03:00.499550+00:00"
 }
