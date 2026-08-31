@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T20:00:48.203448+00:00"
+        "at": "2026-08-31T20:16:41.145690+00:00"
       }
     },
     "9147": {
@@ -10108,7 +10108,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T20:00:48.204344+00:00"
+        "at": "2026-08-31T20:16:41.146551+00:00"
       }
     },
     "15619": {
@@ -37492,6 +37492,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068757+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "32593",
+              "url": "https://online.sktorrent.eu/video/32593/",
+              "title": "Akce Dárce",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T20:16:52.105860+00:00"
         }
       ],
       "identity": {
@@ -37510,7 +37539,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:31:33.431829+00:00"
+        "at": "2026-08-31T20:16:41.147387+00:00"
       }
     },
     "11163": {
@@ -42340,5 +42369,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T20:16:39.368732+00:00"
+  "updated_at": "2026-08-31T20:16:52.105877+00:00"
 }
