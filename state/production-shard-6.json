@@ -36802,6 +36802,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.282324+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "7f6235e79ddbe016",
+              "url": "https://prehraj.to/instalater-z-tuchlovic-2016/7f6235e79ddbe016",
+              "title": "Instalatér Z Tuchlovic (2016)",
+              "year": null,
+              "duration_sec": 4953,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2016,
+                "candidate_year": 2016,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4953,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Instalatér z Tuchlovic (2016)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "12136",
+              "url": "https://online.sktorrent.eu/video/12136/",
+              "title": "Instalatér z Tuchlovic",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T18:29:51.936196+00:00"
         }
       ],
       "identity": {
@@ -36820,7 +36877,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T13:59:00.204235+00:00"
+        "at": "2026-08-31T18:29:41.579050+00:00"
       }
     },
     "5990": {
@@ -67319,5 +67376,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T18:29:39.767794+00:00"
+  "updated_at": "2026-08-31T18:29:51.936215+00:00"
 }
