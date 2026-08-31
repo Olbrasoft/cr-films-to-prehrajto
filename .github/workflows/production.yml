@@ -28,6 +28,8 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    outputs:
+      target_count: ${{ steps.targets.outputs.target_count }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,6 +38,18 @@ jobs:
           cache: pip
       - run: pip install -e '.[test]'
       - run: pytest
+      - name: Count target uploads before this run
+        id: targets
+        run: >-
+          cr-films-pilot count-production-targets
+          --state state/production-shard-0.json
+          --state state/production-shard-1.json
+          --state state/production-shard-2.json
+          --state state/production-shard-3.json
+          --state state/production-shard-4.json
+          --state state/production-shard-5.json
+          --state state/production-shard-6.json
+          --state state/production-shard-7.json
 
   prefetch:
     needs: test
@@ -216,6 +230,7 @@ jobs:
     outputs:
       before: ${{ steps.backlog.outputs.before }}
       after: ${{ steps.backlog.outputs.after }}
+      new_uploads: ${{ steps.progress.outputs.new_uploads }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -250,6 +265,34 @@ jobs:
           --delay-seconds 0
           --workers 8
 
+      - name: Count target uploads after this run
+        id: targets
+        run: >-
+          cr-films-pilot count-production-targets
+          --state state/production-shard-0.json
+          --state state/production-shard-1.json
+          --state state/production-shard-2.json
+          --state state/production-shard-3.json
+          --state state/production-shard-4.json
+          --state state/production-shard-5.json
+          --state state/production-shard-6.json
+          --state state/production-shard-7.json
+
+      - name: Calculate newly created target uploads
+        id: progress
+        env:
+          BEFORE_TARGETS: ${{ needs.test.outputs.target_count }}
+          AFTER_TARGETS: ${{ steps.targets.outputs.target_count }}
+        run: |
+          set -euo pipefail
+          if (( AFTER_TARGETS < BEFORE_TARGETS )); then
+            echo "Target upload count unexpectedly decreased" >&2
+            exit 1
+          fi
+          new_uploads=$((AFTER_TARGETS - BEFORE_TARGETS))
+          echo "new_uploads=$new_uploads" >> "$GITHUB_OUTPUT"
+          echo "This run created $new_uploads target uploads"
+
       - name: Consolidate shard state and backlog
         id: backlog
         run: |
@@ -281,15 +324,14 @@ jobs:
             git commit -m "chore(production): refresh missing-film backlog"
           git push origin HEAD:main
 
-      - name: Continue while uploads make progress
+      - name: Continue while uploads or source discovery make progress
         if: >-
           ${{
             needs.upload.result != 'cancelled' &&
             inputs.auto_continue &&
             fromJSON(steps.backlog.outputs.after) > 0 &&
             (
-              fromJSON(steps.backlog.outputs.after) < fromJSON(steps.backlog.outputs.before) ||
-              fromJSON(steps.verification.outputs.recent_pending) > 0 ||
+              fromJSON(steps.progress.outputs.new_uploads) > 0 ||
               (
                 needs.prefetch.result == 'success' &&
                 fromJSON(needs.prefetch.outputs.remaining) > 0

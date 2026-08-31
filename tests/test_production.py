@@ -8,7 +8,11 @@ from pathlib import Path
 
 from cr_films_to_prehrajto.cli import build_parser, execute_production_incrementally
 from cr_films_to_prehrajto.models import AccountVideo
-from cr_films_to_prehrajto.production import GitStatePusher, verify_pending_uploads
+from cr_films_to_prehrajto.production import (
+    GitStatePusher,
+    collect_target_video_ids,
+    verify_pending_uploads,
+)
 
 
 def write_pending_state(path, film_id="42", video_id="123"):
@@ -271,6 +275,54 @@ def test_production_workflow_continues_after_partial_shard_failure():
     assert "needs.upload.result != 'cancelled'" in workflow
     assert "needs.upload.result == 'success'" not in workflow
     assert "for attempt in $(seq 1 30)" in workflow
+
+
+def test_target_video_count_is_monotonic_across_upload_state_transitions(tmp_path):
+    first = tmp_path / "first.json"
+    second = tmp_path / "second.json"
+    first.write_text(
+        json.dumps(
+            {
+                "films": {
+                    "1": {
+                        "upload": {"target_video_id": "101"},
+                        "attempts": [
+                            {"partial_target_video_id": "100"},
+                            {"deleted_target_video_id": "99"},
+                        ],
+                    }
+                }
+            }
+        )
+    )
+    second.write_text(
+        json.dumps(
+            {
+                "films": {
+                    "2": {
+                        "attempts": [
+                            {"partial_target_video_id": 102},
+                            {"deleted_target_video_id": "101"},
+                        ]
+                    }
+                }
+            }
+        )
+    )
+
+    assert collect_target_video_ids([first, second]) == {"99", "100", "101", "102"}
+
+
+def test_production_workflow_stops_without_new_uploads_after_full_prefetch():
+    workflow = (
+        Path(__file__).parents[1] / ".github/workflows/production.yml"
+    ).read_text()
+
+    assert "count-production-targets" in workflow
+    assert "fromJSON(steps.progress.outputs.new_uploads) > 0" in workflow
+    assert "fromJSON(needs.prefetch.outputs.remaining) > 0" in workflow
+    assert "steps.verification.outputs.recent_pending" not in workflow
+    assert "steps.backlog.outputs.after) <" not in workflow
 
 
 def test_production_discovers_and_executes_each_film_incrementally(tmp_path, film):

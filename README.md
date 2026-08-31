@@ -192,8 +192,9 @@ being uploaded twice.
 The completed pilot remains manual and capped at ten. The separate
 `upload-missing-films` workflow is the production continuation authorized
 after the pilot. It runs eight deterministic shards in parallel, uploads ten
-films per shard by default, and dispatches the next run only when the committed
-backlog count decreased.
+films per shard by default, and dispatches the next run only when the current
+run created at least one new target video or source prefetch has not scanned
+the complete remaining backlog yet.
 
 Each shard owns `state/production-shard-N.json`. Every source failure and every
 successful upload is committed and pushed immediately, so runner cancellation
@@ -202,6 +203,13 @@ successes into `state/account-index.json`, regenerates
 `state/missing-films.json`, and starts the next batch. Films with no acceptable
 source in the current snapshot are recorded and skipped until a later catalog
 refresh; transient transfer failures remain retryable.
+
+Target upload progress counts unique video IDs from successful, partial, and
+subsequently deleted upload records. A deleted account video therefore returns
+to the retry queue without making the counter go backwards. Once all remaining
+films have been searched and a complete run creates no target video, the
+workflow stops; old videos that are merely still processing do not keep it
+running.
 
 Start the full continuation manually once:
 

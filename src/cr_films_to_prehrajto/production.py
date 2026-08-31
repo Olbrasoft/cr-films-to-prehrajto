@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import subprocess
 import time
 from collections.abc import Callable
@@ -16,6 +17,30 @@ from .state import StateStore, now_iso
 
 RECENT_PENDING_AGE = timedelta(hours=2)
 STALE_PENDING_VERIFICATION_LIMIT = 8
+
+
+def collect_target_video_ids(state_paths: list[Path]) -> set[str]:
+    """Return every target video ID ever allocated by production uploads.
+
+    An uploaded video can move from ``upload`` to an attempt when processing
+    fails or the account reports it as deleted. Counting all three locations
+    keeps the total monotonic while still allowing the film itself to be
+    retried with a newly allocated target ID.
+    """
+    target_ids: set[str] = set()
+    for path in state_paths:
+        if not path.exists():
+            continue
+        payload = json.loads(path.read_text())
+        for row in (payload.get("films") or {}).values():
+            upload = row.get("upload") or {}
+            if upload.get("target_video_id") is not None:
+                target_ids.add(str(upload["target_video_id"]))
+            for attempt in row.get("attempts") or []:
+                for key in ("partial_target_video_id", "deleted_target_video_id"):
+                    if attempt.get(key) is not None:
+                        target_ids.add(str(attempt[key]))
+    return target_ids
 
 
 def _timestamp(value: object) -> datetime | None:

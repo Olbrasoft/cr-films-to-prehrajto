@@ -11,7 +11,12 @@ import requests
 from .catalog import main as export_main
 from .models import AccountVideo, Film
 from .pipeline import MAX_PRODUCTION_BATCH, HybridPipeline, validate_limit
-from .production import GitStatePusher, account_video_status, verify_pending_uploads
+from .production import (
+    GitStatePusher,
+    account_video_status,
+    collect_target_video_ids,
+    verify_pending_uploads,
+)
 from .providers.prehrajto import PrehrajtoProvider, inventory_account, login
 from .providers.sktorrent import SkTorrentProvider
 from .report import write_report
@@ -295,6 +300,16 @@ def run_production_verification(args) -> int:
     return 0
 
 
+def run_production_target_count(args) -> int:
+    count = len(collect_target_video_ids(args.state))
+    print(f"Production target uploads: {count}")
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with Path(github_output).open("a") as output:
+            output.write(f"target_count={count}\n")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="cr-films-pilot")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -337,6 +352,11 @@ def build_parser() -> argparse.ArgumentParser:
     verify.add_argument("--attempts", type=int, default=10)
     verify.add_argument("--delay-seconds", type=float, default=30)
     verify.add_argument("--workers", type=int, default=1)
+    target_count = subparsers.add_parser(
+        "count-production-targets",
+        help="Count unique target video IDs allocated by production uploads",
+    )
+    target_count.add_argument("--state", action="append", type=Path, required=True)
     return parser
 
 
@@ -352,6 +372,8 @@ def main(argv: list[str] | None = None) -> int:
         return run_production(args)
     if args.command == "verify-production":
         return run_production_verification(args)
+    if args.command == "count-production-targets":
+        return run_production_target_count(args)
     return run_pilot(args)
 
 
