@@ -11,6 +11,8 @@ YEAR_TOLERANCE = 1
 RUNTIME_TOLERANCE = 0.20
 RUNTIME_HARD_REJECT = 0.50
 SIMILARITY_GATE = 0.50
+TITLE_ONLY_SIMILARITY_GATE = 0.75
+CONTAINED_ALIAS_MIN_LENGTH = 7
 EPISODE_RE = re.compile(r"\bS\d{1,2}E\d{1,3}\b|\b\d{1,2}x\d{1,3}\b", re.IGNORECASE)
 YEAR_RE = re.compile(r"\b(19\d{2}|20\d{2})\b")
 RELEASE_NOISE_RE = re.compile(
@@ -52,14 +54,21 @@ def classify_candidate(
         return MatchResult(MatchTier.REJECT, 0.0, {}, "tv_episode")
 
     aliases = [a for a in (film.title, film.original_title) if a]
-    folded = normalize_title(candidate_title)
-    scores = [similarity(candidate_title, alias) for alias in aliases]
+    normalized_aliases = [normalize_title(alias) for alias in aliases]
+    candidate_base = normalize_title(YEAR_RE.sub(" ", candidate_title))
+    scores = [similarity(candidate_base, alias) for alias in normalized_aliases]
     contains = any(
-        len(normalize_title(alias)) >= 4 and normalize_title(alias) in folded
-        for alias in aliases
+        len(alias) >= 4 and alias in candidate_base for alias in normalized_aliases
+    )
+    alias_tokens = {
+        token for normalized_alias in normalized_aliases for token in normalized_alias.split()
+    }
+    candidate_tokens = set(candidate_base.split())
+    exact_or_combined_alias = bool(candidate_tokens) and candidate_tokens.issubset(
+        alias_tokens
     )
     score = max(scores or [0.0])
-    if contains:
+    if exact_or_combined_alias:
         score = max(score, 1.0)
 
     embedded_year = YEAR_RE.search(candidate_title)
@@ -88,6 +97,7 @@ def classify_candidate(
     evidence = {
         "title_similarity": round(score, 3),
         "title_contains_alias": contains,
+        "title_exact_or_combined_alias": exact_or_combined_alias,
         "film_year": film.year,
         "candidate_year": hit_year,
         "year_match": bool(
@@ -97,11 +107,24 @@ def classify_candidate(
         "candidate_runtime_sec": duration_sec,
         "runtime_delta": round(runtime_delta, 3) if runtime_delta is not None else None,
     }
-    if score < SIMILARITY_GATE and not contains:
+    runtime_match = runtime_delta is not None and runtime_delta <= RUNTIME_TOLERANCE
+    specific_contained_alias = any(
+        len(alias) >= CONTAINED_ALIAS_MIN_LENGTH and alias in candidate_base
+        for alias in normalized_aliases
+    )
+    supported_title = (
+        exact_or_combined_alias
+        or score >= TITLE_ONLY_SIMILARITY_GATE
+        or (
+            runtime_match
+            and specific_contained_alias
+            and score >= SIMILARITY_GATE
+        )
+    )
+    if not supported_title:
         return MatchResult(MatchTier.REJECT, score, evidence, "title_mismatch")
 
     year_match = evidence["year_match"]
-    runtime_match = runtime_delta is not None and runtime_delta <= RUNTIME_TOLERANCE
     if year_match and runtime_match:
         return MatchResult(MatchTier.STRONG, score, evidence)
     if year_match or runtime_match:
