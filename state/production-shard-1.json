@@ -97109,21 +97109,24 @@
         "added_at": "2023-05-06 17:13:10.066732+02:00"
       },
       "reconciliation": {
-        "status": "ambiguous",
+        "status": "missing",
         "evidence": {
-          "matches": [
-            {
-              "target_video_id": "25505767",
-              "account_name": "Scanners II (1991)",
-              "title_similarity": 0.957,
-              "title_exact_alias": false,
-              "film_year": 1992,
-              "candidate_year": 1991,
-              "year_match": true
-            }
-          ]
+          "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T20:34:45.386173+00:00"
+        "at": "2026-08-31T12:22:52.859834+00:00"
+      },
+      "upload": {
+        "target_video_id": "28976157",
+        "display_name": "Scanners III (1992) CZ Dabing",
+        "size_bytes": 596742476,
+        "subtitle_verification": "not_required",
+        "provider": "prehrajto",
+        "source_id": "5841481f8b7da",
+        "language_tier": "czech_audio",
+        "actual_resolution": 480,
+        "subtitle_handling": "not required",
+        "processing_status": "pending",
+        "uploaded_at": "2026-08-31T12:26:12.452559+00:00"
       }
     },
     "9865": {
@@ -106887,5 +106890,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T12:22:47.834036+00:00"
+  "updated_at": "2026-08-31T12:26:12.452591+00:00"
 }
