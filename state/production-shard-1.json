@@ -108723,6 +108723,298 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.561402+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "397ef9df09352b1a",
+              "url": "https://prehraj.to/ktory-je-ten-pravy/397ef9df09352b1a",
+              "title": "ktory je ten pravy",
+              "year": null,
+              "duration_sec": 5835,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.944,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5835,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Který je ten pravý? (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6693f764a5a47",
+              "url": "https://prehraj.to/home-again/6693f764a5a47",
+              "title": "Home Again",
+              "year": null,
+              "duration_sec": 176,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 176,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6556768456b50",
+              "url": "https://prehraj.to/fox-home-again-9495921671108231/6556768456b50",
+              "title": "FOX - Home again - 9495921671108231",
+              "year": null,
+              "duration_sec": 196,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.488,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 196,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "f8c764d5139fafab",
+              "url": "https://prehraj.to/dallas-19-14-home-again/f8c764d5139fafab",
+              "title": "Dallas 19 14 Home Again",
+              "year": null,
+              "duration_sec": 2744,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.606,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2744,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "62b8146f4dc2a644",
+              "url": "https://prehraj.to/trancecrafter-hope-will-come-again/62b8146f4dc2a644",
+              "title": "Trancecrafter - Hope will come again",
+              "year": null,
+              "duration_sec": 296,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.455,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 296,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "688112988cf83",
+              "url": "https://prehraj.to/home-again-a-tale-by-george-macdonald-read-by-shelly-weingart/688112988cf83",
+              "title": "Home Again A Tale by George MacDonald read by Shelly…",
+              "year": null,
+              "duration_sec": 21641,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.323,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 21641,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "66907f467c078",
+              "url": "https://prehraj.to/jkll-radium-come-again-frenchcore/66907f467c078",
+              "title": "JKLL & Radium - Come Again (Frenchcore)",
+              "year": null,
+              "duration_sec": 336,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.4,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 336,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65562ca040f84",
+              "url": "https://prehraj.to/damn-yankees-come-again-official-video/65562ca040f84",
+              "title": "Damn Yankees - Come Again (Official Video)",
+              "year": null,
+              "duration_sec": 311,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 311,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "65562c849d948",
+              "url": "https://prehraj.to/damn-yankees-come-again-official-video-3291791671108396/65562c849d948",
+              "title": "Damn Yankees - Come Again (Official Video) -…",
+              "year": null,
+              "duration_sec": 311,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2017,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 311,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "b132866bd811a62d",
+              "url": "https://prehraj.to/sometimes-they-come-back-again-1996-720p-webrip-x264-yts-am-cz-tit/b132866bd811a62d",
+              "title": "Sometimes.They.Come.Back....Again.1996.720p.WEBRip.x264-…",
+              "year": null,
+              "duration_sec": 5907,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2017,
+                "candidate_year": 1996,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Home Again (2017)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "16310",
+              "url": "https://online.sktorrent.eu/video/16310/",
+              "title": "Který je ten pravý?",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:15:51.073675+00:00"
         }
       ],
       "identity": {
@@ -108741,7 +109033,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T22:03:38.731736+00:00"
+        "at": "2026-08-31T22:15:47.239377+00:00"
       }
     },
     "6265": {
@@ -109810,5 +110102,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:15:40.167715+00:00"
+  "updated_at": "2026-08-31T22:15:51.073698+00:00"
 }
