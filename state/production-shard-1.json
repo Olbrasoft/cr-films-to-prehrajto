@@ -99427,6 +99427,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.561337+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "1e088c7629aa1663",
+              "url": "https://prehraj.to/posledni-bohatyr-2017/1e088c7629aa1663",
+              "title": "Poslední bohatýr (2017)",
+              "year": null,
+              "duration_sec": 6538,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2017,
+                "candidate_year": 2017,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6538,
+                "runtime_delta": null,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Poslední bohatýr (2017)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "5390",
+              "url": "https://online.sktorrent.eu/video/5390/",
+              "title": "Poslední bohatýr",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T22:08:06.569489+00:00"
         }
       ],
       "identity": {
@@ -99445,7 +99502,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-27T09:17:12.426108+00:00"
+        "at": "2026-08-31T22:08:03.393504+00:00"
       }
     },
     "17025": {
@@ -109573,5 +109630,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T22:07:57.822733+00:00"
+  "updated_at": "2026-08-31T22:08:06.569506+00:00"
 }
