@@ -60420,6 +60420,62 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127101+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "63b0e660311adfab",
+              "url": "https://prehraj.to/jako-z-divokych-vajec/63b0e660311adfab",
+              "title": "Jako z divokých vajec",
+              "year": null,
+              "duration_sec": 4874,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2024,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 4874,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Jako z divokých vajec (2024)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "59113",
+              "url": "https://online.sktorrent.eu/video/59113/",
+              "title": "Jako z divokých vajec",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T15:53:48.662217+00:00"
         }
       ],
       "identity": {
@@ -60438,7 +60494,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T02:51:39.186088+00:00"
+        "at": "2026-08-31T15:53:45.031963+00:00"
       }
     },
     "15356": {
@@ -65162,5 +65218,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T15:53:43.364064+00:00"
+  "updated_at": "2026-08-31T15:53:48.662237+00:00"
 }
