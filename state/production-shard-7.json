@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-08-31T21:11:04.354337+00:00"
+        "at": "2026-08-31T21:31:11.284609+00:00"
       }
     },
     "23807": {
@@ -32443,7 +32443,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-08-31T21:11:04.354860+00:00"
+        "at": "2026-08-31T21:31:11.285126+00:00"
       }
     },
     "14191": {
@@ -63505,6 +63505,136 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395589+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "2d002774a977a5d6",
+              "url": "https://prehraj.to/pappa-mia-2003-cz-dabing-1080p-fhd/2d002774a977a5d6",
+              "title": "Pappa Mia! 2003 CZ dabing 1080p FHD",
+              "year": null,
+              "duration_sec": 5385,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2003,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "PAPPA MIA! (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67f79b1ae0492",
+              "url": "https://prehraj.to/muj-takzvany-otec-min-sa-kallade-pappa-my-so-called-father-2014-swe-sk-tit/67f79b1ae0492",
+              "title": "Můj takzvaný otec Min så kallade pappa My So-Called Father…",
+              "year": null,
+              "duration_sec": 7612,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.329,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7612,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "PAPPA MIA! (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "ffb627de7a7bdfdd",
+              "url": "https://prehraj.to/muj-takzvany-otec-min-sa-kallade-pappa-my-so-called-father-2014-swe-sk-tit-avi/ffb627de7a7bdfdd",
+              "title": "Můj takzvaný otec / Min så kallade pappa / My So-Called…",
+              "year": null,
+              "duration_sec": 7612,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7612,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "PAPPA MIA! (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "0db48b3aaf56ffad",
+              "url": "https://prehraj.to/muj-takzvany-otec-min-sa-kallade-pappa-my-so-called-father-2014-swe-sk-tit-avi/0db48b3aaf56ffad",
+              "title": "Můj takzvaný otec / Min så kallade pappa / My So-Called…",
+              "year": null,
+              "duration_sec": 7612,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.267,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7612,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "PAPPA MIA! (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "32181",
+              "url": "https://online.sktorrent.eu/video/32181/",
+              "title": "PAPPA MIA!",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:31:14.807695+00:00"
         }
       ],
       "identity": {
@@ -63523,7 +63653,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T06:33:08.987398+00:00"
+        "at": "2026-08-31T21:31:11.286232+00:00"
       }
     },
     "13055": {
@@ -68045,5 +68175,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:31:02.739009+00:00"
+  "updated_at": "2026-08-31T21:31:14.807712+00:00"
 }
