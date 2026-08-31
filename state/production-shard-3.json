@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-08-31T16:40:51.507606+00:00"
+        "at": "2026-08-31T16:45:58.856853+00:00"
       }
     },
     "9147": {
@@ -10102,7 +10102,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-08-31T16:40:51.508638+00:00"
+        "at": "2026-08-31T16:45:58.857881+00:00"
       }
     },
     "15619": {
@@ -36741,6 +36741,55 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068748+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "67e3459458d59",
+              "url": "https://prehraj.to/firebrand-2019/67e3459458d59",
+              "title": "Firebrand 2019",
+              "year": null,
+              "duration_sec": 6994,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2019,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Firebrand (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "44087",
+              "url": "https://online.sktorrent.eu/video/44087/",
+              "title": "Královnin gambit",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T16:46:02.219290+00:00"
         }
       ],
       "identity": {
@@ -36759,7 +36808,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T11:37:55.648529+00:00"
+        "at": "2026-08-31T16:45:58.858780+00:00"
       }
     },
     "11419": {
@@ -41992,5 +42041,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T16:45:47.810990+00:00"
+  "updated_at": "2026-08-31T16:46:02.219310+00:00"
 }
