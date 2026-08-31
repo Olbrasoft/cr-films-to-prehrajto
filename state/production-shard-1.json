@@ -95854,8 +95854,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-31T18:25:37.219207+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-31T18:25:37.219207+00:00",
+        "last_verification_at": "2026-08-31T20:53:12.539942+00:00",
+        "verified_at": "2026-08-31T20:53:12.539944+00:00",
+        "live_display_name": "Dokonalá shoda (2025) CZ Dabing"
       }
     },
     "3585": {
@@ -96234,6 +96237,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.561305+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "63cb2081a7b99b43",
+          "status": "failed_after_upload",
+          "reason": "Target video moved to deleted inventory during processing",
+          "permanent": true,
+          "deleted_target_video_id": "28982270",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T20:53:12.539974+00:00"
         }
       ],
       "identity": {
@@ -96253,19 +96267,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T18:25:42.655546+00:00"
-      },
-      "upload": {
-        "target_video_id": "28982270",
-        "display_name": "Paddington v džungli (2024) CZ Dabing",
-        "size_bytes": 3005441446,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "63cb2081a7b99b43",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-31T18:42:32.795390+00:00"
       }
     },
     "10817": {
@@ -96634,8 +96635,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-31T19:16:29.080826+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-31T19:16:29.080826+00:00",
+        "last_verification_at": "2026-08-31T20:53:01.992308+00:00",
+        "verified_at": "2026-08-31T20:53:01.992311+00:00",
+        "live_display_name": "Tarot (2024) CZ Dabing"
       }
     },
     "14993": {
@@ -105259,8 +105263,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
-        "uploaded_at": "2026-08-31T19:34:13.940651+00:00"
+        "processing_status": "active",
+        "uploaded_at": "2026-08-31T19:34:13.940651+00:00",
+        "last_verification_at": "2026-08-31T20:53:01.992313+00:00",
+        "verified_at": "2026-08-31T20:53:01.992316+00:00",
+        "live_display_name": "Ella a černý jaguár (2024) CZ Dabing"
       }
     },
     "1721": {
@@ -108033,5 +108040,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T19:34:13.940678+00:00"
+  "updated_at": "2026-08-31T20:53:13.521729+00:00"
 }
