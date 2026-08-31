@@ -4628,6 +4628,547 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.282280+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "5c06563e3c677",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc/5c06563e3c677",
+              "title": "Tichá noc, krvavá noc",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5088,
+                "runtime_delta": 0.126,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584d8725732c9",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1974-dvdrip-czdub-od-soucka-tomase/584d8725732c9",
+              "title": "Ticha-noc-krvava-noc-1974-DVDRip-czdub-OD-SOUČKA-TOMÁŠE",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "9f6932d9abc4f174",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972-cz-dabing/9f6932d9abc4f174",
+              "title": "Tichá noc, krvavá noc (1972) CZ Dabing",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ab970041ca7f",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972/5ab970041ca7f",
+              "title": "Tichá noc, krvavá noc (1972)",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6397e449252bc",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1974-dvdrip-czdub-od-soucka-tomase/6397e449252bc",
+              "title": "Ticha-noc-krvava-noc-1974-DVDRip-czdub-OD-SOUČKA-TOMÁŠE",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "01967234393ae261",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972-cs/01967234393ae261",
+              "title": "Tichá noc, krvavá noc - 1972 CS",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5a333d7985d0b",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1974-dvdrip-cz-dabing/5a333d7985d0b",
+              "title": "Tichá Noc, Krvavá Noc (1974) DVDrip. CZ Dabing",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1974,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "28b7079a3d6802ae",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-1972-sk/28b7079a3d6802ae",
+              "title": "Tichá noc, krvavá noc - 1972 SK",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "48ea796f4edd0796",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-1972-horor-thriller-bdrip-1080p-cz-dabing/48ea796f4edd0796",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal, James Patterson-1972…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3bee2551c0ef3120",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-1972-horor-thriller-bdrip-1080p-cz-dabing/3bee2551c0ef3120",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal, James Patterson-1972…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "8c3def666ee9d33f",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-1972-horor-thriller-bdrip-1080p-cz-dabing/8c3def666ee9d33f",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal, James Patterson-1972…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1972,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cb2752ebc4c",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-mary-woronov-1972-horor-thriller-cz-dabing/68cb2752ebc4c",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal,James Patterson,Mary…",
+              "year": null,
+              "duration_sec": 5089,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.526,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5089,
+                "runtime_delta": 0.126,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cb33098a676",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-mary-woronov-1972-horor-thriller-cz-dabing/68cb33098a676",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal,James Patterson,Mary…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.526,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5088,
+                "runtime_delta": 0.126,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "68cb14d066e27",
+              "url": "https://prehraj.to/ticha-noc-krvava-noc-patrick-o-neal-james-patterson-mary-woronov-1972-horor-thriller-cz-dabing/68cb14d066e27",
+              "title": "Tichá noc, krvavá noc (Patrick O'Neal,James Patterson,Mary…",
+              "year": null,
+              "duration_sec": 5088,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.526,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5088,
+                "runtime_delta": 0.126,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Tichá noc, krvavá noc (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "c44cb67a7c972ede",
+              "url": "https://prehraj.to/silent-night-deadly-night-1-1984-hd-cz-tit/c44cb67a7c972ede",
+              "title": "Silent_Night_Deadly_Night_1_1984_HD_cz_tit",
+              "year": null,
+              "duration_sec": 5094,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "unk1",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.781,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5094,
+                "runtime_delta": 0.125,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "261a2da016bca21e",
+              "url": "https://prehraj.to/silent-night-deadly-night-2-1987-hd-cz-tit/261a2da016bca21e",
+              "title": "Silent_Night_Deadly_Night_2_1987_HD_cz_tit",
+              "year": null,
+              "duration_sec": 5302,
+              "language_tier": "czech_subtitles",
+              "audio_language": null,
+              "language_evidence": "verified_czech_subtitle_track",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": "vtt",
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.781,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5302,
+                "runtime_delta": 0.089,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69069e38d9300",
+              "url": "https://prehraj.to/silent-night-deadly-night-4-initiation-1990-720p-bluray-yts-mx-cz-tit/69069e38d9300",
+              "title": "Silent Night Deadly Night 4 Initiation (1990) [720p] …",
+              "year": null,
+              "duration_sec": 5195,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1990,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "584d8802b92b9",
+              "url": "https://prehraj.to/vanocni-horror-silent-night-deadly-night-cz-titulky-horor-usa-1984/584d8802b92b9",
+              "title": "Vánoční-horror-Silent-Night-Deadly-Night-CZ-Titulky-Horor,…",
+              "year": null,
+              "duration_sec": 5092,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "title_cz_subtitles",
+              "resolution": 480,
+              "subtitles": [],
+              "match_tier": "solid",
+              "match_evidence": {
+                "title_similarity": 0.704,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2025,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": 97,
+                "candidate_runtime_sec": 5092,
+                "runtime_delta": 0.125,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69069e88c5ef5",
+              "url": "https://prehraj.to/silent-night-deadly-night-3-better-watch-out-1989-c-tit/69069e88c5ef5",
+              "title": "Silent Night, Deadly Night 3 Better Watch Out! (1989)-c tit",
+              "year": null,
+              "duration_sec": 5380,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1989,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69069f0d0c6de",
+              "url": "https://prehraj.to/silent-night-deadly-night-2-1987-720p-bluray-x264-yts-am-cz-tit/69069f0d0c6de",
+              "title": "Silent.Night,.Deadly.Night.2.1987.720p.BluRay.x264-[YTS.AM]…",
+              "year": null,
+              "duration_sec": 5302,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1987,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "69069febb9339",
+              "url": "https://prehraj.to/silent-night-deadly-night-5-the-toy-maker-1991-720p-bluray-x264-aac-yts-mx-cz-tit/69069febb9339",
+              "title": "Silent.Night.Deadly.Night.5.The.Toy.Maker.1991.720p.BluRay…",
+              "year": null,
+              "duration_sec": 5201,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "67b7a1273d46c",
+              "url": "https://prehraj.to/p-f-horror-silent-night-deadly-night-1984-720p-bluray-x264-yts-am-cz-tit/67b7a1273d46c",
+              "title": "P.F. Horror-Silent.Night,.Deadly.Night.1984.720p.BluRay…",
+              "year": null,
+              "duration_sec": 5094,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1984,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "685887a36108a",
+              "url": "https://prehraj.to/horror-mkv-silent-night-deadly-night-5-the-toy-maker-1991-720p-bluray-x264-aac-yts-mx-cz-tit/685887a36108a",
+              "title": "Horror MKV-Silent.Night.Deadly.Night.5.The.Toy.Maker.1991…",
+              "year": null,
+              "duration_sec": 5201,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2025,
+                "candidate_year": 1991,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Silent Night, Deadly Night (2025)"
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T15:45:34.248593+00:00"
         }
       ],
       "identity": {
@@ -4646,7 +5187,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-26T06:05:12.207568+00:00"
+        "at": "2026-08-31T15:45:29.206606+00:00"
       }
     },
     "16118": {
@@ -64467,5 +65008,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T15:45:20.370896+00:00"
+  "updated_at": "2026-08-31T15:45:34.248608+00:00"
 }
