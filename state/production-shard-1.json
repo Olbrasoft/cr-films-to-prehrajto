@@ -105434,6 +105434,129 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.561379+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "b0cb6c9074b01e5e",
+              "url": "https://prehraj.to/na-vlastni-otvor-21-dil-jak-probiha-odebirani-krevni-plazmy-jste-vhodny-darce-a-kolik-za-to-dostanete/b0cb6c9074b01e5e",
+              "title": "Na vlastní otvor - 21. díl - Jak probíhá odebírání krevní…",
+              "year": null,
+              "duration_sec": 516,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.375,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 516,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Vlastní krev (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4a9ba7a507622e3b",
+              "url": "https://prehraj.to/ve-vlastnictvi-statu-2-krev-v-ulicich-2005-cs/4a9ba7a507622e3b",
+              "title": "Ve vlastnictví státu 2: Krev v ulicích - 2005 CS",
+              "year": null,
+              "duration_sec": 5450,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2005,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Vlastní krev (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "dec37a58f59e0d35",
+              "url": "https://prehraj.to/experiment-zombie-automaton-transfusion-2006-720p-bluray-x264-aac-yts-mx-cz-dab/dec37a58f59e0d35",
+              "title": "Experiment- Zombie-Automaton.Transfusion.2006.720p.BluRay…",
+              "year": null,
+              "duration_sec": 4510,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Transfusion (2023)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "21b8b3b6bdad5b87",
+              "url": "https://prehraj.to/experiment-zombie-automaton-transfusion-2006-720p-bluray-x264-aac-yts-mx-cz-dab-mkv/21b8b3b6bdad5b87",
+              "title": "Experiment- Zombie-Automaton.Transfusion.2006.720p.BluRay…",
+              "year": null,
+              "duration_sec": 4510,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2023,
+                "candidate_year": 2006,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Transfusion (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "35043",
+              "url": "https://online.sktorrent.eu/video/35043/",
+              "title": "Vlastní krev",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-08-31T21:09:54.794195+00:00"
         }
       ],
       "identity": {
@@ -105452,7 +105575,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:27:16.223800+00:00"
+        "at": "2026-08-31T21:09:51.396092+00:00"
       }
     },
     "8673": {
@@ -108053,5 +108176,5 @@
       }
     }
   },
-  "updated_at": "2026-08-31T21:09:45.195972+00:00"
+  "updated_at": "2026-08-31T21:09:54.794214+00:00"
 }
