@@ -15785,7 +15785,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T03:36:58.408169+00:00",
-        "last_verification_at": "2026-09-01T05:02:11.483832+00:00"
+        "last_verification_at": "2026-09-01T05:04:51.287843+00:00"
       }
     },
     "14079": {
@@ -34981,6 +34981,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395546+00:00"
+        },
+        {
+          "provider": "sktorrent",
+          "source_id": "12244",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28986055",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T05:18:05.160416+00:00"
         }
       ],
       "identity": {
@@ -35000,22 +35011,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T22:47:06.006043+00:00"
-      },
-      "upload": {
-        "target_video_id": "28986055",
-        "display_name": "Wrestler (2008) CZ Dabing",
-        "size_bytes": 941255356,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "12244",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T22:53:09.133407+00:00",
-        "last_verification_at": "2026-08-31T23:32:38.591093+00:00",
-        "verified_at": "2026-08-31T23:32:38.591095+00:00",
-        "live_display_name": "Wrestler (2008) CZ Dabing"
       }
     },
     "8983": {
@@ -71205,5 +71200,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T05:02:59.087258+00:00"
+  "updated_at": "2026-09-01T05:18:05.160489+00:00"
 }

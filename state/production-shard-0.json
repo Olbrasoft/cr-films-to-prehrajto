@@ -65611,9 +65611,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 1080,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
+        "processing_status": "active",
         "uploaded_at": "2026-08-31T15:33:34.170585+00:00",
-        "last_verification_at": "2026-08-31T16:23:10.323311+00:00"
+        "last_verification_at": "2026-09-01T05:04:51.287859+00:00",
+        "verified_at": "2026-09-01T05:04:51.287862+00:00",
+        "live_display_name": "Ranhojič II (2025) CZ Dabing"
       }
     },
     "14368": {
@@ -65791,9 +65793,11 @@
         "language_tier": "czech_audio",
         "actual_resolution": 720,
         "subtitle_handling": "not required",
-        "processing_status": "pending",
+        "processing_status": "active",
         "uploaded_at": "2026-08-31T15:45:59.852065+00:00",
-        "last_verification_at": "2026-08-31T16:23:10.323328+00:00"
+        "last_verification_at": "2026-09-01T05:04:51.287866+00:00",
+        "verified_at": "2026-09-01T05:04:51.287868+00:00",
+        "live_display_name": "Super průvodce (2025) CZ Dabing"
       }
     },
     "16288": {
@@ -87898,6 +87902,17 @@
           ],
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-27T22:30:10.675480+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "8f62b3a46df656a7",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28935913",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T05:18:04.509524+00:00"
         }
       ],
       "identity": {
@@ -87917,21 +87932,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-29T18:45:52.276419+00:00"
-      },
-      "upload": {
-        "target_video_id": "28935913",
-        "display_name": "Pacho, hybský zbojník (1975) CZ Dabing",
-        "size_bytes": 1467308728,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "8f62b3a46df656a7",
-        "language_tier": "slovak_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-29T19:00:39.342915+00:00",
-        "verified_at": "2026-08-29T20:03:17.126683+00:00",
-        "live_display_name": "Pacho, hybský zbojník (1975) CZ Dabing"
       }
     },
     "16728": {
@@ -103627,5 +103627,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T05:02:58.009494+00:00"
+  "updated_at": "2026-09-01T05:18:04.509572+00:00"
 }

@@ -32904,7 +32904,19 @@
       }
     },
     "894": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "75a519afaf382d5f",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28879893",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T05:18:05.055086+00:00"
+        }
+      ],
       "identity": {
         "slug": "avatar-the-way-of-water",
         "title": "Avatar: The Way of Water",
@@ -32922,21 +32934,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-27T01:20:15.081057+00:00"
-      },
-      "upload": {
-        "target_video_id": "28879893",
-        "display_name": "Avatar: The Way of Water (2022) CZ Dabing",
-        "size_bytes": 5110828443,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "75a519afaf382d5f",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-27T01:42:47.363203+00:00",
-        "verified_at": "2026-08-27T04:54:23.442171+00:00",
-        "live_display_name": "Avatar: The Way of Water (2022) CZ Dabing"
       }
     },
     "12558": {
@@ -61764,7 +61761,19 @@
       }
     },
     "5830": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "46540",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28907246",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T05:18:05.055140+00:00"
+        }
+      ],
       "identity": {
         "slug": "operace-napoleon",
         "title": "Operace Napoleon",
@@ -61782,21 +61791,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:12:43.025886+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907246",
-        "display_name": "Operace Napoleon (2023) CZ Dabing",
-        "size_bytes": 496886915,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "46540",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T15:16:12.619187+00:00",
-        "verified_at": "2026-08-28T19:49:13.551289+00:00",
-        "live_display_name": "Operace Napoleon (2023) CZ Dabing"
       }
     },
     "5758": {
@@ -62241,7 +62235,19 @@
       }
     },
     "9462": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "674fabd34012a",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28907460",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T05:18:05.055145+00:00"
+        }
+      ],
       "identity": {
         "slug": "borderlands",
         "title": "Borderlands",
@@ -62259,21 +62265,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T15:30:17.535410+00:00"
-      },
-      "upload": {
-        "target_video_id": "28907460",
-        "display_name": "Borderlands (2024) CZ Dabing",
-        "size_bytes": 2198579522,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "674fabd34012a",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T15:41:06.802260+00:00",
-        "verified_at": "2026-08-28T19:49:13.551297+00:00",
-        "live_display_name": "Borderlands (2024) CZ Dabing"
       }
     },
     "8126": {
@@ -63692,7 +63683,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T18:03:15.403097+00:00",
-        "last_verification_at": "2026-08-31T14:38:22.575378+00:00"
+        "last_verification_at": "2026-09-01T05:04:51.287856+00:00"
       }
     },
     "5870": {
@@ -67956,5 +67947,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T05:02:55.060886+00:00"
+  "updated_at": "2026-09-01T05:18:05.055157+00:00"
 }
