@@ -8194,7 +8194,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-09-01T00:56:04.434619+00:00"
+        "at": "2026-09-01T01:03:02.644816+00:00"
       }
     },
     "9147": {
@@ -10118,7 +10118,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-09-01T00:56:04.435487+00:00"
+        "at": "2026-09-01T01:03:02.645686+00:00"
       }
     },
     "15619": {
@@ -40785,6 +40785,42 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:50.261267+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "22177",
+              "url": "https://online.sktorrent.eu/video/22177/",
+              "title": "Divoký seznam",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T01:03:07.289963+00:00"
         }
       ],
       "identity": {
@@ -40803,7 +40839,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T19:59:23.859035+00:00"
+        "at": "2026-09-01T01:03:02.647657+00:00"
       }
     },
     "13083": {
@@ -43709,5 +43745,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T01:02:56.477992+00:00"
+  "updated_at": "2026-09-01T01:03:07.289983+00:00"
 }
