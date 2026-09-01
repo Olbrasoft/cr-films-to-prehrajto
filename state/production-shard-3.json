@@ -8206,7 +8206,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-09-01T04:34:42.053459+00:00"
+        "at": "2026-09-01T04:50:25.854315+00:00"
       }
     },
     "9147": {
@@ -10133,7 +10133,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-09-01T04:34:42.054335+00:00"
+        "at": "2026-09-01T04:50:25.855387+00:00"
       }
     },
     "15619": {
@@ -39796,6 +39796,62 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T04:49:39.476467+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "26e69ffa95787300",
+              "url": "https://prehraj.to/20231025-the-first-real-money-rain-in-the-world-1-000-000-onemanshowthemovie-moneyrain-theend-6m0g9p-ai8i/26e69ffa95787300",
+              "title": "20231025 - The first real MONEY RAIN in the world! $1.000…",
+              "year": null,
+              "duration_sec": 40,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.219,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2023,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 40,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "ONEMANSHOW: The Movie (2023)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "33269",
+              "url": "https://online.sktorrent.eu/video/33269/",
+              "title": "ONEMANSHOW: The Movie",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T04:50:29.493910+00:00"
         }
       ],
       "identity": {
@@ -39814,7 +39870,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:26:05.656891+00:00"
+        "at": "2026-09-01T04:50:25.856235+00:00"
       }
     },
     "15483": {
@@ -45712,5 +45768,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T04:49:39.476497+00:00"
+  "updated_at": "2026-09-01T04:50:29.493929+00:00"
 }
