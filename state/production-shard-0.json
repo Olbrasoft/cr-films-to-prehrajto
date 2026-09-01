@@ -68811,7 +68811,7 @@
           "candidate_year": 2023,
           "year_match": true
         },
-        "at": "2026-09-01T00:44:34.695653+00:00"
+        "at": "2026-09-01T00:50:35.276775+00:00"
       }
     },
     "14024": {
@@ -69886,6 +69886,63 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:49.387388+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6ed529aa90c996eb",
+              "url": "https://prehraj.to/svetlo-vanoc-2022-dabing-hd-1080p/6ed529aa90c996eb",
+              "title": "Světlo Vánoc 2022 dabing HD 1080p",
+              "year": null,
+              "duration_sec": 4988,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": "unknown",
+              "resolution": 1080,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "title_similarity": 0.889,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": 2022,
+                "year_match": true,
+                "film_runtime_min": 84,
+                "candidate_runtime_sec": 4988,
+                "runtime_delta": 0.01,
+                "catalog_source": false,
+                "rejection_reason": null
+              },
+              "query": "Světlo Vánoc (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "33465",
+              "url": "https://online.sktorrent.eu/video/33465/",
+              "title": "Světlo Vánoc",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:50:39.234636+00:00"
         }
       ],
       "identity": {
@@ -69904,7 +69961,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T10:44:38.934832+00:00"
+        "at": "2026-09-01T00:50:35.279289+00:00"
       }
     },
     "14008": {
@@ -71271,7 +71328,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-09-01T00:44:34.695924+00:00"
+        "at": "2026-09-01T00:50:35.277061+00:00"
       }
     },
     "14096": {
@@ -102801,5 +102858,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T00:50:30.896176+00:00"
+  "updated_at": "2026-09-01T00:50:39.234656+00:00"
 }
