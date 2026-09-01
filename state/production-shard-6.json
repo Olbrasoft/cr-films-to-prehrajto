@@ -61772,6 +61772,42 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T05:18:05.055140+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "46540",
+              "url": "https://online.sktorrent.eu/video/46540/",
+              "title": "Operace Napoleon",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T05:19:26.940986+00:00"
         }
       ],
       "identity": {
@@ -61790,7 +61826,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T15:12:43.025886+00:00"
+        "at": "2026-09-01T05:19:20.582914+00:00"
       }
     },
     "5758": {
@@ -67947,5 +67983,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T05:18:05.055157+00:00"
+  "updated_at": "2026-09-01T05:19:26.941004+00:00"
 }
