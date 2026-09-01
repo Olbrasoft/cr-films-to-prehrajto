@@ -64297,6 +64297,89 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T02:33:12.189756+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "6659d27211005",
+              "url": "https://prehraj.to/zivotni-zavod-very-cerne-posledni-ceska-mistryne-sveta-v-gymnastice-1979/6659d27211005",
+              "title": "Životní závod Věry Černé – Poslední česká mistryně světa v…",
+              "year": null,
+              "duration_sec": 458,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.314,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 458,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Poslední závod (2022)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "7eab33c6fddd0074",
+              "url": "https://prehraj.to/slavne-sportovni-okamziky-245-dil-zivotni-zavod-very-cerne-posledni-ceska-mistryne-sveta-v-gymnastice-1979/7eab33c6fddd0074",
+              "title": "Slavné sportovní okamžiky - 245. díl - Životní závod Věry…",
+              "year": null,
+              "duration_sec": 458,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.364,
+                "title_contains_alias": false,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2022,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 458,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Poslední závod (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "24643",
+              "url": "https://online.sktorrent.eu/video/24643/",
+              "title": "Poslední závod",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T02:34:32.422957+00:00"
         }
       ],
       "identity": {
@@ -64315,7 +64398,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T20:12:05.513209+00:00"
+        "at": "2026-09-01T02:34:27.815101+00:00"
       }
     },
     "13662": {
@@ -67858,5 +67941,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:33:12.189783+00:00"
+  "updated_at": "2026-09-01T02:34:32.423001+00:00"
 }
