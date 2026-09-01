@@ -99812,7 +99812,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-09-01T00:29:02.702440+00:00"
+        "at": "2026-09-01T00:50:41.821132+00:00"
       }
     },
     "2264": {
@@ -101458,6 +101458,772 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:49.387422+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "682b62108b4f7",
+              "url": "https://prehraj.to/s01e013-hnuti-odporu/682b62108b4f7",
+              "title": "S01E013_Hnutí odporu",
+              "year": null,
+              "duration_sec": 2649,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 0.75,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2649,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Hnutí odporu (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6827a95e9183c",
+              "url": "https://prehraj.to/terra-nova-s01e013-hnuti-odporu/6827a95e9183c",
+              "title": "Terra Nova S01E013 Hnutí odporu",
+              "year": null,
+              "duration_sec": 2649,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hnutí odporu (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "682381783fc45",
+              "url": "https://prehraj.to/terra-nova-s01e013-hnuti-odporu/682381783fc45",
+              "title": "Terra Nova - S01E013_Hnutí odporu",
+              "year": null,
+              "duration_sec": 2649,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.558,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2649,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Hnutí odporu (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "683e4e494cbd5",
+              "url": "https://prehraj.to/terra-nova-s01e013-hnuti-odporu/683e4e494cbd5",
+              "title": "Terra Nova S01E013_Hnutí odporu",
+              "year": null,
+              "duration_sec": 2649,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.558,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 2649,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Hnutí odporu (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6820ded189db0",
+              "url": "https://prehraj.to/terra-nova-s01e013-hnuti-odporu-en-sk-hevc-720p/6820ded189db0",
+              "title": "Terra Nova S01E013 Hnutí odporu EN SK HEVC 720p",
+              "year": null,
+              "duration_sec": 2649,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Hnutí odporu (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "6693f8c6874c1",
+              "url": "https://prehraj.to/resistance/6693f8c6874c1",
+              "title": "Resistance",
+              "year": null,
+              "duration_sec": 198,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "ambiguous",
+              "match_evidence": {
+                "title_similarity": 1.0,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": true,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 198,
+                "runtime_delta": null,
+                "rejection_reason": "title_only"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ff13634c7935",
+              "url": "https://prehraj.to/resistance-2011-cztitulky/5ff13634c7935",
+              "title": "Resistance (2011) CZtitulky",
+              "year": null,
+              "duration_sec": 5480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "4162ae5655020bc0",
+              "url": "https://prehraj.to/resistance-2011-cz-tit/4162ae5655020bc0",
+              "title": "Resistance (2011) cz tit",
+              "year": null,
+              "duration_sec": 5480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1e4eb1b0810f0289",
+              "url": "https://prehraj.to/resistance-2011-cz-titulky/1e4eb1b0810f0289",
+              "title": "Resistance (2011) CZ Titulky",
+              "year": null,
+              "duration_sec": 5480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60495562f4213",
+              "url": "https://prehraj.to/resistance-drama-2011-cz-titulky/60495562f4213",
+              "title": "Resistance-(drama)-(2011)--cz-titulky",
+              "year": null,
+              "duration_sec": 5480,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d0bd83cbb3d",
+              "url": "https://prehraj.to/star-wars-resistance-s02e12-1080p-dsnp-web-dl-ddp5-1-h-264-lazy/60d0bd83cbb3d",
+              "title": "Star.Wars.Resistance.S02E12.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d0be08dc426",
+              "url": "https://prehraj.to/star-wars-resistance-s02e14-1080p-dsnp-web-dl-ddp5-1-h-264-lazy/60d0be08dc426",
+              "title": "Star.Wars.Resistance.S02E14.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d0be2d14b3a",
+              "url": "https://prehraj.to/star-wars-resistance-s02e15-1080p-dsnp-web-dl-ddp5-1-h-264-lazy/60d0be2d14b3a",
+              "title": "Star.Wars.Resistance.S02E15.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5eea6213757b3",
+              "url": "https://prehraj.to/star-wars-resistance-s02e05-cztit-v-obraze/5eea6213757b3",
+              "title": "Star Wars Resistance S02E05 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 1327,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5eea62a99b4e9",
+              "url": "https://prehraj.to/star-wars-resistance-s02e06-cztit-v-obraze/5eea62a99b4e9",
+              "title": "Star Wars Resistance S02E06 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 1327,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e1e3df1b936b",
+              "url": "https://prehraj.to/star-wars-resistance-s02e15-eng/5e1e3df1b936b",
+              "title": "Star Wars Resistance S02E15 - ENG",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5eebc85a937eb",
+              "url": "https://prehraj.to/star-wars-resistance-s02e10-cztit-v-obraze/5eebc85a937eb",
+              "title": "Star Wars Resistance S02E10 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d1d801046685",
+              "url": "https://prehraj.to/star-wars-resistance-s01e17/5d1d801046685",
+              "title": "Star Wars Resistance - s01e17",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c1f201dd148b",
+              "url": "https://prehraj.to/star-wars-resistance-1x1/5c1f201dd148b",
+              "title": "Star Wars Resistance 1x1",
+              "year": null,
+              "duration_sec": 2604,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5ce74734ab6a5",
+              "url": "https://prehraj.to/star-wars-resistance-s01e15/5ce74734ab6a5",
+              "title": "Star Wars Resistance - s01e15",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c6e73166379a",
+              "url": "https://prehraj.to/star-wars-resistance-1x10/5c6e73166379a",
+              "title": "Star Wars Resistance 1x10",
+              "year": null,
+              "duration_sec": 1326,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c6e7336b5235",
+              "url": "https://prehraj.to/star-wars-resistance-1x9/5c6e7336b5235",
+              "title": "Star Wars Resistance 1x9",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4d4e14520b9",
+              "url": "https://prehraj.to/star-wars-resistance-s01e05/5c4d4e14520b9",
+              "title": "Star Wars Resistance - s01e05",
+              "year": null,
+              "duration_sec": 1326,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c6e72f5476b9",
+              "url": "https://prehraj.to/star-wars-resistance-1x8/5c6e72f5476b9",
+              "title": "Star Wars Resistance 1x8",
+              "year": null,
+              "duration_sec": 1326,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4d4dc70cd5a",
+              "url": "https://prehraj.to/star-wars-resistance-s01e04/5c4d4dc70cd5a",
+              "title": "Star Wars Resistance - s01e04",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c5a63bfc0ca0",
+              "url": "https://prehraj.to/star-wars-resistance-s01e14/5c5a63bfc0ca0",
+              "title": "Star Wars Resistance - s01e14",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5d1d80c5ebf03",
+              "url": "https://prehraj.to/star-wars-resistance-s01e20/5d1d80c5ebf03",
+              "title": "Star Wars Resistance - s01e20",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5c4d50edeaee2",
+              "url": "https://prehraj.to/star-wars-resistance-s01e07/5c4d50edeaee2",
+              "title": "Star Wars Resistance - s01e07",
+              "year": null,
+              "duration_sec": 1327,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5eebc8edda8b7",
+              "url": "https://prehraj.to/star-wars-resistance-s02e12-cztit-v-obraze/5eebc8edda8b7",
+              "title": "Star Wars Resistance S02E12 CZtit V OBRAZE",
+              "year": null,
+              "duration_sec": 1327,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5b2ff40f9ee26",
+              "url": "https://prehraj.to/odpor-resistance-valecny-cz-titulky-2011-jad/5b2ff40f9ee26",
+              "title": "Odpor-Resistance -válečný-cz titulky-2011-jad",
+              "year": null,
+              "duration_sec": 5481,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2020,
+                "candidate_year": 2011,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "2a08c478c20c17d6",
+              "url": "https://prehraj.to/sales-resistance-cs/2a08c478c20c17d6",
+              "title": "Sales Resistance CS",
+              "year": null,
+              "duration_sec": 1419,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.69,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 1419,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "665a2b727f792",
+              "url": "https://prehraj.to/samurai-resistance-justify/665a2b727f792",
+              "title": "Samurai Resistance - Justify",
+              "year": null,
+              "duration_sec": 272,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.556,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2020,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 272,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d0ba6e7c6c1",
+              "url": "https://prehraj.to/star-wars-resistance-s02e01-1080p-dsnp-web-dl-ddp5-1-h-264-lazy/60d0ba6e7c6c1",
+              "title": "Star.Wars.Resistance.S02E01.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d0bc361c408",
+              "url": "https://prehraj.to/star-wars-resistance-s02e07-1080p-dsnp-web-dl-ddp5-1-h-264-lazy/60d0bc361c408",
+              "title": "Star.Wars.Resistance.S02E07.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d0bc7aadc05",
+              "url": "https://prehraj.to/star-wars-resistance-s02e08-1080p-dsnp-web-dl-ddp5-1-h-264-lazy/60d0bc7aadc05",
+              "title": "Star.Wars.Resistance.S02E08.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "60d0bea93d26e",
+              "url": "https://prehraj.to/star-wars-resistance-s02e17-1080p-dsnp-web-dl-ddp5-1-h-264-lazy/60d0bea93d26e",
+              "title": "Star.Wars.Resistance.S02E17.1080p.DSNP.WEB-DL.DDP5.1.H.264…",
+              "year": null,
+              "duration_sec": 1323,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "5e1e3e2e5ee02",
+              "url": "https://prehraj.to/star-wars-resistance-s02e16-eng/5e1e3e2e5ee02",
+              "title": "Star Wars Resistance S02E16 - ENG",
+              "year": null,
+              "duration_sec": 1327,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "rejection_reason": "tv_episode"
+              },
+              "query": "Resistance (2020)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "12405",
+              "url": "https://online.sktorrent.eu/video/12405/",
+              "title": "Hnutí odporu",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:50:44.083140+00:00"
         }
       ],
       "identity": {
@@ -101476,7 +102242,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T23:18:26.007557+00:00"
+        "at": "2026-09-01T00:50:41.821333+00:00"
       }
     },
     "104": {
@@ -102858,5 +103624,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T00:50:39.234656+00:00"
+  "updated_at": "2026-09-01T00:50:44.083160+00:00"
 }
