@@ -10772,6 +10772,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068669+00:00"
+        },
+        {
+          "provider": "sktorrent",
+          "source_id": "35904",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28980696",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T04:08:51.217172+00:00"
         }
       ],
       "identity": {
@@ -10791,22 +10802,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T16:59:27.461872+00:00"
-      },
-      "upload": {
-        "target_video_id": "28980696",
-        "display_name": "Madam Web (2024) CZ Dabing",
-        "size_bytes": 760426751,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "35904",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T17:05:34.422231+00:00",
-        "last_verification_at": "2026-08-31T18:15:59.142922+00:00",
-        "verified_at": "2026-08-31T18:15:59.142924+00:00",
-        "live_display_name": "Madam Web (2024) CZ Dabing"
       }
     },
     "15899": {
@@ -39201,11 +39196,23 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T15:23:04.576276+00:00",
-        "last_verification_at": "2026-08-31T14:05:55.011637+00:00"
+        "last_verification_at": "2026-09-01T03:56:06.325594+00:00"
       }
     },
     "7179": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "34883",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28955055",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T04:08:51.217257+00:00"
+        }
+      ],
       "identity": {
         "slug": "jeji-telo",
         "title": "Její tělo",
@@ -39223,22 +39230,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T12:51:31.151775+00:00"
-      },
-      "upload": {
-        "target_video_id": "28955055",
-        "display_name": "Její tělo (2023) CZ Dabing",
-        "size_bytes": 700521297,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "34883",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-30T12:56:29.091632+00:00",
-        "last_verification_at": "2026-08-30T14:29:25.557082+00:00",
-        "verified_at": "2026-08-30T14:29:25.557100+00:00",
-        "live_display_name": "Její tělo (2023) CZ Dabing"
       }
     },
     "15675": {
@@ -45208,5 +45199,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T03:54:49.546580+00:00"
+  "updated_at": "2026-09-01T04:08:51.217276+00:00"
 }

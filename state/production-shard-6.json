@@ -5329,7 +5329,19 @@
       }
     },
     "10422": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "4baa3fc33586afee",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28850164",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T04:08:51.475151+00:00"
+        }
+      ],
       "identity": {
         "slug": "sheroes",
         "title": "Sheroes",
@@ -5347,21 +5359,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T07:46:17.582366+00:00"
-      },
-      "upload": {
-        "target_video_id": "28850164",
-        "display_name": "Sheroes (2023) CZ Dabing",
-        "size_bytes": 1870145097,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "4baa3fc33586afee",
-        "language_tier": "slovak_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T07:54:06.808248+00:00",
-        "verified_at": "2026-08-26T09:10:21.724472+00:00",
-        "live_display_name": "Sheroes (2023) CZ Dabing"
       }
     },
     "16270": {
@@ -62189,7 +62186,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T15:25:50.760723+00:00",
-        "last_verification_at": "2026-08-31T14:08:26.021854+00:00"
+        "last_verification_at": "2026-09-01T03:56:06.325610+00:00"
       }
     },
     "14222": {
@@ -67943,5 +67940,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T03:54:35.333553+00:00"
+  "updated_at": "2026-09-01T04:08:51.475218+00:00"
 }
