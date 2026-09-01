@@ -64446,6 +64446,89 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:50.517005+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "cd2c5a1c63e63685",
+              "url": "https://prehraj.to/prvok-sampon-tecka-a-karel-martin-pechlat-david-svehlik-hynek-cermak-martin-hofmann-2021-cz/cd2c5a1c63e63685",
+              "title": "Prvok, Šampón, Tečka a Karel - Martin Pechlát, David…",
+              "year": null,
+              "duration_sec": 6717,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.712,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6717,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Prvok, Šampón, Tečka a Karel (2021)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "3bf288ea05cb8d2a",
+              "url": "https://prehraj.to/prvok-sampon-tecka-a-karel-martin-pechlat-david-svehlik-hynek-cermak-martin-hofmann-2021-cz/3bf288ea05cb8d2a",
+              "title": "Prvok, Šampón, Tečka a Karel - Martin Pechlát, David…",
+              "year": null,
+              "duration_sec": 6717,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.712,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2021,
+                "candidate_year": null,
+                "year_match": false,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 6717,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Prvok, Šampón, Tečka a Karel (2021)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "21128",
+              "url": "https://online.sktorrent.eu/video/21128/",
+              "title": "Prvok, Šampón, Tečka a Karel",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T01:21:08.537862+00:00"
         }
       ],
       "identity": {
@@ -64464,7 +64547,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T20:28:33.738580+00:00"
+        "at": "2026-09-01T01:21:05.754873+00:00"
       }
     },
     "14230": {
@@ -67723,5 +67806,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T01:20:59.112212+00:00"
+  "updated_at": "2026-09-01T01:21:08.537881+00:00"
 }
