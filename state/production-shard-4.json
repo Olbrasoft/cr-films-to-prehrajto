@@ -5219,6 +5219,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:50.336907+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "09beda872d0111a9",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28987904",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T03:05:05.998171+00:00"
         }
       ],
       "identity": {
@@ -5238,22 +5249,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-09-01T00:44:53.601670+00:00"
-      },
-      "upload": {
-        "target_video_id": "28987904",
-        "display_name": "Boží úlet (2025) CZ Dabing",
-        "size_bytes": 1001466907,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "09beda872d0111a9",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-09-01T00:50:43.330807+00:00",
-        "last_verification_at": "2026-09-01T01:49:32.414954+00:00",
-        "verified_at": "2026-09-01T01:49:32.414956+00:00",
-        "live_display_name": "Boží úlet (2025) CZ Dabing"
       }
     },
     "3620": {
@@ -8819,7 +8814,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T01:40:24.891006+00:00",
-        "last_verification_at": "2026-09-01T02:49:48.997228+00:00"
+        "last_verification_at": "2026-09-01T02:52:27.714392+00:00"
       }
     },
     "10364": {
@@ -63625,7 +63620,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T06:39:51.231816+00:00",
-        "last_verification_at": "2026-08-31T13:48:55.738575+00:00"
+        "last_verification_at": "2026-09-01T02:52:27.714406+00:00"
       }
     },
     "16436": {
@@ -63696,7 +63691,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T06:45:46.154559+00:00",
-        "last_verification_at": "2026-08-31T13:48:55.738577+00:00"
+        "last_verification_at": "2026-09-01T02:52:27.714409+00:00"
       }
     },
     "16492": {
@@ -63836,7 +63831,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T07:00:46.085290+00:00",
-        "last_verification_at": "2026-08-31T13:52:28.239748+00:00"
+        "last_verification_at": "2026-09-01T02:52:27.714416+00:00"
       }
     },
     "15452": {
@@ -69559,5 +69554,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:50:36.817939+00:00"
+  "updated_at": "2026-09-01T03:05:05.998267+00:00"
 }

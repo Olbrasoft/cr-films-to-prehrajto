@@ -11243,6 +11243,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.068680+00:00"
+        },
+        {
+          "provider": "sktorrent",
+          "source_id": "33007",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28983591",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T03:05:05.921272+00:00"
         }
       ],
       "identity": {
@@ -11262,22 +11273,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T19:56:22.407636+00:00"
-      },
-      "upload": {
-        "target_video_id": "28983591",
-        "display_name": "Ponor (2023) CZ Dabing",
-        "size_bytes": 575166095,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "33007",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T20:00:42.462784+00:00",
-        "last_verification_at": "2026-08-31T20:53:01.992328+00:00",
-        "verified_at": "2026-08-31T20:53:01.992330+00:00",
-        "live_display_name": "Ponor (2023) CZ Dabing"
       }
     },
     "1891": {
@@ -36044,7 +36039,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T07:01:51.384176+00:00",
-        "last_verification_at": "2026-08-31T13:52:28.239751+00:00"
+        "last_verification_at": "2026-09-01T02:52:27.714418+00:00"
       }
     },
     "4867": {
@@ -43763,5 +43758,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:50:54.038916+00:00"
+  "updated_at": "2026-09-01T03:05:05.921362+00:00"
 }

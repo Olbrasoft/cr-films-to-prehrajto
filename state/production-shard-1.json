@@ -96270,6 +96270,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:49.559352+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "67c353c65dbdd",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28988044",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T03:05:05.638153+00:00"
         }
       ],
       "identity": {
@@ -96289,22 +96300,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-09-01T00:54:09.367661+00:00"
-      },
-      "upload": {
-        "target_video_id": "28988044",
-        "display_name": "Paddington v džungli (2024) CZ Dabing",
-        "size_bytes": 2306768895,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "67c353c65dbdd",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-09-01T01:07:01.346685+00:00",
-        "last_verification_at": "2026-09-01T01:49:32.414907+00:00",
-        "verified_at": "2026-09-01T01:49:32.414910+00:00",
-        "live_display_name": "Paddington v džungli (2024) CZ Dabing"
       }
     },
     "10817": {
@@ -110494,5 +110489,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:51:04.361680+00:00"
+  "updated_at": "2026-09-01T03:05:05.638261+00:00"
 }
