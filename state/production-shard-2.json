@@ -11739,7 +11739,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-09-01T02:04:17.080057+00:00"
+        "at": "2026-09-01T02:16:45.469062+00:00"
       }
     },
     "466": {
@@ -287705,6 +287705,35 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:49.821776+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "sktorrent",
+              "source_id": "19968",
+              "url": "https://online.sktorrent.eu/video/19968/",
+              "title": "Podivuhodná dobrodružství Paula Harkera",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T02:16:51.439335+00:00"
         }
       ],
       "identity": {
@@ -287723,7 +287752,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-28T16:53:24.229037+00:00"
+        "at": "2026-09-01T02:16:45.469918+00:00"
       }
     },
     "14194": {
@@ -352185,5 +352214,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:16:38.745888+00:00"
+  "updated_at": "2026-09-01T02:16:51.439353+00:00"
 }
