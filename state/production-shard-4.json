@@ -1627,7 +1627,7 @@
           "candidate_year": 2019,
           "year_match": true
         },
-        "at": "2026-09-01T02:04:52.539503+00:00"
+        "at": "2026-09-01T02:08:28.313641+00:00"
       }
     },
     "26420": {
@@ -6044,7 +6044,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-09-01T02:04:52.540240+00:00"
+        "at": "2026-09-01T02:08:28.314388+00:00"
       }
     },
     "652": {
@@ -12096,6 +12096,89 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:50.336974+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "51caf45268afbea6",
+              "url": "https://prehraj.to/stastny-novy-rok-2019-cesky-film/51caf45268afbea6",
+              "title": "Štastný nový rok (2019) český film",
+              "year": null,
+              "duration_sec": 5569,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.744,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5569,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Šťastný nový rok (2019)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "fcfbb1b8979a82de",
+              "url": "https://prehraj.to/stastny-novy-rok-2019-cesky-film/fcfbb1b8979a82de",
+              "title": "Štastný nový rok (2019) český film",
+              "year": null,
+              "duration_sec": 5569,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.744,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2019,
+                "candidate_year": 2019,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 5569,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Šťastný nový rok (2019)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "10188",
+              "url": "https://online.sktorrent.eu/video/10188/",
+              "title": "Šťastný nový rok",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T02:08:32.419086+00:00"
         }
       ],
       "identity": {
@@ -12114,7 +12197,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T11:52:10.580634+00:00"
+        "at": "2026-09-01T02:08:28.317205+00:00"
       }
     },
     "17084": {
@@ -22222,7 +22305,7 @@
           "candidate_year": 2020,
           "year_match": true
         },
-        "at": "2026-09-01T02:04:52.540709+00:00"
+        "at": "2026-09-01T02:08:28.314868+00:00"
       }
     },
     "5948": {
@@ -22311,7 +22394,7 @@
             }
           ]
         },
-        "at": "2026-09-01T02:04:52.540876+00:00"
+        "at": "2026-09-01T02:08:28.315041+00:00"
       }
     },
     "16884": {
@@ -69441,5 +69524,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:08:26.439409+00:00"
+  "updated_at": "2026-09-01T02:08:32.419106+00:00"
 }
