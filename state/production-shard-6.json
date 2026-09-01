@@ -35983,7 +35983,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T01:31:27.087323+00:00",
-        "last_verification_at": "2026-09-01T02:18:05.829267+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137524+00:00"
       }
     },
     "7702": {
@@ -64286,7 +64286,19 @@
       }
     },
     "2246": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "24643",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28914807",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T02:33:12.189756+00:00"
+        }
+      ],
       "identity": {
         "slug": "posledni-zavod",
         "title": "Poslední závod",
@@ -64304,21 +64316,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T20:12:05.513209+00:00"
-      },
-      "upload": {
-        "target_video_id": "28914807",
-        "display_name": "Poslední závod (2022) CZ Dabing",
-        "size_bytes": 495900951,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "24643",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T20:15:38.643733+00:00",
-        "verified_at": "2026-08-28T22:01:58.949106+00:00",
-        "live_display_name": "Poslední závod (2022) CZ Dabing"
       }
     },
     "13662": {
@@ -67861,5 +67858,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:19:36.041098+00:00"
+  "updated_at": "2026-09-01T02:33:12.189783+00:00"
 }

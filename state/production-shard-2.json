@@ -696,7 +696,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T01:00:20.403503+00:00",
-        "last_verification_at": "2026-09-01T02:18:05.829232+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137486+00:00"
       }
     },
     "24082": {
@@ -4441,6 +4441,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:49.821647+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "08826d9f74778648",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28988118",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T02:33:11.473457+00:00"
         }
       ],
       "identity": {
@@ -4460,22 +4471,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-09-01T01:00:27.860158+00:00"
-      },
-      "upload": {
-        "target_video_id": "28988118",
-        "display_name": "28 let poté: Chrám z kostí (2026) CZ Dabing",
-        "size_bytes": 1968669495,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "08826d9f74778648",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-09-01T01:11:27.127558+00:00",
-        "last_verification_at": "2026-09-01T01:49:32.414926+00:00",
-        "verified_at": "2026-09-01T01:49:32.414928+00:00",
-        "live_display_name": "28 let poté: Chrám z kostí (2026) CZ Dabing"
       }
     },
     "5298": {
@@ -6048,7 +6043,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T01:36:44.974205+00:00",
-        "last_verification_at": "2026-09-01T02:18:05.829235+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137503+00:00"
       }
     },
     "9618": {
@@ -7180,7 +7175,7 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T01:56:47.969458+00:00",
-        "last_verification_at": "2026-09-01T02:18:05.829238+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137507+00:00"
       }
     },
     "7850": {
@@ -10588,7 +10583,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T02:04:14.172802+00:00",
-        "last_verification_at": "2026-09-01T02:18:05.829240+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137510+00:00"
       }
     },
     "4538": {
@@ -10756,7 +10751,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T02:16:38.745860+00:00",
-        "last_verification_at": "2026-09-01T02:18:05.829241+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137513+00:00"
       }
     },
     "8890": {
@@ -352217,5 +352212,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:19:21.245626+00:00"
+  "updated_at": "2026-09-01T02:33:11.473582+00:00"
 }

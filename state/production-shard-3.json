@@ -7171,7 +7171,19 @@
       }
     },
     "22187": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "3488cad64bd06f4d",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28952173",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T02:33:11.930688+00:00"
+        }
+      ],
       "identity": {
         "slug": "pohadky-tisice-a-jedne-noci",
         "title": "Pohádky tisíce a jedné noci",
@@ -7189,22 +7201,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T10:19:23.585679+00:00"
-      },
-      "upload": {
-        "target_video_id": "28952173",
-        "display_name": "Pohádky tisíce a jedné noci (1974) CZ Dabing",
-        "size_bytes": 388639347,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "3488cad64bd06f4d",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-30T10:21:36.172396+00:00",
-        "last_verification_at": "2026-08-30T11:49:03.457580+00:00",
-        "verified_at": "2026-08-30T11:49:03.457582+00:00",
-        "live_display_name": "Pohádky tisíce a jedné noci (1974) CZ Dabing"
       }
     },
     "21859": {
@@ -43751,5 +43747,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:19:19.805883+00:00"
+  "updated_at": "2026-09-01T02:33:11.930877+00:00"
 }

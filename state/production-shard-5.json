@@ -14503,7 +14503,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T01:01:09.037321+00:00",
-        "last_verification_at": "2026-09-01T02:18:05.829265+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137521+00:00"
       }
     },
     "7813": {
@@ -16029,7 +16029,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-27T16:08:39.741572+00:00",
-        "last_verification_at": "2026-08-31T13:42:18.849627+00:00"
+        "last_verification_at": "2026-09-01T02:21:11.137530+00:00"
       }
     },
     "12005": {
@@ -19106,7 +19106,19 @@
       }
     },
     "6309": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "5c84d3ff45070",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28900534",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T02:33:12.108374+00:00"
+        }
+      ],
       "identity": {
         "slug": "sammyho-dobrodruzstvi-3d",
         "title": "Sammyho dobrodružství",
@@ -19124,21 +19136,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T06:46:18.762043+00:00"
-      },
-      "upload": {
-        "target_video_id": "28900534",
-        "display_name": "Sammyho dobrodružství (2010) CZ Dabing",
-        "size_bytes": 617789780,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "5c84d3ff45070",
-        "language_tier": "czech_audio",
-        "actual_resolution": 480,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T06:49:03.898696+00:00",
-        "verified_at": "2026-08-28T08:05:16.150316+00:00",
-        "live_display_name": "Sammyho dobrodružství (2010) CZ Dabing"
       }
     },
     "1821": {
@@ -49168,5 +49165,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T02:19:20.580628+00:00"
+  "updated_at": "2026-09-01T02:33:12.108424+00:00"
 }
