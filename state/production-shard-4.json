@@ -8830,7 +8830,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-09-01T01:40:24.891006+00:00",
-        "last_verification_at": "2026-09-01T03:37:49.926854+00:00"
+        "last_verification_at": "2026-09-01T03:40:43.160210+00:00"
       }
     },
     "10364": {
@@ -11679,6 +11679,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.127069+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "737d9b311ea2b117",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28985586",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T03:53:28.875194+00:00"
         }
       ],
       "identity": {
@@ -11698,22 +11709,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T22:23:59.879859+00:00"
-      },
-      "upload": {
-        "target_video_id": "28985586",
-        "display_name": "Iluzionista (2006) CZ Dabing",
-        "size_bytes": 1057583838,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "737d9b311ea2b117",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T22:28:58.113842+00:00",
-        "last_verification_at": "2026-08-31T23:32:38.591040+00:00",
-        "verified_at": "2026-08-31T23:32:38.591043+00:00",
-        "live_display_name": "Iluzionista (2006) CZ Dabing"
       }
     },
     "11044": {
@@ -64352,7 +64347,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T15:01:37.294700+00:00",
-        "last_verification_at": "2026-08-31T14:03:22.904781+00:00"
+        "last_verification_at": "2026-09-01T03:40:43.160226+00:00"
       }
     },
     "13444": {
@@ -64487,7 +64482,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-28T15:12:10.492817+00:00",
-        "last_verification_at": "2026-08-31T14:05:55.011621+00:00"
+        "last_verification_at": "2026-09-01T03:40:43.160231+00:00"
       }
     },
     "14684": {
@@ -69570,5 +69565,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T03:39:47.601120+00:00"
+  "updated_at": "2026-09-01T03:53:28.875252+00:00"
 }

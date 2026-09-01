@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "target_account": "filmy.prehrajto@post.cz",
-  "generated_at": "2026-09-01T03:37:53.840000+00:00",
-  "film_count": 27977,
+  "generated_at": "2026-09-01T03:53:31.665712+00:00",
+  "film_count": 27976,
   "films": {
     "4": {
       "target_video_id": "25418887",
@@ -3411,12 +3411,6 @@
       "display_name": "Sin Nombre (2009) CZ Dabing",
       "uploaded_at": "2026-05-12T07:52:55Z",
       "source": "prehrajto-to-prehrajto"
-    },
-    "988": {
-      "target_video_id": "28985586",
-      "display_name": "Iluzionista (2006) CZ Dabing",
-      "uploaded_at": "2026-08-31T22:28:58.113842+00:00",
-      "source": "cr-films-to-prehrajto"
     },
     "991": {
       "target_video_id": "24752085",
@@ -167867,7 +167861,7 @@
       "source": "prehrajto-to-prehrajto"
     }
   },
-  "inactive_film_count": 1206,
+  "inactive_film_count": 1207,
   "inactive_films": {
     "49": {
       "target_video_id": "25502524",
@@ -167944,6 +167938,13 @@
       "target_video_id": "28843516",
       "display_name": "Muž jménem Otto (2022) CZ Dabing",
       "uploaded_at": "2026-08-26T03:26:51.710393+00:00",
+      "source": "cr-films-to-prehrajto",
+      "status": "deleted"
+    },
+    "988": {
+      "target_video_id": "28985586",
+      "display_name": "Iluzionista (2006) CZ Dabing",
+      "uploaded_at": "2026-08-31T22:28:58.113842+00:00",
       "source": "cr-films-to-prehrajto",
       "status": "deleted"
     },
@@ -177142,8 +177143,9 @@
   },
   "live_inventory": {
     "active_video_count": 26707,
-    "deleted_video_count": 1561,
+    "deleted_video_count": 1562,
     "reconciled_at": "2026-08-24T14:08:51.085046+00:00",
-    "deleted_reconciled_at": "2026-09-01T03:29:22.767442+00:00"
-  }
+    "deleted_reconciled_at": "2026-09-01T03:53:31.665712+00:00"
+  },
+  "newly_deleted_film_count": 1
 }
