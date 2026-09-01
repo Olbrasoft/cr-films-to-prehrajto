@@ -15731,6 +15731,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395479+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "2574f0235ff3e00a",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28980065",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:50.621696+00:00"
         }
       ],
       "identity": {
@@ -15750,22 +15761,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T16:24:15.552655+00:00"
-      },
-      "upload": {
-        "target_video_id": "28980065",
-        "display_name": "Nejlepší z nejlepších: GOAT (2026) CZ Dabing",
-        "size_bytes": 1421904385,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "2574f0235ff3e00a",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T16:32:58.920606+00:00",
-        "last_verification_at": "2026-08-31T18:15:59.142991+00:00",
-        "verified_at": "2026-08-31T18:15:59.142993+00:00",
-        "live_display_name": "Nejlepší z nejlepších: GOAT (2026) CZ Dabing"
       }
     },
     "14079": {
@@ -15800,7 +15795,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-26T04:37:06.206090+00:00",
-        "last_verification_at": "2026-08-31T13:34:34.194808+00:00"
+        "last_verification_at": "2026-09-01T00:31:29.666191+00:00"
       }
     },
     "16079": {
@@ -16183,6 +16178,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:43.395487+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "b0c9fdce8a6468f1",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28981090",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:50.621718+00:00"
         }
       ],
       "identity": {
@@ -16202,22 +16208,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T17:13:31.199556+00:00"
-      },
-      "upload": {
-        "target_video_id": "28981090",
-        "display_name": "Někdo to rád plešaté (2025) CZ Dabing",
-        "size_bytes": 1832909202,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "b0c9fdce8a6468f1",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T17:28:50.494345+00:00",
-        "last_verification_at": "2026-08-31T18:15:59.143003+00:00",
-        "verified_at": "2026-08-31T18:15:59.143005+00:00",
-        "live_display_name": "Někdo to rád plešaté (2025) CZ Dabing"
       }
     },
     "2415": {
@@ -29040,7 +29030,19 @@
       }
     },
     "1079": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "1f129a2338a006b8",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28853560",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:50.621728+00:00"
+        }
+      ],
       "identity": {
         "slug": "konklave",
         "title": "Konkláve",
@@ -29058,21 +29060,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T08:14:45.641448+00:00"
-      },
-      "upload": {
-        "target_video_id": "28853560",
-        "display_name": "Konkláve (2024) CZ Dabing",
-        "size_bytes": 1477769813,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "1f129a2338a006b8",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T08:17:26.319041+00:00",
-        "verified_at": "2026-08-26T09:38:44.788349+00:00",
-        "live_display_name": "Konkláve (2024) CZ Dabing"
       }
     },
     "15847": {
@@ -32356,7 +32343,19 @@
       }
     },
     "10567": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "prehrajto",
+          "source_id": "64bf15846b435",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28875962",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:50.621742+00:00"
+        }
+      ],
       "identity": {
         "slug": "kdyz-promluvila",
         "title": "Když promluvila",
@@ -32374,21 +32373,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-26T21:12:51.803997+00:00"
-      },
-      "upload": {
-        "target_video_id": "28875962",
-        "display_name": "Když promluvila (2022) CZ Dabing",
-        "size_bytes": 1234670079,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "64bf15846b435",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-26T21:19:29.602287+00:00",
-        "verified_at": "2026-08-26T23:15:26.711956+00:00",
-        "live_display_name": "Když promluvila (2022) CZ Dabing"
       }
     },
     "3271": {
@@ -65634,7 +65618,19 @@
       }
     },
     "7543": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "28124",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28956836",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:50.621785+00:00"
+        }
+      ],
       "identity": {
         "slug": "tichy-les",
         "title": "Tichý les",
@@ -65652,22 +65648,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T14:43:28.990414+00:00"
-      },
-      "upload": {
-        "target_video_id": "28956836",
-        "display_name": "Tichý les (2022) CZ Dabing",
-        "size_bytes": 311669434,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "28124",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-30T14:45:58.121978+00:00",
-        "last_verification_at": "2026-08-30T15:32:41.332865+00:00",
-        "verified_at": "2026-08-30T15:32:41.332877+00:00",
-        "live_display_name": "Tichý les (2022) CZ Dabing"
       }
     },
     "719": {
@@ -71108,5 +71088,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T00:28:59.978911+00:00"
+  "updated_at": "2026-09-01T00:43:50.621798+00:00"
 }

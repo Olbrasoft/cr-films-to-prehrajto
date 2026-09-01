@@ -57200,9 +57200,9 @@
         "subtitle_handling": "external Czech track will be uploaded and verified",
         "processing_status": "active",
         "uploaded_at": "2026-08-26T02:33:20.021184+00:00",
-        "verified_at": "2026-08-31T13:34:23.178094+00:00",
+        "verified_at": "2026-09-01T00:31:19.593890+00:00",
         "live_display_name": "Půjč mi svou ruku (2006) CZ titulky",
-        "last_verification_at": "2026-08-31T13:34:23.178074+00:00"
+        "last_verification_at": "2026-09-01T00:31:19.593870+00:00"
       }
     },
     "25692": {
@@ -66064,6 +66064,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.447551+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "c81d808255760370",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28980675",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:49.387345+00:00"
         }
       ],
       "identity": {
@@ -66083,22 +66094,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T16:59:45.926870+00:00"
-      },
-      "upload": {
-        "target_video_id": "28980675",
-        "display_name": "Temný příliv (2012) CZ Dabing",
-        "size_bytes": 1116148850,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "c81d808255760370",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T17:06:13.100563+00:00",
-        "last_verification_at": "2026-08-31T18:15:59.142841+00:00",
-        "verified_at": "2026-08-31T18:15:59.142845+00:00",
-        "live_display_name": "Temný příliv (2012) CZ Dabing"
       }
     },
     "11928": {
@@ -69867,7 +69862,19 @@
       }
     },
     "15472": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "33465",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28952550",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:49.387388+00:00"
+        }
+      ],
       "identity": {
         "slug": "svetlo-vanoc-2022",
         "title": "Světlo Vánoc",
@@ -69885,22 +69892,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-30T10:44:38.934832+00:00"
-      },
-      "upload": {
-        "target_video_id": "28952550",
-        "display_name": "Světlo Vánoc (2022) CZ Dabing",
-        "size_bytes": 392901610,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "33465",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-30T10:46:57.544832+00:00",
-        "last_verification_at": "2026-08-30T11:49:03.167227+00:00",
-        "verified_at": "2026-08-30T11:49:03.167229+00:00",
-        "live_display_name": "Světlo Vánoc (2022) CZ Dabing"
       }
     },
     "14008": {
@@ -101187,7 +101178,7 @@
         "subtitle_handling": "not required",
         "processing_status": "pending",
         "uploaded_at": "2026-08-30T12:16:44.577314+00:00",
-        "last_verification_at": "2026-08-31T13:30:37.484281+00:00"
+        "last_verification_at": "2026-09-01T00:30:50.077756+00:00"
       }
     },
     "9536": {
@@ -101386,7 +101377,19 @@
       }
     },
     "3776": {
-      "attempts": [],
+      "attempts": [
+        {
+          "provider": "sktorrent",
+          "source_id": "12405",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28917711",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T00:43:49.387422+00:00"
+        }
+      ],
       "identity": {
         "slug": "hnuti-odporu",
         "title": "Hnutí odporu",
@@ -101404,21 +101407,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-28T23:18:26.007557+00:00"
-      },
-      "upload": {
-        "target_video_id": "28917711",
-        "display_name": "Hnutí odporu (2020) CZ Dabing",
-        "size_bytes": 571848334,
-        "subtitle_verification": "not_required",
-        "provider": "sktorrent",
-        "source_id": "12405",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-28T23:22:38.703786+00:00",
-        "verified_at": "2026-08-29T03:05:52.357352+00:00",
-        "live_display_name": "Hnutí odporu (2020) CZ Dabing"
       }
     },
     "104": {
@@ -102800,5 +102788,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T00:29:02.702601+00:00"
+  "updated_at": "2026-09-01T00:43:49.387429+00:00"
 }
