@@ -8206,7 +8206,7 @@
           "candidate_year": 2024,
           "year_match": true
         },
-        "at": "2026-09-01T03:54:49.545041+00:00"
+        "at": "2026-09-01T04:09:39.743331+00:00"
       }
     },
     "9147": {
@@ -10133,7 +10133,7 @@
           "candidate_year": 2021,
           "year_match": true
         },
-        "at": "2026-09-01T03:54:49.545829+00:00"
+        "at": "2026-09-01T04:09:39.744338+00:00"
       }
     },
     "15619": {
@@ -10783,6 +10783,96 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T04:08:51.217172+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "da2d43023a173a6b",
+              "url": "https://prehraj.to/madame-web-web-dl-cz-5-1-en-5-1-2024/da2d43023a173a6b",
+              "title": "Madame.Web.WEB-DL.CZ.5.1.EN.5.1.2024",
+              "year": null,
+              "duration_sec": 7069,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.645,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7069,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Madam Web (2024)"
+            },
+            {
+              "provider": "prehrajto",
+              "source_id": "1715d9b7dfef5fc5",
+              "url": "https://prehraj.to/madame-web-web-dl-cz-5-1-en-5-1-2024-1080p/1715d9b7dfef5fc5",
+              "title": "Madame.Web.WEB-DL.CZ.5.1.EN.5.1.2024.1080p",
+              "year": null,
+              "duration_sec": 7069,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "title_similarity": 0.645,
+                "title_contains_alias": true,
+                "title_exact_or_combined_alias": false,
+                "film_year": 2024,
+                "candidate_year": 2024,
+                "year_match": true,
+                "film_runtime_min": null,
+                "candidate_runtime_sec": 7069,
+                "runtime_delta": null,
+                "rejection_reason": "title_mismatch"
+              },
+              "query": "Madam Web (2024)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "35904",
+              "url": "https://online.sktorrent.eu/video/35904/",
+              "title": "Madam Web",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [
+                {
+                  "lang": "cs",
+                  "label": null,
+                  "format": null,
+                  "burned_in": false
+                }
+              ],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T04:09:44.753163+00:00"
         }
       ],
       "identity": {
@@ -10801,7 +10891,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-31T16:59:27.461872+00:00"
+        "at": "2026-09-01T04:09:39.745728+00:00"
       }
     },
     "15899": {
@@ -45199,5 +45289,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T04:08:51.217276+00:00"
+  "updated_at": "2026-09-01T04:09:44.753180+00:00"
 }
