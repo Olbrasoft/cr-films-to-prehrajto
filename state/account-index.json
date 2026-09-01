@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "target_account": "filmy.prehrajto@post.cz",
-  "generated_at": "2026-09-01T04:33:52.890992+00:00",
-  "film_count": 27973,
+  "generated_at": "2026-09-01T04:49:42.279214+00:00",
+  "film_count": 27971,
   "films": {
     "4": {
       "target_video_id": "25418887",
@@ -4371,12 +4371,6 @@
       "display_name": "Zločinec (2008) CZ Dabing",
       "uploaded_at": "2026-05-12T13:25:43Z",
       "source": "prehrajto-to-prehrajto"
-    },
-    "1266": {
-      "target_video_id": "28989662",
-      "display_name": "28 let poté: Chrám z kostí (2026) CZ Dabing",
-      "uploaded_at": "2026-09-01T02:43:15.570033+00:00",
-      "source": "cr-films-to-prehrajto"
     },
     "1267": {
       "target_video_id": "24764359",
@@ -10005,12 +9999,6 @@
       "display_name": "The Last Rifleman (2023) CZ Titulky",
       "uploaded_at": "2026-05-28T12:14:28Z",
       "source": "prehrajto-to-prehrajto"
-    },
-    "2842": {
-      "target_video_id": "28982138",
-      "display_name": "Equalizer 3: Poslední kapitola (2023) CZ Dabing",
-      "uploaded_at": "2026-08-31T18:31:23.048663+00:00",
-      "source": "cr-films-to-prehrajto"
     },
     "2845": {
       "target_video_id": "24793664",
@@ -21110,6 +21098,12 @@
       "target_video_id": "28911322",
       "display_name": "Critters (1986) CZ Dabing",
       "uploaded_at": "2026-08-28T17:47:47.430652+00:00",
+      "source": "cr-films-to-prehrajto"
+    },
+    "5749": {
+      "target_video_id": "28991341",
+      "display_name": "Mission: Impossible 2 (2000) CZ Dabing",
+      "uploaded_at": "2026-09-01T04:32:56.334865+00:00",
       "source": "cr-films-to-prehrajto"
     },
     "5750": {
@@ -35109,12 +35103,6 @@
       "display_name": "Upír v rodině (2023) CZ Dabing",
       "uploaded_at": "2026-05-17T01:12:45Z",
       "source": "prehrajto-to-prehrajto"
-    },
-    "9483": {
-      "target_video_id": "28907414",
-      "display_name": "ONEMANSHOW: The Movie (2023) CZ Dabing",
-      "uploaded_at": "2026-08-28T15:31:27.370587+00:00",
-      "source": "cr-films-to-prehrajto"
     },
     "9484": {
       "target_video_id": "24896169",
@@ -167843,7 +167831,7 @@
       "source": "prehrajto-to-prehrajto"
     }
   },
-  "inactive_film_count": 1210,
+  "inactive_film_count": 1212,
   "inactive_films": {
     "49": {
       "target_video_id": "25502524",
@@ -167948,6 +167936,13 @@
       "target_video_id": "28843281",
       "display_name": "Avatar: Oheň a popel (2025) CZ Dabing",
       "uploaded_at": "2026-08-26T03:25:34.518487+00:00",
+      "source": "cr-films-to-prehrajto",
+      "status": "deleted"
+    },
+    "1266": {
+      "target_video_id": "28989662",
+      "display_name": "28 let poté: Chrám z kostí (2026) CZ Dabing",
+      "uploaded_at": "2026-09-01T02:43:15.570033+00:00",
       "source": "cr-films-to-prehrajto",
       "status": "deleted"
     },
@@ -168176,6 +168171,13 @@
       "source": "prehrajto-to-prehrajto",
       "live_display_name": "Únos 1971 (2024) CZ Titulky",
       "status": "identity_mismatch"
+    },
+    "2842": {
+      "target_video_id": "28982138",
+      "display_name": "Equalizer 3: Poslední kapitola (2023) CZ Dabing",
+      "uploaded_at": "2026-08-31T18:31:23.048663+00:00",
+      "source": "cr-films-to-prehrajto",
+      "status": "deleted"
     },
     "2846": {
       "target_video_id": "24794136",
@@ -168578,13 +168580,6 @@
       "target_video_id": "28898050",
       "display_name": "Cesta do lesa (2012) CZ Dabing",
       "uploaded_at": "2026-08-28T03:22:18.883049+00:00",
-      "source": "cr-films-to-prehrajto",
-      "status": "deleted"
-    },
-    "5749": {
-      "target_video_id": "28898610",
-      "display_name": "Mission: Impossible 2 (2000) CZ Dabing",
-      "uploaded_at": "2026-08-28T04:17:46.337734+00:00",
       "source": "cr-films-to-prehrajto",
       "status": "deleted"
     },
@@ -169045,6 +169040,13 @@
       "target_video_id": "28951771",
       "display_name": "Krycí oddíl (2025) CZ Dabing",
       "uploaded_at": "2026-08-30T10:04:48.665413+00:00",
+      "source": "cr-films-to-prehrajto",
+      "status": "deleted"
+    },
+    "9483": {
+      "target_video_id": "28907414",
+      "display_name": "ONEMANSHOW: The Movie (2023) CZ Dabing",
+      "uploaded_at": "2026-08-28T15:31:27.370587+00:00",
       "source": "cr-films-to-prehrajto",
       "status": "deleted"
     },
@@ -177146,8 +177148,9 @@
   },
   "live_inventory": {
     "active_video_count": 26707,
-    "deleted_video_count": 1568,
+    "deleted_video_count": 1570,
     "reconciled_at": "2026-08-24T14:08:51.085046+00:00",
-    "deleted_reconciled_at": "2026-09-01T04:08:54.217492+00:00"
-  }
+    "deleted_reconciled_at": "2026-09-01T04:49:42.279214+00:00"
+  },
+  "newly_deleted_film_count": 3
 }

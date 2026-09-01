@@ -4452,6 +4452,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T02:33:11.473457+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "30400acac7b127ee",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28989662",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T04:49:39.037908+00:00"
         }
       ],
       "identity": {
@@ -4471,22 +4482,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-09-01T02:33:58.795777+00:00"
-      },
-      "upload": {
-        "target_video_id": "28989662",
-        "display_name": "28 let poté: Chrám z kostí (2026) CZ Dabing",
-        "size_bytes": 1968669495,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "30400acac7b127ee",
-        "language_tier": "czech_audio",
-        "actual_resolution": 720,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-09-01T02:43:15.570033+00:00",
-        "last_verification_at": "2026-09-01T02:49:48.997187+00:00",
-        "verified_at": "2026-09-01T02:49:48.997191+00:00",
-        "live_display_name": "28 let poté: Chrám z kostí (2026) CZ Dabing"
       }
     },
     "5298": {
@@ -7453,6 +7448,17 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-08-31T14:51:42.734771+00:00"
+        },
+        {
+          "provider": "prehrajto",
+          "source_id": "8934468da6f6b23b",
+          "status": "failed_after_upload",
+          "reason": "Target video is present in the deleted account inventory",
+          "permanent": true,
+          "deleted_target_video_id": "28982138",
+          "discovery_exhausted": false,
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T04:49:39.037958+00:00"
         }
       ],
       "identity": {
@@ -7472,22 +7478,6 @@
           "method": "no_confident_account_match"
         },
         "at": "2026-08-31T18:19:48.286714+00:00"
-      },
-      "upload": {
-        "target_video_id": "28982138",
-        "display_name": "Equalizer 3: Poslední kapitola (2023) CZ Dabing",
-        "size_bytes": 2211813736,
-        "subtitle_verification": "not_required",
-        "provider": "prehrajto",
-        "source_id": "8934468da6f6b23b",
-        "language_tier": "czech_audio",
-        "actual_resolution": 1080,
-        "subtitle_handling": "not required",
-        "processing_status": "active",
-        "uploaded_at": "2026-08-31T18:31:23.048663+00:00",
-        "last_verification_at": "2026-08-31T20:53:12.539952+00:00",
-        "verified_at": "2026-08-31T20:53:12.539955+00:00",
-        "live_display_name": "Equalizer 3: Poslední kapitola (2023) CZ Dabing"
       }
     },
     "4946": {
@@ -352234,5 +352224,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T04:35:04.155979+00:00"
+  "updated_at": "2026-09-01T04:49:39.038025+00:00"
 }
