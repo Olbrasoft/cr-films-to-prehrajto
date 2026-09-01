@@ -604,7 +604,7 @@
           "candidate_year": 2010,
           "year_match": true
         },
-        "at": "2026-09-01T01:04:41.092407+00:00"
+        "at": "2026-09-01T01:13:37.711926+00:00"
       }
     },
     "23807": {
@@ -32488,7 +32488,7 @@
           "candidate_year": 2018,
           "year_match": true
         },
-        "at": "2026-09-01T01:04:41.092760+00:00"
+        "at": "2026-09-01T01:13:37.712302+00:00"
       }
     },
     "14191": {
@@ -65668,6 +65668,55 @@
           "discovery_exhausted": false,
           "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
           "at": "2026-09-01T00:43:50.621785+00:00"
+        },
+        {
+          "status": "no_acceptable_source",
+          "permanent": false,
+          "discovery_exhausted": true,
+          "discovery_version": "catalog-prehrajto-v5-auth-prefetch",
+          "reason": "No currently acceptable source was discovered",
+          "candidate_evidence": [
+            {
+              "provider": "prehrajto",
+              "source_id": "4deadab1c45df934",
+              "url": "https://prehraj.to/csi-las-vegas-01-20-slyset-ticho-2001/4deadab1c45df934",
+              "title": "CSI Las Vegas 01 (20) - Slyset ticho (2001)",
+              "year": null,
+              "duration_sec": 2612,
+              "language_tier": "unacceptable",
+              "audio_language": null,
+              "language_evidence": null,
+              "resolution": 0,
+              "subtitles": [],
+              "match_tier": "reject",
+              "match_evidence": {
+                "film_year": 2022,
+                "candidate_year": 2001,
+                "rejection_reason": "wrong_year"
+              },
+              "query": "Tichý les (2022)"
+            },
+            {
+              "provider": "sktorrent",
+              "source_id": "28124",
+              "url": "https://online.sktorrent.eu/video/28124/",
+              "title": "Tichý les",
+              "year": null,
+              "duration_sec": null,
+              "language_tier": "czech_audio",
+              "audio_language": "cs",
+              "language_evidence": "title_regex",
+              "resolution": 720,
+              "subtitles": [],
+              "match_tier": "strong",
+              "match_evidence": {
+                "method": "catalog_stable_film_id"
+              },
+              "query": null
+            }
+          ],
+          "snapshot_id": "25c3c4b16e9bddd207bb1a815483a1ee296f18aac3ca4b6d4ef9d96ffaad8550",
+          "at": "2026-09-01T01:13:41.908872+00:00"
         }
       ],
       "identity": {
@@ -65686,7 +65735,7 @@
         "evidence": {
           "method": "no_confident_account_match"
         },
-        "at": "2026-08-30T14:43:28.990414+00:00"
+        "at": "2026-09-01T01:13:37.713813+00:00"
       }
     },
     "719": {
@@ -71127,5 +71176,5 @@
       }
     }
   },
-  "updated_at": "2026-09-01T01:13:29.526425+00:00"
+  "updated_at": "2026-09-01T01:13:41.908889+00:00"
 }
